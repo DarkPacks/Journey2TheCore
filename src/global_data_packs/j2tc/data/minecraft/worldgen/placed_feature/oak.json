@@ -1,0 +1,17 @@
+{
+  "feature": "minecraft:oak",
+  "placement": [
+    {
+      "predicate": {
+        "state": {
+          "Properties": {
+            "stage": "0"
+          },
+          "Name": "minecraft:oak_sapling"
+        },
+        "type": "minecraft:always_true"
+      },
+      "type": "minecraft:block_predicate_filter"
+    }
+  ]
+}

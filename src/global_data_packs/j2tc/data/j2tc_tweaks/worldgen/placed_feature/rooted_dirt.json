@@ -1,0 +1,27 @@
+{
+  "feature": "j2tc_tweaks:ore_rooted_dirt",
+  "placement": [
+    {
+      "count": 256,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 370
+        },
+        "max_inclusive": {
+          "absolute": 400
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
