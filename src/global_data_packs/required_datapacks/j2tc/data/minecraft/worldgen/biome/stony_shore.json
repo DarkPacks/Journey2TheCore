@@ -34,9 +34,9 @@
     [],
     [],
     [
-          "j2tc_tweaks:bedrock_upper",
       "minecraft:ore_dirt",
-
+      "j2tc_tweaks:ore_clay",
+      "j2tc_tweaks:ore_ochrum_upper",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
@@ -66,7 +66,10 @@
       "minecraft:disk_gravel",
       "j2tc_tweaks:ore_dirt_upper",
       "j2tc_tweaks:rooted_dirt",
-      "j2tc_tweaks:ore_coarse_dirt_upper"
+      "j2tc_tweaks:ore_coarse_dirt_upper",
+      "j2tc_tweaks:netherrack_lower",
+      "j2tc_tweaks:blackstone_lower",
+      "j2tc_tweaks:basalt_lower"
     ],
     [],
     [
@@ -74,6 +77,8 @@
       "minecraft:spring_lava"
     ],
     [
+      "j2tc_tweaks:bedrock_up_top",
+      "j2tc_tweaks:bedrock_down_below",
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",

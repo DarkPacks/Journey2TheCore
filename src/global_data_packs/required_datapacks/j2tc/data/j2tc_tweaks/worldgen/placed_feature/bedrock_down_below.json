@@ -1,0 +1,21 @@
+{
+  "feature": "j2tc_tweaks:bedrock_air_replace",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 8
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": -62
+        }
+      }
+    }
+  ]
+}
