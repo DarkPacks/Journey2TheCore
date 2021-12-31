@@ -1,0 +1,22 @@
+{
+  "feature": "j2tc_tweaks:ore_rooted_dirt",
+  "placement": [
+    {
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 8
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 397
+        },
+        "max_inclusive": {
+          "absolute": 398
+        }
+      }
+    }
+  ]
+}

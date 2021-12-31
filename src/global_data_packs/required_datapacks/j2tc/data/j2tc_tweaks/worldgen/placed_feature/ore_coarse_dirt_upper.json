@@ -2,7 +2,7 @@
   "feature": "j2tc_tweaks:ore_coarse_dirt",
   "placement": [
     {
-      "count": 256,
+      "count": 232,
       "type": "minecraft:count"
     },
     {

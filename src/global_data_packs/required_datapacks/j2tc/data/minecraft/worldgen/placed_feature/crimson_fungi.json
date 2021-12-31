@@ -2,8 +2,9 @@
   "feature": "minecraft:crimson_fungus",
   "placement": [
     {
-      "count": 8,
-      "type": "minecraft:count_on_every_layer"
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 8
     },
     {
       "type": "minecraft:biome"

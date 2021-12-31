@@ -5,8 +5,9 @@
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:count_on_every_layer",
-      "count": 64
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 84
     },
     {
       "type": "minecraft:height_range",

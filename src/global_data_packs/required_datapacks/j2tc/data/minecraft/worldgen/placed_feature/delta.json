@@ -2,8 +2,9 @@
   "feature": "minecraft:delta",
   "placement": [
     {
-      "count": 40,
-      "type": "minecraft:count_on_every_layer"
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 40
     },
     {
       "type": "minecraft:biome"

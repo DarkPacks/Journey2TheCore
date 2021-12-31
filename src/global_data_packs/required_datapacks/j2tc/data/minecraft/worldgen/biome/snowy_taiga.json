@@ -34,6 +34,7 @@
     [],
     [],
     [
+      "j2tc_tweaks:rooted_dirt_top_row",
       "minecraft:ore_dirt",
       "j2tc_tweaks:ore_clay",
       "j2tc_tweaks:ore_ochrum_upper",
@@ -69,7 +70,8 @@
       "j2tc_tweaks:ore_coarse_dirt_upper",
       "j2tc_tweaks:netherrack_lower",
       "j2tc_tweaks:blackstone_lower",
-      "j2tc_tweaks:basalt_lower"
+      "j2tc_tweaks:basalt_lower",
+      "j2tc_tweaks:ore_oak_stripped_log_upper"
     ],
     [],
     [
@@ -77,8 +79,6 @@
       "minecraft:spring_lava"
     ],
     [
-      "j2tc_tweaks:bedrock_up_top",
-      "j2tc_tweaks:bedrock_down_below",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:trees_taiga",

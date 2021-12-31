@@ -56,7 +56,7 @@
             "type": "minecraft:vertical_gradient",
             "random_name": "minecraft:bedrock_roof",
             "true_at_and_below": {
-              "below_top": 5
+              "below_top": 2
             },
             "false_at_and_above": {
               "below_top": 0
@@ -79,7 +79,7 @@
             "above_bottom": 0
           },
           "false_at_and_above": {
-            "above_bottom": 5
+            "above_bottom": 2
           }
         },
         "then_run": {
@@ -1917,14 +1917,9 @@
   },
   "structures": {
     "structures": {
-      "minecraft:buried_treasure": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
-      },
       "minecraft:ruined_portal": {
-        "spacing": 40,
-        "separation": 15,
+        "spacing": 15,
+        "separation": 8,
         "salt": 34222645
       },
       "minecraft:mineshaft": {

@@ -35,6 +35,7 @@
     [],
     [],
     [
+      "j2tc_tweaks:rooted_dirt_top_row",
       "minecraft:ore_dirt",
       "j2tc_tweaks:ore_clay",
       "j2tc_tweaks:ore_ochrum_upper",
@@ -70,7 +71,8 @@
       "j2tc_tweaks:ore_coarse_dirt_upper",
       "j2tc_tweaks:netherrack_lower",
       "j2tc_tweaks:blackstone_lower",
-      "j2tc_tweaks:basalt_lower"
+      "j2tc_tweaks:basalt_lower",
+      "j2tc_tweaks:ore_oak_stripped_log_upper"
     ],
     [],
     [
@@ -78,8 +80,6 @@
       "minecraft:spring_lava"
     ],
     [
-      "j2tc_tweaks:bedrock_up_top",
-      "j2tc_tweaks:bedrock_down_below",
       "minecraft:glow_lichen",
       "minecraft:dark_forest_vegetation",
       "minecraft:forest_flowers",
@@ -89,7 +89,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "j2tc_tweaks:dead_bush_place"
+      "j2tc_tweaks:dead_bush_place",
+      "j2tc_tweaks:grass_place"
     ],
     [
       "minecraft:freeze_top_layer"

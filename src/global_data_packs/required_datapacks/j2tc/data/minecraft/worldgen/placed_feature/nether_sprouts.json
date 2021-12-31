@@ -2,8 +2,9 @@
   "feature": "minecraft:nether_sprouts",
   "placement": [
     {
-      "count": 4,
-      "type": "minecraft:count_on_every_layer"
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 4
     },
     {
       "type": "minecraft:biome"
