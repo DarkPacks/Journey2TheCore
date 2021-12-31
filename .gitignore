@@ -12,6 +12,7 @@ src/config/worldstripper-common.toml
 # Client configs
 # These are ones we feel the user should be customizing, not us.
 src/config/jei/bookmarks.ini
+src/config/jei/world/*
 
 # Journeymap
 # Configs/etc in journeymap that are not necessary to be version controlled
