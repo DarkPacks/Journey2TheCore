@@ -1,0 +1,21 @@
+{
+  "modid": "hostilenetworks",
+  "properties": [
+    {
+      "name": "hostilenetworks:sim_chamber",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "hostilenetworks:loot_fabricator",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    }
+  ]
+}

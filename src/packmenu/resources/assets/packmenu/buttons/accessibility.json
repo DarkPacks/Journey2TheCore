@@ -1,0 +1,18 @@
+{
+  "x": -205,
+  "y": -17,
+  "width": 20,
+  "height": 20,
+  "u": 0,
+  "v": 0,
+  "anchor": "MIDDLE_RIGHT",
+  "hoverU": 0,
+  "hoverV": 64,
+  "texWidth": 65,
+  "texHeight": 128,
+  "scaleX": 0.30769,
+  "scaleY": 0.3125,
+  "texture": "textures/gui/accessibility.png",
+  "action": "OPEN_GUI",
+  "data": "ACCESSIBILITY"
+}

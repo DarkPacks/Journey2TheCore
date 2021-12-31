@@ -1,0 +1,24 @@
+
+#General settings
+[General]
+	#Override vanilla creeper spawns with the Camo Creepers [default: true]
+	overrideCreeperSpawns = true
+	#The spawn weight of the Camo Creeper [default: 100]
+	#Range: > 1
+	camoCreeperWeight = 100
+	#The min group size of the Camo Creeper [default: 4]
+	#Range: > 1
+	camoCreeperMin = 4
+	#The max group size of the Camo Creeper [default: 4]
+	#Range: > 1
+	camoCreeperMax = 4
+
+#Camo settings
+[Camo]
+	#Allow Camo Creepers to camouflage in the Nether [default: true]
+	netherCamo = true
+	#Allow Camo Creepers to camouflage in the End [default: true]
+	endCamo = true
+	#Allow Camo Creepers to camouflage in caves [default: true]
+	caveCamo = true
+

@@ -1,0 +1,13 @@
+{
+  "modid": "dynamiclights",
+  "properties": [
+    {
+      "name": "dynamiclights:lit_water",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    }
+  ]
+}

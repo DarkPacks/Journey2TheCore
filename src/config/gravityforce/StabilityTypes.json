@@ -1,0 +1,58 @@
+{
+  "stabilityTypes": [
+    {
+      "name": "sand-like",
+      "enablePhysics": true,
+      "supportDist": 0,
+      "minFall": -1,
+      "maxFall": -1,
+      "canHang": false,
+      "holdOther": false
+    },
+    {
+      "name": "loose",
+      "enablePhysics": true,
+      "supportDist": 1,
+      "minFall": 10,
+      "maxFall": 15,
+      "canHang": false,
+      "holdOther": false
+    },
+    {
+      "name": "average",
+      "enablePhysics": true,
+      "supportDist": 2,
+      "minFall": 15,
+      "maxFall": 22,
+      "canHang": true,
+      "holdOther": false
+    },
+    {
+      "name": "strong",
+      "enablePhysics": true,
+      "supportDist": 3,
+      "minFall": 22,
+      "maxFall": 25,
+      "canHang": true,
+      "holdOther": false
+    },
+    {
+      "name": "none",
+      "enablePhysics": false,
+      "supportDist": 3,
+      "minFall": 0,
+      "maxFall": 0,
+      "canHang": true,
+      "holdOther": false
+    },
+    {
+      "name": "glowstone",
+      "enablePhysics": false,
+      "supportDist": 3,
+      "minFall": 0,
+      "maxFall": 0,
+      "canHang": true,
+      "holdOther": true
+    }
+  ]
+}

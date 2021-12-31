@@ -1,0 +1,13 @@
+{
+  "modid": "gdr",
+  "properties": [
+    {
+      "name": "gdr:glowing_dirtstone",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+#Glow Sticks (General configuration)
+["Glow Stick"]
+	#Enable/Disable despawning of the glow sticks.
+	glowStickDespawning = true
+	#Defines the despawning ticks for the glow sticks. Two means decrease the glow stick age (max. 15) every seconds random ticks.
+	#Range: 1 ~ 100
+	glowStickDespawningTicks = 2
+

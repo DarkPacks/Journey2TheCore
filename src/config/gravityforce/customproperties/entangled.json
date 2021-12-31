@@ -1,0 +1,13 @@
+{
+  "modid": "entangled",
+  "properties": [
+    {
+      "name": "entangled:block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    }
+  ]
+}

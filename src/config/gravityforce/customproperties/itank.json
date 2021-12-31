@@ -1,0 +1,133 @@
+{
+  "modid": "itank",
+  "properties": [
+    {
+      "name": "itank:tank",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_white",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_orange",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_magenta",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_light_blue",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_yellow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_lime",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_pink",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_light_gray",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_cyan",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_purple",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_blue",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_brown",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_green",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_red",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "itank:tank_black",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    }
+  ]
+}

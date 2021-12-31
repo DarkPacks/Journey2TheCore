@@ -1,0 +1,517 @@
+{
+  "modid": "material_elements",
+  "properties": [
+    {
+      "name": "material_elements:oak_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:spruce_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:birch_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:jungle_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:acacia_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:dark_oak_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:crimson_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:warped_panel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:oak_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:spruce_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:birch_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:jungle_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:acacia_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:dark_oak_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:crimson_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:warped_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:oak_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:spruce_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:birch_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:jungle_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:acacia_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:dark_oak_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:crimson_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:warped_half_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:copper_rod_elbow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:gold_rod_elbow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_rod_elbow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:iron_rod_elbow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_rod_elbow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:netherite_rod_elbow",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:copper_rod_tee",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:gold_rod_tee",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_rod_tee",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:iron_rod_tee",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_rod_tee",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:netherite_rod_tee",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:copper_rod_star",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:gold_rod_star",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_rod_star",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:iron_rod_star",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_rod_star",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:netherite_rod_star",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:copper_rod_cross",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:gold_rod_cross",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_rod_cross",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:iron_rod_cross",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_rod_cross",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:netherite_rod_cross",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:copper_rod_half_size",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:gold_rod_half_size",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_rod_half_size",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:iron_rod_half_size",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_rod_half_size",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:netherite_rod_half_size",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:copper_rod",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:gold_rod",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_rod",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:iron_rod",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_rod",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:netherite_rod",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:steel_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "material_elements:silver_ore",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "material_elements:steel_ore",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    }
+  ]
+}

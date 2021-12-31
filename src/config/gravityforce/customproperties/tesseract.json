@@ -1,0 +1,13 @@
+{
+  "modid": "tesseract",
+  "properties": [
+    {
+      "name": "tesseract:tesseract",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    }
+  ]
+}

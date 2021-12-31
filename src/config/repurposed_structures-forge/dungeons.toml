@@ -1,0 +1,64 @@
+#
+# Whether End Dungeons spawns Shulker Boxes. if false, spawns regular Chests instead.
+#(Configuredfeatures are unable to be overridden by datapack due to bad Forge hook placement. Hence this config option)
+shulkerBoxInEndDungeons = true
+
+#-----------------------------------------------------------------------------------------
+# How many positions Repurposed Structures Dungeons will pick per chunk to check if it can spawn at those positions.
+# Does NOT replace vanilla Dungeons at all.
+# 0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
+[AttemptsPerChunk]
+	#Range: 0 ~ 1000
+	badlandsDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	darkForestDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	desertDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	jungleDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	mushroomDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	snowDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	swampDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	endDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	netherDungeonAttemptsPerChunk = 12
+	#Range: 0 ~ 1000
+	oceanDungeonAttemptsPerChunk = 0
+
+#-----------------------------------------------------------------------------------------
+# Minimum Y height that this dungeon can spawn at.
+# Note: The dungeon will spawn between min and max y height set in config.
+["Min Height"]
+	badlandsDungeonMinHeight = 35
+	darkForestDungeonMinHeight = 35
+	desertDungeonMinHeight = 35
+	jungleDungeonMinHeight = 35
+	mushroomDungeonMinHeight = 35
+	snowDungeonMinHeight = 35
+	icyDungeonMinHeight = 35
+	swampDungeonMinHeight = 35
+	endDungeonMinHeight = 2
+	netherDungeonMinHeight = 2
+	oceanDungeonMinHeight = 20
+
+#-----------------------------------------------------------------------------------------
+# Maximum Y height that this dungeon can spawn at.
+# Note: The dungeon will spawn between min and max y height set in config.
+# Setting this to below min height config will make dungeon spawn only at min height.
+["Max Height"]
+	badlandsDungeonMaxHeight = 400
+	darkForestDungeonMaxHeight = 400
+	desertDungeonMaxHeight = 400
+	jungleDungeonMaxHeight = 400
+	mushroomDungeonMaxHeight = 400
+	snowDungeonMaxHeight = 400
+	icyDungeonMaxHeight = 400
+	swampDungeonMaxHeight = 400
+	endDungeonMaxHeight = 400
+	netherDungeonMaxHeight = 400
+	oceanDungeonMaxHeight = 400
+

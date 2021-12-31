@@ -1,0 +1,1061 @@
+{
+  "modid": "cyclic",
+  "properties": [
+    {
+      "name": "cyclic:compressed_cobblestone",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:flint_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:spikes_iron",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:spikes_fire",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:spikes_curse",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:spikes_diamond",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:hopper_fluid",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:hopper",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:hopper_gold",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:anvil_void",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:fan_slab",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:rotator",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:detector_moon",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:detector_weather",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:terra_glass",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:sprinkler",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:shearing",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:dark_glass_connected",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:glass_connected",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:ender_item_shelf",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:doorbell",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:wireless_energy",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:wireless_item",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:wireless_fluid",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:sound_recorder",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:sound_player",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:generator_fuel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:generator_food",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:generator_fluid",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:generator_item",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:packager",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:terra_preta",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:light_camo",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:laser",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:flower_cyan",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:flower_purple_tulip",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:flower_lime_carnation",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:flower_absalon_tulip",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:membrane",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:lamp",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:soil",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:cloud",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:cloud_membrane",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:ghost",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:ghost_phantom",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:workbench",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:obsidian_pressure_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:gold_bars",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:gold_chain",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:gold_lantern",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:gold_soul_lantern",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:copper_bars",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:copper_chain",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:copper_lantern",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:copper_soul_lantern",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:copper_pressure_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:netherite_bars",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:netherite_chain",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:netherite_lantern",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:netherite_pressure_plate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:sponge_lava",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:crusher",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:peace_candle",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:water_candle",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:teleport",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:apple_sprout_emerald",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:apple_sprout_diamond",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:apple_sprout",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:computer_shape",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:scaffold_fragile",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:scaffold_responsive",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:scaffold_replace",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:dark_glass",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:peat_unbaked",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:peat_baked",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:peat_farm",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:solidifier",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:melter",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:battery",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:cask",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:crate",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:eye_redstone",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:eye_teleport",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:placer",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:breaker",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:dropper",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:forester",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:harvester",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:miner",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:placer_fluid",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:user",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:collector",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:collector_fluid",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:structure",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:uncrafter",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:crafter",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:conveyor",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:tank",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:anvil",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:anvil_magma",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:beacon",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:soundproofing_ghost",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:soundproofing",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:clock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:wireless_receiver",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:wireless_transmitter",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:fisher",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:disenchanter",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:experience_pylon",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:fan",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:trash",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:dice",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:screen",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "cyclic:detector_item",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:detector_entity",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:energy_pipe",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:item_pipe",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:fluid_pipe",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "cyclic:plate_launch",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:plate_launch_redstone",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:battery_infinite",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:item_infinite",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:fireplace",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:unbreakable_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:unbreakable_reactive",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:ender_shelf",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:ender_controller",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "cyclic:xpjuice_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:slime_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:biomass_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:honey_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "cyclic:magma_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    }
+  ]
+}

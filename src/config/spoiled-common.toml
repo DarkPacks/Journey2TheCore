@@ -1,0 +1,18 @@
+
+#General settings
+[General]
+	#Determines the spoilrate in specific containers [Syntax: tileentity:spoil_rate]
+	#Examples: "minecraft:shulker_box,0" would make shulker boxes not spoil food
+	#"cookingforblockheads:fridge,0.2" would make a cooking for blockheads fridge spoil at 20% of the usual spoilrate
+	containerModifier = ["minecraft:shulker_box,0"]
+	#Defines the default amount of seconds in between which the spoiling updates, if this is changed you should update the 'defaultSpoilTime' to accommodate for the extra time [default: 10]
+	#Range: > 1
+	spoilRate = 10
+	#When enabled Spoiled initializes spoiling for all vanilla food
+	initializeSpoiling = true
+	#Defines the default amount of spoilTime (in second) that is used to initialize Spoiling when 'initializeSpoiling' is enabled
+	#Range: > 1
+	defaultSpoilTime = 120
+	#Defines the item the foods vanilla foods will turn into when spoiled (if empty it will clear the spoiling item) [default: 'minecraft:rotten_flesh']
+	defaultSpoilItem = "minecraft:rotten_flesh"
+

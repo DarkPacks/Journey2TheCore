@@ -1,0 +1,52 @@
+
+#Generation settings
+[Generation]
+	#Generate Coal GeOre [Default: true]
+	generateCoalGeore = true
+	#Generate Copper GeOre [Default: true]
+	generateCopperGeore = true
+	#Generate Diamond GeOre [Default: true]
+	generateDiamondGeore = true
+	#Generate Emerald GeOre [Default: true]
+	generateEmeraldGeore = true
+	#Generate Gold GeOre [Default: true]
+	generateGoldGeore = true
+	#Generate Iron GeOre [Default: true]
+	generateIronGeore = true
+	#Generate Lapis GeOre [Default: true]
+	generateLapisGeore = true
+	#Generate Quartz GeOre [Default: true]
+	generateQuartzGeore = true
+	#Generate Redstone GeOre [Default: true]
+	generateRedstoneGeore = true
+
+#Rarity settings
+[Rarity]
+	#Coal GeOre Rarity [Default: 60] (The higher the value the rarer)
+	#Range: > 0
+	coalGeoreRarity = 60
+	#Copper GeOre Rarity [Default: 90] (The higher the value the rarer)
+	#Range: > 0
+	copperGeoreRarity = 90
+	#Diamond GeOre Rarity [Default: 270] (The higher the value the rarer)
+	#Range: > 0
+	diamondGeoreRarity = 330
+	#Emerald GeOre Rarity [Default: 300] (The higher the value the rarer)
+	#Range: > 0
+	emeraldGeoreRarity = 420
+	#Gold GeOre Rarity [Default: 180] (The higher the value the rarer)
+	#Range: > 0
+	goldGeoreRarity = 180
+	#Iron GeOre Rarity [Default: 120] (The higher the value the rarer)
+	#Range: > 0
+	ironGeoreRarity = 120
+	#Lapis GeOre Rarity [Default: 210] (The higher the value the rarer)
+	#Range: > 0
+	lapisGeoreRarity = 210
+	#Quartz GeOre Rarity [Default: 150] (The higher the value the rarer)
+	#Range: > 0
+	quartzGeoreRarity = 150
+	#Redstone GeOre Rarity [Default: 240] (The higher the value the rarer)
+	#Range: > 0
+	redstoneGeoreRarity = 240
+

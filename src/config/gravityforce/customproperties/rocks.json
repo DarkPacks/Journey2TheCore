@@ -1,0 +1,189 @@
+{
+  "modid": "rocks",
+  "properties": [
+    {
+      "name": "rocks:rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:granite_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:diorite_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:andesite_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:sand_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:red_sand_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:gravel_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:end_stone_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:netherrack_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:soul_soil_rock",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:oak_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:spruce_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:birch_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:acacia_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:jungle_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:dark_oak_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:crimson_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:warped_stick",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:pinecone",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:seashell",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:starfish",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "rocks:geyser",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "rocks:nether_geyser",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    }
+  ]
+}

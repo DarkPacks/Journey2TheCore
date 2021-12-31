@@ -1,0 +1,77 @@
+{
+  "modid": "alexsmobs",
+  "properties": [
+    {
+      "name": "alexsmobs:banana_peel",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "none"
+    },
+    {
+      "name": "alexsmobs:hummingbird_feeder",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "alexsmobs:crocodile_egg",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "alexsmobs:gustmaker",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "alexsmobs:straddlite_block",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    },
+    {
+      "name": "alexsmobs:leafcutter_anthill",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "alexsmobs:leafcutter_ant_chamber",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    },
+    {
+      "name": "alexsmobs:capsid",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "average"
+    },
+    {
+      "name": "alexsmobs:void_worm_beak",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "loose"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "modid": "uppers",
+  "properties": [
+    {
+      "name": "uppers:upper",
+      "dropLocation": "",
+      "dropNum": -1,
+      "slides": false,
+      "wetSlide": false,
+      "stability": "strong"
+    }
+  ]
+}

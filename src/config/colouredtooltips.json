@@ -1,0 +1,8 @@
+{
+  "default": {
+    "borderStart": "ff999999", 
+    "borderEnd": "ff999999",
+    "background": "f0100010"
+  },
+  "overrides": []
+}
