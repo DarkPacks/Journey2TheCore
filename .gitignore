@@ -24,3 +24,7 @@ src/journeymap/journeymap.log
 src/config/byg/README.txt
 src/config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
 src/config/ichunutil/head/*
+
+# Content Creator
+src/config/contentcreatorintegration/contentcreatorintegration-common.toml
+src/config/contentcreatorintegration/contentcreatorintegration.toml
