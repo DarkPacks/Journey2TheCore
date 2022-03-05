@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:deepslate",
+  "dropBlock": "minecraft:cobbled_deepslate",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

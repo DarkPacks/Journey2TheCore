@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Alchemy, How Does it Work?!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/project_e",
+  "rarity": "uncommon",
+  "bagColor": "#ed9f55",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#f6ff00",
+  "dropsFromGroups": []
+}

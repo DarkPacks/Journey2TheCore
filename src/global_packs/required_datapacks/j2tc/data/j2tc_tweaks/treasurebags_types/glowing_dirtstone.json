@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "It Glows!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/glowing_dirtstone",
+  "rarity": "uncommon",
+  "bagColor": "#363023",
+  "bagOverlayColor": "#bfbb39",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

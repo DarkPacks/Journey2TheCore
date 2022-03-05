@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:hand_crank",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

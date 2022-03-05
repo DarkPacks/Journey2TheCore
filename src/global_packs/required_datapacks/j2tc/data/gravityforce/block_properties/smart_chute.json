@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:smart_chute",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

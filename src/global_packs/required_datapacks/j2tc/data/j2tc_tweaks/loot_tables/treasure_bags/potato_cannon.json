@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "create:potato_cannon"
+        }
+      ]
+    },
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:potato"
+        }
+      ]
+    }
+  ]
+}

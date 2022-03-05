@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Quibi"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/vine",
+  "rarity": "uncommon",
+  "bagColor": "#118f11",
+  "bagOverlayColor": "#27a827",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

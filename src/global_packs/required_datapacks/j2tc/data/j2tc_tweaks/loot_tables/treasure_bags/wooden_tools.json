@@ -1,0 +1,50 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wooden_sword"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wooden_shovel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wooden_axe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wooden_hoe"
+        }
+      ]
+    }
+  ]
+}

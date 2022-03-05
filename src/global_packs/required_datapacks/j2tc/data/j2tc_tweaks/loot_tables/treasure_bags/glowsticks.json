@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 8.0,
+        "max": 32.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_white"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_orange"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_magenta"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_light_blue"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_yellow"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_lime"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_pink"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_gray"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_light_gray"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_cyan"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_purple"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_blue"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_brown"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_green"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_red"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "glow_sticks:glow_stick_black"
+        }
+      ]
+    }
+  ]
+}

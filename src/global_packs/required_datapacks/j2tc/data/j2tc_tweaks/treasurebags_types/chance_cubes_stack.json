@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Good Luck!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/chance_cubes_stack",
+  "rarity": "uncommon",
+  "bagColor": "#009FBF",
+  "bagOverlayColor": "#003542",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

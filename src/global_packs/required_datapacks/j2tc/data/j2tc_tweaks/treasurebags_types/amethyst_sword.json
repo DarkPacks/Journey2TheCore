@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Amethyst Raindrops"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/amethyst_sword",
+  "rarity": "uncommon",
+  "bagColor": "#960000",
+  "bagOverlayColor": "#ff00f7",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

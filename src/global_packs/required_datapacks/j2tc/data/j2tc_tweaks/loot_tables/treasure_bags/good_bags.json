@@ -1,0 +1,143 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/axolotl",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/glowing_dirtstone",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/candles",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/10000_cobblestone",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/fishing_rod",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/cactus_sugar_bamboo",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/vine",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/jukebox",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/scaffolding",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/eggs",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/slime_slings",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/infested_cobblestone",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/glowsticks",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/tinkers_casts",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/backpack_upgrade",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/campfire",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/pumpkins",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/bell",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/amethyst_sword",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/potato_cannon",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/flowers",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/chance_cube_single",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/chance_cubes_stack",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/carpet",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/wool",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/good_bags",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

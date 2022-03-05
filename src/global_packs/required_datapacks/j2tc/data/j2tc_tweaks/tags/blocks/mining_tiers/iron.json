@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [
+    "geore:diamond_block",
+    "geore:diamond_cluster",
+    "geore:emerald_cluster",
+    "geore:large_diamond_bud",
+    "geore:medium_diamond_bud",
+    "geore:small_diamond_bud",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:diamond_ore",
+    "minecraft:emerald_ore",
+    "minecraft:tuff",
+    "tconstruct:budding_sky_slime_crystal",
+    "tconstruct:earth_slime_crystal_cluster",
+    "tconstruct:ender_slime_crystal_cluster",
+    "tconstruct:ichor_slime_crystal_cluster",
+    "tconstruct:large_sky_slime_crystal_bud",
+    "tconstruct:medium_sky_slime_crystal_bud",
+    "tconstruct:sky_slime_crystal_block",
+    "tconstruct:sky_slime_crystal_cluster",
+    "tconstruct:small_sky_slime_crystal_bud",
+    "geore:lapis_cluster"
+  ]
+}

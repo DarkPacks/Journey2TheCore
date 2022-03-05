@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:basalt"
+    },
+    {
+      "fluid": "tconstruct:seared_stone",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:nether_grout"
+    }
+  ]
+}

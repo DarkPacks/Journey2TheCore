@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 1.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "bhc:red_heart_canister"
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "bhc:yellow_heart_canister"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "bhc:green_heart_canister"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "bhc:blue_heart_canister"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:oak_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bhc:heart_amulet"
+        }
+      ]
+    }
+  ]
+}

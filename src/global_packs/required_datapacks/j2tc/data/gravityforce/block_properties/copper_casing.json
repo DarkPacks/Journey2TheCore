@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:copper_casing",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

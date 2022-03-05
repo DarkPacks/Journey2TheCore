@@ -1,0 +1,45 @@
+{
+  "feature": "j2tc_tweaks:chance_cubes",
+  "placement": [
+    {
+      "count": 20,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": 528
+        },
+        "max_inclusive":
+        {
+          "absolute": 688
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate":
+      {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "blocks": [
+          "rechiseled:dirt_muddy"
+        ]
+      }
+    }
+  ]
+}

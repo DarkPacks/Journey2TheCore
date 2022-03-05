@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:mechanical_saw",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

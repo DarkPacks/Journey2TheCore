@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hardcorequesting:quest_book"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "patchouli:guide_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{\"patchouli:book\":\"apotheosis:apoth_chronicle\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "patchouli:guide_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{\"patchouli:book\":\"cyclic:cyclic_guide_book\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tconstruct:encyclopedia"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tconstruct:fantastic_foundry"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tconstruct:tinkers_gadgetry"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tconstruct:mighty_smelting"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tconstruct:puny_smelting"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tconstruct:materials_and_you"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rftoolsbase:manual"
+        }
+      ]
+    }
+  ]
+}

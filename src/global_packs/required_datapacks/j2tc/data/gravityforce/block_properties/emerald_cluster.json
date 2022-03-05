@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:emerald_cluster",
+  "dropBlock": "geore:small_emerald_bud",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:glowstone"
+}

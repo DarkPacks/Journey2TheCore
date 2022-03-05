@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "It's all dirty!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/dirty_stuff",
+  "rarity": "uncommon",
+  "bagColor": "#101010",
+  "bagOverlayColor": "#ecbf00",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

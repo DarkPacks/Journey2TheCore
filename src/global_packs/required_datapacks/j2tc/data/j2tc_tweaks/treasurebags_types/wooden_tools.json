@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Totally Useful!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/wooden_tools",
+  "rarity": "uncommon",
+  "bagColor": "#454545",
+  "bagOverlayColor": "#8a8350",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

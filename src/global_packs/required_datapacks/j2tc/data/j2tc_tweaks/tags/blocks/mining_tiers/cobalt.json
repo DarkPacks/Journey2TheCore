@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:nether_quartz_ore",
+    "geore:quartz_cluster"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "stats": {
+    "tconstruct:head": {
+      "durability": 85,
+      "miningSpeed": 3.5,
+      "harvestTier": "minecraft:wood",
+      "attack": 1.25
+    }
+  }
+}

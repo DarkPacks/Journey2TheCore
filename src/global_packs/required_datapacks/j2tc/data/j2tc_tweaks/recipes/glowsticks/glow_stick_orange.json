@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "G",
+    "S"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:orange_dye"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "tag": "forge:rods"
+    }
+  },
+  "result": {
+    "item": "glow_sticks:glow_stick_orange",
+    "count": 3
+  }
+}

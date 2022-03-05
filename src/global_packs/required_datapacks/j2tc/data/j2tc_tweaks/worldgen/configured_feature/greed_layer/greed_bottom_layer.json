@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:fill_layer",
+  "config":
+  {
+    "state":
+    {
+      "Name": "minecraft:raw_gold_block"
+    },
+    "height": 197
+  }
+}

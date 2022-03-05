@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:coarse_dirt"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:rooted_dirt"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:dirt_path"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:dirt_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rechiseled:dirt_muddy"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "youarehere:y_level",
+  "soundLocation": "cyclic:chaos_reaper",
+  "title": "Avarice",
+  "subtitle": "The Covetous",
+  "minY": 133,
+  "maxY": 264
+}

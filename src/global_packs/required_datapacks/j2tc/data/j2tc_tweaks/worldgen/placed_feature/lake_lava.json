@@ -1,0 +1,29 @@
+{
+  "feature": "j2tc_tweaks:lake_lava",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "minecraft:in_square"
+  },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": 528
+        },
+        "max_inclusive":
+        {
+          "absolute": 660
+        }
+      }
+  },
+    {
+      "type": "minecraft:biome"
+  }]
+}

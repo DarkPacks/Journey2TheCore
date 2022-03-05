@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:watering_can"
+    }
+  ],
+  "pattern": [
+    "DBI",
+    "IWI",
+    "DID"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "W": {
+      "item": "cookingforblockheads:fruit_basket"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:watering_can"
+  }
+}

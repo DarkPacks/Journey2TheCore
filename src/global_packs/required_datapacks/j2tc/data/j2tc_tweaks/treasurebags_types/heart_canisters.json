@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "The Love Boat"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/heart_canisters",
+  "rarity": "uncommon",
+  "bagColor": "#fc03b1",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#ff00b3",
+  "dropsFromGroups": []
+}

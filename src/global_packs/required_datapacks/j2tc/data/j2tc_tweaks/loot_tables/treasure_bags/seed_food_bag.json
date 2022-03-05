@@ -1,0 +1,359 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 5.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:turtle\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:polar_bear\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:parrot\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:fox\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:ocelot\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:llama\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:cat\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"waddles:adelie_penguin\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:cod\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:dolphin\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:pufferfish\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:salmon\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:squid\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "animalcrops:anemonemal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:tropical_fish\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:brown_mushroom"
+        },
+        {
+          "type": "item",
+          "weight": 90,
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 90,
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 90,
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:wolf\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:panda\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:horse\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:donkey\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "turkeydevutil:lime_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "farmersdelight:tomato_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "farmersdelight:cabbage_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "farmersdelight:rice"
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "farmersdelight:onion"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:rabbit\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:bee\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "cyclic:apple_sprout"
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:sheep\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:pig\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:chicken\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:cow\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:villager\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "animalcrops:seeds",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{entity:\"minecraft:mooshroom\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "turkeydevutil:lime"
+    }
+  ],
+  "result": {
+    "item": "turkeydevutil:lime_seeds"
+  }
+}

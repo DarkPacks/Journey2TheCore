@@ -1,0 +1,12 @@
+{
+  "modid": "turkeydevutil",
+  "foods": {
+    "INGREDIENTS": []
+  },
+  "toaster": [
+    {
+      "input": "minecraft:bread",
+      "output": "turkeydevutil:toast"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3.0,
+        "max": 7.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:dandelion"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:poppy"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:blue_orchid"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:allium"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:azure_bluet"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:red_tulip"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:orange_tulip"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:white_tulip"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:pink_tulip"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:oxeye_daisy"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cornflower"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:lily_of_the_valley"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:wither_rose"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:spore_blossom"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:brown_mushroom"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:sunflower"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:lilac"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:crimson_roots"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:rose_bush"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:peony"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:tall_grass"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:large_fern"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:copper_cluster",
+  "dropBlock": "geore:small_copper_bud",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:glowstone"
+}

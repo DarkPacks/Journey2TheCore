@@ -1,0 +1,8 @@
+{
+  "type": "youarehere:y_level",
+  "soundLocation": "cyclic:chaos_reaper",
+  "title": "Limbo",
+  "subtitle": "The Caves",
+  "minY": 529,
+  "maxY": 688
+}

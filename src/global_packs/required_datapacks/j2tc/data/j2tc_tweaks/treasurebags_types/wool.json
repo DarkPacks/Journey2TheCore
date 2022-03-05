@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Wool You Go Away!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/wool",
+  "rarity": "uncommon",
+  "bagColor": "#2e0000",
+  "bagOverlayColor": "#960000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

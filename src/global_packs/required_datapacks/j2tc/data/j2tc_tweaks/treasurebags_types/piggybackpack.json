@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Mount your friends!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/piggybackpack",
+  "rarity": "uncommon",
+  "bagColor": "#182133",
+  "bagOverlayColor": "#d1c438",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

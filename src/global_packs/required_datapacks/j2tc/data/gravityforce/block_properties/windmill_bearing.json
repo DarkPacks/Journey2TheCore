@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:windmill_bearing",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

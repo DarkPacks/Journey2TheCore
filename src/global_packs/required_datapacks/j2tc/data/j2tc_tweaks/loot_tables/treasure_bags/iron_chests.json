@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:iron_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:gold_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:diamond_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:copper_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:crystal_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:obsidian_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ironchest:dirt_chest"
+        }
+      ]
+    }
+  ]
+}

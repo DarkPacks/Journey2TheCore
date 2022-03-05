@@ -1,0 +1,1013 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 32.0,
+        "max": 128.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"1\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"2\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"3\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"4\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"5\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"6\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"7\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"8\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"9\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"10\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"11\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"12\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"13\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"14\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"15\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"16\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"17\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"18\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"19\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"20\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"21\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"22\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"23\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"24\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"25\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"26\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"27\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"28\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"29\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"30\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"31\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"32\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"33\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"34\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"35\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"36\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"37\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"38\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"39\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"40\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"41\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"42\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"43\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"44\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"45\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"46\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"47\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"48\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"49\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"50\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"51\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"52\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"53\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"54\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"55\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"56\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"57\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"58\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"59\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"60\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"61\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"62\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"63\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"64\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"65\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"66\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"67\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"68\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"69\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"70\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"71\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"72\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"73\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"74\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"75\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"76\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"77\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"78\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"79\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"80\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"81\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"82\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"83\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"84\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"85\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"86\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"87\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"88\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"89\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"90\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"91\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"92\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"93\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"94\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"95\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"96\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"97\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"98\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"99\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"100\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

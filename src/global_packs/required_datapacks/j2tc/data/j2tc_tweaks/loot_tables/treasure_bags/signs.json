@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 27.0,
+        "max": 109.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "farmersdelight:canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:warped_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crimson_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dark_oak_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:acacia_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:jungle_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:birch_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:spruce_sign"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:oak_sign"
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:bloodshroom_sign"
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:skyroot_sign"
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:greenheart_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:black_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:red_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:green_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:brown_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:blue_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:purple_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:cyan_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:light_gray_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:gray_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:pink_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:lime_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:yellow_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:light_blue_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:magenta_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:orange_canvas_sign"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:white_canvas_sign"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "effects":
+  {
+    "mood_sound":
+    {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 591623,
+    "fog_color": 591623,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "carvers":
+  {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "j2tc_tweaks:lake_lava",
+      "j2tc_tweaks:j2tc_lake_water_underground"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "j2tc_tweaks:rooted_dirt_top_row",
+      "j2tc_tweaks:ore_dried_salt",
+      "minecraft:ore_dirt",
+      "j2tc_tweaks:ore_clay",
+      "j2tc_tweaks:ore_limestone_mid",
+      "j2tc_tweaks:ore_limestone_upper",
+      "j2tc_tweaks:ore_glowstone_upper",
+      "j2tc_tweaks:ore_chance_cubes_lower",
+      "j2tc_tweaks:ore_chance_cubes_upper",
+      "j2tc_tweaks:ore_ochrum_upper",
+      "minecraft:ore_gravel",
+      "j2tc_tweaks:ore_gravel_upper",
+      "j2tc_tweaks:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "j2tc_tweaks:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "j2tc_tweaks:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_copper",
+"j2tc_tweaks:oregen/diamond_ore",
+"j2tc_tweaks:oregen/emerald_ore",
+"j2tc_tweaks:oregen/lapis_ore",
+"j2tc_tweaks:oregen/redstone_ore",
+      "j2tc_tweaks:oregen/copper_ore",
+      "j2tc_tweaks:oregen/heresy_transition_gold_ore",
+
+      "minecraft:underwater_magma",
+      "j2tc_tweaks:ore_dirt_upper",
+      "j2tc_tweaks:rooted_dirt",
+      "j2tc_tweaks:ore_coarse_dirt_upper",
+      "j2tc_tweaks:netherrack_lower",
+      "j2tc_tweaks:blackstone_lower",
+      "j2tc_tweaks:basalt_lower",
+      "j2tc_tweaks:dead_bush_place",
+      "j2tc_tweaks:ore_dead_stripped_log",
+      "j2tc_tweaks:ore_dead_coral_block_mid",
+      "j2tc_tweaks:anger_bottom_layer",
+      "j2tc_tweaks:greed_layer/greed_bottom_layer",
+      "j2tc_tweaks:greed_layer/greed_top_layer",
+      "j2tc_tweaks:gluttony_layer/gluttony_bottom_layer",
+      "j2tc_tweaks:gluttony_layer/gluttony_top_layer",
+      "j2tc_tweaks:water_layer",
+      "j2tc_tweaks:water_layer1",
+      "j2tc_tweaks:water_layer2"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:spring_open",
+      "minecraft:spring_closed"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_large_fern",
+      "minecraft:trees_old_growth_pine_taiga",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
+      "minecraft:brown_mushroom_old_growth",
+      "minecraft:red_mushroom_old_growth",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_berry_common",
+      "j2tc_tweaks:grass_place",
+      "j2tc_tweaks:skeleton_hand",
+      "j2tc_tweaks:skeleton_hand_wither",
+      "j2tc_tweaks:brown_mushroom_place",
+      "j2tc_tweaks:red_mushroom_place"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners":
+  {
+    "monster": [
+      {
+        "type": "minecraft:ghast",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "goblintraders:goblin_trader",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs":
+  {},
+  "precipitation": "rain",
+  "temperature": 0.3,
+  "downfall": 0.8,
+  "category": "taiga"
+}

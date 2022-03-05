@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:budding_redstone",
+  "dropBlock": "geore:redstone_block",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

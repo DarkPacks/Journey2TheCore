@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cobblestoney:diorite_cobbled"
+  },
+  "result": "minecraft:diorite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

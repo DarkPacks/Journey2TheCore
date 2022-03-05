@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:brass_encased_shaft",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

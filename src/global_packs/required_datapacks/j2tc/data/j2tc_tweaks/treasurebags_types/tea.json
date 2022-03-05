@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Is it Tea You're Looking For?"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/tea",
+  "rarity": "uncommon",
+  "bagColor": "#210000",
+  "bagOverlayColor": "#1f0c0c",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/good_hqm_hearts",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/assorted_food",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/heart_canisters",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/heads",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/spyglass",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/toolbox",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/nameless_trinkets",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/heart_canisters",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/builders_wand",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/glowsticks",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/amethyst_sword",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/seed_food_bag",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/dungeon_bag",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/tinkers_casts",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/backpack_upgrade",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/campfire",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/bell",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/chance_cube_single",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/chance_cubes_stack",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/great_bags",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "cookingforblockheads:preservation_chamber"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "ICI"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  }
+}

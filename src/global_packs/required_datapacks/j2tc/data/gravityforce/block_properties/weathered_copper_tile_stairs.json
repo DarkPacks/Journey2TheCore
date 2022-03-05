@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:weathered_copper_tile_stairs",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

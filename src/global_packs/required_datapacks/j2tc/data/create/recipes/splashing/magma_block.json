@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tconstruct:blazewood"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "group": "default",
+  "displayName": {
+    "translate": "bag.treasurebags.literacy"
+  },
+  "lootTable": "treasurebags:bags/literacy",
+  "rarity": "common",
+  "bagColor": "#CD853F",
+  "bagOverlayColor": "#F5FFFA",
+  "bagStringColor": "#48D1CC",
+  "dropsFromGroups": [
+    "player",
+    "boss",
+    "hostile",
+    "peaceful"
+  ]
+}

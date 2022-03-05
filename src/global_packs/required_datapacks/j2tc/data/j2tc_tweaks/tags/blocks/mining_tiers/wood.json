@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "create:limestone",
+    "create:ochrum",
+    "geore:budding_coal",
+    "geore:coal_block",
+    "geore:coal_cluster",
+    "geore:large_coal_bud",
+    "geore:medium_coal_bud",
+    "geore:small_coal_bud",
+    "minecraft:coal_ore",
+    "minecraft:cobblestone",
+    "minecraft:stone"
+  ]
+}

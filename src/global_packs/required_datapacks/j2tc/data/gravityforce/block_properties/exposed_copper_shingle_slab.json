@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:exposed_copper_shingle_slab",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

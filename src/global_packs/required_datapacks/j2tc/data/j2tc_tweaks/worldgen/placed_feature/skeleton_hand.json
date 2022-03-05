@@ -1,0 +1,43 @@
+{
+  "feature": "j2tc_tweaks:skeleton_hand",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "brazierwgu:multiple_layers",
+      "layers": 32,
+      "tries": 64
+    },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": 396
+        },
+        "max_inclusive":
+        {
+          "absolute": 528
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate":
+      {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:dead_fire_coral_block"
+        ]
+      }
+    }
+  ]
+}

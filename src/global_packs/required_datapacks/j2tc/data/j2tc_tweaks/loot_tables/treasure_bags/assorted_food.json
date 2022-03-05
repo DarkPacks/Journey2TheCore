@@ -1,0 +1,157 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 6.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "farmersdelight:cooked_mutton_chops"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:ham"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:cake_slice"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:apple_pie_slice"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:sweet_berry_cheesecake_slice"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:chocolate_pie_slice"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:sweet_berry_cookie"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:honey_cookie"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:melon_popsicle"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:fruit_salad"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:mixed_salad"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:nether_salad"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:barbecue_stick"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:egg_sandwich"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:chicken_sandwich"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:hamburger"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:bacon_sandwich"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:mutton_wrap"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:dumplings"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:stuffed_potato"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:cabbage_rolls"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:cooked_rice"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:beef_stew"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:chicken_soup"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:vegetable_soup"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:fish_stew"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:fried_rice"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:pumpkin_soup"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:baked_cod_stew"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:noodle_soup"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:bacon_and_eggs"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:pasta_with_meatballs"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:pasta_with_mutton_chop"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:roasted_mutton_chops"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:vegetable_noodles"
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:steak_and_potatoes"
+        }
+      ]
+    }
+  ]
+}

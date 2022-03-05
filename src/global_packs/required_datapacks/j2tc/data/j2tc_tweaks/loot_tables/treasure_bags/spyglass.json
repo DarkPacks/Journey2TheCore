@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 1.0
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:coal_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:copper_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:diamond_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:emerald_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:gold_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:iron_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:lapis_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:quartz_spyglass"
+        },
+        {
+          "type": "item",
+          "name": "geore:redstone_spyglass"
+        }
+      ]
+    }
+  ]
+}

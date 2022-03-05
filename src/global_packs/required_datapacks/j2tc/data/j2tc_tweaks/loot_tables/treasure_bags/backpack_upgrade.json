@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:tool_swapper_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:deposit_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:restock_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:void_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:compacting_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:feeding_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:magnet_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:filter_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:pickup_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:smoking_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:blasting_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:crafting_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:stonecutter_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:jukebox_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_1"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:smelting_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:everlasting_upgrade"
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:refill_upgrade"
+        }
+      ]
+    }
+  ]
+}

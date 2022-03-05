@@ -1,0 +1,28 @@
+{
+  "feature": "rocks:rock",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 32
+    },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": -64
+        },
+        "max_inclusive":
+        {
+          "absolute": 400
+        }
+      }
+    }
+  ]
+}

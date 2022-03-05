@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Seeds and Food"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/darko_bag",
+  "rarity": "uncommon",
+  "bagColor": "#101010",
+  "bagOverlayColor": "#ecbf00",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:radial_chassis",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "youarehere:y_level",
+  "soundLocation": "cyclic:chaos_reaper",
+  "title": "Anger",
+  "subtitle": "Seething Within",
+  "minY": 0,
+  "maxY": 132
+}

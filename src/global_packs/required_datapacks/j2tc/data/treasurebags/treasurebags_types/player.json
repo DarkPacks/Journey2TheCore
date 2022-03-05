@@ -1,0 +1,14 @@
+{
+  "group": "default",
+  "displayName": {
+    "translate": "bag.treasurebags.player"
+  },
+  "lootTable": "treasurebags:bags/player",
+  "rarity": "epic",
+  "bagColor": "#FF00FF",
+  "bagOverlayColor": "#6495ED",
+  "bagStringColor": "#FFD700",
+  "dropsFromGroups": [
+    "player"
+  ]
+}

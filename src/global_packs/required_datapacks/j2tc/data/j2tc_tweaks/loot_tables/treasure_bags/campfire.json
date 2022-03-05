@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:soul_campfire"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:campfire"
+        }
+      ]
+    }
+  ]
+}

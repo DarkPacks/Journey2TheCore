@@ -1,0 +1,12 @@
+{
+  "group": "example",
+  "displayName": {
+    "text": "Test Bag"
+  },
+  "lootTable": "treasurebags:bags/test",
+  "rarity": "common",
+  "bagColor": "#FF00FF",
+  "bagOverlayColor": "#00FF00",
+  "bagStringColor": "#B8860B",
+  "dropsFromGroups": []
+}

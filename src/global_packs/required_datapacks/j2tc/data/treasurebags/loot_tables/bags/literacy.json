@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bookshelf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "That Time I Was Slapped With a Salmon, Vol. 4"
+              }
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Adventures of Tardigrade Man"
+              }
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Reading For Dummies"
+              }
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Story of Larry the Sheep"
+              }
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

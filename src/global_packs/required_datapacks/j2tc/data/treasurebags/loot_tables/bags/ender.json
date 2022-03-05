@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_chest"
+        }
+      ]
+    }
+  ]
+}

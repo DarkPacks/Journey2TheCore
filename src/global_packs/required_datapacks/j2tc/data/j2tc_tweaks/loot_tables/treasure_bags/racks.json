@@ -1,0 +1,153 @@
+{
+  "pools": [
+    {
+      "rolls": 24,
+      "entries": [
+        {
+          "type": "item",
+          "name": "storageracks:oak_wood_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:oak_stone_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:oak_iron_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:oak_gold_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:oak_emerald_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:oak_diamond_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:spruce_wood_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:spruce_stone_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:spruce_iron_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:spruce_gold_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:spruce_emerald_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:spruce_diamond_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:birch_wood_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:birch_stone_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:birch_iron_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:birch_gold_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:birch_emerald_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:birch_diamond_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:jungle_wood_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:jungle_stone_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:jungle_iron_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:jungle_gold_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:jungle_emerald_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:jungle_diamond_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:acacia_wood_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:acacia_stone_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:acacia_iron_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:acacia_gold_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:acacia_emerald_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:acacia_diamond_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:dark_oak_wood_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:dark_oak_stone_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:dark_oak_iron_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:dark_oak_gold_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:dark_oak_emerald_rack"
+        },
+        {
+          "type": "item",
+          "name": "storageracks:dark_oak_diamond_rack"
+        }
+      ]
+    }
+  ]
+}

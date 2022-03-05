@@ -1,0 +1,30 @@
+{
+  "feature": "j2tc_tweaks:oregen/copper_ore",
+  "placement": [
+    {
+      "count": 36,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 396
+        },
+        "max_inclusive":
+        {
+          "absolute": 0
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

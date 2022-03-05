@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:iron_cluster",
+  "dropBlock": "geore:small_iron_bud",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:glowstone"
+}

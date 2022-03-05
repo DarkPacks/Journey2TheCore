@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:redstone_cluster",
+  "dropBlock": "geore:small_redstone_bud",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:glowstone"
+}

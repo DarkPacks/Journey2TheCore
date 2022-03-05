@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cactus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bamboo"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sugar_cane"
+        }
+      ]
+    }
+  ]
+}

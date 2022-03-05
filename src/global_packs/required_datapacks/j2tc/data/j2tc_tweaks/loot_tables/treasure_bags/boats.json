@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:oak_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:spruce_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:birch_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:jungle_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:acacia_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:dark_oak_boat"
+        }
+      ]
+    }
+  ]
+}

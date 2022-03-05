@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:vine"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "alexsmobs:vine_lasso"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:chute",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

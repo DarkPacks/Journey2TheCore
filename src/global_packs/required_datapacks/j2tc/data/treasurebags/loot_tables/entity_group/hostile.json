@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 200
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "treasurebags:select_bag_rarity",
+              "rarity": "common"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "treasurebags:select_bag_rarity",
+              "rarity": "uncommon"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "treasurebags:select_bag_rarity",
+              "rarity": "rare"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "treasurebags:select_bag_rarity",
+              "rarity": "epic"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        }
+      ]
+    }
+  ]
+}

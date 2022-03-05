@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:cooked_cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:cooked_salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:cooked_porkchop"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:cooked_beef"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:cooked_chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bread"
+        }
+      ]
+    }
+  ]
+}

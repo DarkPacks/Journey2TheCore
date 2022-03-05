@@ -1,0 +1,13 @@
+{
+  "feature": "minecraft:crimson_forest_vegetation",
+  "placement": [
+    {
+      "type": "brazierwgu:multiple_layers",
+      "layers": 8,
+      "tries": 6
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

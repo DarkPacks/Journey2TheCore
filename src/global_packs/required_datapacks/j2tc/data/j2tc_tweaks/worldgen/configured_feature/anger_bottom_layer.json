@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:fill_layer",
+  "config":
+  {
+    "state":
+    {
+      "Name": "minecraft:deepslate"
+    },
+    "height": 64
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:player"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

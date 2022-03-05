@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "geore:budding_iron",
+    "geore:iron_block",
+    "geore:iron_cluster",
+    "geore:large_iron_bud",
+    "geore:medium_iron_bud",
+    "geore:small_iron_bud",
+    "minecraft:deepslate",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:iron_ore",
+    "geore:iron_cluster"
+  ]
+}

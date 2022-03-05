@@ -1,0 +1,193 @@
+{
+  "pools": [
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cobblestone_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:mossy_cobblestone_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:prismarine_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:red_sandstone_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:mossy_stone_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:granite_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:nether_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:andesite_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:red_nether_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sandstone_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:end_stone_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diorite_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:blackstone_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:polished_blackstone_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:polished_blackstone_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cobbled_deepslate_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:polished_deepslate_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:deepslate_brick_wall"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:deepslate_tile_wall"
+        }
+      ]
+    }
+  ]
+}
