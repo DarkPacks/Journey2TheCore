@@ -42,7 +42,7 @@
 			minHeight = -30
 			# 
 			#Range: > -64
-			maxHeight = 70
+			maxHeight = 264
 
 		[worldgen.v2.zinc_ore]
 			# 
@@ -60,5 +60,5 @@
 			minHeight = -63
 			# 
 			#Range: > -64
-			maxHeight = 70
+			maxHeight = 264
 

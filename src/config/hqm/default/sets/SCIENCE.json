@@ -1,0 +1,339 @@
+{
+  "name": "SCIENCE",
+  "quests": [
+    {
+      "uuid": "71d85cee-3059-4456-a830-825b2177c616",
+      "name": "One Man",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 103,
+      "y": 98,
+      "icon": {
+        "id": "thismatters:organic_matter_compressor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "Count": 1
+              },
+              "required": 128
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thismatters:organic_matter_compressor",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "78b43bad-168f-4b26-89fd-7992ef95e9ef",
+      "name": "Phil Me Up Baby",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 142,
+      "y": 98,
+      "icon": {
+        "ForgeCaps": {
+          "Parent": {}
+        },
+        "id": "projecte:philosophers_stone",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "ForgeCaps": {
+                  "Parent": {}
+                },
+                "id": "projecte:philosophers_stone",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "71d85cee-3059-4456-a830-825b2177c616"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_block",
+          "Count": 4
+        },
+        {
+          "id": "projecte:aeternalis_fuel",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fcb5067a-125d-4d6f-8e16-ac8b476d4ad6",
+      "name": "Energy Collection",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 233,
+      "y": 98,
+      "icon": {
+        "id": "projecte:collector_mk1",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "projecte:collector_mk1",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "dd6d3b7d-a5be-496e-8973-fbb4b0ca9502"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:aeternalis_fuel_block",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "af576f95-d455-4553-8f19-0d483ea42d6c",
+      "name": "Pump it Up",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 77,
+      "y": 28,
+      "icon": {
+        "id": "create:mechanical_pump",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_pump",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7d47bc9d-fea2-472b-ae62-fe9c101bd55b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:fluid_pipe",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7d47bc9d-fea2-472b-ae62-fe9c101bd55b",
+      "name": "Distillation",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 33,
+      "y": 28,
+      "icon": {
+        "id": "create:item_drain",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:item_drain",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b0700d3e-bb37-46cf-952e-ca29a26f00d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd6d3b7d-a5be-496e-8973-fbb4b0ca9502",
+      "name": "Intertia is a Property of Matter",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 188,
+      "y": 98,
+      "icon": {
+        "id": "projecte:alchemical_chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "projecte:dark_matter",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "78b43bad-168f-4b26-89fd-7992ef95e9ef"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:alchemical_chest",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c6f67ded-dd99-4922-9a20-fa65e040643a",
+      "name": "Grass",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 76,
+      "y": 55,
+      "icon": {
+        "id": "minecraft:grass_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:grass_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7d47bc9d-fea2-472b-ae62-fe9c101bd55b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "riddlechests:riddlechest",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:panda"
+          }
+        },
+        {
+          "id": "animalcrops:anemonemal",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:squid"
+          }
+        },
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:horse"
+          }
+        },
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:wolf"
+          }
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

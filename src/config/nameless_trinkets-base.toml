@@ -1,0 +1,5 @@
+
+["Get New Curios Slot %"]
+	#Range: 0 ~ 100
+	"new slot probability" = 10
+

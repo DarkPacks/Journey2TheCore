@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1646438132364,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/hyaqwAmwVH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1646360232567,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fMKaxBoxCJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1643927447372,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2O5Bigyl8Y"
+    }
+  }
+]

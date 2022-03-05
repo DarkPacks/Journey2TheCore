@@ -1,0 +1,12 @@
+{
+  "macro0": "function dev_tools:debug/start",
+  "macro1": "pdt inventory",
+  "macro2": "pdt hotbar",
+  "macro3": "pdt hand",
+  "macro4": "forge entity list",
+  "macro5": "forge tps",
+  "macro6": "gamemode creative",
+  "macro7": "gamemode survival",
+  "macro8": "gamemode spectator",
+  "macro9": "gamemode creative"
+}

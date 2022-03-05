@@ -46,6 +46,9 @@
     "minecraft:calcite",
     "create:ochrum",
     "minecraft:coarse_dirt",
-    "minecraft:rooted_dirt"
+    "minecraft:rooted_dirt",
+    "create:limestone",
+    "biomesoplenty:dried_salt",
+    "minecraft:stripped_oak_log"
   ]
 }

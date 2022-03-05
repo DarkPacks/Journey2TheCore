@@ -2,5 +2,5 @@
 #Client settings
 [client]
 	#When enabled makes the food's tooltips show percentages
-	showPercentage = false
+	showPercentage = true
 

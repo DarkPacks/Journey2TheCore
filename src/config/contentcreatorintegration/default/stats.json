@@ -1,0 +1,45 @@
+{
+  "stats": [
+    {
+      "layer": "chat",
+      "type": "message",
+      "count": 55
+    },
+    {
+      "layer": "streamlabs",
+      "type": "bits",
+      "count": 22,
+      "amount": 8600.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "donation",
+      "count": 6,
+      "amount": 40.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "host",
+      "count": 5,
+      "amount": 15.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "raid",
+      "count": 9,
+      "amount": 330.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "subMysteryGift",
+      "count": 56,
+      "amount": 300.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "subscription",
+      "count": 487,
+      "amount": 6233.0
+    }
+  ]
+}

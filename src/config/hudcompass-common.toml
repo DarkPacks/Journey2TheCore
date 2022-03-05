@@ -5,5 +5,5 @@
 	#If set to FALSE, the spawn point location will not be shown.
 	enableXaeroMinimapIntegration = true
 	#If set to TRUE, the server will not advertise itself to the clients, making them work in client-only mode.
-	disableServerHello = false
+	disableServerHello = true
 

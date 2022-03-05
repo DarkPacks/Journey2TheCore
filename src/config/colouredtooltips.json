@@ -1,7 +1,7 @@
 {
   "default": {
-    "borderStart": "ff999999", 
-    "borderEnd": "ff999999",
+    "borderStart": "ffffffff", 
+    "borderEnd": "ffffffff",
     "background": "f0100010"
   },
   "overrides": []

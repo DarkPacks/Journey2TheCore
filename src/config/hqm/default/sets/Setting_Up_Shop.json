@@ -1,0 +1,851 @@
+{
+  "name": "Setting Up Shop",
+  "quests": [
+    {
+      "uuid": "bc95062d-134d-458e-a64b-ed1efd55b7fb",
+      "name": "Meow Mix",
+      "description": "Use Millstone with hand crank, get sand!",
+      "x": 31,
+      "y": 34,
+      "icon": {
+        "id": "minecraft:sand",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:millstone",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:hand_crank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:cogwheel",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:gravel",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "43711b2e-bbe7-40c6-b0f2-8a94ccd041ba",
+      "name": "A Pressing Matter",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 66,
+      "y": 34,
+      "icon": {
+        "id": "create:mechanical_press",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:andesite_alloy",
+          "Count": 8
+        },
+        {
+          "id": "create:wrench",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "78e2b2e6-f3d5-4153-884b-5d5831c9799b",
+      "name": "Dagger",
+      "description": "You can dual wield daggers",
+      "x": 228,
+      "y": 32,
+      "icon": {
+        "id": "tconstruct:dagger",
+        "Count": 1,
+        "tag": {
+          "tic_multipliers": {
+            "tconstruct:mining_speed": 0.75,
+            "tconstruct:attack_damage": 0.65,
+            "tconstruct:durability": 0.75
+          },
+          "tic_stats": {
+            "tconstruct:attack_speed": 2.3,
+            "tconstruct:mining_speed": 5.25,
+            "tconstruct:attack_damage": 3.0712497,
+            "tconstruct:harvest_tier": "minecraft:diamond",
+            "tconstruct:durability": 377.25
+          },
+          "tic_broken": 0,
+          "HideFlags": 3,
+          "tic_modifiers": [
+            {
+              "name": "tconstruct:crumbling",
+              "level": 1
+            },
+            {
+              "name": "tconstruct:necrotic",
+              "level": 1
+            },
+            {
+              "name": "tconstruct:padded",
+              "level": 1
+            },
+            {
+              "name": "tconstruct:offhand_attack",
+              "level": 1
+            },
+            {
+              "name": "tconstruct:silky_shears",
+              "level": 1
+            }
+          ],
+          "tic_materials": [
+            "tconstruct:amethyst_bronze",
+            "tconstruct:necrotic_bone"
+          ],
+          "Damage": 0,
+          "tic_volatile_data": {
+            "tconstruct:duel_wielding": 1
+          },
+          "tic_persistent_data": {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:dagger",
+                "Count": 1,
+                "tag": {
+                  "tic_multipliers": {
+                    "tconstruct:mining_speed": 0.75,
+                    "tconstruct:attack_damage": 0.65,
+                    "tconstruct:durability": 0.75
+                  },
+                  "tic_stats": {
+                    "tconstruct:attack_speed": 2.3,
+                    "tconstruct:mining_speed": 5.25,
+                    "tconstruct:attack_damage": 3.0712497,
+                    "tconstruct:harvest_tier": "minecraft:diamond",
+                    "tconstruct:durability": 377.25
+                  },
+                  "tic_broken": 0,
+                  "HideFlags": 3,
+                  "tic_modifiers": [
+                    {
+                      "name": "tconstruct:crumbling",
+                      "level": 1
+                    },
+                    {
+                      "name": "tconstruct:necrotic",
+                      "level": 1
+                    },
+                    {
+                      "name": "tconstruct:padded",
+                      "level": 1
+                    },
+                    {
+                      "name": "tconstruct:offhand_attack",
+                      "level": 1
+                    },
+                    {
+                      "name": "tconstruct:silky_shears",
+                      "level": 1
+                    }
+                  ],
+                  "tic_materials": [
+                    "tconstruct:amethyst_bronze",
+                    "tconstruct:necrotic_bone"
+                  ],
+                  "Damage": 0,
+                  "tic_volatile_data": {
+                    "tconstruct:duel_wielding": 1
+                  },
+                  "tic_persistent_data": {
+                    "abilities": 1,
+                    "upgrades": 3
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": {
+            "Material": "tconstruct:slimewood"
+          }
+        },
+        {
+          "id": "tconstruct:dagger",
+          "Count": 1,
+          "tag": {
+            "tic_multipliers": {
+              "tconstruct:mining_speed": 0.75,
+              "tconstruct:attack_damage": 0.65,
+              "tconstruct:durability": 0.75
+            },
+            "tic_stats": {
+              "tconstruct:attack_speed": 2.2,
+              "tconstruct:mining_speed": 1.875,
+              "tconstruct:attack_damage": 2.5756247,
+              "tconstruct:harvest_tier": "minecraft:stone",
+              "tconstruct:durability": 66.75
+            },
+            "tic_broken": 0,
+            "HideFlags": 3,
+            "tic_modifiers": [
+              {
+                "name": "tconstruct:padded",
+                "level": 1
+              },
+              {
+                "name": "tconstruct:piercing",
+                "level": 1
+              },
+              {
+                "name": "tconstruct:raging",
+                "level": 1
+              },
+              {
+                "name": "tconstruct:offhand_attack",
+                "level": 1
+              },
+              {
+                "name": "tconstruct:silky_shears",
+                "level": 1
+              }
+            ],
+            "tic_materials": [
+              "tconstruct:bone",
+              "tconstruct:bloodbone"
+            ],
+            "Damage": 0,
+            "tic_volatile_data": {
+              "tconstruct:duel_wielding": 1
+            },
+            "tic_persistent_data": {
+              "abilities": 1,
+              "upgrades": 3
+            }
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:sharpness",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:knockback",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:fiery",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:necrotic",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "115a79c7-f3fd-4f24-82d2-a168f12c0094",
+      "name": "I Am Grout",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 56,
+      "y": 67,
+      "icon": {
+        "id": "tconstruct:grout",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:grout",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:seared_brick",
+          "Count": 8
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d738e45b-af73-4638-aa3d-4dd2f85361b3",
+      "name": "Subscribe to my Channel",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 97,
+      "y": 89,
+      "icon": {
+        "id": "tconstruct:seared_channel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:seared_channel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cd132f-cdee-4f58-8af1-bc5f685eb55b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00f00377-3d71-46a0-a266-70a30e7e99b5",
+      "name": "Whisk Me Away",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 101,
+      "y": 34,
+      "icon": {
+        "id": "create:mechanical_mixer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_mixer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "43711b2e-bbe7-40c6-b0f2-8a94ccd041ba"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:basin",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 4
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c8c8bf02-08fa-47f9-b161-62e2fab8bbf8",
+      "name": "Spout",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 38,
+      "y": 91,
+      "icon": {
+        "id": "create:spout",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:spout",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:depot",
+          "Count": 1
+        },
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:bagception"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1add4027-1e40-4797-aa91-965865f243bb",
+      "name": "Beehave",
+      "description": "Plant the Bee Seed on Grass or Dirt. Water. Magic!",
+      "x": 37,
+      "y": 126,
+      "icon": {
+        "id": "minecraft:beehive",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:beehive",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:bee"
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8be04dd-572f-4724-b330-41599ac4442b",
+      "name": "Sword",
+      "description": "Unnamed quest",
+      "x": 200,
+      "y": 32,
+      "icon": {
+        "id": "tconstruct:sword",
+        "Count": 1,
+        "tag": {
+          "tic_multipliers": {
+            "tconstruct:mining_speed": 0.5,
+            "tconstruct:durability": 1.1
+          },
+          "tic_stats": {
+            "tconstruct:attack_speed": 1.76,
+            "tconstruct:mining_speed": 3.675,
+            "tconstruct:attack_damage": 4.6124997,
+            "tconstruct:harvest_tier": "minecraft:diamond",
+            "tconstruct:durability": 672.10004
+          },
+          "tic_broken": 0,
+          "HideFlags": 3,
+          "tic_modifiers": [
+            {
+              "name": "tconstruct:crumbling",
+              "level": 2
+            },
+            {
+              "name": "tconstruct:necrotic",
+              "level": 1
+            },
+            {
+              "name": "tconstruct:silky_shears",
+              "level": 1
+            }
+          ],
+          "tic_materials": [
+            "tconstruct:amethyst_bronze",
+            "tconstruct:necrotic_bone",
+            "tconstruct:amethyst_bronze"
+          ],
+          "Damage": 0,
+          "tic_persistent_data": {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:sword",
+                "Count": 1,
+                "tag": {
+                  "tic_multipliers": {
+                    "tconstruct:mining_speed": 0.5,
+                    "tconstruct:durability": 1.1
+                  },
+                  "tic_stats": {
+                    "tconstruct:attack_speed": 1.76,
+                    "tconstruct:mining_speed": 3.675,
+                    "tconstruct:attack_damage": 4.6124997,
+                    "tconstruct:harvest_tier": "minecraft:diamond",
+                    "tconstruct:durability": 672.10004
+                  },
+                  "tic_broken": 0,
+                  "HideFlags": 3,
+                  "tic_modifiers": [
+                    {
+                      "name": "tconstruct:crumbling",
+                      "level": 2
+                    },
+                    {
+                      "name": "tconstruct:necrotic",
+                      "level": 1
+                    },
+                    {
+                      "name": "tconstruct:silky_shears",
+                      "level": 1
+                    }
+                  ],
+                  "tic_materials": [
+                    "tconstruct:amethyst_bronze",
+                    "tconstruct:necrotic_bone",
+                    "tconstruct:amethyst_bronze"
+                  ],
+                  "Damage": 0,
+                  "tic_persistent_data": {
+                    "abilities": 1,
+                    "upgrades": 3
+                  }
+                }
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": {
+            "Material": "tconstruct:slimewood"
+          }
+        },
+        {
+          "id": "minecraft:shield",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:sharpness",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:knockback",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:fiery",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:necrotic",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8cd132f-cdee-4f58-8af1-bc5f685eb55b",
+      "name": "Tuna Melter",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 71,
+      "y": 89,
+      "icon": {
+        "id": "tconstruct:seared_melter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:seared_melter",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_heater",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "115a79c7-f3fd-4f24-82d2-a168f12c0094"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:seared_faucet",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:seared_table",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:seared_basin",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

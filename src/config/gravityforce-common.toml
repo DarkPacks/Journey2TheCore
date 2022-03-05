@@ -4,7 +4,7 @@
 	#Turn physics On/Off (WHAT ARE YOU DOING) [default: true]
 	enablePhysics = true
 	#Enable Physics Landslide [default: true]
-	enableLandslide = true
+	enableLandslide = false
 	#How long until individual chunk's physics starts after loading (DO NOT SET TOO LOW) [default: 1000]
 	#Range: > 0
 	chunkDelay = 1000
@@ -25,5 +25,7 @@
 	#Range: 0 ~ 2
 	entityFailsafe = 2
 	#No comment
-	defaultStability = "loose"
+	defaultStability = "gravityforce:loose"
+	#Blocks Can Turn Into Other Blocks Before Falling [default: true]
+	intermediaryBlocks = true
 

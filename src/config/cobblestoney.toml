@@ -1,0 +1,8 @@
+
+#[cobblestoney] Worldgen settings
+[cobblestoney]
+
+	[cobblestoney.cobblestoney]
+		#True to enable all worldgen. False means placement features are still registered but not run on any biomes/dimensions by the mod
+		worldgen = true
+

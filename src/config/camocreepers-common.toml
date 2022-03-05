@@ -5,7 +5,7 @@
 	overrideCreeperSpawns = true
 	#The spawn weight of the Camo Creeper [default: 100]
 	#Range: > 1
-	camoCreeperWeight = 100
+	camoCreeperWeight = 150
 	#The min group size of the Camo Creeper [default: 4]
 	#Range: > 1
 	camoCreeperMin = 4

@@ -8,11 +8,11 @@
 #Generation settings
 [Generation]
 	#Generate Iron Bushes [Default: true]
-	generateIronBush = true
+	generateIronBush = false
 	#Generate Gold Bushes [Default: true]
-	generateGoldBush = true
+	generateGoldBush = false
 	#Generate Copper Bushes [Default: true]
-	generateCopperBush = true
+	generateCopperBush = false
 	#Generate Tin Bushes [Default: false]
 	generateTinBush = false
 	#Generate Aluminum Bushes [Default: false]
@@ -135,7 +135,7 @@
 	silverBushRarity = 7
 	#Essence Bush Rarity [Default: 6]
 	#Range: > 1
-	essenceBushRarity = 6
+	essenceBushRarity = 64
 
 #Location settings
 [Location]
@@ -210,5 +210,5 @@
 	essenceBushMinY = 0
 	#Essence Bush Max Y [Default: 32]
 	#Range: > -2147483648
-	essenceBushMaxY = 32
+	essenceBushMaxY = 400
 

@@ -4,7 +4,7 @@
 	#Range: 1 ~ 36
 	availableSlots = 18
 	#Specifies a registry name for an item that on use would unlock a slot and consume the item, or nothing to not allow any item. Examples: minecraft:rabbit_foot, minecraft:nether_star, minestuck:captcha_card
-	unlockSlotItem = "create:experience_nugget"
+	unlockSlotItem = "turkeydevutil:lanyard"
 	#The number of unlocked slots that are relocked on death. If 0, slots will be unaffected by death. If -1, all unlocked slots will be relocked.
 	#Range: -1 ~ 36
 	unlockedLostOnDeath = 0

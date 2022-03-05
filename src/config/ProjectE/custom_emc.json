@@ -1,0 +1,84 @@
+{
+  "entries": [
+    {
+      "item": "sophisticatedbackpacks:backpack",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:white_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:orange_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magenta_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:light_blue_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:yellow_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lime_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pink_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gray_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:light_gray_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cyan_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:purple_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blue_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brown_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:green_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:red_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:black_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_cobblestone{RepairCost:0,display:{Name:\u0027{\"text\":\"Cobblestone\"}\u0027}}",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:infested_cobblestone{display:{Name:\u0027{\"text\":\"Cobblestone\",\"italic\":false}\u0027}}",
+      "emc": 1
+    }
+  ]
+}

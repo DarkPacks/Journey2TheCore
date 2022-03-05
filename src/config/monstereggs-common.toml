@@ -1,0 +1,102 @@
+
+#Generation settings
+[Generation]
+	#Generate Cave Spider Eggs [Default: true]
+	generateCaveSpiderEggs = true
+	#Generate Creeper Eggs [Default: true]
+	generateCreeperEggs = true
+	#Generate Enderman Eggs [Default: true]
+	generateEndermanEggs = true
+	#Generate Skeleton Eggs [Default: true]
+	generateSkeletonEggs = true
+	#Generate Spider Eggs [Default: true]
+	generateSpiderEggs = true
+	#Generate Zombie Eggs [Default: true]
+	generateZombieEggs = true
+	#GenerateHanging Cave Spider Eggs [Default: true]
+	generateHangingCaveSpiderEggs = true
+	#GenerateHanging Creeper Eggs [Default: true]
+	generateHangingCreeperEggs = true
+	#GenerateHanging Enderman Eggs [Default: true]
+	generateHangingEndermanEggs = true
+	#GenerateHanging Skeleton Eggs [Default: true]
+	generateHangingSkeletonEggs = true
+	#GenerateHanging Spider Eggs [Default: true]
+	generateHangingSpiderEggs = true
+	#GenerateHanging Zombie Eggs [Default: true]
+	generateHangingZombieEggs = true
+
+#Rarity settings
+[Rarity]
+	#The rarity at which Cave Spider Eggs will generate (1 every X) [Default: 1]
+	#Range: > 1
+	caveSpiderEggsRarity = 6
+	#The rarity at which Creeper Eggs will generate (1 every X) [Default: 1]
+	#Range: > 1
+	creeperEggsRarity = 6
+	#The rarity at which Enderman Eggs will generate (1 every X) [Default: 1]
+	#Range: > 1
+	endermanEggsRarity = 6
+	#The rarity at which Skeleton Eggs will generate (1 every X) [Default: 1]
+	#Range: > 1
+	skeletonEggsRarity = 6
+	#The rarity at which Spider Eggs will generate (1 every X) [Default: 1]
+	#Range: > 1
+	spiderEggsRarity = 6
+	#The rarity at which Zombie Eggs will generate (1 every X) [Default: 1]
+	#Range: > 1
+	zombieEggsRarity = 6
+
+#Count settings
+[Count]
+	#The amount of Cave Spider Eggs that it will try to generate at a time [Default: 4]
+	#Range: > 1
+	caveSpiderEggsCount = 4
+	#The amount of Creeper Eggs that it will try to generate at a time [Default: 4]
+	#Range: > 1
+	creeperEggsCount = 4
+	#The amount of Enderman Eggs that it will try to generate at a time [Default: 4]
+	#Range: > 1
+	endermanEggsCount = 4
+	#The amount of Skeleton Eggs that it will try to generate at a time [Default: 4]
+	#Range: > 1
+	skeletonEggsCount = 4
+	#The amount of Spider Eggs that it will try to generate at a time [Default: 4]
+	#Range: > 1
+	spiderEggsCount = 4
+	#The amount of Zombie Eggs that it will try to generate at a time [Default: 4]
+	#Range: > 1
+	zombieEggsCount = 4
+
+#Tries settings
+[Tries]
+	#The amount of times it will try to generate Cave Spider Eggs [Default: 24]
+	#Range: > 1
+	caveSpiderEggsTries = 32
+	#The amount of times it will try to generate Creeper Eggs [Default: 24]
+	#Range: > 1
+	creeperEggsTries = 32
+	#The amount of times it will try to generate Enderman Eggs [Default: 24]
+	#Range: > 1
+	endermanEggsTries = 32
+	#The amount of times it will try to generate Skeleton Eggs [Default: 24]
+	#Range: > 1
+	skeletonEggsTries = 32
+	#The amount of times it will try to generate Spider Eggs [Default: 24]
+	#Range: > 1
+	spiderEggsTries = 32
+	#The amount of times it will try to generate Zombie Eggs [Default: 24]
+	#Range: > 1
+	zombieEggsTries = 32
+
+#Debug settings
+[Debug]
+	#Show the mob in the tooltip of the shell [Default: false]
+	debugInfo = false
+
+#General settings
+[General]
+	#dictates the Y offset of the mob spawned from the egg [Default: 0.5]
+	#Range: -2.147483648E9 ~ 2.147483647E9
+	spawnOffset = 0.5
+

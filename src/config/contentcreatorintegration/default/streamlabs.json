@@ -1,0 +1,495 @@
+{
+  "configs": [
+    {
+      "types": {
+        "bits": [
+          {
+            "name": "Sub doubled for bits",
+            "conditions": [
+              {
+                "amount": 1000.0,
+                "type": "amount",
+                "displayName": ""
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "2",
+                "type": "repeat",
+                "displayName": "single_outcome_repeat",
+                "outcome": {
+                  "condition": {
+                    "target": "$playerName",
+                    "horiRadius": "4",
+                    "vertRadius": "2",
+                    "tries": "8",
+                    "variableName": "can_spawn",
+                    "customHeight": "2",
+                    "type": "freeSpace",
+                    "displayName": "not_spawning_people_in_the_wall"
+                  },
+                  "outcome": {
+                    "command": "/playermobs spawn $user $can_spawn",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "Subs"
+                  },
+                  "conditionNotMetOutcome": {
+                    "condition": {
+                      "target": "$playerName",
+                      "horiRadius": "4",
+                      "vertRadius": "2",
+                      "tries": "8",
+                      "variableName": "can_spawn_baby",
+                      "customHeight": "1",
+                      "type": "freeSpace",
+                      "displayName": "CanSpawnBaby"
+                    },
+                    "outcome": {
+                      "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                      "executeAsSelf": true,
+                      "type": "command",
+                      "displayName": "SubsBaby"
+                    },
+                    "conditionNotMetOutcome": {
+                      "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+                      "executeAsSelf": true,
+                      "type": "command",
+                      "displayName": "SubsEnderSlime"
+                    },
+                    "type": "conditional",
+                    "displayName": "2_high_fail_spawn_baby"
+                  },
+                  "type": "conditional"
+                }
+              },
+              {
+                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          },
+          {
+            "conditions": [],
+            "outcomes": []
+          },
+          {
+            "name": "bits match sub",
+            "conditions": [
+              {
+                "amount": 500.0,
+                "type": "amount",
+                "displayName": ""
+              }
+            ],
+            "outcomes": [
+              {
+                "condition": {
+                  "target": "$playerName",
+                  "horiRadius": "4",
+                  "vertRadius": "2",
+                  "tries": "8",
+                  "variableName": "can_spawn",
+                  "customHeight": "2",
+                  "type": "freeSpace",
+                  "displayName": "not_spawning_people_in_the_wall"
+                },
+                "outcome": {
+                  "command": "/playermobs spawn $user $can_spawn",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "Subs"
+                },
+                "conditionNotMetOutcome": {
+                  "condition": {
+                    "target": "$playerName",
+                    "horiRadius": "4",
+                    "vertRadius": "2",
+                    "tries": "8",
+                    "variableName": "can_spawn_baby",
+                    "customHeight": "1",
+                    "type": "freeSpace",
+                    "displayName": "CanSpawnBaby"
+                  },
+                  "outcome": {
+                    "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "SubsBaby"
+                  },
+                  "conditionNotMetOutcome": {
+                    "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "SubsEnderSlime"
+                  },
+                  "type": "conditional",
+                  "displayName": "2_high_fail_spawn_baby"
+                },
+                "type": "conditional"
+              },
+              {
+                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          },
+          {
+            "conditions": [],
+            "outcomes": []
+          },
+          {
+            "name": "Face",
+            "conditions": [
+              {
+                "amount": 50.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/swapthings playerrotate @s",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Mounted",
+            "conditions": [
+              {
+                "amount": 200.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/swapthings summonmount @s $user",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Inv Shuffle",
+            "conditions": [
+              {
+                "amount": 100.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/swapthings shuffleinventory @s $name",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "subMysteryGift": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $name just gave out $amount subs!",
+                "type": "chat"
+              },
+              {
+                "command": "/playermobs spawn $user ~ ~ ~",
+                "executeAsSelf": true,
+                "type": "command",
+                "displayName": "Gifted"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "subscription": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "condition": {
+                  "target": "$playerName",
+                  "horiRadius": "4",
+                  "vertRadius": "2",
+                  "tries": "8",
+                  "variableName": "can_spawn",
+                  "customHeight": "2",
+                  "type": "freeSpace",
+                  "displayName": "not_spawning_people_in_the_wall"
+                },
+                "outcome": {
+                  "command": "/playermobs spawn $user $can_spawn",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "Subs"
+                },
+                "conditionNotMetOutcome": {
+                  "condition": {
+                    "target": "$playerName",
+                    "horiRadius": "4",
+                    "vertRadius": "2",
+                    "tries": "8",
+                    "variableName": "can_spawn_baby",
+                    "customHeight": "1",
+                    "type": "freeSpace",
+                    "displayName": "CanSpawnBaby"
+                  },
+                  "outcome": {
+                    "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "SubsBaby"
+                  },
+                  "conditionNotMetOutcome": {
+                    "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "SubsEnderSlime"
+                  },
+                  "type": "conditional",
+                  "displayName": "2_high_fail_spawn_baby"
+                },
+                "type": "conditional"
+              },
+              {
+                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          },
+          {
+            "conditions": [],
+            "outcomes": []
+          }
+        ],
+        "follow": [],
+        "host": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just hosted you for up to $amount viewers!",
+                "type": "chat"
+              }
+            ],
+            "playTime": "20"
+          }
+        ],
+        "raid": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just raided you with $amount raiders!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "queue": [
+        "host+subscription+bits",
+        "follow"
+      ],
+      "for": "twitch_account"
+    },
+    {
+      "types": {
+        "donation": [
+          {
+            "name": "tip 5 dollars",
+            "conditions": [
+              {
+                "amount": 5.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "condition": {
+                  "target": "$playerName",
+                  "horiRadius": "4",
+                  "vertRadius": "2",
+                  "tries": "8",
+                  "variableName": "can_spawn",
+                  "customHeight": "2",
+                  "type": "freeSpace",
+                  "displayName": "not_spawning_people_in_the_wall"
+                },
+                "outcome": {
+                  "command": "/playermobs spawn $user $can_spawn",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "Subs"
+                },
+                "conditionNotMetOutcome": {
+                  "condition": {
+                    "target": "$playerName",
+                    "horiRadius": "4",
+                    "vertRadius": "2",
+                    "tries": "8",
+                    "variableName": "can_spawn_baby",
+                    "customHeight": "1",
+                    "type": "freeSpace",
+                    "displayName": "CanSpawnBaby"
+                  },
+                  "outcome": {
+                    "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "SubsBaby"
+                  },
+                  "conditionNotMetOutcome": {
+                    "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "SubsEnderSlime"
+                  },
+                  "type": "conditional",
+                  "displayName": "2_high_fail_spawn_baby"
+                },
+                "type": "conditional"
+              },
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tele",
+            "conditions": [
+              {
+                "amount": 7.77,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/swapthings randomteleport @s",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          },
+          {
+            "name": "tip 10 dollars",
+            "conditions": [
+              {
+                "amount": 10.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "2",
+                "type": "repeat",
+                "displayName": "single_outcome_repeat",
+                "outcome": {
+                  "condition": {
+                    "target": "$playerName",
+                    "horiRadius": "4",
+                    "vertRadius": "2",
+                    "tries": "8",
+                    "variableName": "can_spawn",
+                    "customHeight": "2",
+                    "type": "freeSpace",
+                    "displayName": "not_spawning_people_in_the_wall"
+                  },
+                  "outcome": {
+                    "command": "/playermobs spawn $user $can_spawn",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "Subs"
+                  },
+                  "conditionNotMetOutcome": {
+                    "condition": {
+                      "target": "$playerName",
+                      "horiRadius": "4",
+                      "vertRadius": "2",
+                      "tries": "8",
+                      "variableName": "can_spawn_baby",
+                      "customHeight": "1",
+                      "type": "freeSpace",
+                      "displayName": "CanSpawnBaby"
+                    },
+                    "outcome": {
+                      "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                      "executeAsSelf": true,
+                      "type": "command",
+                      "displayName": "SubsBaby"
+                    },
+                    "conditionNotMetOutcome": {
+                      "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+                      "executeAsSelf": true,
+                      "type": "command",
+                      "displayName": "SubsEnderSlime"
+                    },
+                    "type": "conditional",
+                    "displayName": "2_high_fail_spawn_baby"
+                  },
+                  "type": "conditional"
+                }
+              },
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tele",
+            "conditions": [
+              {
+                "amount": 7.77,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/swapthings randomteleport @s",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          },
+          {
+            "name": "Mount me",
+            "conditions": [
+              {
+                "amount": 2.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/swapthings summonmount @s $user",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      }
+    }
+  ],
+  "init": [],
+  "type": "streamlabs"
+}

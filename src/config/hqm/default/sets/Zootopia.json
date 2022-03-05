@@ -1,0 +1,287 @@
+{
+  "name": "Zootopia",
+  "quests": [
+    {
+      "uuid": "af58c401-ff7d-4cfc-bf0a-45957739ccdc",
+      "name": "Rabbit",
+      "description": "Unnamed quest",
+      "x": 45,
+      "y": 136,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:rabbit"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:cabbage_rolls",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:rabbit"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb1c133e-5904-4fd1-a614-d858bd3ec066",
+      "name": "Villager",
+      "description": "Unnamed quest",
+      "x": 145,
+      "y": 74,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:villager"
+        }
+      },
+      "prerequisites": [
+        "0a559c96-214f-4509-aad9-5e1f3b655a3c",
+        "6020b273-fc2a-4730-9a20-2f36f4a1c3e9",
+        "d503f5ec-69d7-4e7f-bfb6-9849ffaca63c",
+        "0ab32fc0-7b47-4941-8af0-8683bafae6b9",
+        "af58c401-ff7d-4cfc-bf0a-45957739ccdc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:villager"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0ab32fc0-7b47-4941-8af0-8683bafae6b9",
+      "name": "Chicken",
+      "description": "Unnamed quest",
+      "x": 45,
+      "y": 108,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:chicken"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "graveyard:yellow_urn",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:chicken"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6020b273-fc2a-4730-9a20-2f36f4a1c3e9",
+      "name": "Pig",
+      "description": "Unnamed quest",
+      "x": 46,
+      "y": 44,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:pig"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:carrot_on_a_stick",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:pig"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d503f5ec-69d7-4e7f-bfb6-9849ffaca63c",
+      "name": "Cow",
+      "description": "Unnamed quest",
+      "x": 46,
+      "y": 74,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:cow"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:cow"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a559c96-214f-4509-aad9-5e1f3b655a3c",
+      "name": "Sheep",
+      "description": "Unnamed quest",
+      "x": 47,
+      "y": 15,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:sheep"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:white_wool",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:sheep"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1c6d6b94-dfbd-4aaf-b05f-1158fab142f7",
+      "name": "Mooshroom",
+      "description": "Unnamed quest",
+      "x": 103,
+      "y": 74,
+      "icon": {
+        "id": "animalcrops:seeds",
+        "Count": 1,
+        "tag": {
+          "entity": "minecraft:mooshroom"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:mycelium",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d503f5ec-69d7-4e7f-bfb6-9849ffaca63c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "animalcrops:seeds",
+          "Count": 1,
+          "tag": {
+            "entity": "minecraft:mooshroom"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

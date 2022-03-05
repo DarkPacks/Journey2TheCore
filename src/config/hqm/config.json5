@@ -2,18 +2,18 @@
 	// Settings related to hardcore mode
 	"Hardcore": {
 		// How many lives players should start with.
-		"DEFAULT_LIVES": 3,
+		"DEFAULT_LIVES": 1,
 		// Define in seconds how long the rot timer is.
 		"HEART_ROT_TIME": 120,
 		// Set to true to enable the heart rot timer
 		"HEART_ROT_ENABLE": false,
 		// Use this to set the maximum lives obtainable
-		"MAX_LIVES": 20,
+		"MAX_LIVES": 5,
 	},
 	// Settings related to server start & modes
 	"Starting": {
 		// If set to true, new worlds will automatically activate Hardcore mode
-		"AUTO_HARDCORE": false,
+		"AUTO_HARDCORE": true,
 		// If set to true, new worlds will automatically activate Questing mode
 		"AUTO_QUESTING": true,
 	},

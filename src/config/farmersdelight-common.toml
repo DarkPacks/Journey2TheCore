@@ -36,16 +36,16 @@
 #World generation
 [world]
 	#Generate crop items on a Shipwreck's supply chests
-	cropsOnShipwreckSupplyLoot = true
+	cropsOnShipwreckSupplyLoot = false
 	#Generate crop items on Village houses (all biomes)
-	cropsOnVillageHouseLoot = true
+	cropsOnVillageHouseLoot = false
 	#Generate Compost Heaps across all village biomes
-	genVillageCompostHeaps = true
+	genVillageCompostHeaps = false
 
 	#Wild Cabbage generation
 	[world.wild_cabbages]
 		#Generate wild cabbages on beaches
-		genWildCabbages = true
+		genWildCabbages = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
@@ -53,7 +53,7 @@
 	#Sea Beet generation
 	[world.wild_beetroots]
 		#Generate sea beets on beaches
-		genWildBeetroots = true
+		genWildBeetroots = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
@@ -61,7 +61,7 @@
 	#Wild Potato generation
 	[world.wild_potatoes]
 		#Generate wild potatoes on cold biomes (temperature between 0.0 and 0.3)
-		genWildPotatoes = true
+		genWildPotatoes = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
@@ -69,7 +69,7 @@
 	#Wild Carrot generation
 	[world.wild_carrots]
 		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
-		genWildCarrots = true
+		genWildCarrots = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
@@ -77,7 +77,7 @@
 	#Wild Onion generation
 	[world.wild_onions]
 		#Generate wild onions on temperate biomes (temperature between 0.4 and 0.9)
-		genWildOnions = true
+		genWildOnions = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
@@ -85,7 +85,7 @@
 	#Tomato Vines generation
 	[world.wild_tomatoes]
 		#Generate tomato vines on arid biomes (temperature 1.0 or higher)
-		genWildTomatoes = true
+		genWildTomatoes = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
@@ -93,7 +93,7 @@
 	#Wild Rice generation
 	[world.wild_rice]
 		#Generate wild rice on swamps and jungles
-		genWildRice = true
+		genWildRice = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 20

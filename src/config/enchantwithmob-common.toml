@@ -8,6 +8,8 @@ enchantOnSpawnExclusionMobs = ["minecraft:wither", "minecraft:ender_dragon"]
 "Enchant yourself" = true
 #Allow the specific mob from alway receiveing enchantments on spawn. Use the full name, eg: minecraft:zombie.
 alwayEnchantableMobs = []
-#Change Size When Enchanted. [true / false]
-"Change Size When Enchanted" = true
+#Enable Change Size When Enchanted. [true / false]
+"Change Size" = true
+#Enable Increase Health like Dungeons When Enchanted. [true / false]
+"Increase Health like Dungeons" = false
 
