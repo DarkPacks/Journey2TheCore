@@ -16,7 +16,7 @@
         "type": "minecraft:uniform",
         "min_inclusive":
         {
-          "absolute": 528
+          "absolute": 5
         },
         "max_inclusive":
         {
@@ -38,7 +38,8 @@
           "minecraft:stone",
           "minecraft:deepslate",
           "create:ochrum",
-          "minecraft:podzol"
+          "minecraft:podzol",
+          "minecraft:mycelium"
         ]
       }
     }

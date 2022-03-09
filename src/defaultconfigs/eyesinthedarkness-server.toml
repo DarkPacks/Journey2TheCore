@@ -77,7 +77,7 @@
 	SpawnCycleInterval = 150
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 2
+	MaxEyesAroundPlayer = 5
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
 	MaxTotalEyesPerDimension = 15
@@ -89,7 +89,7 @@
 	SpawnCycleInterval = 50
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 3
+	MaxEyesAroundPlayer = 5
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
 	MaxTotalEyesPerDimension = 15

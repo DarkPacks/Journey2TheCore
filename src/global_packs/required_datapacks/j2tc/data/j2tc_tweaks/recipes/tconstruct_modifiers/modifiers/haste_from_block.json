@@ -1,10 +1,14 @@
 {
   "type": "tconstruct:incremental_modifier",
-  "input": {
-    "tag": "forge:storage_blocks/redstone"
-  },
-  "amount_per_item": 9,
-  "needed_per_level": 45,
+  "inputs": [
+    {
+      "type": "forge:nbt",
+      "item": "turkeydevutil:book",
+      "nbt": "{display:{Name:'{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:haste\"}"
+    }
+  ],
+  "amount_per_item": 1,
+  "needed_per_level": 1,
   "leftover": "minecraft:redstone",
   "tools": [
     {
@@ -14,10 +18,12 @@
       "tag": "tconstruct:modifiable/armor/chestplate"
     }
   ],
-  "slots": {
+  "slots":
+  {
     "upgrades": 1
   },
-  "result": {
+  "result":
+  {
     "name": "tconstruct:haste",
     "level": 1
   },

@@ -16,7 +16,7 @@
 	physInterval = 6
 	#How long after world start until the physics system kicks in (DO NOT SET TOO LOW) [default: 1000]
 	#Range: > 0
-	worldDelay = 1000
+	worldDelay = 1250
 	#Setting Large Ice Cracking to true can cause Massive Lag [default: false]
 	spreadIce = false
 	#Stone Cracks Before Falling [default: true]

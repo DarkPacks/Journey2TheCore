@@ -11,7 +11,7 @@
 	magma_monster_max_spawn_size_ow = 3
 	#Over World Magma Monster Chance Probability
 	#Range: > 1
-	magma_monster_chance_ow = 20
+	magma_monster_chance_ow = 40
 	#Spawn Nether Magma Monsters
 	magma_monster_nether_spawns = true
 	#Nether Magma Monster Group Minimum Size
@@ -22,10 +22,10 @@
 	magma_monster_max_spawn_size_n = 3
 	#Nether Magma Monster Chance Probability
 	#Range: > 1
-	magma_monster_chance_n = 20
+	magma_monster_chance_n = 40
 	#Magma Monster Max Y Spawn Height
 	#Range: -2032 ~ 2032
-	magma_monster_max_y = 256
+	magma_monster_max_y = 688
 	#Spawn Fire Whilst On Flamable Blocks
 	magma_monster_burns_blocks = true
 	#Magma Monster Health
@@ -69,7 +69,7 @@
 	magma_monster_grunt_chance_n = 20
 	#Magma Monster Grunt Max Y Spawn Height
 	#Range: -2032 ~ 2032
-	magma_monster_grunt_max_y = 256
+	magma_monster_grunt_max_y = 688
 	#Spawn Fire Whilst Grunt On Flamable Blocks
 	magma_monster_grunt_burns_blocks = true
 	#Magma Monster Grunt Health

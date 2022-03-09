@@ -21,7 +21,8 @@
     "com.traverse.bhc.client.screens.HeartAmuletScreen": true,
     "moze_intel.projecte.gameObjs.gui.GUITransmutation": true,
     "slimeknights.tconstruct.tools.client.ToolContainerScreen": true,
-    "net.minecraft.client.gui.screens.PauseScreen": true
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "journeymap.client.ui.component.ScrollPaneScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

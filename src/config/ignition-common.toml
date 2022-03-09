@@ -1,0 +1,9 @@
+
+#General settings
+[General]
+	#The delay between torch ticks [Default: 60]
+	#Range: > 1
+	torchTickDelay = 60
+	#Make the ticking completely random [Default: false]
+	randomTicking = false
+

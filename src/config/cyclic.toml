@@ -96,6 +96,10 @@
 			#Range: 0 ~ 99999
 			cooldown = 20
 
+		[cyclic.enchantment.steady]
+			#Set false to disable enchantment
+			enabled = true
+
 	#####################################################################################
 	# Worldgen settings  
 	#####################################################################################

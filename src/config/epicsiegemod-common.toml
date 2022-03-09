@@ -2,7 +2,7 @@
 #General settings
 [General]
 	#Mobs that are exempt from AI modifications [default: [minecraft:iron_golem]
-	AI_Blacklist = ["minecraft:iron_golem"]
+	AI_Blacklist = ["minecraft:iron_golem", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt"]
 	#Prevents players skipping the night through sleep [default: false]
 	allowSleep = false
 	#Awareness Radius [default: 64]
@@ -16,7 +16,7 @@
 	pathingCap = 16
 	#Temporary invulnerability in ticks when respawning and teleporting [default: 200]
 	#Range: > 0
-	resistanceCooldown = 200
+	resistanceCooldown = 400
 	#Xray Distance [default: 64]
 	#Range: > 0
 	xrayDistance = 40
@@ -88,7 +88,7 @@
 	breaching = true
 	#AND HIS NAME IS... [default: 0.01]
 	#Range: 0.0 ~ 1.0
-	cenaChance = 0.01
+	cenaChance = 0.005
 	#The chance a Creeper will spawn riding another mob [default: 0.1]
 	#Range: 0.0 ~ 1.0
 	creeperJockeyChance = 0.1
@@ -98,7 +98,7 @@
 	napalm = true
 	#The chance a Creeper will spawn pre-powered [default: 0.1]
 	#Range: 0.0 ~ 1.0
-	poweredRarity = 0.1
+	poweredRarity = 0.01
 	#Creepers will continue approaching their target while arming [default: true]
 	walkingFuse = true
 

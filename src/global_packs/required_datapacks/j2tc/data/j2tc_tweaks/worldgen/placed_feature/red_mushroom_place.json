@@ -16,7 +16,7 @@
         "type": "minecraft:trapezoid",
         "min_inclusive":
         {
-          "absolute": 528
+          "absolute": 5
         },
         "max_inclusive":
         {
@@ -40,7 +40,8 @@
           "minecraft:andesite",
           "create:limestone",
           "minecraft:diorite",
-          "minecraft:podzol"
+          "minecraft:podzol",
+          "minecraft:mycelium"
         ]
       }
     }

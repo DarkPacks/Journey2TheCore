@@ -307,7 +307,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:sharpness",
@@ -321,7 +321,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:knockback",
@@ -335,7 +335,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:fiery",
@@ -349,7 +349,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:necrotic",
@@ -570,6 +570,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "932e2108-e6ca-4e19-a40a-780221dc450d",
+      "name": "Rotten Flesh to Leather",
+      "description": "Use the presser to make Leather from Rotten Flesh",
+      "x": 114,
+      "y": 66,
+      "icon": {
+        "id": "minecraft:leather",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:leather",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "00f00377-3d71-46a0-a266-70a30e7e99b5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "alexsmobs:pocket_sand",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "tconstruct:tool_binding",
+          "Count": 1,
+          "tag": {
+            "Material": "tconstruct:leather"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1add4027-1e40-4797-aa91-965865f243bb",
       "name": "Beehave",
       "description": "Plant the Bee Seed on Grass or Dirt. Water. Magic!",
@@ -737,7 +783,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:sharpness",
@@ -751,7 +797,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:knockback",
@@ -765,7 +811,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:fiery",
@@ -779,7 +825,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:necrotic",

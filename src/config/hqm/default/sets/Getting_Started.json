@@ -482,7 +482,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:haste",
@@ -496,7 +496,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:luck",
@@ -510,7 +510,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:reinforced",
@@ -1212,6 +1212,127 @@
       "commandrewards": []
     },
     {
+      "uuid": "866fc362-44e0-46c8-812e-ace95546a9c9",
+      "name": "Actually Useful",
+      "description": "Collect Cobbled Andesite, Diorite, Granite, and Cobblestone to make an upgraded Pickaxe Head",
+      "x": 135,
+      "y": 116,
+      "icon": {
+        "id": "tconstruct:pick_head",
+        "Count": 1,
+        "tag": {
+          "Material": "tconstruct:rock"
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cobblestoney:andesite_cobbled",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "cobblestoney:granite_cobbled",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "cobblestoney:diorite_cobbled",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:cobblestone",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": {
+            "Material": "tconstruct:slimewood"
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:haste",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:luck",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:reinforced",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": {
+            "modifier_book": "tconstruct:glowing",
+            "display": {
+              "Lore": [
+                "{\"text\":\"Use this book to add a modifier\"}",
+                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
+              ],
+              "Name": "{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}"
+            }
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "f92f705c-bd8e-453c-aa60-3654e6c462df",
       "name": "Zombies",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
@@ -1887,7 +2008,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:magnetic",
@@ -1901,7 +2022,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:haste",
@@ -1915,7 +2036,7 @@
           }
         },
         {
-          "id": "minecraft:book",
+          "id": "turkeydevutil:book",
           "Count": 1,
           "tag": {
             "modifier_book": "tconstruct:feather_falling",

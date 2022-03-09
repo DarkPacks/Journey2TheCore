@@ -2,7 +2,7 @@
   "feature": "j2tc_tweaks:oregen/copper_ore",
   "placement": [
     {
-      "count": 36,
+      "count": 72,
       "type": "minecraft:count"
     },
     {
@@ -13,11 +13,11 @@
       {
         "min_inclusive":
         {
-          "absolute": 396
+          "absolute": 0
         },
         "max_inclusive":
         {
-          "absolute": 0
+          "absolute": 396
         },
         "type": "minecraft:uniform"
       },

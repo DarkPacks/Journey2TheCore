@@ -2,16 +2,21 @@
   "type": "tconstruct:modifier",
   "inputs": [
     {
-      "item": "minecraft:compass"
+      "type": "forge:nbt",
+      "item": "turkeydevutil:book",
+      "nbt": "{display:{Name:'{\"text\":\"Modifier: Magnetic\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:magnetic\"}"
     }
   ],
-  "tools": {
+  "tools":
+  {
     "tag": "tconstruct:modifiable/armor"
   },
-  "slots": {
+  "slots":
+  {
     "upgrades": 1
   },
-  "result": {
+  "result":
+  {
     "name": "tconstruct:magnetic",
     "level": 1
   },

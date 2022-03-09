@@ -36,7 +36,6 @@
     "minecraft:tall_seagrass",
     "minecraft:kelp",
     "minecraft:kelp_plant",
-    "minecraft:deepslate",
     "minecraft:tuff",
     "minecraft:glow_lichen",
     "minecraft:vine",
@@ -49,6 +48,7 @@
     "minecraft:rooted_dirt",
     "create:limestone",
     "biomesoplenty:dried_salt",
-    "minecraft:stripped_oak_log"
+    "minecraft:stripped_oak_log",
+    "minecraft:deepslate"
   ]
 }

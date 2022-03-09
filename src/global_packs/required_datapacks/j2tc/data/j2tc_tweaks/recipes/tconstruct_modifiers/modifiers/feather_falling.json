@@ -1,17 +1,24 @@
 {
   "type": "tconstruct:incremental_modifier",
-  "input": {
-    "item": "minecraft:feather"
-  },
+  "inputs": [
+    {
+      "type": "forge:nbt",
+      "item": "turkeydevutil:book",
+      "nbt": "{display:{Name:'{\"text\":\"Modifier: Feather Falling\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:feather_falling\"}"
+    }
+  ],
   "amount_per_item": 1,
-  "needed_per_level": 40,
-  "tools": {
+  "needed_per_level": 1,
+  "tools":
+  {
     "tag": "tconstruct:modifiable/armor/boots"
   },
-  "slots": {
+  "slots":
+  {
     "upgrades": 1
   },
-  "result": {
+  "result":
+  {
     "name": "tconstruct:feather_falling",
     "level": 1
   },

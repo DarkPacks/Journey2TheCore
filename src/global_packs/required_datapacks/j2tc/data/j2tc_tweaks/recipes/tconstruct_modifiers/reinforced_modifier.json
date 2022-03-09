@@ -3,17 +3,20 @@
   "inputs": [
     {
       "type": "forge:nbt",
-      "item": "minecraft:book",
+      "item": "turkeydevutil:book",
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:reinforced\"}"
     }
   ],
-  "tools": {
+  "tools":
+  {
     "tag": "tconstruct:modifiable/durability"
   },
-  "slots": {
+  "slots":
+  {
     "upgrades": 1
   },
-  "result": {
+  "result":
+  {
     "name": "tconstruct:reinforced",
     "level": 1
   },

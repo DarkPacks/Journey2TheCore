@@ -1,12 +1,15 @@
 {
-  "config": {
+  "config":
+  {
     "targets": [
       {
-        "target": {
-          "tag": "minecraft:base_stone_overworld",
+        "target":
+        {
+          "tag": "minecraft:base_stone_nether",
           "predicate_type": "minecraft:tag_match"
         },
-        "state": {
+        "state":
+        {
           "Name": "minecraft:basalt"
         }
       }

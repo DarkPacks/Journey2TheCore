@@ -33,7 +33,7 @@
 	stone_creeper_max_spawn_size = 3
 	#Stone Creeper Weight (higher numbers = more)
 	#Range: > 1
-	stone_creeper_weight = 20
+	stone_creeper_weight = 25
 	#Stone Creeper Min Y Spawn Height
 	#Range: -2032 ~ 2032
 	stone_creeper_min_y = -64
@@ -60,7 +60,7 @@
 	cluster_creeper_max_spawn_size = 3
 	#Cluster Creeper Weight (higher numbers = more)
 	#Range: > 1
-	cluster_creeper_weight = 20
+	cluster_creeper_weight = 25
 	#Cluster Creeper Min Y Spawn Height
 	#Range: -2032 ~ 2032
 	cluster_creeper_min_y = -64
@@ -82,13 +82,13 @@
 	super_charged_creeper_max_spawn_size = 3
 	#Super Charged Creeper Weight (higher numbers = more)
 	#Range: > 1
-	super_charged_creeper_weight = 20
+	super_charged_creeper_weight = 10
 	#Super Charged Creeper Min Y Spawn Height
 	#Range: -2032 ~ 2032
 	super_charged_creeper_min_y = -64
 	#Super Charged Creeper Max Y Spawn Height
 	#Range: -2032 ~ 2032
-	super_charged_creeper_max_y = 688
+	super_charged_creeper_max_y = 528
 	#Super Charged Creeper Dimension Blacklist
 	super_charged_creeper_dimensions = []
 	#Super Charged Creeper Explosion Radius
@@ -107,7 +107,7 @@
 	ambush_creeper_max_spawn_size = 3
 	#Ambush Creeper Weight (higher numbers = more)
 	#Range: > 1
-	ambush_creeper_weight = 20
+	ambush_creeper_weight = 15
 	#Ambush Creeper Min Y Spawn Height
 	#Range: -2032 ~ 2032
 	ambush_creeper_min_y = -64
