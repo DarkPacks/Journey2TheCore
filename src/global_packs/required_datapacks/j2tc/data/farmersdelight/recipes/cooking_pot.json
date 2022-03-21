@@ -1,19 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "bb",
+    "b b",
     "i i",
     "iii"
   ],
-  "key": {
-    "b": {
+  "key":
+  {
+    "b":
+    {
       "item": "minecraft:brick"
     },
-    "i": {
+    "i":
+    {
       "tag": "forge:ingots/copper"
     }
   },
-  "result": {
+  "result":
+  {
     "item": "farmersdelight:cooking_pot"
   }
 }

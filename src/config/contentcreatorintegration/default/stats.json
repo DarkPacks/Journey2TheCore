@@ -8,8 +8,8 @@
     {
       "layer": "streamlabs",
       "type": "bits",
-      "count": 23,
-      "amount": 8800.0
+      "count": 27,
+      "amount": 9400.0
     },
     {
       "layer": "streamlabs",
@@ -26,20 +26,20 @@
     {
       "layer": "streamlabs",
       "type": "raid",
-      "count": 9,
-      "amount": 330.0
+      "count": 12,
+      "amount": 475.0
     },
     {
       "layer": "streamlabs",
       "type": "subMysteryGift",
-      "count": 56,
-      "amount": 300.0
+      "count": 67,
+      "amount": 349.0
     },
     {
       "layer": "streamlabs",
       "type": "subscription",
-      "count": 498,
-      "amount": 6694.0
+      "count": 654,
+      "amount": 10250.0
     }
   ]
 }

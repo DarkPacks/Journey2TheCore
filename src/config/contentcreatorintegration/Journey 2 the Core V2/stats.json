@@ -1,0 +1,38 @@
+{
+  "stats": [
+    {
+      "layer": "chat",
+      "type": "message",
+      "count": 54
+    },
+    {
+      "layer": "streamlabs",
+      "type": "bits",
+      "count": 41,
+      "amount": 19194.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "follow",
+      "count": 33
+    },
+    {
+      "layer": "streamlabs",
+      "type": "raid",
+      "count": 4,
+      "amount": 33.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "subMysteryGift",
+      "count": 9,
+      "amount": 44.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "subscription",
+      "count": 355,
+      "amount": 8784.0
+    }
+  ]
+}

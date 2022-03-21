@@ -1,0 +1,16 @@
+
+[General]
+	#Automatically copy results
+	autoCopy = false
+
+[HUD]
+	#Delay between chunk data refreshes
+	#Range: > 10
+	chunkRendererDelay = 500
+	#Radius used for debug chunk rendering
+	#Range: > 1
+	chunkRendererRadius = 5
+	#Delay between entity HUD data refreshes
+	#Range: > 10
+	hudEntityDelay = 250
+

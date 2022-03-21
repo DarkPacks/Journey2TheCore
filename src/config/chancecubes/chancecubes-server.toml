@@ -11,7 +11,7 @@
 	#Set to true if the mod should ignore chance values and give each reward and equal chance to be picked
 	RewardsEqualChance = true
 	#Set to true Giant Chance Cubes should be disabled
-	DisableGiantCC = false
+	DisableGiantCC = true
 	#Set to true if the default rewards should be loaded, false if they shouldn't
 	EnableDefaultRewards = true
 	#Number of uses for a pendant

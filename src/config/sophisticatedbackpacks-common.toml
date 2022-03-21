@@ -5,6 +5,8 @@
 	disallowedItems = []
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
+	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
+	itemFluidHandlerEnabled = true
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -131,7 +133,7 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
-		#Range around backpack in blocks at which magnet will pickup items
+		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
 		magnetRange = 3
 
@@ -143,7 +145,7 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
-		#Range around backpack in blocks at which magnet will pickup items
+		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
 		magnetRange = 5
 

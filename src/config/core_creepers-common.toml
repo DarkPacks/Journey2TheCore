@@ -2,7 +2,7 @@
 #Dirt Creeper Settings
 ["Dirt Creeper Settings"]
 	#Spawn Dirt Creepers
-	dirt_creeper_spawns = true
+	dirt_creeper_spawns = false
 	#Dirt Creeper Group Minimum Size
 	#Range: > 1
 	dirt_creeper_min_spawn_size = 1
@@ -24,7 +24,7 @@
 #Stone Creeper Settings
 ["Stone Creeper Settings"]
 	#Spawn Stone Creepers
-	stone_creeper_spawns = true
+	stone_creeper_spawns = false
 	#Stone Creeper Group Minimum Size
 	#Range: > 1
 	stone_creeper_min_spawn_size = 1
@@ -46,9 +46,9 @@
 #Cluster Creeper Settings
 ["Cluster Creeper Settings"]
 	#Spawn Cluster Creepers
-	cluster_creeper_spawns = true
+	cluster_creeper_spawns = false
 	#Cluster Creepers Can Spawn a random Super Charged Creeper
-	cluster_creeper_sc_spawns = true
+	cluster_creeper_sc_spawns = false
 	#Random Super Charged Spawn Chance (lower = more)
 	#Range: > 1
 	cluster_creeper_sc_spawns_weight = 20
@@ -73,7 +73,7 @@
 #Super Charged Creeper Settings
 ["Super Charged Creeper Settings"]
 	#Spawn Super Charged Creepers
-	super_charged_creeper_spawns = true
+	super_charged_creeper_spawns = false
 	#Super Charged Creeper Group Minimum Size
 	#Range: > 1
 	super_charged_creeper_min_spawn_size = 1
@@ -98,7 +98,7 @@
 #Dirt Creeper Settings
 ["Ambush Creeper Settings"]
 	#Spawn Ambush Creepers
-	ambush_creeper_spawns = true
+	ambush_creeper_spawns = false
 	#Ambush Creeper Group Minimum Size
 	#Range: > 1
 	ambush_creeper_min_spawn_size = 1

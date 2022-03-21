@@ -1,0 +1,6 @@
+
+[General]
+	#How often Impost Ores will spawn from ores
+	#Range: 0.01 ~ 1.0
+	impost_ore_spawn_chance = 0.025
+

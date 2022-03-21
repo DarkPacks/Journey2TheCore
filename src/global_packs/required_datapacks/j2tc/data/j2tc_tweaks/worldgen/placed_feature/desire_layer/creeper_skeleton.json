@@ -1,0 +1,45 @@
+{
+  "feature": "j2tc_tweaks:desire_layer/creeper_skeleton",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "brazierwgu:multiple_layers",
+      "layers": 4,
+      "tries": 8
+    },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": 396
+        },
+        "max_inclusive":
+        {
+          "absolute": 528
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate":
+      {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "create:limestone",
+          "minecraft:deepslate",
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

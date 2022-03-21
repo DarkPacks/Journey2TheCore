@@ -13,11 +13,11 @@
       {
         "min_inclusive":
         {
-          "absolute": 264
+          "absolute": 397
         },
         "max_inclusive":
         {
-          "absolute": 396
+          "absolute": 528
         },
         "type": "minecraft:uniform"
       },

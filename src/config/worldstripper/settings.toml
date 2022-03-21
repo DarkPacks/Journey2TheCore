@@ -3,10 +3,10 @@
 [SETTINGS]
 	#Strip Radius: X
 	#Range: 0 ~ 256
-	stripRadiusX = 128
+	stripRadiusX = 16
 	#Strip Radius: Z
 	#Range: 0 ~ 256
-	stripRadiusZ = 128
+	stripRadiusZ = 16
 	#Strip Start: Y
 	#Range: -10240 ~ 10240
 	stripStartY = 688

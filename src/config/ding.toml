@@ -8,7 +8,7 @@
 	#EG: "modname:modsound.boing"
 	#
 	#If you want to use external sounds, consider looking into the mod Additional Resources
-	name = "entity.experience_orb.pickup"
+	name = "turkeydevutil:j2tc.welcome"
 	#Pitch of the sound (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
 	pitch = 1.0
@@ -17,7 +17,7 @@
 	#Resource Location based name of the sound file to play when the world finishes loading (after connecting to a server).
 	#
 	#Look at the "name" config for more details.
-	nameWorld = "entity.experience_orb.pickup"
+	nameWorld = "turkeydevutil:j2tc.welcome"
 	#Pitch of the sound (when the world loads after connecting to a server)
 	#Range: 0.0 ~ 10.0
 	pitchWorld = 1.0
@@ -26,7 +26,7 @@
 	#Resource Location based name of the sound file to play when resources complete reloading.
 	#
 	#Look at the "name" config for more details.
-	nameResourcesReload = "entity.experience_orb.pickup"
+	nameResourcesReload = "turkeydevutil:j2tc.welcome"
 	#Pitch of the sound (when resources complete reloading)
 	#Range: 0.0 ~ 10.0
 	pitchResourcesReload = 1.0

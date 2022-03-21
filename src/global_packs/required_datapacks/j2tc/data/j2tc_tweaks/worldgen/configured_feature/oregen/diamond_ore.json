@@ -5,7 +5,7 @@
       {
         "target":
         {
-          "tag": "minecraft:stone_ore_replaceables",
+          "tag": "j2tc_tweaks:greed_anger_diamond",
           "predicate_type": "minecraft:tag_match"
         },
         "state":

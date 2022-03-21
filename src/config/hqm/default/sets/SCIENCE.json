@@ -228,7 +228,17 @@
         "b0700d3e-bb37-46cf-952e-ca29a26f00d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": {
+            "silentlib.LootContainer": {
+              "BagType": "j2tc_tweaks:seed_food_bag"
+            }
+          }
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },

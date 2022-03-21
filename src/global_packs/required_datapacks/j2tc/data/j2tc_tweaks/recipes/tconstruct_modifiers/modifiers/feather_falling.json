@@ -1,5 +1,5 @@
 {
-  "type": "tconstruct:incremental_modifier",
+  "type": "tconstruct:modifier",
   "inputs": [
     {
       "type": "forge:nbt",

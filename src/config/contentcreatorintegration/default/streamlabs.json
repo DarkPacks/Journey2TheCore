@@ -15,8 +15,6 @@
             "outcomes": [
               {
                 "times": "2",
-                "type": "repeat",
-                "displayName": "single_outcome_repeat",
                 "outcome": {
                   "condition": {
                     "target": "$playerName",
@@ -29,7 +27,7 @@
                     "displayName": "not_spawning_people_in_the_wall"
                   },
                   "outcome": {
-                    "command": "/playermobs spawn $user $can_spawn",
+                    "command": "/playermobs spawn $user $can_spawn ^ ^ ^4",
                     "executeAsSelf": true,
                     "type": "command",
                     "displayName": "Subs"
@@ -46,7 +44,7 @@
                       "displayName": "CanSpawnBaby"
                     },
                     "outcome": {
-                      "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                      "command": "/summon player_mobs:player_mob ^ ^ ^4 $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
                       "executeAsSelf": true,
                       "type": "command",
                       "displayName": "SubsBaby"
@@ -61,10 +59,12 @@
                     "displayName": "2_high_fail_spawn_baby"
                   },
                   "type": "conditional"
-                }
+                },
+                "type": "repeat",
+                "displayName": "single_outcome_repeat"
               },
               {
-                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               }
             ],
@@ -97,7 +97,7 @@
                   "displayName": "not_spawning_people_in_the_wall"
                 },
                 "outcome": {
-                  "command": "/playermobs spawn $user $can_spawn",
+                  "command": "/playermobs spawn $user $can_spawn ^ ^ ^4",
                   "executeAsSelf": true,
                   "type": "command",
                   "displayName": "Subs"
@@ -114,7 +114,7 @@
                     "displayName": "CanSpawnBaby"
                   },
                   "outcome": {
-                    "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                    "command": "/summon player_mobs:player_mob ^ ^ ^4 $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
                     "executeAsSelf": true,
                     "type": "command",
                     "displayName": "SubsBaby"
@@ -131,7 +131,7 @@
                 "type": "conditional"
               },
               {
-                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               }
             ],
@@ -204,7 +204,7 @@
                 "type": "chat"
               },
               {
-                "command": "/playermobs spawn $user ~ ~ ~",
+                "command": "/playermobs spawn $user ^ ^ ^4",
                 "executeAsSelf": true,
                 "type": "command",
                 "displayName": "Gifted"
@@ -216,28 +216,40 @@
         ],
         "subscription": [
           {
+            "name": "spawn_mobs",
             "conditions": [],
             "outcomes": [
               {
                 "condition": {
                   "target": "$playerName",
-                  "horiRadius": "4",
-                  "vertRadius": "2",
-                  "tries": "8",
-                  "variableName": "can_spawn",
-                  "customHeight": "2",
-                  "type": "freeSpace",
-                  "displayName": "not_spawning_people_in_the_wall"
+                  "argument": "look4",
+                  "variableName": "targetPlayerFront",
+                  "type": "target",
+                  "displayName": "targets_in_front_of_player"
                 },
                 "outcome": {
-                  "command": "/playermobs spawn $user $can_spawn",
-                  "executeAsSelf": true,
-                  "type": "command",
-                  "displayName": "Subs"
+                  "condition": {
+                    "target": "$targetPlayerFront",
+                    "horiRadius": "4",
+                    "vertRadius": "2",
+                    "tries": "8",
+                    "variableName": "can_spawn",
+                    "customHeight": "2",
+                    "type": "freeSpace",
+                    "displayName": "not_spawning_people_in_the_wall"
+                  },
+                  "outcome": {
+                    "command": "/playermobs spawn $user $can_spawn",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "Subs"
+                  },
+                  "type": "conditional",
+                  "displayName": ""
                 },
                 "conditionNotMetOutcome": {
                   "condition": {
-                    "target": "$playerName",
+                    "target": "$targetPlayerFront",
                     "horiRadius": "4",
                     "vertRadius": "2",
                     "tries": "8",
@@ -261,7 +273,8 @@
                   "type": "conditional",
                   "displayName": "2_high_fail_spawn_baby"
                 },
-                "type": "conditional"
+                "type": "conditional",
+                "displayName": "choose_target_in_front_of_player"
               },
               {
                 "message": "Hey $streamer, $user just subscribed for $amount months!",
@@ -270,10 +283,6 @@
             ],
             "allowsOtherEventsToTrigger": true,
             "playTime": "20"
-          },
-          {
-            "conditions": [],
-            "outcomes": []
           }
         ],
         "follow": [],
@@ -331,7 +340,7 @@
                   "displayName": "not_spawning_people_in_the_wall"
                 },
                 "outcome": {
-                  "command": "/playermobs spawn $user $can_spawn",
+                  "command": "/playermobs spawn $user $can_spawn ^ ^ ^4",
                   "executeAsSelf": true,
                   "type": "command",
                   "displayName": "Subs"
@@ -348,7 +357,7 @@
                     "displayName": "CanSpawnBaby"
                   },
                   "outcome": {
-                    "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                    "command": "/summon player_mobs:player_mob ^ ^ ^4 $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
                     "executeAsSelf": true,
                     "type": "command",
                     "displayName": "SubsBaby"
@@ -398,8 +407,6 @@
             "outcomes": [
               {
                 "times": "2",
-                "type": "repeat",
-                "displayName": "single_outcome_repeat",
                 "outcome": {
                   "condition": {
                     "target": "$playerName",
@@ -412,7 +419,7 @@
                     "displayName": "not_spawning_people_in_the_wall"
                   },
                   "outcome": {
-                    "command": "/playermobs spawn $user $can_spawn",
+                    "command": "/playermobs spawn $user $can_spawn ^ ^ ^4",
                     "executeAsSelf": true,
                     "type": "command",
                     "displayName": "Subs"
@@ -429,7 +436,7 @@
                       "displayName": "CanSpawnBaby"
                     },
                     "outcome": {
-                      "command": "/summon player_mobs:player_mob $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
+                      "command": "/summon player_mobs:player_mob ^ ^ ^4 $can_spawn_baby {\"Username\":\"$user\",\"IsBaby\":true}",
                       "executeAsSelf": true,
                       "type": "command",
                       "displayName": "SubsBaby"
@@ -444,7 +451,9 @@
                     "displayName": "2_high_fail_spawn_baby"
                   },
                   "type": "conditional"
-                }
+                },
+                "type": "repeat",
+                "displayName": "single_outcome_repeat"
               },
               {
                 "message": "Hey $streamer, $user just tipped $amount!",

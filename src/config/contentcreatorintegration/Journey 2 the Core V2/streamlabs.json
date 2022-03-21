@@ -1,0 +1,270 @@
+{
+  "configs": [
+    {
+      "types": {
+        "bits": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just sent you $amount bits!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          },
+          {
+            "name": "500 Bits",
+            "conditions": [
+              {
+                "amount": 500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Summon Array",
+                "type": "constant"
+              }
+            ]
+          },
+          {
+            "name": "1000 Bits",
+            "conditions": [
+              {
+                "amount": 1000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "2",
+                "outcome": {
+                  "name": "Summon Array",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ]
+          },
+          {
+            "name": "100 Bits",
+            "conditions": [
+              {
+                "amount": 100.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Fake Crash Array",
+                "type": "constant"
+              }
+            ]
+          }
+        ],
+        "subMysteryGift": [
+          {
+            "name": "Gift Chat Message",
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $name just gave out $amount subs!",
+                "type": "chat"
+              }
+            ],
+            "playTime": "20"
+          },
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "name": "Summon Array",
+                "type": "constant"
+              }
+            ]
+          }
+        ],
+        "subscription": [
+          {
+            "name": "Chat Message for sub",
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 1 Twitch Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "1000",
+                "type": "variableCheck"
+              },
+              {
+                "name": "spawn_checks",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "spawn_armor_stand",
+                "type": "constant",
+                "displayName": "Armor Stand"
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "decide_what_mob_to_spawn",
+                        "type": "constant"
+                      },
+                      {
+                        "name": "kill_armor_stand",
+                        "type": "constant"
+                      }
+                    ],
+                    "delay": "20"
+                  }
+                ],
+                "type": "event",
+                "displayName": "mob spawns"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 2 Twitch Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "2000",
+                "type": "variableCheck"
+              },
+              {
+                "name": "spawn_checks",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "2",
+                "outcome": {
+                  "name": "value500",
+                  "type": "constant"
+                },
+                "type": "repeat",
+                "displayName": ""
+              }
+            ]
+          },
+          {
+            "name": "Tier 3 Twitch Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "3000",
+                "type": "variableCheck"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "6",
+                "outcome": {
+                  "name": "Summon Array",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Prime Gaming Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "Prime",
+                "type": "variableCheck"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Summon Array",
+                "type": "constant"
+              }
+            ]
+          }
+        ],
+        "follow": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just followed!",
+                "type": "chat"
+              }
+            ],
+            "playTime": "20"
+          }
+        ],
+        "host": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just hosted you for up to $amount viewers!",
+                "type": "chat"
+              }
+            ],
+            "playTime": "20"
+          }
+        ],
+        "raid": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just raided you with $amount raiders!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "queue": [
+        "host+subscription+bits",
+        "follow"
+      ],
+      "for": "twitch_account"
+    },
+    {
+      "types": {
+        "donation": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "ignoredTypes": [
+        "streamlabels",
+        "streamlabels.underlying"
+      ]
+    }
+  ],
+  "init": [],
+  "type": "streamlabs"
+}

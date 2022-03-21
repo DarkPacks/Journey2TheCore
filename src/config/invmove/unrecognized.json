@@ -22,7 +22,13 @@
     "moze_intel.projecte.gameObjs.gui.GUITransmutation": true,
     "slimeknights.tconstruct.tools.client.ToolContainerScreen": true,
     "net.minecraft.client.gui.screens.PauseScreen": true,
-    "journeymap.client.ui.component.ScrollPaneScreen": true
+    "journeymap.client.ui.component.ScrollPaneScreen": true,
+    "com.mrbysco.captcha.client.screen.NotARobotScreen": true,
+    "com.mrbysco.captcha.client.screen.MathScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
+    "net.gigabit101.shrink.client.screen.ShrinkScreen": true,
+    "se.gory_moon.chargers.client.ChargerScreen": true,
+    "me.ichun.mods.cci.client.gui.cci.WorkspaceConfigs": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -43,6 +49,10 @@
     "slimeknights.tconstruct.tables.client.inventory.TinkerChestScreen": true,
     "com.traverse.bhc.client.screens.HeartAmuletScreen": true,
     "moze_intel.projecte.gameObjs.gui.GUITransmutation": true,
-    "slimeknights.tconstruct.tools.client.ToolContainerScreen": true
+    "slimeknights.tconstruct.tools.client.ToolContainerScreen": true,
+    "com.mrbysco.captcha.client.screen.NotARobotScreen": true,
+    "com.mrbysco.captcha.client.screen.MathScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
+    "se.gory_moon.chargers.client.ChargerScreen": true
   }
 }

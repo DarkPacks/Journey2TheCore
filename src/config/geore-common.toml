@@ -3,93 +3,93 @@
 [Generation]
 	#Generate Coal GeOre [Default: true]
 	generateCoalGeore = true
-	#The Min Y level that Coal GeOre will generate at (above minimum world height) [Default: 6]
-	#Range: > 0
-	coalGeoreMinY = 6
-	#The max Y level that Coal GeOre will generate at [Default: 30]
-	#Range: > 0
-	coalGeoreMaxY = 30
 	#Generate Copper GeOre [Default: true]
-	generateCopperGeore = true
-	#The Min Y level that Copper GeOre will generate at (above minimum world height) [Default: 6]
-	#Range: > 0
-	copperGeoreMinY = 6
-	#The max Y level that Copper GeOre will generate at [Default: 30]
-	#Range: > 0
-	copperGeoreMaxY = 30
+	generateCopperGeore = false
 	#Generate Diamond GeOre [Default: true]
 	generateDiamondGeore = true
-	#The Min Y level that Diamond GeOre will generate at (above minimum world height) [Default: 6]
-	#Range: > 0
-	diamondGeoreMinY = 6
-	#The max Y level that Diamond GeOre will generate at [Default: 30]
-	#Range: > 0
-	diamondGeoreMaxY = 30
 	#Generate Emerald GeOre [Default: true]
 	generateEmeraldGeore = true
+	#Generate Gold GeOre [Default: true]
+	generateGoldGeore = false
+	#Generate Iron GeOre [Default: true]
+	generateIronGeore = false
+	#Generate Lapis GeOre [Default: true]
+	generateLapisGeore = true
+	#Generate Quartz GeOre [Default: true]
+	generateQuartzGeore = false
+	#Generate Redstone GeOre [Default: true]
+	generateRedstoneGeore = true
+	#Generate Quartz GeOre in the Nether [Default: true]
+	generateQuartzInNetherGeore = true
+	#The Min Y level that Coal GeOre will generate at (above minimum world height) [Default: 6]
+	#Range: > 0
+	coalGeoreMinY = 0
+	#The max Y level that Coal GeOre will generate at [Default: 30]
+	#Range: > 0
+	coalGeoreMaxY = 688
+	#The Min Y level that Copper GeOre will generate at (above minimum world height) [Default: 6]
+	#Range: > 0
+	copperGeoreMinY = 265
+	#The max Y level that Copper GeOre will generate at [Default: 30]
+	#Range: > 0
+	copperGeoreMaxY = 528
+	#The Min Y level that Diamond GeOre will generate at (above minimum world height) [Default: 6]
+	#Range: > 0
+	diamondGeoreMinY = 0
+	#The max Y level that Diamond GeOre will generate at [Default: 30]
+	#Range: > 0
+	diamondGeoreMaxY = 264
 	#The Min Y level that Emerald GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
-	emeraldGeoreMinY = 6
+	emeraldGeoreMinY = 264
 	#The max Y level that Emerald GeOre will generate at [Default: 30]
 	#Range: > 0
-	emeraldGeoreMaxY = 30
-	#Generate Gold GeOre [Default: true]
-	generateGoldGeore = true
+	emeraldGeoreMaxY = 396
 	#The Min Y level that Gold GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
 	goldGeoreMinY = 6
 	#The max Y level that Gold GeOre will generate at [Default: 30]
 	#Range: > 0
 	goldGeoreMaxY = 30
-	#Generate Iron GeOre [Default: true]
-	generateIronGeore = true
 	#The Min Y level that Iron GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
 	ironGeoreMinY = 6
 	#The max Y level that Iron GeOre will generate at [Default: 30]
 	#Range: > 0
 	ironGeoreMaxY = 30
-	#Generate Lapis GeOre [Default: true]
-	generateLapisGeore = true
 	#The Min Y level that Lapis GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
-	lapisGeoreMinY = 6
+	lapisGeoreMinY = 250
 	#The max Y level that Lapis GeOre will generate at [Default: 30]
 	#Range: > 0
-	lapisGeoreMaxY = 30
-	#Generate Quartz GeOre [Default: true]
-	generateQuartzGeore = true
+	lapisGeoreMaxY = 325
 	#The Min Y level that Quartz GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
 	quartzGeoreMinY = 6
 	#The max Y level that Quartz GeOre will generate at [Default: 30]
 	#Range: > 0
 	quartzGeoreMaxY = 30
-	#Generate Quartz GeOre in the Nether [Default: true]
-	generateQuartzInNetherGeore = true
-	#Generate Redstone GeOre [Default: true]
-	generateRedstoneGeore = true
 	#The Min Y level that Redstone GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
-	redstoneGeoreMinY = 6
+	redstoneGeoreMinY = 0
 	#The max Y level that Redstone GeOre will generate at [Default: 30]
 	#Range: > 0
-	redstoneGeoreMaxY = 30
+	redstoneGeoreMaxY = 132
 
 #Rarity settings
 [Rarity]
 	#Coal GeOre Rarity [Default: 60] (The higher the value the rarer)
 	#Range: > 0
-	coalGeoreRarity = 60
+	coalGeoreRarity = 2
 	#Copper GeOre Rarity [Default: 90] (The higher the value the rarer)
 	#Range: > 0
-	copperGeoreRarity = 90
+	copperGeoreRarity = 10
 	#Diamond GeOre Rarity [Default: 270] (The higher the value the rarer)
 	#Range: > 0
-	diamondGeoreRarity = 330
+	diamondGeoreRarity = 15
 	#Emerald GeOre Rarity [Default: 300] (The higher the value the rarer)
 	#Range: > 0
-	emeraldGeoreRarity = 420
+	emeraldGeoreRarity = 10
 	#Gold GeOre Rarity [Default: 180] (The higher the value the rarer)
 	#Range: > 0
 	goldGeoreRarity = 180
@@ -98,11 +98,11 @@
 	ironGeoreRarity = 120
 	#Lapis GeOre Rarity [Default: 210] (The higher the value the rarer)
 	#Range: > 0
-	lapisGeoreRarity = 210
+	lapisGeoreRarity = 17
 	#Quartz GeOre Rarity [Default: 150] (The higher the value the rarer)
 	#Range: > 0
 	quartzGeoreRarity = 150
 	#Redstone GeOre Rarity [Default: 240] (The higher the value the rarer)
 	#Range: > 0
-	redstoneGeoreRarity = 240
+	redstoneGeoreRarity = 10
 

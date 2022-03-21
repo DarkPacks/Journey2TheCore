@@ -181,7 +181,7 @@
 		#Explosions affect even entities spawned by the explosions, like TnTs or chests content. BE AWARE that containers content will most likely get destroyed.
 		"Explosion Affect Just Spawed Entities" = false
 		#EXPERIMENTAL! This will make explosion blast blocks away. Blocks that can't land will drop the block as a TNT would have destroyed it.
-		"Enable Flying Blocks" = true
+		"Enable Flying Blocks" = false
 
 	#Less durable and efficient tools. Changing this config's options requires a Minecraft restart
 	[Miscellaneous."Tool Stats"]
@@ -304,7 +304,7 @@
 		#If true, Arrows from Crossbows will no longer deal random damage, but a set amount of damage (about 9 at a medium distance).
 		"Adjust Crossbow Damage" = true
 		#If true, Shields will slowdown the player by 25%.
-		"Shield Slowdown" = true
+		"Shield Slowdown" = false
 		#DISABLE: Disables protection enchantment.
 		#NERF: Sets max protection level to 3 instead of 4
 		#NONE: no changes to protection are done
@@ -350,7 +350,7 @@
 		"Percentage Increase per Toughness" = 0.03
 		#Define here a list of total slowdown percentage (with full armor) per material. This has priority over 'Slowdown per Armor' and 'Percentage Increase per Toughness'. Material's names are the names in the armor's ids. E.g. Gold Armor is 'golden' as the ids are like 'golden_chestplate'.
 		#Format is material,total_slowdown
-		"Material Weight" = ["leather,0.04", "chainmail,0.12", "golden,0.08", "iron,0.15", "diamond,0.25", "netherite,0.333"]
+		"Material Weight" = ["leather,0.04", "chainmail,0.12", "golden,0.08", "iron,0.15", "diamond,0.25", "netherite,0.333", "cobblestone,0.0"]
 		#Define here a list of Enchantments that will reduce the slowdown on the armor piece having the enchantment.
 		#Format is modid:enchantmentid,reductionPerLevel,flatReduction
 		#Where reduction per level is the percentage slowdown reduction per level, while flatReduction (optional) is a flat percentage slowdown reduction. E.g. 'elenaidodge2:lightweight,0.15,0.05' means that you'll get 5% less slowdown on armor plus 15% per level, so at Lightweight II you'll get (5+15*2) = 35% reduction on that piece of armor.

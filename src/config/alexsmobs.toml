@@ -107,6 +107,8 @@
 	rainbowGlassFidelity = 16.0
 	#Whether Rabbits can transform into Bunfungus if fed Mungal spores.
 	bunfungusTransformation = true
+	#Whether cachalots can destroy wood blocks if angry.
+	cachalotDestruction = true
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn

@@ -21,6 +21,7 @@
     "tconstruct:sky_slime_crystal_block",
     "tconstruct:sky_slime_crystal_cluster",
     "tconstruct:small_sky_slime_crystal_bud",
-    "geore:lapis_cluster"
+    "geore:lapis_cluster",
+    "minecraft:raw_gold_block"
   ]
 }

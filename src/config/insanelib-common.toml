@@ -15,7 +15,7 @@
 	#A few fixes
 	[Base.Fixes]
 		#If true, mobs will have their follow range fixed. https://bugs.mojang.com/browse/MC-145656
-		"Fix Follow Range" = true
+		"Fix Follow Range" = false
 		#Removes the random bonus health given to Leader Zombies. In vanilla it's useless since doesn't work. https://minecraft.fandom.com/wiki/Attribute#Vanilla_modifiers
 		"Remove Zombies Bonus Health" = true
 		#When affected by slowness the player can still jump really far away. When true, jumps length will be calculated base off player's movement speed.

@@ -5,7 +5,7 @@
       {
         "target":
         {
-          "tag": "minecraft:stone_ore_replaceables",
+          "tag": "j2tc_tweaks:desire_gluttony_copper",
           "predicate_type": "minecraft:tag_match"
         },
         "state":

@@ -1,7 +1,8 @@
 {
   "Comment": "This file is for enabling and disabling rewards globally for all users! This cannot be reversed without a mod reload! Reward Profiles are the suggested method over this. This is basically a do all be all override.",
   "Comment2": "Note: Even if a reward is marked true here, does not mean its fully enabled. Rewards like clear inventory are disabled via default profiles!",
-  "rewards": {
+  "rewards":
+  {
     "chancecubes:actual_invisible_ghast": true,
     "chancecubes:anti_slab": true,
     "chancecubes:bad_omen": true,
@@ -120,7 +121,7 @@
     "chancecubes:random_teleport": true,
     "chancecubes:rotten_food": true,
     "chancecubes:thrown_in_air": true,
-    "chancecubes:torches_to_creepers": true,
+    "chancecubes:torches_to_creepers": false,
     "chancecubes:traveller": true,
     "chancecubes:troll_hole": true,
     "chancecubes:saw_nothing_diamond": true,

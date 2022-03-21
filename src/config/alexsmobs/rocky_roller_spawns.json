@@ -1,11 +1,3 @@
 {
-  "biomes": [
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "minecraft:dripstone_caves"
-      }
-    ]
-  ]
+  "biomes": []
 }

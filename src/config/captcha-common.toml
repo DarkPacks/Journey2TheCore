@@ -1,0 +1,10 @@
+
+#General settings
+[General]
+	#Defines the amount of time in seconds in which the captcha should be solved [Default: 15]
+	#Range: > 1
+	captchaTime = 15
+	#Defines the cooldown between captcha requests in seconds [Default: 900 (15 minutes)]
+	#Range: > 30
+	captchaCooldown = 900
+

@@ -1,0 +1,44 @@
+[
+  {
+    "mob": "alexsmobs:bunfungus",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:mushroom_fields",
+    "result": "default"
+  },
+  {
+    "mob": "alexsmobs:bunfungus",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "candyworld",
+    "block": [
+      "candyworld:red_gummy_block",
+      "candyworld:green_gummy_block",
+      "candyworld:white_gummy_block",
+      "candyworld:orange_gummy_block"
+    ],
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:ghast",
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "magma_monsters",
+    "block": [
+      "minecraft:netherrack",
+      "minecraft:tuff",
+      "minecraft:blackstone",
+      "minecraft:basalt"
+    ],
+    "result": "allow"
+  },
+  {
+    "biome": "minecraft:mushroom_fields",
+    "result": "allow"
+  }
+]

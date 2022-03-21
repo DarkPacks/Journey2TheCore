@@ -23,7 +23,7 @@
 	#Range: 0 ~ 200
 	maxEventCache = 20
 	#Default profile name. Defaults to "default". If set, will read from that folder within the main CCI directory instead. Change in-game with the editor.
-	defaultProfile = "default"
+	defaultProfile = "Journey 2 the Core V2"
 	#Types of log types to write to disk. Putting socket_event in is the only way to see the raw event information (from the log file) as it is not printed to console. Everything else will still be print to console.
 	logTypes = ["cci", "debug", "event", "socket_status", "socket_event"]
 

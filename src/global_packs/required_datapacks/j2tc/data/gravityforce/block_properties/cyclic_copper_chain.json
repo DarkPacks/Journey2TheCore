@@ -1,0 +1,6 @@
+{
+  "blockLocation": "cyclic:copper_chain",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:hanging"
+}

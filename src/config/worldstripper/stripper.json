@@ -49,6 +49,8 @@
     "create:limestone",
     "biomesoplenty:dried_salt",
     "minecraft:stripped_oak_log",
-    "minecraft:deepslate"
+    "minecraft:deepslate",
+    "minecraft:raw_gold_block",
+    "minecraft:red_mushroom_block"
   ]
 }

@@ -5,4 +5,6 @@
 	enableBiomePlaces = false
 	#Dictates whether or not the vanilla dimension places are enabled (excluding the Overworld)
 	enableDimensionPlaces = true
+	#Dictates whether or not the default y place for going below 0 is enabled
+	enableYPlaces = true
 

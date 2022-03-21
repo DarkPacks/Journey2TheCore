@@ -2,19 +2,22 @@
   "feature": "minecraft:ore_copper_large",
   "placement": [
     {
-      "count": 16,
+      "count": 36,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 396
         },
-        "max_inclusive": {
-          "absolute": 528
+        "max_inclusive":
+        {
+          "absolute": 600
         },
         "type": "minecraft:trapezoid"
       },

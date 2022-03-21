@@ -1,0 +1,14 @@
+{
+  "configs": [
+    {
+      "types": {},
+      "for": "twitch"
+    },
+    {
+      "types": {},
+      "for": "youtube"
+    }
+  ],
+  "init": [],
+  "type": "chat"
+}

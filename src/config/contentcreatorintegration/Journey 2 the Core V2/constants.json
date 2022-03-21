@@ -1,0 +1,273 @@
+{
+  "conditions": {
+    "add_to_target_location": {
+      "source": "$targetPlayer",
+      "separator": " ",
+      "result": "position",
+      "type": "stringSplit",
+      "displayName": "split xyz coords"
+    },
+    "adult_spawn_check": {
+      "target": "@e[tag=DarkostoIsLiterallyTheCoolest]",
+      "horiRadius": "4",
+      "vertRadius": "2",
+      "tries": "8",
+      "variableName": "canSpawnAdult",
+      "customHeight": "2",
+      "type": "freeSpace",
+      "displayName": "Adult Mob Spawn Check"
+    },
+    "baby_spawn_check": {
+      "target": "@e[tag=DarkostoIsLiterallyTheCoolest]",
+      "horiRadius": "4",
+      "vertRadius": "2",
+      "tries": "8",
+      "variableName": "canBabySpawn",
+      "customHeight": "1",
+      "type": "freeSpace",
+      "displayName": "Baby Mob Spawn Check"
+    },
+    "explode": {
+      "variableName": "position",
+      "variableOutputName": "coordZ",
+      "type": "arrayExplode"
+    },
+    "math_happens_here": {
+      "calc": "+",
+      "value1": "$coordZ2",
+      "value2": "5",
+      "variableName": "mathHappened",
+      "type": "math",
+      "displayName": "This is where math happens."
+    },
+    "random_number_generator": {
+      "value1": "60",
+      "value2": "120",
+      "variableName": "rng",
+      "type": "randomNumber",
+      "displayName": "Random Number Generator"
+    },
+    "recombine_coords": {
+      "prefix": "$coordZ0 ",
+      "suffix": "$coordZ1",
+      "variableName": "xAndY",
+      "type": "stringConcat",
+      "displayName": "Combine X and Y"
+    },
+    "recombobulate_full_coords": {
+      "prefix": "$xAndY ",
+      "suffix": "$mathHappened",
+      "variableName": "finalTarget",
+      "type": "stringConcat",
+      "displayName": "Math Done, Dinner Happens"
+    },
+    "spawn_checks": {
+      "conditions": [
+        {
+          "name": "target_player",
+          "type": "constant",
+          "displayName": "Target Player"
+        },
+        {
+          "name": "add_to_target_location",
+          "type": "constant",
+          "displayName": "Split Coords"
+        },
+        {
+          "name": "explode",
+          "type": "constant",
+          "displayName": "Exploded Things"
+        },
+        {
+          "name": "math_happens_here",
+          "type": "constant",
+          "displayName": "Math Happened"
+        },
+        {
+          "name": "recombine_coords",
+          "type": "constant",
+          "displayName": "Recombine X and Y"
+        },
+        {
+          "name": "recombobulate_full_coords",
+          "type": "constant",
+          "displayName": "Recombulate XY + Z"
+        }
+      ],
+      "type": "multiple"
+    },
+    "target_player": {
+      "target": "$playerName",
+      "argument": "location",
+      "variableName": "targetPlayer",
+      "type": "target"
+    }
+  },
+  "outcomes": {
+    "Fake Crash Array": {
+      "condition": {
+        "name": "random_number_generator",
+        "type": "constant"
+      },
+      "outcome": {
+        "crashType": "2",
+        "crashDuration": "$rng",
+        "type": "fakeCrash"
+      },
+      "type": "conditional",
+      "displayName": ""
+    },
+    "Summon Array": {
+      "condition": {
+        "name": "spawn_checks",
+        "type": "constant"
+      },
+      "outcome": {
+        "name": "value500",
+        "type": "constant"
+      },
+      "type": "conditional",
+      "displayName": "Runs all Checks and Spawns Everything"
+    },
+    "decide_what_mob_to_spawn": {
+      "condition": {
+        "name": "adult_spawn_check",
+        "type": "constant",
+        "displayName": "Reference Adult Spawn Check"
+      },
+      "outcome": {
+        "name": "spawn_adult_player_mob",
+        "type": "constant",
+        "displayName": "Spawn Adult Player Mob"
+      },
+      "conditionNotMetOutcome": {
+        "condition": {
+          "name": "baby_spawn_check",
+          "type": "constant",
+          "displayName": "Check for Baby Spawn Space"
+        },
+        "outcome": {
+          "name": "spawn_baby_player_mob",
+          "type": "constant",
+          "displayName": "Spawn Baby Player Mob"
+        },
+        "conditionNotMetOutcome": {
+          "name": "spawn_purple_slime",
+          "type": "constant",
+          "displayName": "Spawn Purple Slime"
+        },
+        "type": "conditional",
+        "displayName": "Check for Baby or Slime Spawn"
+      },
+      "type": "conditional",
+      "displayName": "Checks What Mob Can Spawn"
+    },
+    "fake_crash": {
+      "crashType": "2",
+      "crashDuration": "200",
+      "type": "fakeCrash",
+      "displayName": "Fake Crash"
+    },
+    "kill_armor_stand": {
+      "command": "/kill @e[tag=DarkostoIsLiterallyTheCoolest]",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "spawn_adult_player_mob": {
+      "command": "/playermobs spawn $user $canSpawnAdult",
+      "executeAsSelf": true,
+      "type": "command",
+      "displayName": "Spawn Adult Player Mob"
+    },
+    "spawn_armor_stand": {
+      "command": "/summon armor_stand $finalTarget {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:[\"DarkostoIsLiterallyTheCoolest\"]}",
+      "executeAsSelf": true,
+      "type": "command",
+      "displayName": "Spawn Armor Stand"
+    },
+    "spawn_baby_player_mob": {
+      "command": "/summon player_mobs:player_mob $canBabySpawn {\"Username\":\"$user\",\"IsBaby\":true}",
+      "executeAsSelf": true,
+      "type": "command",
+      "displayName": "Spawn Baby Player Mob"
+    },
+    "spawn_mobs_kill_armor_stand": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "name": "decide_what_mob_to_spawn",
+              "type": "constant"
+            },
+            {
+              "name": "kill_armor_stand",
+              "type": "constant"
+            }
+          ],
+          "delay": "20"
+        }
+      ],
+      "type": "event",
+      "displayName": "Spawn Mobs"
+    },
+    "spawn_purple_slime": {
+      "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+      "executeAsSelf": true,
+      "type": "command",
+      "displayName": "Spawn Purple Slime"
+    },
+    "target_spawn_check": {
+      "condition": {
+        "name": "event_test",
+        "type": "constant"
+      },
+      "outcome": {
+        "name": "decide_what_mob_to_spawn",
+        "type": "constant",
+        "displayName": "Begin Spawning Mobs"
+      },
+      "type": "conditional",
+      "displayName": "Begin Spawning Mobs"
+    },
+    "test": {
+      "text": "Hey! $user wanted to let you know to use code DARKOSTO at checkout for 10% off",
+      "yesOverride": "Option 1",
+      "noOverride": "Option 2",
+      "type": "prompt",
+      "displayName": "Prompt"
+    },
+    "value500": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "name": "spawn_armor_stand",
+              "type": "constant"
+            },
+            {
+              "events": [
+                {
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "name": "spawn_mobs_kill_armor_stand",
+                      "type": "constant"
+                    }
+                  ],
+                  "delay": "20"
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "playTime": "20"
+        }
+      ],
+      "type": "event",
+      "displayName": "Value500 Full Spawn Check List"
+    }
+  },
+  "events": {}
+}
