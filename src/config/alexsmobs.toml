@@ -109,6 +109,8 @@
 	bunfungusTransformation = true
 	#Whether cachalots can destroy wood blocks if angry.
 	cachalotDestruction = true
+	#True if some Alex's Mobs items should spawn in loot chests.
+	addLootToChests = true
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn

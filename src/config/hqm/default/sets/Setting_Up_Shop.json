@@ -134,7 +134,7 @@
             "tconstruct:attack_speed": 2.3,
             "tconstruct:mining_speed": 5.25,
             "tconstruct:attack_damage": 3.0712497,
-            "tconstruct:harvest_tier": "minecraft:diamond",
+            "tconstruct:harvest_tier": "minecraft:iron",
             "tconstruct:durability": 377.25
           },
           "tic_broken": 0,
@@ -193,7 +193,7 @@
                     "tconstruct:attack_speed": 2.3,
                     "tconstruct:mining_speed": 5.25,
                     "tconstruct:attack_damage": 3.0712497,
-                    "tconstruct:harvest_tier": "minecraft:diamond",
+                    "tconstruct:harvest_tier": "minecraft:iron",
                     "tconstruct:durability": 377.25
                   },
                   "tic_broken": 0,
@@ -573,8 +573,8 @@
       "uuid": "932e2108-e6ca-4e19-a40a-780221dc450d",
       "name": "Rotten Flesh to Leather",
       "description": "Use the presser to make Leather from Rotten Flesh",
-      "x": 114,
-      "y": 66,
+      "x": 84,
+      "y": 67,
       "icon": {
         "id": "minecraft:leather",
         "Count": 1
@@ -593,7 +593,7 @@
         }
       ],
       "prerequisites": [
-        "00f00377-3d71-46a0-a266-70a30e7e99b5"
+        "43711b2e-bbe7-40c6-b0f2-8a94ccd041ba"
       ],
       "optionlinks": [],
       "reward": [
@@ -677,7 +677,7 @@
             "tconstruct:attack_speed": 1.76,
             "tconstruct:mining_speed": 3.675,
             "tconstruct:attack_damage": 4.6124997,
-            "tconstruct:harvest_tier": "minecraft:diamond",
+            "tconstruct:harvest_tier": "minecraft:iron",
             "tconstruct:durability": 672.10004
           },
           "tic_broken": 0,
@@ -725,7 +725,7 @@
                     "tconstruct:attack_speed": 1.76,
                     "tconstruct:mining_speed": 3.675,
                     "tconstruct:attack_damage": 4.6124997,
-                    "tconstruct:harvest_tier": "minecraft:diamond",
+                    "tconstruct:harvest_tier": "minecraft:iron",
                     "tconstruct:durability": 672.10004
                   },
                   "tic_broken": 0,

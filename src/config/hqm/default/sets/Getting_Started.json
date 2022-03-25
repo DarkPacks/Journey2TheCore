@@ -140,7 +140,7 @@
     {
       "uuid": "f98d8e1a-9f5f-40a0-bb40-36d6ea6488df",
       "name": "Cobalt",
-      "description": "Unnamed quest",
+      "description": "Cobalt is secondary output when melting Diamond Ore in a Tinkers\u0027 Construct Foundry",
       "x": 290,
       "y": 88,
       "icon": {
@@ -314,7 +314,7 @@
     {
       "uuid": "99816012-74e9-4c81-bb97-17e3836f506c",
       "name": "Diamond",
-      "description": "Unnamed quest",
+      "description": "Y\u003d0 to Y\u003d264",
       "x": 232,
       "y": 88,
       "icon": {
@@ -1159,7 +1159,7 @@
     {
       "uuid": "9db7d4d5-ce87-43fa-8df2-861cd5280cb4",
       "name": "Copper",
-      "description": "Go mine copper!",
+      "description": "Go mine copper! \n\nY\u003d265 to Y\u003d520",
       "x": 174,
       "y": 88,
       "icon": {
@@ -1542,7 +1542,7 @@
     {
       "uuid": "1a793aac-0be4-4f4a-87c2-6725781939b1",
       "name": "Iron Man",
-      "description": "Unnamed quest",
+      "description": "Y\u003d133 to Y\u003d396",
       "x": 203,
       "y": 88,
       "icon": {
@@ -1659,7 +1659,7 @@
     {
       "uuid": "5cf9b4e6-50dd-408a-9560-f5866948e8d0",
       "name": "Redstone",
-      "description": "Unnamed quest",
+      "description": "Y\u003d0 to Y\u003d132",
       "x": 261,
       "y": 88,
       "icon": {
