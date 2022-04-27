@@ -9,6 +9,9 @@
     },
     {
       "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "create:limestone"
     }
   ],
   "value": 1,

@@ -1,59 +1,23 @@
 {
-  "parent": "tconstruct:foundry/structure",
   "display": {
     "icon": {
-      "item": "tconstruct:scorched_lantern",
-      "nbt": "{tank:{Amount:50,FluidName:\"tconstruct:molten_manyullyn\"}}"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.foundry.manyullyn_lanterns.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.foundry.manyullyn_lanterns.description"
+      "translate": "Yes"
     },
     "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "seared_lantern": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:seared_lantern"
-            ],
-            "count": {
-              "min": 64
-            },
-            "nbt": "{tank:{Amount:50,FluidName:\"tconstruct:molten_manyullyn\"}}"
-          }
-        ]
-      }
-    },
-    "scorched_lantern": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:scorched_lantern"
-            ],
-            "count": {
-              "min": 64
-            },
-            "nbt": "{tank:{Amount:50,FluidName:\"tconstruct:molten_manyullyn\"}}"
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "seared_lantern",
-      "scorched_lantern"
-    ]
-  ]
+  }
 }

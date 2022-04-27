@@ -1,287 +1,276 @@
 
+# Welcome to The Graveyard Config!
+#
+# Structures:
+# Configure separation (Minimum distance between two structures of this type in chunks. Must be less than spacing).
+# Configure spacing (Average distance between two structure placement attempts of this type in chunks).
+# Configure whitelist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+# Configure blacklist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+# Configure mod whitelist: use "#modid" to whitelist the biomes of the specified mod for structures to spawn in (examples: #minecraft, #graveyard, #graveyard_biomes, #terralith, #byg, #biomesoplenty).
+# Valid vanilla biome categories are: #taiga, #extreme_hills, #jungle, #mesa, #plains, #savanna, #icy, #beach, #forest, #desert, #swamp, #mushroom, #underground, #mountain.
+# A full list of all the biomes can be found here https:minecraft.fandom.com/wiki/Biome#Biome_IDs.
+#
+# Mobs:
+# Configure spawning weight and group size of the spawn.
+# Configure if mobs burn in sunlight and/or if mobs are affected by the wither effect.
+# Configure whitelist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+# Configure blacklist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+# Configure mod whitelist: use "#modid" to whitelist the biomes of the specified mod for structures to spawn in (examples: #minecraft, #graveyard, #graveyard_biomes, #terralith, #byg, #biomesoplenty).
+#
+# Additional:
+# Configure graveyard fog particles rising from moss and set the chance of spawning them (higher numbers = lower chance of spawning).
+# Configure if hordes of graveyard mobs can spawn and set their size and frequency.
+# Configure if urns have a double chest inventory.
+#
 ["The Graveyard - Structures Config"]
 
-	["The Graveyard - Structures Config".global]
-		#To whitelist biomes: add the biome category to the whitelist. If you want to allow a specific biome from a biome category, whitelist the category and blacklist all biomes except the one biome you like to be able to generate structures. 
-		#To blacklist biomes: add the biome name to the blacklist. A full list of all the biomes can be found here https://minecraft.fandom.com/wiki/Biome#Biome_IDs
-		blacklisted_biomes = ["minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach", "minecraft:stony_shore", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
-
 	["The Graveyard - Structures Config".small_graveyard]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 20
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 18
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 240451934
+		whitelist = ["#plains"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".small_desert_graveyard]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 32
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 28
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 598017285
+		whitelist = ["#desert"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".small_grave]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 12
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 661903018
+		whitelist = ["#taiga", "#forest", "#plains"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#graveyard_biomes", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".small_desert_grave]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 20
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 16
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 681236914
+		whitelist = ["#desert"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".small_savanna_grave]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 12
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 709787761
+		whitelist = ["#mesa", "#savanna"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".small_mountain_grave]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 12
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 725689810
+		whitelist = ["#mountain", "#extreme_hills"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".mushroom_grave]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 24
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 18
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = []
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 379123039
+		whitelist = ["#mushroom", "#jungle", "#swamp"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".memorial_tree]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 14
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 12
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = ["forest", "flower_forest", "dark_forest", "windswept_forest"]
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 529239621
+		whitelist = ["minecraft:old_growth_birch_forest", "minecraft:birch_forest", "terralith:birch_taiga"]
+		blacklist = []
+		modWhitelist = ["#minecraft", "#terralith"]
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".medium_graveyard]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 18
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 16
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = ["dark_forest", "birch_forest", "old_growth_birch_forest"]
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 1690192399
+		whitelist = ["#forest"]
+		blacklist = ["minecraft:dark_forest", "minecraft:birch_forest", "minecraft:old_growth_birch_forest", "graveyard_biomes:haunted_lakes", "graveyard_biomes:haunted_forest"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
+		canSpawnMobs = true
 
 	["The Graveyard - Structures Config".large_graveyard]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 12
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 10
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = ["forest", "flower_forest", "birch_forest", "old_growth_birch_forest", "windswept_forest"]
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 304812394
+		whitelist = ["#forest", "#taiga"]
+		blacklist = ["minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:old_growth_birch_forest", "minecraft:windswept_forest", "graveyard_biomes:eroded_haunted_forest", "graveyard_biomes:haunted_lakes"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
+		canSpawnMobs = true
 
 	["The Graveyard - Structures Config".haunted_house]
-		#Graveyard structure can generate: 
-		generate = false
-		#Structure spacing (needs to be higher than separation): 
 		#Range: 0 ~ 200
 		spacing = 25
-		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 20
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
-		validBiomeCategories = []
-		#Biomes (not biome categories!) the structure can NOT generate in
-		blacklistedBiomeCategories = ["forest", "flower_forest", "birch_forest", "old_growth_birch_forest", "windswept_forest"]
+		canGenerate = false
+		#Range: 0 ~ 10000000000
+		salt = 451235912
+		whitelist = ["#forest", "#swamp"]
+		blacklist = ["minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:old_growth_birch_forest", "minecraft:windswept_forest", "graveyard_biomes:haunted_forest"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
+		canSpawnMobs = false
 
 ["The Graveyard - Mob Spawning Config"]
 
 	["The Graveyard - Mob Spawning Config".ghoul]
-		#Allow the Ghoul to spawn: 
 		enabled = false
-		#Set the spawn weight: 
 		#Range: 0 ~ 100
 		weight = 0
-		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeGhoul = 2
-		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeGhoul = 5
-		#Allowed biome categories to spawn: 
-		biome_categories = ["ocean"]
-		#Blacklisted biomes to spawn: 
-		blacklist_biomes = ["flower_forest", "lush_caves"]
+		canBurnInSunlight = true
+		canBeWithered = false
+		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
+		blacklist = ["minecraft:flower_forest", "minecraft:lush_caves"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".revenant]
-		#Allow the Revenant to spawn: 
 		enabled = false
-		#Set the spawn weight: 
 		#Range: 0 ~ 100
 		weight = 0
-		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeRevenant = 1
-		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeRevenant = 3
-		#Allowed biome categories to spawn: 
-		biome_categories = ["ocean"]
-		#Blacklisted biomes to spawn: 
-		blacklist_biomes = ["flower_forest", "lush_caves"]
+		canBurnInSunlight = true
+		canBeWithered = false
+		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
+		blacklist = ["minecraft:flower_forest", "minecraft:lush_caves"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".reaper]
-		#Allow the Reaper to spawn: 
 		enabled = false
-		#Set the spawn weight: 
 		#Range: 0 ~ 100
 		weight = 0
-		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeReaper = 1
-		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeGhoul = 1
-		#Allowed biome categories to spawn: 
-		biome_categories = ["ocean"]
-		#Blacklisted biomes to spawn: 
-		blacklist_biomes = ["flower_forest", "lush_caves"]
+		canBurnInSunlight = true
+		canBeWithered = false
+		whitelist = ["graveyard_biomes:eroded_haunted_forest"]
+		blacklist = ["minecraft:flower_forest", "minecraft:lush_caves"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".nightmare]
-		#Allow the Nightmare to spawn: 
 		enabled = false
-		#Set the spawn weight: 
 		#Range: 0 ~ 100
 		weight = 0
-		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeNightmare = 1
-		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeNightmare = 1
-		#Allowed biome categories to spawn: 
-		biome_categories = ["ocean"]
-		#Blacklisted biomes to spawn: 
-		blacklist_biomes = ["flower_forest", "lush_caves"]
+		canBurnInSunlight = false
+		canBeWithered = false
+		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
+		blacklist = ["minecraft:flower_forest", "minecraft:lush_caves"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".skeleton_creeper]
-		#Allow the Skeleton Creeper to spawn: 
 		enabled = false
-		#Set the spawn weight: 
 		#Range: 0 ~ 100
 		weight = 0
-		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeSkeletonCreeper = 1
-		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeSkeletonCreeper = 4
-		#Allowed biome categories to spawn: 
-		biome_categories = ["ocean"]
-		#Blacklisted biomes to spawn: 
-		blacklist_biomes = ["flower_forest", "lush_caves"]
+		canBurnInSunlight = true
+		canBeWithered = false
+		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
+		blacklist = ["minecraft:flower_forest", "minecraft:lush_caves"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".acolyte]
-		#Allow the Acolyte to spawn: 
 		enabled = false
-		#Set the spawn weight: 
 		#Range: 0 ~ 100
 		weight = 0
-		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeAcolyte = 2
-		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeAcolyte = 3
-		#Allowed biome categories to spawn: 
-		biome_categories = ["ocean"]
-		#Blacklisted biomes to spawn: 
-		blacklist_biomes = ["flower_forest", "lush_caves"]
+		canBurnInSunlight = false
+		canBeWithered = false
+		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
+		blacklist = ["minecraft:flower_forest", "minecraft:lush_caves"]
+		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 ["The Graveyard - Horde Config"]
 
 	["The Graveyard - Horde Config".horde]
-		#Enable large Graveyard mob groups to spawn: 
 		generate = false
-		#Set the size of the horde: 
 		#Range: 0 ~ 1000
 		size = 40
-		#Set the ticks until the next horde spawn attempt: 
 		#Range: 1 ~ 1000000
 		ticksUntilSpawnHorde = 12000
 
 ["The Graveyard - Particle Config"]
 
 	["The Graveyard - Particle Config".particle]
-		#Enable particle rising from Graveyard moss blocks: 
 		generate = true
-		#Set the change of particles spawning (higher numbers = lower spawn rate): 
 		#Range: 1 ~ 500
 		frequency = 50
+
+["The Graveyard - Additional Config"]
+
+	["The Graveyard - Additional Config".urn]
+		urnHasDoubleInventory = true
 

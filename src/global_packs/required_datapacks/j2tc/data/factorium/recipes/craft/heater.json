@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:misc",
+  "pattern": [
+    "WXW",
+    "WWW",
+    "IWI"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+      "tag": "forge:rods/copper"
+    }
+  },
+  "result": {
+    "item": "factorium:craft_heater"
+  }
+}

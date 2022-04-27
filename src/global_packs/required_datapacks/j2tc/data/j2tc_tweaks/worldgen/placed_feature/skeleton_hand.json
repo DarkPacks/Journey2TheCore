@@ -5,9 +5,8 @@
       "type": "minecraft:biome"
     },
     {
-      "type": "brazierwgu:multiple_layers",
-      "layers": 32,
-      "tries": 64
+      "type": "minecraft:count",
+      "count": 256
     },
     {
       "type": "minecraft:height_range",
@@ -28,15 +27,13 @@
       "type": "minecraft:block_predicate_filter",
       "predicate":
       {
-        "type": "minecraft:matching_blocks",
+        "type": "minecraft:matching_block_tag",
         "offset": [
           0,
           -1,
           0
         ],
-        "blocks": [
-          "minecraft:dead_fire_coral_block"
-        ]
+        "tag": "j2tc_tweaks:desire_layer_skeleton_hand_placement_blocks"
       }
     }
   ]

@@ -1,0 +1,406 @@
+{
+  "EFFECTS": [
+    {
+      "value": {
+        "id": "insight",
+        "applyToItems": [
+          "ARMOR_HELMET"
+        ],
+        "amplifierMin": 1.0,
+        "amplifierMax": 6.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "insight"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "potion_cloud",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "action": "POTION_CLOUD",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "PASSIVE"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "blast",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "action": "BLAST",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "USE",
+        "incompatibleWith": [
+          "blast"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "reach",
+        "applyToItems": [
+          "SWORD",
+          "PICKAXE",
+          "AXE",
+          "SHOVEL"
+        ],
+        "attribute": {
+          "name": "forge:reach_distance",
+          "modifierType": "Reach",
+          "salt": 1
+        },
+        "amplifierMin": 1.0,
+        "amplifierMax": 5.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "reach"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "area_miner",
+        "applyToItems": [
+          "PICKAXE",
+          "SHOVEL",
+          "AXE"
+        ],
+        "action": "AREA_MINER",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "ACTIVE",
+        "incompatibleWith": [
+          "area_miner"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "void",
+        "applyToItems": [
+          "PICKAXE",
+          "AXE",
+          "SHOVEL"
+        ],
+        "action": "VOID",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "ACTIVE",
+        "incompatibleWith": [
+          "void"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "auto_smelt",
+        "applyToItems": [
+          "PICKAXE",
+          "SHOVEL",
+          "AXE"
+        ],
+        "action": "AUTOSMELT",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "ACTIVE",
+        "incompatibleWith": [
+          "auto_smelt"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "dash",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "action": "DASH",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "USE",
+        "incompatibleWith": [
+          "dash"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "heal",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "action": "HEAL",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "USE",
+        "incompatibleWith": [
+          "heal"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "jump",
+        "applyToItems": [
+          "ARMOR_BOOTS"
+        ],
+        "amplifierMin": 2.0,
+        "amplifierMax": 5.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "jump"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "leech",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "amplifierMin": 10.0,
+        "amplifierMax": 100.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "leech"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "lightning",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "action": "LIGHTNING",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "lightning"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "multi",
+        "applyToItems": [
+          "AXE",
+          "SHOVEL",
+          "PICKAXE"
+        ],
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "multi"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "parry",
+        "applyToItems": [
+          "ARMOR_CHESTPLATE",
+          "ARMOR_LEGGINGS",
+          "ARMOR_BOOTS",
+          "ARMOR_HELMET"
+        ],
+        "amplifierMin": 2.5,
+        "amplifierMax": 20.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "parry"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "reflect",
+        "applyToItems": [
+          "ARMOR_CHESTPLATE",
+          "ARMOR_LEGGINGS"
+        ],
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "reflect"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "shockwave",
+        "applyToItems": [
+          "ARMOR_LEGGINGS",
+          "ARMOR_CHESTPLATE"
+        ],
+        "action": "SHOCKWAVE",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "shockwave"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "sleep",
+        "applyToItems": [
+          "PICKAXE",
+          "AXE",
+          "SHOVEL"
+        ],
+        "action": "SLEEP",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "USE",
+        "incompatibleWith": [
+          "sleep"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "stun",
+        "applyToItems": [
+          "SWORD"
+        ],
+        "action": "STUN",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "USE",
+        "incompatibleWith": [
+          "stun"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "health",
+        "applyToItems": [
+          "ARMOR_CHESTPLATE",
+          "ARMOR_LEGGINGS",
+          "ARMOR_BOOTS",
+          "ARMOR_HELMET",
+          "PICKAXE",
+          "AXE",
+          "SHOVEL"
+        ],
+        "attribute": {
+          "name": "minecraft:generic.max_health",
+          "modifierType": "Extra Health",
+          "salt": 0
+        },
+        "amplifierMin": 2.0,
+        "amplifierMax": 10.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "health"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "knockback_resistance",
+        "applyToItems": [
+          "ARMOR_CHESTPLATE",
+          "ARMOR_LEGGINGS",
+          "ARMOR_BOOTS",
+          "ARMOR_HELMET"
+        ],
+        "attribute": {
+          "name": "minecraft:generic.knockback_resistance",
+          "modifierType": "Armor knockback resistance",
+          "salt": 2
+        },
+        "amplifierMin": 1.0,
+        "amplifierMax": 3.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "knockback_resistance"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "silky",
+        "applyToItems": [
+          "PICKAXE",
+          "AXE",
+          "SHOVEL"
+        ],
+        "action": "SILKY",
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "ACTIVE",
+        "incompatibleWith": [
+          "silky"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "lucky",
+        "applyToItems": [
+          "AXE",
+          "SHOVEL",
+          "PICKAXE"
+        ],
+        "amplifierMin": 1.0,
+        "amplifierMax": 3.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "lucky"
+        ]
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "direct",
+        "applyToItems": [
+          "SHOVEL",
+          "PICKAXE",
+          "AXE"
+        ],
+        "amplifierMin": 0.0,
+        "amplifierMax": 0.0,
+        "effectType": "PASSIVE",
+        "incompatibleWith": [
+          "direct"
+        ]
+      },
+      "weight": 2
+    }
+  ]
+}

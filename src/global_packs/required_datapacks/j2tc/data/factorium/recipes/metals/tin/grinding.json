@@ -1,0 +1,13 @@
+{
+  "type": "factorium:grinder",
+  "input": {
+    "tag": "factorium:chunks/tin"
+  },
+  "output": {
+    "item": "factorium:mat_tin_powder"
+  },
+  "bonus": {
+    "item": "factorium:mat_tin_powder",
+    "chance": 0.25
+  }
+}

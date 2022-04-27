@@ -1,8 +1,4 @@
 
-[General]
-	#Automatically copy results
-	autoCopy = false
-
 [HUD]
 	#Delay between chunk data refreshes
 	#Range: > 10
@@ -13,4 +9,8 @@
 	#Delay between entity HUD data refreshes
 	#Range: > 10
 	hudEntityDelay = 250
+
+[Behavior]
+	#Automatically copy items to clipboard when running commands to list them (mt hand/hot/inv/blockinv)
+	autoCopyItems = true
 

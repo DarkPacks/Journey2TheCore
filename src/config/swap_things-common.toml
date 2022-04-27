@@ -1,0 +1,190 @@
+
+#Command Settings
+[commands]
+
+	[commands.general]
+		#Command messages show to all players on server.
+		msgAllPlayers = false
+		#Sets all command to be this permission level.
+		#Range: 0 ~ 4
+		cmdPermissionsLevel = 2
+		#Commands show a message in chat.
+		msgShow = true
+
+	#InventoryBomb Command Settings
+	[commands.InventoryBomb]
+		#Item that will replace all inventory slots with after items are dropped
+		inventoryBombItem = "minecraft:dead_bush"
+
+	#DisconnectPlayer Command Settings
+	[commands.DisconnectPlayer]
+		#Message to show when disconnected
+		disconnectMsg = " and had a Dark PANIC moment and some how left the server."
+
+	#PlayerNudger Command Settings
+	[commands.PlayerNudger]
+
+		[commands.PlayerNudger.North]
+			#Chance for playernudger command to nudge North
+			#Range: 0 ~ 100
+			North_Chance = 4
+			#Strength of playernudger command nudging North
+			#Range: 0.0 ~ 10.0
+			North_Strength = 0.7
+
+		[commands.PlayerNudger.NorthEast]
+			#Chance for playernudger command to nudge Northeast
+			#Range: 0 ~ 100
+			Northeast_Chance = 2
+			#Strength of playernudger command nudging Northeast
+			#Range: 0.0 ~ 10.0
+			Northeast_Strength = 0.7
+
+		[commands.PlayerNudger.East]
+			#Chance for playernudger command to nudge East
+			#Range: 0 ~ 100
+			East_Chance = 4
+			#Strength of playernudger command nudging East
+			#Range: 0.0 ~ 10.0
+			East_Strength = 0.7
+
+		[commands.PlayerNudger.SouthEast]
+			#Chance for playernudger command to nudge Southeast
+			#Range: 0 ~ 100
+			SouthEast_Chance = 2
+			#Strength of playernudger command nudging Southeast
+			#Range: 0.0 ~ 10.0
+			SouthEast_Strength = 0.7
+
+		[commands.PlayerNudger.South]
+			#Chance for playernudger command to nudge South
+			#Range: 0 ~ 100
+			South_Chance = 4
+			#Strength of playernudger command nudging South
+			#Range: 0.0 ~ 10.0
+			South_Strength = 0.7
+
+		[commands.PlayerNudger.SouthWest]
+			#Chance for playernudger command to nudge Southwest
+			#Range: 0 ~ 100
+			SouthWest_Chance = 2
+			#Strength of playernudger command nudging Southwest
+			#Range: 0.0 ~ 10.0
+			SouthWest_Strength = 0.7
+
+		[commands.PlayerNudger.West]
+			#Chance for playernudger command to nudge West
+			#Range: 0 ~ 100
+			West_Chance = 4
+			#Strength of playernudger command nudging West
+			#Range: 0.0 ~ 10.0
+			West_Strength = 0.7
+
+		[commands.PlayerNudger.NorthWest]
+			#Chance for playernudger command to nudge Northwest
+			#Range: 0 ~ 100
+			NorthWest_Chance = 2
+			#Strength of playernudger command nudging Northwest
+			#Range: 0.0 ~ 10.0
+			NorthWest_Strength = 0.7
+
+		[commands.PlayerNudger.Up]
+			#Chance for playernudger command to nudge Up
+			#Range: 0 ~ 100
+			Up_Chance = 1
+			#Strength of playernudger command nudging Up
+			#Range: 0.0 ~ 10.0
+			Up_Strength = 0.7
+
+		[commands.PlayerNudger.Down]
+			#Chance for playernudger command to nudge Down
+			#Range: 0 ~ 100
+			Down_Chance = 0
+			#Strength of playernudger command nudging Down
+			#Range: 0.0 ~ 10.0
+			Down_Strength = 0.7
+
+		[commands.PlayerNudger.PlayerFacingDirections]
+			#Multiplier to increase the chance to nudge where the player is looking
+			#Range: 0 ~ 100
+			Forward_Multiplier = 1
+			#Multiplier to increase the chance to nudge opposite where the player is looking
+			#Range: 0 ~ 100
+			Backward_Multiplier = 1
+			#Multiplier to increase the chance to nudge the player to the left
+			#Range: 0 ~ 100
+			Left_Multiplier = 1
+			#Multiplier to increase the chance to nudge the player to the right
+			#Range: 0 ~ 100
+			Right_Multiplier = 1
+
+	#RandomTeleport Command Settings
+	[commands.RandomTeleport]
+
+		[commands.RandomTeleport."X Axis"]
+			#Miniumum X offset from original X level. (i.e. 10 means when teleported will be at least 10 blocks along the X axis from original position)
+			#Range: 0 ~ 100000
+			randomTeleportXMin = 100
+			#Maximum X offset from original X level. (i.e. 100 means when teleported will be less than 100 blocks away on the X axis from original position)
+			#Range: 0 ~ 100000
+			randomTeleportXMax = 500
+
+		[commands.RandomTeleport."Y Axis"]
+			#Miniumum Y offset from original Y level. (i.e. 10 means when teleported will be at least 10 blocks higher or lower than original position)
+			#Range: 0 ~ 30000000
+			randomTeleportYMin = 1
+			#Maximum Y offset from original Y level. (i.e. 100 means when teleported will be less than 100 blocks higher or lower than original position)
+			#Range: 0 ~ 30000000
+			randomTeleportYMax = 10
+
+		[commands.RandomTeleport."Z Axis"]
+			#Miniumum Z offset from original X level. (i.e. 10 means when teleported will be at least 10 blocks along the Z axis from original position)
+			#Range: 0 ~ 100000
+			randomTeleportZMin = 100
+			#Maximum Z offset from original X level. (i.e. 100 means when teleported will be less than 100 blocks away on the Z axis from original position)
+			#Range: 0 ~ 100000
+			randomTeleportZMax = 500
+
+	#QuickHide Command Settings
+	[commands.QuickHide]
+		#List of random options that can be chosen when using quickhide command
+		QuickHideList = ["minecraft:dead_bush,quick hide in these bushes!", "minecraft:wheat,quick hide in the wheat field!", "minecraft:feather,quick act like a chicken!", "minecraft:painting,quick blend into the wall!"]
+
+	#SummonMount Command Settings
+	[commands.SummonMount]
+		#List of Classifications for SummonMount command to INCLUDE from possible entities. Use "ANY" for all.
+		SummonMountClass = ["ambient", "creature", "water_creature", "water_ambient", "monster"]
+		#List of entities for SummonMount command to EXCLUDE from possible entities
+		SummonMount = ["minecraft:wither", "minecraft:ender_dragon"]
+		#Custom name for SummonMount entities.
+		summonMountCustomName = true
+		#Try to summon entity already tamed.
+		summonMountTamed = true
+
+	#SummonRider Command Settings
+	[commands.SummonRider]
+		#List of Classifications for SummonRide command to INCLUDE from possible entities. Use "ANY" for all.
+		SummonRiderClass = ["ambient", "creature", "water_creature", "water_ambient"]
+
+	#DisplayDeathBoard Command Settings
+	[commands.DisplayDeathBoard]
+		#List of strings to put at the end based on position. Ranks without a separate value will use whatever the last value is
+		DisplayDeathBoard = [" rip"]
+
+	#RandomGift Command Settings
+	[commands.RandomGift]
+		#List of items (resource location,amount,weighted chance) to be chosen for RandomGift command to choose from
+		RandomGift = ["minecraft:diamond,1,1", "minecraft:feather,64,99"]
+
+	#RandomTeleportDirection Command Settings
+	[commands.RandomTeleportDirection]
+		#Teleports user in a random direction with the given amount as distance from their original spot
+		#Range: 0 ~ 100000
+		RandomTeleportDirection = 500
+		#Miniumum Y offset from original Y level. (i.e. 10 means when teleported will be at least 10 blocks higher or lower than original position
+		#Range: 0 ~ 30000000
+		randomTeleportdDirectionYMin = 0
+		#Maximum Y offset from original Y level. (i.e. 100 means when teleported will be less than 100 blocks higher or lower than original position
+		#Range: 0 ~ 30000000
+		randomTeleportYDirectionMax = 320
+

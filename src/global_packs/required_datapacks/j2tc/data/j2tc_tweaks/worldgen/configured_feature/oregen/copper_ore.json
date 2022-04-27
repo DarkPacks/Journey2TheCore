@@ -1,21 +1,18 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:desire_gluttony_copper",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "minecraft:copper_ore"
         }
       }
     ],
     "size": 8,
-    "discard_chance_on_air_exposure": 0.0
+    "discard_chance_on_air_exposure": 0
   },
   "type": "minecraft:ore"
 }

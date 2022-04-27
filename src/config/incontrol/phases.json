@@ -50,5 +50,10 @@
     {
       "mindaycount": 6
     }
+  },
+  {
+    "name": "phase_test",
+    "conditions":
+    {}
   }
 ]

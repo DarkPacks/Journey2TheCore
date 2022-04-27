@@ -1,7 +1,30 @@
 {
   "configs": [
     {
-      "types": {},
+      "types": {
+        "message": [
+          {
+            "conditions": [
+              {
+                "username": "darkosto",
+                "type": "user"
+              },
+              {
+                "exactPhrase": true,
+                "phrase": "test",
+                "type": "message"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
       "for": "twitch"
     },
     {

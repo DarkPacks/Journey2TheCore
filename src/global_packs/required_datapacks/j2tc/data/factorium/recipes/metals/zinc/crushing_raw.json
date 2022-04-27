@@ -1,0 +1,12 @@
+{
+  "type": "factorium:crusher",
+  "input":
+  {
+    "tag": "forge:raw_materials/zinc"
+  },
+  "output":
+  {
+    "item": "create:crushed_zinc_ore",
+    "count": 2
+  }
+}

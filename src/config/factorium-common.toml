@@ -1,0 +1,130 @@
+
+[Machines]
+
+	[Machines.Crusher]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 50.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 400.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 500.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 1000000.0
+
+	[Machines.Grinder]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 50.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 200.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 500.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 500000.0
+
+	[Machines.Pulverizer]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 50.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 200.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 500.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 500000.0
+
+	[Machines.Smelter]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 50.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 200.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 500.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 500000.0
+
+	[Machines.AlloySmelter]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 50.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 200.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 500.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 500000.0
+
+	[Machines.Extruder]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 80.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 100.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 800.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 400000.0
+
+	[Machines.Pump]
+		#Tank capacity (mB)
+		#Range: > 1000
+		tankCapacity = 32000
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 10.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 40.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 20.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 50000.0
+		#Blocks to scan per tick
+		#Range: > 1
+		scanPerTick = 100
+		#Maximum distance to pump
+		#Range: > 1
+		maxPumpDistance = 100
+		#If a fluid has over this amount of blocks on a single Y level - it will be considered infinite
+		#Range: > 1
+		infiniteThreshold = 5000
+
+	[Machines.Mixer]
+		#Base power usage (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerUsage = 20.0
+		#Base length of cycle (ticks)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseCycleTicks = 100.0
+		#Base charging rate (RF/t)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		baseChargingRate = 200.0
+		#Base power capacity (RF)
+		#Range: 1.0 ~ 3.4028234663852886E38
+		basePowerCapacity = 100000.0
+		#Tank capacity (mB)
+		#Range: > 1000
+		tankCapacity = 32000
+

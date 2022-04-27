@@ -1,4 +1,4 @@
-version:2865
+version:2975
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -11,7 +11,7 @@ discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
-showSubtitles:true
+showSubtitles:false
 touchscreen:false
 fullscreen:false
 bobView:false
@@ -23,8 +23,8 @@ mouseSensitivity:0.5
 fov:0.5
 screenEffectScale:0.0
 fovEffectScale:0.0
-gamma:0.6073943661971831
-renderDistance:10
+gamma:0.75
+renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:4
@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","file/Soartex_Fanver 1.18.zip","packmenu","global:j2tc_resources","file/j2tc_resources - 64x","global:j2tc_sounds"]
-incompatibleResourcePacks:["file/Soartex_Fanver 1.18.zip","packmenu"]
+resourcePacks:["vanilla","mod_resources","packmenu","global:j2tc_resources","global:j2tc_sounds"]
+incompatibleResourcePacks:["packmenu"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -47,7 +47,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -67,8 +67,9 @@ mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
+skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:true
+joinedFirstServer:false
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -82,7 +83,7 @@ soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
-soundCategory_voice:0.5580986
+soundCategory_voice:0.50352114
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

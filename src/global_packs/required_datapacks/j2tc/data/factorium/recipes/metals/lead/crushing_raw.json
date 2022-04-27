@@ -1,0 +1,10 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:raw_materials/lead"
+  },
+  "output": {
+    "item": "factorium:mat_lead_chunks",
+    "count": 2
+  }
+}

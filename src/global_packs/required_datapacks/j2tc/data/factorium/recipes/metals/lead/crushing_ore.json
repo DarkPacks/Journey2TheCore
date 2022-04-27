@@ -1,0 +1,14 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:ores/lead"
+  },
+  "output": {
+    "item": "factorium:mat_lead_chunks",
+    "count": 2
+  },
+  "secondary": {
+    "item": "minecraft:gravel",
+    "chance": 0.1
+  }
+}

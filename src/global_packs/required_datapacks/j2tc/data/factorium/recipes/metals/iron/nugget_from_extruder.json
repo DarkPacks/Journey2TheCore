@@ -1,0 +1,14 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "tag": "forge:ingots/iron",
+    "count": 1
+  },
+  "die": {
+    "item": "factorium:die_nugget"
+  },
+  "output": {
+    "item": "minecraft:iron_nugget",
+    "count": 9
+  }
+}

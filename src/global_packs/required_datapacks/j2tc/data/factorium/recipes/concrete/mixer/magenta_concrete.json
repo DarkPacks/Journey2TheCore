@@ -1,0 +1,14 @@
+{
+  "type": "factorium:mixer",
+  "inputItem": {
+    "item": "minecraft:magenta_concrete_powder",
+    "count": 1
+  },
+  "inputFluid": {
+    "fluidTag": "minecraft:water",
+    "amount": 250
+  },
+  "outputItem": {
+    "item": "minecraft:magenta_concrete"
+  }
+}

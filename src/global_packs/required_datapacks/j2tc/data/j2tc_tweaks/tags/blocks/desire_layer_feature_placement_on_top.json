@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:snow_block",
+    {
+      "id": "create:limestone",
+      "required": false
+    }
+  ]
+}

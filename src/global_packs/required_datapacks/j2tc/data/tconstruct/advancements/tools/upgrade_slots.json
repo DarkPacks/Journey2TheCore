@@ -1,60 +1,23 @@
 {
-  "parent": "tconstruct:tools/modified",
   "display": {
     "icon": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.tools.upgrade_slots.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.tools.upgrade_slots.description"
+      "translate": "Yes"
     },
     "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "has_modified": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "type": "tconstruct:tool",
-            "upgrades": {
-              "options": [
-                {
-                  "name": "tconstruct:writable",
-                  "level": 1
-                },
-                {
-                  "name": "tconstruct:recapitated",
-                  "level": 1
-                },
-                {
-                  "name": "tconstruct:harmonious",
-                  "level": 1
-                },
-                {
-                  "name": "tconstruct:resurrected",
-                  "level": 1
-                },
-                {
-                  "name": "tconstruct:gilded",
-                  "level": 1
-                }
-              ],
-              "matches_needed": 5
-            }
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "has_modified"
-    ]
-  ]
+  }
 }

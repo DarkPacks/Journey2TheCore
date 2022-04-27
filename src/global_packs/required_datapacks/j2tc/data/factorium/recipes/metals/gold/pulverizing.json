@@ -1,0 +1,13 @@
+{
+  "type": "factorium:pulverizer",
+  "input": {
+    "tag": "factorium:powders/gold"
+  },
+  "output": {
+    "item": "factorium:mat_gold_dust"
+  },
+  "bonus": {
+    "item": "factorium:mat_gold_dust",
+    "chance": 0.25
+  }
+}

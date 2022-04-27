@@ -1,0 +1,13 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "item": "factorium:mat_carbon_wet"
+  },
+  "die": {
+    "item": "factorium:die_wire"
+  },
+  "output": {
+    "item": "factorium:mat_carbon_fiber",
+    "count": 5
+  }
+}

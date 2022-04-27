@@ -1,0 +1,9 @@
+{
+  "type": "factorium:grinder",
+  "input": {
+    "tag": "forge:gems/diamond"
+  },
+  "output": {
+    "item": "factorium:mat_extra_dust_diamond"
+  }
+}

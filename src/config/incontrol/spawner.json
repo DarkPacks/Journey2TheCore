@@ -351,8 +351,8 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 397,
-      "maxheight": 528,
+      "minheight": 133,
+      "maxheight": 264,
       "maxthis": 8
     }
   },

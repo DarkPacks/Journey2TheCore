@@ -1,0 +1,10 @@
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:iron_sword"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:glass_panes"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:pet_wolf"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:kelp"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:wool_armor"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:beacon"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:conduit"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:goggles"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:lever"}}
+give Darkosto treasurebags:treasure_bag{silentlib.LootContainer:{BagType:"j2tc_tweaks:workstations"}}

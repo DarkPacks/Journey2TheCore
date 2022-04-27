@@ -10,9 +10,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:rabbit"
-        }
+        "tag": "{entity:\"minecraft:rabbit\"}"
       },
       "tasks": [
         {
@@ -33,9 +31,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:rabbit"
-          }
+          "tag": "{entity:\"minecraft:rabbit\"}"
         }
       ],
       "rewardchoice": [],
@@ -50,9 +46,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:villager"
-        }
+        "tag": "{entity:\"minecraft:villager\"}"
       },
       "prerequisites": [
         "0a559c96-214f-4509-aad9-5e1f3b655a3c",
@@ -66,9 +60,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:villager"
-          }
+          "tag": "{entity:\"minecraft:villager\"}"
         }
       ],
       "rewardchoice": [],
@@ -83,9 +75,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:chicken"
-        }
+        "tag": "{entity:\"minecraft:chicken\"}"
       },
       "tasks": [
         {
@@ -106,9 +96,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:chicken"
-          }
+          "tag": "{entity:\"minecraft:chicken\"}"
         }
       ],
       "rewardchoice": [],
@@ -123,9 +111,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:pig"
-        }
+        "tag": "{entity:\"minecraft:pig\"}"
       },
       "tasks": [
         {
@@ -135,9 +121,7 @@
               "item": {
                 "id": "minecraft:carrot_on_a_stick",
                 "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
+                "tag": "{Damage:0}"
               }
             }
           ]
@@ -149,9 +133,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:pig"
-          }
+          "tag": "{entity:\"minecraft:pig\"}"
         }
       ],
       "rewardchoice": [],
@@ -166,9 +148,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:cow"
-        }
+        "tag": "{entity:\"minecraft:cow\"}"
       },
       "tasks": [
         {
@@ -190,9 +170,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:cow"
-          }
+          "tag": "{entity:\"minecraft:cow\"}"
         }
       ],
       "rewardchoice": [],
@@ -207,9 +185,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:sheep"
-        }
+        "tag": "{entity:\"minecraft:sheep\"}"
       },
       "tasks": [
         {
@@ -231,9 +207,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:sheep"
-          }
+          "tag": "{entity:\"minecraft:sheep\"}"
         }
       ],
       "rewardchoice": [],
@@ -248,9 +222,7 @@
       "icon": {
         "id": "animalcrops:seeds",
         "Count": 1,
-        "tag": {
-          "entity": "minecraft:mooshroom"
-        }
+        "tag": "{entity:\"minecraft:mooshroom\"}"
       },
       "tasks": [
         {
@@ -274,9 +246,7 @@
         {
           "id": "animalcrops:seeds",
           "Count": 1,
-          "tag": {
-            "entity": "minecraft:mooshroom"
-          }
+          "tag": "{entity:\"minecraft:mooshroom\"}"
         }
       ],
       "rewardchoice": [],

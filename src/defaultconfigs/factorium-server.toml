@@ -1,0 +1,195 @@
+
+[WorldGen]
+	#Disable to prevent generating stuff in existing chunks
+	retrogenEnabled = false
+
+	[WorldGen.tin_overworld]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 12
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum height
+		#Range: > -2147483648
+		minY = -64
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 100
+		#Vein size
+		#Range: > 1
+		size = 10
+
+	[WorldGen.nickel_overworld]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 15
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum height
+		#Range: > -2147483648
+		minY = -64
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 64
+		#Vein size
+		#Range: > 1
+		size = 6
+
+	[WorldGen.lead_overworld]
+		#Set to false to disable generation
+		enabled = true
+		#Number of veins to generate
+		#Range: > 1
+		count = 8
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum height
+		#Range: > -2147483648
+		minY = -64
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 32
+		#Vein size
+		#Range: > 1
+		size = 5
+
+	[WorldGen.silver_overworld]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 16
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.33
+		#Minimum height
+		#Range: > -2147483648
+		minY = 133
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 264
+		#Vein size
+		#Range: > 1
+		size = 4
+
+	[WorldGen.silver_end]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 4
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum height
+		#Range: > -2147483648
+		minY = 0
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 255
+		#Vein size
+		#Range: > 1
+		size = 10
+
+	[WorldGen.platinum_overworld]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 5
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.800000011920929
+		#Minimum height
+		#Range: > -2147483648
+		minY = -64
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 20
+		#Vein size
+		#Range: > 1
+		size = 5
+
+	[WorldGen.platinum_nether]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 6
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.5
+		#Minimum height
+		#Range: > -2147483648
+		minY = 0
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 255
+		#Vein size
+		#Range: > 1
+		size = 8
+
+	[WorldGen.platinum_end]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 6
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum height
+		#Range: > -2147483648
+		minY = 0
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 255
+		#Vein size
+		#Range: > 1
+		size = 8
+
+	[WorldGen.zinc_overworld]
+		#Set to false to disable generation
+		enabled = false
+		#Number of veins to generate
+		#Range: > 1
+		count = 10
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum height
+		#Range: > -2147483648
+		minY = -64
+		#Maximum height
+		#Range: > -2147483648
+		maxY = 128
+		#Vein size
+		#Range: > 1
+		size = 4
+
+	[WorldGen.meteorite_overworld]
+		#Set to false to disable generation
+		enabled = true
+		#Number of veins to generate
+		#Range: > 1
+		count = 3
+		#Chance of vein to NOT be generated when exposed to air
+		#Range: 0.0 ~ 1.0
+		airExposure = 0.0
+		#Minimum depth under surface
+		#Range: > 0
+		minY = 5
+		#Maximum depth under surface
+		#Range: > 0
+		maxY = 30
+		#Vein size
+		#Range: > 1
+		size = 9
+

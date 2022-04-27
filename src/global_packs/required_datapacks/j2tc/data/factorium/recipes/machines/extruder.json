@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:machines",
+  "pattern": [
+    "PHP",
+    "GRG",
+    "PCP"
+  ],
+  "key": {
+    "R": {
+      "item": "factorium:craft_compressor"
+    },
+    "C": {
+      "item": "factorium:craft_core_basic"
+    },
+    "G": {
+      "tag": "forge:gears/iron"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "H": {
+      "item": "factorium:craft_container"
+    }
+  },
+  "result": {
+    "item": "factorium:extruder"
+  }
+}

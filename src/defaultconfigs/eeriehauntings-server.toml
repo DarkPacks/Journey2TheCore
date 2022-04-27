@@ -3,22 +3,22 @@
 ["Haunting Settings"]
 	#The percent chance a player is to be haunted on a given night by default. If the player isn't haunted at night, this is the value they will start off on for the next night.
 	#Range: 0.0 ~ 100.0
-	defaultHauntChance = 2.5
+	defaultHauntChance = 0.0
 	#The percentage increase in haunt chance a player experiences when they kill a villager.
 	#Range: 0.0 ~ 100.0
-	villagerHauntChance = 5.0
+	villagerHauntChance = 0.0
 	#The percentage increase in haunt chance a player experiences when they kill another player.
 	#Range: 0.0 ~ 100.0
-	playerHauntChance = 25.0
+	playerHauntChance = 0.0
 	#The percentage increase in haunt chance a player experiences when they kill a golem.
 	#Range: 0.0 ~ 100.0
-	golemHauntChance = 7.5
+	golemHauntChance = 0.0
 	#The percentage increase in haunt chance a player experiences when they kill a tamable entity.
 	#Range: 0.0 ~ 100.0
-	petHauntChance = 7
+	petHauntChance = 0.0
 	#The percentage increase in haunt chance a player experiences when they kill anything outside of the other categories.
 	#Range: 0.0 ~ 100.0
-	miscHauntChance = 0.125
+	miscHauntChance = 0.0
 	#Enables or disables medium strength events (blindness, slowness, weakness) (replaces with weak sound events)
 	mediumStrengthEvents = true
 	#Enables or disables strong strength events (levitation, hunger, nausea) (replaces with weak sound events)

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "factorium:smelting",
+  "ingredient":
+  {
+    "tag": "factorium:smeltable/zinc"
+  },
+  "result": "create:zinc_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

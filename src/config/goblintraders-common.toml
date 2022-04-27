@@ -13,10 +13,10 @@
 		#Range: > 0
 		traderSpawnDelay = 24000
 		#The minimum level the trader can spawn
-		#Range: 0 ~ 256
+		#Range: -64 ~ 320
 		traderMinSpawnLevel = 0
 		#The maximum level the trader can spawn
-		#Range: 0 ~ 256
+		#Range: -64 ~ 320
 		traderMaxSpawnLevel = 256
 		#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 		#Range: > -1
@@ -36,10 +36,10 @@
 		#Range: > 0
 		traderSpawnDelay = 24000
 		#The minimum level the trader can spawn
-		#Range: 0 ~ 256
+		#Range: -64 ~ 320
 		traderMinSpawnLevel = 0
 		#The maximum level the trader can spawn
-		#Range: 0 ~ 256
+		#Range: -64 ~ 320
 		traderMaxSpawnLevel = 256
 		#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 		#Range: > -1

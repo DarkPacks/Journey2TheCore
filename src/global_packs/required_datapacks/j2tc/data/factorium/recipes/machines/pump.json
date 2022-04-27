@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:machines",
+  "pattern": [
+    "PTP",
+    "WMW",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "M": {
+      "item": "factorium:craft_motor"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "T": {
+      "item": "factorium:craft_tank"
+    }
+  },
+  "result": {
+    "item": "factorium:pump"
+  }
+}

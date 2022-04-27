@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_brass_ingot"
+    }
+  ],
+  "result": {
+    "item": "factorium:mat_brass_nugget",
+    "count": 9
+  }
+}

@@ -1,37 +1,23 @@
 {
-  "parent": "tconstruct:tools/materials_and_you",
   "display": {
     "icon": {
-      "item": "tconstruct:tinkers_gadgetry"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.world.tinkers_gadgetry.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.world.tinkers_gadgetry.description"
+      "translate": "Yes"
     },
-    "frame": "task",
-    "show_toast": true,
+    "frame": "challenge",
+    "show_toast": false,
     "announce_to_chat": false,
-    "hidden": false
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "crafted_book": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:tinkers_gadgetry"
-            ]
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "crafted_book"
-    ]
-  ]
+  }
 }

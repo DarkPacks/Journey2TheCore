@@ -1,30 +1,23 @@
 {
-  "advancements": [
-    {
-      "conditions": [
-        {
-          "prop": "spawn_with_book",
-          "type": "tconstruct:config"
-        }
-      ],
-      "advancement": {
-        "rewards": {
-          "loot": [
-            "tconstruct:gameplay/starting_book"
-          ]
-        },
-        "criteria": {
-          "tick": {
-            "trigger": "minecraft:tick",
-            "conditions": {}
-          }
-        },
-        "requirements": [
-          [
-            "tick"
-          ]
-        ]
-      }
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Yup3"
+    },
+    "description": {
+      "translate": "Yes"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  ]
+  }
 }

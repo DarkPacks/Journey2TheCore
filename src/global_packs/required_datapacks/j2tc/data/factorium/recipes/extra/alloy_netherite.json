@@ -1,0 +1,14 @@
+{
+  "type": "factorium:alloy",
+  "input1": {
+    "tag": "forge:ingots/gold",
+    "count": 2
+  },
+  "input2": {
+    "item": "minecraft:netherite_scrap",
+    "count": 4
+  },
+  "output": {
+    "item": "minecraft:netherite_ingot"
+  }
+}

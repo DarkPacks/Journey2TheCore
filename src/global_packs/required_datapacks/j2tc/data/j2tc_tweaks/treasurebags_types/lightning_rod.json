@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "This is totally useful"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/lightning_rod",
+  "rarity": "uncommon",
+  "bagColor": "#ffbaba",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

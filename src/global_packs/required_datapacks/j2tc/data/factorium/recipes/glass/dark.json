@@ -1,0 +1,15 @@
+{
+  "type": "factorium:alloy",
+  "input1": {
+    "tag": "forge:dusts/silica",
+    "count": 4
+  },
+  "input2": {
+    "tag": "forge:dyes/black",
+    "count": 1
+  },
+  "output": {
+    "item": "factorium:glass_dark",
+    "count": 4
+  }
+}

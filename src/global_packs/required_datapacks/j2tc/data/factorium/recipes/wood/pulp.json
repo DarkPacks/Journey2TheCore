@@ -1,0 +1,14 @@
+{
+  "type": "factorium:mixer",
+  "inputItem": {
+    "item": "factorium:mat_wood_chips",
+    "count": 1
+  },
+  "inputFluid": {
+    "fluidTag": "minecraft:water",
+    "amount": 100
+  },
+  "outputItem": {
+    "item": "factorium:mat_wood_pulp"
+  }
+}

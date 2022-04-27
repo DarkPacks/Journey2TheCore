@@ -32,6 +32,9 @@
     "minecraft:red_concrete_powder",
     "minecraft:black_concrete_powder",
     "minecraft:soul_soil",
-    "minecraft:rooted_dirt"
+    "minecraft:rooted_dirt",
+    "minecraft:glowstone",
+    "ironchest:dirt_chest",
+    "ironchest:trapped_dirt_chest"
   ]
 }

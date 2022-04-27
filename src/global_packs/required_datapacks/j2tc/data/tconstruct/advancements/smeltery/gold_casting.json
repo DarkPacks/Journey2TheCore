@@ -1,35 +1,23 @@
 {
-  "parent": "tconstruct:smeltery/melter",
   "display": {
     "icon": {
-      "item": "tconstruct:pick_head_cast"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.smeltery.gold_casting.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.smeltery.gold_casting.description"
+      "translate": "Yes"
     },
-    "frame": "task",
-    "show_toast": true,
+    "frame": "challenge",
+    "show_toast": false,
     "announce_to_chat": false,
-    "hidden": false
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "crafted_cast": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "tconstruct:casts/gold"
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "crafted_cast"
-    ]
-  ]
+  }
 }

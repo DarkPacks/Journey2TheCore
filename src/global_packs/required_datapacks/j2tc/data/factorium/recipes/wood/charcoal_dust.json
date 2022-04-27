@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "group": "factorium:smelting",
+  "ingredient": {
+    "item": "factorium:mat_wood_chips"
+  },
+  "result": "factorium:mat_extra_dust_charcoal",
+  "cookingtime": 200
+}

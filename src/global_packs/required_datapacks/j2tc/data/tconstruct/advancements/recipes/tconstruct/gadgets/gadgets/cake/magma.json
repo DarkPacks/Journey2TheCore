@@ -1,34 +1,23 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "tconstruct:gadgets/cake/magma"
-    ]
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Yup3"
+    },
+    "description": {
+      "translate": "Yes"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "has_slime": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:magma_bucket"
-            ]
-          }
-        ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "tconstruct:gadgets/cake/magma"
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "has_slime",
-      "has_the_recipe"
-    ]
-  ]
+  }
 }

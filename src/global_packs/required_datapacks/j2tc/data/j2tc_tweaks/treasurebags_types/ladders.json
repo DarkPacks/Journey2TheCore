@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "Climb Your Way Out"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/ladders",
+  "rarity": "uncommon",
+  "bagColor": "#40311f",
+  "bagOverlayColor": "#dbd800",
+  "bagStringColor": "#e6e229",
+  "dropsFromGroups": []
+}

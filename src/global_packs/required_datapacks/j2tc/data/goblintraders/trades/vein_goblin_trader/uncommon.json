@@ -1,50 +1,120 @@
 {
-  "replace": false,
+  "replace": true,
   "trades": [
     {
       "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:totem_of_undying",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "minecraft:netherite_ingot",
+      "offer_item":
+      {
+        "item": "minecraft:gunpowder",
         "count": 2
       },
-      "price_multiplier": 0.0,
+      "payment_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 1
+      },
+      "price_multiplier": 0.05,
+      "max_trades": 32,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 6
+      },
+      "payment_item":
+      {
+        "item": "minecraft:turtle_egg",
+        "count": 1
+      },
+      "price_multiplier": 0.05,
       "experience": 10
     },
     {
       "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:netherite_scrap",
-        "count": 5
+      "offer_item":
+      {
+        "item": "minecraft:sponge",
+        "count": 1
       },
-      "payment_item": {
-        "item": "minecraft:ancient_debris",
-        "count": 4
+      "payment_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 8
       },
-      "price_multiplier": 0.0,
-      "max_trades": 20,
-      "experience": 50
+      "price_multiplier": 0.05,
+      "experience": 10
     },
     {
       "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:red_nether_bricks",
+      "offer_item":
+      {
+        "item": "minecraft:terracotta",
+        "count": 2
+      },
+      "payment_item":
+      {
+        "item": "minecraft:clay",
         "count": 1
       },
-      "payment_item": {
-        "item": "minecraft:nether_wart",
-        "count": 1
-      },
-      "secondary_payment_item": {
-        "item": "minecraft:nether_brick",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 128,
+      "price_multiplier": 0.05,
+      "max_trades": 64,
       "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "minecraft:book",
+        "count": 2
+      },
+      "payment_item":
+      {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "secondary_payment_item":
+      {
+        "item": "minecraft:paper",
+        "count": 3
+      },
+      "price_multiplier": 0.05,
+      "max_trades": 32,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 1
+      },
+      "payment_item":
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 20,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 12
+      },
+      "payment_item":
+      {
+        "item": "alexsmobs:shield_of_the_deep",
+        "count": 1
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 2,
+      "experience": 20
     }
   ]
 }

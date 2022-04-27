@@ -1,0 +1,10 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "item": "minecraft:calcite"
+  },
+  "output": {
+    "item": "factorium:mat_extra_chunks_calcite",
+    "count": 2
+  }
+}

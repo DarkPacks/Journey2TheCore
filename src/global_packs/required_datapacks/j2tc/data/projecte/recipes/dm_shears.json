@@ -1,1 +1,22 @@
-{"type":"minecraft:crafting_shaped","pattern":[" M","D "],"key":{"D":{"tag":"forge:gems/diamond"},"M":{"item":"projecte:dark_matter"}},"result":{"item":"projecte:dm_shears"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M",
+    "D "
+  ],
+  "key":
+  {
+    "D":
+    {
+      "item": "projecte:klein_star_vier"
+    },
+    "M":
+    {
+      "item": "projecte:dark_matter"
+    }
+  },
+  "result":
+  {
+    "item": "projecte:dm_shears"
+  }
+}

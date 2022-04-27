@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:craft_mesh_carbon"
+    },
+    {
+      "item": "factorium:craft_mesh_carbon"
+    },
+    {
+      "item": "factorium:craft_mesh_carbon"
+    },
+    {
+      "item": "factorium:craft_mesh_carbon"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "tag": "forge:dusts/diamond"
+    }
+  ],
+  "result": {
+    "item": "factorium:craft_mesh_reinforced",
+    "count": 4
+  }
+}

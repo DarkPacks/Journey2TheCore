@@ -54,34 +54,24 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "rewardchoice": [
         {
           "id": "tconstruct:small_blade",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:flint"
-          }
+          "tag": "{Material:\"tconstruct:flint\"}"
         },
         {
           "id": "tconstruct:small_blade",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:rock"
-          }
+          "tag": "{Material:\"tconstruct:rock\"}"
         },
         {
           "id": "tconstruct:small_blade",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:bone"
-          }
+          "tag": "{Material:\"tconstruct:bone\"}"
         }
       ],
       "commandrewards": []
@@ -105,7 +95,7 @@
                 "id": "minecraft:cobblestone",
                 "Count": 1
               },
-              "required": 64,
+              "required": 32,
               "precision": "TAG_NBT_FUZZY"
             }
           ]
@@ -127,14 +117,70 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:seed_food_bag"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:seed_food_bag\"}}"
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b77048ee-afe9-40d8-b885-3f7d9ea8de7c",
+      "name": "Helmet",
+      "description": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+      "x": 174,
+      "y": 11,
+      "icon": {
+        "id": "tconstruct:travelers_helmet",
+        "Count": 1,
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:enderman_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_helmet",
+          "Count": 1,
+          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Item Tooltips\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:the_one_probe\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Slurping\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:slurping\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Zoom\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:zoom\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:revitalizing\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -164,16 +210,31 @@
         "5cf9b4e6-50dd-408a-9560-f5866948e8d0"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "chargers:charger_t2",
+          "Count": 1,
+          "tag": "{}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "nameless_trinkets:experience_battery",
+          "Count": 1
+        },
+        {
+          "id": "sophisticatedbackpacks:battery_upgrade",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "f16c1942-17bc-4410-b8ef-5a40b4ac4386",
       "name": "Mr Bones Wild Ride",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 142,
-      "y": 18,
+      "x": 104,
+      "y": 15,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -214,11 +275,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -269,14 +326,12 @@
       "uuid": "6a56dace-3b01-497d-ba7a-906327f9978e",
       "name": "Skillet",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 188,
-      "y": 67,
+      "x": 189,
+      "y": 68,
       "icon": {
         "id": "farmersdelight:skillet",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "tasks": [
         {
@@ -286,9 +341,7 @@
               "item": {
                 "id": "farmersdelight:skillet",
                 "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
+                "tag": "{Damage:0}"
               }
             }
           ]
@@ -338,7 +391,61 @@
         "1a793aac-0be4-4f4a-87c2-6725781939b1"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4ab2e9af-1b62-445a-8521-da9dbff36c26",
+      "name": "Is There Anybody Out There?",
+      "description": "Turns out there might be someone down here. I wonder where they are? I might have to dig down...",
+      "x": 21,
+      "y": 88,
+      "icon": {
+        "id": "minecraft:filled_map",
+        "Count": 1,
+        "tag": "{Decorations:[{id:\"+\",rot:180s,type:26b,x:-144s,z:336s}],map:5b}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bone",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:treasure_map\"}}"
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -387,11 +494,57 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc474a8f-ac11-4e03-b0df-afe1c2c91ae2",
+      "name": "Gold Rush",
+      "description": "Gold is located between Y\u003d-64 to Y\u003d264",
+      "x": 270,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:gold_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_block",
+                "Count": 1
+              }
             }
-          }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5cf9b4e6-50dd-408a-9560-f5866948e8d0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:hopper_gold",
+          "Count": 1
+        },
+        {
+          "id": "candyworld:butter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -405,50 +558,7 @@
       "icon": {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag": {
-          "tic_multipliers": {},
-          "tic_stats": {
-            "tconstruct:attack_speed": 0.9,
-            "tconstruct:mining_speed": 3.5,
-            "tconstruct:attack_damage": 7.25,
-            "tconstruct:harvest_tier": "minecraft:wood",
-            "tconstruct:durability": 85.0
-          },
-          "tic_broken": 0,
-          "HideFlags": 3,
-          "tic_modifiers": [
-            {
-              "name": "tconstruct:cultivated",
-              "level": 1
-            },
-            {
-              "name": "tconstruct:jagged",
-              "level": 2
-            },
-            {
-              "name": "tconstruct:axe_strip",
-              "level": 1
-            },
-            {
-              "name": "tconstruct:axe_scrape",
-              "level": 1
-            },
-            {
-              "name": "tconstruct:axe_wax_off",
-              "level": 1
-            }
-          ],
-          "tic_materials": [
-            "tconstruct:flint",
-            "tconstruct:wood",
-            "tconstruct:flint"
-          ],
-          "Damage": 0,
-          "tic_persistent_data": {
-            "abilities": 1,
-            "upgrades": 3
-          }
-        }
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":85.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
       },
       "tasks": [
         {
@@ -458,9 +568,7 @@
               "item": {
                 "id": "tconstruct:small_axe_head",
                 "Count": 1,
-                "tag": {
-                  "Material": "tconstruct:flint"
-                }
+                "tag": "{Material:\"tconstruct:flint\"}"
               },
               "precision": "TAG_FUZZY"
             }
@@ -475,53 +583,24 @@
         {
           "id": "tconstruct:tool_handle",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:slimewood"
-          }
+          "tag": "{Material:\"tconstruct:slimewood\"}"
         }
       ],
       "rewardchoice": [
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:haste",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:haste\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:luck",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:luck\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:reinforced",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:reinforced\"}"
         }
       ],
       "commandrewards": []
@@ -530,8 +609,8 @@
       "uuid": "533ca0f2-2ef6-47d0-8ba3-48df6f9a535c",
       "name": "Gather Flint",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 62,
-      "y": 13,
+      "x": 56,
+      "y": 15,
       "icon": {
         "id": "minecraft:flint",
         "Count": 1
@@ -556,9 +635,52 @@
         {
           "id": "tconstruct:repair_kit",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:flint"
-          }
+          "tag": "{Material:\"tconstruct:flint\"}"
+        },
+        {
+          "id": "cyclic:shield_flint",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3991b4e8-3a39-4314-bc7f-e97a8716571f",
+      "name": "unLeaded",
+      "description": "Unnamed quest",
+      "x": 272,
+      "y": 111,
+      "icon": {
+        "id": "factorium:mat_lead_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "factorium:mat_lead_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5cf9b4e6-50dd-408a-9560-f5866948e8d0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lead",
+          "Count": 1
+        },
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -568,14 +690,12 @@
       "uuid": "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3",
       "name": "Grab Your Pantaloons!",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 22,
-      "y": 54,
+      "x": 21,
+      "y": 53,
       "icon": {
         "id": "turkeydevutil:cobblestone_chestplate",
         "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
+        "tag": "{Damage:0}"
       },
       "tasks": [
         {
@@ -585,36 +705,28 @@
               "item": {
                 "id": "turkeydevutil:cobblestone_helmet",
                 "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
+                "tag": "{Damage:0}"
               }
             },
             {
               "item": {
                 "id": "turkeydevutil:cobblestone_chestplate",
                 "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
+                "tag": "{Damage:0}"
               }
             },
             {
               "item": {
                 "id": "turkeydevutil:cobblestone_leggings",
                 "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
+                "tag": "{Damage:0}"
               }
             },
             {
               "item": {
                 "id": "turkeydevutil:cobblestone_boots",
                 "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
+                "tag": "{Damage:0}"
               }
             }
           ]
@@ -636,11 +748,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "rewardchoice": [],
@@ -650,8 +758,8 @@
       "uuid": "373e95be-9db1-4295-9b03-7ba4f5c68326",
       "name": "Inventory Unlock",
       "description": "You\u0027ll need to unlock those inventory slots to gain more inventory splace. Use Experience Confection to unlock 1 slot. The cost increases for every slot you unlock.",
-      "x": 49,
-      "y": 34,
+      "x": 44,
+      "y": 35,
       "icon": {
         "id": "turkeydevutil:lanyard",
         "Count": 1
@@ -725,8 +833,9 @@
       "uuid": "48c3b4fb-79bd-49bc-a05c-67ff33834f3d",
       "name": "Break Rooted Dirt Get Sapling",
       "description": "You\u0027ll need more Trees to get started. Use the Sapling in your inventory to grow one or break Rooted Dirt blocks for more saplings.",
-      "x": 22,
-      "y": 17,
+      "x": 18,
+      "y": 11,
+      "bigicon": true,
       "icon": {
         "id": "minecraft:oak_sapling",
         "Count": 1
@@ -805,11 +914,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -818,7 +923,7 @@
       "uuid": "6f079b8a-32c5-4b57-8900-26bc8b566b50",
       "name": "Bonfire",
       "description": "Clicking on a Lit Bonfire will set your Spawn Point",
-      "x": 61,
+      "x": 56,
       "y": 55,
       "icon": {
         "id": "minecraft:campfire",
@@ -841,11 +946,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:flint_and_steel",
+          "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         },
         {
           "id": "hardcorequesting:quarterheart",
@@ -969,11 +1072,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:seed_food_bag"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:seed_food_bag\"}}"
         }
       ],
       "rewardchoice": [],
@@ -983,30 +1082,12 @@
       "uuid": "998ed66b-32d7-4b8c-8d05-1a2ce19f8b20",
       "name": "They\u0027re Hunting You!",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 106,
-      "y": 39,
+      "x": 92,
+      "y": 35,
       "icon": {
         "id": "minecraft:player_head",
         "Count": 1,
-        "tag": {
-          "SkullOwner": {
-            "Id": [
-              276127398,
-              -1759426950,
-              -1956867411,
-              -158791892
-            ],
-            "Properties": {
-              "textures": [
-                {
-                  "Value": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d",
-                  "Signature": "HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d"
-                }
-              ]
-            },
-            "Name": "Darkosto"
-          }
-        }
+        "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
       },
       "tasks": [
         {
@@ -1017,25 +1098,7 @@
               "icon": {
                 "id": "minecraft:player_head",
                 "Count": 1,
-                "tag": {
-                  "SkullOwner": {
-                    "Id": [
-                      276127398,
-                      -1759426950,
-                      -1956867411,
-                      -158791892
-                    ],
-                    "Properties": {
-                      "textures": [
-                        {
-                          "Value": "ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d",
-                          "Signature": "HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d"
-                        }
-                      ]
-                    },
-                    "Name": "Darkosto"
-                  }
-                }
+                "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
               },
               "mob": "player_mobs:player_mob",
               "kills": 10
@@ -1063,11 +1126,103 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9db76cc7-b1fb-425b-a6a5-96868ad5e44e",
+      "name": "Feelin\u0027 Hungry?",
+      "description": "Out of food? Make some Rock Soup to hold you over until you can make a real meal!",
+      "x": 80,
+      "y": 55,
+      "icon": {
+        "id": "turkeydevutil:rock_soup",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bowl",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:cobblestone",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
             }
-          }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:rock_soup",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
+      "name": "Leggings",
+      "description": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+      "x": 198,
+      "y": 11,
+      "icon": {
+        "id": "tconstruct:travelers_leggings",
+        "Count": 1,
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:skeleton_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_leggings",
+          "Count": 1,
+          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:shield_strap\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:pockets\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
         }
       ],
       "commandrewards": []
@@ -1076,8 +1231,8 @@
       "uuid": "9cf2648d-71c5-4ac2-82eb-cc9cfd38ff9e",
       "name": "Kill Creepers",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 130,
-      "y": 38,
+      "x": 116,
+      "y": 35,
       "icon": {
         "id": "minecraft:creeper_head",
         "Count": 1
@@ -1102,37 +1257,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:flint_and_steel",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": {
-            "tic_multipliers": {},
-            "tic_stats": {
-              "tconstruct:durability": 100.0
-            },
-            "tic_broken": 0,
-            "HideFlags": 3,
-            "tic_modifiers": [
-              {
-                "name": "tconstruct:fiery",
-                "level": 1
-              },
-              {
-                "name": "tconstruct:firestarter_hidden",
-                "level": 1
-              }
-            ],
-            "Damage": 0,
-            "tic_persistent_data": {
-              "upgrades": 1
-            }
-          }
+          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         }
       ],
       "rewardchoice": [
@@ -1147,11 +1274,53 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e13a3c1b-980f-4e21-a7b1-49500798249c",
+      "name": "Ghoul",
+      "description": "Unnamed quest",
+      "x": 128,
+      "y": 15,
+      "icon": {
+        "id": "graveyard:ghoul_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Ghoul",
+              "icon": {
+                "id": "graveyard:ghoul_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:ghoul",
+              "kills": 10
             }
-          }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -1191,9 +1360,12 @@
         {
           "id": "tconstruct:pick_head",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:copper"
-          }
+          "tag": "{Material:\"tconstruct:copper\"}"
+        },
+        {
+          "id": "cyclic:shield_leather",
+          "Count": 1,
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
@@ -1204,9 +1376,7 @@
         {
           "id": "tconstruct:small_blade",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:copper"
-          }
+          "tag": "{Material:\"tconstruct:copper\"}"
         }
       ],
       "commandrewards": []
@@ -1220,9 +1390,7 @@
       "icon": {
         "id": "tconstruct:pick_head",
         "Count": 1,
-        "tag": {
-          "Material": "tconstruct:rock"
-        }
+        "tag": "{Material:\"tconstruct:rock\"}"
       },
       "tasks": [
         {
@@ -1267,67 +1435,29 @@
         {
           "id": "tconstruct:tool_handle",
           "Count": 1,
-          "tag": {
-            "Material": "tconstruct:slimewood"
-          }
+          "tag": "{Material:\"tconstruct:slimewood\"}"
         }
       ],
       "rewardchoice": [
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:haste",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:haste\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:luck",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:luck\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:reinforced",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:reinforced\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:glowing",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:glowing\"}"
         }
       ],
       "commandrewards": []
@@ -1336,8 +1466,8 @@
       "uuid": "f92f705c-bd8e-453c-aa60-3654e6c462df",
       "name": "Zombies",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 118,
-      "y": 18,
+      "x": 80,
+      "y": 15,
       "icon": {
         "id": "minecraft:zombie_head",
         "Count": 1
@@ -1378,11 +1508,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -1391,8 +1517,8 @@
       "uuid": "6c9dce8d-0f41-44f2-9dc0-1d73dbab9d95",
       "name": "Arachnophobia",
       "description": "Kill Cave Spiders",
-      "x": 143,
-      "y": 59,
+      "x": 128,
+      "y": 55,
       "icon": {
         "id": "tconstruct:cave_spider_head",
         "Count": 1
@@ -1419,9 +1545,7 @@
         {
           "id": "mob_grinding_utils:monocle",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [
@@ -1436,11 +1560,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -1449,8 +1569,8 @@
       "uuid": "8b970dba-dacb-45bf-a9bd-9ae411d393a3",
       "name": "EIGHT LEGGED FREAKS",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 119,
-      "y": 59,
+      "x": 104,
+      "y": 55,
       "icon": {
         "id": "tconstruct:spider_head",
         "Count": 1
@@ -1495,15 +1615,12 @@
       "uuid": "9351da90-607b-46d5-878f-b8c154b75e24",
       "name": "Glowsticks",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 74,
-      "y": 34,
+      "x": 68,
+      "y": 35,
       "icon": {
         "id": "glow_sticks:glow_stick_purple",
         "Count": 1,
-        "tag": {
-          "step": 0,
-          "activated": 0
-        }
+        "tag": "{activated:0b,step:0b}"
       },
       "tasks": [
         {
@@ -1513,10 +1630,7 @@
               "item": {
                 "id": "glow_sticks:glow_stick_purple",
                 "Count": 1,
-                "tag": {
-                  "step": 0,
-                  "activated": 0
-                }
+                "tag": "{activated:0b,step:0b}"
               },
               "required": 3,
               "precision": "TAG_NBT_FUZZY"
@@ -1530,10 +1644,49 @@
         {
           "id": "glow_sticks:glow_stick_purple",
           "Count": 8,
-          "tag": {
-            "step": 0,
-            "activated": 0
-          }
+          "tag": "{activated:0b,step:0b}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b01745d5-6b15-48ac-b815-cb26081ca6e7",
+      "name": "Kelptomaniac",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 219,
+      "y": 109,
+      "icon": {
+        "id": "minecraft:kelp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:vine",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:kelp",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1567,8 +1720,25 @@
         "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:iron\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:small_axe_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:iron\"}"
+        },
+        {
+          "id": "tconstruct:small_blade",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:iron\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1602,12 +1772,27 @@
         {
           "id": "farmersdelight:flint_knife",
           "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "farmersdelight:onion",
+          "Count": 1
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "farmersdelight:tomato",
+          "Count": 1
+        },
+        {
+          "id": "farmersdelight:cabbage",
+          "Count": 1
+        },
+        {
+          "id": "farmersdelight:rice_panicle",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1651,6 +1836,11 @@
         {
           "id": "farmersdelight:mutton_wrap",
           "Count": 4
+        },
+        {
+          "id": "cyclic:shield_wood",
+          "Count": 1,
+          "tag": "{Damage:0}"
         }
       ],
       "rewardchoice": [],
@@ -1684,8 +1874,24 @@
         "99816012-74e9-4c81-bb97-17e3836f506c"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:artifact_bag\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1727,8 +1933,8 @@
     },
     {
       "uuid": "a6bc09a4-ea29-4986-9dd8-421a963546b7",
-      "name": "Unnamed",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": "Kitchen Remodel",
+      "description": "The Cooking for Blockheads kitchen blocks make cooking easy! The Fridge will also stop food from spoiling!",
       "x": 191,
       "y": 142,
       "icon": {
@@ -1820,11 +2026,7 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -1832,7 +2034,7 @@
     {
       "uuid": "10100082-484d-412a-979e-dddb55806b0a",
       "name": "Rich Soil",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "description": "Dirt can be located all over the world. If you can\u0027t find any, use a Hoe or a Mattock and Right-Click Rooted Dirt or Coarse Dirt to create Dirt!",
       "x": 33,
       "y": 116,
       "icon": {
@@ -1877,121 +2079,25 @@
     },
     {
       "uuid": "ea19766d-504f-42b2-8aa2-63f8f1e58c8c",
-      "name": "Armor",
-      "description": "Unnamed quest",
+      "name": "Chest Plate",
+      "description": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
       "x": 174,
-      "y": 47,
+      "y": 37,
       "icon": {
         "id": "tconstruct:travelers_chestplate",
         "Count": 1,
-        "tag": {
-          "tic_multipliers": {},
-          "tic_stats": {
-            "tconstruct:durability": 160.0,
-            "tconstruct:armor": 5.0
-          },
-          "tic_broken": 0,
-          "HideFlags": 3,
-          "tic_modifiers": [],
-          "Damage": 0,
-          "tic_persistent_data": {
-            "abilities": 1,
-            "defense": 2,
-            "upgrades": 3
-          }
-        }
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
       },
       "tasks": [
         {
-          "type": "DETECT",
-          "items": [
+          "type": "BLOCK_BREAK",
+          "blocks": [
             {
               "item": {
-                "id": "tconstruct:travelers_helmet",
-                "Count": 1,
-                "tag": {
-                  "tic_multipliers": {},
-                  "tic_stats": {
-                    "tconstruct:durability": 110.0,
-                    "tconstruct:armor": 1.0
-                  },
-                  "tic_broken": 0,
-                  "HideFlags": 3,
-                  "tic_modifiers": [],
-                  "Damage": 0,
-                  "tic_persistent_data": {
-                    "abilities": 1,
-                    "defense": 2,
-                    "upgrades": 3
-                  }
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:travelers_chestplate",
-                "Count": 1,
-                "tag": {
-                  "tic_multipliers": {},
-                  "tic_stats": {
-                    "tconstruct:durability": 160.0,
-                    "tconstruct:armor": 5.0
-                  },
-                  "tic_broken": 0,
-                  "HideFlags": 3,
-                  "tic_modifiers": [],
-                  "Damage": 0,
-                  "tic_persistent_data": {
-                    "abilities": 1,
-                    "defense": 2,
-                    "upgrades": 3
-                  }
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:travelers_leggings",
-                "Count": 1,
-                "tag": {
-                  "tic_multipliers": {},
-                  "tic_stats": {
-                    "tconstruct:durability": 150.0,
-                    "tconstruct:armor": 4.0
-                  },
-                  "tic_broken": 0,
-                  "HideFlags": 3,
-                  "tic_modifiers": [],
-                  "Damage": 0,
-                  "tic_persistent_data": {
-                    "abilities": 1,
-                    "defense": 2,
-                    "upgrades": 3
-                  }
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:travelers_boots",
-                "Count": 1,
-                "tag": {
-                  "tic_multipliers": {},
-                  "tic_stats": {
-                    "tconstruct:durability": 130.0,
-                    "tconstruct:armor": 1.0
-                  },
-                  "tic_broken": 0,
-                  "HideFlags": 3,
-                  "tic_modifiers": [],
-                  "Damage": 0,
-                  "tic_persistent_data": {
-                    "abilities": 1,
-                    "defense": 2,
-                    "upgrades": 3
-                  }
-                }
-              }
+                "id": "monstereggs:zombie_egg",
+                "Count": 1
+              },
+              "required": 4
             }
           ]
         }
@@ -2002,52 +2108,132 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "bhc:red_heart_canister",
-          "Count": 1
+          "id": "tconstruct:travelers_chestplate",
+          "Count": 1,
+          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
         }
       ],
       "rewardchoice": [
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:magnetic",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Magnetic\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Unarmed\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:unarmed\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:haste",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}"
-            }
-          }
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Strength\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:strength\"}"
         },
         {
           "id": "turkeydevutil:book",
           "Count": 1,
-          "tag": {
-            "modifier_book": "tconstruct:feather_falling",
-            "display": {
-              "Lore": [
-                "{\"text\":\"Use this book to add a modifier\"}",
-                "{\"text\":\"to Tinkers\u0027 Construct Gear\"}"
-              ],
-              "Name": "{\"text\":\"Modifier: Feather Falling\",\"color\":\"gold\",\"italic\":false}"
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:glowing\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2fef3b07-b11c-4cea-91c8-8646cd1317f9",
+      "name": "Boots",
+      "description": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+      "x": 198,
+      "y": 37,
+      "icon": {
+        "id": "tconstruct:travelers_boots",
+        "Count": 1,
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:spider_egg",
+                "Count": 1
+              },
+              "required": 4
             }
-          }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_boots",
+          "Count": 1,
+          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Bouncy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:bouncy\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Double Jump\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:double_jump\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Flamewake\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:flamewake\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e44cab3b-f383-4c1a-87e3-e4f759fe667e",
+      "name": "Revenant",
+      "description": "Unnamed quest",
+      "x": 140,
+      "y": 35,
+      "icon": {
+        "id": "graveyard:revenant_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Revenant",
+              "icon": {
+                "id": "graveyard:ghoul_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:revenant",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -2093,29 +2279,17 @@
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         },
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         },
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": {
-            "silentlib.LootContainer": {
-              "BagType": "j2tc_tweaks:bagception"
-            }
-          }
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
       "commandrewards": []

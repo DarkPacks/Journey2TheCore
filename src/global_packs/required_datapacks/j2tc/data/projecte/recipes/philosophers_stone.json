@@ -1,1 +1,28 @@
-{"type":"minecraft:crafting_shaped","group":"projecte:philosophers_stone","pattern":["RGR","GDG","RGR"],"key":{"R":{"tag":"forge:dusts/redstone"},"G":{"tag":"forge:dusts/glowstone"},"D":{"tag":"forge:gems/diamond"}},"result":{"item":"projecte:philosophers_stone"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "projecte:philosophers_stone",
+  "pattern": [
+    "GRG",
+    "RDR",
+    "GRG"
+  ],
+  "key":
+  {
+    "R":
+    {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "G":
+    {
+      "item": "minecraft:glowstone"
+    },
+    "D":
+    {
+      "tag": "forge:storage_blocks/diamond"
+    }
+  },
+  "result":
+  {
+    "item": "projecte:philosophers_stone"
+  }
+}

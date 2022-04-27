@@ -1,0 +1,13 @@
+{
+  "type": "factorium:mixer",
+  "inputItem": {
+    "tag": "forge:dusts/coal"
+  },
+  "inputFluid": {
+    "fluidTag": "minecraft:water",
+    "amount": 500
+  },
+  "outputItem": {
+    "item": "factorium:mat_carbon_wet"
+  }
+}

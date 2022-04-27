@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "group": "factorium:smelting",
+  "ingredient": {
+    "item": "factorium:mat_carbon_wet"
+  },
+  "result": "factorium:mat_carbon_dust",
+  "cookingtime": 200
+}

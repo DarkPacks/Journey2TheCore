@@ -5,25 +5,28 @@
     "DPD",
     "GGG"
   ],
-  "key": {
-    "R": {
+  "key":
+  {
+    "R":
+    {
       "item": "minecraft:soul_torch"
     },
-    "G": {
+    "G":
+    {
       "tag": "forge:dusts/glowstone"
     },
-    "D": {
+    "D":
+    {
       "item": "compressium:coal_7"
     },
-    "P": {
+    "P":
+    {
       "item": "projecte:red_matter"
     }
   },
-  "result": {
-    "item": "projecte:interdiction_torch"
+  "result":
+  {
+    "item": "projecte:interdiction_torch",
+    "count": 4
   }
 }
-
-
-
-

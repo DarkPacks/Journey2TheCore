@@ -1,0 +1,150 @@
+{
+  "profession": "cleric",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer":
+      {
+        "itemKey": "mob_grinding_utils:solid_xp_baby",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "turkeydevutil:ramen",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:charm_stealthpotion",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:apple_prismarine",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:apple_bone",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:charm_xp_blocker",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:charm_xp_speed",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:charm_luck",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "profession": "leatherworker",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer":
+      {
+        "itemKey": "alexsmobs:kangaroo_hide",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "minecraft:rabbit_hide",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "minecraft:leather",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "minecraft:rabbit_foot",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "alexsmobs:crocodile_chestplate",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 24,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 16,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer":
+      {
+        "itemKey": "alexsmobs:roadrunner_boots",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 24,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 16,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    },
+    {
+      "offer":
+      {
+        "itemKey": "alexsmobs:frontier_cap",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 24,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 16,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "tradeLevel": 3
+    }
+  ]
+}

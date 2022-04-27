@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:misc",
+  "pattern": [
+    "DGD",
+    "DXD",
+    "DGD"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:dusts/diamond"
+    },
+    "X": {
+      "item": "factorium:craft_grinder"
+    },
+    "G": {
+      "tag": "forge:gears/steel"
+    }
+  },
+  "result": {
+    "item": "factorium:craft_pulverizer"
+  }
+}

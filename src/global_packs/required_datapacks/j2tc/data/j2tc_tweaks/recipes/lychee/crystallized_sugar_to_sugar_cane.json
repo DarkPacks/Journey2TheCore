@@ -1,0 +1,21 @@
+{
+  "type": "lychee:block_crushing",
+  "item_in": [
+    {
+      "item": "candyworld:sugar_crystal"
+        },
+    {
+      "item": "candyworld:sugar_crystal"
+        },
+    {
+      "item": "candyworld:sugar_crystal"
+        }
+    ],
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "minecraft:sugar_cane",
+      "count": 1
+        }
+    ]
+}

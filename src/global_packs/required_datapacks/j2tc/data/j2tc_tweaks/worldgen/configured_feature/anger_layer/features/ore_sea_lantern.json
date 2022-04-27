@@ -1,21 +1,18 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:anger_ore_replaceable",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "minecraft:sea_lantern"
         }
       }
     ],
     "size": 4,
-    "discard_chance_on_air_exposure": 0.0
+    "discard_chance_on_air_exposure": 0
   },
   "type": "minecraft:ore"
 }

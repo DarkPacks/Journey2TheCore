@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:rods",
+  "pattern": [
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "factorium:mat_brass_rod",
+    "count": 4
+  }
+}

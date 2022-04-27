@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    {
+      "id": "create:ochrum",
+      "required": false
+    }
+  ]
+}

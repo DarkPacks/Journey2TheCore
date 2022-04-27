@@ -1,0 +1,12 @@
+{
+  "type": "factorium:alloy",
+  "input1": {
+    "item": "factorium:glass_crystal"
+  },
+  "input2": {
+    "item": "factorium:craft_mesh_reinforced"
+  },
+  "output": {
+    "item": "factorium:glass_reinforced"
+  }
+}

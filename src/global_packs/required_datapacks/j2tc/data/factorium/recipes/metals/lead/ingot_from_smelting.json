@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "factorium:smelting",
+  "ingredient": {
+    "tag": "factorium:smeltable/lead"
+  },
+  "result": "factorium:mat_lead_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

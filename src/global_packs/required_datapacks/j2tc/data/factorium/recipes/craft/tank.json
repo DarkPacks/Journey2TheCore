@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:misc",
+  "pattern": [
+    "X X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "factorium:craft_tank"
+  }
+}

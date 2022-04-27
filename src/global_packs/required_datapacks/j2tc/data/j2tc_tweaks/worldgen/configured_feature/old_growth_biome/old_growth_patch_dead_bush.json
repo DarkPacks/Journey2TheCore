@@ -1,19 +1,13 @@
 {
-  "config":
-  {
+  "config": {
     "tries": 4,
     "xz_spread": 1,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
-        "config":
-        {
-          "to_place":
-          {
-            "state":
-            {
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "state": {
               "Name": "minecraft:dead_bush"
             },
             "type": "minecraft:simple_state_provider"
@@ -23,8 +17,7 @@
       },
       "placement": [
         {
-          "predicate":
-          {
+          "predicate": {
             "blocks": [
               "minecraft:air"
             ],

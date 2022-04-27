@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:plates",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "factorium:mat_gold_plate",
+    "count": 3
+  }
+}

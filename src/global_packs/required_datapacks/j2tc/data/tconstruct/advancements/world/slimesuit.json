@@ -1,83 +1,23 @@
 {
-  "parent": "tconstruct:world/ender_island",
   "display": {
     "icon": {
-      "item": "tconstruct:slime_chestplate",
-      "nbt": "{Damage:0,tic_broken:0b,tic_display:1b}"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.world.slimesuit.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.world.slimesuit.description"
+      "translate": "Yes"
     },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "crafted_boots": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:slime_boots"
-            ]
-          }
-        ]
-      }
-    },
-    "crafted_leggings": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:slime_leggings"
-            ]
-          }
-        ]
-      }
-    },
-    "crafted_chestplate": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:slime_chestplate"
-            ]
-          }
-        ]
-      }
-    },
-    "crafted_helmet": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:slime_helmet"
-            ]
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "crafted_boots"
-    ],
-    [
-      "crafted_leggings"
-    ],
-    [
-      "crafted_chestplate"
-    ],
-    [
-      "crafted_helmet"
-    ]
-  ]
+  }
 }

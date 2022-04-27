@@ -1,7 +1,6 @@
 {
   "type": "minecraft:vegetation_patch",
-  "config":
-  {
+  "config": {
     "surface": "ceiling",
     "depth": 1,
     "vertical_range": 3,
@@ -9,17 +8,14 @@
     "extra_edge_column_chance": 0.3,
     "vegetation_chance": 0.02,
     "xz_radius": 0,
-    "replaceable": "minecraft:moss_replaceable",
-    "ground_state":
-    {
+    "replaceable": "#minecraft:moss_replaceable",
+    "ground_state": {
       "type": "minecraft:simple_state_provider",
-      "state":
-      {
+      "state": {
         "Name": "minecraft:raw_gold_block"
       }
     },
-    "vegetation_feature":
-    {
+    "vegetation_feature": {
       "feature": "j2tc_tweaks:hanging_chains_copper",
       "placement": []
     }

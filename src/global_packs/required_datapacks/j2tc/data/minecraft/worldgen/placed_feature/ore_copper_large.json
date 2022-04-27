@@ -9,14 +9,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": 396
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 600
         },
         "type": "minecraft:trapezoid"

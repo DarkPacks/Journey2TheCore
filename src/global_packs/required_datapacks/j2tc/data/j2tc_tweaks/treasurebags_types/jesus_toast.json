@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "Is that what I think it is?!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/jesus_toast",
+  "rarity": "uncommon",
+  "bagColor": "#210000",
+  "bagOverlayColor": "#1f0c0c",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

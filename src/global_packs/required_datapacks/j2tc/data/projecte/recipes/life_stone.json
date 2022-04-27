@@ -1,1 +1,7 @@
-{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"projecte:body_stone"},{"item":"projecte:soul_stone"}],"result":{"item":"projecte:life_stone"}}
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

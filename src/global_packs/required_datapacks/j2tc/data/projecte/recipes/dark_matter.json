@@ -1,1 +1,23 @@
-{"type":"minecraft:crafting_shaped","pattern":["AAA","ADA","AAA"],"key":{"A":{"item":"projecte:aeternalis_fuel"},"D":{"tag":"forge:storage_blocks/diamond"}},"result":{"item":"projecte:dark_matter"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ADA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "projecte:aeternalis_fuel"
+    },
+    "D":
+    {
+      "item": "compressium:coal_3"
+    }
+  },
+  "result":
+  {
+    "item": "projecte:dark_matter"
+  }
+}

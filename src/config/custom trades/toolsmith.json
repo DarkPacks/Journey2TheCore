@@ -1,0 +1,132 @@
+{
+  "profession": "toolsmith",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:crafting_stick",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "farmersdelight:flint_knife",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "farmersdelight:iron_knife",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "farmersdelight:golden_knife",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "farmersdelight:diamond_knife",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "farmersdelight:netherite_knife",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "turkeydevutil:lanyard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 6,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    }
+  ]
+}

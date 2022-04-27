@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:upgrades",
+  "pattern": [
+    "gII",
+    "gWP",
+    "gII"
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:nuggets/gold"
+    },
+    "I": {
+      "tag": "forge:rods/iron"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "result": {
+    "item": "factorium:upgrade_frame"
+  }
+}

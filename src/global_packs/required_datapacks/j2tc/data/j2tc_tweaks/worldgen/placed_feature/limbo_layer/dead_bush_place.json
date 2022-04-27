@@ -1,0 +1,40 @@
+{
+  "feature": "minecraft:patch_dead_bush",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": 528
+        },
+        "max_inclusive":
+        {
+          "absolute": 688
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate":
+      {
+        "type": "minecraft:matching_block_tag",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "tag": "j2tc_tweaks:dead_bush_place_on_top"
+      }
+    }
+  ]
+}

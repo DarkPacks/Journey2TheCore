@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:upgrades",
+  "pattern": [
+    "WCW",
+    "DDD",
+    "WFW"
+  ],
+  "key": {
+    "C": {
+      "item": "factorium:craft_coupler"
+    },
+    "D": {
+      "item": "factorium:craft_capacitor"
+    },
+    "F": {
+      "item": "factorium:upgrade_frame"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "result": {
+    "item": "factorium:upgrade_efficiency"
+  }
+}

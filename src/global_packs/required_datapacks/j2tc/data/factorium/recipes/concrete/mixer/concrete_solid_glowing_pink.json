@@ -1,0 +1,14 @@
+{
+  "type": "factorium:mixer",
+  "inputItem": {
+    "item": "factorium:concrete_powder_glowing_pink",
+    "count": 1
+  },
+  "inputFluid": {
+    "fluidTag": "minecraft:water",
+    "amount": 250
+  },
+  "outputItem": {
+    "item": "factorium:concrete_solid_glowing_pink"
+  }
+}

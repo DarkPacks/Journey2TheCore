@@ -1,0 +1,9 @@
+{
+  "type": "factorium:grinder",
+  "input": {
+    "item": "minecraft:charcoal"
+  },
+  "output": {
+    "item": "factorium:mat_extra_dust_charcoal"
+  }
+}

@@ -2,8 +2,8 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_count",
-              "count": 1.0,
+              "count": 1,
               "add": false
             },
             {
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1.0,
+              "count": 1,
               "add": false
             }
           ],
@@ -66,7 +66,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1.0,
+              "count": 1,
               "add": false
             }
           ],
@@ -78,7 +78,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2.0,
+              "count": 2,
               "add": false
             }
           ],
@@ -90,7 +90,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1.0,
+              "count": 1,
               "add": false
             }
           ],
@@ -104,8 +104,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
+                "min": 2,
+                "max": 4
               },
               "add": false
             }
@@ -120,8 +120,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8.0,
-                "max": 17.0
+                "min": 8,
+                "max": 17
               },
               "add": false
             }
@@ -134,7 +134,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1.0,
+              "count": 1,
               "add": false
             }
           ],
@@ -145,17 +145,17 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 4.0
+        "min": 3,
+        "max": 4
       },
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1.0,
+              "count": 1,
               "add": false
             },
             {
@@ -171,8 +171,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
+                "min": 1,
+                "max": 5
               },
               "add": false
             }
@@ -186,8 +186,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
+                "min": 3,
+                "max": 6
               },
               "add": false
             }
@@ -201,8 +201,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
+                "min": 2,
+                "max": 5
               },
               "add": false
             }
@@ -216,8 +216,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 7.0
+                "min": 2,
+                "max": 7
               },
               "add": false
             }
@@ -231,8 +231,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 7.0
+                "min": 2,
+                "max": 7
               },
               "add": false
             }
@@ -246,8 +246,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 8.0
+                "min": 2,
+                "max": 8
               },
               "add": false
             }
@@ -261,8 +261,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "min": 1,
+                "max": 3
               },
               "add": false
             }
@@ -276,8 +276,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5.0,
-                "max": 17.0
+                "min": 5,
+                "max": 17
               },
               "add": false
             }
@@ -291,8 +291,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 8.0
+                "min": 3,
+                "max": 8
               },
               "add": false
             }
@@ -306,8 +306,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
+                "min": 2,
+                "max": 5
               },
               "add": false
             }
@@ -321,8 +321,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
+                "min": 2,
+                "max": 5
               },
               "add": false
             }
@@ -336,8 +336,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 7.0
+                "min": 2,
+                "max": 7
               },
               "add": false
             }
@@ -351,8 +351,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 7.0
+                "min": 2,
+                "max": 7
               },
               "add": false
             }

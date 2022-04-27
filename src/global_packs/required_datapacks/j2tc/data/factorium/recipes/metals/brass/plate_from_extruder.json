@@ -1,0 +1,13 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "tag": "forge:ingots/brass",
+    "count": 1
+  },
+  "die": {
+    "item": "factorium:die_plate"
+  },
+  "output": {
+    "item": "factorium:mat_brass_plate"
+  }
+}

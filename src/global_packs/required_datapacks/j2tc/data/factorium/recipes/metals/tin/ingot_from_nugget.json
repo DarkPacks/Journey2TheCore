@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    },
+    {
+      "item": "factorium:mat_tin_nugget"
+    }
+  ],
+  "result": {
+    "item": "factorium:mat_tin_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "tag": "forge:ingots/copper",
+    "count": 1
+  },
+  "die": {
+    "item": "factorium:die_plate"
+  },
+  "output": {
+    "item": "factorium:mat_copper_plate"
+  }
+}

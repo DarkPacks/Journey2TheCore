@@ -1,0 +1,18 @@
+{
+  "type": "factorium:alloy",
+  "input1":
+  {
+    "tag": "forge:ingots/copper",
+    "count": 1
+  },
+  "input2":
+  {
+    "tag": "forge:ingots/zinc",
+    "count": 1
+  },
+  "output":
+  {
+    "item": "create:brass_ingot",
+    "count": 2
+  }
+}

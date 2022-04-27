@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:plates",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "factorium:mat_tin_plate",
+    "count": 3
+  }
+}

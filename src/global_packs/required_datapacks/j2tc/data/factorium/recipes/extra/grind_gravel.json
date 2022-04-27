@@ -1,0 +1,9 @@
+{
+  "type": "factorium:grinder",
+  "input": {
+    "tag": "forge:gravel"
+  },
+  "output": {
+    "item": "minecraft:sand"
+  }
+}

@@ -1,15 +1,12 @@
 {
-  "config":
-  {
+  "config": {
     "rock_count": 4,
     "hole_count": 1,
     "valid_blocks": [
       "candyworld:red_gummy_block"
     ],
-    "state":
-    {
-      "Properties":
-      {
+    "state": {
+      "Properties": {
         "falling": "true"
       },
       "Name": "candyworld:liquid_candy"

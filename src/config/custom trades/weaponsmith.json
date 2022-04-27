@@ -1,0 +1,60 @@
+{
+  "profession": "weaponsmith",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer":
+      {
+        "itemKey": "minecraft:stone_sword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:charm_venom",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "cyclic:charm_attack_speed",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    }
+  ]
+}

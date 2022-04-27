@@ -1,0 +1,40 @@
+[
+  {
+    "timeout": 10,
+    "block": [
+      {
+        "block": "chargers:charger_t1",
+        "energy": ">10000"
+      },
+      {
+        "block": "chargers:charger_t2",
+        "energy": ">10000"
+      },
+      {
+        "block": "chargers:charger_t3",
+        "energy": ">10000"
+      },
+      {
+        "block": "chargers:charger_t4",
+        "energy": ">10000"
+      },
+      {
+        "block": "chargers:wireless_charger",
+        "energy": ">10000"
+      }
+    ],
+    "damage": "lightningBolt=3"
+  },
+  {
+    "timeout": 30,
+    "minheight": 265,
+    "maxheight": 396,
+    "potion": "minecraft:hunger,30,1"
+  },
+  {
+    "timeout": 30,
+    "minheight": 397,
+    "maxheight": 528,
+    "potion": "colorblindness:achromatopsia,30,1"
+  }
+]

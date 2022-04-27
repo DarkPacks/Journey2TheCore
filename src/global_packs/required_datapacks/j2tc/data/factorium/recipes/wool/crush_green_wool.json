@@ -1,0 +1,14 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "item": "minecraft:green_wool"
+  },
+  "output": {
+    "item": "minecraft:string",
+    "count": 4
+  },
+  "bonus": {
+    "item": "minecraft:green_dye",
+    "chance": 0.1
+  }
+}

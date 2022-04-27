@@ -1,37 +1,23 @@
 {
-  "parent": "tconstruct:foundry/fantastic_foundry",
   "display": {
     "icon": {
-      "item": "tconstruct:encyclopedia"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.foundry.encyclopedia.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.foundry.encyclopedia.description"
+      "translate": "Yes"
     },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "crafted_book": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:encyclopedia"
-            ]
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "crafted_book"
-    ]
-  ]
+  }
 }

@@ -1,21 +1,18 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:greed_anger_lapis",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "minecraft:lapis_ore"
         }
       }
     ],
     "size": 12,
-    "discard_chance_on_air_exposure": 0.0
+    "discard_chance_on_air_exposure": 0
   },
   "type": "minecraft:ore"
 }

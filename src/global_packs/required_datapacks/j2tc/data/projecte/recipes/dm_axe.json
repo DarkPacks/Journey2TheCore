@@ -1,1 +1,23 @@
-{"type":"minecraft:crafting_shaped","pattern":["MM","MD"," D"],"key":{"D":{"tag":"forge:gems/diamond"},"M":{"item":"projecte:dark_matter"}},"result":{"item":"projecte:dm_axe"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM",
+    "MD",
+    " D"
+  ],
+  "key":
+  {
+    "D":
+    {
+      "item": "projecte:klein_star_vier"
+    },
+    "M":
+    {
+      "item": "projecte:dark_matter"
+    }
+  },
+  "result":
+  {
+    "item": "projecte:dm_axe"
+  }
+}

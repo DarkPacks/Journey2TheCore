@@ -105,4 +105,40 @@
 	#Redstone GeOre Rarity [Default: 240] (The higher the value the rarer)
 	#Range: > 0
 	redstoneGeoreRarity = 10
+	#Ruby GeOre Rarity [Default: 240] (The higher the value the rarer)
+	#Range: > 0
+	rubyGeoreRarity = 240
+	#Sapphire GeOre Rarity [Default: 240] (The higher the value the rarer)
+	#Range: > 0
+	sapphireGeoreRarity = 240
+	#Topaz GeOre Rarity [Default: 240] (The higher the value the rarer)
+	#Range: > 0
+	topazGeoreRarity = 240
+
+#Modded Generation settings
+[ModdedGeneration]
+	#Generate Ruby GeOre [Default: false]
+	generateRubyGeore = false
+	#The Min Y level that Ruby GeOre will generate at (above minimum world height) [Default: 6]
+	#Range: > 0
+	rubyGeoreMinY = 6
+	#The max Y level that Ruby GeOre will generate at [Default: 30]
+	#Range: > 0
+	rubyGeoreMaxY = 30
+	#Generate Sapphire GeOre [Default: false]
+	generateSapphireGeore = false
+	#The Min Y level that Sapphire GeOre will generate at (above minimum world height) [Default: 6]
+	#Range: > 0
+	sapphireGeoreMinY = 6
+	#The max Y level that Sapphire GeOre will generate at [Default: 30]
+	#Range: > 0
+	sapphireGeoreMaxY = 30
+	#Generate Topaz GeOre [Default: false]
+	generateTopazGeore = false
+	#The Min Y level that Topaz GeOre will generate at (above minimum world height) [Default: 6]
+	#Range: > 0
+	topazGeoreMinY = 6
+	#The max Y level that Topaz GeOre will generate at [Default: 30]
+	#Range: > 0
+	topazGeoreMaxY = 30
 

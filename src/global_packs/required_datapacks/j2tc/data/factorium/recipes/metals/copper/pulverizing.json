@@ -1,0 +1,13 @@
+{
+  "type": "factorium:pulverizer",
+  "input": {
+    "tag": "factorium:powders/copper"
+  },
+  "output": {
+    "item": "factorium:mat_copper_dust"
+  },
+  "bonus": {
+    "item": "factorium:mat_copper_dust",
+    "chance": 0.25
+  }
+}

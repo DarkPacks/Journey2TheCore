@@ -3,11 +3,9 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count":
-      {
+      "count": {
         "type": "minecraft:uniform",
-        "value":
-        {
+        "value": {
           "min_inclusive": 164,
           "max_inclusive": 256
         }
@@ -18,26 +16,21 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 0
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 688
         }
       }
     },
     {
       "type": "minecraft:count",
-      "count":
-      {
+      "count": {
         "type": "minecraft:uniform",
-        "value":
-        {
+        "value": {
           "min_inclusive": 1,
           "max_inclusive": 5
         }
@@ -45,22 +38,18 @@
     },
     {
       "type": "minecraft:random_offset",
-      "xz_spread":
-      {
+      "xz_spread": {
         "type": "minecraft:clamped_normal",
-        "value":
-        {
+        "value": {
           "min_inclusive": -10,
           "max_inclusive": 10,
           "mean": 0,
           "deviation": 3
         }
       },
-      "y_spread":
-      {
+      "y_spread": {
         "type": "minecraft:clamped_normal",
-        "value":
-        {
+        "value": {
           "min_inclusive": -2,
           "max_inclusive": 2,
           "mean": 0,

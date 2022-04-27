@@ -1,0 +1,10 @@
+{
+  "type": "factorium:pulverizer",
+  "input": {
+    "tag": "minecraft:flowers/magenta"
+  },
+  "output": {
+    "item": "minecraft:magenta_dye",
+    "count": 4
+  }
+}

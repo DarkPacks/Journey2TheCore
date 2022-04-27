@@ -1,0 +1,13 @@
+{
+  "type": "factorium:pulverizer",
+  "input": {
+    "tag": "factorium:powders/tin"
+  },
+  "output": {
+    "item": "factorium:mat_tin_dust"
+  },
+  "bonus": {
+    "item": "factorium:mat_tin_dust",
+    "chance": 0.25
+  }
+}

@@ -1,37 +1,23 @@
 {
-  "parent": "tconstruct:smeltery/melter",
   "display": {
     "icon": {
-      "item": "tconstruct:mighty_smelting"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.smeltery.mighty_smelting.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.smeltery.mighty_smelting.description"
+      "translate": "Yes"
     },
-    "frame": "task",
-    "show_toast": true,
+    "frame": "challenge",
+    "show_toast": false,
     "announce_to_chat": false,
-    "hidden": false
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "crafted_book": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "tconstruct:mighty_smelting"
-            ]
-          }
-        ]
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "crafted_book"
-    ]
-  ]
+  }
 }

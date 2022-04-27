@@ -1,0 +1,147 @@
+{
+  "profession": "wanderer",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "isRare": false,
+      "offer":
+      {
+        "itemKey": "minecraft:orange_wool",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:knockback",
+            "enchantmentLevel": 2
+               },
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 1
+               }
+            ]
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2
+      },
+      "tradeExp": 4,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1
+      },
+    {
+      "isRare": false,
+      "offer":
+      {
+        "itemKey": "minecraft:white_wool",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:knockback",
+            "enchantmentLevel": 2
+               }
+            ]
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2
+      },
+      "tradeExp": 4,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1
+      },
+    {
+      "isRare": false,
+      "offer":
+      {
+        "itemKey": "minecraft:red_wool",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 1
+               }
+            ]
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2
+      },
+      "tradeExp": 4,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1
+      },
+    {
+      "isRare": false,
+      "offer":
+      {
+        "itemKey": "minecraft:dirt",
+        "amount": 6
+      },
+      "request":
+      {
+        "itemKey": "minecraft:cobblestone",
+        "amount": 3
+      },
+      "tradeExp": 4,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1
+      },
+    {
+      "isRare": false,
+      "offer":
+      {
+        "itemKey": "minecraft:black_wool",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 5
+               }
+            ]
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2
+      },
+      "tradeExp": 4,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1
+      },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "minecraft:charcoal",
+        "amount": 5
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1
+      },
+      "additionalRequest":
+      {
+        "itemKey": "minecraft:oak_log",
+        "amount": 5
+      },
+      "tradeExp": 3,
+      "maxUses": 0,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3
+      }
+   ]
+}

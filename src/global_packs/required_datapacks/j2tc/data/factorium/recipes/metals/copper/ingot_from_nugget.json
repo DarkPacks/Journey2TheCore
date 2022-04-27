@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    },
+    {
+      "item": "factorium:mat_copper_nugget"
+    }
+  ],
+  "result": {
+    "item": "minecraft:copper_ingot"
+  }
+}

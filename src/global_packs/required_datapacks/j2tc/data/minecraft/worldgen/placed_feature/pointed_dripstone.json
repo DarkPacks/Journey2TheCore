@@ -40,8 +40,8 @@
       "xz_spread": {
         "type": "minecraft:clamped_normal",
         "value": {
-          "mean": 0.0,
-          "deviation": 3.0,
+          "mean": 0,
+          "deviation": 3,
           "min_inclusive": -10,
           "max_inclusive": 10
         }
@@ -49,7 +49,7 @@
       "y_spread": {
         "type": "minecraft:clamped_normal",
         "value": {
-          "mean": 0.0,
+          "mean": 0,
           "deviation": 0.6,
           "min_inclusive": -2,
           "max_inclusive": 2

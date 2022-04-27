@@ -1,0 +1,30 @@
+{
+  "feature": "j2tc_tweaks:limbo_layer/ore_clay_silt",
+  "placement": [
+    {
+      "count": 172,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 528
+        },
+        "max_inclusive":
+        {
+          "absolute": 688
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

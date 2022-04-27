@@ -25,4 +25,11 @@
 	#The delay between soul campfire ticks [Default: 60]
 	#Range: > 1
 	soulCampfireTickDelay = 60
+	#Enable Candles setting flammable blocks on fire [Default: true]
+	enableCandles = true
+	#The delay between candle ticks [Default: 60]
+	#Range: > 1
+	candleTickDelay = 60
+	#Make the candle ticking completely random [Default: false]
+	randomCandleTicking = false
 

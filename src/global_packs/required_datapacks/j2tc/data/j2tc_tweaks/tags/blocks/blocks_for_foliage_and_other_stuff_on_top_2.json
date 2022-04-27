@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:coarse_dirt",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    {
+      "id": "create:limestone",
+      "required": false
+    },
+    {
+      "id": "rechiseled:dirt_muddy",
+      "required": false
+    }
+  ]
+}

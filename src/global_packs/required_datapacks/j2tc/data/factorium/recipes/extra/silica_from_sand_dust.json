@@ -1,0 +1,13 @@
+{
+  "type": "factorium:mixer",
+  "inputItem": {
+    "tag": "forge:dusts/sand"
+  },
+  "inputFluid": {
+    "fluidTag": "minecraft:water",
+    "amount": 250
+  },
+  "outputItem": {
+    "item": "factorium:mat_extra_dust_silica"
+  }
+}

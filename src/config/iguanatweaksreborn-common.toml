@@ -169,7 +169,7 @@
 	[Miscellaneous."Explosion Overhaul"]
 		#Vanilla Explosions use a random number that changes the explosion power. With this enabled the ray strength will be as the explosion size.
 		"Disable Explosion Randomness" = true
-		#Somewhere around 1.15 Mojang (for performance issues) removed the poof particles from Explosions. Disable them if you have a low end PC.
+		#Somewhere around 1.15 Mojang (for performance issues) removed the poof particles from Explosions. Keep them disabled if you have a low end PC.
 		"Enable Poof Particles" = false
 		#How much damage and knockback will the player take when blocking an explosion with a shield. Putting 0 shields will block like Vanilla.
 		#Range: 0.0 ~ 1.0
@@ -551,7 +551,7 @@
 
 		#Items or tags that will ignore the stack changes. This can be inverted via 'Blacklist as Whitelist'. Each entry has an item or tag. E.g. ["#minecraft:fishes", "minecraft:stone"].
 		["Stack Size"."Stack Reduction".Blacklist]
-			Blacklist = ["minecraft:rotten_flesh", "minecraft:potion"]
+			Blacklist = ["minecraft:rotten_flesh", "minecraft:potion", "turkeydevutil:cookie"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 

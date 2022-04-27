@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:misc",
+  "pattern": [
+    "XIX",
+    "XGX",
+    "XIX"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:rods/iron"
+    },
+    "X": {
+      "item": "minecraft:flint"
+    },
+    "G": {
+      "tag": "forge:gears/iron"
+    }
+  },
+  "result": {
+    "item": "factorium:craft_crusher"
+  }
+}

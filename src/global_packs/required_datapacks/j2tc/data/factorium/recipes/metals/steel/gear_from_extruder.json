@@ -1,0 +1,13 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "tag": "forge:ingots/steel",
+    "count": 4
+  },
+  "die": {
+    "item": "factorium:die_gear"
+  },
+  "output": {
+    "item": "factorium:mat_steel_gear"
+  }
+}

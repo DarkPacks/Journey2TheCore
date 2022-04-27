@@ -1,0 +1,13 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "item": "factorium:mat_wood_pulp"
+  },
+  "die": {
+    "item": "factorium:die_plate"
+  },
+  "output": {
+    "item": "minecraft:paper",
+    "count": 4
+  }
+}

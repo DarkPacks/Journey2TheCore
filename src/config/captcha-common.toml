@@ -8,3 +8,30 @@
 	#Range: > 30
 	captchaCooldown = 900
 
+#Math settings
+[Math]
+	#Defines the max the first number can be in the addition problem [Default: 100]
+	#Range: > 1
+	additionMaxX = 100
+	#Defines the max the second number can be in the addition problem [Default: 100]
+	#Range: > 30
+	additionMaxY = 100
+	#Defines the max the first number can be in the subtraction problem [Default: 100]
+	#Range: > 1
+	subtractionMaxX = 100
+	#Defines the max the second number can be in the subtraction problem [Default: 100]
+	#Range: > 30
+	subtractionMaxY = 100
+	#Defines the max the first number can be in the multiplication problem [Default: 20]
+	#Range: > 1
+	multiplicationMaxX = 10
+	#Defines the max the second number can be in the multiplication problem [Default: 20]
+	#Range: > 30
+	multiplicationMaxY = 30
+	#Defines the max the first number can be in the division problem [Default: 100]
+	#Range: > 1
+	divisionMaxX = 10
+	#Defines the max the second number can be in the division problem [Default: 100]
+	#Range: > 30
+	divisionMaxY = 30
+

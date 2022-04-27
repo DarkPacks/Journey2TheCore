@@ -1,0 +1,14 @@
+{
+  "type": "factorium:alloy",
+  "input1": {
+    "tag": "forge:ingots/iron"
+  },
+  "input2": {
+    "tag": "forge:dusts/charcoal",
+    "count": 2
+  },
+  "output": {
+    "item": "factorium:mat_steel_ingot"
+  },
+  "speedMod": 0.25
+}

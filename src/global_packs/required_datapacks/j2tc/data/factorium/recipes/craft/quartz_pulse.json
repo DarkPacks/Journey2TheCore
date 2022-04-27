@@ -1,0 +1,13 @@
+{
+  "type": "factorium:alloy",
+  "input1": {
+    "tag": "forge:gems/quartz"
+  },
+  "input2": {
+    "tag": "forge:dusts/redstone",
+    "count": 4
+  },
+  "output": {
+    "item": "factorium:craft_quartz_pulse"
+  }
+}

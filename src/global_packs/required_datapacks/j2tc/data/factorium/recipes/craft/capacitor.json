@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:misc",
+  "pattern": [
+    "CXC",
+    "CXC",
+    "WXW"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:gems/lapis"
+    },
+    "C": {
+      "tag": "forge:plates/copper"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "result": {
+    "item": "factorium:craft_capacitor"
+  }
+}

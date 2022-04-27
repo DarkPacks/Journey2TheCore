@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:husk",
+      "minecraft:stray",
+      "graveyard:revenant",
+      "graveyard:ghoul"
+    ],
+    "player": true,
+    "item": "turkeydevutil:lanyard",
+    "random": 0.05,
+    "itemcount": "1/1/1-2"
+  }
+]

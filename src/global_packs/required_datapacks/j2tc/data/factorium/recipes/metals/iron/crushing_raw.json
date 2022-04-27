@@ -1,0 +1,10 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:raw_materials/iron"
+  },
+  "output": {
+    "item": "factorium:mat_iron_chunks",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "forge:plates/steel"
+  },
+  "addition": {
+    "tag": "forge:plates"
+  },
+  "result": {
+    "item": "factorium:die_plate"
+  }
+}

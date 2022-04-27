@@ -1,0 +1,41 @@
+#The chance that the lootcrate loot table will be injected into a chest loot table
+#Range: 1 ~ 100
+lootCrateWeight = 100
+#The minimum number of rolls a loot crate will try to generate, each roll has a 30% chance of generating a loot crate
+#Range: 0 ~ 300
+lootCrateMinRolls = 3
+#the maximum number of rolls a loot crate will try to generate, each roll has a 30% chance of generating a loot crate
+#Range: 0 ~ 300
+lootCrateMaxRolls = 5
+#enable wither effect on tools
+enableWither = true
+#enable slowness effect on tools
+enableSlowness = true
+#enable poison effect on tools
+enablePoison = true
+#enable weakness effect on tools
+enableWeakness = true
+#enable blindness effect on tools
+enableBlindness = true
+#enable regeneration effect on tools
+enableRegeneration = true
+#enable speed effect on tools
+enableSpeed = true
+#enable haste effect on tools
+enableHaste = true
+#enable resistance effect on tools
+enableResistance = true
+#enable fire resistance effect on tools
+enableFireResistance = true
+#enable night vision effect on helmets
+enableNightVision = true
+#enable water breathing effect on helmets
+enableWaterBreathing = true
+#enable hero of the village effect on helmets
+enableHeroOfTheVillage = true
+#enables mobs dropping shards
+enableMobDropShards = false
+#amount of unique items that can be found in a world
+#Range: 1 ~ 50
+uniqueCount = 5
+

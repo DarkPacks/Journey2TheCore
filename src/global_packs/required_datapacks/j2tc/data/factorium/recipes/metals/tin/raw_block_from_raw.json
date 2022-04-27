@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    },
+    {
+      "item": "factorium:mat_tin_raw"
+    }
+  ],
+  "result": {
+    "item": "factorium:mat_tin_raw_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "tag": "forge:ingots/iron",
+    "count": 1
+  },
+  "die": {
+    "item": "factorium:die_rod"
+  },
+  "output": {
+    "item": "factorium:mat_iron_rod",
+    "count": 2
+  }
+}

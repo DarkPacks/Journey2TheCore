@@ -1,87 +1,23 @@
 {
-  "parent": "tconstruct:world/slime_collector",
   "display": {
     "icon": {
-      "item": "tconstruct:ender_slime_sling",
-      "nbt": "{Damage:0}"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "translate": "advancements.tconstruct.world.slime_sling.title"
+      "translate": "Yup3"
     },
     "description": {
-      "translate": "advancements.tconstruct.world.slime_sling.description"
+      "translate": "Yes"
     },
     "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
   "criteria": {
-    "earth": {
-      "trigger": "minecraft:item_durability_changed",
-      "conditions": {
-        "item": {
-          "items": [
-            "tconstruct:earth_slime_sling"
-          ]
-        },
-        "durability": {
-          "max": 150
-        }
-      }
-    },
-    "sky": {
-      "trigger": "minecraft:item_durability_changed",
-      "conditions": {
-        "item": {
-          "items": [
-            "tconstruct:sky_slime_sling"
-          ]
-        },
-        "durability": {
-          "max": 150
-        }
-      }
-    },
-    "ichor": {
-      "trigger": "minecraft:item_durability_changed",
-      "conditions": {
-        "item": {
-          "items": [
-            "tconstruct:ichor_slime_sling"
-          ]
-        },
-        "durability": {
-          "max": 150
-        }
-      }
-    },
-    "ender": {
-      "trigger": "minecraft:item_durability_changed",
-      "conditions": {
-        "item": {
-          "items": [
-            "tconstruct:ender_slime_sling"
-          ]
-        },
-        "durability": {
-          "max": 150
-        }
-      }
+    "always": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "earth"
-    ],
-    [
-      "sky"
-    ],
-    [
-      "ichor"
-    ],
-    [
-      "ender"
-    ]
-  ]
+  }
 }

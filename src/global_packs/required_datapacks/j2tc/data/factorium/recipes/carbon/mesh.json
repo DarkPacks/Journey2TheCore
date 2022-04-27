@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    },
+    {
+      "item": "factorium:mat_carbon_fiber"
+    }
+  ],
+  "result": {
+    "item": "factorium:craft_mesh_carbon"
+  }
+}

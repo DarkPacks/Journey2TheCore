@@ -6,5 +6,5 @@
 	extraChars = 9
 	#How likely is a vanilla loot chest being replaced by a riddle chest?
 	#Range: 0.0 ~ 1.0
-	chestReplaceChance = 0.125
+	chestReplaceChance = 1.0
 

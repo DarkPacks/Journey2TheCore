@@ -1,19 +1,13 @@
 {
-  "config":
-  {
+  "config": {
     "tries": 24,
     "xz_spread": 0,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
-        "config":
-        {
-          "to_place":
-          {
-            "state":
-            {
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "state": {
               "Name": "minecraft:red_mushroom"
             },
             "type": "minecraft:simple_state_provider"
@@ -23,8 +17,7 @@
       },
       "placement": [
         {
-          "predicate":
-          {
+          "predicate": {
             "blocks": [
               "minecraft:air"
             ],

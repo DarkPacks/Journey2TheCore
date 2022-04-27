@@ -1,6 +1,7 @@
 {
-  "default": {
-    "borderStart": "ffffffff", 
+  "default":
+  {
+    "borderStart": "ffffffff",
     "borderEnd": "ffffffff",
     "background": "f0100010"
   },

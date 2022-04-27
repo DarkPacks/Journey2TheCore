@@ -8,10 +8,12 @@
     "jump": true,
     "sneak": "Maintain",
     "dismount": false,
-    "textFieldDisables": true
+    "textFieldDisables": true,
+    "unrecognizedScreenDefault": true
   },
   "background": {
     "enable": true,
-    "hideOnPause": "Show"
+    "hideOnPause": "Show",
+    "unrecognizedScreenDefault": true
   }
 }

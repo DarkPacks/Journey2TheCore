@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_zinc_raw_block"
+    }
+  ],
+  "result":
+  {
+    "item": "create:raw_zinc",
+    "count": 9
+  }
+}

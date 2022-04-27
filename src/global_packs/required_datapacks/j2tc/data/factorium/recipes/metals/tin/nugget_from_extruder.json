@@ -1,0 +1,14 @@
+{
+  "type": "factorium:extruder",
+  "input": {
+    "tag": "forge:ingots/tin",
+    "count": 1
+  },
+  "die": {
+    "item": "factorium:die_nugget"
+  },
+  "output": {
+    "item": "factorium:mat_tin_nugget",
+    "count": 9
+  }
+}

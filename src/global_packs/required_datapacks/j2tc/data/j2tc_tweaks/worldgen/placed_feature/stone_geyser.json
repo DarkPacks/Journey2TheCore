@@ -1,0 +1,27 @@
+{
+  "feature": "j2tc_tweaks:stone_geyser",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:height_range",
+      "height":
+      {
+        "type": "minecraft:uniform",
+        "min_inclusive":
+        {
+          "absolute": 0
+        },
+        "max_inclusive":
+        {
+          "absolute": 264
+        }
+      }
+    }
+  ]
+}

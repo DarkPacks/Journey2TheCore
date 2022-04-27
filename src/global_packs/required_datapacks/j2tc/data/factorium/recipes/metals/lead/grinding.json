@@ -1,0 +1,13 @@
+{
+  "type": "factorium:grinder",
+  "input": {
+    "tag": "factorium:chunks/lead"
+  },
+  "output": {
+    "item": "factorium:mat_lead_powder"
+  },
+  "bonus": {
+    "item": "factorium:mat_lead_powder",
+    "chance": 0.25
+  }
+}

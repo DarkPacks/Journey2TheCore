@@ -1,0 +1,240 @@
+{
+  "profession": "cartographer",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer":
+      {
+        "itemKey": "geore:copper_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:coal_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:topaz_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:sapphire_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:ruby_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:redstone_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:quartz_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:lapis_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "minecraft:spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:iron_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:gold_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:emerald_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "geore:diamond_spyglass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request":
+      {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    }
+  ]
+}

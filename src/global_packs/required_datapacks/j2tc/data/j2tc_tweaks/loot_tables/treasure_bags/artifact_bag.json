@@ -1,0 +1,286 @@
+{
+  "pools": [
+    {
+      "rolls":
+      {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:true_heart_of_the_sea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:super_magnet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:sigil_of_baphomet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:sleeping_pills"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:callus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ice_cube"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:mysterious_trinket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:wooden_stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_horseshoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:explosion_proof_jacket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:experience_battery"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:tick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:broken_magnet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:reverse_card"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:blaze_nucleus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:amphibious_hands"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:blindfold"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:rage_mind"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:tear_of_the_sea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:spider_legs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:missing_page"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:reforger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:experience_magnet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:gods_crown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:broken_ankh"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:creeper_sense"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:moon_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ghast_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:gills"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:puffer_fish_liver"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:cracked_crown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:what_magnet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:lucky_scarf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:scarf_of_invisibility"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cross_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:panic_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:shock_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:flame_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:thorn_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:charm_of_sinking"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cloud_in_a_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:fire_gauntlet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:power_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:digging_claws"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:feral_claws"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:helium_flamingo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:crystal_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:universal_attractor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:antidote_vessel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:obsidian_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pocket_piston"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:vampiric_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:golden_hook"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:aqua_dashers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:bunny_hoppers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:kitty_slippers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:running_shoes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:steadfast_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:flippers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:superstitious_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:villager_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:night_vision_goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:snorkel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:novelty_drinking_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:plastic_drinking_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:umbrella"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:everlasting_beef"
+        }
+      ]
+    }
+  ]
+}

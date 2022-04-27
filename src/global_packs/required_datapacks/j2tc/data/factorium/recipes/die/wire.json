@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "forge:plates/steel"
+  },
+  "addition": {
+    "tag": "forge:wires"
+  },
+  "result": {
+    "item": "factorium:die_wire"
+  }
+}

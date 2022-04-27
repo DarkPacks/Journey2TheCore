@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:machines",
+  "pattern": [
+    "HPH",
+    "EEE",
+    "PCP"
+  ],
+  "key": {
+    "E": {
+      "item": "factorium:craft_heater"
+    },
+    "C": {
+      "item": "factorium:craft_core_basic"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "H": {
+      "item": "factorium:craft_container"
+    }
+  },
+  "result": {
+    "item": "factorium:alloy"
+  }
+}

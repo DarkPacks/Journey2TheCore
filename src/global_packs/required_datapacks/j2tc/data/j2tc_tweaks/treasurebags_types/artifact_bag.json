@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "No Whammy No Whammy! STOP!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/artifact_bag",
+  "rarity": "uncommon",
+  "bagColor": "#ffffff",
+  "bagOverlayColor": "#960000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

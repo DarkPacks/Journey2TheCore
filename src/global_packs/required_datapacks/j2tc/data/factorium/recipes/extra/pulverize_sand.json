@@ -1,0 +1,10 @@
+{
+  "type": "factorium:pulverizer",
+  "input": {
+    "tag": "minecraft:sand"
+  },
+  "output": {
+    "item": "factorium:mat_extra_dust_sand",
+    "count": 2
+  }
+}

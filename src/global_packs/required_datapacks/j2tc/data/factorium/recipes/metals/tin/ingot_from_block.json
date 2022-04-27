@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "factorium:misc",
+  "ingredients": [
+    {
+      "item": "factorium:mat_tin_block"
+    }
+  ],
+  "result": {
+    "item": "factorium:mat_tin_ingot",
+    "count": 9
+  }
+}

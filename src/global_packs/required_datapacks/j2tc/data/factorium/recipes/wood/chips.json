@@ -1,0 +1,18 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "minecraft:logs"
+  },
+  "output": {
+    "item": "factorium:mat_wood_chips",
+    "count": 1
+  },
+  "bonus": {
+    "item": "factorium:mat_wood_chips",
+    "chance": 0.2
+  },
+  "secondary": {
+    "item": "factorium:mat_resin",
+    "chance": 0.2
+  }
+}

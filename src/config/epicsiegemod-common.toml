@@ -2,7 +2,7 @@
 #General settings
 [General]
 	#Mobs that are exempt from AI modifications [default: [minecraft:iron_golem]
-	AI_Blacklist = ["alexsmobs:blobfish", "alexsmobs:bunfungus", "alexsmobs:crow", "alexsmobs:dropbear", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:soul_vulture", "core_creepers:super_charged_creeper", "eyesinthedarkness:eyes", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:cow", "minecraft:donkey", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:iron_golem", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:squid", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "waddles:adelie_penguin", "alexsmobs:tusklin"]
+	AI_Blacklist = ["alexsmobs:grizzly_bear", "minecraft:villager", "alexsmobs:blobfish", "alexsmobs:bunfungus", "alexsmobs:crow", "alexsmobs:dropbear", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:soul_vulture", "core_creepers:super_charged_creeper", "eyesinthedarkness:eyes", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:cow", "minecraft:donkey", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:iron_golem", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:squid", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "waddles:adelie_penguin", "alexsmobs:tusklin"]
 	#Prevents players skipping the night through sleep [default: false]
 	allowSleep = false
 	#Awareness Radius [default: 64]
@@ -54,9 +54,11 @@
 	#If mobs should be allowed to grief blocks [default: false]
 	griefing = true
 	#What blocks will be targeted for destruction when idle (Format: 'minecraft:wool' prefix with # if mentioning a block tag)
-	griefableBlocks = ["minecraft:torch", "minecraft:chest", "minecraft:furnace", "minecraft:crafting_table", "#minecraft:fence_gates", "minecraft:melon_block", "minecraft:pumpkin", "#forge:glass", "#forge:glass_panes", "#forge:stained_glass", "#forge:stained_glass_panes", "#minecraft:crops", "minecraft:brewing_stand", "minecraft:enchanting_table", "minecraft:cake", "minecraft:ladder", "#minecraft:wooden_doors", "minecraft:farmland", "minecraft:bookshelf", "#minecraft:saplings", "#minecraft:beds", "#minecraft:fences", "#minecraft:planks"]
+	griefableBlocks = ["#forge:glass", "#forge:glass_panes", "#forge:stained_glass", "#forge:stained_glass_panes", "#minecraft:crops", "#minecraft:fence_gates", "#minecraft:fences", "#minecraft:saplings", "#minecraft:wooden_doors", "minecraft:bookshelf", "minecraft:brewing_stand", "minecraft:cake", "minecraft:crafting_table", "minecraft:enchanting_table", "minecraft:farmland", "minecraft:ladder", "minecraft:melon_block", "minecraft:pumpkin", "minecraft:torch", "minecraft:redstone_torch", "minecraft:soul_torch"]
 	#List of blocks that mobs can pillar with [default: [minecraft:cobblestone]
 	pillarBlocks = ["minecraft:cobblestone"]
+	#If mobs should be allowed to grief all light emitting blocks [default: true]
+	griefLightSources = false
 
 #Other settings
 [Other]

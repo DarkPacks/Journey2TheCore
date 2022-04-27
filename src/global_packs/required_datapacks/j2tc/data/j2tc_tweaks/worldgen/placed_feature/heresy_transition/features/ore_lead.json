@@ -1,0 +1,30 @@
+{
+  "feature": "j2tc_tweaks:heresy_transition/features/ore_lead",
+  "placement": [
+    {
+      "count": 20,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": -64
+        },
+        "max_inclusive":
+        {
+          "absolute": 0
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

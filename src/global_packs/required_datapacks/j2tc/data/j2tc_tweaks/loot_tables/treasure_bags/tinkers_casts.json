@@ -3,8 +3,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 0.0,
-        "max": 1.0
+        "min": 0,
+        "max": 1
       },
       "entries": [
         {
@@ -80,8 +80,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 8.0,
-        "max": 32.0
+        "min": 8,
+        "max": 32
       },
       "entries": [
         {

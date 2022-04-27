@@ -1,21 +1,18 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "block": "candyworld:red_gummy_block",
           "predicate_type": "minecraft:block_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "candyworld:yellow_gummy_block"
         }
       }
     ],
     "size": 8,
-    "discard_chance_on_air_exposure": 0.0
+    "discard_chance_on_air_exposure": 0
   },
   "type": "minecraft:ore"
 }

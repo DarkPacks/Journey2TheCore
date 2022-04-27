@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "factorium:upgrades",
+  "pattern": [
+    "WSW",
+    "gCg",
+    "WFW"
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:nuggets/gold"
+    },
+    "S": {
+      "tag": "forge:rods/steel"
+    },
+    "C": {
+      "item": "factorium:craft_core_advanced"
+    },
+    "F": {
+      "item": "factorium:upgrade_frame"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "result": {
+    "item": "factorium:upgrade_core_t1"
+  }
+}

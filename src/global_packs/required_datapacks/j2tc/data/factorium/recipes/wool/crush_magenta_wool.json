@@ -1,0 +1,14 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "item": "minecraft:magenta_wool"
+  },
+  "output": {
+    "item": "minecraft:string",
+    "count": 4
+  },
+  "bonus": {
+    "item": "minecraft:magenta_dye",
+    "chance": 0.1
+  }
+}

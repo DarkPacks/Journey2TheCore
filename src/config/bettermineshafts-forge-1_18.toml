@@ -4,7 +4,7 @@
 	"Mineshaft Spawn Rate" = 0.01
 	# The lowest a mineshaft can spawn.
 	# Default: -55
-	"Minimum y-coordinate" = -55
+	"Minimum y-coordinate" = -40
 	# The highest the a mineshaft can spawn.
 	# Be careful, setting this too high may make mineshafts poke through ocean floors.
 	# Default: 30

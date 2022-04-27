@@ -1,0 +1,14 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:ores/iron"
+  },
+  "output": {
+    "item": "factorium:mat_iron_chunks",
+    "count": 2
+  },
+  "secondary": {
+    "item": "minecraft:gravel",
+    "chance": 0.1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:cobblestone"
+  },
+  "output": {
+    "item": "minecraft:gravel"
+  },
+  "secondary": {
+    "item": "minecraft:flint",
+    "chance": 0.1
+  }
+}

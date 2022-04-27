@@ -2,9 +2,8 @@
   "feature": "minecraft:large_basalt_columns",
   "placement": [
     {
-      "type": "brazierwgu:multiple_layers",
-      "layers": 8,
-      "tries": 8
+      "type": "minecraft:count",
+      "count": 64
     },
     {
       "type": "minecraft:biome"

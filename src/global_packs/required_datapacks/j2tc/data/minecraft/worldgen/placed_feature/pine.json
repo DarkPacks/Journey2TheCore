@@ -5,25 +5,28 @@
       "type": "minecraft:biome"
     },
     {
-      "type": "brazierwgu:multiple_layers",
-      "layers": 8,
-      "tries": 8
+      "type": "minecraft:count",
+      "count": 64
     },
     {
       "type": "minecraft:height_range",
-      "height": {
+      "height":
+      {
         "type": "minecraft:trapezoid",
-        "min_inclusive": {
+        "min_inclusive":
+        {
           "absolute": 528
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 688
         }
       }
     },
     {
       "type": "minecraft:block_predicate_filter",
-      "predicate": {
+      "predicate":
+      {
         "type": "minecraft:matching_blocks",
         "offset": [
           0,

@@ -1,0 +1,10 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:raw_materials/gold"
+  },
+  "output": {
+    "item": "factorium:mat_gold_chunks",
+    "count": 2
+  }
+}

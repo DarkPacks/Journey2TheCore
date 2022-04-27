@@ -1,0 +1,10 @@
+{
+  "type": "factorium:pulverizer",
+  "input": {
+    "tag": "minecraft:flowers/blue"
+  },
+  "output": {
+    "item": "minecraft:blue_dye",
+    "count": 4
+  }
+}
