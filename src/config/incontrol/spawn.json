@@ -47,10 +47,10 @@
       "minecraft:husk"
     ],
     "result": "allow",
-    "healthmultiply": 8,
-    "damagemultiply": 2,
+    "healthmultiply": 4,
+    "damagemultiply": 1.5,
     "damageadd": 1,
-    "speedmultiply": 1.5,
+    "speedmultiply": 1.25,
     "minheight": 133,
     "maxheight": 264,
     "potion": "minecraft:glowing,10000,1"

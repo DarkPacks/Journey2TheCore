@@ -8,8 +8,8 @@
     {
       "layer": "streamlabs",
       "type": "bits",
-      "count": 227,
-      "amount": 103428.0
+      "count": 359,
+      "amount": 149229.0
     },
     {
       "layer": "streamlabs",
@@ -20,7 +20,7 @@
     {
       "layer": "streamlabs",
       "type": "follow",
-      "count": 216
+      "count": 224
     },
     {
       "layer": "streamlabs",
@@ -31,14 +31,14 @@
     {
       "layer": "streamlabs",
       "type": "subMysteryGift",
-      "count": 48,
-      "amount": 240.0
+      "count": 58,
+      "amount": 292.0
     },
     {
       "layer": "streamlabs",
       "type": "subscription",
-      "count": 2514,
-      "amount": 43171.0
+      "count": 2844,
+      "amount": 45972.0
     }
   ]
 }

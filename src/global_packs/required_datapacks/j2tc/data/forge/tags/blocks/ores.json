@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "values": [
+    "rftoolsbase:dimensionalshard_end",
+    "rftoolsbase:dimensionalshard_nether",
+    "rftoolsbase:dimensionalshard_overworld",
+    "#forge:ores/coal",
+    "#forge:ores/copper",
+    "#forge:ores/diamond",
+    "#forge:ores/emerald",
+    "#forge:ores/gold",
+    "#forge:ores/iron",
+    "#forge:ores/lapis",
+    "#forge:ores/redstone",
+    "#forge:ores/quartz",
+    "#forge:ores/netherite_scrap",
+    "#forge:ores/cobalt",
+    "create:zinc_ore",
+    "create:deepslate_zinc_ore",
+    "factorium:mat_lead_ore",
+    "factorium:mat_lead_ore_deep",
+    "factorium:mat_meteorite_ore"
+  ]
+}

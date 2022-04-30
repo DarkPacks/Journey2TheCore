@@ -3,19 +3,82 @@
   "quests": [
     {
       "uuid": "9e0d42c2-06b5-42fd-9af3-8172a23b8dbe",
-      "name": "Unnamed",
-      "description": "Unnamed quest",
+      "name": "Smelter",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
       "x": 69,
       "y": 90,
       "icon": {
         "id": "factorium:smelter",
         "Count": 1
       },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "factorium:smelter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "738f68f7-82e3-419f-a226-490cfffa5f9c"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "factorium:craft_core_basic",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "factorium:upgrade_core_t1",
+          "Count": 1
+        },
+        {
+          "id": "factorium:upgrade_efficiency",
+          "Count": 1
+        },
+        {
+          "id": "factorium:upgrade_speed",
+          "Count": 1
+        },
+        {
+          "id": "factorium:upgrade_parallel_t1",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "410f361a-db82-429f-8b0a-ca7b7a5063ed",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 171,
+      "y": 161,
+      "icon": {
+        "id": "tconstruct:blazing_blood_bucket",
+        "Count": 1
+      },
+      "prerequisites": [
+        "85d35828-00d5-4a7a-aefb-35fbea9b4738"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:scorched_fuel_tank",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{id:\"tconstruct:tank\",tank:{Amount:1000,FluidName:\"tconstruct:blazing_blood\"}},display:{Lore:[\u0027\"(+NBT)\"\u0027]},tank:{Amount:1000,FluidName:\"tconstruct:blazing_blood\"}}"
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -23,8 +86,8 @@
       "uuid": "78b43bad-168f-4b26-89fd-7992ef95e9ef",
       "name": "Phil Me Up Baby",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 135,
-      "y": 135,
+      "x": 145,
+      "y": 136,
       "icon": {
         "id": "projecte:philosophers_stone",
         "Count": 1,
@@ -112,18 +175,47 @@
     },
     {
       "uuid": "738f68f7-82e3-419f-a226-490cfffa5f9c",
-      "name": "Unnamed",
-      "description": "Unnamed quest",
+      "name": "Generator",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
       "x": 36,
       "y": 90,
       "icon": {
         "id": "cyclic:generator_fuel",
         "Count": 1
       },
-      "prerequisites": [],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cyclic:generator_fuel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "minecraft:coal_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "cyclic:energy_pipe",
+          "Count": 4
+        },
+        {
+          "id": "pipez:energy_pipe",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -167,8 +259,8 @@
       "uuid": "dd6d3b7d-a5be-496e-8973-fbb4b0ca9502",
       "name": "Intertia is a Property of Matter",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 175,
-      "y": 137,
+      "x": 188,
+      "y": 136,
       "icon": {
         "id": "projecte:alchemical_chest",
         "Count": 1
@@ -358,6 +450,37 @@
       "commandrewards": []
     },
     {
+      "uuid": "85d35828-00d5-4a7a-aefb-35fbea9b4738",
+      "name": "Fliquid Powergy",
+      "description": "Unnamed quest",
+      "x": 125,
+      "y": 161,
+      "icon": {
+        "id": "delivery:liquid_energy_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "delivery:liquid_energy_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e1f47e9-c0a8-44b3-a5dc-a6f8fa473cf5"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "3084b89c-92cd-4e77-be32-3e1a47722840",
       "name": "Transfer!",
       "description": "Unnamed quest",
@@ -409,8 +532,8 @@
       "uuid": "fcb5067a-125d-4d6f-8e16-ac8b476d4ad6",
       "name": "Energy Collection",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 213,
-      "y": 137,
+      "x": 232,
+      "y": 136,
       "icon": {
         "id": "projecte:collector_mk1",
         "Count": 1
@@ -442,11 +565,42 @@
       "commandrewards": []
     },
     {
+      "uuid": "1e1f47e9-c0a8-44b3-a5dc-a6f8fa473cf5",
+      "name": "Team Liquid",
+      "description": "Unnamed quest",
+      "x": 85,
+      "y": 161,
+      "icon": {
+        "id": "delivery:energy_liquifier",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "delivery:energy_liquifier",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9e0d42c2-06b5-42fd-9af3-8172a23b8dbe"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "af576f95-d455-4553-8f19-0d483ea42d6c",
       "name": "Pump it Up",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 123,
-      "y": 22,
+      "x": 85,
+      "y": 33,
       "icon": {
         "id": "create:mechanical_pump",
         "Count": 1

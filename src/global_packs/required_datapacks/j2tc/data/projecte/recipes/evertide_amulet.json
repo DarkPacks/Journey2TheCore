@@ -1,1 +1,27 @@
-{"type":"minecraft:crafting_shaped","pattern":["WWW","DDD","WWW"],"key":{"D":{"item":"projecte:dark_matter"},"W":{"item":"minecraft:water_bucket"}},"result":{"item":"projecte:evertide_amulet"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "DCD",
+    "WWW"
+  ],
+  "key":
+  {
+    "D":
+    {
+      "item": "projecte:dark_matter"
+    },
+    "W":
+    {
+      "item": "minecraft:water_bucket"
+    },
+    "C":
+    {
+      "item": "turkeydevutil:condensed_core"
+    }
+  },
+  "result":
+  {
+    "item": "projecte:evertide_amulet"
+  }
+}

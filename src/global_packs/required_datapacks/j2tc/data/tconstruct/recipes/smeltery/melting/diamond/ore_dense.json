@@ -1,15 +1,5 @@
 {
   "type": "tconstruct:ore_melting",
-  "conditions": [
-    {
-      "registry": "minecraft:item",
-      "tags": [
-        "forge:ores/diamond",
-        "forge:ore_rates/dense"
-      ],
-      "type": "tconstruct:tag_intersection_present"
-    }
-  ],
   "rate": "gem",
   "ingredient":
   {

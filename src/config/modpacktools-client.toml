@@ -11,6 +11,6 @@
 	hudEntityDelay = 250
 
 [Behavior]
-	#Automatically copy items to clipboard when running commands to list them (mt hand/hot/inv/blockinv)
+	#Automatically copy data to clipboard when running commands to list them (mt hand/hot/inv/blockinv/recipemaker)
 	autoCopyItems = true
 

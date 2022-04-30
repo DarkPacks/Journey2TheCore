@@ -50,7 +50,7 @@
     {
       "uuid": "8af66fd1-6e79-47b3-8092-6dd4a3f5761c",
       "name": "Seared to Perfection",
-      "description": "Unnamed quest",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
       "x": 109,
       "y": 34,
       "icon": {
@@ -93,8 +93,8 @@
       "uuid": "78e2b2e6-f3d5-4153-884b-5d5831c9799b",
       "name": "Dagger",
       "description": "You can dual wield daggers",
-      "x": 198,
-      "y": 35,
+      "x": 246,
+      "y": 33,
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
@@ -115,9 +115,12 @@
         }
       ],
       "prerequisites": [
-        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a",
+        "2bb836c8-a4ba-4df7-b477-f0a4095e2fe8"
       ],
-      "optionlinks": [],
+      "optionlinks": [
+        "b8be04dd-572f-4724-b330-41599ac4442b"
+      ],
       "reward": [
         {
           "id": "tconstruct:tool_handle",
@@ -336,8 +339,8 @@
       "uuid": "29129ee7-a78b-49ba-947c-b248a45552b0",
       "name": "Dig Your Own Grave",
       "description": "Unnamed quest",
-      "x": 214,
-      "y": 156,
+      "x": 246,
+      "y": 150,
       "icon": {
         "id": "tconstruct:excavator",
         "Count": 1,
@@ -442,8 +445,8 @@
       "uuid": "2bb836c8-a4ba-4df7-b477-f0a4095e2fe8",
       "name": "Forging Onward!",
       "description": "Unnamed quest",
-      "x": 214,
-      "y": 93,
+      "x": 246,
+      "y": 81,
       "icon": {
         "id": "tconstruct:tinkers_anvil",
         "Count": 1
@@ -462,11 +465,10 @@
           ]
         }
       ],
-      "prerequisites": [],
-      "optionlinks": [
-        "78e2b2e6-f3d5-4153-884b-5d5831c9799b",
-        "b8be04dd-572f-4724-b330-41599ac4442b"
+      "prerequisites": [
+        "d4f99a03-afd8-4b88-a2fa-1c285765c501"
       ],
+      "optionlinks": [],
       "reward": [
         {
           "id": "tconstruct:hammer_head_cast",
@@ -481,45 +483,11 @@
       "commandrewards": []
     },
     {
-      "uuid": "1406f8a2-2582-4ca7-9f1f-05435e9f211e",
-      "name": "This Won\u0027t Blow Up",
-      "description": "Unnamed quest",
-      "x": 97,
-      "y": 122,
-      "icon": {
-        "id": "ironchest:obsidian_chest",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "ironchest:dirt_chest",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "ironchest:obsidian_chest",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "d4f99a03-afd8-4b88-a2fa-1c285765c501",
       "name": "Kama Chameleon",
-      "description": "Unnamed quest",
-      "x": 228,
-      "y": 34,
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 271,
+      "y": 33,
       "icon": {
         "id": "tconstruct:kama",
         "Count": 1,
@@ -563,11 +531,97 @@
       "commandrewards": []
     },
     {
+      "uuid": "1406f8a2-2582-4ca7-9f1f-05435e9f211e",
+      "name": "This Won\u0027t Blow Up",
+      "description": "Unnamed quest",
+      "x": 88,
+      "y": 13,
+      "icon": {
+        "id": "ironchest:obsidian_chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ironchest:dirt_chest",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ironchest:obsidian_chest",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae3f4703-fbb0-4ea1-b6c4-6c6410693c47",
+      "name": "Founders Edition",
+      "description": "Unnamed quest",
+      "x": 175,
+      "y": 34,
+      "icon": {
+        "id": "tconstruct:foundry_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:foundry_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:scorched_fuel_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:scorched_drain",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cd132f-cdee-4f58-8af1-bc5f685eb55b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:scorched_duct",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:scorched_brick",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e56945ce-6a1d-449a-933a-ed8c1479bdca",
       "name": "Crossbone",
       "description": "Crossbow is probably important so you don\u0027t die as much!",
-      "x": 255,
-      "y": 34,
+      "x": 296,
+      "y": 33,
       "icon": {
         "id": "minecraft:crossbow",
         "Count": 1,
@@ -604,8 +658,8 @@
       "uuid": "d738e45b-af73-4638-aa3d-4dd2f85361b3",
       "name": "Subscribe to my Channel",
       "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 140,
-      "y": 61,
+      "x": 142,
+      "y": 64,
       "icon": {
         "id": "tconstruct:seared_channel",
         "Count": 1
@@ -641,8 +695,8 @@
       "uuid": "493f0705-0bee-45a0-a34c-d07408a35848",
       "name": "The Ban Hammer",
       "description": "Unnamed quest",
-      "x": 214,
-      "y": 125,
+      "x": 246,
+      "y": 118,
       "icon": {
         "id": "tconstruct:sledge_hammer",
         "Count": 1,
@@ -685,8 +739,8 @@
       "uuid": "d6fcb8b4-110d-435c-bb41-26f3693e123c",
       "name": "Grab Your Pantaloons",
       "description": "Unnamed quest",
-      "x": 227,
-      "y": 183,
+      "x": 261,
+      "y": 177,
       "icon": {
         "id": "tconstruct:plate_leggings",
         "Count": 1,
@@ -709,7 +763,8 @@
         }
       ],
       "prerequisites": [
-        "29129ee7-a78b-49ba-947c-b248a45552b0"
+        "29129ee7-a78b-49ba-947c-b248a45552b0",
+        "f98d8e1a-9f5f-40a0-bb40-36d6ea6488df"
       ],
       "optionlinks": [],
       "reward": [
@@ -810,9 +865,9 @@
     {
       "uuid": "b8be04dd-572f-4724-b330-41599ac4442b",
       "name": "Sword",
-      "description": "Unnamed quest",
-      "x": 174,
-      "y": 35,
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "x": 221,
+      "y": 33,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -834,7 +889,8 @@
         }
       ],
       "prerequisites": [
-        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a",
+        "2bb836c8-a4ba-4df7-b477-f0a4095e2fe8"
       ],
       "optionlinks": [],
       "reward": [
@@ -877,8 +933,8 @@
       "uuid": "1915414e-c271-47d2-87a1-4cdc5c6a3a1e",
       "name": "New Kicks",
       "description": "Unnamed quest",
-      "x": 254,
-      "y": 183,
+      "x": 290,
+      "y": 177,
       "icon": {
         "id": "tconstruct:plate_boots",
         "Count": 1,
@@ -901,7 +957,8 @@
         }
       ],
       "prerequisites": [
-        "29129ee7-a78b-49ba-947c-b248a45552b0"
+        "29129ee7-a78b-49ba-947c-b248a45552b0",
+        "f98d8e1a-9f5f-40a0-bb40-36d6ea6488df"
       ],
       "optionlinks": [],
       "reward": [
@@ -973,7 +1030,7 @@
     {
       "uuid": "53340983-47f3-4e29-a6b0-06f74fdd7983",
       "name": "Yuuuuuuuuuuuuup!",
-      "description": "Unnamed quest",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
       "x": 121,
       "y": 88,
       "icon": {
@@ -1036,8 +1093,8 @@
       "uuid": "f40e2c68-f654-406e-b54a-a422bdb73cf4",
       "name": "Close to the Vest",
       "description": "Unnamed quest",
-      "x": 200,
-      "y": 183,
+      "x": 230,
+      "y": 177,
       "icon": {
         "id": "tconstruct:plate_chestplate",
         "Count": 1,
@@ -1058,7 +1115,8 @@
         }
       ],
       "prerequisites": [
-        "29129ee7-a78b-49ba-947c-b248a45552b0"
+        "29129ee7-a78b-49ba-947c-b248a45552b0",
+        "f98d8e1a-9f5f-40a0-bb40-36d6ea6488df"
       ],
       "optionlinks": [],
       "reward": [
@@ -1075,8 +1133,8 @@
       "uuid": "80d01c46-9619-467f-9a71-2b3c520d974c",
       "name": "Helm\u0027s Deep",
       "description": "Unnamed quest",
-      "x": 173,
-      "y": 184,
+      "x": 201,
+      "y": 178,
       "icon": {
         "id": "tconstruct:plate_helmet",
         "Count": 1,
@@ -1097,7 +1155,8 @@
         }
       ],
       "prerequisites": [
-        "29129ee7-a78b-49ba-947c-b248a45552b0"
+        "29129ee7-a78b-49ba-947c-b248a45552b0",
+        "f98d8e1a-9f5f-40a0-bb40-36d6ea6488df"
       ],
       "optionlinks": [],
       "reward": [
@@ -1113,7 +1172,7 @@
     {
       "uuid": "0a39766f-6045-4398-a16f-827ac1ef0dcf",
       "name": "A Place for your Things",
-      "description": "Unnamed quest",
+      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
       "x": 105,
       "y": 62,
       "icon": {

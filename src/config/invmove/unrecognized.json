@@ -53,7 +53,14 @@
     "com.vincentmet.mkm.MacroScreen": true,
     "oreexcavation.client.GuiEditShapes": true,
     "net.bdew.factorium.machines.processing.ProcessingMachineScreen": true,
-    "net.bdew.factorium.machines.extruder.ExtruderScreen": true
+    "net.bdew.factorium.machines.extruder.ExtruderScreen": true,
+    "com.dutchs.modpacktools.gui.RecipeMakerScreen": true,
+    "slimeknights.tconstruct.smeltery.client.screen.MelterScreen": true,
+    "slimeknights.tconstruct.smeltery.client.screen.HeatingStructureScreen": true,
+    "slimeknights.tconstruct.smeltery.client.screen.AlloyerScreen": true,
+    "slimeknights.mantle.client.screen.book.BookScreen": true,
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK3": true,
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK1": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -101,6 +108,12 @@
     "dev.gigaherz.sewingkit.table.SewingTableScreen": true,
     "oreexcavation.client.GuiEditShapes": true,
     "net.bdew.factorium.machines.processing.ProcessingMachineScreen": true,
-    "net.bdew.factorium.machines.extruder.ExtruderScreen": true
+    "net.bdew.factorium.machines.extruder.ExtruderScreen": true,
+    "com.dutchs.modpacktools.gui.RecipeMakerScreen": true,
+    "slimeknights.tconstruct.smeltery.client.screen.MelterScreen": true,
+    "slimeknights.tconstruct.smeltery.client.screen.HeatingStructureScreen": true,
+    "slimeknights.tconstruct.smeltery.client.screen.AlloyerScreen": true,
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK3": true,
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK1": true
   }
 }
