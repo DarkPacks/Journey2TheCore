@@ -1,0 +1,7 @@
+{
+  "blockLocation": "candyworld:crystallized_sugar_cookie_ore",
+  "dropBlock": "candyworld:crystallized_sugar",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

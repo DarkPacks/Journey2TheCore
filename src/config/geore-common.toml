@@ -71,10 +71,10 @@
 	quartzGeoreMaxY = 30
 	#The Min Y level that Redstone GeOre will generate at (above minimum world height) [Default: 6]
 	#Range: > 0
-	redstoneGeoreMinY = 0
+	redstoneGeoreMinY = 265
 	#The max Y level that Redstone GeOre will generate at [Default: 30]
 	#Range: > 0
-	redstoneGeoreMaxY = 132
+	redstoneGeoreMaxY = 396
 
 #Rarity settings
 [Rarity]

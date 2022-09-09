@@ -1,0 +1,16 @@
+
+["QuiverHUD Settings"]
+	#Animate the HUD Quiver showing and hiding.
+	ANIMATE = true
+	#Hide the HUD Quiver when not selecting a shootable item.
+	HIDE = true
+	#The margin on the left of the HUD Quiver.
+	#Range: 16 ~ 1000
+	HORIZONTAL_OFFSET = 16
+	#The margin on the top of the HUD Quiver.
+	#Range: 16 ~ 1000
+	VERTICAL_OFFSET = 16
+	#Scale of the GUI
+	#Range: 0.1 ~ 200.0
+	gui_scale = 1.0
+

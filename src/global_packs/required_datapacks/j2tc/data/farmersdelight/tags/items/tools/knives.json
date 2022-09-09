@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:golden_knife",
+    "farmersdelight:netherite_knife",
+    "tconstruct:dagger",
+    "tconstruct:sword",
+    "tconstruct:cleaver"
+  ]
+}

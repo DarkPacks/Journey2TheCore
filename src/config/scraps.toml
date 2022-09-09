@@ -1,0 +1,100 @@
+
+#General settings
+[scraps]
+
+	[scraps.worldgen]
+		#true means 'Run worldgen from this mod in biome loader event'. If false then ALL default worldgen from this mod is disabled (configured features remain registered for use by modpack/datapack)
+		enabled = false
+
+		[scraps.worldgen.bone]
+
+			[scraps.worldgen.bone.small]
+				#Increase the count of these single spawns
+				#Range: 1 ~ 64
+				count = 6
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = -40
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 50
+
+			[scraps.worldgen.bone.large]
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = -40
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 50
+
+		[scraps.worldgen.metal]
+
+			[scraps.worldgen.metal.small]
+				#Increase the count of these single spawns
+				#Range: 1 ~ 64
+				count = 6
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = -40
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 50
+
+			[scraps.worldgen.metal.large]
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = -40
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 40
+
+		[scraps.worldgen.brush]
+
+			[scraps.worldgen.brush.small]
+				#Increase the count of these single spawns
+				#Range: 1 ~ 64
+				count = 6
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = 50
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 222
+
+			[scraps.worldgen.brush.large]
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = 50
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 222
+
+		[scraps.worldgen.trash]
+
+			[scraps.worldgen.trash.small]
+				#Increase the count of these single spawns
+				#Range: 1 ~ 64
+				count = 6
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = -40
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 222
+
+			[scraps.worldgen.trash.large]
+				#Lowest point to generate this
+				#Range: -9999 ~ 9999
+				bottom = -40
+				#Highest point to generate this
+				#Range: -9999 ~ 9999
+				top = 222
+
+	[scraps.steptobreak]
+		#If true then stepping on a scrap pile will harvest it
+		enabled = true
+
+	[scraps.composter]
+		#If true then some of the scraps will be allowed to go into the minecraft:composter block (shard_bone, shard_leather, shard_paper, shard_wood only)
+		enabled = true
+

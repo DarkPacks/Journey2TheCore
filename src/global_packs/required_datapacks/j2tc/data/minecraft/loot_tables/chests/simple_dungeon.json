@@ -2,26 +2,22 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
+      "rolls":
+      {
         "min": 1,
         "max": 3,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
+          "name": "turkeydevutil:lanyard",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
           "name": "minecraft:saddle",
           "type": "minecraft:item",
           "weight": 20
-        },
-        {
-          "name": "minecraft:music_disc_far",
-          "type": "minecraft:item",
-          "weight": 15
-        },
-        {
-          "name": "minecraft:music_disc_cat",
-          "type": "minecraft:item",
-          "weight": 15
         },
         {
           "name": "minecraft:name_tag",
@@ -55,7 +51,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 4,
                 "type": "minecraft:uniform"
@@ -70,7 +67,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 2,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -85,7 +83,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 4,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -100,7 +99,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -115,7 +115,24 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:carrot",
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -130,7 +147,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 2,
                 "max": 4,
                 "type": "minecraft:uniform"
@@ -150,7 +168,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -165,7 +184,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 4,
                 "type": "minecraft:uniform"
@@ -180,7 +200,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -195,7 +216,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -210,7 +232,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -251,14 +274,99 @@
           ]
         },
         {
-          "name": "minecraft:music_disc_11",
-          "type": "minecraft:item",
-          "weight": 132
-        },
-        {
           "name": "minecraft:name_tag",
           "type": "minecraft:item",
           "weight": 176
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/artifact_bag",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "name": "minecraft:music_disc_13",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_cat",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_blocks",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_chirp",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_far",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_mall",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_mellohi",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_stal",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_strad",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_ward",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_11",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_wait",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "name": "minecraft:music_disc_otherside",
+          "type": "minecraft:item",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 70
         }
       ]
     }

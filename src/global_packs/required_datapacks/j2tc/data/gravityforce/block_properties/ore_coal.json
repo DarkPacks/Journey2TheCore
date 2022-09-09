@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:coal_ore",
+  "dropBlock": "minecraft:cobblestone",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

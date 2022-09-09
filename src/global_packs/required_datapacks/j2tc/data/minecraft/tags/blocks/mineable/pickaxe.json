@@ -337,6 +337,7 @@
     "ironchest:trapped_diamond_chest",
     "ironchest:trapped_copper_chest",
     "ironchest:trapped_crystal_chest",
-    "ironchest:trapped_obsidian_chest"
+    "ironchest:trapped_obsidian_chest",
+    "rechiseled:dirt_muddy"
   ]
 }

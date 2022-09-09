@@ -2,7 +2,7 @@
   "group": "idk",
   "displayName":
   {
-    "text": "L2Read"
+    "text": "Tinkers' Modifier Books"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/tcon_modifier_books",
   "rarity": "uncommon",

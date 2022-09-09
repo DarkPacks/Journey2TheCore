@@ -13,5 +13,338 @@
     "item": "turkeydevutil:lanyard",
     "random": 0.05,
     "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set1",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:skeleton"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set2",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:wither_skeleton"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set2",
+    "random": 0.06,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:drowned"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set3",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:spider"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set4",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "core_creepers:dirt_creeper",
+      "core_creepers:stone_creeper",
+      "core_creepers:cluster_creeper",
+      "core_creepers:super_charged_creeper",
+      "core_creepers:ambush_creeper",
+      "core_creepers:dirt_water_creeper",
+      "core_creepers:stone_lava_creeper",
+      "graveyard:skeleton_creeper"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set5",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:slime"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set6",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "graveyard:ghoul"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set7",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "graveyard:revenant"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set8",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:enderman"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set9",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:husk"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set10",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:husk"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set10",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:stray"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set11",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:zombie_villager"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set12",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:witch"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set13",
+    "random": 0.08,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:drowned"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set14",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:ghast"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set15",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:evoker",
+      "minecraft:illusioner",
+      "minecraft:vindicator",
+      "minecraft:pillager",
+      "minecraft:vex"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set16",
+    "random": 0.06,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:blaze"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set17",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:zombified_piglin"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set18",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:wither_skeleton"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set19",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:magma_monster",
+      "minecraft:magma_monster_grunt"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set20",
+    "random": 0.06,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "minecraft:magma_cube"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_mob_test_set21",
+    "random": 0.04,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": [
+      "buddycards:buddycard_patreon_supporter_set1",
+      "buddycards:buddycard_patreon_supporter_set2",
+      "buddycards:buddycard_patreon_supporter_set3",
+      "buddycards:buddycard_patreon_supporter_set4",
+      "buddycards:buddycard_patreon_supporter_set5",
+      "buddycards:buddycard_patreon_supporter_set6",
+      "buddycards:buddycard_patreon_supporter_set7",
+      "buddycards:buddycard_patreon_supporter_set8",
+      "buddycards:buddycard_patreon_supporter_set9",
+      "buddycards:buddycard_patreon_supporter_set10",
+      "buddycards:buddycard_patreon_supporter_set11",
+      "buddycards:buddycard_patreon_supporter_set12",
+      "buddycards:buddycard_patreon_supporter_set13",
+      "buddycards:buddycard_patreon_supporter_set14",
+      "buddycards:buddycard_patreon_supporter_set15",
+      "buddycards:buddycard_patreon_supporter_set16",
+      "buddycards:buddycard_patreon_supporter_set17",
+      "buddycards:buddycard_patreon_supporter_set18",
+      "buddycards:buddycard_patreon_supporter_set19",
+      "buddycards:buddycard_patreon_supporter_set20",
+      "buddycards:buddycard_patreon_supporter_set21",
+      "buddycards:buddycard_patreon_supporter_set22",
+      "buddycards:buddycard_patreon_supporter_set23",
+      "buddycards:buddycard_patreon_supporter_set24",
+      "buddycards:buddycard_patreon_supporter_set25",
+      "buddycards:buddycard_patreon_supporter_set26",
+      "buddycards:buddycard_patreon_supporter_set27",
+      "buddycards:buddycard_patreon_supporter_set28",
+      "buddycards:buddycard_patreon_supporter_set29",
+      "buddycards:buddycard_patreon_supporter_set30",
+      "buddycards:buddycard_patreon_supporter_set31",
+      "buddycards:buddycard_patreon_supporter_set32",
+      "buddycards:buddycard_patreon_supporter_set33",
+      "buddycards:buddycard_patreon_supporter_set34",
+      "buddycards:buddycard_patreon_supporter_set35",
+      "buddycards:buddycard_patreon_supporter_set36",
+      "buddycards:buddycard_patreon_supporter_set37",
+      "buddycards:buddycard_patreon_supporter_set38",
+      "buddycards:buddycard_patreon_supporter_set39",
+      "buddycards:buddycard_patreon_supporter_set40",
+      "buddycards:buddycard_patreon_supporter_set41",
+      "buddycards:buddycard_patreon_supporter_set42",
+      "buddycards:buddycard_patreon_supporter_set43",
+      "buddycards:buddycard_patreon_supporter_set44",
+      "buddycards:buddycard_patreon_supporter_set45",
+      "buddycards:buddycard_patreon_supporter_set46",
+      "buddycards:buddycard_patreon_supporter_set47",
+      "buddycards:buddycard_patreon_supporter_set48",
+      "buddycards:buddycard_patreon_supporter_set49",
+      "buddycards:buddycard_patreon_supporter_set50",
+      "buddycards:buddycard_patreon_supporter_set51",
+      "buddycards:buddycard_patreon_supporter_set52",
+      "buddycards:buddycard_patreon_supporter_set53",
+      "buddycards:buddycard_patreon_supporter_set54",
+      "buddycards:buddycard_patreon_supporter_set55",
+      "buddycards:buddycard_patreon_supporter_set56",
+      "buddycards:buddycard_patreon_supporter_set57",
+      "buddycards:buddycard_patreon_supporter_set58",
+      "buddycards:buddycard_patreon_supporter_set59",
+      "buddycards:buddycard_patreon_supporter_set60"
+    ],
+    "random": 0.001,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_mob_test_set",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "hostile": true,
+    "player": true,
+    "item": "buddycards:buddycard_pack_base",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "passive": true,
+    "player": true,
+    "item": "buddycards:buddycard_pack_base",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
   }
 ]

@@ -2,18 +2,21 @@
   "feature": "j2tc_tweaks:anger_layer/features/ore_sea_lantern",
   "placement": [
     {
-      "count": 148,
+      "count": 132,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 1
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 130
         },
         "type": "minecraft:uniform"

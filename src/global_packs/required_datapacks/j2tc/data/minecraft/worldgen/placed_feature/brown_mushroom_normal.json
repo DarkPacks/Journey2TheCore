@@ -34,7 +34,16 @@
           0
         ],
         "blocks": [
-          "minecraft:dirt"
+          "minecraft:dirt",
+          "minecraft:stone",
+          "cobblestoney:clay_silt",
+          "rechiseled:dirt_muddy",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:mycelium",
+          "minecraft:podzol",
+          "minecraft:crimson_nylium",
+          "minecraft:warped_nylium"
         ]
       }
     }

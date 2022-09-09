@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:ores/copper"
+  },
+  "result": "minecraft:raw_copper",
+  "experience": 0.35,
+  "cookingtime": 500
+}

@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "Nice Gear!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/gears",
+  "rarity": "uncommon",
+  "bagColor": "#ffffff",
+  "bagOverlayColor": "#960000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,3 @@
+#The list of effect icons to hide. For example, 'minecraft:night_vision' or 'cofh_core:chilled'
+"Hidden Effects" = ["colorblindness:achromatomaly", "colorblindness:achromatopsia", "colorblindness:deuteranomaly", "colorblindness:deuteranopia", "colorblindness:protanomaly", "colorblindness:protanopia", "colorblindness:tritanomaly", "colorblindness:tritanopia"]
+

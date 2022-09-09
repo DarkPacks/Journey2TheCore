@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1",
+    "2",
+    "3"
+  ],
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "2":
+    {
+      "item": "turkeydevutil:calculator"
+    },
+    "3":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "turkeydevutil:unstable_ingot"
+  }
+}

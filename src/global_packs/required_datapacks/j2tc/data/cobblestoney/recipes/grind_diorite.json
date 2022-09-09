@@ -1,0 +1,21 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:diorite"
+  },
+  "result": {
+    "item": "cobblestoney:diorite_cobbled",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "plaingrinder",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

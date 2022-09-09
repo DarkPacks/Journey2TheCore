@@ -14,8 +14,24 @@
         "count": 8
       },
       "price_multiplier": 0.05,
-      "max_trades": 24,
+      "max_trades": 12,
       "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "tconstruct:pattern",
+        "count": 16
+      },
+      "payment_item":
+      {
+        "item": "minecraft:string",
+        "count": 8
+      },
+      "price_multiplier": 0.05,
+      "max_trades": 10,
+      "experience": 6
     },
     {
       "type": "goblintraders:basic",
@@ -30,23 +46,7 @@
         "count": 1
       },
       "price_multiplier": 0.05,
-      "max_trades": 30,
-      "experience": 6
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item":
-      {
-        "item": "minecraft:gold_ingot",
-        "count": 3
-      },
-      "payment_item":
-      {
-        "item": "minecraft:raw_gold",
-        "count": 2
-      },
-      "price_multiplier": 0.05,
-      "max_trades": 30,
+      "max_trades": 8,
       "experience": 6
     },
     {
@@ -54,7 +54,7 @@
       "offer_item":
       {
         "item": "minecraft:copper_ingot",
-        "count": 2
+        "count": 1
       },
       "payment_item":
       {
@@ -62,8 +62,8 @@
         "count": 1
       },
       "price_multiplier": 0.05,
-      "max_trades": 30,
-      "experience": 6
+      "max_trades": 8,
+      "experience": 2
     },
     {
       "type": "goblintraders:basic",
@@ -78,7 +78,7 @@
         "count": 4
       },
       "price_multiplier": 0.05,
-      "max_trades": 24,
+      "max_trades": 12,
       "experience": 4
     },
     {
@@ -94,7 +94,7 @@
         "count": 1
       },
       "price_multiplier": 0.05,
-      "max_trades": 32,
+      "max_trades": 14,
       "experience": 4
     },
     {
@@ -110,7 +110,7 @@
         "count": 32
       },
       "price_multiplier": 0.2,
-      "max_trades": 128,
+      "max_trades": 6,
       "experience": 4
     },
     {
@@ -127,6 +127,43 @@
       },
       "price_multiplier": 0.2,
       "max_trades": 32,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "factinventory:slow_inventory_hopper",
+        "count": 1
+      },
+      "payment_item":
+      {
+        "item": "minecraft:player_head",
+        "count": 1
+      },
+      "secondary_payment_item":
+      {
+        "item": "minecraft:player_head",
+        "count": 1
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "turkeydevutil:lime",
+        "count": 4
+      },
+      "payment_item":
+      {
+        "item": "create:limestone",
+        "count": 16
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 6,
       "experience": 4
     }
   ]

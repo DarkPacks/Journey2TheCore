@@ -2,18 +2,21 @@
   "feature": "j2tc_tweaks:moss_patch_ceiling",
   "placement": [
     {
-      "count": 125,
+      "count": 96,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 529
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 688
         },
         "type": "minecraft:uniform"
@@ -22,10 +25,12 @@
     },
     {
       "direction_of_search": "up",
-      "target_condition": {
+      "target_condition":
+      {
         "type": "minecraft:solid"
       },
-      "allowed_search_condition": {
+      "allowed_search_condition":
+      {
         "blocks": [
           "minecraft:air"
         ],

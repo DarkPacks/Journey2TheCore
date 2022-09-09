@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:pickup_upgrade",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    " P ",
+    "SBS",
+    "RRR"
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "R":
+    {
+      "item": "minecraft:clay_ball"
+    },
+    "S":
+    {
+      "tag": "forge:string"
+    },
+    "P":
+    {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "result":
+  {
+    "item": "sophisticatedbackpacks:pickup_upgrade"
+  }
+}

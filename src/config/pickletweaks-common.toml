@@ -23,7 +23,7 @@
 	#Coal and Charcoal Piece enabled?
 	coalPiece = true
 	#Diamond and Emerald Apples enabled?
-	apples = true
+	apples = false
 	#Watering Can enabled?
 	wateringCan = true
 	#Enable Meshes?
@@ -31,7 +31,7 @@
 	#Enable Magnet?
 	magnet = true
 	#Enable Night Vision Goggles?
-	nightVisionGoggles = true
+	nightVisionGoggles = false
 	#Enable Paxels?
 	paxels = false
 	#Enable Flint tools and armor?
@@ -39,7 +39,7 @@
 	#Enable Emerald tools and armor?
 	emeraldGear = false
 	#Enable right click crop harvesting?
-	rightClickHarvest = true
+	rightClickHarvest = false
 	#Enable Sickles?
 	sickles = false
 	#Enable Scythes?

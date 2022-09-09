@@ -4,5 +4,6 @@
   "title": "Anger",
   "subtitle": "Seething Within",
   "minY": 0,
-  "maxY": 132
+  "maxY": 132,
+  "dimension": "minecraft:overworld"
 }

@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		},
+		{
+			"tag": "forge:shards/wood"
+		}
+	],
+	"result": {
+		"item": "minecraft:stick",
+		"count": 2
+	}
+}

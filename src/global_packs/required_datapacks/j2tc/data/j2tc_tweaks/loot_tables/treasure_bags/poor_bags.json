@@ -185,11 +185,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "j2tc_tweaks:treasure_bags/wool_armor",
-          "weight": 50
-        },
-        {
-          "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/goggles",
           "weight": 50
         },

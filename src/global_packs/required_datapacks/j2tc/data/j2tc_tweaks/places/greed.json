@@ -4,5 +4,6 @@
   "title": "Avarice",
   "subtitle": "The Covetous",
   "minY": 133,
-  "maxY": 264
+  "maxY": 264,
+  "dimension": "minecraft:overworld"
 }

@@ -1,0 +1,2 @@
+execute at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1.0 1.3
+execute unless score @s inventory_slots matches 18 run tellraw @s [" ",{"text":"You've unlocked an Inventory Tab!","color":"red"}]

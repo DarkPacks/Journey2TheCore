@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:ender_pearl_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 1000
+}

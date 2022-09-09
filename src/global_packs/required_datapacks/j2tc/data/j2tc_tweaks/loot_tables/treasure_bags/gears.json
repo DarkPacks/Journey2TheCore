@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls":
+      {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "thermal:enderium_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:tin_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:quartz_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:emerald_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:diamond_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:lapis_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:copper_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:gold_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:iron_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:bronze_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:electrum_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:invar_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:constantan_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:signalum_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:lumium_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:nickel_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:silver_gear"
+        },
+        {
+          "type": "item",
+          "name": "thermal:lead_gear"
+        }
+      ]
+    }
+  ]
+}

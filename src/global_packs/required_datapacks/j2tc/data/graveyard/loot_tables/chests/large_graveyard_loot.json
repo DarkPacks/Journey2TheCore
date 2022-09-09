@@ -1,0 +1,238 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:dripstone_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 35
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:calcite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 35
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:cobbled_deepslate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 35
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 25
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 25
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:tinted_glass",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 25
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:glow_lichen",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 25
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "graveyard:dark_iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:copper_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 7,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 12
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:name_tag"
+        }
+      ]
+    }
+  ]
+}

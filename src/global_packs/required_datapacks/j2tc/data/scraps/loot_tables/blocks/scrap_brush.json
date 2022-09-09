@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tall_grass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:straw"
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 [
   {
-    "name": "Crap",
+    "name": {
+      "text": "Crap",
+      "isTranslationKey": false
+    },
     "colour": "RED",
     "weights": [
       50,
@@ -12,14 +15,20 @@
     "groups": [
       {
         "id": "0693a576-3533-4f18-a7a6-15cbf91e5038",
-        "name": "Bad Food Bag",
+        "name": {
+          "text": "Bad Food Bag",
+          "isTranslationKey": false
+        },
         "limit": 0,
         "items": []
       }
     ]
   },
   {
-    "name": "Plain",
+    "name": {
+      "text": "Plain",
+      "isTranslationKey": false
+    },
     "colour": "GRAY",
     "weights": [
       50,
@@ -31,14 +40,20 @@
     "groups": [
       {
         "id": "0c4ebd25-5159-4b04-a69c-df8931bbb160",
-        "name": "Okay Food Bag",
+        "name": {
+          "text": "Okay Food Bag",
+          "isTranslationKey": false
+        },
         "limit": 0,
         "items": []
       }
     ]
   },
   {
-    "name": "Common",
+    "name": {
+      "text": "Common",
+      "isTranslationKey": false
+    },
     "colour": "GREEN",
     "weights": [
       20,
@@ -50,14 +65,20 @@
     "groups": [
       {
         "id": "8ec203b0-4cf4-450c-bd76-76d761417a26",
-        "name": "Good Food Bag",
+        "name": {
+          "text": "Good Food Bag",
+          "isTranslationKey": false
+        },
         "limit": 0,
         "items": []
       }
     ]
   },
   {
-    "name": "Uncommon",
+    "name": {
+      "text": "Uncommon",
+      "isTranslationKey": false
+    },
     "colour": "BLUE",
     "weights": [
       5,
@@ -69,14 +90,20 @@
     "groups": [
       {
         "id": "68958a9f-3c28-4017-9b3b-25c659ccbfd9",
-        "name": "Great Food Bag",
+        "name": {
+          "text": "Great Food Bag",
+          "isTranslationKey": false
+        },
         "limit": 0,
         "items": []
       }
     ]
   },
   {
-    "name": "Rare",
+    "name": {
+      "text": "Rare",
+      "isTranslationKey": false
+    },
     "colour": "ORANGE",
     "weights": [
       3,
@@ -88,7 +115,10 @@
     "groups": []
   },
   {
-    "name": "Unique",
+    "name": {
+      "text": "Unique",
+      "isTranslationKey": false
+    },
     "colour": "PURPLE",
     "weights": [
       1,

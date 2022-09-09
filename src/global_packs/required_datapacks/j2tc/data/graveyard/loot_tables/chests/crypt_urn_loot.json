@@ -1,0 +1,239 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "graveyard:creeper_skeleton"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "graveyard:leaning_skeleton"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "graveyard:lying_skeleton"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "graveyard:skeleton_hand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "graveyard:skull_pile"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "graveyard:skull_with_rib_cage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "graveyard:corruption",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:black_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bone_meal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 14
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:wheat_seeds",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

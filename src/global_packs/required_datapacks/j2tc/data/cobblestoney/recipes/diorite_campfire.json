@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "cobblestoney:diorite_cobbled"
+  },
+  "result": "minecraft:diorite",
+  "experience": 0.1,
+  "cookingtime": 600
+}

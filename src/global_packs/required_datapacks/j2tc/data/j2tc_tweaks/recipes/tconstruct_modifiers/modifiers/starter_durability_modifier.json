@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "tools":
+  {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "result":
+  {
+    "name": "tconstruct:starter_durability_increase",
+    "level": 1
+  }
+}

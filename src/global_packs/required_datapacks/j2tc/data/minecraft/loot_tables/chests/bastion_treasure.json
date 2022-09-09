@@ -345,6 +345,11 @@
             }
           ],
           "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/artifact_bag",
+          "weight": 15
         }
       ]
     }

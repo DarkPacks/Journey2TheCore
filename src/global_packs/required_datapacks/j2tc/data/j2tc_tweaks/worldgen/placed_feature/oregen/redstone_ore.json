@@ -2,19 +2,22 @@
   "feature": "j2tc_tweaks:oregen/redstone_ore",
   "placement": [
     {
-      "count": 30,
+      "count": 26,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
-          "absolute": 0
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 265
         },
-        "max_inclusive": {
-          "absolute": 132
+        "max_inclusive":
+        {
+          "absolute": 396
         },
         "type": "minecraft:uniform"
       },

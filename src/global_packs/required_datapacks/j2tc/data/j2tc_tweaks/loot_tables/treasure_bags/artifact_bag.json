@@ -42,10 +42,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "nameless_trinkets:lucky_horseshoe"
-        },
-        {
-          "type": "minecraft:item",
           "name": "nameless_trinkets:explosion_proof_jacket"
         },
         {
@@ -279,6 +275,78 @@
         {
           "type": "minecraft:item",
           "name": "artifacts:everlasting_beef"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_magicdefense"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_invisible"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:quiver_lightning"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:quiver_damage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_boostpotion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_antipotion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_creeper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_longfall"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_crit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_knockback_resistance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_speed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_luck"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_attack_speed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_xp_speed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_venom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_starvation"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cyclic:charm_wing"
         }
       ]
     }

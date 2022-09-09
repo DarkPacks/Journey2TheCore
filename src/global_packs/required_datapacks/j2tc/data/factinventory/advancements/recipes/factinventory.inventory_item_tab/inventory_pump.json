@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "factinventory:inventory_pump"
+    ]
+  },
+  "criteria": {
+    "has_interactivity_modules": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "factinventory:interaction_module"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "factinventory:inventory_pump"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_interactivity_modules",
+      "has_the_recipe"
+    ]
+  ]
+}

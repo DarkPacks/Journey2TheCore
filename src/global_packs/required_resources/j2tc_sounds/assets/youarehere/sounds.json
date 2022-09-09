@@ -1,52 +1,76 @@
 {
-  "sound.1": {
+  "sound.1":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty1"
+    ],
+    "replace": true
   },
-  "sound.2": {
+  "sound.2":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty2",
+      "youarehere:empty3",
+      "youarehere:empty4",
+      "youarehere:empty5",
+      "youarehere:empty6"
+    ],
+    "replace": true
   },
-  "sound.3": {
+  "sound.3":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty3"
+    ],
+    "replace": true
   },
-  "sound.4": {
+  "sound.4":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty4"
+    ],
+    "replace": true
   },
-  "sound.5": {
+  "sound.5":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty5"
+    ],
+    "replace": true
   },
-  "sound.6": {
+  "sound.6":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty6"
+    ],
+    "replace": true
   },
-  "sound.7": {
+  "sound.7":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty7"
+    ],
+    "replace": true
   },
-  "sound.8": {
+  "sound.8":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty8"
+    ],
+    "replace": true
   },
-  "sound.9": {
+  "sound.9":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty9"
+    ],
+    "replace": true
   },
-  "sound.10": {
+  "sound.10":
+  {
     "sounds": [
-      "youarehere:empty"
-    ]
+      "youarehere:empty10"
+    ],
+    "replace": true
   }
 }

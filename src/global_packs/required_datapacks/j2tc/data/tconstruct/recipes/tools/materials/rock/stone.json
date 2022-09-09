@@ -12,6 +12,18 @@
     },
     {
       "item": "create:limestone"
+    },
+    {
+      "item": "cobblestoney:dripstone_cobbled"
+    },
+    {
+      "item": "cobblestoney:stone_silt"
+    },
+    {
+      "item": "cobblestoney:calcite_cobbled"
+    },
+    {
+      "item": "cobblestoney:tuff_cobbled"
     }
   ],
   "value": 1,

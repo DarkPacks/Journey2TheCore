@@ -1,0 +1,80 @@
+{
+  "type": "animalcrops:add_entry",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:grass"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:fern"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:tall_grass",
+          "properties": { "half": "lower" }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:large_fern",
+          "properties": { "half": "lower" }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": { "tag": "forge:shears" }
+      }
+    }
+  ],
+  "require_empty": true,
+  "entry": {
+    "type": "minecraft:alternatives",
+    "children": [
+      {
+        "type": "minecraft:item",
+        "name": "animalcrops:seeds",
+        "conditions": [
+          {
+            "condition": "animalcrops:config",
+            "prop": "seeds"
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.01
+          }
+        ],
+        "functions": [{
+          "function": "animalcrops:random_animal",
+          "type": "crops"
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "animalcrops:pollen",
+        "conditions": [
+          {
+            "condition": "animalcrops:config",
+            "prop": "pollen"
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.01
+          }
+        ],
+        "functions": [{
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "parameters": { "bonusMultiplier": 2 }
+        }]
+      }
+    ]
+  },
+  "functions": [{ "function": "minecraft:explosion_decay" }]
+}

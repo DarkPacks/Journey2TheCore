@@ -1,0 +1,44 @@
+{
+  "conditions": {
+    "New Condition": {
+      "type": "null"
+    }
+  },
+  "outcomes": {
+    "Zombie Spawning Event": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Space Check - 1x2 SolidBlock Underneath",
+              "type": "constant",
+              "displayName": "Space Check"
+            }
+          ],
+          "outcomes": [
+            {
+              "events": [
+                {
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "command": "/summon Zombie $entitySpaceCheck",
+                      "executeAsSelf": true,
+                      "type": "command"
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event",
+      "displayName": "Spawn Zombie (1)"
+    }
+  },
+  "events": {}
+}

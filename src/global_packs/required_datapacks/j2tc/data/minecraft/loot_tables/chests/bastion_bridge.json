@@ -19,7 +19,8 @@
       ]
     },
     {
-      "rolls": {
+      "rolls":
+      {
         "type": "minecraft:uniform",
         "min": 1,
         "max": 2
@@ -31,7 +32,8 @@
           "functions": [
             {
               "function": "minecraft:set_damage",
-              "damage": {
+              "damage":
+              {
                 "type": "minecraft:uniform",
                 "min": 0.1,
                 "max": 0.5
@@ -49,7 +51,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 10,
                 "max": 28
@@ -64,7 +67,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 8,
                 "max": 12
@@ -79,7 +83,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 3,
                 "max": 8
@@ -105,7 +110,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 4,
                 "max": 9
@@ -120,7 +126,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 4,
                 "max": 9
@@ -214,7 +221,8 @@
       ]
     },
     {
-      "rolls": {
+      "rolls":
+      {
         "type": "minecraft:uniform",
         "min": 2,
         "max": 4
@@ -226,7 +234,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 6
@@ -241,7 +250,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
@@ -256,7 +266,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 5,
                 "max": 17
@@ -271,7 +282,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 6
@@ -286,7 +298,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 6
@@ -295,6 +308,11 @@
             }
           ],
           "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/artifact_bag",
+          "weight": 15
         }
       ]
     }

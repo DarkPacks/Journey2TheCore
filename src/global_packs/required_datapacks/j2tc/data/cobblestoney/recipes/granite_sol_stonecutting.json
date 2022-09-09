@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cobblestoney:granite_soladite"
+  },
+  "result": "minecraft:granite",
+  "count": 1
+}

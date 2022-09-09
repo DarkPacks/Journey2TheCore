@@ -1,4 +1,7 @@
 {
   "replace": true,
-  "values": []
+  "values": [
+    "thermal:tin_ore",
+    "thermal:deepslate_tin_ore"
+  ]
 }

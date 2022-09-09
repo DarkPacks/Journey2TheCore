@@ -7,9 +7,9 @@
   "cast_consumed": true,
   "fluid":
   {
-    "name": "tconstruct:molten_obsidian",
-    "amount": 500
+    "name": "tconstruct:liquid_soul",
+    "amount": 1000
   },
   "result": "tconstruct:scorched_stone",
-  "cooling_time": 48
+  "cooling_time": 256
 }

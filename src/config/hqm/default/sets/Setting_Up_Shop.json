@@ -3,10 +3,17 @@
   "quests": [
     {
       "uuid": "bc95062d-134d-458e-a64b-ed1efd55b7fb",
-      "name": "Meow Mix",
-      "description": "Use Millstone with hand crank, get sand!",
-      "x": 31,
-      "y": 34,
+      "name": {
+        "text": "Meow Mix",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use Millstone with hand crank, get sand!",
+        "isTranslationKey": false
+      },
+      "x": 26,
+      "y": 9,
+      "bigicon": true,
       "icon": {
         "id": "minecraft:sand",
         "Count": 1
@@ -49,10 +56,16 @@
     },
     {
       "uuid": "8af66fd1-6e79-47b3-8092-6dd4a3f5761c",
-      "name": "Seared to Perfection",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Seared to Perfection",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 109,
-      "y": 34,
+      "y": 12,
       "icon": {
         "id": "tconstruct:seared_brick",
         "Count": 1
@@ -77,10 +90,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "tconstruct:seared_fuel_tank",
-          "Count": 1
-        },
-        {
           "id": "tconstruct:pick_head",
           "Count": 1,
           "tag": "{Material:\"tconstruct:seared_stone\"}"
@@ -91,10 +100,16 @@
     },
     {
       "uuid": "78e2b2e6-f3d5-4153-884b-5d5831c9799b",
-      "name": "Dagger",
-      "description": "You can dual wield daggers",
-      "x": 246,
-      "y": 33,
+      "name": {
+        "text": "Dagger",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You can dual wield daggers",
+        "isTranslationKey": false
+      },
+      "x": 253,
+      "y": 55,
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
@@ -158,11 +173,60 @@
       "commandrewards": []
     },
     {
+      "uuid": "3aa38fcb-eae5-421b-9470-c6008eb97919",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 81,
+      "y": 123,
+      "icon": {
+        "id": "minecraft:cactus",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cactus",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c77e0ea6-c692-4e1b-a2d2-970d885cdfc0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:sand",
+          "Count": 1,
+          "tag": "{RepairCost:0,display:{Name:\u0027{\"text\":\"Snad\"}\u0027}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "115a79c7-f3fd-4f24-82d2-a168f12c0094",
-      "name": "I Am Grout",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 67,
-      "y": 34,
+      "name": {
+        "text": "I Am Grout",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 68,
+      "y": 12,
       "icon": {
         "id": "tconstruct:grout",
         "Count": 1
@@ -199,48 +263,17 @@
       "commandrewards": []
     },
     {
-      "uuid": "3aa38fcb-eae5-421b-9470-c6008eb97919",
-      "name": "Unnamed",
-      "description": "Unnamed quest",
-      "x": 67,
-      "y": 89,
-      "icon": {
-        "id": "minecraft:cactus",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:cactus",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c77e0ea6-c692-4e1b-a2d2-970d885cdfc0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:sand",
-          "Count": 1,
-          "tag": "{RepairCost:0,display:{Name:\u0027{\"text\":\"Snad\"}\u0027}}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "c8c8bf02-08fa-47f9-b161-62e2fab8bbf8",
-      "name": "Spout",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 42,
-      "y": 90,
+      "name": {
+        "text": "Spout",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 41,
+      "y": 104,
       "icon": {
         "id": "create:spout",
         "Count": 1
@@ -292,11 +325,127 @@
       "commandrewards": []
     },
     {
+      "uuid": "42056b47-007d-43d1-b17f-7c8a0a8e9f85",
+      "name": {
+        "text": "Scorched Stone",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Create Scorched Stone by pouring molten Obsidian over a block of Grout using the Melter and a Casting Basin.",
+        "isTranslationKey": false
+      },
+      "x": 177,
+      "y": 12,
+      "icon": {
+        "id": "tconstruct:scorched_stone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:scorched_stone",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cd132f-cdee-4f58-8af1-bc5f685eb55b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:scorched_lantern",
+          "Count": 8,
+          "tag": "{tank:{Amount:50,FluidName:\"minecraft:lava\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fda3c08f-d1d0-4862-8e03-82b05202aabf",
+      "name": {
+        "text": "Well Fed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use the Well Modifier on any Tinkers\u0027 Chestplate to remove the Hunger Effect in the Desire Layer.",
+        "isTranslationKey": false
+      },
+      "x": 274,
+      "y": 81,
+      "icon": {
+        "id": "farmersdelight:smoked_ham",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "candyworld:red_gummy_worm",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "geore:redstone_shard",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sky_slime_crystal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_base1",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Well Fed\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:well_fed\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c77e0ea6-c692-4e1b-a2d2-970d885cdfc0",
-      "name": "Sugar Crushing",
-      "description": "Crystallized Sugar will generate at Y\u003d265 to Y\u003d396",
-      "x": 50,
-      "y": 62,
+      "name": {
+        "text": "Sugar Crushing",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Crystallized Sugar will generate at Y\u003d265 to Y\u003d396",
+        "isTranslationKey": false
+      },
+      "x": 66,
+      "y": 104,
       "icon": {
         "id": "minecraft:sugar_cane",
         "Count": 1
@@ -317,7 +466,8 @@
                 "Count": 1,
                 "tag": "{\"spoiled:SpoilMaxTime\":120,\"spoiled:SpoilTimer\":1}"
               },
-              "required": 3
+              "required": 3,
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -336,9 +486,55 @@
       "commandrewards": []
     },
     {
+      "uuid": "d3588484-cb69-4071-bb20-e98eca988220",
+      "name": {
+        "text": "Buddy Cards - Mobs",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 181,
+      "icon": {
+        "id": "buddycards:buddycard_pack_mob_test_set",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "buddycards:buddycard_pack_mob_test_set",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "buddycards:buddycard_binder_mob_test_set",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "29129ee7-a78b-49ba-947c-b248a45552b0",
-      "name": "Dig Your Own Grave",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Dig Your Own Grave",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 246,
       "y": 150,
       "icon": {
@@ -356,7 +552,7 @@
                 "Count": 1,
                 "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:4s,name:\"tconstruct:insatiable\"},{level:2s,name:\"tconstruct:knockback\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":5156.25f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
               },
-              "precision": "TAG_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -392,11 +588,77 @@
       "commandrewards": []
     },
     {
+      "uuid": "118e24bc-8d7e-4202-b64a-fa2b5dd8efe1",
+      "name": {
+        "text": "Color",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use the Color Modifier on any Tinkers\u0027 Helmet to restore Color in the Desire Layer.",
+        "isTranslationKey": false
+      },
+      "x": 217,
+      "y": 81,
+      "icon": {
+        "id": "alexsmobs:rainbow_glass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:nickel_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:tin_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sugar_cane",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_base1",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Color\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:color_gilded\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "00f00377-3d71-46a0-a266-70a30e7e99b5",
-      "name": "Whisk Me Away",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 45,
-      "y": 124,
+      "name": {
+        "text": "Whisk Me Away",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 16,
+      "y": 122,
       "icon": {
         "id": "create:mechanical_mixer",
         "Count": 1
@@ -443,8 +705,14 @@
     },
     {
       "uuid": "2bb836c8-a4ba-4df7-b477-f0a4095e2fe8",
-      "name": "Forging Onward!",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Forging Onward!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 246,
       "y": 81,
       "icon": {
@@ -484,14 +752,20 @@
     },
     {
       "uuid": "d4f99a03-afd8-4b88-a2fa-1c285765c501",
-      "name": "Kama Chameleon",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 271,
-      "y": 33,
+      "name": {
+        "text": "Kama Chameleon",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 277,
+      "y": 55,
       "icon": {
         "id": "tconstruct:kama",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":4.5f}}"
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
       },
       "tasks": [
         {
@@ -501,7 +775,7 @@
               "item": {
                 "id": "tconstruct:kama",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":4.5f}}"
+                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
               },
               "precision": "FUZZY"
             }
@@ -532,10 +806,16 @@
     },
     {
       "uuid": "1406f8a2-2582-4ca7-9f1f-05435e9f211e",
-      "name": "This Won\u0027t Blow Up",
-      "description": "Unnamed quest",
-      "x": 88,
-      "y": 13,
+      "name": {
+        "text": "This Won\u0027t Blow Up",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 100,
+      "y": 157,
       "icon": {
         "id": "ironchest:obsidian_chest",
         "Count": 1
@@ -553,7 +833,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "813c7bde-eb89-45ec-971d-f35d8531be80"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -566,10 +848,16 @@
     },
     {
       "uuid": "ae3f4703-fbb0-4ea1-b6c4-6c6410693c47",
-      "name": "Founders Edition",
-      "description": "Unnamed quest",
-      "x": 175,
-      "y": 34,
+      "name": {
+        "text": "Founders Edition",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Upgrade from the Tinkers\u0027 Melter to the Foundry using Scorched blocks. Make sure to use blocks in the corners.",
+        "isTranslationKey": false
+      },
+      "x": 207,
+      "y": 12,
       "icon": {
         "id": "tconstruct:foundry_controller",
         "Count": 1
@@ -600,7 +888,7 @@
         }
       ],
       "prerequisites": [
-        "e8cd132f-cdee-4f58-8af1-bc5f685eb55b"
+        "42056b47-007d-43d1-b17f-7c8a0a8e9f85"
       ],
       "optionlinks": [],
       "reward": [
@@ -618,10 +906,16 @@
     },
     {
       "uuid": "e56945ce-6a1d-449a-933a-ed8c1479bdca",
-      "name": "Crossbone",
-      "description": "Crossbow is probably important so you don\u0027t die as much!",
-      "x": 296,
-      "y": 33,
+      "name": {
+        "text": "Crossbone",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Crossbow is probably important so you don\u0027t die as much!",
+        "isTranslationKey": false
+      },
+      "x": 252,
+      "y": 25,
       "icon": {
         "id": "minecraft:crossbow",
         "Count": 1,
@@ -656,10 +950,16 @@
     },
     {
       "uuid": "d738e45b-af73-4638-aa3d-4dd2f85361b3",
-      "name": "Subscribe to my Channel",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 142,
-      "y": 64,
+      "name": {
+        "text": "Subscribe to My Channel",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 165,
+      "y": 33,
       "icon": {
         "id": "tconstruct:seared_channel",
         "Count": 1
@@ -693,14 +993,20 @@
     },
     {
       "uuid": "493f0705-0bee-45a0-a34c-d07408a35848",
-      "name": "The Ban Hammer",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "The Ban Hammer",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 246,
       "y": 118,
       "icon": {
         "id": "tconstruct:sledge_hammer",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:overlord\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":6.4125f,\"tconstruct:attack_speed\":0.7125f,\"tconstruct:durability\":3564.0f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":2.1599998f},tic_volatile_data:{\"tconstruct:overslime_cap\":3763,\"tconstruct:overslime_friend\":1b}}"
+        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:overlord\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":6.4125f,\"tconstruct:attack_speed\":0.7125f,\"tconstruct:durability\":3564.0f,\"tconstruct:harvest_tier\":\"cyclic:sandstone\",\"tconstruct:mining_speed\":2.1599998f},tic_volatile_data:{\"tconstruct:overslime_cap\":3763,\"tconstruct:overslime_friend\":1b}}"
       },
       "tasks": [
         {
@@ -710,9 +1016,9 @@
               "item": {
                 "id": "tconstruct:sledge_hammer",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:4s,name:\"tconstruct:necrotic\"},{level:2s,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":1.6f}}"
+                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:4s,name:\"tconstruct:necrotic\"},{level:2s,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
               },
-              "precision": "TAG_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -737,8 +1043,14 @@
     },
     {
       "uuid": "d6fcb8b4-110d-435c-bb41-26f3693e123c",
-      "name": "Grab Your Pantaloons",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Grab Your Pantaloons",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 261,
       "y": 177,
       "icon": {
@@ -751,7 +1063,10 @@
           "type": "KILL",
           "mobs": [
             {
-              "name": "Husks",
+              "name": {
+                "text": "Husks",
+                "isTranslationKey": false
+              },
               "icon": {
                 "id": "tconstruct:husk_head",
                 "Count": 1
@@ -779,10 +1094,16 @@
     },
     {
       "uuid": "932e2108-e6ca-4e19-a40a-780221dc450d",
-      "name": "Rotten Flesh to Leather",
-      "description": "Use the presser to make Leather from Rotten Flesh",
-      "x": 18,
-      "y": 124,
+      "name": {
+        "text": "Rotten Flesh to Leather",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use the presser to make Leather from Rotten Flesh",
+        "isTranslationKey": false
+      },
+      "x": 39,
+      "y": 136,
       "icon": {
         "id": "minecraft:leather",
         "Count": 1
@@ -821,9 +1142,15 @@
     },
     {
       "uuid": "1add4027-1e40-4797-aa91-965865f243bb",
-      "name": "Beehave",
-      "description": "Plant the Bee Seed on Grass or Dirt. Water. Magic!",
-      "x": 78,
+      "name": {
+        "text": "Beehave",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Plant the Bee Seed on Grass or Dirt. Water. Magic!",
+        "isTranslationKey": false
+      },
+      "x": 81,
       "y": 61,
       "icon": {
         "id": "minecraft:beehive",
@@ -864,10 +1191,16 @@
     },
     {
       "uuid": "b8be04dd-572f-4724-b330-41599ac4442b",
-      "name": "Sword",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 221,
-      "y": 33,
+      "name": {
+        "text": "Sword",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 229,
+      "y": 55,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -930,9 +1263,113 @@
       "commandrewards": []
     },
     {
+      "uuid": "aa84b8a2-d34e-403c-9942-74b205fa1cb1",
+      "name": {
+        "text": "Curios Container",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 159,
+      "y": 59,
+      "icon": {
+        "id": "convenientcurioscontainer:curios_container",
+        "Count": 1,
+        "tag": "{convenient_inventory:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:black_wool",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:yellow_wool",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:artifact_bag\"}}"
+        },
+        {
+          "id": "convenientcurioscontainer:curios_container",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "acf37685-68bc-4693-9885-299aa0a02716",
+      "name": {
+        "text": "BUDDY CARD I CHOOSE YOU",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "What\u0027s this really about?! That\u0027s right! Finding the entire BuddyCard collection!\n\nIf you\u0027re running low on space, throw the BuddyCard Binder into a Curios slot!",
+        "isTranslationKey": false
+      },
+      "x": 36,
+      "y": 181,
+      "icon": {
+        "id": "buddycards:buddycard_pack_base",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "buddycards:buddycard_pack_base",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "buddycards:buddycard_binder_base",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/playertabs setNumberOfTabs 3",
+        "/function j2tc_tweaks:new_inventory_tab_notification"
+      ]
+    },
+    {
       "uuid": "1915414e-c271-47d2-87a1-4cdc5c6a3a1e",
-      "name": "New Kicks",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "New Kicks",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 290,
       "y": 177,
       "icon": {
@@ -945,7 +1382,10 @@
           "type": "KILL",
           "mobs": [
             {
-              "name": "Strays",
+              "name": {
+                "text": "Strays",
+                "isTranslationKey": false
+              },
               "icon": {
                 "id": "tconstruct:stray_head",
                 "Count": 1
@@ -973,10 +1413,16 @@
     },
     {
       "uuid": "43711b2e-bbe7-40c6-b0f2-8a94ccd041ba",
-      "name": "A Pressing Matter",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 18,
-      "y": 90,
+      "name": {
+        "text": "A Pressing Matter",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 17,
+      "y": 88,
       "icon": {
         "id": "create:mechanical_press",
         "Count": 1
@@ -1028,11 +1474,66 @@
       "commandrewards": []
     },
     {
+      "uuid": "b01745d5-6b15-48ac-b815-cb26081ca6e7",
+      "name": {
+        "text": "Kelptomaniac",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 93,
+      "y": 103,
+      "icon": {
+        "id": "minecraft:kelp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:vine",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1",
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:kelp",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "53340983-47f3-4e29-a6b0-06f74fdd7983",
-      "name": "Yuuuuuuuuuuuuup!",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 121,
-      "y": 88,
+      "name": {
+        "text": "Yuuuuuuuuuuuuup!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 119,
+      "y": 81,
       "icon": {
         "id": "bhc:yellow_heart_canister",
         "Count": 1
@@ -1090,9 +1591,59 @@
       "commandrewards": []
     },
     {
+      "uuid": "0c42e3c4-955d-4a18-9ebc-7f6592d798f8",
+      "name": {
+        "text": "Bronze Ingots",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 133,
+      "y": 59,
+      "icon": {
+        "id": "thermal:bronze_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:bronze_ingot",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "f40e2c68-f654-406e-b54a-a422bdb73cf4",
-      "name": "Close to the Vest",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Close to the Vest",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 230,
       "y": 177,
       "icon": {
@@ -1131,8 +1682,14 @@
     },
     {
       "uuid": "80d01c46-9619-467f-9a71-2b3c520d974c",
-      "name": "Helm\u0027s Deep",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Helm\u0027s Deep",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 201,
       "y": 178,
       "icon": {
@@ -1171,10 +1728,16 @@
     },
     {
       "uuid": "0a39766f-6045-4398-a16f-827ac1ef0dcf",
-      "name": "A Place for your Things",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "A Place for your Things",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 105,
-      "y": 62,
+      "y": 61,
       "icon": {
         "id": "functionalstorage:oak_1",
         "Count": 1
@@ -1218,10 +1781,16 @@
     },
     {
       "uuid": "e8cd132f-cdee-4f58-8af1-bc5f685eb55b",
-      "name": "Tuna Melter",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-      "x": 142,
-      "y": 34,
+      "name": {
+        "text": "Tuna Melter",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 144,
+      "y": 12,
       "icon": {
         "id": "tconstruct:seared_melter",
         "Count": 1
@@ -1253,6 +1822,10 @@
         {
           "id": "tconstruct:seared_faucet",
           "Count": 1
+        },
+        {
+          "id": "tconstruct:ingot_cast",
+          "Count": 1
         }
       ],
       "rewardchoice": [
@@ -1269,10 +1842,16 @@
     },
     {
       "uuid": "8caa1a33-a289-4fa8-ab2e-ac65e1b8bab4",
-      "name": "Storage Wars",
-      "description": "Yuuuuuuuuuuuuuup",
+      "name": {
+        "text": "Storage Wars",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Yuuuuuuuuuuuuuup",
+        "isTranslationKey": false
+      },
       "x": 72,
-      "y": 123,
+      "y": 157,
       "icon": {
         "id": "storageracks:stone_controller",
         "Count": 1

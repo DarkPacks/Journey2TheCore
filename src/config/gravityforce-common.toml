@@ -4,7 +4,7 @@
 	#Turn physics On/Off (WHAT ARE YOU DOING) [default: true]
 	enablePhysics = true
 	#Enable Physics Landslide [default: true]
-	enableLandslide = false
+	enableLandslide = true
 	#How long until individual chunk's physics starts after loading (DO NOT SET TOO LOW) [default: 1000]
 	#Range: > 0
 	chunkDelay = 1000

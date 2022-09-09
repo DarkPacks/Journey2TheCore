@@ -1,32 +1,125 @@
 {
-  "config": {
-    "tries": 4,
+  "type": "minecraft:flower",
+  "config":
+  {
+    "tries": 16,
     "xz_spread": 0,
     "y_spread": 0,
-    "feature": {
-      "feature": {
-        "config": {
-          "to_place": {
-            "state": {
-              "Name": "graveyard:skeleton_hand"
-            },
-            "type": "minecraft:simple_state_provider"
+    "feature":
+    {
+      "feature":
+      {
+        "type": "minecraft:simple_block",
+        "config":
+        {
+          "to_place":
+          {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data":
+                {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties":
+                  {
+                    "facing": "west"
+                  }
+                }
+              }
+            ]
           }
-        },
-        "type": "minecraft:simple_block"
+        }
       },
       "placement": [
         {
-          "predicate": {
-            "blocks": [
-              "minecraft:air"
-            ],
-            "type": "minecraft:matching_blocks"
-          },
-          "type": "minecraft:block_predicate_filter"
+          "type": "minecraft:block_predicate_filter",
+          "predicate":
+          {
+            "type": "minecraft:matching_blocks",
+            "offset":
+            {},
+            "blocks": "minecraft:air"
+          }
         }
       ]
     }
-  },
-  "type": "minecraft:random_patch"
+  }
 }

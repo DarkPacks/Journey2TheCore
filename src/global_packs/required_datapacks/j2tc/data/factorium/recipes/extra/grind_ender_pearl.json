@@ -1,9 +1,0 @@
-{
-  "type": "factorium:grinder",
-  "input": {
-    "tag": "forge:ender_pearls"
-  },
-  "output": {
-    "item": "factorium:mat_extra_dust_ender_pearl"
-  }
-}

@@ -3,8 +3,14 @@
   "quests": [
     {
       "uuid": "af58c401-ff7d-4cfc-bf0a-45957739ccdc",
-      "name": "Rabbit",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Rabbit",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 45,
       "y": 136,
       "icon": {
@@ -39,8 +45,14 @@
     },
     {
       "uuid": "fb1c133e-5904-4fd1-a614-d858bd3ec066",
-      "name": "Villager",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Villager",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 145,
       "y": 74,
       "icon": {
@@ -68,8 +80,14 @@
     },
     {
       "uuid": "0ab32fc0-7b47-4941-8af0-8683bafae6b9",
-      "name": "Chicken",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Chicken",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 45,
       "y": 108,
       "icon": {
@@ -104,8 +122,14 @@
     },
     {
       "uuid": "6020b273-fc2a-4730-9a20-2f36f4a1c3e9",
-      "name": "Pig",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Pig",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 46,
       "y": 44,
       "icon": {
@@ -141,8 +165,14 @@
     },
     {
       "uuid": "d503f5ec-69d7-4e7f-bfb6-9849ffaca63c",
-      "name": "Cow",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Cow",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 46,
       "y": 74,
       "icon": {
@@ -178,8 +208,14 @@
     },
     {
       "uuid": "0a559c96-214f-4509-aad9-5e1f3b655a3c",
-      "name": "Sheep",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Sheep",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 47,
       "y": 15,
       "icon": {
@@ -215,8 +251,14 @@
     },
     {
       "uuid": "1c6d6b94-dfbd-4aaf-b05f-1158fab142f7",
-      "name": "Mooshroom",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Mooshroom",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 103,
       "y": 74,
       "icon": {

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MFM",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "factinventory:interaction_module"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "factinventory:inventory_furnace"
+  }
+}

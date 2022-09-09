@@ -1,0 +1,15 @@
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow
+summon minecraft:cow

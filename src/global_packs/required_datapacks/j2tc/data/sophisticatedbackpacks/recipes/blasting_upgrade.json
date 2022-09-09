@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:blasting_upgrade",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "RIR",
+    "IBI",
+    "RFR"
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "R":
+    {
+      "tag": "minecraft:coals"
+    },
+    "I":
+    {
+      "tag": "forge:ingots/copper"
+    },
+    "F":
+    {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result":
+  {
+    "item": "sophisticatedbackpacks:blasting_upgrade"
+  }
+}

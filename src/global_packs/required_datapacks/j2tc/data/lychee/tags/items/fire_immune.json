@@ -2,6 +2,7 @@
   "replace": true,
   "values": [
     "turkeydevutil:cookie",
-    "minecraft:diamond"
+    "minecraft:diamond",
+    "hardcorequesting:quest_book"
   ]
 }

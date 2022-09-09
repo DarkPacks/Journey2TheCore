@@ -12,4 +12,8 @@ alwayEnchantableMobs = []
 "Change Size" = true
 #Enable Increase Health like Dungeons When Enchanted. [true / false]
 "Increase Health like Dungeons" = false
+#Disables the specific mob enchant. Use the full name(This config only disabled mob enchant when mob spawn. not mean delete complete, eg: enchantwithmob:thorn.
+disableMobEnchants = []
+#Enable Player More Bigger When You have Huge Enchant. [true / false]
+"Big Your Self" = false
 

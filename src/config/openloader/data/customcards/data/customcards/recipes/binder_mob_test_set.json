@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "buddycards:buddycards_mob_test_set"
+    },
+    {
+      "tag": "buddycards:buddycards_mob_test_set"
+    },
+    {
+      "tag": "buddycards:buddycards_mob_test_set"
+    }
+  ],
+  "result": {
+    "item": "buddycards:buddycard_binder_mob_test_set"
+  }
+}

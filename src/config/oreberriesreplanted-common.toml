@@ -30,7 +30,7 @@
 	#Generate Silver Bushes [Default: false]
 	generateSilverBush = false
 	#Generate Essence Bushes [Default: true]
-	generateEssenceBush = true
+	generateEssenceBush = false
 
 #Placement settings
 [Placement]
@@ -135,7 +135,7 @@
 	silverBushRarity = 7
 	#Essence Bush Rarity [Default: 6]
 	#Range: > 1
-	essenceBushRarity = 64
+	essenceBushRarity = 24
 
 #Location settings
 [Location]
@@ -210,5 +210,5 @@
 	essenceBushMinY = 0
 	#Essence Bush Max Y [Default: 32]
 	#Range: > -2147483648
-	essenceBushMaxY = 400
+	essenceBushMaxY = 688
 

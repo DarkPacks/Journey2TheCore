@@ -95,7 +95,7 @@
 	#Range: 1 ~ 32
 	super_charged_creeper_explode_radius = 8
 
-#Dirt Creeper Settings
+#Ambush Creeper Settings
 ["Ambush Creeper Settings"]
 	#Spawn Ambush Creepers
 	ambush_creeper_spawns = false
@@ -116,4 +116,48 @@
 	ambush_creeper_max_y = 688
 	#Ambush Creeper Dimension Blacklist
 	ambush_creeper_dimensions = []
+
+#Dirt WaterCreeper Settings
+["Dirt WaterCreeper Settings"]
+	#Spawn Dirt Water Creepers
+	dirt_water_creeper_spawns = true
+	#Dirt Water Creeper Group Minimum Size
+	#Range: > 1
+	dirt_water_creeper_min_spawn_size = 1
+	#Dirt Water Creeper Group Maximum Size
+	#Range: > 1
+	dirt_water_creeper_max_spawn_size = 3
+	#Dirt Water Creeper Weight (higher numbers = more)
+	#Range: > 1
+	dirt_water_creeper_weight = 20
+	#Dirt Water Creeper Min Y Spawn Height
+	#Range: -2032 ~ 2032
+	dirt_water_creeper_min_y = -64
+	#Dirt Water Creeper Max Y Spawn Height
+	#Range: -2032 ~ 2032
+	dirt_water_creeper_max_y = 319
+	#Dirt Water Creeper Dimension Blacklist
+	dirt_water_creeper_dimensions = []
+
+#Stone Lava Creeper Settings
+["Stone Lava Creeper Settings"]
+	#Spawn Stone Lava Creepers
+	stone_creeper_spawns = true
+	#Stone Lava Creeper Group Minimum Size
+	#Range: > 1
+	stone_lava_creeper_min_spawn_size = 1
+	#Stone Lava Creeper Group Maximum Size
+	#Range: > 1
+	stone_lava_creeper_max_spawn_size = 3
+	#Stone Lava Creeper Weight (higher numbers = more)
+	#Range: > 1
+	stone_lava_creeper_weight = 20
+	#Stone Lava Creeper Min Y Spawn Height
+	#Range: -2032 ~ 2032
+	stone_lava_creeper_min_y = -64
+	#Stone Lava Creeper Max Y Spawn Height
+	#Range: -2032 ~ 2032
+	stone_lava_creeper_max_y = 319
+	#Stone Lava Creeper Dimension Blacklist
+	stone_lava_creeper_dimensions = []
 

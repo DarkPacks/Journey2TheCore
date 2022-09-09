@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2.0,
+      "bonus_rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty"
+				},
+        {
+          "type": "minecraft:empty"
+				},
+        {
+          "type": "minecraft:empty"
+				},
+        {
+          "type": "minecraft:empty"
+				},
+        {
+          "type": "minecraft:empty"
+				},
+        {
+          "type": "minecraft:empty"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:shard_flint"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:shard_glass"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				},
+        {
+          "type": "minecraft:item",
+          "name": "scraps:junk"
+				}
+			]
+		}
+	]
+}

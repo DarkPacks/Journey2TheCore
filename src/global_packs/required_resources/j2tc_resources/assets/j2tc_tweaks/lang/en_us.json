@@ -3,5 +3,7 @@
   "stat.tconstruct.harvest_tier.cyclic.sandstone": "Hepatizon",
   "stat.tconstruct.harvest_tier.cyclic.copper": "Copper",
   "block.monstereggs.cave_spider_egg": "Mysterious Shell",
-  "block.rechiseled.dirt_muddy": "Hardened Dirt"
+  "block.rechiseled.dirt_muddy": "Hardened Dirt",
+  "item.sophisticatedbackpacks.iron_backpack": "Copper Backpack",
+  "item.sophisticatedbackpacks.gold_backpack": "Bronze Backpack"
 }

@@ -2,7 +2,7 @@
   "feature": "j2tc_tweaks:heresy_transition/features/ore_lead",
   "placement": [
     {
-      "count": 20,
+      "count": 16,
       "type": "minecraft:count"
     },
     {

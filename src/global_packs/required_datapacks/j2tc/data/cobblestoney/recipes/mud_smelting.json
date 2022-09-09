@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cobblestoney:mud"
+  },
+  "result": "minecraft:dirt",
+  "experience": 0.1,
+  "cookingtime": 200
+}

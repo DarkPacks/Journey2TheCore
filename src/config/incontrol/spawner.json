@@ -1,9 +1,11 @@
 [
   {
-    "mob": "player_mobs:player_mob",
+    "mob": [
+      "minecraft:skeleton",
+      "player_mobs:player_mob"
+    ],
     "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
+    "attempts": 10,
     "amount":
     {
       "minimum": 1,
@@ -15,16 +17,19 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 8
+      "minheight": -64,
+      "maxheight": 0,
+      "maxthis": 16
     }
   },
   {
-    "mob": "minecraft:skeleton",
+    "mob": [
+      "minecraft:skeleton",
+      "minecraft:zombie",
+      "player_mobs:player_mob"
+    ],
     "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
+    "attempts": 10,
     "amount":
     {
       "minimum": 1,
@@ -36,16 +41,17 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
+      "minheight": 0,
       "maxheight": 132,
-      "maxthis": 8
+      "maxthis": 24
     }
   },
   {
-    "mob": "minecraft:skeleton",
+    "mob": [
+      "player_mobs:player_mob"
+    ],
     "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
+    "attempts": 2,
     "amount":
     {
       "minimum": 1,
@@ -57,37 +63,19 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 265,
-      "maxheight": 688,
-      "maxthis": 8
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 24
     }
   },
   {
-    "mob": "minecraft:zombie",
+    "mob": [
+      "minecraft:skeleton",
+      "minecraft:zombie",
+      "player_mobs:player_mob"
+    ],
     "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 132,
-      "maxthis": 8
-    }
-  },
-  {
-    "mob": "minecraft:zombie",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
+    "attempts": 20,
     "amount":
     {
       "minimum": 1,
@@ -101,14 +89,38 @@
       "maxdist": 120,
       "minheight": 265,
       "maxheight": 396,
+      "maxthis": 24
+    }
+  },
+  {
+    "mob": [
+      "minecraft:skeleton",
+      "player_mobs:player_mob"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 397,
+      "maxheight": 528,
       "maxthis": 8
     }
   },
   {
-    "mob": "minecraft:zombie",
+    "mob": [
+      "minecraft:skeleton"
+    ],
     "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
+    "attempts": 20,
     "amount":
     {
       "minimum": 1,
@@ -122,18 +134,19 @@
       "maxdist": 120,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 8
+      "maxthis": 12
     }
   },
   {
-    "mob": "core_creepers:stone_creeper",
+    "mob": [
+      "minecraft:zombie"
+    ],
     "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
+    "attempts": 20,
     "amount":
     {
       "minimum": 1,
-      "maximum": 3
+      "maximum": 4
     },
     "conditions":
     {
@@ -141,37 +154,36 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 528,
-      "maxthis": 4
-    }
-  },
-  {
-    "mob": "core_creepers:dirt_creeper",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
+      "minheight": 529,
       "maxheight": 688,
-      "maxthis": 4
+      "maxthis": 12
+    }
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob"
+    ],
+    "persecond": 0.2,
+    "attempts": 20,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 529,
+      "maxheight": 688,
+      "maxthis": 12
     }
   },
   {
     "mob": "minecraft:spider",
     "persecond": 0.3,
     "attempts": 1,
-    "phase": "day_0_night_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -183,20 +195,19 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": -64,
+      "maxheight": 0,
       "maxthis": 5
     }
   },
   {
-    "mob": "player_mobs:player_mob",
-    "persecond": 0.2,
+    "mob": "minecraft:spider",
+    "persecond": 0.3,
     "attempts": 1,
-    "phase": "day_1_hostile_spawns",
     "amount":
     {
       "minimum": 1,
-      "maximum": 4
+      "maximum": 3
     },
     "conditions":
     {
@@ -204,41 +215,39 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 8
-    }
-  },
-  {
-    "mob": "minecraft:skeleton",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
+      "minheight": 0,
       "maxheight": 132,
-      "maxthis": 8
+      "maxthis": 5
     }
   },
   {
-    "mob": "minecraft:skeleton",
-    "persecond": 0.2,
+    "mob": "minecraft:spider",
+    "persecond": 0.3,
     "attempts": 1,
-    "phase": "day_1_hostile_spawns",
     "amount":
     {
       "minimum": 1,
-      "maximum": 4
+      "maximum": 3
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "minecraft:spider",
+    "persecond": 0.3,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 3
     },
     "conditions":
     {
@@ -247,15 +256,354 @@
       "mindist": 24,
       "maxdist": 120,
       "minheight": 265,
+      "maxheight": 396,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "minecraft:spider",
+    "persecond": 0.3,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 397,
+      "maxheight": 528,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "minecraft:spider",
+    "persecond": 0.3,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 529,
       "maxheight": 688,
-      "maxthis": 8
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "core_creepers:stone_creeper",
+      "graveyard:skeleton_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -64,
+      "maxheight": 0,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "core_creepers:stone_creeper",
+      "graveyard:skeleton_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 0,
+      "maxheight": 132,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "core_creepers:stone_creeper",
+      "graveyard:skeleton_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "core_creepers:stone_creeper",
+      "graveyard:skeleton_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 265,
+      "maxheight": 396,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "core_creepers:stone_creeper",
+      "graveyard:skeleton_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 397,
+      "maxheight": 528,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "core_creepers:stone_lava_creeper",
+      "core_creepers:dirt_water_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 0,
+      "maxheight": 132,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": [
+      "core_creepers:stone_lava_creeper",
+      "core_creepers:dirt_water_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 397,
+      "maxheight": 528,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": [
+      "core_creepers:dirt_creeper"
+    ],
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 529,
+      "maxheight": 688,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": [
+      "minecraft:enderman",
+      "tntslimes:tnt_slime"
+    ],
+    "persecond": 0.05,
+    "attempts": 8,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -64,
+      "maxheight": 0,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": [
+      "minecraft:enderman",
+      "tntslimes:tnt_slime"
+    ],
+    "persecond": 0.05,
+    "attempts": 8,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 0,
+      "maxheight": 132,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": [
+      "minecraft:enderman",
+      "tntslimes:tnt_slime"
+    ],
+    "persecond": 0.05,
+    "attempts": 8,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": [
+      "minecraft:enderman",
+      "tntslimes:tnt_slime"
+    ],
+    "persecond": 0.05,
+    "attempts": 8,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 397,
+      "maxheight": 528,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": "minecraft:enderman",
+    "persecond": 0.05,
+    "attempts": 8,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 397,
+      "maxheight": 528,
+      "maxthis": 3
     }
   },
   {
     "mob": "minecraft:stray",
     "persecond": 0.2,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -273,73 +621,9 @@
     }
   },
   {
-    "mob": "minecraft:zombie",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 132,
-      "maxthis": 8
-    }
-  },
-  {
-    "mob": "minecraft:zombie",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 265,
-      "maxheight": 396,
-      "maxthis": 8
-    }
-  },
-  {
-    "mob": "minecraft:zombie",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 529,
-      "maxheight": 688,
-      "maxthis": 8
-    }
-  },
-  {
     "mob": "minecraft:husk",
     "persecond": 0.2,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -360,7 +644,6 @@
     "mob": "minecraft:zombie_villager",
     "persecond": 0.2,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -380,31 +663,9 @@
     }
   },
   {
-    "mob": "minecraft:enderman",
-    "persecond": 0.05,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 3
-    }
-  },
-  {
     "mob": "minecraft:witch",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -416,8 +677,28 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": -64,
+      "maxheight": 0,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "minecraft:witch",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 0,
+      "maxheight": 132,
       "maxthis": 2
     }
   },
@@ -425,7 +706,6 @@
     "mob": "graveyard:nightmare",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -437,16 +717,15 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 0,
+      "maxheight": 132,
       "maxthis": 2
     }
   },
   {
-    "mob": "core_creepers:ambush_creeper",
+    "mob": "graveyard:nightmare",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -458,8 +737,8 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 133,
+      "maxheight": 264,
       "maxthis": 2
     }
   },
@@ -467,7 +746,6 @@
     "mob": "core_creepers:super_charged_creeper",
     "persecond": 0.005,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -485,73 +763,9 @@
     }
   },
   {
-    "mob": "core_creepers:cluster_creeper",
-    "persecond": 0.09,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 2
-    }
-  },
-  {
-    "mob": "minecraft:creeper",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 5
-    }
-  },
-  {
-    "mob": "minecraft:spider",
-    "persecond": 0.3,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 5
-    }
-  },
-  {
     "mob": "graveyard:revenant",
     "persecond": 0.2,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -563,8 +777,8 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 397,
+      "maxheight": 528,
       "maxthis": 5
     }
   },
@@ -572,7 +786,6 @@
     "mob": "graveyard:ghoul",
     "persecond": 0.2,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -584,79 +797,15 @@
       "inwater": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 265,
+      "maxheight": 396,
       "maxthis": 4
-    }
-  },
-  {
-    "mob": "core_creepers:stone_creeper",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 528,
-      "maxthis": 4
-    }
-  },
-  {
-    "mob": "core_creepers:dirt_creeper",
-    "persecond": 0.2,
-    "attempts": 1,
-    "phase": "day_1_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 4
-    }
-  },
-  {
-    "mob": "graveyard:skeleton_creeper",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 3
     }
   },
   {
     "mob": "graveyard:reaper",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -669,16 +818,37 @@
       "inair": true,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 0,
+      "maxheight": 132,
       "maxthis": 2
+    }
+  },
+  {
+    "mob": "minecraft:ghast",
+    "persecond": 5E-7,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "inwater": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 528,
+      "maxheight": 688,
+      "maxthis": 1
     }
   },
   {
     "mob": "minecraft:ghast",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -701,7 +871,6 @@
     "mob": "minecraft:ghast",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -721,10 +890,31 @@
     }
   },
   {
+    "mob": "minecraft:ghast",
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:the_nether",
+      "norestrictions": true,
+      "inwater": false,
+      "inair": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 256,
+      "maxthis": 5
+    }
+  },
+  {
     "mob": "minecraft:drowned",
     "persecond": 0.2,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -747,7 +937,6 @@
     "mob": "minecraft:guardian",
     "persecond": 0.02,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -767,56 +956,12 @@
     }
   },
   {
-    "mob": "minecraft:pillager",
-    "persecond": 0.3,
-    "attempts": 1,
-    "phase": "day_8_pillager_raid",
-    "amount":
-    {
-      "minimum": 10,
-      "maximum": 10
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 20
-    }
-  },
-  {
-    "mob": "alexsmobs:frilled_shark",
+    "mob": [
+      "alexsmobs:hammerhead_shark",
+      "alexsmobs:frilled_shark"
+    ],
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": true,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 5,
-      "maxthis": 1
-    }
-  },
-  {
-    "mob": "alexsmobs:hammerhead_shark",
-    "persecond": 0.05,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -839,7 +984,6 @@
     "mob": "alexsmobs:soul_vulture",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -862,7 +1006,6 @@
     "mob": "alexsmobs:dropbear",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -885,7 +1028,6 @@
     "mob": "alexsmobs:tusklin",
     "persecond": 0.005,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -908,7 +1050,6 @@
     "mob": "alexsmobs:mimicube",
     "persecond": 0.03,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -923,38 +1064,38 @@
       "mindist": 24,
       "maxdist": 120,
       "minheight": 1,
-      "maxheight": 688,
+      "maxheight": 396,
       "maxthis": 2
     }
   },
   {
-    "mob": "alexsmobs:crocodile",
-    "persecond": 0.05,
+    "mob": "alexsmobs:blobfish",
+    "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
-      "maximum": 1
+      "maximum": 3
     },
     "conditions":
     {
       "dimension": "minecraft:overworld",
-      "inwater": false,
+      "inwater": true,
       "inlava": false,
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 1
+      "maxthis": 2
     }
   },
   {
-    "mob": "alexsmobs:centipede",
+    "mob": [
+      "alexsmobs:centipede"
+    ],
     "persecond": 0.003,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -977,7 +1118,6 @@
     "mob": "alexsmobs:tarantula_hawk",
     "persecond": 0.005,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1000,7 +1140,6 @@
     "mob": "alexsmobs:rattlesnake",
     "persecond": 0.05,
     "attempts": 1,
-    "phase": "day_2_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1020,104 +1159,9 @@
     }
   },
   {
-    "mob": "magma_monsters:magma_monster",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "inlava": true,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 4
-    }
-  },
-  {
-    "mob": "magma_monsters:magma_monster_grunt",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "inlava": true,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 4
-    }
-  },
-  {
-    "mob": "magma_monsters:magma_monster",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "norestrictions": true,
-      "inwater": false,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": -64,
-      "maxheight": -1,
-      "maxthis": 12
-    }
-  },
-  {
-    "mob": "magma_monsters:magma_monster_grunt",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_hostile_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 4
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "norestrictions": true,
-      "inwater": false,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": -64,
-      "maxheight": -1,
-      "maxthis": 12
-    }
-  },
-  {
     "mob": "goblintraders:goblin_trader",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1137,10 +1181,14 @@
     }
   },
   {
-    "mob": "alexsmobs:crow",
+    "mob": [
+      "alexsmobs:fly",
+      "alexsmobs:hummingbird",
+      "alexsmobs:crow",
+      "alexsmobs:roadrunner"
+    ],
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1160,10 +1208,14 @@
     }
   },
   {
-    "mob": "alexsmobs:fly",
+    "mob": [
+      "alexsmobs:skelewag",
+      "alexsmobs:lobster",
+      "alexsmobs:comb_jelly",
+      "alexsmobs:crocodile"
+    ],
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1178,7 +1230,7 @@
       "mindist": 24,
       "maxdist": 120,
       "minheight": 1,
-      "maxheight": 688,
+      "maxheight": 5,
       "maxthis": 2
     }
   },
@@ -1186,30 +1238,6 @@
     "mob": "alexsmobs:sunbird",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 2
-    }
-  },
-  {
-    "mob": "alexsmobs:hummingbird",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1232,30 +1260,6 @@
     "mob": "alexsmobs:warped_toad",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": false,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 2
-    }
-  },
-  {
-    "mob": "alexsmobs:roadrunner",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1278,7 +1282,6 @@
     "mob": "alexsmobs:mungus",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1301,7 +1304,6 @@
     "mob": "alexsmobs:enderiophage",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1321,56 +1323,9 @@
     }
   },
   {
-    "mob": "alexsmobs:comb_jelly",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": true,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
-      "maxthis": 2
-    }
-  },
-  {
-    "mob": "alexsmobs:blobfish",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": true,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 5,
-      "maxthis": 2
-    }
-  },
-  {
     "mob": "minecraft:glow_squid",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1393,7 +1348,6 @@
     "mob": "minecraft:squid",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1413,56 +1367,12 @@
     }
   },
   {
-    "mob": "alexsmobs:lobster",
+    "mob": [
+      "alexsmobs:orca",
+      "alexsmobs:mimic_octopus"
+    ],
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": true,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 5,
-      "maxthis": 2
-    }
-  },
-  {
-    "mob": "alexsmobs:mimic_octopus",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "inwater": true,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 5,
-      "maxthis": 1
-    }
-  },
-  {
-    "mob": "alexsmobs:orca",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1485,7 +1395,6 @@
     "mob": "alexsmobs:bunfungus",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_2_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1505,10 +1414,12 @@
     }
   },
   {
-    "mob": "candyworld:gummy_mouse",
+    "mob": [
+      "candyworld:gummy_mouse",
+      "candyworld:gummy_bear"
+    ],
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_6_passive_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1529,34 +1440,9 @@
     }
   },
   {
-    "mob": "candyworld:gummy_bear",
-    "persecond": 0.1,
-    "attempts": 1,
-    "phase": "day_6_passive_spawns",
-    "amount":
-    {
-      "minimum": 1,
-      "maximum": 2
-    },
-    "conditions":
-    {
-      "dimension": "minecraft:overworld",
-      "norestrictions": true,
-      "inwater": false,
-      "inlava": false,
-      "inair": false,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 265,
-      "maxheight": 396,
-      "maxthis": 12
-    }
-  },
-  {
     "mob": "minecraft:slime",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_5_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1580,7 +1466,6 @@
     "mob": "tconstruct:sky_slime",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_5_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1604,7 +1489,6 @@
     "mob": "tconstruct:ender_slime",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_5_hostile_spawns",
     "amount":
     {
       "minimum": 1,
@@ -1625,14 +1509,13 @@
     }
   },
   {
-    "mob": "tntslimes:tnt_slime",
+    "mob": "minecraft:evoker",
     "persecond": 0.1,
     "attempts": 1,
-    "phase": "day_5_hostile_spawns",
     "amount":
     {
       "minimum": 1,
-      "maximum": 4
+      "maximum": 1
     },
     "conditions":
     {
@@ -1643,7 +1526,27 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
+      "minheight": -64,
+      "maxheight": 0,
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": "alexsmobs:raccoon",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 529,
       "maxheight": 688,
       "maxthis": 3
     }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coarse_dirt"
+    },
+    {
+      "item": "cobblestoney:silt"
+    },
+    {
+      "item": "cobblestoney:silt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gravel"
+  }
+}

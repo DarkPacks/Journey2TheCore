@@ -1,10 +1,17 @@
 {
   "values": [
-    "minecraft:coarse_dirt",
+    "cobblestoney:clay_silt",
     "minecraft:andesite",
+    "minecraft:coarse_dirt",
+    "minecraft:crimson_nylium",
+    "minecraft:deepslate",
     "minecraft:diorite",
-    "minecraft:podzol",
+    "minecraft:dirt",
     "minecraft:mycelium",
+    "minecraft:podzol",
+    "minecraft:rooted_dirt",
+    "minecraft:stone",
+    "minecraft:warped_nylium",
     {
       "id": "create:limestone",
       "required": false

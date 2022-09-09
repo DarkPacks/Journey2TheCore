@@ -1,0 +1,21 @@
+{
+  "config":
+  {
+    "targets": [
+      {
+        "target":
+        {
+          "tag": "j2tc_tweaks:greed_anger_gold",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state":
+        {
+          "Name": "thermal:oil_red_sand"
+        }
+      }
+    ],
+    "size": 12,
+    "discard_chance_on_air_exposure": 0
+  },
+  "type": "minecraft:ore"
+}

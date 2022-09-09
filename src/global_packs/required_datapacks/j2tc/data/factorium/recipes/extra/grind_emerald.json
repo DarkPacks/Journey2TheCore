@@ -1,9 +1,0 @@
-{
-  "type": "factorium:grinder",
-  "input": {
-    "tag": "forge:gems/emerald"
-  },
-  "output": {
-    "item": "factorium:mat_extra_dust_emerald"
-  }
-}

@@ -1,0 +1,21 @@
+{
+  "common": 10,
+  "uncommon": 8,
+  "rare": 5,
+  "epic": 3,
+  "medalEffects": [
+    {
+      "effect": "minecraft:absorption",
+      "mod": 0
+    },
+    {
+      "effect": "minecraft:absorption",
+      "mod": 1
+    },
+    {
+      "effect": "minecraft:absorption",
+      "mod": 2
+    }
+  ],
+  "name": "Test Set"
+}

@@ -2,7 +2,7 @@
 #General settings
 [General]
 	#Mobs that are exempt from AI modifications [default: [minecraft:iron_golem]
-	AI_Blacklist = ["alexsmobs:grizzly_bear", "minecraft:villager", "alexsmobs:blobfish", "alexsmobs:bunfungus", "alexsmobs:crow", "alexsmobs:dropbear", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:soul_vulture", "core_creepers:super_charged_creeper", "eyesinthedarkness:eyes", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:cow", "minecraft:donkey", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:iron_golem", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:squid", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "waddles:adelie_penguin", "alexsmobs:tusklin"]
+	AI_Blacklist = ["alexsmobs:seagull", "minecraft:enderman", "minecraft:strider", "luggage:luggage", "strawgolem:strawnggolem", "strawgolem:strawgolem", "minecraft:villager", "alexsmobs:blobfish", "alexsmobs:bunfungus", "alexsmobs:crow", "alexsmobs:dropbear", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:soul_vulture", "core_creepers:super_charged_creeper", "eyesinthedarkness:eyes", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt", "minecraft:chicken", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:cow", "minecraft:donkey", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:iron_golem", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:squid", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "waddles:adelie_penguin", "alexsmobs:tusklin", "turkeydevutil:duck", "alexsmobs:gazelle", "candyworld:gummy_bear", "candyworld:gummy_mouse", "minecraft:panda"]
 	#Prevents players skipping the night through sleep [default: false]
 	allowSleep = false
 	#Awareness Radius [default: 64]
@@ -73,7 +73,7 @@
 	#Debug mob targeting by printing the targeting out [default: false]
 	debugTargets = false
 	#List of custom potion types witches can throw (id:duration:lvl) [default: [minecraft:harming:1:0, minecraft:slowness:200:0, minecraft:blindness:200:0, minecraft:poison:200:0, minecraft:weakness:200:1, minecraft:mining_fatigue:200:2] ]
-	witchPotions = ["minecraft:harming:1:0", "minecraft:slowness:200:0", "minecraft:blindness:200:0", "minecraft:poison:200:0", "minecraft:weakness:200:1", "minecraft:mining_fatigue:200:2"]
+	witchPotions = ["tconstruct:glow", "minecraft:harming:1:0", "minecraft:slowness:200:0", "minecraft:blindness:200:0", "minecraft:poison:200:0", "minecraft:weakness:200:1", "minecraft:mining_fatigue:200:2"]
 	#Allows Enderman to teleport the player instead of themselves [default: true]
 	enderPlayerTeleport = false
 	#The chance a Spider will web its target to the ground [default: 0.25]
@@ -93,7 +93,7 @@
 	cenaChance = 0.005
 	#The chance a Creeper will spawn riding another mob [default: 0.1]
 	#Range: 0.0 ~ 1.0
-	creeperJockeyChance = 0.1
+	creeperJockeyChance = 0.04
 	#A list of mobs which can become Creeper Jockeys
 	creeperJockeyMobs = ["minecraft:zombie", "player_mobs:player_mob", "minecraft:creeper", "minecraft:skeleton", "minecraft:spider"]
 	#Creeper detonations leave behind flaming craters [default: true]
@@ -142,4 +142,17 @@
 	bossSpeedModifier = false
 	#Boss Knockback modifier [default: false]
 	bossKnockbackModifier = false
+
+#Game Stages support
+[GameStages]
+	#The stage required until mobs can dig through blocks [empty = disabled]
+	diggerStage = "esm_2"
+	#The stage required until mobs can drop live TNT [empty = disabled]
+	demolitionStage = "esm_2"
+	#The stage required until mobs can pillar up and build stairs [empty = disabled]
+	buildingStage = "esm_1"
+	#The stage required until mobs can grief blocks [empty = disabled]
+	griefingStage = "esm_1"
+	#The stage required until creeper jockeys can spawn [empty = disabled]
+	creeperJockeyStage = "esm_2"
 

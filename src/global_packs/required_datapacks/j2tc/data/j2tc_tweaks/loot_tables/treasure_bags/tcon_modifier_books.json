@@ -134,16 +134,6 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Item Tooltips\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:the_one_probe\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "turkeydevutil:book",
-          "functions": [
-            {
-              "function": "set_nbt",
               "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:revitalizing\"}"
             }
           ]

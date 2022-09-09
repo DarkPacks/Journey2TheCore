@@ -29,7 +29,7 @@
           },
           "B":
           {
-            "tag": "j2tc_tweaks:storage_blocks_gems"
+            "tag": "j2tc_tweaks:geode_blocks"
           },
           "C":
           {
@@ -37,7 +37,7 @@
           },
           "D":
           {
-            "item": "minecraft:comparator"
+            "item": "factinventory:slow_inventory_hopper"
           }
         },
         "result":

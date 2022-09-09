@@ -13,7 +13,8 @@
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
-                  "predicate": {
+                  "predicate":
+                  {
                     "items": [
                       "minecraft:shears"
                     ]
@@ -27,7 +28,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.05
+                  "chance": 0.08
                 }
               ],
               "functions": [
@@ -35,7 +36,8 @@
                   "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
-                  "parameters": {
+                  "parameters":
+                  {
                     "bonusMultiplier": 2
                   }
                 },
@@ -58,7 +60,8 @@
                   "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
-                  "parameters": {
+                  "parameters":
+                  {
                     "bonusMultiplier": 2
                   }
                 },

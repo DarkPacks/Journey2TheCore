@@ -1,0 +1,7 @@
+{
+  "blockLocation": "elementaryores:ore_diamond_nether",
+  "dropBlock": "minecraft:netherrack",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

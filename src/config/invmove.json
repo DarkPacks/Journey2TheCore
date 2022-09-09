@@ -12,7 +12,7 @@
     "unrecognizedScreenDefault": true
   },
   "background": {
-    "enable": true,
+    "enable": false,
     "hideOnPause": "Show",
     "unrecognizedScreenDefault": true
   }

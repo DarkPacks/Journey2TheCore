@@ -9,4 +9,7 @@
 	#Spawn weight in which TNT Slimes should spawn [Default: 10]
 	#Range: > 0
 	weight = 10
+	#Defines from which Y level and below  a TNT slime can naturally spawn underground [Default: 40]
+	#Range: > -2147483648
+	minY = 40
 

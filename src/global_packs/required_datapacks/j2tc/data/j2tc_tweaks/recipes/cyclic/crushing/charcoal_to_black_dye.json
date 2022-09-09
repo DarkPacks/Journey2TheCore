@@ -1,0 +1,23 @@
+{
+  "type": "cyclic:crusher",
+  "input":
+  {
+    "item": "minecraft:charcoal"
+  },
+  "energy":
+  {
+    "ticks": 120,
+    "rfpertick": 20
+  },
+  "result":
+  {
+    "item": "minecraft:black_dye",
+    "count": 1
+  },
+  "percent": 10,
+  "bonus":
+  {
+    "item": "minecraft:gray_dye",
+    "count": 2
+  }
+}

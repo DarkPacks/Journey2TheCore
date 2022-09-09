@@ -27,14 +27,111 @@
   },
   {
     "timeout": 30,
+    "dimension": "minecraft:overworld",
+    "minheight": 265,
+    "maxheight": 396,
+    "chestplate":
+    {
+      "item": "tconstruct:plate_chestplate",
+      "nbt": [
+        {
+          "tag": "tic_modifiers",
+          "contains": [
+            {
+              "tag": "name",
+              "value": "tconstruct:well_fed"
+            }
+          ]
+        }
+      ]
+    },
+    "result": "deny"
+  },
+  {
+    "timeout": 30,
+    "dimension": "minecraft:overworld",
+    "minheight": 265,
+    "maxheight": 396,
+    "chestplate":
+    {
+      "item": "tconstruct:travelers_chestplate",
+      "nbt": [
+        {
+          "tag": "tic_modifiers",
+          "contains": [
+            {
+              "tag": "name",
+              "value": "tconstruct:well_fed"
+            }
+          ]
+        }
+      ]
+    },
+    "result": "deny"
+  },
+  {
+    "timeout": 30,
+    "dimension": "minecraft:overworld",
     "minheight": 265,
     "maxheight": 396,
     "potion": "minecraft:hunger,30,1"
   },
   {
     "timeout": 30,
+    "dimension": "j2tc_tweaks:scp_1689",
+    "potion": "minecraft:hunger,30,2"
+  },
+  {
+    "timeout": 30,
+    "dimension": "minecraft:overworld",
     "minheight": 397,
     "maxheight": 528,
-    "potion": "colorblindness:achromatopsia,30,1"
+    "helmet":
+    {
+      "item": "tconstruct:plate_helmet",
+      "nbt": [
+        {
+          "tag": "tic_modifiers",
+          "contains": [
+            {
+              "tag": "name",
+              "value": "tconstruct:color_gilded"
+            }
+          ]
+        }
+      ]
+    },
+    "result": "deny"
+  },
+  {
+    "timeout": 30,
+    "dimension": "minecraft:overworld",
+    "minheight": 397,
+    "maxheight": 528,
+    "helmet":
+    {
+      "item": "tconstruct:travelers_helmet",
+      "nbt": [
+        {
+          "tag": "tic_modifiers",
+          "contains": [
+            {
+              "tag": "name",
+              "value": "tconstruct:color_gilded"
+            }
+          ]
+        }
+      ]
+    },
+    "result": "deny"
+  },
+  {
+    "timeout": 30,
+    "dimension": "minecraft:overworld",
+    "minheight": 397,
+    "maxheight": 528,
+    "potion": "colorblindness:achromatopsia,30,1",
+    "playerhelditem": [],
+    "result": "allow"
   }
 ]

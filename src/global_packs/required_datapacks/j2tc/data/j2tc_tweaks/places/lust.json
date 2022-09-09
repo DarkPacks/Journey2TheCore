@@ -4,5 +4,6 @@
   "title": "Desire",
   "subtitle": "The Unreachable",
   "minY": 397,
-  "maxY": 528
+  "maxY": 528,
+  "dimension": "minecraft:overworld"
 }

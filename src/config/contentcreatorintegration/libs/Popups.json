@@ -1,0 +1,52 @@
+{
+  "conditions": {
+    "New Condition": {
+      "type": "null"
+    }
+  },
+  "outcomes": {
+    "Fake Crash (Chance for a Real Crash)": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "events": [
+                {
+                  "conditions": [
+                    {
+                      "name": "RNG (100-300)",
+                      "type": "constant",
+                      "displayName": "Random Number Generator"
+                    }
+                  ],
+                  "outcomes": [
+                    {
+                      "crashType": "4",
+                      "type": "crash",
+                      "displayName": "Real Crash - Stack Overflow Crash",
+                      "weight": 1
+                    },
+                    {
+                      "crashType": "2",
+                      "crashDuration": "$rng",
+                      "type": "fakeCrash",
+                      "displayName": "Fake Crash - Out of Memory",
+                      "weight": 99
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true,
+                  "singleOutcomeOnly": true
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    }
+  },
+  "events": {}
+}

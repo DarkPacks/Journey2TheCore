@@ -15,6 +15,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/ender_storage",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/assorted_food",
           "weight": 50
         },
@@ -51,6 +56,21 @@
         {
           "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/builders_wand",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/elevators",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/mysterious_trinket",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/nightvision_potions",
           "weight": 50
         },
         {

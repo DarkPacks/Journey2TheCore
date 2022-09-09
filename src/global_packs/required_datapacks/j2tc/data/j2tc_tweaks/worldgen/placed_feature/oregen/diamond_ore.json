@@ -2,18 +2,21 @@
   "feature": "j2tc_tweaks:oregen/diamond_ore",
   "placement": [
     {
-      "count": 24,
+      "count": 16,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 0
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 264
         },
         "type": "minecraft:uniform"

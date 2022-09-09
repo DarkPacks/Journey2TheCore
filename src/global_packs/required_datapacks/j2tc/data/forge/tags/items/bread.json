@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:bread",
+    "farmersdelight:stuffed_pumpkin_block",
+    "farmersdelight:honey_cookie",
+    "farmersdelight:sweet_berry_cookie",
+    "turkeydevutil:cookie",
+    "minecraft:cookie",
+    "createcafe:oreo_half",
+    "createcafe:oreo"
+  ]
+}

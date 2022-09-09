@@ -5,7 +5,7 @@
   "macro3": "pdt hand",
   "macro4": "forge entity list",
   "macro5": "forge tps",
-  "macro6": "gamemode creative",
+  "macro6": "function dev_tools:debug/gear",
   "macro7": "gamemode survival",
   "macro8": "gamemode spectator",
   "macro9": "gamemode creative"

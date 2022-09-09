@@ -1,0 +1,25 @@
+{
+  "type": "cyclic:crusher",
+  "input": {
+    "item": "minecraft:andesite"
+  },
+  "energy": {
+    "ticks": 60,
+    "rfpertick": 20
+  },
+  "result": {
+    "item": "cobblestoney:andesite_cobbled",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "cyclic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

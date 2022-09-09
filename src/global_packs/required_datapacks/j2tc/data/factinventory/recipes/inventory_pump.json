@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BMB",
+    "GIG",
+    "GMG"
+  ],
+  "key": {
+    "M": {
+      "item": "factinventory:interaction_module"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "factinventory:inventory_pump"
+  }
+}

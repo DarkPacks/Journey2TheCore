@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "It has its ups and downs"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/elevators",
+  "rarity": "uncommon",
+  "bagColor": "#ffbaba",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

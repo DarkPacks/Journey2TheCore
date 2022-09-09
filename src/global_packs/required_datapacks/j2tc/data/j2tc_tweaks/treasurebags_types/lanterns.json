@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "Light it up!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/lanterns",
+  "rarity": "uncommon",
+  "bagColor": "#ffbaba",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

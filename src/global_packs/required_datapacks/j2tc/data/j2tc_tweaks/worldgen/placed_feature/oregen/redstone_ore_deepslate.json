@@ -2,18 +2,21 @@
   "feature": "j2tc_tweaks:oregen/redstone_ore_deepslate",
   "placement": [
     {
-      "count": 30,
+      "count": 26,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 0
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 132
         },
         "type": "minecraft:uniform"

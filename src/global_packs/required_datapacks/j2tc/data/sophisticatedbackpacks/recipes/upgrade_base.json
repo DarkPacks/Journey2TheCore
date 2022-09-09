@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:upgrade_base",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "SIS",
+    "ILI",
+    "SIS"
+  ],
+  "key":
+  {
+    "L":
+    {
+      "tag": "forge:leather"
+    },
+    "I":
+    {
+      "tag": "forge:ingots/copper"
+    },
+    "S":
+    {
+      "tag": "forge:string"
+    }
+  },
+  "result":
+  {
+    "item": "sophisticatedbackpacks:upgrade_base"
+  }
+}

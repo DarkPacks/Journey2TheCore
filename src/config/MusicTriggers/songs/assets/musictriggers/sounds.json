@@ -1,0 +1,44 @@
+{
+  "music.basalt_deltas_ambience": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/basalt_deltas_ambience",
+			"stream": true
+		}]
+	},
+  "music.callmechimera": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/callmechimera",
+			"stream": true
+		}]
+	},
+  "music.chancecubes": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/chancecubes",
+			"stream": true
+		}]
+	},
+  "music.runaway": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/runaway",
+			"stream": true
+		}]
+	},
+  "music.soulsand_valley_ambience": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/soulsand_valley_ambience",
+			"stream": true
+		}]
+	},
+  "music.underwater_ambience": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/underwater_ambience",
+			"stream": true
+		}]
+	}
+}

@@ -4,5 +4,6 @@
   "title": "Deceit",
   "subtitle": "The Denied",
   "minY": -64,
-  "maxY": -1
+  "maxY": -1,
+  "dimension": "minecraft:overworld"
 }

@@ -1,19 +1,25 @@
 {
   "type": "minecraft:lake",
-  "config": {
-    "fluid": {
+  "config":
+  {
+    "fluid":
+    {
       "type": "minecraft:simple_state_provider",
-      "state": {
+      "state":
+      {
         "Name": "minecraft:water",
-        "Properties": {
+        "Properties":
+        {
           "level": "0"
         }
       }
     },
-    "barrier": {
+    "barrier":
+    {
       "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:stone"
+      "state":
+      {
+        "Name": "cobblestoney:dirt_sand"
       }
     }
   }

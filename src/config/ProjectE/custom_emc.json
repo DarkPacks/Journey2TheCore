@@ -139,6 +139,14 @@
     {
       "item": "chancecubes:chance_cube",
       "emc": 0
+    },
+    {
+      "item": "minecraft:infested_cobblestone{display:{Name:\u0027{\"italic\":false,\"text\":\"Cobblestone\"}\u0027}}",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 32
     }
   ]
 }

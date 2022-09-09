@@ -3,12 +3,18 @@
   "quests": [
     {
       "uuid": "9e0d42c2-06b5-42fd-9af3-8172a23b8dbe",
-      "name": "Smelter",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Smelter",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 69,
       "y": 90,
       "icon": {
-        "id": "factorium:smelter",
+        "id": "thermal:machine_furnace",
         "Count": 1
       },
       "tasks": [
@@ -17,7 +23,7 @@
           "items": [
             {
               "item": {
-                "id": "factorium:smelter",
+                "id": "thermal:machine_furnace",
                 "Count": 1
               }
             }
@@ -30,7 +36,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "factorium:craft_core_basic",
+          "id": "thermal:machine_frame",
           "Count": 1
         },
         {
@@ -40,52 +46,30 @@
       ],
       "rewardchoice": [
         {
-          "id": "factorium:upgrade_core_t1",
+          "id": "thermal:upgrade_augment_1",
           "Count": 1
         },
         {
-          "id": "factorium:upgrade_efficiency",
+          "id": "thermal:machine_output_augment",
           "Count": 1
         },
         {
-          "id": "factorium:upgrade_speed",
-          "Count": 1
-        },
-        {
-          "id": "factorium:upgrade_parallel_t1",
+          "id": "thermal:dynamo_output_augment",
           "Count": 1
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "410f361a-db82-429f-8b0a-ca7b7a5063ed",
-      "name": "Unnamed",
-      "description": "Unnamed quest",
-      "x": 171,
-      "y": 161,
-      "icon": {
-        "id": "tconstruct:blazing_blood_bucket",
-        "Count": 1
-      },
-      "prerequisites": [
-        "85d35828-00d5-4a7a-aefb-35fbea9b4738"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:scorched_fuel_tank",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{id:\"tconstruct:tank\",tank:{Amount:1000,FluidName:\"tconstruct:blazing_blood\"}},display:{Lore:[\u0027\"(+NBT)\"\u0027]},tank:{Amount:1000,FluidName:\"tconstruct:blazing_blood\"}}"
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "78b43bad-168f-4b26-89fd-7992ef95e9ef",
-      "name": "Phil Me Up Baby",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Phil Me Up Baby",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 145,
       "y": 136,
       "icon": {
@@ -131,52 +115,15 @@
       "commandrewards": []
     },
     {
-      "uuid": "a3e63307-79b6-4755-9073-e5716bf3c33b",
-      "name": "Wall of Flesh",
-      "description": "Unnamed quest",
-      "x": 259,
-      "y": 90,
-      "icon": {
-        "id": "dimpaintings:nether_painting",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "LOCATION",
-          "locations": [
-            {
-              "name": "Underground",
-              "x": -1,
-              "y": 592,
-              "z": 366,
-              "dim": "minecraft:overworld",
-              "radius": -1,
-              "visible": "LOCATION",
-              "icon": {
-                "id": "dimpaintings:overworld_painting",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "5579f9ce-fdac-4c7a-8b5b-31dd14937920"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "cyclic:experience_food",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "738f68f7-82e3-419f-a226-490cfffa5f9c",
-      "name": "Generator",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Generator",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 36,
       "y": 90,
       "icon": {
@@ -219,9 +166,67 @@
       "commandrewards": []
     },
     {
+      "uuid": "a3e63307-79b6-4755-9073-e5716bf3c33b",
+      "name": {
+        "text": "Wall of Flesh",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 259,
+      "y": 90,
+      "icon": {
+        "id": "dimpaintings:nether_painting",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": {
+                "text": "Underground",
+                "isTranslationKey": false
+              },
+              "x": -1,
+              "y": 592,
+              "z": 366,
+              "dim": "minecraft:overworld",
+              "radius": -1,
+              "visible": "LOCATION",
+              "icon": {
+                "id": "dimpaintings:overworld_painting",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5579f9ce-fdac-4c7a-8b5b-31dd14937920"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:experience_food",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7d47bc9d-fea2-472b-ae62-fe9c101bd55b",
-      "name": "Distillation",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Distillation",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 37,
       "y": 62,
       "icon": {
@@ -257,8 +262,14 @@
     },
     {
       "uuid": "dd6d3b7d-a5be-496e-8973-fbb4b0ca9502",
-      "name": "Intertia is a Property of Matter",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Intertia is a Property of Matter",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 188,
       "y": 136,
       "icon": {
@@ -294,8 +305,14 @@
     },
     {
       "uuid": "71d85cee-3059-4456-a830-825b2177c616",
-      "name": "One Man",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "One Man",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 99,
       "y": 136,
       "icon": {
@@ -338,8 +355,14 @@
     },
     {
       "uuid": "70262eb5-8d36-4657-afd3-1d1047a55440",
-      "name": "Automate Everything!",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Automate Everything!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 172,
       "y": 90,
       "icon": {
@@ -401,8 +424,14 @@
     },
     {
       "uuid": "5579f9ce-fdac-4c7a-8b5b-31dd14937920",
-      "name": "Supersize Me",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Supersize Me",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 211,
       "y": 90,
       "icon": {
@@ -451,8 +480,14 @@
     },
     {
       "uuid": "85d35828-00d5-4a7a-aefb-35fbea9b4738",
-      "name": "Fliquid Powergy",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Fliquid Powergy",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Liquid Energy can be used as a hotter liquid fuel than Lava. Add it to your Melter or Foundry and melt more things!",
+        "isTranslationKey": false
+      },
       "x": 125,
       "y": 161,
       "icon": {
@@ -476,14 +511,26 @@
         "1e1f47e9-c0a8-44b3-a5dc-a6f8fa473cf5"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "tconstruct:scorched_fuel_tank",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{id:\"tconstruct:tank\",tank:{Amount:4000,FluidName:\"delivery:liquid_energy\"}},display:{Lore:[\u0027\"(+NBT)\"\u0027]},tank:{Amount:4000,FluidName:\"delivery:liquid_energy\"}}"
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "3084b89c-92cd-4e77-be32-3e1a47722840",
-      "name": "Transfer!",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Transfer!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 116,
       "y": 90,
       "icon": {
@@ -530,8 +577,14 @@
     },
     {
       "uuid": "fcb5067a-125d-4d6f-8e16-ac8b476d4ad6",
-      "name": "Energy Collection",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Energy Collection",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 232,
       "y": 136,
       "icon": {
@@ -566,8 +619,14 @@
     },
     {
       "uuid": "1e1f47e9-c0a8-44b3-a5dc-a6f8fa473cf5",
-      "name": "Team Liquid",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Team Liquid",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 85,
       "y": 161,
       "icon": {
@@ -597,8 +656,14 @@
     },
     {
       "uuid": "af576f95-d455-4553-8f19-0d483ea42d6c",
-      "name": "Pump it Up",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Pump it Up",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 85,
       "y": 33,
       "icon": {
@@ -649,8 +714,14 @@
     },
     {
       "uuid": "c6f67ded-dd99-4922-9a20-fa65e040643a",
-      "name": "Grass",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Grass",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 85,
       "y": 62,
       "icon": {

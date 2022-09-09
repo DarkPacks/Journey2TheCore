@@ -24,7 +24,7 @@
     "advancements": true
   },
   "backgroundHide": {
-    "inventory": true,
+    "inventory": false,
     "horseInventory": true,
     "creative": true,
     "crafting": true,

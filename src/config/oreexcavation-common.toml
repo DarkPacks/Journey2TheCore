@@ -3,10 +3,10 @@
 [common]
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 128
+	Limit = 32
 	#How many blocks per tick can be excavated
 	#Range: > 1
-	Speed = 64
+	Speed = 5
 	#How far from the origin an excavation can travel
 	#Range: > 1
 	Range = 16
@@ -29,7 +29,7 @@
 	#Limit excavation to standard tool types (Picks, Shoves, Axes & Shears)
 	"Only Standard Types" = false
 	#Temporarily reduces excavation speed if TPS begins to slow down
-	"TPS Guard" = true
+	"TPS Guard" = false
 	#Skips spawning drops in world adding them directly to your inventory
 	"Auto Pickup" = false
 	#Allow players to use shape mining

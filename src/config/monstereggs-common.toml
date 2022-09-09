@@ -30,22 +30,22 @@
 [Rarity]
 	#The rarity at which Cave Spider Eggs will generate (1 every X) [Default: 1]
 	#Range: > 1
-	caveSpiderEggsRarity = 8
+	caveSpiderEggsRarity = 6
 	#The rarity at which Creeper Eggs will generate (1 every X) [Default: 1]
 	#Range: > 1
-	creeperEggsRarity = 8
+	creeperEggsRarity = 6
 	#The rarity at which Enderman Eggs will generate (1 every X) [Default: 1]
 	#Range: > 1
-	endermanEggsRarity = 8
+	endermanEggsRarity = 6
 	#The rarity at which Skeleton Eggs will generate (1 every X) [Default: 1]
 	#Range: > 1
-	skeletonEggsRarity = 8
+	skeletonEggsRarity = 6
 	#The rarity at which Spider Eggs will generate (1 every X) [Default: 1]
 	#Range: > 1
-	spiderEggsRarity = 8
+	spiderEggsRarity = 6
 	#The rarity at which Zombie Eggs will generate (1 every X) [Default: 1]
 	#Range: > 1
-	zombieEggsRarity = 8
+	zombieEggsRarity = 6
 
 #Count settings
 [Count]
@@ -72,22 +72,22 @@
 [Tries]
 	#The amount of times it will try to generate Cave Spider Eggs [Default: 24]
 	#Range: > 1
-	caveSpiderEggsTries = 32
+	caveSpiderEggsTries = 36
 	#The amount of times it will try to generate Creeper Eggs [Default: 24]
 	#Range: > 1
-	creeperEggsTries = 32
+	creeperEggsTries = 36
 	#The amount of times it will try to generate Enderman Eggs [Default: 24]
 	#Range: > 1
-	endermanEggsTries = 32
+	endermanEggsTries = 36
 	#The amount of times it will try to generate Skeleton Eggs [Default: 24]
 	#Range: > 1
-	skeletonEggsTries = 32
+	skeletonEggsTries = 36
 	#The amount of times it will try to generate Spider Eggs [Default: 24]
 	#Range: > 1
-	spiderEggsTries = 32
+	spiderEggsTries = 36
 	#The amount of times it will try to generate Zombie Eggs [Default: 24]
 	#Range: > 1
-	zombieEggsTries = 32
+	zombieEggsTries = 36
 
 #Debug settings
 [Debug]

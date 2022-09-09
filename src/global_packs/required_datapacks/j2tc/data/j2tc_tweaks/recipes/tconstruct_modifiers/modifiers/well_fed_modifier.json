@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "candyworld:red_gummy_worm"
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal"
+    },
+    {
+      "item": "geore:redstone_shard"
+    },
+    {
+      "tag": "buddycards:buddycards"
+    }
+
+  ],
+  "tools":
+  {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "result":
+  {
+    "name": "tconstruct:well_fed",
+    "level": 1
+  }
+}

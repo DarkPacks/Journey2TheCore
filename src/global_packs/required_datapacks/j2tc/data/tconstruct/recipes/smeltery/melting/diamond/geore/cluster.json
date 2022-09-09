@@ -2,20 +2,23 @@
   "type": "tconstruct:melting",
   "conditions": [
     {
-      "value": {
+      "value":
+      {
         "tag": "forge:geore_clusters/diamond",
         "type": "forge:tag_empty"
       },
       "type": "forge:not"
     }
   ],
-  "ingredient": {
+  "ingredient":
+  {
     "tag": "forge:geore_clusters/diamond"
   },
-  "result": {
+  "result":
+  {
     "fluid": "tconstruct:molten_diamond",
     "amount": 400
   },
-  "temperature": 1450,
+  "temperature": 1250,
   "time": 197
 }

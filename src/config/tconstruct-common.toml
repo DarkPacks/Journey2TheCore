@@ -5,7 +5,7 @@
 	shouldSpawnWithTinkersBook = false
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
-	showOnlyToolMaterial = ""
+	showOnlyToolMaterial = "tconstruct:manyullyn"
 	#If non-empty, only material will be shown on parts in creative and JEI (or the first valid material if this is invalid for the part).
 	#If empty, all materials will show
 	showOnlyPartMaterial = ""
@@ -13,6 +13,17 @@
 	showAllTableVariants = false
 	#If true, anvils will show all metal variants. If false, shows only a variant with the default texture
 	showAllAnvilVariants = false
+
+	#Tweaks to vanilla damage sources to better work with armor
+	[gameplay.damageTweaks]
+		#Makes withering damage count as magic
+		wither = true
+		#Makes dragons breath count as magic
+		dragon_breath = true
+		#Makes falling blocks count as projectile
+		falling_block = false
+		#Makes lightning count as fire damage
+		lightning = true
 
 #Options related to recipes, limited options as a datapack allows most recipes to be modified
 [recipes]
@@ -24,7 +35,7 @@
 	witherBoneDrop = true
 	#Allows converting wither bones to regular bones
 	witherBoneConversion = true
-	#Slimealls not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
+	#Slimeballs not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
 	slimeRecipeFix = true
 	#Fixes clear glass not being usable in vanilla recipes that require glass. Config option exists to disable easily in case this fix is redundant to another mod
 	glassRecipeFix = true

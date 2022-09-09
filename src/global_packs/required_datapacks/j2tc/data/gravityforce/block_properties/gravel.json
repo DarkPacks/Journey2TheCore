@@ -1,0 +1,6 @@
+{
+  "blockLocation": "minecraft:gravel",
+  "slides": true,
+  "wetSlide": true,
+  "stability": "gravityforce:loose"
+}

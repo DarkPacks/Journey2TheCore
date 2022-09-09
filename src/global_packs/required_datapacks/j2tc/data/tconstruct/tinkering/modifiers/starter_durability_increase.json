@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:stat_boost",
+  "level_display": "tconstruct:no_levels",
+  "rarity": "rare",
+  "stats": [
+    {
+      "stat": "tconstruct:durability",
+      "type": "multiply_base",
+      "value": 1.75
+    }
+  ]
+}

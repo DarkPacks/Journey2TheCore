@@ -6,6 +6,27 @@
     },
     {
       "item": "cobblestoney:granite_cobbled"
+    },
+    {
+      "item": "cobblestoney:granite_purple"
+    },
+    {
+      "item": "cobblestoney:granite_pink"
+    },
+    {
+      "item": "cobblestoney:granite_red"
+    },
+    {
+      "item": "cobblestoney:granite_cecilia"
+    },
+    {
+      "item": "cobblestoney:granite_jade"
+    },
+    {
+      "item": "cobblestoney:granite_soladite"
+    },
+    {
+      "item": "cobblestoney:granite_cobbled"
     }
   ],
   "value": 1,

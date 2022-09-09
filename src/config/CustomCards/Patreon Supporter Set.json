@@ -1,0 +1,21 @@
+{
+  "common": 15,
+  "uncommon": 15,
+  "rare": 25,
+  "epic": 5,
+  "medalEffects": [
+    {
+      "effect": "minecraft:absorption",
+      "mod": 0
+    },
+    {
+      "effect": "minecraft:absorption",
+      "mod": 1
+    },
+    {
+      "effect": "minecraft:absorption",
+      "mod": 2
+    }
+  ],
+  "name": "Patreon Supporter Set"
+}

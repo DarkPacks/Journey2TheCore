@@ -22,6 +22,18 @@
     "tconstruct:sky_slime_crystal_cluster",
     "tconstruct:small_sky_slime_crystal_bud",
     "geore:lapis_cluster",
-    "minecraft:raw_gold_block"
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:lapis_ore",
+    "minecraft:raw_gold_block",
+    "create:deepslate_zinc_ore",
+    "create:zinc_ore",
+    "geore:medium_redstone_bud",
+    "geore:redstone_block",
+    "geore:redstone_cluster",
+    "minecraft:redstone_ore",
+    "geore:budding_redstone",
+    "geore:large_redstone_bud",
+    "geore:small_redstone_bud",
+    "minecraft:deepslate_redstone_ore"
   ]
 }

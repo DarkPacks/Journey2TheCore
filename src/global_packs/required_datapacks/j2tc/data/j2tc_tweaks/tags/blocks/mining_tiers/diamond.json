@@ -1,20 +1,13 @@
 {
   "replace": true,
   "values": [
-    "geore:budding_redstone",
     "geore:gold_cluster",
-    "geore:large_redstone_bud",
-    "geore:medium_redstone_bud",
-    "geore:redstone_block",
-    "geore:redstone_cluster",
-    "geore:small_redstone_bud",
-    "minecraft:amethyst_cluster",
     "minecraft:crying_obsidian",
     "minecraft:deepslate_gold_ore",
-    "minecraft:deepslate_redstone_ore",
     "minecraft:gold_ore",
     "minecraft:obsidian",
-    "minecraft:redstone_ore",
-    "tconstruct:cobalt_ore"
+    "tconstruct:cobalt_ore",
+    "thermal:deepslate_lead_ore",
+    "thermal:lead_ore"
   ]
 }

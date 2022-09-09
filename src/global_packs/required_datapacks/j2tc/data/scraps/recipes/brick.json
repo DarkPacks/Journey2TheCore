@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		},
+		{
+			"tag": "forge:shards/brick"
+		}
+	],
+	"result": {
+		"item": "minecraft:brick",
+		"count": 1
+	}
+}

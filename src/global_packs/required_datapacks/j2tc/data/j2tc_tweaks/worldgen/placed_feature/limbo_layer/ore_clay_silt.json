@@ -2,7 +2,7 @@
   "feature": "j2tc_tweaks:limbo_layer/ore_clay_silt",
   "placement": [
     {
-      "count": 172,
+      "count": 148,
       "type": "minecraft:count"
     },
     {

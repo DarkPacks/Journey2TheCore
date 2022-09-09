@@ -1,0 +1,11 @@
+{
+  "items": [
+    "elevatorid:elevator_blue"
+  ],
+  "tooltips": [
+    {
+      "text": "Can transport up to 32 blocks away",
+      "color": "gold"
+    }
+  ]
+}

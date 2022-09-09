@@ -10,11 +10,11 @@
         },
         "state":
         {
-          "Name": "factorium:mat_lead_ore_deep"
+          "Name": "thermal:deepslate_lead_ore"
         }
       }
     ],
-    "size": 4,
+    "size": 6,
     "discard_chance_on_air_exposure": 0
   },
   "type": "minecraft:ore"

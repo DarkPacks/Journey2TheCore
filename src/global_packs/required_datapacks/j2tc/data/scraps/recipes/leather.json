@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		},
+		{
+			"tag": "forge:shards/leather"
+		}
+	],
+	"result": {
+		"item": "minecraft:leather",
+		"count": 1
+	}
+}

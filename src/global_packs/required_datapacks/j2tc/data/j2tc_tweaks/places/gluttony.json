@@ -4,5 +4,6 @@
   "title": "Famished",
   "subtitle": "The Insatiable One",
   "minY": 265,
-  "maxY": 396
+  "maxY": 396,
+  "dimension": "minecraft:overworld"
 }

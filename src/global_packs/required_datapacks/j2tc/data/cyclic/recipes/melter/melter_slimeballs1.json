@@ -1,0 +1,28 @@
+{
+  "type": "cyclic:melter",
+  "conditions": [
+    {
+      "value":
+      {
+        "modid": "tconstruct",
+        "type": "forge:mod_loaded"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:slimeballs"
+		}
+	],
+  "energy":
+  {
+    "rfpertick": 100,
+    "ticks": 160
+  },
+  "result":
+  {
+    "fluid": "cyclic:slime",
+    "count": 250
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:gems/amethyst",
+    "#forge:gems/diamond",
+    "#forge:gems/emerald",
+    "#forge:gems/lapis",
+    "#forge:gems/prismarine",
+    "#forge:gems/quartz",
+    "#forge:gems/apatite",
+    "#forge:gems/cinnabar",
+    "#forge:gems/niter",
+    "#forge:gems/sulfur",
+    "#forge:gems/ruby",
+    "#forge:gems/sapphire",
+    "geore:coal_shard",
+    "geore:diamond_shard",
+    "geore:emerald_shard",
+    "geore:lapis_shard"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BA",
+    "AB"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "cobblestoney:andesite_cobbled"
+    },
+    "B":
+    {
+      "tag": "forge:nuggets/copper"
+    }
+  },
+  "result":
+  {
+    "item": "create:andesite_alloy"
+  }
+}

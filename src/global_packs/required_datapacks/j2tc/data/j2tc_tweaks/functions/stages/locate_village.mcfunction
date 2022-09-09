@@ -1,0 +1,1 @@
+gamestage add @s locate_village

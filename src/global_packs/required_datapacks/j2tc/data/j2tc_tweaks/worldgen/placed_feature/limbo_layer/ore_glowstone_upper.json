@@ -2,7 +2,7 @@
   "feature": "j2tc_tweaks:limbo_layer/ore_glowstone",
   "placement": [
     {
-      "count": 56,
+      "count": 52,
       "type": "minecraft:count"
     },
     {

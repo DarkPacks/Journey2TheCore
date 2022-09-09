@@ -1,0 +1,6 @@
+{
+  "blockLocation": "minecraft:oak_leaves",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:loose"
+}

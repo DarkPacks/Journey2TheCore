@@ -3,10 +3,16 @@
   "quests": [
     {
       "uuid": "49dc43ad-3818-4343-9501-ea28653be188",
-      "name": "More Cobblestone",
-      "description": "Unnamed quest",
-      "x": 286,
-      "y": 34,
+      "name": {
+        "text": "More Cobblestone",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 280,
+      "y": 39,
       "icon": {
         "id": "compressium:cobblestone_8",
         "Count": 1
@@ -53,10 +59,16 @@
     },
     {
       "uuid": "202e360e-4d6e-4d38-a4e3-6e3f2d2701bc",
-      "name": "Upgrade",
-      "description": "Unnamed quest",
-      "x": 255,
-      "y": 34,
+      "name": {
+        "text": "Upgrade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 252,
+      "y": 39,
       "icon": {
         "id": "projecte:relay_mk3",
         "Count": 1
@@ -96,8 +108,14 @@
     },
     {
       "uuid": "99404756-55c7-4845-9c52-dc861339110b",
-      "name": "Extendo Grip",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Extendo Grip",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 189,
       "y": 102,
       "icon": {
@@ -121,7 +139,8 @@
                 "id": "create:copper_backtank",
                 "Count": 1,
                 "tag": "{Air:860.3989f}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -141,8 +160,14 @@
     },
     {
       "uuid": "2fa35aee-00ee-42db-ad37-dc3a14b7cbc6",
-      "name": "Out N In",
-      "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+      "name": {
+        "text": "Out N In",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 133,
       "y": 102,
       "icon": {
@@ -221,8 +246,14 @@
     },
     {
       "uuid": "b400dab4-7f10-43cd-85e8-24eeaae9e220",
-      "name": "Kill the Wither",
-      "description": "Good luck!",
+      "name": {
+        "text": "Kill the Wither",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Good luck!",
+        "isTranslationKey": false
+      },
       "x": 238,
       "y": 102,
       "icon": {
@@ -234,7 +265,10 @@
           "type": "KILL",
           "mobs": [
             {
-              "name": "The Wither",
+              "name": {
+                "text": "The Wither",
+                "isTranslationKey": false
+              },
               "icon": {
                 "id": "graveyard:leaning_wither_skeleton",
                 "Count": 1
@@ -278,10 +312,16 @@
     },
     {
       "uuid": "73bc000a-fd9b-4ad6-9621-039b887800c1",
-      "name": "Watch",
-      "description": "Unnamed quest",
-      "x": 223,
-      "y": 34,
+      "name": {
+        "text": "Watch",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 225,
+      "y": 39,
       "icon": {
         "id": "projecte:watch_of_flowing_time",
         "Count": 1,
@@ -314,7 +354,7 @@
         }
       ],
       "prerequisites": [
-        "8383c411-68f2-4f21-acd5-6adee943cd23"
+        "c5f95336-611c-4805-bb16-030426de4c92"
       ],
       "optionlinks": [],
       "reward": [
@@ -332,11 +372,74 @@
       "commandrewards": []
     },
     {
+      "uuid": "c5f95336-611c-4805-bb16-030426de4c92",
+      "name": {
+        "text": "Calculator",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 199,
+      "y": 39,
+      "icon": {
+        "id": "turkeydevutil:calculator",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "turkeydevutil:unstable_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8383c411-68f2-4f21-acd5-6adee943cd23"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:red_matter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "8383c411-68f2-4f21-acd5-6adee943cd23",
-      "name": "Power Flower",
-      "description": "Unnamed quest",
-      "x": 192,
-      "y": 34,
+      "name": {
+        "text": "Power Flower",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 173,
+      "y": 39,
       "icon": {
         "id": "projecte:relay_mk1",
         "Count": 1
@@ -377,8 +480,14 @@
     },
     {
       "uuid": "b4261b59-c632-438f-9503-0adfda6eb25a",
-      "name": "Hard Mode",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Hard Mode",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
       "x": 27,
       "y": 102,
       "icon": {
@@ -390,7 +499,10 @@
           "type": "LOCATION",
           "locations": [
             {
-              "name": "The Caves",
+              "name": {
+                "text": "The Caves",
+                "isTranslationKey": false
+              },
               "x": 11,
               "y": 630,
               "z": -39,
@@ -425,8 +537,14 @@
     },
     {
       "uuid": "1d2294d6-9e84-4ca2-9edb-dcf13f3f922a",
-      "name": "Make Like a Tree, and get outta here!",
-      "description": "Unnamed quest",
+      "name": {
+        "text": "Make Like a Tree, and get outta here!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
       "x": 285,
       "y": 102,
       "icon": {
@@ -438,7 +556,10 @@
           "type": "LOCATION",
           "locations": [
             {
-              "name": "The Caves",
+              "name": {
+                "text": "The Caves",
+                "isTranslationKey": false
+              },
               "x": 0,
               "y": 0,
               "z": 0,

@@ -1,4 +1,6 @@
 {
   "replace": true,
-  "values": []
+  "values": [
+    "thermal:constantan_ingot"
+  ]
 }

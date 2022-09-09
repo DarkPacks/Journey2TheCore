@@ -1,7 +1,8 @@
 {
   "pools": [
     {
-      "rolls": {
+      "rolls":
+      {
         "type": "minecraft:uniform",
         "min": 2,
         "max": 5
@@ -352,6 +353,66 @@
               "tag": "{entity:\"minecraft:mooshroom\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:barley_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:corn_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:radish_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:spinach_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:bell_pepper_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:eggplant_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:green_bean_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:peanut_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:strawberry_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:tomato_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:coffee_seeds"
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "thermal:tea_seeds"
         }
       ]
     }

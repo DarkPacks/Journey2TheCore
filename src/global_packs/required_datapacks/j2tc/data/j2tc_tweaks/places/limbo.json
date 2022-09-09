@@ -1,8 +1,9 @@
 {
   "type": "youarehere:y_level",
   "soundLocation": "cyclic:chaos_reaper",
-  "title": "Limbo",
-  "subtitle": "The Caves",
+  "title": "Oblivion",
+  "subtitle": "Betwixt the Gates",
   "minY": 529,
-  "maxY": 688
+  "maxY": 688,
+  "dimension": "minecraft:overworld"
 }

@@ -1,0 +1,20 @@
+{
+  "conditions": {
+    "RNG (100-300)": {
+      "value1": "100",
+      "value2": "300",
+      "variableName": "rng",
+      "roundNumber": true,
+      "type": "randomNumber"
+    },
+    "RNG (500-1000)": {
+      "value1": "500",
+      "value2": "1000",
+      "variableName": "rng",
+      "roundNumber": true,
+      "type": "randomNumber"
+    }
+  },
+  "outcomes": {},
+  "events": {}
+}

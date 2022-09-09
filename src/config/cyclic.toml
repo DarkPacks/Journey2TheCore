@@ -5,7 +5,7 @@
 [cyclic]
 
 	#####################################################################################
-	# Enchantment related configs
+	# Enchantment related configs (if disabled, they may still show up as NBT on books and such but have functions disabled and are not obtainable in survival)
 	#####################################################################################
 	[cyclic.enchantment]
 
@@ -16,12 +16,18 @@
 		[cyclic.enchantment.beekeeper]
 			#Set false to disable enchantment
 			enabled = true
-			#Beheading enchant add player skin head drop, add any mob id and any skin
-			EntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
 
 		[cyclic.enchantment.beheading]
 			#Set false to disable enchantment
 			enabled = true
+			#Beheading enchant add player skin head drop, add any mob id and any skin
+			EntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
+			#Base perecentage chance to drop a head on kill
+			#Range: 1 ~ 99
+			percent = 20
+			#Percentage increase per level of enchant. Formula [percent + (level - 1) * per_level] 
+			#Range: 1 ~ 99
+			per_level = 25
 
 		[cyclic.enchantment.curse]
 			#Set false to disable enchantment
@@ -108,6 +114,10 @@
 		[cyclic.worldgen.flowers]
 			#Do the four generate in the world.  If false, the 4 flower blocks and 3 features (flower_all, flower_tulip_ flower_lime) will still be registered and can be used externally (data packs etc), but the mod will not use the features to generate/place flowers in world-generation
 			enabled = true
+
+		[cyclic.worldgen.cyan_podzol_legacy]
+			#Enable the legacy feature that will spawn a Cyan flower when bonemeal is used on Podzol
+			enabled = false
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  
@@ -218,10 +228,92 @@
 			#Range: 1 ~ 256
 			range = 64
 
+		[cyclic.items.shield_leather]
+			#How much weaker than the regular shield is this item (used to calculate damage blocked)
+			#Range: 0 ~ 100
+			blocked_damage_percent = 20
+
+		[cyclic.items.shield_wood]
+			#How much weaker than the regular shield is this item (used to calculate damage blocked)
+			#Range: 0 ~ 100
+			blocked_damage_percent = 60
+
+		[cyclic.items.shield_flint]
+			#How much weaker than the regular shield is this item (used to calculate damage blocked)
+			#Range: 0 ~ 100
+			blocked_damage_percent = 30
+			#What % chance does this have to apply thorns damage against ranged non-explosive attackers
+			#Range: 0 ~ 100
+			damage = 50
+
+		[cyclic.items.wand_hypno]
+			#Energy cost per item use
+			#Range: 1 ~ 50000
+			energy = 500
+			#Range to search out enemies for this multi-target attack
+			#Range: 1 ~ 256
+			range = 16
+
+		[cyclic.items.wand_missile]
+			#Energy cost per item use
+			#Range: 1 ~ 50000
+			energy = 150
+			#Range to search out enemies for this attack
+			#Range: 1 ~ 512
+			range = 64
+
+		#####################################################################################
+		# Emerald gear settings
+		#####################################################################################
+		[cyclic.items.emerald]
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 3.0
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 4.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 9
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 7
+
+		#####################################################################################
+		# Obsidian gear settings
+		#####################################################################################
+		[cyclic.items.obsidian]
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 6.0
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 10.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 11
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 10
+
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
 	[cyclic.blocks]
+		#If true, then all potions marked as harmful/negative will be used in addition to the 'anti_beacon.potion_list' for cures and immunities  (used by both sponge and artemisbeacon).
+		harmful_potions = true
 
 		[cyclic.blocks.generator_fuel]
 			#RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
@@ -434,4 +526,48 @@
 			#Chance that the crop will grow after the interval
 			#Range: 0.0 ~ 1.0
 			growth_chance = 0.5
+
+		[cyclic.blocks.generator_solar]
+			#Base level of solar power generation (affected by weather contitions).
+			#Range: 1 ~ 100
+			energy = 4
+			#Ticks between power gen interval. Example: 40 ticks is 2 seconds. 0 means every tick it generates
+			#Range: 0 ~ 6400
+			ticks = 60
+
+		[cyclic.blocks.altar_destruction]
+			#Height for explosion prevention
+			#Range: 1 ~ 128
+			height = 8
+			#Reach for explosion prevention
+			#Range: 1 ~ 128
+			radius = 32
+
+		[cyclic.blocks.magnet_block]
+			#Reach for magnet distance to find items
+			#Range: 1 ~ 128
+			radius = 16
+
+		[cyclic.blocks.no_soliciting]
+			#Height reach of the no_soliciting for spawn prevention
+			#Range: 1 ~ 128
+			height = 32
+			#Reach of the no_soliciting for spawn prevention
+			#Range: 1 ~ 128
+			radius = 32
+
+		[cyclic.blocks.anti_beacon]
+			#Radius to protect players and entities from potion effects being applied (used by both sponge and artemisbeacon). 
+			#Range: 1 ~ 128
+			radius = 16
+			#Ticks to fire anti beacon and remove effects from entities (20 = 1 second).  Does not affect potion immunity which applies regardless of ticks. This only used if you gain a potion effect out of range and then walk into range, so keep this large.
+			#Range: 20 ~ 9999
+			ticks = 20
+			#List of extra effects to clear. supports wildcard such as 'cyclic:*'. (This list is is used even if harmful_potions=false or true both)
+			potion_list = ["colorblindness:achromatopsia", "minecraft:poison", "minecraft:*_poison", "minecraft:wither", "cyclic:gravity", "cyclic:antigravity", "minecraft:night_vision", "minecraft:invisibility", "minecraft:weakness", "minecraft:slowness"]
+
+		[cyclic.blocks.soundproofing]
+			#Radius to find and muffle sounds. 
+			#Range: 1 ~ 128
+			radius = 6
 

@@ -1,9 +1,0 @@
-{
-  "type": "factorium:grinder",
-  "input": {
-    "tag": "forge:obsidian"
-  },
-  "output": {
-    "item": "factorium:mat_extra_dust_obsidian"
-  }
-}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:ore",
+  "config":
+  {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target":
+        {
+          "tag": "j2tc_tweaks:nether_bottom_block_replacement",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state":
+        {
+          "Name": "stacked_dimensions_warden:deeper_layer_1_portal"
+        }
+      }
+    ]
+  }
+}

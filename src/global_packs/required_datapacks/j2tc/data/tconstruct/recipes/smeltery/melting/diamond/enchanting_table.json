@@ -1,13 +1,15 @@
 {
   "type": "tconstruct:melting",
-  "ingredient": {
+  "ingredient":
+  {
     "item": "minecraft:enchanting_table"
   },
-  "result": {
+  "result":
+  {
     "fluid": "tconstruct:molten_diamond",
     "amount": 200
   },
-  "temperature": 1450,
+  "temperature": 1250,
   "time": 118,
   "byproducts": [
     {

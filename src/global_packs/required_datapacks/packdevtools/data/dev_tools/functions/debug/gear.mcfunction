@@ -1,0 +1,11 @@
+effect give @p minecraft:night_vision 9999 1 true
+give @p netherite_sword{Enchantments:[{id:"minecraft:sharpness",lvl:32000s}]} 1
+give @p bhc:heart_amulet{bhc_itemlist:{Items:[{Count:10b,Slot:0,id:"bhc:red_heart_canister"},{Count:10b,Slot:1,id:"bhc:yellow_heart_canister"},{Count:10b,Slot:2,id:"bhc:green_heart_canister"},{Count:10b,Slot:3,id:"bhc:blue_heart_canister"}],Size:4},heart_amount:[I;20,20,20,20]}
+item replace entity @p armor.head with tconstruct:plate_helmet{HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:"tconstruct:color_gilded"}],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{"tconstruct:armor":2.0f,"tconstruct:armor_toughness":2.0f,"tconstruct:durability":330.0f,"tconstruct:knockback_resistance":0.1f},tic_upgrades:[{level:1s,name:"tconstruct:color_gilded"}],tic_volatile_data:{"tconstruct:rarity":3,"tconstruct:shiny":1b}} 1
+item replace entity @p armor.feet with tconstruct:plate_boots{HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{"tconstruct:armor":2.0f,"tconstruct:armor_toughness":2.0f,"tconstruct:durability":390.0f,"tconstruct:knockback_resistance":0.1f}} 1
+item replace entity @p armor.legs with tconstruct:plate_leggings{HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{"tconstruct:armor":5.0f,"tconstruct:armor_toughness":2.0f,"tconstruct:durability":450.0f,"tconstruct:knockback_resistance":0.1f}} 1
+item replace entity @p armor.chest with tconstruct:plate_chestplate{HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{"tconstruct:armor":7.0f,"tconstruct:armor_toughness":2.0f,"tconstruct:durability":480.0f,"tconstruct:knockback_resistance":0.1f}} 1
+effect give @p minecraft:saturation 20 20 true
+effect give @p minecraft:instant_health 60 20 true
+inventory_slots unlock @s 100
+give @p hardcorequesting:heart 5

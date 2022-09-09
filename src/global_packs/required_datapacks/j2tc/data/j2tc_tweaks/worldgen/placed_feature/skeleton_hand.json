@@ -6,7 +6,7 @@
     },
     {
       "type": "minecraft:count",
-      "count": 256
+      "count": 128
     },
     {
       "type": "minecraft:height_range",
@@ -33,7 +33,7 @@
           -1,
           0
         ],
-        "tag": "j2tc_tweaks:desire_layer_skeleton_hand_placement_blocks"
+        "tag": "j2tc_tweaks:stone_blocks_for_feature_placement"
       }
     }
   ]

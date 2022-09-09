@@ -188,3 +188,10 @@
 		#Range: 0 ~ 30000000
 		randomTeleportYDirectionMax = 320
 
+	#RandomEnchanting Command Settings
+	[commands.RandomEnchanting]
+		#List of enchantment(s) for RandomEnchanting command to EXCLUDE from possible enchantments (i.e. minecraft:vanishing_curse)
+		RandomEnchantingExclude = ["walljump:walljump"]
+		#Force random enchantment on even if normally cannot go on item.
+		randomEnchantForce = true
+

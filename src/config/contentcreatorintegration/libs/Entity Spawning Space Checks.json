@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "Space Check - 1x1 SolidBlock Underneath": {
+      "target": "$playerName",
+      "horiRadius": "10",
+      "vertRadius": "4",
+      "tries": "25",
+      "variableName": "smallEntitySpaceCheck",
+      "customHeight": "1",
+      "customWidth": "1",
+      "minHoriDistance": "3",
+      "requireSolidBlock": true,
+      "type": "freeSpace"
+    },
+    "Space Check - 1x2 SolidBlock Underneath": {
+      "target": "$playerName",
+      "horiRadius": "10",
+      "vertRadius": "4",
+      "tries": "25",
+      "variableName": "entitySpaceCheck",
+      "customHeight": "2",
+      "customWidth": "1",
+      "minHoriDistance": "3",
+      "requireSolidBlock": true,
+      "type": "freeSpace"
+    },
+    "Space Check - 2x2 SolidBlock Underneath": {
+      "target": "$playerName",
+      "horiRadius": "6",
+      "vertRadius": "3",
+      "tries": "25",
+      "variableName": "largeEntitySpaceCheck",
+      "customHeight": "2",
+      "customWidth": "2",
+      "minHoriDistance": "3",
+      "requireSolidBlock": true,
+      "type": "freeSpace"
+    }
+  },
+  "outcomes": {},
+  "events": {}
+}

@@ -2,7 +2,7 @@
   "group": "idk",
   "displayName":
   {
-    "text": "No Whammy No Whammy! STOP!"
+    "text": "Artifact Bag"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/artifact_bag",
   "rarity": "uncommon",

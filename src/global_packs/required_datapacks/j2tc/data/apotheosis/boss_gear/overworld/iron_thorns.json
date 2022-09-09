@@ -1,0 +1,78 @@
+{
+  "weight": 80,
+  "quality": 5,
+  "mainhands": [
+    {
+      "weight": 3,
+      "stack":
+      {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    {
+      "weight": 3,
+      "stack":
+      {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    {
+      "weight": 2,
+      "stack":
+      {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    {
+      "weight": 2,
+      "stack":
+      {
+        "item": "minecraft:iron_shovel"
+      }
+    }
+  ],
+  "offhands": [],
+  "boots": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:iron_boots",
+        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
+      }
+    }
+  ],
+  "leggings": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:iron_leggings",
+        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
+      }
+    }
+  ],
+  "chestplates": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:iron_chestplate",
+        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
+      }
+    }
+  ],
+  "helmets": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:iron_helmet",
+        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
+      }
+    }
+  ],
+  "tags": [
+    "overworld"
+  ]
+}

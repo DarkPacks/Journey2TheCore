@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "H": {
+      "item": "minecraft:wheat"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " H",
+    "I "
+  ],
+  "result": {
+    "item": "adchimneys:wooden_paintbrush"
+  }
+}

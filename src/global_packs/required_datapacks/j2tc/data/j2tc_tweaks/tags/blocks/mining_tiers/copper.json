@@ -45,6 +45,9 @@
     "candyworld:orange_gummy_workbench",
     "candyworld:yellow_gummy_workbench",
     "candyworld:white_gummy_workbench",
-    "candyworld:green_gummy_workbench"
+    "candyworld:green_gummy_workbench",
+    "minecraft:amethyst_cluster",
+    "thermal:tin_ore",
+    "thermal:deepslate_tin_ore"
   ]
 }

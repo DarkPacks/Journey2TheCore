@@ -65,6 +65,46 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/upper",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/end_rods",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/ender_pearls",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/sound_muffler",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/lanterns",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/fan",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/gears",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/lunchbox",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/infested_cobblestone",
           "weight": 30
         },

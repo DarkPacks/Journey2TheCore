@@ -2,18 +2,21 @@
   "feature": "j2tc_tweaks:oregen/lapis_ore_deepslate",
   "placement": [
     {
-      "count": 40,
+      "count": 32,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 0
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 133
         },
         "type": "minecraft:uniform"

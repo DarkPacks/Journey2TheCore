@@ -35,6 +35,11 @@
     [
       "minecraft:chiseled_stone_bricks",
       "minecraft:infested_chiseled_stone_bricks"
+    ],
+    [
+      "minecraft:rooted_dirt",
+      "cobblestoney:clay_silt",
+      "rechiseled:dirt_muddy"
     ]
   ],
   "strictSubtypes": [
@@ -46,7 +51,8 @@
     "minecraft:melon_stem",
     "minecraft:pumpkin_stem"
   ],
-  "gamestages": {
+  "gamestages":
+  {
     "examplemod:example_block1": "example_stage1",
     "examplemod:example_block2": "example_stage2"
   }

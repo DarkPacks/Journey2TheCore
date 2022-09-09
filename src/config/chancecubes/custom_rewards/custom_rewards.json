@@ -1,0 +1,11 @@
+{
+  "start_quest":
+  {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/function bossbar:bossbar/random_quest_selector"
+      }
+    ]
+  }
+}

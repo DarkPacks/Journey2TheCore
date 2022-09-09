@@ -1,0 +1,5 @@
+Format this like name = url
+Any lines with Format in the name or = not in the name will not be read in
+Make sure each new entry is on a new line
+Here is an example
+thx = https://youtu.be/z3Q4WBpCXhs
