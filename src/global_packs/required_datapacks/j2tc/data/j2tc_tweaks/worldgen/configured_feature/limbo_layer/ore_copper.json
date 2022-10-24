@@ -1,0 +1,20 @@
+{
+  "config":
+  {
+    "targets": [
+    {
+      "target":
+      {
+        "tag": "j2tc_tweaks:limbo_layer_main_block",
+        "predicate_type": "minecraft:tag_match"
+      },
+      "state":
+      {
+        "Name": "minecraft:copper_ore"
+      }
+    }],
+    "size": 5,
+    "discard_chance_on_air_exposure": 0
+  },
+  "type": "minecraft:ore"
+}

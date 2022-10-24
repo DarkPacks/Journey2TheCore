@@ -1,7 +1,9 @@
 {
   "type": "minecraft:fill_layer",
-  "config": {
-    "state": {
+  "config":
+  {
+    "state":
+    {
       "Name": "minecraft:water"
     },
     "height": 66

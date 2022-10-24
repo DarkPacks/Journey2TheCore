@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"R#R",
+		"LOL",
+		"CIC"
+	],
+	"key": {
+		"#": {
+			"tag": "forge:glass_panes"
+		},
+		"L": {
+			"tag": "forge:leather"
+		},
+		"I": {
+			"item": "minecraft:stick"
+		},
+		"O": {
+			"item": "minecraft:compass"
+		},
+		"C": {
+			"item": "minecraft:comparator"
+		},
+		"R": {
+			"item": "minecraft:repeater"
+		}
+	},
+	"result": {
+		"item": "adpother:aerometer",
+		"count": 1
+	}
+}

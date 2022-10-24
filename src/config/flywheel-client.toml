@@ -2,7 +2,7 @@
 debugNormals = false
 #Select the backend to use.
 #Allowed Values: OFF, BATCHING, INSTANCING
-backend = "INSTANCING"
+backend = "OFF"
 #Enable or disable instance update limiting with distance.
 limitUpdates = true
 

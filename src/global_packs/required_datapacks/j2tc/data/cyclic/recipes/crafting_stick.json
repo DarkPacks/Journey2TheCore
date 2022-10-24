@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+		" t",
+		"s "
+	],
+  "key":
+  {
+    "t":
+    {
+      "tag": "forge:workbenches"
+    },
+    "s":
+    {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result":
+  {
+    "item": "cyclic:crafting_stick"
+  }
+}

@@ -1,27 +1,29 @@
 {
   "feature": "minecraft:spring_nether_open",
   "placement": [
+  {
+    "count": 16,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "height":
     {
-      "count": 128,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "height": {
-        "min_inclusive": {
-          "above_bottom": 64
-        },
-        "max_inclusive": {
-          "absolute": 688
-        },
-        "type": "minecraft:uniform"
+      "min_inclusive":
+      {
+        "absolute": -60
       },
-      "type": "minecraft:height_range"
+      "max_inclusive":
+      {
+        "absolute": -4
+      },
+      "type": "minecraft:uniform"
     },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    "type": "minecraft:height_range"
+  },
+  {
+    "type": "minecraft:biome"
+  }]
 }

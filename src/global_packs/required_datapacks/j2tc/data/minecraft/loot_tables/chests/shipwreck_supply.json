@@ -2,7 +2,8 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
+      "rolls":
+      {
         "type": "minecraft:uniform",
         "min": 3,
         "max": 10
@@ -12,109 +13,117 @@
         {
           "type": "minecraft:item",
           "weight": 8,
+          "name": "minecraft:paper",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 12
               },
               "add": false
             }
-          ],
-          "name": "minecraft:paper"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 7,
+          "name": "minecraft:potato",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 6
               },
               "add": false
             }
-          ],
-          "name": "minecraft:potato"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 7,
+          "name": "minecraft:moss_block",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               },
               "add": false
             }
-          ],
-          "name": "minecraft:moss_block"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 7,
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 6
               },
               "add": false
             }
-          ],
-          "name": "minecraft:poisonous_potato"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 7,
+          "name": "minecraft:carrot",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               },
               "add": false
             }
-          ],
-          "name": "minecraft:carrot"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 7,
+          "name": "minecraft:wheat",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 8,
                 "max": 21
               },
               "add": false
             }
-          ],
-          "name": "minecraft:wheat"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 10,
+          "name": "minecraft:suspicious_stew",
           "functions": [
             {
               "function": "minecraft:set_stew_effect",
               "effects": [
                 {
                   "type": "minecraft:night_vision",
-                  "duration": {
+                  "duration":
+                  {
                     "type": "minecraft:uniform",
                     "min": 7,
                     "max": 10
@@ -122,7 +131,8 @@
                 },
                 {
                   "type": "minecraft:saturation",
-                  "duration": {
+                  "duration":
+                  {
                     "type": "minecraft:uniform",
                     "min": 7,
                     "max": 10
@@ -130,7 +140,8 @@
                 },
                 {
                   "type": "minecraft:poison",
-                  "duration": {
+                  "duration":
+                  {
                     "type": "minecraft:uniform",
                     "min": 10,
                     "max": 20
@@ -138,7 +149,8 @@
                 },
                 {
                   "type": "minecraft:jump_boost",
-                  "duration": {
+                  "duration":
+                  {
                     "type": "minecraft:uniform",
                     "min": 7,
                     "max": 10
@@ -146,7 +158,8 @@
                 },
                 {
                   "type": "minecraft:blindness",
-                  "duration": {
+                  "duration":
+                  {
                     "type": "minecraft:uniform",
                     "min": 5,
                     "max": 7
@@ -154,7 +167,8 @@
                 },
                 {
                   "type": "minecraft:weakness",
-                  "duration": {
+                  "duration":
+                  {
                     "type": "minecraft:uniform",
                     "min": 6,
                     "max": 8
@@ -162,143 +176,108 @@
                 }
               ]
             }
-          ],
-          "name": "minecraft:suspicious_stew"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 6,
+          "name": "minecraft:coal",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 8
               },
               "add": false
             }
-          ],
-          "name": "minecraft:coal"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 5,
+          "name": "minecraft:rotten_flesh",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 5,
                 "max": 24
               },
               "add": false
             }
-          ],
-          "name": "minecraft:rotten_flesh"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "minecraft:pumpkin",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               },
               "add": false
             }
-          ],
-          "name": "minecraft:pumpkin"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "minecraft:bamboo",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               },
               "add": false
             }
-          ],
-          "name": "minecraft:bamboo"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 3,
+          "name": "minecraft:gunpowder",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
               },
               "add": false
             }
-          ],
-          "name": "minecraft:gunpowder"
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:tnt",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
+              "count":
+              {
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
               "add": false
             }
-          ],
-          "name": "minecraft:tnt"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:leather_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:leather_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:leather_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:leather_boots"
+          ]
         }
       ]
     }

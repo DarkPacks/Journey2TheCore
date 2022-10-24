@@ -1,0 +1,65 @@
+{
+  "conditions": {
+    "New Condition": {
+      "type": "null"
+    }
+  },
+  "outcomes": {
+    "Push Player (Multiple)": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "name": "Push Player",
+              "type": "constant",
+              "displayName": "Push"
+            },
+            {
+              "events": [
+                {
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "name": "Push Player",
+                      "type": "constant",
+                      "displayName": "Push"
+                    },
+                    {
+                      "events": [
+                        {
+                          "conditions": [],
+                          "outcomes": [
+                            {
+                              "name": "Push Player",
+                              "type": "constant",
+                              "displayName": "Push"
+                            }
+                          ],
+                          "allowsOtherEventsToTrigger": true,
+                          "delay": "20"
+                        }
+                      ],
+                      "type": "event"
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true,
+                  "delay": "10"
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Push Player (Single)": {
+      "command": "/swapthings playernudger $playerName $user",
+      "executeAsSelf": true,
+      "type": "command"
+    }
+  },
+  "events": {}
+}

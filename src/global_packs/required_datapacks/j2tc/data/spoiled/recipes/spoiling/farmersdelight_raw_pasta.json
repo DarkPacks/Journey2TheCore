@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "farmersdelight:raw_pasta"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

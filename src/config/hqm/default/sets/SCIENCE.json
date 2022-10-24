@@ -2,6 +2,53 @@
   "name": "SCIENCE",
   "quests": [
     {
+      "uuid": "4247ea78-12ee-4b40-97f7-2e56d609bfdb",
+      "name": {
+        "text": "Filtered",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 203,
+      "y": 20,
+      "icon": {
+        "id": "adpother:iron_filter_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "adpother:iron_filter_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d8d45881-27d1-476a-a6fb-1f84a24b1b35"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:white_wool",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "9e0d42c2-06b5-42fd-9af3-8172a23b8dbe",
       "name": {
         "text": "Smelter",
@@ -115,6 +162,56 @@
       "commandrewards": []
     },
     {
+      "uuid": "00b57930-9070-4e63-824b-00308f27ffec",
+      "name": {
+        "text": "DYNO MITE",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 43,
+      "y": 190,
+      "icon": {
+        "id": "dabomb:dynamite",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dabomb:dynamite",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dabomb:sticky_dynamite",
+          "Count": 4
+        },
+        {
+          "id": "dabomb:bouncy_dynamite",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "738f68f7-82e3-419f-a226-490cfffa5f9c",
       "name": {
         "text": "Generator",
@@ -218,6 +315,72 @@
       "commandrewards": []
     },
     {
+      "uuid": "c6db8af2-b627-4a5e-b18f-1a2e3547dc7a",
+      "name": {
+        "text": "Da Bomb",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 18,
+      "y": 189,
+      "icon": {
+        "id": "dabomb:bomb",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dabomb:bomb",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dabomb:bouncy_bomb",
+          "Count": 1
+        },
+        {
+          "id": "dabomb:sticky_bomb",
+          "Count": 1
+        },
+        {
+          "id": "dabomb:bomb_fish",
+          "Count": 1
+        },
+        {
+          "id": "dabomb:dry_bomb",
+          "Count": 1
+        },
+        {
+          "id": "dabomb:water_bomb",
+          "Count": 1
+        },
+        {
+          "id": "dabomb:lava_bomb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "7d47bc9d-fea2-472b-ae62-fe9c101bd55b",
       "name": {
         "text": "Distillation",
@@ -301,6 +464,57 @@
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d8d45881-27d1-476a-a6fb-1f84a24b1b35",
+      "name": {
+        "text": "Clean It Up!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 174,
+      "y": 21,
+      "icon": {
+        "id": "adpother:iron_vacuum_bag",
+        "Count": 1,
+        "tag": "{Damage:0,Fullness:{capacity:128,dust:20}}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "adpother:iron_vacuum_bag",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "adpother:iron_vacuum_tube",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -476,6 +690,48 @@
           "Count": 5
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2655d14f-2ae1-473c-a94e-002e1bc0da53",
+      "name": {
+        "text": "Pump It Up!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 230,
+      "y": 21,
+      "icon": {
+        "id": "adchimneys:stone_pump",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "adchimneys:stone_pump",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4247ea78-12ee-4b40-97f7-2e56d609bfdb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "adchimneys:pipe",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {

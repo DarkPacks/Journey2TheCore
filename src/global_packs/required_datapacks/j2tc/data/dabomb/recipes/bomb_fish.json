@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "GSG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:gunpowder"
+    },
+    "S": {
+      "tag": "forge:sand"
+    },
+    "P": {
+      "item": "minecraft:pufferfish"
+    }
+  },
+  "result": {
+    "item": "dabomb:bomb_fish",
+    "count": 2
+  }
+}

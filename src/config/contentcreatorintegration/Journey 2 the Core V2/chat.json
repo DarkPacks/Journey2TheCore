@@ -17,7 +17,7 @@
             ],
             "outcomes": [
               {
-                "name": "Fake Crash (Chance for a Real Crash)",
+                "name": "Countdown 5 (Random Color)",
                 "type": "constant"
               }
             ],

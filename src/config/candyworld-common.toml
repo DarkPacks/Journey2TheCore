@@ -6,9 +6,15 @@
 
 #Biome settings
 [Biome]
-	#Overworld gummy swamp biome weight. 0 to prevent generation in overworld
+	#Overworld cotton candy plains biome weight. 0 to prevent generation in overworld
 	#Range: > 0
 	weightCottonCandyPlains = 0
+	#Overworld chocolate forest biome weight. 0 to prevent generation in overworld
+	#Range: > 0
+	weightChocolateForest = 1
+	#Overworld gummy swamp biome weight. 0 to prevent generation in overworld
+	#Range: > 0
+	weightGummySwamp = 1
 
 #Mob settings
 [Mobs]

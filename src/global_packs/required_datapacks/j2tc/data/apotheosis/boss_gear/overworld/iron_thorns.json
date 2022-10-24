@@ -2,76 +2,123 @@
   "weight": 80,
   "quality": 5,
   "mainhands": [
+  {
+    "weight": 100,
+    "stack":
     {
-      "weight": 3,
-      "stack":
-      {
-        "item": "minecraft:iron_sword"
-      }
-    },
-    {
-      "weight": 3,
-      "stack":
-      {
-        "item": "minecraft:iron_axe"
-      }
-    },
-    {
-      "weight": 2,
-      "stack":
-      {
-        "item": "minecraft:iron_pickaxe"
-      }
-    },
-    {
-      "weight": 2,
-      "stack":
-      {
-        "item": "minecraft:iron_shovel"
-      }
+      "item": "tconstruct:pickaxe",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:sturdy\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":398.75f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f}}"
     }
-  ],
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:mattock",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:knockback\"},{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:hoe_till\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":3.8500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":498.4375f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.6000004f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:pickadze",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:bane_of_sssss\"},{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.15f,\"tconstruct:durability\":1.3f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":2.875f,\"tconstruct:attack_speed\":1.3f,\"tconstruct:durability\":518.375f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":4.5f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:hand_axe",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":8.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":398.75f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:broad_axe",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:4s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.65f,\"tconstruct:durability\":4.25f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":11.55f,\"tconstruct:attack_speed\":0.6f,\"tconstruct:durability\":1870.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":1.8000001f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:kama",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":1.5f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":398.75f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:scythe",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:4s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:silky_aoe_shears\"},{level:1s,name:\"tconstruct:harvest\"},{level:1s,name:\"tconstruct:hoe_till\"}],tic_multipliers:{\"tconstruct:durability\":2.5f,\"tconstruct:mining_speed\":0.45f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":0.7f,\"tconstruct:durability\":1100.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":2.6999998f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:dagger",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:2s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":3.25f,\"tconstruct:attack_speed\":2.0f,\"tconstruct:durability\":268.125f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":4.5f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:sword",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":5.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":438.625f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.0f}}"
+    }
+  },
+  {
+    "weight": 100,
+    "stack":
+    {
+      "item": "tconstruct:cleaver",
+      "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:2s,name:\"tconstruct:severing\"},{level:4s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:silky_aoe_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.5f,\"tconstruct:durability\":3.5f,\"tconstruct:mining_speed\":0.25f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:durability\":1540.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":1.5f}}"
+    }
+  }],
   "offhands": [],
   "boots": [
+  {
+    "weight": 1,
+    "stack":
     {
-      "weight": 1,
-      "stack":
-      {
-        "item": "minecraft:iron_boots",
-        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
-      }
+      "item": "minecraft:iron_boots",
+      "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
     }
-  ],
+  }],
   "leggings": [
+  {
+    "weight": 1,
+    "stack":
     {
-      "weight": 1,
-      "stack":
-      {
-        "item": "minecraft:iron_leggings",
-        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
-      }
+      "item": "minecraft:iron_leggings",
+      "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
     }
-  ],
+  }],
   "chestplates": [
+  {
+    "weight": 1,
+    "stack":
     {
-      "weight": 1,
-      "stack":
-      {
-        "item": "minecraft:iron_chestplate",
-        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
-      }
+      "item": "minecraft:iron_chestplate",
+      "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
     }
-  ],
+  }],
   "helmets": [
+  {
+    "weight": 1,
+    "stack":
     {
-      "weight": 1,
-      "stack":
-      {
-        "item": "minecraft:iron_helmet",
-        "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
-      }
+      "item": "minecraft:iron_helmet",
+      "nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}"
     }
-  ],
+  }],
   "tags": [
     "overworld"
   ]

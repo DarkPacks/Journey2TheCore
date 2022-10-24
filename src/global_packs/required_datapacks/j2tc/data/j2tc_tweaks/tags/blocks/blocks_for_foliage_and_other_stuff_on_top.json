@@ -11,9 +11,9 @@
     "minecraft:stone",
     "minecraft:warped_nylium",
     "rechiseled:dirt_muddy",
-    {
-      "id": "create:ochrum",
-      "required": false
-    }
+    "create:ochrum",
+    "minecraft:snow_block",
+    "minecraft:sand",
+    "minecraft:red_sand"
   ]
 }

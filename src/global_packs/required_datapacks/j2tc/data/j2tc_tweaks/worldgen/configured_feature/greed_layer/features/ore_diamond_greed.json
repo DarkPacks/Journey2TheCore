@@ -1,0 +1,21 @@
+{
+  "config":
+  {
+    "targets": [
+      {
+        "target":
+        {
+          "tag": "j2tc_tweaks:greed_layer_main_stone_block",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state":
+        {
+          "Name": "turkeydevutil:greed_diamond_ore"
+        }
+      }
+    ],
+    "size": 4,
+    "discard_chance_on_air_exposure": 0
+  },
+  "type": "minecraft:ore"
+}

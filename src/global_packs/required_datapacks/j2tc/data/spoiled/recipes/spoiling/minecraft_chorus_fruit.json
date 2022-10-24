@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "minecraft:chorus_fruit"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

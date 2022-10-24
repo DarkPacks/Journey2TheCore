@@ -1,42 +1,38 @@
 {
   "effects":
   {
-    "mood_sound":
-    {
-      "sound": "minecraft:ambient.crimson_forest.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
+    "sky_color": 7254527,
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
     "additions_sound":
     {
       "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.0111
     },
-    "music":
+    "water_fog_color": 3866888,
+    "mood_sound":
     {
-      "sound": "minecraft:music.nether.crimson_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
+      "tick_delay": 6000,
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "block_search_extent": 8,
+      "offset": 2.0
     },
     "particle":
     {
+      "probability": 0.025,
       "options":
       {
         "type": "minecraft:crimson_spore"
-      },
-      "probability": 0.025
+      }
     },
-    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
-    "sky_color": 7254527,
+    "water_color": 8914952,
     "fog_color": 3343107,
-    "water_color": 4159204,
-    "water_fog_color": 329011
-  },
-  "carvers":
-  {
-    "air": "minecraft:nether_cave"
+    "music":
+    {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "sound": "minecraft:music.nether.crimson_forest",
+      "replace_current_music": false
+    }
   },
   "features": [
     [],
@@ -58,8 +54,7 @@
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether",
       "minecraft:ore_ancient_debris_large",
-      "minecraft:ore_debris_small",
-"j2tc_tweaks:heresy_transition/features/deep_dark_portal_block"
+      "minecraft:ore_debris_small"
     ],
     [],
     [
@@ -71,47 +66,49 @@
       "minecraft:crimson_forest_vegetation"
     ]
   ],
+  "category": "nether",
+  "carvers":
+  {
+    "air": "minecraft:nether_cave"
+  },
+  "spawn_costs":
+  {},
   "spawners":
   {
-    "monster": [
-      {
-        "type": "minecraft:zombified_piglin",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 9,
-        "minCount": 3,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:piglin",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 4
-      }
-    ],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
-    "misc": []
+    "monster": [
+    {
+      "weight": 1,
+      "minCount": 2,
+      "type": "minecraft:zombified_piglin",
+      "maxCount": 4
+    },
+    {
+      "weight": 9,
+      "minCount": 3,
+      "type": "minecraft:hoglin",
+      "maxCount": 4
+    },
+    {
+      "weight": 5,
+      "minCount": 3,
+      "type": "minecraft:piglin",
+      "maxCount": 4
+    }],
+    "misc": [],
+    "ambient": [],
+    "creature": [
+    {
+      "weight": 60,
+      "minCount": 1,
+      "type": "minecraft:strider",
+      "maxCount": 2
+    }]
   },
-  "spawn_costs":
-  {},
   "precipitation": "none",
-  "temperature": 2.0,
   "downfall": 0.0,
-  "category": "nether"
+  "temperature": 2.0
 }

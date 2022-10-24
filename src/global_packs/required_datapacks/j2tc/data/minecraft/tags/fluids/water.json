@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:flowing_water",
+    "minecraft:water",
+    "tconstruct:blood",
+    "tconstruct:flowing_blood",
+    "candyworld:fluid_chocolate_source",
+    "candyworld:fluid_chocolate_flowing"
+  ]
+}

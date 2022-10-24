@@ -341,8 +341,9 @@
             ],
             "outcomes": [
               {
-                "name": "Push Player",
-                "type": "constant"
+                "name": "Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -891,8 +892,9 @@
             ],
             "outcomes": [
               {
-                "name": "Push Player",
-                "type": "constant"
+                "name": "Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
               }
             ],
             "allowsOtherEventsToTrigger": true

@@ -1,27 +1,29 @@
 {
   "feature": "minecraft:ore_dirt",
   "placement": [
+  {
+    "count": 7,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "height":
     {
-      "count": 7,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "height": {
-        "min_inclusive": {
-          "absolute": 0
-        },
-        "max_inclusive": {
-          "absolute": 264
-        },
-        "type": "minecraft:uniform"
+      "min_inclusive":
+      {
+        "absolute": 4
       },
-      "type": "minecraft:height_range"
+      "max_inclusive":
+      {
+        "absolute": 130
+      },
+      "type": "minecraft:uniform"
     },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    "type": "minecraft:height_range"
+  },
+  {
+    "type": "minecraft:biome"
+  }]
 }

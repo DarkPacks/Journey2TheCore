@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "thermal:frost_melon_slice"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

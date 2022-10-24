@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "nameless_trinkets:gods_crown"
+  },
+  "result":
+  {
+    "item": "nameless_trinkets:cracked_crown"
+  }
+}

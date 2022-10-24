@@ -1,9 +1,13 @@
 {
   "feature": "j2tc_tweaks:chance_cubes",
-  "placement": [
+  "placement":
+  [
     {
       "count": 20,
       "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:biome"
     },
     {
       "type": "minecraft:in_square"
@@ -15,7 +19,7 @@
         "type": "minecraft:uniform",
         "min_inclusive":
         {
-          "absolute": 0
+          "absolute": 1
         },
         "max_inclusive":
         {
@@ -24,14 +28,12 @@
       }
     },
     {
-      "type": "minecraft:biome"
-    },
-    {
       "type": "minecraft:block_predicate_filter",
       "predicate":
       {
         "type": "minecraft:matching_block_tag",
-        "offset": [
+        "offset":
+        [
           0,
           1,
           0

@@ -13,11 +13,21 @@
   {
     "dimension": "minecraft:overworld",
     "mod": "candyworld",
-    "block": [
+    "block":
+    [
       "candyworld:red_gummy_block",
       "candyworld:green_gummy_block",
       "candyworld:white_gummy_block",
-      "candyworld:orange_gummy_block"
+      "candyworld:orange_gummy_block",
+      "candyworld:chocolate_covered_white_brownie",
+      "candyworld:milk_brownie_block",
+      "candyworld:white_brownie_block",
+      "candyworld:candy_grass_block",
+      "candyworld:crystallized_sugar",
+      "candyworld:dark_brownie_block",
+      "candyworld:white_red_candy_cane_block",
+      "candyworld:white_green_candy_cane_block",
+      "candyworld:red_green_candy_cane_block"
     ],
     "result": "allow"
   },
@@ -38,7 +48,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:stray",
       "minecraft:husk"
     ],
@@ -55,7 +66,8 @@
     "potion": "minecraft:glowing,10000,1"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:stray",
       "minecraft:husk"
     ],
@@ -70,7 +82,8 @@
     "potion": "minecraft:glowing,10000,1"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -86,7 +99,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -102,7 +116,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -118,7 +133,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -134,7 +150,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -148,7 +165,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -161,7 +179,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -175,7 +194,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -188,7 +208,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -202,7 +223,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -215,7 +237,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "goblintraders:goblin_trader",
       "goblintraders:vein_goblin_trader"
     ],
@@ -230,7 +253,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "goblintraders:goblin_trader",
       "goblintraders:vein_goblin_trader"
     ],
@@ -245,7 +269,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "goblintraders:goblin_trader",
       "goblintraders:vein_goblin_trader"
     ],
@@ -260,7 +285,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "goblintraders:goblin_trader",
       "goblintraders:vein_goblin_trader"
     ],
@@ -275,20 +301,400 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "gamestage": "quest_0",
     "onjoin": true,
-    "helditem": "minecraft:wooden_sword",
+    "helditem":
+    [
+      {
+        "item": "tconstruct:sword",
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:bone",
+            "tconstruct:bone"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#acacia",
+            "tconstruct:wood#acacia"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#bamboo",
+            "tconstruct:wood#bamboo"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#birch",
+            "tconstruct:wood#birch"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#dark_oak",
+            "tconstruct:wood#dark_oak"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#jungle",
+            "tconstruct:wood#jungle"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#oak",
+            "tconstruct:wood#oak"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:flint",
+            "tconstruct:wood#spruce",
+            "tconstruct:wood#spruce"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#acacia",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#bamboo",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#birch",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#dark_oak",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#jungle",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#oak",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood#spruce",
+            "tconstruct:flint",
+            "tconstruct:flint"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#acacia",
+            "tconstruct:wood#acacia"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#bamboo",
+            "tconstruct:wood#bamboo"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#birch",
+            "tconstruct:wood#birch"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#dark_oak",
+            "tconstruct:wood#dark_oak"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#jungle",
+            "tconstruct:wood#jungle"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#oak",
+            "tconstruct:wood#oak"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bone",
+            "tconstruct:wood#spruce",
+            "tconstruct:wood#spruce"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#acacia",
+            "tconstruct:wood#acacia"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#bamboo",
+            "tconstruct:wood#bamboo"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#birch",
+            "tconstruct:wood#birch"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#dark_oak",
+            "tconstruct:wood#dark_oak"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#jungle",
+            "tconstruct:wood#jungle"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#oak",
+            "tconstruct:wood#oak"
+          ]
+        }
+      },
+      {
+        "item": "tconstruct:sword",
+        "factor": 100.0,
+        "nbt":
+        {
+          "tic_materials":
+          [
+            "tconstruct:bloodbone",
+            "tconstruct:wood#spruce",
+            "tconstruct:wood#spruce"
+          ]
+        }
+      }
+    ],
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 0.75,
@@ -296,26 +702,52 @@
     "gamestage": "quest_1",
     "minlight": 0,
     "maxlight": 7,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:flint",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "gamestage": "quest_1",
     "onjoin": true,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:flint",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 1.0,
@@ -329,7 +761,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 1.0,
@@ -342,7 +775,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 1.2,
@@ -356,7 +790,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "healthmultiply": 1.2,
@@ -369,7 +804,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:wither_skeleton"
     ],
     "healthmultiply": 0.75,
@@ -377,26 +813,52 @@
     "gamestage": "quest_1",
     "minlight": 0,
     "maxlight": 7,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:rock#granite",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:wither_skeleton"
     ],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "gamestage": "quest_1",
     "onjoin": true,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:rock#granite",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:wither_skeleton"
     ],
     "healthmultiply": 1.0,
@@ -404,26 +866,52 @@
     "gamestage": "quest_2",
     "minlight": 0,
     "maxlight": 7,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:rock#granite",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:wither_skeleton"
     ],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "gamestage": "quest_2",
     "onjoin": true,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:rock#granite",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 0.8,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:wither_skeleton"
     ],
     "healthmultiply": 1.2,
@@ -431,26 +919,52 @@
     "gamestage": "quest_3",
     "minlight": 0,
     "maxlight": 7,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:rock#granite",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 1.0,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:wither_skeleton"
     ],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "gamestage": "quest_3",
     "onjoin": true,
-    "helditem": "minecraft:stone_sword",
+    "helditem":
+    {
+      "item": "tconstruct:sword",
+      "nbt":
+      {
+        "tic_materials":
+        [
+          "tconstruct:rock#granite",
+          "tconstruct:bone",
+          "tconstruct:bone"
+        ]
+      }
+    },
     "damageadd": 0,
     "speedmultiply": 1.0,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -469,7 +983,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -488,7 +1003,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "player_mobs:player_mob"
     ],
     "healthmultiply": 0.75,
@@ -500,7 +1016,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "player_mobs:player_mob"
     ],
     "healthmultiply": 0.75,
@@ -511,7 +1028,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "minecraft:zombie_villager",
@@ -529,7 +1047,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "minecraft:zombie_villager",
@@ -547,7 +1066,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -555,8 +1075,7 @@
       "tconstruct:ender_slime",
       "minecraft:enderman",
       "graveyard:ghoul",
-      "graveyard:revenant",
-      "core_creepers:dirt_creeper"
+      "graveyard:revenant"
     ],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
@@ -568,7 +1087,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -589,7 +1109,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -610,7 +1131,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -631,7 +1153,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:cluster_creeper"
     ],
@@ -644,7 +1167,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:cluster_creeper"
     ],
@@ -657,7 +1181,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:cluster_creeper"
     ],
@@ -671,7 +1196,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:cluster_creeper"
     ],
@@ -684,7 +1210,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:cluster_creeper"
     ],
@@ -698,7 +1225,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:cluster_creeper"
     ],
@@ -711,7 +1239,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
@@ -726,7 +1255,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
@@ -739,7 +1269,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
@@ -752,7 +1283,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:pig"
     ],
     "healthmultiply": 1.0,
@@ -762,8 +1294,8 @@
     "result": "allow"
   },
   {
-    "mob": [
-      "alexsmobs:skelewag",
+    "mob":
+    [
       "alexsmobs:lobster",
       "alexsmobs:comb_jelly",
       "alexsmobs:crocodile"
@@ -775,7 +1307,8 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "artifacts:mimic"
     ],
     "healthmultiply": 1.0,
@@ -785,20 +1318,21 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "alexsmobs:raccoon"
     ],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "minlight": 0,
     "maxlight": 7,
-    "onjoin": true,
     "damageadd": 0,
     "speedmultiply": 1.0,
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
       "alexsmobs:raccoon"
     ],
     "healthmultiply": 1.0,
@@ -809,7 +1343,170 @@
     "result": "allow"
   },
   {
-    "mob": [
+    "mob":
+    [
+      "alexsmobs:seagull",
+      "alexsmobs:crow",
+      "alexsmobs:crimson_mosquito"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "minlight": 0,
+    "maxlight": 7,
+    "damageadd": 0,
+    "speedmultiply": 1.0,
+    "result": "allow"
+  },
+  {
+    "mob":
+    [
+      "alexsmobs:seagull",
+      "alexsmobs:crow",
+      "alexsmobs:crimson_mosquito"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "onjoin": true,
+    "damageadd": 0,
+    "speedmultiply": 1.0,
+    "result": "allow"
+  },
+  {
+    "mob":
+    [
+      "alexsmobs:void_worm",
+      "alexsmobs:void_worm_part"
+    ],
+    "healthmultiply": 0.6,
+    "damagemultiply": 0.6,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "onjoin": true,
+    "speedmultiply": 0.6,
+    "result": "allow"
+  },
+  {
+    "mob":
+    [
+      "alexsmobs:void_worm",
+      "alexsmobs:void_worm_part"
+    ],
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.7,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "onjoin": true,
+    "speedmultiply": 0.7,
+    "result": "allow"
+  },
+  {
+    "mob":
+    [
+      "alexsmobs:void_worm",
+      "alexsmobs:void_worm_part"
+    ],
+    "healthmultiply": 0.8,
+    "damagemultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "onjoin": true,
+    "speedmultiply": 0.8,
+    "result": "allow"
+  },
+  {
+    "mob":
+    [
+      "alexsmobs:void_worm",
+      "alexsmobs:void_worm_part"
+    ],
+    "healthmultiply": 0.9,
+    "damagemultiply": 0.9,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "onjoin": true,
+    "speedmultiply": 0.9,
+    "result": "allow"
+  },
+  {
+    "mob":
+    [
+      "alexsmobs:void_worm",
+      "alexsmobs:void_worm_part"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "onjoin": true,
+    "speedmultiply": 1.0,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:bat",
+    "mincount": 8,
+    "result": "deny"
+  },
+  {
+    "mob":
+    [
+      "born_in_chaos_v1:decrepit_skeleton",
+      "born_in_chaos_v1:decaying_zombie",
+      "born_in_chaos_v1:zombiesina_barrel",
+      "born_in_chaos_v1:zombieswith_door"
+    ],
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+    "mob":
+    [
+      "born_in_chaos_v1:decrepit_skeleton",
+      "born_in_chaos_v1:decaying_zombie",
+      "born_in_chaos_v1:zombiesina_barrel",
+      "born_in_chaos_v1:zombieswith_door"
+    ],
+    "minlight": 8,
+    "maxlight": 15,
+    "result": "deny"
+  },
+  {
+    "mob":
+    [
+      "born_in_chaos_v1:decrepit_skeleton",
+      "born_in_chaos_v1:decaying_zombie",
+      "born_in_chaos_v1:zombiesina_barrel",
+      "born_in_chaos_v1:zombieswith_door"
+    ],
+    "mincount": 0,
+    "minlight": 0,
+    "maxlight": 7,
+    "gamestage": "quest_2",
+    "healthmultiply": 25.0,
+    "result": "allow"
+  },
+  {
+    "mob": "magma_monsters:magma_monster",
+    "mincount": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "magma_monsters:magma_monster_grunt",
+    "mincount": 6,
+    "result": "deny"
+  },
+  {
+    "mob": "born_in_chaos_v1:firelight_n",
+    "mincount": 8,
+    "result": "deny"
+  },
+  {
+    "mob": "born_in_chaos_v1:firelight",
+    "mincount": 8,
+    "result": "deny"
+  },
+  {
+    "mob":
+    [
       "alexsmobs:blobfish",
       "alexsmobs:bunfungus",
       "alexsmobs:centipede",
@@ -841,7 +1538,6 @@
       "graveyard:nightmare",
       "graveyard:reaper",
       "graveyard:skeleton_creeper",
-      "minecraft:glow_squid",
       "minecraft:guardian",
       "minecraft:slime",
       "minecraft:witch",
@@ -850,7 +1546,55 @@
       "tntslimes:tnt_slime",
       "player_mobs:player_mob",
       "minecraft:zombie",
-      "minecraft:spider"
+      "minecraft:spider",
+      "buddycards:enderling",
+      "thermal:basalz",
+      "thermal:blitz",
+      "thermal:blizz",
+      "born_in_chaos_v1:skeleton_bomb",
+      "born_in_chaos_v1:baby_skeleton",
+      "born_in_chaos_v1:baby_s_2",
+      "born_in_chaos_v1:phantom_creeper",
+      "born_in_chaos_v1:restless_spirit",
+      "born_in_chaos_v1:skeleton_thrasher",
+      "born_in_chaos_v1:pumpkin_spirit",
+      "born_in_chaos_v1:seared_spirit",
+      "born_in_chaos_v1:firelight",
+      "born_in_chaos_v1:diamond_thermite",
+      "born_in_chaos_v1:bonescaller",
+      "born_in_chaos_v1:supreme_bonecaller",
+      "born_in_chaos_v1:bone_imp",
+      "born_in_chaos_v1:bone_imp_2",
+      "born_in_chaos_v1:nightmare_stalker",
+      "born_in_chaos_v1:dark_vortex",
+      "born_in_chaos_v1:wither_strider",
+      "born_in_chaos_v1:dread_hound",
+      "born_in_chaos_v1:fallen_chaos_knight",
+      "born_in_chaos_v1:scarletpersecutor",
+      "born_in_chaos_v1:decrepit_skeleton_n",
+      "born_in_chaos_v1:skeleton_bomb_n",
+      "born_in_chaos_v1:decaying_zombie_n",
+      "born_in_chaos_v1:baby_skeleton_n",
+      "born_in_chaos_v1:phantom_creeper_n",
+      "born_in_chaos_v1:zombieswith_door_n",
+      "born_in_chaos_v1:restless_spirit_n",
+      "born_in_chaos_v1:skeleton_thrasher_n",
+      "born_in_chaos_v1:firelight_n",
+      "born_in_chaos_v1:bonescaller_n",
+      "born_in_chaos_v1:s_bonescaller_n",
+      "born_in_chaos_v1:bone_imp_n",
+      "born_in_chaos_v1:nightmare_stalker_n",
+      "born_in_chaos_v1:dark_vortex_n",
+      "born_in_chaos_v1:wither_strider_n",
+      "born_in_chaos_v1:dread_hound_n",
+      "born_in_chaos_v1:projectile_staffof_blindness",
+      "born_in_chaos_v1:fallenchaosknight_n",
+      "born_in_chaos_v1:projectile_staffof_magic_arrows",
+      "born_in_chaos_v1:phantom_creeper_form",
+      "born_in_chaos_v1:baby_skkl",
+      "born_in_chaos_v1:baby_sk_pow",
+      "born_in_chaos_v1:supreme_bonescaller_s_2",
+      "born_in_chaos_v1:controlled_baby_skeleton"
     ],
     "result": "deny"
   }

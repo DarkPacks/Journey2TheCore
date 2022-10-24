@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "GSG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:gunpowder"
+    },
+    "S": {
+      "tag": "forge:sand"
+    },
+    "#": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "dabomb:dynamite",
+    "count": 3
+  }
+}

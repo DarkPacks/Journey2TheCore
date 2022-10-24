@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "alexsmobs:shrimp_fried_rice"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

@@ -2,7 +2,7 @@
 #General settings
 [General]
 	#Mobs that are exempt from AI modifications [default: [minecraft:iron_golem]
-	AI_Blacklist = ["alexsmobs:seagull", "minecraft:enderman", "minecraft:strider", "luggage:luggage", "strawgolem:strawnggolem", "strawgolem:strawgolem", "minecraft:villager", "alexsmobs:blobfish", "alexsmobs:bunfungus", "alexsmobs:crow", "alexsmobs:dropbear", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:soul_vulture", "core_creepers:super_charged_creeper", "eyesinthedarkness:eyes", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt", "minecraft:chicken", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:cow", "minecraft:donkey", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:iron_golem", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:squid", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "waddles:adelie_penguin", "alexsmobs:tusklin", "turkeydevutil:duck", "alexsmobs:gazelle", "candyworld:gummy_bear", "candyworld:gummy_mouse", "minecraft:panda"]
+	AI_Blacklist = ["alexsmobs:skelewag", "alexsmobs:seagull", "minecraft:enderman", "minecraft:strider", "luggage:luggage", "strawgolem:strawnggolem", "strawgolem:strawgolem", "minecraft:villager", "alexsmobs:blobfish", "alexsmobs:bunfungus", "alexsmobs:crow", "alexsmobs:dropbear", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:roadrunner", "alexsmobs:soul_vulture", "core_creepers:super_charged_creeper", "eyesinthedarkness:eyes", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "magma_monsters:magma_monster", "magma_monsters:magma_monster_grunt", "minecraft:chicken", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:cow", "minecraft:donkey", "minecraft:glow_squid", "minecraft:goat", "minecraft:horse", "minecraft:iron_golem", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:squid", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wandering_trader", "minecraft:wolf", "waddles:adelie_penguin", "alexsmobs:tusklin", "turkeydevutil:duck", "alexsmobs:gazelle", "candyworld:gummy_bear", "candyworld:gummy_mouse", "minecraft:panda"]
 	#Prevents players skipping the night through sleep [default: false]
 	allowSleep = false
 	#Awareness Radius [default: 64]
@@ -37,7 +37,7 @@
 #Advanced settings
 [Advanced]
 	#List of mobs that can dig through blocks [default: [minecraft:zombie]
-	diggerMobs = ["minecraft:zombie", "player_mobs:player_mob", "graveyard:ghoul", "graveyard:revenant"]
+	diggerMobs = ["minecraft:zombie", "player_mobs:player_mob", "graveyard:ghoul", "graveyard:revenant", "born_in_chaos_v1:decaying_zombie", "born_in_chaos_v1:zombiesina_barrel", "born_in_chaos_v1:zombieswith_door"]
 	#List of blocks that digger mobs are forbidden from digging (Format: 'minecraft:wool' prefix with # if mentioning a block tag)
 	diggingBlacklist = []
 	#Is the digging blacklist inverted? [default: false]
@@ -48,9 +48,9 @@
 	#Range: 0.0 ~ 1.0
 	demolitionChance = 0.05
 	#List of mobs that can drop live TNT [default: [minecraft:zombie]
-	demolitionMobs = ["minecraft:zombie", "player_mobs:player_mob", "graveyard:nightmare"]
+	demolitionMobs = ["minecraft:zombie", "player_mobs:player_mob", "graveyard:nightmare", "born_in_chaos_v1:decaying_zombie", "born_in_chaos_v1:zombiesina_barrel", "born_in_chaos_v1:zombieswith_door", "born_in_chaos_v1:skeleton_bomb", "born_in_chaos_v1:skeleton_bomb_n"]
 	#List of mobs that can pillar up and build stairs [default: [minecraft:zombie]
-	buildingMobs = ["minecraft:zombie", "player_mobs:player_mob", "graveyard:nightmare"]
+	buildingMobs = ["minecraft:zombie", "player_mobs:player_mob", "graveyard:nightmare", "born_in_chaos_v1:decaying_zombie", "born_in_chaos_v1:zombiesina_barrel", "born_in_chaos_v1:zombieswith_door"]
 	#If mobs should be allowed to grief blocks [default: false]
 	griefing = true
 	#What blocks will be targeted for destruction when idle (Format: 'minecraft:wool' prefix with # if mentioning a block tag)

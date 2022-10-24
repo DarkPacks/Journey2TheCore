@@ -1,0 +1,31 @@
+{
+  "feature": "j2tc_tweaks:limbo_layer/ore_copper",
+  "placement":
+  [
+    {
+      "count": 16,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 535
+        },
+        "max_inclusive":
+        {
+          "absolute": 620
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    }
+  ]
+}

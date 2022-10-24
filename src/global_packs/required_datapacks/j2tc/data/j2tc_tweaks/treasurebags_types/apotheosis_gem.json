@@ -1,0 +1,13 @@
+{
+  "group": "idk",
+  "displayName":
+  {
+    "text": "Stay a While and Listen"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/apotheosis_gem",
+  "rarity": "uncommon",
+  "bagColor": "#737373",
+  "bagOverlayColor": "#4d4d4d",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

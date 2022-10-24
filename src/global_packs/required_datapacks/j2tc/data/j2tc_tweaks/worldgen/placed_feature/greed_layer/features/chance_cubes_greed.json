@@ -1,43 +1,42 @@
 {
   "feature": "j2tc_tweaks:chance_cubes",
   "placement": [
+  {
+    "count": 32,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "type": "minecraft:height_range",
+    "height":
     {
-      "count": 32,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:height_range",
-      "height":
+      "type": "minecraft:uniform",
+      "min_inclusive":
       {
-        "type": "minecraft:uniform",
-        "min_inclusive":
-        {
-          "absolute": 133
-        },
-        "max_inclusive":
-        {
-          "absolute": 264
-        }
-      }
-    },
-    {
-      "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate":
+        "absolute": 140
+      },
+      "max_inclusive":
       {
-        "type": "minecraft:matching_block_tag",
-        "offset": [
-          0,
-          1,
-          0
-        ],
-        "tag": "j2tc_tweaks:greed_layer_main_stone_block"
+        "absolute": 260
       }
     }
-  ]
+  },
+  {
+    "type": "minecraft:biome"
+  },
+  {
+    "type": "minecraft:block_predicate_filter",
+    "predicate":
+    {
+      "type": "minecraft:matching_block_tag",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "tag": "j2tc_tweaks:greed_layer_main_stone_block"
+    }
+  }]
 }

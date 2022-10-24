@@ -1,0 +1,15 @@
+{
+  "x": 49,
+  "y": -90,
+  "width": 98,
+  "height": 20,
+  "langKey": "Poor Streamer Needs Your Help",
+  "action": "OPEN_URL",
+  "data": "http://darkosto.tv/J2TCMainMenu",
+  "u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 20,
+  "anchor": "BOTTOM_CENTER",
+  "texture": "packmenu:textures/gui/shortbutton.png"
+}

@@ -3,6 +3,8 @@
     "minecraft:rooted_dirt",
     "minecraft:mycelium",
     "minecraft:snow_block",
-    "minecraft:podzol"
+    "minecraft:podzol",
+    "minecraft:sand",
+    "minecraft:red_sand"
   ]
 }

@@ -1,12 +1,16 @@
 {
   "feature": "rocks:spruce_stick",
-  "placement": [
+  "placement":
+  [
+    {
+      "type": "minecraft:count",
+      "count": 128
+    },
     {
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:count",
-      "count": 128
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -15,11 +19,11 @@
         "type": "minecraft:uniform",
         "min_inclusive":
         {
-          "absolute": 528
+          "absolute": 530
         },
         "max_inclusive":
         {
-          "absolute": 688
+          "absolute": 684
         }
       }
     },
@@ -28,7 +32,8 @@
       "predicate":
       {
         "type": "minecraft:matching_block_tag",
-        "offset": [
+        "offset":
+        [
           0,
           -1,
           0

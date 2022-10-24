@@ -1,6 +1,7 @@
 
 [slicer]
 	consume_tool_durability = true
+	ignore_rotation = false
 
 [basin_cooking]
 	enabled = true

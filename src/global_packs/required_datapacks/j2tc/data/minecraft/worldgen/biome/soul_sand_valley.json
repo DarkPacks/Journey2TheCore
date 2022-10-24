@@ -31,8 +31,8 @@
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
     "sky_color": 7254527,
     "fog_color": 1787717,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 8914952,
+    "water_fog_color": 3866888
   },
   "carvers":
   {
@@ -63,8 +63,7 @@
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether",
       "minecraft:ore_ancient_debris_large",
-      "minecraft:ore_debris_small",
-      "j2tc_tweaks:heresy_transition/features/deep_dark_portal_block"
+      "minecraft:ore_debris_small"
     ],
     [],
     [

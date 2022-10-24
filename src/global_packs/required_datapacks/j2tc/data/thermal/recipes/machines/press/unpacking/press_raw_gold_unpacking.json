@@ -1,0 +1,23 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_gold_block"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "candyworld:butter",
+      "count": 1,
+      "chance": 0.75
+    },
+    {
+      "fluid": "thermal:crude_oil",
+      "amount": 1
+    }
+  ],
+  "energy": 400
+}

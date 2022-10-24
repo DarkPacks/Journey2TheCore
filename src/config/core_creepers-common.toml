@@ -120,7 +120,7 @@
 #Dirt WaterCreeper Settings
 ["Dirt WaterCreeper Settings"]
 	#Spawn Dirt Water Creepers
-	dirt_water_creeper_spawns = true
+	dirt_water_creeper_spawns = false
 	#Dirt Water Creeper Group Minimum Size
 	#Range: > 1
 	dirt_water_creeper_min_spawn_size = 1
@@ -142,7 +142,7 @@
 #Stone Lava Creeper Settings
 ["Stone Lava Creeper Settings"]
 	#Spawn Stone Lava Creepers
-	stone_creeper_spawns = true
+	stone_creeper_spawns = false
 	#Stone Lava Creeper Group Minimum Size
 	#Range: > 1
 	stone_lava_creeper_min_spawn_size = 1

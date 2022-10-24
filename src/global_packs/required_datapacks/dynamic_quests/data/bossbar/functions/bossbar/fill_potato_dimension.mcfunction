@@ -1,4 +1,4 @@
-execute as @a[predicate=bossbar:player_in_potato_dimension] run cyclic scoreboard random @s 1 1250 potato_dimension_fill
+execute as @a[predicate=bossbar:player_in_potato_dimension] run cyclic scoreboard random @s 1 1600 potato_dimension_fill
 
 execute in j2tc_tweaks:scp_1689 run execute as @a[predicate=bossbar:player_in_potato_dimension] run execute unless block ~10 ~ ~10 minecraft:bedrock run execute if score @s potato_dimension_fill matches 001 run setblock ~10 ~ ~10 thermal:potato_block replace
 execute in j2tc_tweaks:scp_1689 run execute as @a[predicate=bossbar:player_in_potato_dimension] run execute unless block ~9 ~ ~9 minecraft:bedrock run execute if score @s potato_dimension_fill matches 002 run setblock ~9 ~ ~9 thermal:potato_block replace

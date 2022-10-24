@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "farmersdelight:vegetable_soup"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

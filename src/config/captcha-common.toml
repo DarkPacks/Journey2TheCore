@@ -9,7 +9,7 @@
 	captchaCooldown = 1500
 	#Defines the amount of ticks at the start of a world where no captcha's get requested [Default: 6000]
 	#Range: > 0
-	gracePeriod = 6000
+	gracePeriod = 576000
 
 #Math settings
 [Math]

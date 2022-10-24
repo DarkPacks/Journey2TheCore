@@ -1,12 +1,16 @@
 {
   "feature": "j2tc_tweaks:oreberry_essence",
-  "placement": [
+  "placement":
+  [
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
     {
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:count",
-      "count": 8
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -19,7 +23,7 @@
         },
         "max_inclusive":
         {
-          "absolute": 688
+          "absolute": 685
         }
       }
     }

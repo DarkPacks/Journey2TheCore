@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "alexsmobs:fish_oil"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

@@ -1,27 +1,29 @@
 {
   "feature": "minecraft:ore_coal",
   "placement": [
+  {
+    "count": 64,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "height":
     {
-      "count": 64,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "height": {
-        "min_inclusive": {
-          "absolute": 528
-        },
-        "max_inclusive": {
-          "absolute": 688
-        },
-        "type": "minecraft:uniform"
+      "min_inclusive":
+      {
+        "absolute": 530
       },
-      "type": "minecraft:height_range"
+      "max_inclusive":
+      {
+        "absolute": 685
+      },
+      "type": "minecraft:uniform"
     },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    "type": "minecraft:height_range"
+  },
+  {
+    "type": "minecraft:biome"
+  }]
 }

@@ -113,7 +113,7 @@
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
       },
       "tasks": [
         {
@@ -123,7 +123,7 @@
               "item": {
                 "id": "tconstruct:dagger",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
               }
             }
           ]
@@ -145,7 +145,7 @@
         {
           "id": "tconstruct:dagger",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":66.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":66.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
         }
       ],
       "rewardchoice": [
@@ -325,6 +325,46 @@
       "commandrewards": []
     },
     {
+      "uuid": "b3a633cc-8bf6-4a88-8fa0-f352ea269f4d",
+      "name": {
+        "text": "SWEEP SWEEP SWEEP",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Is your base getting a little dirty?! Do you find dust collecting from all your furnaces and machines?! I\u0027ve got the perfect solution! Using the Broom to sweep your problems away and onto your neighbor\u0027s property!",
+        "isTranslationKey": false
+      },
+      "x": 242,
+      "y": 13,
+      "icon": {
+        "id": "undertherug:broom",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "undertherug:broom",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:trash",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "42056b47-007d-43d1-b17f-7c8a0a8e9f85",
       "name": {
         "text": "Scorched Stone",
@@ -495,8 +535,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 60,
-      "y": 181,
+      "x": 143,
+      "y": 135,
       "icon": {
         "id": "buddycards:buddycard_pack_mob_test_set",
         "Count": 1
@@ -514,7 +554,10 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "813c7bde-eb89-45ec-971d-f35d8531be80",
+        "194356c6-df5a-4270-8cbf-9206db3aa212"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -540,7 +583,7 @@
       "icon": {
         "id": "tconstruct:excavator",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:lightweight\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.3439999f,\"tconstruct:durability\":3146.25f,\"tconstruct:harvest_tier\":\"cyclic:nether_bricks\",\"tconstruct:mining_speed\":3.024f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:lightweight\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.3439999f,\"tconstruct:durability\":3146.25f,\"tconstruct:harvest_tier\":\"cyclic:nether_bricks\",\"tconstruct:mining_speed\":3.024f}}"
       },
       "tasks": [
         {
@@ -550,7 +593,7 @@
               "item": {
                 "id": "tconstruct:excavator",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:4s,name:\"tconstruct:insatiable\"},{level:2s,name:\"tconstruct:knockback\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":5156.25f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:4s,name:\"tconstruct:insatiable\"},{level:2s,name:\"tconstruct:knockback\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":5156.25f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -585,6 +628,52 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "28bda174-6fbc-4c88-925d-087eb9a0a1ab",
+      "name": {
+        "text": "Quivering With Anticipation",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 301,
+      "y": 112,
+      "icon": {
+        "id": "nyfsquiver:basic_quiver",
+        "Count": 1,
+        "tag": "{Damage:0,inventory:{currentslot:0,inventory:{columns:9,rows:1,stack0:{Count:1b,id:\"minecraft:air\"},stack1:{Count:1b,id:\"minecraft:air\"},stack2:{Count:1b,id:\"minecraft:air\"},stack3:{Count:1b,id:\"minecraft:air\"},stack4:{Count:1b,id:\"minecraft:air\"},stack5:{Count:1b,id:\"minecraft:air\"},stack6:{Count:1b,id:\"minecraft:air\"},stack7:{Count:1b,id:\"minecraft:air\"},stack8:{Count:1b,id:\"minecraft:air\"},stacks:9}}}"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "nyfsquiver:basic_quiver",
+                "Count": 1,
+                "tag": "{Damage:0,inventory:{currentslot:0,inventory:{columns:9,rows:1,stack0:{Count:1b,id:\"minecraft:air\"},stack1:{Count:1b,id:\"minecraft:air\"},stack2:{Count:1b,id:\"minecraft:air\"},stack3:{Count:1b,id:\"minecraft:air\"},stack4:{Count:1b,id:\"minecraft:air\"},stack5:{Count:1b,id:\"minecraft:air\"},stack6:{Count:1b,id:\"minecraft:air\"},stack7:{Count:1b,id:\"minecraft:air\"},stack8:{Count:1b,id:\"minecraft:air\"},stacks:9}}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c0e80ad0-6ee8-44e8-b12e-648e5cd189b4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "nyfsquiver:basic_quiver",
+          "Count": 1,
+          "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:socket\":1.0f}},inventory:{currentslot:0,inventory:{columns:9,rows:1,stack0:{Count:1b,id:\"minecraft:air\"},stack1:{Count:1b,id:\"minecraft:air\"},stack2:{Count:1b,id:\"minecraft:air\"},stack3:{Count:1b,id:\"minecraft:air\"},stack4:{Count:1b,id:\"minecraft:air\"},stack5:{Count:1b,id:\"minecraft:air\"},stack6:{Count:1b,id:\"minecraft:air\"},stack7:{Count:1b,id:\"minecraft:air\"},stack8:{Count:1b,id:\"minecraft:air\"},stacks:9}}}"
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -765,7 +854,7 @@
       "icon": {
         "id": "tconstruct:kama",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
       },
       "tasks": [
         {
@@ -775,7 +864,7 @@
               "item": {
                 "id": "tconstruct:kama",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
               },
               "precision": "FUZZY"
             }
@@ -914,8 +1003,8 @@
         "text": "Crossbow is probably important so you don\u0027t die as much!",
         "isTranslationKey": false
       },
-      "x": 252,
-      "y": 25,
+      "x": 301,
+      "y": 55,
       "icon": {
         "id": "minecraft:crossbow",
         "Count": 1,
@@ -1006,7 +1095,7 @@
       "icon": {
         "id": "tconstruct:sledge_hammer",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:overlord\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":6.4125f,\"tconstruct:attack_speed\":0.7125f,\"tconstruct:durability\":3564.0f,\"tconstruct:harvest_tier\":\"cyclic:sandstone\",\"tconstruct:mining_speed\":2.1599998f},tic_volatile_data:{\"tconstruct:overslime_cap\":3763,\"tconstruct:overslime_friend\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:overlord\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":6.4125f,\"tconstruct:attack_speed\":0.7125f,\"tconstruct:durability\":3564.0f,\"tconstruct:harvest_tier\":\"cyclic:sandstone\",\"tconstruct:mining_speed\":2.1599998f},tic_volatile_data:{\"tconstruct:overslime_cap\":3763,\"tconstruct:overslime_friend\":1b}}"
       },
       "tasks": [
         {
@@ -1016,7 +1105,7 @@
               "item": {
                 "id": "tconstruct:sledge_hammer",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:4s,name:\"tconstruct:necrotic\"},{level:2s,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:4s,name:\"tconstruct:necrotic\"},{level:2s,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1056,7 +1145,7 @@
       "icon": {
         "id": "tconstruct:plate_leggings",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1086,7 +1175,7 @@
         {
           "id": "tconstruct:plate_leggings",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1190,6 +1279,46 @@
       "commandrewards": []
     },
     {
+      "uuid": "6a9c4e4e-74ed-42e1-8f88-f5463e865c3b",
+      "name": {
+        "text": "Gotta Catch Em All!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 170,
+      "y": 106,
+      "icon": {
+        "id": "buddycards:buddycard_base3",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": {
+                "text": "Find a Buddy Card",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "buddycards:buddycard_base3",
+                "Count": 1
+              },
+              "adv_name": "j2tc_tweaks:progression/find_buddycard_standard_set"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "b8be04dd-572f-4724-b330-41599ac4442b",
       "name": {
         "text": "Sword",
@@ -1204,7 +1333,7 @@
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":672.10004f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":672.10004f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
       },
       "tasks": [
         {
@@ -1214,7 +1343,7 @@
               "item": {
                 "id": "tconstruct:sword",
                 "Count": 1,
-                "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":672.10004f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":672.10004f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
               },
               "precision": "TAG_FUZZY"
             }
@@ -1326,8 +1455,8 @@
         "text": "What\u0027s this really about?! That\u0027s right! Finding the entire BuddyCard collection!\n\nIf you\u0027re running low on space, throw the BuddyCard Binder into a Curios slot!",
         "isTranslationKey": false
       },
-      "x": 36,
-      "y": 181,
+      "x": 170,
+      "y": 136,
       "icon": {
         "id": "buddycards:buddycard_pack_base",
         "Count": 1
@@ -1346,7 +1475,10 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "813c7bde-eb89-45ec-971d-f35d8531be80",
+        "6a9c4e4e-74ed-42e1-8f88-f5463e865c3b"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1356,7 +1488,7 @@
       ],
       "rewardchoice": [],
       "commandrewards": [
-        "/playertabs setNumberOfTabs 3",
+        "/playertabs addTab",
         "/function j2tc_tweaks:new_inventory_tab_notification"
       ]
     },
@@ -1375,7 +1507,7 @@
       "icon": {
         "id": "tconstruct:plate_boots",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1405,7 +1537,7 @@
         {
           "id": "tconstruct:plate_boots",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1649,7 +1781,7 @@
       "icon": {
         "id": "tconstruct:plate_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1674,7 +1806,7 @@
         {
           "id": "tconstruct:plate_chestplate",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1695,7 +1827,7 @@
       "icon": {
         "id": "tconstruct:plate_helmet",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:nearsighted\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f},tic_upgrades:[{level:1b,name:\"tconstruct:nearsighted\"}]}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:nearsighted\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f},tic_upgrades:[{level:1b,name:\"tconstruct:nearsighted\"}]}"
       },
       "tasks": [
         {
@@ -1720,9 +1852,54 @@
         {
           "id": "tconstruct:plate_helmet",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c0e80ad0-6ee8-44e8-b12e-648e5cd189b4",
+      "name": {
+        "text": "Duck Tails",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Give your duck some Shears and recieve Feathers!",
+        "isTranslationKey": false
+      },
+      "x": 301,
+      "y": 82,
+      "icon": {
+        "id": "minecraft:feather",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:shears",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "TAG_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:feather",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e56945ce-6a1d-449a-933a-ed8c1479bdca"
+      ],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1776,6 +1953,46 @@
           "tag": "{Action:\"ADD\",Mode:\"SINGLE\"}"
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "194356c6-df5a-4270-8cbf-9206db3aa212",
+      "name": {
+        "text": "Buddy Cards!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 144,
+      "y": 106,
+      "icon": {
+        "id": "buddycards:buddycard_mob_test_set1",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": {
+                "text": "Locate a Mob Buddy C",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "buddycards:buddycard_mob_test_set1",
+                "Count": 1
+              },
+              "adv_name": "j2tc_tweaks:progression/find_buddycard_mob_set"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },

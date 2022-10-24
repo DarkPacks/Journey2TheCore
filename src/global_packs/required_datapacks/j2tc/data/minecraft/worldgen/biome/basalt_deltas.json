@@ -31,8 +31,8 @@
     "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "sky_color": 7254527,
     "fog_color": 6840176,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 8914952,
+    "water_fog_color": 3866888
   },
   "carvers":
   {
@@ -65,34 +65,31 @@
       "minecraft:ore_gold_deltas",
       "minecraft:ore_quartz_deltas",
       "minecraft:ore_ancient_debris_large",
-      "minecraft:ore_debris_small",
-      "j2tc_tweaks:heresy_transition/features/deep_dark_portal_block"
+      "minecraft:ore_debris_small"
     ]
   ],
   "spawners":
   {
     "monster": [
-      {
-        "type": "minecraft:ghast",
-        "weight": 40,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:magma_cube",
-        "weight": 100,
-        "minCount": 2,
-        "maxCount": 5
-      }
-    ],
+    {
+      "type": "minecraft:ghast",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:magma_cube",
+      "weight": 100,
+      "minCount": 2,
+      "maxCount": 5
+    }],
     "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
+    {
+      "type": "minecraft:strider",
+      "weight": 60,
+      "minCount": 1,
+      "maxCount": 2
+    }],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

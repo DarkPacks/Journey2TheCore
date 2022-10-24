@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#material_elements:silver_ores",
+    "thermal:silver_ore",
+    "thermal:deepslate_silver_ore",
+    "turkeydevutil:greed_silver_ore"
+  ]
+}

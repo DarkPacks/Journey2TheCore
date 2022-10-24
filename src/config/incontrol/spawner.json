@@ -1,6 +1,7 @@
 [
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton",
       "player_mobs:player_mob"
     ],
@@ -19,11 +20,12 @@
       "maxdist": 120,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 16
+      "maxthis": 12
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton",
       "minecraft:zombie",
       "player_mobs:player_mob"
@@ -43,11 +45,12 @@
       "maxdist": 120,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 24
+      "maxthis": 12
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "player_mobs:player_mob"
     ],
     "persecond": 0.2,
@@ -65,11 +68,12 @@
       "maxdist": 120,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 24
+      "maxthis": 16
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton",
       "minecraft:zombie",
       "player_mobs:player_mob"
@@ -89,11 +93,12 @@
       "maxdist": 120,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 24
+      "maxthis": 12
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton",
       "player_mobs:player_mob"
     ],
@@ -116,7 +121,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:skeleton"
     ],
     "persecond": 0.2,
@@ -134,11 +140,12 @@
       "maxdist": 120,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 12
+      "maxthis": 10
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:zombie"
     ],
     "persecond": 0.2,
@@ -160,7 +167,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "player_mobs:player_mob"
     ],
     "persecond": 0.2,
@@ -301,7 +309,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
@@ -321,11 +330,12 @@
       "maxdist": 120,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 5
+      "maxthis": 4
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
@@ -345,11 +355,12 @@
       "maxdist": 120,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 5
+      "maxthis": 4
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
@@ -369,11 +380,12 @@
       "maxdist": 120,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 5
+      "maxthis": 4
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
@@ -393,11 +405,12 @@
       "maxdist": 120,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 5
+      "maxthis": 4
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:creeper",
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
@@ -417,11 +430,12 @@
       "maxdist": 120,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 5
+      "maxthis": 4
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -444,7 +458,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
@@ -467,7 +482,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "core_creepers:dirt_creeper"
     ],
     "persecond": 0.2,
@@ -485,11 +501,12 @@
       "maxdist": 120,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 5
+      "maxthis": 3
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:enderman",
       "tntslimes:tnt_slime"
     ],
@@ -512,7 +529,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:enderman",
       "tntslimes:tnt_slime"
     ],
@@ -535,7 +553,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:enderman",
       "tntslimes:tnt_slime"
     ],
@@ -558,7 +577,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "minecraft:enderman",
       "tntslimes:tnt_slime"
     ],
@@ -825,7 +845,7 @@
   },
   {
     "mob": "minecraft:ghast",
-    "persecond": 5E-7,
+    "persecond": 0.05,
     "attempts": 1,
     "amount":
     {
@@ -956,7 +976,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "alexsmobs:hammerhead_shark",
       "alexsmobs:frilled_shark"
     ],
@@ -1091,7 +1112,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "alexsmobs:centipede"
     ],
     "persecond": 0.003,
@@ -1181,7 +1203,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "alexsmobs:fly",
       "alexsmobs:hummingbird",
       "alexsmobs:crow",
@@ -1208,8 +1231,8 @@
     }
   },
   {
-    "mob": [
-      "alexsmobs:skelewag",
+    "mob":
+    [
       "alexsmobs:lobster",
       "alexsmobs:comb_jelly",
       "alexsmobs:crocodile"
@@ -1341,7 +1364,7 @@
       "maxdist": 120,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 2
+      "maxthis": 4
     }
   },
   {
@@ -1367,7 +1390,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "alexsmobs:orca",
       "alexsmobs:mimic_octopus"
     ],
@@ -1414,7 +1438,8 @@
     }
   },
   {
-    "mob": [
+    "mob":
+    [
       "candyworld:gummy_mouse",
       "candyworld:gummy_bear"
     ],
@@ -1549,6 +1574,66 @@
       "minheight": 529,
       "maxheight": 688,
       "maxthis": 3
+    }
+  },
+  {
+    "mob": "alexsmobs:seagull",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": "alexsmobs:crow",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": "alexsmobs:crimson_mosquito",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount":
+    {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions":
+    {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 1
     }
   }
 ]

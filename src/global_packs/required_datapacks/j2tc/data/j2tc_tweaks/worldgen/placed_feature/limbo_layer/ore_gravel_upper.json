@@ -1,27 +1,31 @@
 {
   "feature": "minecraft:ore_gravel",
-  "placement": [
+  "placement":
+  [
     {
       "count": 50,
       "type": "minecraft:count"
     },
     {
+      "type": "minecraft:biome"
+    },
+    {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
-          "absolute": 528
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 530
         },
-        "max_inclusive": {
-          "absolute": 688
+        "max_inclusive":
+        {
+          "absolute": 685
         },
         "type": "minecraft:uniform"
       },
       "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

@@ -1,27 +1,31 @@
 {
   "feature": "j2tc_tweaks:ore_limestone",
-  "placement": [
+  "placement":
+  [
     {
       "count": 124,
       "type": "minecraft:count"
     },
     {
+      "type": "minecraft:biome"
+    },
+    {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
-          "absolute": 396
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 397
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 528
         },
         "type": "minecraft:uniform"
       },
       "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

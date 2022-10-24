@@ -1,12 +1,16 @@
 {
   "feature": "rocks:rock",
-  "placement": [
+  "placement":
+  [
+    {
+      "type": "minecraft:count",
+      "count": 128
+    },
     {
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:count",
-      "count": 128
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -15,11 +19,11 @@
         "type": "minecraft:uniform",
         "min_inclusive":
         {
-          "absolute": -64
+          "absolute": 4
         },
         "max_inclusive":
         {
-          "absolute": 400
+          "absolute": 130
         }
       }
     }

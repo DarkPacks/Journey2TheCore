@@ -1,16 +1,16 @@
-
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "crumbs:warped_tile_slab"
+      "item": "minecraft:warped_slab"
     },
     {
-      "item": "crumbs:warped_tile_slab"
+      "item": "minecraft:warped_slab"
     }
   ],
-  "result":{
-    "item": "crumbs:warped_tile",
+  "result":
+  {
+    "item": "minecraft:warped_planks",
     "count": 1
   }
 }

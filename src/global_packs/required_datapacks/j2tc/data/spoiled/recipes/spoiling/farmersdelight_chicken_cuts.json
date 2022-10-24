@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "farmersdelight:chicken_cuts"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

@@ -95,6 +95,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/bomb_bag",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/gears",
           "weight": 50
         },

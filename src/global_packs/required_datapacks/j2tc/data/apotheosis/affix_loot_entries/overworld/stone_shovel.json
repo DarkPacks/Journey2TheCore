@@ -1,0 +1,15 @@
+{
+  "weight": 100,
+  "quality": 1.0,
+  "stack":
+  {
+    "item": "tconstruct:mattock",
+    "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":66.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":1.0f}}"
+  },
+  "type": "BREAKER",
+  "dimensions":
+  [
+    "minecraft:overworld"
+  ],
+  "max_rarity": "rare"
+}

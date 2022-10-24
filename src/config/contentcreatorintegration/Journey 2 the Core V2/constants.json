@@ -859,10 +859,8 @@
           "conditions": [],
           "outcomes": [
             {
-              "command": "/title $playerName title {\"text\":\"3\",\"color\":\"yellow\"}",
-              "executeAsSelf": true,
-              "type": "command",
-              "displayName": "1"
+              "name": "Countdown 5 (Random Color)",
+              "type": "constant"
             },
             {
               "events": [
@@ -870,52 +868,12 @@
                   "conditions": [],
                   "outcomes": [
                     {
-                      "command": "/title $playerName title {\"text\":\"2\",\"color\":\"yellow\"}",
-                      "executeAsSelf": true,
-                      "type": "command",
-                      "displayName": "2"
-                    },
-                    {
-                      "events": [
-                        {
-                          "conditions": [],
-                          "outcomes": [
-                            {
-                              "command": "/title $playerName title {\"text\":\"1\",\"color\":\"yellow\"}",
-                              "executeAsSelf": true,
-                              "type": "command",
-                              "displayName": "1"
-                            },
-                            {
-                              "events": [
-                                {
-                                  "conditions": [],
-                                  "outcomes": [
-                                    {
-                                      "name": "Chance Cubes Surround Player",
-                                      "type": "constant"
-                                    },
-                                    {
-                                      "command": "/title $playerName title {\"text\":\"0...\",\"color\":\"yellow\"}",
-                                      "executeAsSelf": true,
-                                      "type": "command"
-                                    }
-                                  ],
-                                  "delay": "20"
-                                }
-                              ],
-                              "type": "event"
-                            }
-                          ],
-                          "allowsOtherEventsToTrigger": true,
-                          "delay": "20"
-                        }
-                      ],
-                      "type": "event"
+                      "name": "Chance Cubes Surround Player",
+                      "type": "constant"
                     }
                   ],
                   "allowsOtherEventsToTrigger": true,
-                  "delay": "20"
+                  "delay": "101"
                 }
               ],
               "type": "event"
@@ -1346,7 +1304,7 @@
             {
               "times": "10",
               "outcome": {
-                "command": "/summon minecraft:polar_bear $babyBear {Health:75f,CustomNameVisible:1b,Age:-1200,AngerTime:6000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:75}]}",
+                "command": "/summon minecraft:polar_bear $babyBear {Health:75f,CustomNameVisible:1b,Age:-1200,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:75}]}",
                 "executeAsSelf": true,
                 "type": "command"
               },
@@ -1722,7 +1680,7 @@
     },
     "decide_what_mob_to_spawn": {
       "condition": {
-        "name": "adult_spawn_check",
+        "name": "Space Check - 1x2 SolidBlock Underneath",
         "type": "constant",
         "displayName": "Reference Adult Spawn Check"
       },
@@ -1760,7 +1718,7 @@
       "displayName": "Fake Crash"
     },
     "spawn_adult_player_mob": {
-      "command": "/summon player_mobs:player_mob $canSpawnAdult {\"Username\":\"$user\",CustomNameVisible:1b,CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
+      "command": "/summon player_mobs:player_mob $entitySpaceCheck {\"Username\":\"$user\",CustomNameVisible:1b,CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
       "executeAsSelf": true,
       "type": "command",
       "displayName": "Spawn Adult Player Mob"
@@ -1838,7 +1796,7 @@
       "type": "event"
     },
     "spawn_baby_player_mob": {
-      "command": "/summon player_mobs:player_mob $canBabySpawn {\"Username\":\"$user\",\"Color\":\"$uColor\",\"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}}",
+      "command": "/summon player_mobs:player_mob $canBabySpawn {CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}}",
       "executeAsSelf": true,
       "type": "command",
       "displayName": "Spawn Baby Player Mob"
@@ -1846,7 +1804,12 @@
     "spawn_mobs_kill_armor_stand": {
       "events": [
         {
-          "conditions": [],
+          "conditions": [
+            {
+              "name": "Chat Color Full Array",
+              "type": "constant"
+            }
+          ],
           "outcomes": [
             {
               "name": "decide_what_mob_to_spawn",

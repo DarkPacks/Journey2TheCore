@@ -6,60 +6,58 @@
       "bonus_rolls": 1.0,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:flint_shuriken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:quartz_shuriken"
+        },
+        {
           "type": "minecraft:empty"
-				},
+        },
         {
           "type": "minecraft:empty"
-				},
+        },
         {
           "type": "minecraft:empty"
-				},
+        },
         {
           "type": "minecraft:empty"
-				},
+        },
         {
           "type": "minecraft:empty"
-				},
+        },
         {
           "type": "minecraft:empty"
-				},
+        },
         {
-          "type": "minecraft:item",
-          "name": "scraps:shard_flint"
-				},
+          "type": "minecraft:empty"
+        },
         {
-          "type": "minecraft:item",
-          "name": "scraps:shard_glass"
-				},
+          "type": "minecraft:empty"
+        },
         {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				},
+          "type": "minecraft:empty"
+        },
         {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				},
+          "type": "minecraft:empty"
+        },
         {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				},
+          "type": "minecraft:empty"
+        },
         {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				},
-        {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				},
-        {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				},
-        {
-          "type": "minecraft:item",
-          "name": "scraps:junk"
-				}
-			]
-		}
-	]
+          "type": "minecraft:empty"
+        }
+      ]
+    }
+  ]
 }

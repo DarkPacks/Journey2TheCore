@@ -1,6 +1,6 @@
 {
-  "x": -180,
-  "y": 8,
+  "x": -54,
+  "y": -65,
   "width": 98,
   "height": 20,
   "langKey": "menu.quit",
@@ -9,6 +9,6 @@
   "v": 0,
   "hoverU": 0,
   "hoverV": 20,
-  "anchor": "MIDDLE_RIGHT",
+  "anchor": "BOTTOM_CENTER",
   "texture": "packmenu:textures/gui/shortbutton.png"
 }

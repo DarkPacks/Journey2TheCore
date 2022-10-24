@@ -1,32 +1,21 @@
 {
-  "config": {
-    "tries": 1,
-    "xz_spread": 0,
-    "y_spread": 0,
-    "feature": {
-      "feature": {
-        "config": {
-          "to_place": {
-            "state": {
-              "Name": "randomite:randomite_ore"
-            },
-            "type": "minecraft:simple_state_provider"
-          }
-        },
-        "type": "minecraft:simple_block"
-      },
-      "placement": [
+  "config":
+  {
+    "targets": [
+      {
+        "target":
         {
-          "predicate": {
-            "blocks": [
-              "minecraft:air"
-            ],
-            "type": "minecraft:matching_blocks"
-          },
-          "type": "minecraft:block_predicate_filter"
+          "tag": "j2tc_tweaks:greed_layer_ore_placement",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state":
+        {
+          "Name": "turkeydevutil:greed_randomite_ore"
         }
-      ]
-    }
+      }
+    ],
+    "size": 6,
+    "discard_chance_on_air_exposure": 0
   },
-  "type": "minecraft:random_patch"
+  "type": "minecraft:ore"
 }

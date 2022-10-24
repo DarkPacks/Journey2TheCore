@@ -5,12 +5,15 @@
 	#Hide the HUD Quiver when not selecting a shootable item.
 	HIDE = true
 	#The margin on the left of the HUD Quiver.
-	#Range: 16 ~ 1000
-	HORIZONTAL_OFFSET = 16
+	#Range: -1000 ~ 1000
+	HORIZONTAL_OFFSET = 0
 	#The margin on the top of the HUD Quiver.
-	#Range: 16 ~ 1000
-	VERTICAL_OFFSET = 16
+	#Range: -1000 ~ 1000
+	VERTICAL_OFFSET = 0
 	#Scale of the GUI
 	#Range: 0.1 ~ 200.0
 	gui_scale = 1.0
+	#The anchor point of the HUD Quiver.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, HOTBAR_LEFT, HOTBAR_RIGHT
+	ANCHOR = "TOP_LEFT"
 

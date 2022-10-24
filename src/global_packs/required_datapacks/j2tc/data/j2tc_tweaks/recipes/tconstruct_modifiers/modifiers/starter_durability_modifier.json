@@ -2,7 +2,7 @@
   "type": "tconstruct:modifier",
   "inputs": [
     {
-      "item": "minecraft:stick"
+      "item": "cyclic:battery_infinite"
     }
   ],
   "tools":

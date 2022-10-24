@@ -9,12 +9,15 @@
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
-          "above_bottom": 0
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 10
         },
-        "max_inclusive": {
-          "absolute": 528
+        "max_inclusive":
+        {
+          "absolute": 688
         },
         "type": "minecraft:uniform"
       },
@@ -22,10 +25,12 @@
     },
     {
       "direction_of_search": "down",
-      "target_condition": {
+      "target_condition":
+      {
         "type": "minecraft:solid"
       },
-      "allowed_search_condition": {
+      "allowed_search_condition":
+      {
         "blocks": [
           "minecraft:air"
         ],

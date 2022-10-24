@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "createcafe:cassava_root"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

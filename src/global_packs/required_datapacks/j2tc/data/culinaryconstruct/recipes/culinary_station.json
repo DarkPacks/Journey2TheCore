@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "station",
+  "pattern": [
+    "s",
+    "w"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "tag": "minecraft:slabs"
+    },
+    "w":
+    {
+      "tag": "forge:workbenches"
+    }
+  },
+  "result":
+  {
+    "item": "culinaryconstruct:culinary_station"
+  }
+}

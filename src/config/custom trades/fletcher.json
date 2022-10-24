@@ -163,7 +163,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -181,7 +181,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -199,7 +199,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -217,7 +217,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -235,7 +235,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -253,7 +253,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -271,7 +271,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -289,7 +289,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -307,7 +307,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -325,7 +325,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -343,7 +343,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -361,7 +361,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -379,7 +379,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -397,7 +397,7 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
       "offer":
       {
@@ -415,6 +415,60 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   }
+    },
+    {
+      "offer":
+      {
+        "itemKey": "buddycards:buddycard_mob_test_set2",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "nyfsquiver:basic_quiver",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 1,
+      "tradeExp": 20,
+      "tradeLevel": 1
+    },
+    {
+      "offer":
+      {
+        "itemKey": "buddycards:buddycard_mob_test_set11",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "nyfsquiver:copper_quiver",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 1,
+      "tradeExp": 20,
+      "tradeLevel": 2
+    },
+    {
+      "offer":
+      {
+        "itemKey": "buddycards:buddycard_mob_test_set17",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "nyfsquiver:iron_quiver",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 1,
+      "tradeExp": 20,
+      "tradeLevel": 3
+    }
   ]
 }

@@ -1,12 +1,16 @@
 {
   "feature": "j2tc_tweaks:greed_layer/features/soul_brazier",
-  "placement": [
+  "placement":
+  [
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
     {
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:count",
-      "count": 8
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -15,11 +19,11 @@
         "type": "minecraft:uniform",
         "min_inclusive":
         {
-          "absolute": 133
+          "absolute": 140
         },
         "max_inclusive":
         {
-          "absolute": 264
+          "absolute": 260
         }
       }
     },
@@ -28,7 +32,8 @@
       "predicate":
       {
         "type": "minecraft:matching_block_tag",
-        "offset": [
+        "offset":
+        [
           0,
           -1,
           0

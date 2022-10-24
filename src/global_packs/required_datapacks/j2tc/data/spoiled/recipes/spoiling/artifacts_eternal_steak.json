@@ -1,0 +1,12 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "spoiltime": 400,
+  "ingredient":
+  {
+    "item": "artifacts:eternal_steak"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

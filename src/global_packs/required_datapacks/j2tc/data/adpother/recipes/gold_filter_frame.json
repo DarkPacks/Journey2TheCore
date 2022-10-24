@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"G#G",
+		"# #",
+		"G#G"
+	],
+	"key": {
+		"#": {
+			"tag": "forge:glass_panes"
+		},
+		"G": {
+			"tag": "forge:ingots/gold"
+		}
+	},
+	"result": {
+		"item": "adpother:gold_filter_frame",
+		"count": 1
+	}
+}

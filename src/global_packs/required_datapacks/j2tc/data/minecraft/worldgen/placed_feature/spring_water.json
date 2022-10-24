@@ -2,18 +2,21 @@
   "feature": "minecraft:spring_water",
   "placement": [
     {
-      "count": 256,
+      "count": 96,
       "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
-          "above_bottom": 64
+      "height":
+      {
+        "min_inclusive":
+        {
+          "absolute": 400
         },
-        "max_inclusive": {
+        "max_inclusive":
+        {
           "absolute": 688
         },
         "type": "minecraft:uniform"

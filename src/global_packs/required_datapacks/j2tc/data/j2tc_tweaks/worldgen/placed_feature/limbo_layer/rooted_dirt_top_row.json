@@ -1,9 +1,16 @@
 {
   "feature": "j2tc_tweaks:limbo_layer/ore_rooted_dirt",
-  "placement": [
+  "placement":
+  [
     {
       "type": "minecraft:count",
       "count": 8
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -12,11 +19,11 @@
         "type": "minecraft:trapezoid",
         "min_inclusive":
         {
-          "absolute": 684
+          "absolute": 530
         },
         "max_inclusive":
         {
-          "absolute": 688
+          "absolute": 685
         }
       }
     }

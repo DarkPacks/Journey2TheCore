@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "farmersdelight:apple_pie_slice"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

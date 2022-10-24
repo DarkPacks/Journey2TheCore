@@ -266,16 +266,35 @@
       "types": {
         "hype-train-start": [
           {
-            "conditions": [],
+            "conditions": [
+              {
+                "name": "Space Check - 4x4 NoSolidBlock Underneath",
+                "type": "constant"
+              }
+            ],
             "outcomes": [
               {
                 "message": "Hey $streamer, HYPE TRAIN!",
-                "type": "chat"
+                "type": "chat",
+                "displayName": "Chat Message Hype Train Alert"
               },
               {
                 "command": "/raidmeter modify raid current_amount 0",
                 "executeAsSelf": true,
-                "type": "command"
+                "type": "command",
+                "displayName": "Reset Raidmeter "
+              },
+              {
+                "command": "/scoreboard players set @s hype_train_level 0",
+                "executeAsSelf": true,
+                "type": "command",
+                "displayName": "Reset hype_train_level Scoreboard Objective"
+              },
+              {
+                "command": "/open_gateway $floatingLargeEntitySpaceCheck gateways:hypeway_1",
+                "executeAsSelf": true,
+                "type": "command",
+                "displayName": "Spawns Gateway"
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -299,6 +318,37 @@
                 "command": "/function bossbar:bossbar/hype_train_end_on_screen_alert",
                 "executeAsSelf": true,
                 "type": "command"
+              },
+              {
+                "command": "/data merge entity @e[type=gateways:gateway,distance=..200,limit=1,sort=nearest] {ticks_active: 9999}",
+                "executeAsSelf": true,
+                "type": "command",
+                "displayName": "Destroys Gateway"
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "command": "/data merge entity @e[type=gateways:gateway,distance=..250,limit=1,sort=nearest] {ticks_active: 9999}",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Destroys Current Gateway (2nd time for backup)"
+                      },
+                      {
+                        "command": "/scoreboard players set @s hype_train_level 0",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Set hype_train_level to 0"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true,
+                    "delay": "20"
+                  }
+                ],
+                "type": "event",
+                "displayName": "Delay and Destroy Gateway"
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -312,12 +362,14 @@
               {
                 "command": "/raidmeter modify raid display_add @s",
                 "executeAsSelf": true,
-                "type": "command"
+                "type": "command",
+                "displayName": "Display Raid Meter"
               },
               {
                 "command": "/function bossbar:bossbar/hype_train_incoming_on_screen_alert",
                 "executeAsSelf": true,
-                "type": "command"
+                "type": "command",
+                "displayName": "Incoming Hype Train On-Screen Text Alert"
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -326,24 +378,48 @@
         ],
         "hype-train-level-up": [
           {
-            "conditions": [
-              {
-                "name": "Gateway Spawn Check",
-                "type": "constant",
-                "displayName": "Check Gateway Spawn Location"
-              }
-            ],
+            "conditions": [],
             "outcomes": [
               {
-                "command": "/raidmeter modify raid add 1",
-                "executeAsSelf": true,
-                "type": "command"
-              },
-              {
-                "command": "/open_gateway $gatewaySpawnCheck gateways:player_mob_gate",
-                "executeAsSelf": true,
-                "type": "command",
-                "displayName": "Spawn Gateway"
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "command": "/scoreboard players add @s hype_train_level 1",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Increment Player Scoreboard Objective"
+                      },
+                      {
+                        "command": "/raidmeter modify raid add 1",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Increment Raid Meter"
+                      },
+                      {
+                        "command": "/execute store result entity @e[type=gateways:gateway,distance=..64,limit=1,sort=nearest] wave int 1.0 run scoreboard players get @s hype_train_level",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Sets Gateway to Wave"
+                      },
+                      {
+                        "command": "/data merge entity @e[type=gateways:gateway,distance=..64,limit=1,sort=nearest] {active: 0b}",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Restarts the Pre Wave Timer"
+                      },
+                      {
+                        "command": "/data merge entity @e[type=gateways:gateway,distance=..64,limit=1,sort=nearest] {ticks_active: 5600}",
+                        "executeAsSelf": true,
+                        "type": "command",
+                        "displayName": "Sets Pre Wave Timer for 20 Seconds Left"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
               }
             ],
             "allowsOtherEventsToTrigger": true,

@@ -1,8 +1,6 @@
 {
   "values": [
-    {
-      "id": "rechiseled:dirt_muddy",
-      "required": false
-    }
+    "rechiseled:dirt_muddy",
+    "minecraft:stone"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:redstone_ores",
+    "elementaryores:ore_redstone_nether",
+    "elementaryores:ore_redstone_end",
+    "turkeydevutil:sugar_redstone_ore"
+  ]
+}

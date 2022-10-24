@@ -1,16 +1,16 @@
-
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "crumbs:birch_tile_slab"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "crumbs:birch_tile_slab"
+      "item": "minecraft:birch_slab"
     }
   ],
-  "result":{
-    "item": "crumbs:birch_tile",
+  "result":
+  {
+    "item": "minecraft:birch_planks",
     "count": 1
   }
 }

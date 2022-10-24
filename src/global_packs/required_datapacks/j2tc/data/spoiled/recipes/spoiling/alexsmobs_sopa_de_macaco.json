@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "alexsmobs:sopa_de_macaco"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

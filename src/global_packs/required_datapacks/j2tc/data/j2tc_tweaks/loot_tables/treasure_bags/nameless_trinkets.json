@@ -17,10 +17,6 @@
         },
         {
           "type": "item",
-          "name": "ironchest:crystal_chest"
-        },
-        {
-          "type": "item",
           "name": "nameless_trinkets:experience_magnet"
         },
         {
@@ -142,6 +138,42 @@
         {
           "type": "item",
           "name": "nameless_trinkets:mysterious_trinket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:scarab_amulet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:fragile_cloud"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:pocket_lightning_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:miners_soul"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:fractured_nullstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:electric_paddle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:dark_nelumbo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:nelumbo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:blaze_nucleus"
         }
       ]
     }

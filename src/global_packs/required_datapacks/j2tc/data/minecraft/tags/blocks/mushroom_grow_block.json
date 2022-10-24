@@ -11,6 +11,9 @@
     "minecraft:crimson_nylium",
     "minecraft:warped_nylium",
     "minecraft:dripstone_block",
-    "create:limestone"
+    "create:limestone",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:deepslate"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "tconstruct:bacon"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

@@ -1,0 +1,5 @@
+
+["Configs for Curious Lanterns"]
+	#Should the lantern swing or not. Default: false
+	"Should Swing" = true
+

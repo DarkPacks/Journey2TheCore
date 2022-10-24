@@ -1,6 +1,7 @@
 {
   "feature": "j2tc_tweaks:bamboo_some_podzol",
-  "placement": [
+  "placement":
+  [
     {
       "type": "minecraft:count",
       "count":
@@ -12,6 +13,9 @@
           "max_inclusive": 72
         }
       }
+    },
+    {
+      "type": "minecraft:biome"
     },
     {
       "type": "minecraft:in_square"
@@ -30,9 +34,6 @@
           "absolute": 688
         }
       }
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

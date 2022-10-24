@@ -139,7 +139,7 @@
 		whitelist = ["#forest"]
 		blacklist = []
 		modWhitelist = []
-		canSpawnMobs = true
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".large_graveyard]
 		#Range: 0 ~ 200
@@ -152,7 +152,7 @@
 		whitelist = []
 		blacklist = []
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
-		canSpawnMobs = true
+		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".haunted_house]
 		#Range: 0 ~ 200
@@ -168,7 +168,7 @@
 		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".giant_mushroom]
-		canGenerate = true
+		canGenerate = false
 		#Range: 0 ~ 200
 		spacing = 20
 		#Range: 0 ~ 200
@@ -181,7 +181,7 @@
 		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".altar]
-		canGenerate = true
+		canGenerate = false
 		#Range: 0 ~ 200
 		spacing = 30
 		#Range: 0 ~ 200
@@ -194,7 +194,7 @@
 		canSpawnMobs = false
 
 	["The Graveyard - Structures Config".crypt]
-		canGenerate = true
+		canGenerate = false
 		#Range: 0 ~ 200
 		spacing = 24
 		#Range: 0 ~ 200

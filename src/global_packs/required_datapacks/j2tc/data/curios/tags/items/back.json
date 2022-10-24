@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "create_jetpack:jetpack",
+    "nameless_trinkets:ethereal_wings",
+    "thermal:satchel",
+    "sophisticatedbackpacks:backpack",
+    "sophisticatedbackpacks:iron_backpack",
+    "sophisticatedbackpacks:gold_backpack",
+    "sophisticatedbackpacks:diamond_backpack",
+    "sophisticatedbackpacks:netherite_backpack",
+    "cyclic:charm_magicdefense",
+    "cyclic:charm_invisible"
+  ]
+}

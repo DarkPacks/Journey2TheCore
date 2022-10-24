@@ -1,7 +1,9 @@
 {
-  "conditions": [
+  "stats":
+  {
+    "tconstruct:head":
     {
-      "type": "forge:false"
+      "harvestTier": "minecraft:diamond"
     }
-  ]
+  }
 }

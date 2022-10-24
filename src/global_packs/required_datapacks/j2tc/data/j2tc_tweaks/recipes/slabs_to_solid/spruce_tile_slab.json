@@ -1,16 +1,16 @@
-
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "crumbs:spruce_tile_slab"
+      "item": "minecraft:spruce_slab"
     },
     {
-      "item": "crumbs:spruce_tile_slab"
+      "item": "minecraft:spruce_slab"
     }
   ],
-  "result":{
-    "item": "crumbs:spruce_tile",
+  "result":
+  {
+    "item": "minecraft:spruce_planks",
     "count": 1
   }
 }

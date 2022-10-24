@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "create:sweet_roll"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

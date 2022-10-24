@@ -105,7 +105,19 @@
     "oreexcavation.client.GuiShareCode": true,
     "ca.teamdman.sfm.client.gui.screen.ManagerScreen": true,
     "io.github.mortuusars.chalk.client.gui.ChalkBoxScreen": true,
-    "com.lothrazar.cyclic.item.crafting.simple.CraftingStickScreen": true
+    "com.lothrazar.cyclic.item.crafting.simple.CraftingStickScreen": true,
+    "journeymap.client.ui.fullscreen.menu.PopupMenu": true,
+    "shadows.apotheosis.adventure.affix.reforging.ReforgingScreen": true,
+    "shadows.apotheosis.adventure.affix.salvage.SalvageScreen": true,
+    "cofh.thermal.core.client.gui.storage.SatchelScreen": true,
+    "com.nyfaria.nyfsquiver.core.interfaces.QuiverContainerScreen": true,
+    "journeymap.client.ui.dialog.OptionsManager": true,
+    "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
+    "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "net.diebuddies.physics.settings.PhysicsSettingsScreen": true,
+    "moze_intel.projecte.gameObjs.gui.AlchBagScreen": true,
+    "shadows.apotheosis.adventure.affix.salvaging.SalvagingScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

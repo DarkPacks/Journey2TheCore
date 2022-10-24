@@ -1,34 +1,29 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "factinventory:interaction_module"
-    ]
-  },
-  "criteria": {
-    "has_ender_pearl": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:ender_pearl"
-            ]
-          }
-        ]
-      }
+  "display":
+  {
+    "icon":
+    {
+      "item": "minecraft:wither_skeleton_skull"
     },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "factinventory:interaction_module"
-      }
-    }
+    "title":
+    {
+      "translate": "Yup3"
+    },
+    "description":
+    {
+      "translate": "Yes"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
   },
-  "requirements": [
-    [
-      "has_ender_pearl",
-      "has_the_recipe"
-    ]
-  ]
+  "criteria":
+  {
+    "always":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  }
 }

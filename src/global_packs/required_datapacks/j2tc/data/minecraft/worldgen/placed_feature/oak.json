@@ -1,12 +1,16 @@
 {
   "feature": "minecraft:oak",
-  "placement": [
-    {
-      "type": "minecraft:biome"
-    },
+  "placement":
+  [
     {
       "type": "minecraft:count",
       "count": 64
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
     },
     {
       "height":
@@ -28,15 +32,19 @@
       "predicate":
       {
         "type": "minecraft:matching_blocks",
-        "offset": [
+        "offset":
+        [
           0,
           -1,
           0
         ],
-        "blocks": [
+        "blocks":
+        [
+          "cobblestoney:clay_silt",
+          "minecraft:coarse_dirt",
           "minecraft:rooted_dirt",
-          "rechiseled:dirt_muddy",
-          "cobblestoney:clay_silt"
+          "minecraft:snow_block",
+          "rechiseled:dirt_muddy"
         ]
       }
     }

@@ -24,6 +24,7 @@
     "geore:lapis_cluster",
     "minecraft:deepslate_lapis_ore",
     "minecraft:lapis_ore",
+    "turkeydevutil:greed_lapis_ore",
     "minecraft:raw_gold_block",
     "create:deepslate_zinc_ore",
     "create:zinc_ore",
@@ -34,6 +35,7 @@
     "geore:budding_redstone",
     "geore:large_redstone_bud",
     "geore:small_redstone_bud",
-    "minecraft:deepslate_redstone_ore"
+    "minecraft:deepslate_redstone_ore",
+    "turkeydevutil:sugar_redstone_ore"
   ]
 }

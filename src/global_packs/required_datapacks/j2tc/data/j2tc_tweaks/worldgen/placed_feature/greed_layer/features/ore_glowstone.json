@@ -1,27 +1,29 @@
 {
   "feature": "j2tc_tweaks:greed_layer/features/ore_glowstone",
   "placement": [
+  {
+    "count": 64,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "height":
     {
-      "count": 64,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "height": {
-        "min_inclusive": {
-          "absolute": 133
-        },
-        "max_inclusive": {
-          "absolute": 264
-        },
-        "type": "minecraft:uniform"
+      "min_inclusive":
+      {
+        "absolute": 140
       },
-      "type": "minecraft:height_range"
+      "max_inclusive":
+      {
+        "absolute": 260
+      },
+      "type": "minecraft:uniform"
     },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    "type": "minecraft:height_range"
+  },
+  {
+    "type": "minecraft:biome"
+  }]
 }

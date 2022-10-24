@@ -3,8 +3,8 @@
 [Settings]
 	#Turn physics On/Off (WHAT ARE YOU DOING) [default: true]
 	enablePhysics = true
-	#Enable Physics Landslide [default: true]
-	enableLandslide = true
+	#Enable Physics Landslide (Warning, Landslide isn't 100% functional) [default: true]
+	enableLandslide = false
 	#How long until individual chunk's physics starts after loading (DO NOT SET TOO LOW) [default: 1000]
 	#Range: > 0
 	chunkDelay = 1000
@@ -24,7 +24,7 @@
 	#0 = No action, 1 = Limit to < 100 per 8x8 block area, 2 = Delete excessive entities & Dump physics (EMERGENCY ONLY) [default: 1]
 	#Range: 0 ~ 2
 	entityFailsafe = 2
-	#No comment
+	#The default stability to use when no stability has been specified by a datapack
 	defaultStability = "gravityforce:loose"
 	#Blocks Can Turn Into Other Blocks Before Falling [default: true]
 	intermediaryBlocks = true

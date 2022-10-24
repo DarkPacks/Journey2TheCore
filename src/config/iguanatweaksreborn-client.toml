@@ -16,7 +16,7 @@
 		"Better Nether Fog" = true
 		#Render distance is multiplied by this value in the Nether. Vanilla is 0.5.
 		#Range: 0.0 ~ 1.0
-		"Nether Fog Ratio" = 0.7
+		"Nether Fog Ratio" = 0.75
 
 	#Changes to light
 	[Client.Light]

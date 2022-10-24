@@ -1,56 +1,117 @@
 {
-	"weight": 100,
-	"mainhands": [{
-			"weight": 3,
-			"stack": {
-				"item": "minecraft:wooden_sword"
-			}
-		},
-		{
-			"weight": 3,
-			"stack": {
-				"item": "minecraft:wooden_axe"
-			}
-		},
-		{
-			"weight": 2,
-			"stack": {
-				"item": "minecraft:wooden_pickaxe"
-			}
-		},
-		{
-			"weight": 2,
-			"stack": {
-				"item": "minecraft:wooden_shovel"
-			}
-		}
-	],
-	"offhands": [],
-	"boots": [{
-		"weight": 1,
-		"stack": {
-			"item": "minecraft:leather_boots"
-		}
-	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "minecraft:leather_leggings"
-		}
-	}],
-	"chestplates": [{
-		"weight": 1,
-		"stack": {
-			"item": "minecraft:leather_chestplate"
-		}
-	}],
-	"helmets": [{
-		"weight": 1,
-		"stack": {
-			"item": "minecraft:leather_helmet"
-		}
-	}],
-	"tags": [
-		"overworld"
-	]
+  "weight": 100,
+  "mainhands": [
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:sword",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":66.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":1.0f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:dagger",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":1.9499999f,\"tconstruct:attack_speed\":2.0f,\"tconstruct:durability\":45.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":1.5f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:kama",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":0.5f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":60.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:pickaxe",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:piercing\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":60.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:hand_axe",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":6.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":60.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:cleaver",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:4s,name:\"tconstruct:cultivated\"},{level:2s,name:\"tconstruct:severing\"},{level:1s,name:\"tconstruct:silky_aoe_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.5f,\"tconstruct:durability\":3.5f,\"tconstruct:mining_speed\":0.25f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:durability\":210.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":0.5f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:scythe",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:4s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:silky_aoe_shears\"},{level:1s,name:\"tconstruct:harvest\"},{level:1s,name:\"tconstruct:hoe_till\"}],tic_multipliers:{\"tconstruct:durability\":2.5f,\"tconstruct:mining_speed\":0.45f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.7f,\"tconstruct:durability\":150.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":0.9f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:broad_axe",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:4s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.65f,\"tconstruct:durability\":4.25f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":8.25f,\"tconstruct:attack_speed\":0.6f,\"tconstruct:durability\":255.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":0.6f}}"
+      }
+    },
+    {
+      "weight": 100,
+      "stack":
+      {
+        "item": "tconstruct:mattock",
+        "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:knockback\"},{level:1s,name:\"tconstruct:hoe_till\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":1.6500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":75.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.2f}}"
+      }
+    }
+  ],
+  "offhands": [],
+  "boots": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:leather_boots"
+      }
+    }
+  ],
+  "leggings": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:leather_leggings"
+      }
+    }
+  ],
+  "chestplates": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:leather_chestplate"
+      }
+    }
+  ],
+  "helmets": [
+    {
+      "weight": 1,
+      "stack":
+      {
+        "item": "minecraft:leather_helmet"
+      }
+    }
+  ],
+  "tags": [
+    "overworld"
+  ]
 }

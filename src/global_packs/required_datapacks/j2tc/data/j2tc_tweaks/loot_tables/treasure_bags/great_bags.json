@@ -140,6 +140,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/bomb_bag",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/turtle_egg",
           "weight": 10
         },

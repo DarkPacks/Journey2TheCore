@@ -1,16 +1,16 @@
-
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "crumbs:jungle_tile_slab"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "crumbs:jungle_tile_slab"
+      "item": "minecraft:jungle_slab"
     }
   ],
-  "result":{
-    "item": "crumbs:jungle_tile",
+  "result":
+  {
+    "item": "minecraft:jungle_planks",
     "count": 1
   }
 }

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"  B",
+		"TG ",
+		"RC "
+	],
+	"key": {
+		"G": {
+			"tag": "forge:ingots/gold"
+		},
+		"T": {
+			"tag": "minecraft:buttons"
+		},
+		"B": {
+			"tag": "forge:storage_blocks/gold"
+		},
+		"C": {
+			"item": "minecraft:comparator"
+		},
+		"R": {
+			"item": "minecraft:repeater"
+		}
+	},
+	"result": {
+		"item": "adpother:gold_vacuum_tube",
+		"count": 1
+	}
+}

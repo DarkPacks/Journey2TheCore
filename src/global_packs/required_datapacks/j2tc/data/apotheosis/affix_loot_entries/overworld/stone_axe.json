@@ -1,0 +1,15 @@
+{
+  "weight": 100,
+  "quality": 1.0,
+  "stack":
+  {
+    "item": "tconstruct:hand_axe",
+    "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":8.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":398.75f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f}}"
+  },
+  "type": "HEAVY_WEAPON",
+  "dimensions":
+  [
+    "minecraft:overworld"
+  ],
+  "max_rarity": "rare"
+}

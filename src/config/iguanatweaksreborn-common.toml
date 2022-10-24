@@ -64,13 +64,27 @@
 		#If 'Consume Hunger Only' is true then this is the chance to consume an hunger whenever the player is healed (vanilla ignores this; Combat Test has this set to 0.5).
 		#Range: 0.0 ~ 1.0
 		"Hunger Consumption Chance" = 0.0
-		#Set to true to enable Well Fed, a new effect that speeds up health regen and is applied whenever the player eats. The effect speeds up health regen by 25% per level.
-		"Enable Well Fed" = true
-		#Set to true to enable Injured, a new effect that slows down health regen and is applied whenever the player is damaged. The effect slows down health regen by 20% per level.
-		"Enable Injured" = false
 		#When eating you'll get healed by this percentage of (hunger + saturation) restored.
 		#Range: 0.0 ~ 128.0
 		"Food Heal Multiplier" = 0.0
+
+		[Hunger."Health Regen".Effects]
+			#Set to true to enable Well Fed, a new effect that speeds up health regen and is applied whenever the player eats.
+			"Enable Well Fed" = true
+			#Multiplies the base duration of Well Fed by this value. Base duration is 1 second per food effectiveness (hunger + saturation).
+			#Range: 0.0 ~ 128.0
+			"Well Fed Duration Multiplier" = 1.0
+			#How much does health regen Well Fed increases per level. (This is inversely proportional, a value of 0.25 makes makes time to regen lower by 20%. A value of 1.0 makes time to regen lower by 50%.
+			#Range: 0.0 ~ 10.0
+			"Well Fed Effectiveness" = 0.25
+			#Set to true to enable Injured, a new effect that slows down health regen and is applied whenever the player is damaged. The effect slows down health regen by 20% per level.
+			"Enable Injured" = true
+			#Multiplies the base duration of Injured by this value. Base duration is 1 second per point of damage taken.
+			#Range: 0.0 ~ 128.0
+			"Injured Duration Multiplier" = 1.0
+			#How much does health regen Injured decreases per level.
+			#Range: 0.0 ~ 10.0
+			"Injured Effectiveness" = 0.2
 
 	#Change food's hunger and saturation given, also makes food heal you by a bit. Changing anything requires a Minecraft restart.
 	[Hunger."Food Hunger"]
@@ -164,6 +178,11 @@
 		"Anvil Repair Cap" = 2048
 		#Removes cost of renaming items in Anvil
 		"Remove rename cost" = true
+		#Replaces the default Mending enchantment. Mending sets the repair cost of an item to 'Unmending Cap' and will stop it from increasing. No longer repairs items with xp.
+		Unmending = true
+		#Set the cap repair cost set by Unmending
+		#Range: > 1
+		"Unmending Cap" = 20
 
 [Miscellaneous]
 	#Various changes to explosions from knockback to shielding.
@@ -178,8 +197,8 @@
 	"Enable Villager Nerfs" = true
 	#Various Nerfs
 	"Enable Nerfs" = true
-	#Beacon Range varying based of blocks of the pyramid
-	"Enable Beacon" = true
+	#Beacon Range varying based of blocks of the pyramid and better conduit killing mobs
+	"Enable Beacon & Conduit" = true
 
 	#Various changes to explosions from knockback to shielding.
 	[Miscellaneous."Explosion Overhaul"]
@@ -277,8 +296,8 @@
 		#If true, boats will no longer go stupidly fast on ice.
 		"No Ice Boats" = true
 
-	#Beacon Range varying based of blocks of the pyramid
-	[Miscellaneous.Beacon]
+	#Beacon Range varying based of blocks of the pyramid and better conduit killing mobs
+	[Miscellaneous."Beacon & Conduit"]
 		#Base range of the beacon
 		#Range: 0.0 ~ 256.0
 		"Base Range" = 10.0
@@ -286,7 +305,9 @@
 		#Each block in the pyramid will increase the range of the beacon. After the blocks have been summed the final value is divided by the number of layers of the beacon.
 		#E.g. a beacon with 1 layer full Iron blocks will give 9 range (+ base range), while with 2 layers (34 range / 2) = 17.
 		#
-		"Blocks Range" = ["minecraft:iron_block,1", "minecraft:emerald_block,1.2", "minecraft:gold_block,1.8", "minecraft:diamond_block,3.0", "minecraft:netherite_block,4.0", "tconstruct:cobalt_block,2.2", "tconstruct:queens_slime_block,3.0", "tconstruct:hepatizon_block,2.7", "tconstruct:manyullyn_block,3.3"]
+		"Blocks Range" = ["minecraft:iron_block,1", "minecraft:emerald_block,1.2", "minecraft:gold_block,1.8", "minecraft:diamond_block,2.5", "minecraft:netherite_block,4.0", "tconstruct:cobalt_block,2.4", "tconstruct:queens_slime_block,3.0", "tconstruct:hepatizon_block,2.7", "tconstruct:manyullyn_block,3.3"]
+		#Increases the range and damage of the conduit
+		"Better Conduit Protection" = true
 
 [Mining]
 	#Change all the blocks hardness
@@ -362,7 +383,7 @@
 		#- operation can be: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 		"Item Modifiers" = ["minecraft:iron_helmet,HEAD,minecraft:generic.armor_toughness,0.5,ADDITION", "minecraft:iron_chestplate,CHEST,minecraft:generic.armor_toughness,0.5,ADDITION", "minecraft:iron_leggings,LEGS,minecraft:generic.armor_toughness,0.5,ADDITION", "minecraft:iron_boots,FEET,minecraft:generic.armor_toughness,0.5,ADDITION", "minecraft:netherite_helmet,HEAD,minecraft:generic.armor,1,ADDITION", "minecraft:netherite_boots,FEET,minecraft:generic.armor,1,ADDITION"]
 		#Set the power of the Power enchantment (vanilla is 0.5).
-		#Range: 0.0 ~ 100.0
+		#Range: 0.0 ~ 10.0
 		"Power Power" = 0.3
 
 	#Player will deal no knockback if attacking with a non-weapon or spamming
@@ -479,6 +500,11 @@
 		#Every this Tiredness above 'Tiredness for effect' will add a new level of Tired.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Tiredness per level" = 20.0
+		#A list of items that when consumed will give the Energy Boost effect.
+		#You can specify the item/tag only and the duration will be calculated from the hunger restored or you can include duration,amplifier for customs.
+		#The iguanatweaksreborn:energy_boost item tag can be used to add items without a custom duration
+		#Format is 'modid:item_id' / '#modid:item_tag' or 'modid:item_id,duration,amplifier' / '#modid:item_tag,duration,amplifier'.
+		"Plants Growth Multiplier" = ["#iguanatweaksreborn:energy_boost", "farmersdelight:hot_cocoa,80,0"]
 
 	#Makes sleeping impossible or possible during day
 	["Sleep & Respawn".Sleeping]

@@ -1,18 +1,21 @@
 {
-  "config": {
+  "type": "minecraft:ore",
+  "config":
+  {
+    "size": 24,
+    "discard_chance_on_air_exposure": 0,
     "targets": [
       {
-        "target": {
-          "block": "candyworld:red_gummy_block",
-          "predicate_type": "minecraft:block_match"
+        "target":
+        {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "j2tc_tweaks:gluttony_layer_ore_placement"
         },
-        "state": {
+        "state":
+        {
           "Name": "candyworld:crystallized_sugar"
         }
       }
-    ],
-    "size": 24,
-    "discard_chance_on_air_exposure": 0
-  },
-  "type": "minecraft:ore"
+    ]
+  }
 }

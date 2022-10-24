@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "farmersdelight:barbecue_stick"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

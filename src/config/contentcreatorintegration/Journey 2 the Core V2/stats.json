@@ -3,12 +3,12 @@
     {
       "layer": "chat",
       "type": "message",
-      "count": 12987
+      "count": 39914
     },
     {
       "layer": "minecraft",
       "type": "RaidMeterEvent$Complete",
-      "count": 1170
+      "count": 1180
     },
     {
       "layer": "minecraft",
@@ -18,14 +18,14 @@
     {
       "layer": "streamlabs",
       "type": "bits",
-      "count": 2372,
-      "amount": 1126314.0
+      "count": 3294,
+      "amount": 1463971.0
     },
     {
       "layer": "streamlabs",
       "type": "donation",
-      "count": 127,
-      "amount": 2240.6315091436177
+      "count": 203,
+      "amount": 2759.621509143618
     },
     {
       "layer": "streamlabs",
@@ -35,50 +35,60 @@
     {
       "layer": "streamlabs",
       "type": "raid",
-      "count": 56,
-      "amount": 3349.0
+      "count": 72,
+      "amount": 4510.0
     },
     {
       "layer": "streamlabs",
       "type": "subMysteryGift",
-      "count": 1166,
-      "amount": 35613.0
+      "count": 1522,
+      "amount": 37761.0
     },
     {
       "layer": "streamlabs",
       "type": "subscription",
-      "count": 14369,
-      "amount": 275783.0
+      "count": 19834,
+      "amount": 368462.0
+    },
+    {
+      "layer": "twitchpubsub",
+      "type": "POLL_COMPLETE",
+      "count": 1
+    },
+    {
+      "layer": "twitchpubsub",
+      "type": "POLL_CREATE",
+      "count": 1
     },
     {
       "layer": "twitchpubsub",
       "type": "hype-train-approaching",
-      "count": 127
+      "count": 194
     },
     {
       "layer": "twitchpubsub",
       "type": "hype-train-end",
-      "count": 61
+      "count": 116
     },
     {
       "layer": "twitchpubsub",
       "type": "hype-train-level-up",
-      "count": 28
+      "count": 86
     },
     {
       "layer": "twitchpubsub",
       "type": "hype-train-start",
-      "count": 59
+      "count": 88
     },
     {
       "layer": "twitchpubsub",
       "type": "moderation_action",
-      "count": 68
+      "count": 116
     },
     {
       "layer": "twitchpubsub",
       "type": "reward-redeemed",
-      "count": 3616
+      "count": 4786
     }
   ]
 }

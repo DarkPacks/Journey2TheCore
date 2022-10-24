@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "tag": "minecraft:dirt"
+    },
+    "B": {
+      "item": "dabomb:bomb"
+    }
+  },
+  "result": {
+    "item": "dabomb:dirt_bomb"
+  }
+}

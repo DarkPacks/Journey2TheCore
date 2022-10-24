@@ -17,3 +17,7 @@
 	#Range: 0.0 ~ 100.0
 	swim_modifier = 1.8
 
+[enchantments]
+	list = []
+	is_blacklist = true
+

@@ -1,0 +1,12 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "spoiltime": 50,
+  "ingredient":
+  {
+    "item": "farmersdelight:tomato"
+  },
+  "result":
+  {
+    "item": "farmersdelight:rotten_tomato"
+  }
+}

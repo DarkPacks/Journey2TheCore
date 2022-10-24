@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": [
+        "buddycards:buddycard_base10"
+      ],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools":
+  {
+    "tag": "tconstruct:modifiable/unarmed"
+  },
+  "slots":
+  {
+    "upgrades": 1
+  },
+  "requirements":
+  {
+    "name": "tconstruct:looting",
+    "level": 1,
+    "error": "recipe.tconstruct.modifier.looting.level_2"
+  },
+  "result":
+  {
+    "name": "tconstruct:looting",
+    "level": 1
+  },
+  "max_level": 2
+}

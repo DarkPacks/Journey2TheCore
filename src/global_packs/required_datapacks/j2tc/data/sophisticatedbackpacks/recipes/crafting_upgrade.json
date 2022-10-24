@@ -27,7 +27,7 @@
     },
     "T":
     {
-      "item": "minecraft:crafting_table"
+      "tag": "forge:workbenches"
     }
   },
   "result":

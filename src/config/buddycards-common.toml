@@ -41,3 +41,60 @@
 	#Range: 0.0 ~ 1.0
 	shulkerChance = 0.05
 
+[luminis]
+	#
+	#Enable Luminis vein generation, default is true
+	enableVeins = true
+	#
+	#Distance between chunks that can spawn Luminis veins, under right conditions, default is 5
+	#Range: 1 ~ 16
+	veinChunkDistance = 5
+	#
+	#Minimum amount of branches in a Luminis vein, default is 3
+	#Range: 1 ~ 16
+	veinBranchAmtMin = 3
+	#
+	#Maximum amount of branches in a Luminis vein, default is 6
+	#Range: 1 ~ 32
+	veinBranchAmtMax = 6
+	#
+	#Minimum length of branches in a Luminis vein, default is 8
+	#Range: 1 ~ 32
+	veinBranchLengthMin = 8
+	#
+	#Maximum length of branches in a Luminis vein, default is 32
+	#Range: 1 ~ 64
+	veinBranchLengthMax = 32
+	#
+	#Amount of Luminis blocks, on average, needed to make 1 Crimson Luminis in an explosion, default is 2
+	#Range: 1 ~ 16
+	explodeCrimsonAvg = 2
+	#
+	#Odds of an explosion triggering a Kinetic Chamber to activate, default is 50%
+	#Range: 0.0 ~ 1.0
+	kineticSuccessOdds = 0.5
+	#
+	#Odds of a kinetic chamber properly converting Luminis blocks to Crimson Luminis, default is 75% 
+	#WARNING: FAILURE WILL CONSUME
+	#Range: 0.0 ~ 1.0
+	kineticCrimsonOdds = 0.75
+	#
+	#Odds of a kinetic chamber properly converting Crimson Luminis blocks to specialty items, default is 85% 
+	#WARNING: FAILURE WILL CONSUME
+	#Range: 0.0 ~ 1.0
+	kineticSpecialtyOdds = 0.8500000238418579
+
+[enderling]
+	#
+	#Odds for an Enderling to spawn with an Enderman in the End, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	endOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Nether, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	netherOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Overworld, 0-1, default is 1.5%
+	#Range: 0.0 ~ 1.0
+	overOdds = 0.015
+

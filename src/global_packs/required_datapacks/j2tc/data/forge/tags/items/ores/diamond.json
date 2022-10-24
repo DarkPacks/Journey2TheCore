@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:diamond_ores",
+    "elementaryores:ore_diamond_nether",
+    "elementaryores:ore_diamond_end",
+    "turkeydevutil:greed_diamond_ore"
+  ]
+}

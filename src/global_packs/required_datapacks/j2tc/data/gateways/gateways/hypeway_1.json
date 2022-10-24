@@ -1,0 +1,744 @@
+{
+  "size": "large",
+  "color": "rainbow",
+  "leash_range": 64,
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{\"Username\":\"Darkosto\",CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 2
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 3
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 4
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 3
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 1.25
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 6
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.85
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.20
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.20
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 4
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 6
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        },
+        {
+          "entity": "player_mobs:player_mob"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "player_mobs:player_mob",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 5600,
+      "setup_time": 6000
+    }
+  ],
+  "rewards": [
+    {
+      "type": "loot_table",
+      "loot_table": "minecraft:chests/simple_dungeon",
+      "rolls": 8
+    }
+  ],
+  "completion_xp": 100,
+  "spawn_range": 10
+}

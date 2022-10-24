@@ -1,0 +1,41 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": [
+        "buddycards:buddycard_mob_test_set6"
+      ],
+      "nbt": "{foil:1b}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "items": [
+        "buddycards:buddycard_mob_test_set6"
+      ],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools":
+  {
+    "type": "forge:difference",
+    "base":
+    {
+      "tag": "tconstruct:modifiable/armor/boots"
+    },
+    "subtracted":
+    {
+      "item": "tconstruct:slime_boots"
+    }
+  },
+  "slots":
+  {
+    "abilities": 1
+  },
+  "result":
+  {
+    "name": "tconstruct:bouncy",
+    "level": 1
+  },
+  "max_level": 1
+}

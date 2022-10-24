@@ -1,0 +1,6 @@
+
+#Friends
+[friends]
+	#A list of users who can be chosen when it spawns a distant friend
+	friends = ["darkosto"]
+

@@ -12,13 +12,10 @@
     "minecraft:rooted_dirt",
     "minecraft:stone",
     "minecraft:warped_nylium",
-    {
-      "id": "create:limestone",
-      "required": false
-    },
-    {
-      "id": "rechiseled:dirt_muddy",
-      "required": false
-    }
+    "create:limestone",
+    "rechiseled:dirt_muddy",
+    "minecraft:snow_block",
+    "minecraft:sand",
+    "minecraft:red_sand"
   ]
 }

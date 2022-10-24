@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "createcafe:yucca_milk_tea"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

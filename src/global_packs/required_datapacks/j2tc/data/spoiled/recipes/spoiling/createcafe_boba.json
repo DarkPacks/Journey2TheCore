@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "createcafe:boba"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

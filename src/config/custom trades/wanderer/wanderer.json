@@ -476,6 +476,424 @@
       "maxUses": 1,
       "tradeExp": 40,
       "tradeLevel": 4
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:steak_and_potatoes",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base7",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:beef_stew",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base7",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:hamburger",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base7",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:fruit_salad",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base14",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:squid_ink_pasta",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base14",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:fish_stew",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base14",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:squid_ink_pasta",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base11",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "minecraft:bread",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base11",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:dumplings",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base11",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:sweet_berry_cheesecake",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base18",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:apple_pie",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base18",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:sweet_berry_cookie",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base18",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:melon_juice",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base20",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:fruit_salad",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base20",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:melon_popsicle",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base20",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:bacon_and_eggs",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base3",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:honey_glazed_ham_block",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base3",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:bacon_sandwich",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base3",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:dog_food",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base13",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:fish_stew",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base14",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:baked_cod_stew",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base14",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer":
+      {
+        "itemKey": "farmersdelight:grilled_salmon",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request":
+      {
+        "itemKey": "buddycards:buddycard_base14",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "priceMultiplier": 0.2,
+      "maxUses": 3,
+      "tradeExp": 10,
+      "tradeLevel": 1
     }
   ]
 }

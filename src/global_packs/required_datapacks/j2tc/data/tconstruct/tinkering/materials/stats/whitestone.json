@@ -3,7 +3,7 @@
   {
     "tconstruct:head":
     {
-      "harvestTier": "minecraft:diamond"
+      "harvestTier": "cyclic:copper"
     }
   }
 }

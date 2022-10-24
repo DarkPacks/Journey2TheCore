@@ -1,6 +1,7 @@
 {
   "feature": "j2tc_tweaks:gluttony_layer/features/spring_liquid_candy",
-  "placement": [
+  "placement":
+  [
     {
       "count": 25,
       "type": "minecraft:count"
@@ -9,12 +10,15 @@
       "type": "minecraft:in_square"
     },
     {
-      "height": {
-        "min_inclusive": {
+      "height":
+      {
+        "min_inclusive":
+        {
           "absolute": 270
         },
-        "max_inclusive": {
-          "absolute": 396
+        "max_inclusive":
+        {
+          "absolute": 390
         },
         "type": "minecraft:uniform"
       },

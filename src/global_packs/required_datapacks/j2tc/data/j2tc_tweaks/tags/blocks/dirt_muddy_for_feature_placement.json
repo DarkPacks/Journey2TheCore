@@ -1,8 +1,6 @@
 {
   "values": [
-    {
-      "id": "rechiseled:dirt_muddy",
-      "required": false
-    }
-  ]
+  {
+    "id": "rechiseled:dirt_muddy"
+  }]
 }

@@ -12,6 +12,8 @@
     "minecraft:deepslate_copper_ore",
     "minecraft:deepslate_iron_ore",
     "minecraft:iron_ore",
+    "turkeydevutil:greed_iron_ore",
+    "turkeydevutil:sugar_iron_ore",
     "geore:iron_cluster",
     "candyworld:green_candy_cane_block",
     "candyworld:red_candy_cane_block",
@@ -46,7 +48,6 @@
     "candyworld:yellow_gummy_workbench",
     "candyworld:white_gummy_workbench",
     "candyworld:green_gummy_workbench",
-    "minecraft:amethyst_cluster",
     "thermal:tin_ore",
     "thermal:deepslate_tin_ore"
   ]

@@ -1,14 +1,12 @@
 {
-  "type": "tconstruct:incremental_modifier",
-  "input": [
+  "type": "tconstruct:modifier",
+  "inputs": [
     {
       "type": "forge:nbt",
       "item": "turkeydevutil:book",
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:revitalizing\"}"
     }
-],
-  "amount_per_item": 1,
-  "needed_per_level": 1,
+  ],
   "tools": [
     {
       "tag": "tconstruct:modifiable/armor/helmets"

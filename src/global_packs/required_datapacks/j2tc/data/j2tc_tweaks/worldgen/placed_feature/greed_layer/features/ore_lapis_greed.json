@@ -1,0 +1,29 @@
+{
+  "feature": "j2tc_tweaks:greed_layer/features/ore_lapis_greed",
+  "placement": [
+  {
+    "count": 28,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "height":
+    {
+      "min_inclusive":
+      {
+        "absolute": 140
+      },
+      "max_inclusive":
+      {
+        "absolute": 260
+      },
+      "type": "minecraft:uniform"
+    },
+    "type": "minecraft:height_range"
+  },
+  {
+    "type": "minecraft:biome"
+  }]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "turkeydevutil:ramen"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

@@ -59,9 +59,9 @@ boxTopY = -1
 #Range: -1 ~ 10000
 boxBottomY = -1
 #Color of the border of the box (0 to disable)
-boxBorderColor = "ff999999"
+boxBorderColor = "ffef892c"
 #Color of the box (0 to disable)
-boxFillColor = "55000000"
+boxFillColor = "55431a0f"
 #Thickness of the border of the box (0 to disable)
 #Range: 0 ~ 20
 boxThickness = 2
@@ -107,5 +107,5 @@ harvestStyleVanilla = true
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	ModName = "blue,italic"
+	ModName = "gold,italic"
 

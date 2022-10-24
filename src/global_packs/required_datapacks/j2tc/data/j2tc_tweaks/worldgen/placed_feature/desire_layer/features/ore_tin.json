@@ -1,30 +1,29 @@
 {
   "feature": "j2tc_tweaks:desire_layer/features/ore_tin",
   "placement": [
+  {
+    "count": 16,
+    "type": "minecraft:count"
+  },
+  {
+    "type": "minecraft:in_square"
+  },
+  {
+    "height":
     {
-      "count": 16,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "height":
+      "min_inclusive":
       {
-        "min_inclusive":
-        {
-          "absolute": 397
-        },
-        "max_inclusive":
-        {
-          "absolute": 528
-        },
-        "type": "minecraft:uniform"
+        "absolute": 400
       },
-      "type": "minecraft:height_range"
+      "max_inclusive":
+      {
+        "absolute": 525
+      },
+      "type": "minecraft:uniform"
     },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    "type": "minecraft:height_range"
+  },
+  {
+    "type": "minecraft:biome"
+  }]
 }

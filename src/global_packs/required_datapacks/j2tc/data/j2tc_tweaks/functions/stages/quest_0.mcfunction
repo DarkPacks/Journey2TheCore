@@ -7,3 +7,6 @@ bossbar set minecraft:fail_timer players @a
 bossbar set minecraft:completion_timer players @a
 gamerule doInsomnia false
 gamerule doWeatherCycle false
+
+#Set Stage Objective Scores
+scoreboard players set @s quest_0 1

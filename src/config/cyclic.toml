@@ -336,10 +336,10 @@
 		[cyclic.blocks.peace_candle]
 			#Height reach of the candle for spawn prevention
 			#Range: 1 ~ 128
-			height = 8
+			height = 1
 			#Reach of the candle for spawn prevention
 			#Range: 1 ~ 128
-			radius = 32
+			radius = 1
 
 		[cyclic.blocks.water_candle]
 			#Reach of the candle
@@ -551,10 +551,10 @@
 		[cyclic.blocks.no_soliciting]
 			#Height reach of the no_soliciting for spawn prevention
 			#Range: 1 ~ 128
-			height = 32
+			height = 16
 			#Reach of the no_soliciting for spawn prevention
 			#Range: 1 ~ 128
-			radius = 32
+			radius = 16
 
 		[cyclic.blocks.anti_beacon]
 			#Radius to protect players and entities from potion effects being applied (used by both sponge and artemisbeacon). 

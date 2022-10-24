@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient":
+  {
+    "item": "thermal:pbj_sandwich"
+  },
+  "result":
+  {
+    "item": "thermal:compost"
+  }
+}

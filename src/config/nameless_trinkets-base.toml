@@ -13,3 +13,6 @@
 	#Range: 0 ~ 99
 	"How many trinket slots?" = 4
 
+["Speed Force Particles"]
+	"Show particles?" = true
+

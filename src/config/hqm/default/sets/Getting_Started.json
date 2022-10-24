@@ -16,7 +16,7 @@
       "icon": {
         "id": "tconstruct:travelers_helmet",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
       },
       "tasks": [
         {
@@ -40,7 +40,7 @@
         {
           "id": "tconstruct:travelers_helmet",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
         }
       ],
       "rewardchoice": [
@@ -72,8 +72,8 @@
         "text": "Y\u003d0 to Y\u003d132",
         "isTranslationKey": false
       },
-      "x": 218,
-      "y": 65,
+      "x": 263,
+      "y": 67,
       "icon": {
         "id": "minecraft:amethyst_shard",
         "Count": 1
@@ -93,7 +93,7 @@
         }
       ],
       "prerequisites": [
-        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+        "99816012-74e9-4c81-bb97-17e3836f506c"
       ],
       "optionlinks": [],
       "reward": [
@@ -372,8 +372,8 @@
         "text": "Y\u003d0 to Y\u003d264",
         "isTranslationKey": false
       },
-      "x": 244,
-      "y": 65,
+      "x": 251,
+      "y": 88,
       "icon": {
         "id": "minecraft:diamond",
         "Count": 1
@@ -392,7 +392,7 @@
         }
       ],
       "prerequisites": [
-        "6b6c21f0-27d4-4c65-9a4b-076acd30548d"
+        "dc474a8f-ac11-4e03-b0df-afe1c2c91ae2"
       ],
       "optionlinks": [],
       "reward": [
@@ -412,7 +412,10 @@
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
-      "commandrewards": []
+      "commandrewards": [
+        "/gamestage add @s quest_5",
+        "/gamestage remove @s quest_4"
+      ]
     },
     {
       "uuid": "7c291723-d984-4026-ba83-f26fb014dade",
@@ -485,7 +488,7 @@
       "icon": {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":85.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":85.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
       },
       "tasks": [
         {
@@ -530,6 +533,52 @@
           "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:reinforced\"}"
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c6bf818-a7ea-45d2-bd1b-b7fa2f169a23",
+      "name": {
+        "text": "Netherite Backpack",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 303,
+      "y": 38,
+      "icon": {
+        "id": "sophisticatedbackpacks:netherite_backpack",
+        "Count": 1,
+        "tag": "{contentsUuid:[I;1712891779,-898085634,-1992871428,1808476628],inventorySlots:81,upgradeSlots:7}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "sophisticatedbackpacks:netherite_backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;1712891779,-898085634,-1992871428,1808476628],inventorySlots:81,upgradeSlots:7}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9a7870b3-61e6-46ab-9c97-a553669ffa79"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -584,9 +633,8 @@
         "text": "You\u0027ll need more wood to get started. Use the Sapling in your inventory to grow one or break Rooted Dirt blocks for more saplings.",
         "isTranslationKey": false
       },
-      "x": 18,
-      "y": 11,
-      "bigicon": true,
+      "x": 14,
+      "y": 30,
       "icon": {
         "id": "minecraft:oak_sapling",
         "Count": 1
@@ -605,7 +653,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -623,6 +673,52 @@
         "/gamestage remove @p quest_0",
         "/gamestage add @p esm_1"
       ]
+    },
+    {
+      "uuid": "9a7870b3-61e6-46ab-9c97-a553669ffa79",
+      "name": {
+        "text": "Diamond Backpack",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 275,
+      "y": 38,
+      "icon": {
+        "id": "sophisticatedbackpacks:diamond_backpack",
+        "Count": 1,
+        "tag": "{contentsUuid:[I;1546729595,-1306377538,-2136796715,-297809783],inventorySlots:54,upgradeSlots:5}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "sophisticatedbackpacks:diamond_backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;1546729595,-1306377538,-2136796715,-297809783],inventorySlots:54,upgradeSlots:5}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c170fa53-a589-44cd-ac20-f1f557897ed0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
     },
     {
       "uuid": "6f079b8a-32c5-4b57-8900-26bc8b566b50",
@@ -659,7 +755,7 @@
         {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         },
         {
           "id": "hardcorequesting:quarterheart",
@@ -841,7 +937,7 @@
       "icon": {
         "id": "tconstruct:travelers_leggings",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
       },
       "tasks": [
         {
@@ -865,7 +961,7 @@
         {
           "id": "tconstruct:travelers_leggings",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
         }
       ],
       "rewardchoice": [
@@ -928,7 +1024,7 @@
         {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         }
       ],
       "rewardchoice": [
@@ -1061,8 +1157,8 @@
         "text": "Y\u003d397 to Y\u003d528",
         "isTranslationKey": false
       },
-      "x": 230,
-      "y": 87,
+      "x": 204,
+      "y": 61,
       "icon": {
         "id": "minecraft:emerald",
         "Count": 1
@@ -1270,8 +1366,8 @@
         "text": "Y\u003d0 to Y\u003d132 and Y\u003d265 to Y\u003d396",
         "isTranslationKey": false
       },
-      "x": 257,
-      "y": 86,
+      "x": 228,
+      "y": 61,
       "icon": {
         "id": "minecraft:redstone",
         "Count": 1
@@ -1291,7 +1387,7 @@
         }
       ],
       "prerequisites": [
-        "6b6c21f0-27d4-4c65-9a4b-076acd30548d"
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
       ],
       "optionlinks": [],
       "reward": [
@@ -1329,7 +1425,7 @@
       "icon": {
         "id": "tconstruct:travelers_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
       },
       "tasks": [
         {
@@ -1353,7 +1449,7 @@
         {
           "id": "tconstruct:travelers_chestplate",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
         }
       ],
       "rewardchoice": [
@@ -1562,6 +1658,72 @@
       "commandrewards": []
     },
     {
+      "uuid": "557a29b9-9964-4f4b-8eca-063356468090",
+      "name": {
+        "text": "Tool Rod",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 109,
+      "y": 116,
+      "icon": {
+        "id": "tconstruct:tool_handle",
+        "Count": 1,
+        "tag": "{Material:\"tconstruct:wood\"}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tool_handle",
+                "Count": 1,
+                "tag": "{Material:\"tconstruct:wood\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
+        },
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:pig_iron\"}"
+        },
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:slimewood\"}"
+        },
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bloodbone\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "f98d8e1a-9f5f-40a0-bb40-36d6ea6488df",
       "name": {
         "text": "Cobalt",
@@ -1571,8 +1733,8 @@
         "text": "Cobalt is secondary output when melting Diamond Ore in a Tinkers\u0027 Construct Foundry",
         "isTranslationKey": false
       },
-      "x": 298,
-      "y": 65,
+      "x": 275,
+      "y": 87,
       "icon": {
         "id": "tconstruct:cobalt_ingot",
         "Count": 1
@@ -1591,7 +1753,7 @@
         }
       ],
       "prerequisites": [
-        "6eba1378-2189-4e12-b128-cc6c1c3b85ea"
+        "99816012-74e9-4c81-bb97-17e3836f506c"
       ],
       "optionlinks": [],
       "reward": [
@@ -1664,8 +1826,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 285,
-      "y": 86,
+      "x": 277,
+      "y": 123,
       "icon": {
         "id": "tconstruct:silky_cloth",
         "Count": 1
@@ -1684,9 +1846,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "5cf9b4e6-50dd-408a-9560-f5866948e8d0"
-      ],
+      "prerequisites": [],
       "optionlinks": [],
       "reward": [
         {
@@ -1751,15 +1911,15 @@
     {
       "uuid": "dc474a8f-ac11-4e03-b0df-afe1c2c91ae2",
       "name": {
-        "text": "Gold Rush",
+        "text": "I Like Goooooooooooold",
         "isTranslationKey": false
       },
       "description": {
         "text": "Gold is located between Y\u003d-64 to Y\u003d264",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 65,
+      "x": 227,
+      "y": 88,
       "icon": {
         "id": "minecraft:gold_ingot",
         "Count": 1
@@ -1778,7 +1938,7 @@
         }
       ],
       "prerequisites": [
-        "5cf9b4e6-50dd-408a-9560-f5866948e8d0"
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
       ],
       "optionlinks": [],
       "reward": [
@@ -1802,7 +1962,10 @@
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
-      "commandrewards": []
+      "commandrewards": [
+        "/gamestage add @s quest_4",
+        "/gamestage remove @s quest_3"
+      ]
     },
     {
       "uuid": "533ca0f2-2ef6-47d0-8ba3-48df6f9a535c",
@@ -1913,8 +2076,8 @@
         "text": "Y\u003d-64 to Y\u003d132",
         "isTranslationKey": false
       },
-      "x": 272,
-      "y": 111,
+      "x": 253,
+      "y": 123,
       "icon": {
         "id": "thermal:lead_ingot",
         "Count": 1
@@ -1932,9 +2095,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "5cf9b4e6-50dd-408a-9560-f5866948e8d0"
-      ],
+      "prerequisites": [],
       "optionlinks": [],
       "reward": [
         {
@@ -2279,6 +2440,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "c170fa53-a589-44cd-ac20-f1f557897ed0",
+      "name": {
+        "text": "Bronze Backpack!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 249,
+      "y": 38,
+      "icon": {
+        "id": "sophisticatedbackpacks:gold_backpack",
+        "Count": 1,
+        "tag": "{contentsUuid:[I;669879273,-1177403340,-1825123823,-1743749786],inventorySlots:27,upgradeSlots:3}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "sophisticatedbackpacks:gold_backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;669879273,-1177403340,-1825123823,-1743749786],inventorySlots:27,upgradeSlots:3}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ee5a7cb5-497f-4187-a83d-cc9d853be572"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "9db7d4d5-ce87-43fa-8df2-861cd5280cb4",
       "name": {
         "text": "Copper",
@@ -2547,6 +2754,53 @@
       "commandrewards": []
     },
     {
+      "uuid": "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2",
+      "name": {
+        "text": "It Glows!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You should be able to make a lightsource by finding glowstone on the walls and a stick from breaking Rooted Dirt.\n\nYou can hang your lantern in your Hip Curios Slot accessible from your inventory.",
+        "isTranslationKey": false
+      },
+      "x": 26,
+      "y": 9,
+      "icon": {
+        "id": "minecraft:lantern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:stick",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lantern",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "3949257e-5aa1-4ea3-a234-fc6fe770a6eb",
       "name": {
         "text": "Cutting Onions",
@@ -2652,7 +2906,7 @@
       ],
       "rewardchoice": [],
       "commandrewards": [
-        "/playertabs setNumberOfTabs 2",
+        "/playertabs addTab",
         "/function j2tc_tweaks:new_inventory_tab_notification"
       ]
     },
@@ -2869,7 +3123,7 @@
       "icon": {
         "id": "tconstruct:travelers_boots",
         "Count": 1,
-        "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
       },
       "tasks": [
         {
@@ -2893,7 +3147,7 @@
         {
           "id": "tconstruct:travelers_boots",
           "Count": 1,
-          "tag": "{Damage:0,HideFlags:3,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
         }
       ],
       "rewardchoice": [

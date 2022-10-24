@@ -1,9 +1,13 @@
 {
   "feature": "j2tc_tweaks:limbo_layer/ore_diorite",
-  "placement": [
+  "placement":
+  [
     {
       "count": 32,
       "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:biome"
     },
     {
       "type": "minecraft:in_square"
@@ -13,18 +17,15 @@
       {
         "min_inclusive":
         {
-          "absolute": 528
+          "absolute": 530
         },
         "max_inclusive":
         {
-          "absolute": 688
+          "absolute": 685
         },
         "type": "minecraft:uniform"
       },
       "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

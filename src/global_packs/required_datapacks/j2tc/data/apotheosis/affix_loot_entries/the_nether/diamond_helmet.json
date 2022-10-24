@@ -1,0 +1,15 @@
+{
+  "weight": 70,
+  "quality": 5.0,
+  "stack": {
+    "item": "minecraft:diamond_helmet",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "uncommon",
+  "max_rarity": "epic"
+}
