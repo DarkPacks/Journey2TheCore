@@ -117,7 +117,8 @@
     "net.diebuddies.physics.settings.PhysicsSettingsScreen": true,
     "moze_intel.projecte.gameObjs.gui.AlchBagScreen": true,
     "shadows.apotheosis.adventure.affix.salvaging.SalvagingScreen": true,
-    "vazkii.patchouli.client.book.gui.GuiBookCategory": true
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true,
+    "net.act.naturesaid.client.gui.RecycleTableUIScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

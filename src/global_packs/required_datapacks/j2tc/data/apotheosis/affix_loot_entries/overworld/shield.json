@@ -1,6 +1,10 @@
 {
 	"weight": 50,
 	"quality": 2.5,
+	    "stages":
+  [
+    "quest_2"
+  ],
 	"stack": {
 		"item": "minecraft:shield"
 	},

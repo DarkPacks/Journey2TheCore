@@ -5,6 +5,7 @@
 		"item": "minecraft:bow"
 	},
 	"type": "BOW",
+	"stages": ["quest_1"],
 	"min_rarity": "common",
 	"max_rarity": "rare",
 	"dimensions": [

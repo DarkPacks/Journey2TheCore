@@ -1,116 +1,144 @@
 {
   "type": "minecraft:entity",
-  "pools": [
-  {
-    "rolls":
+  "pools":
+  [
     {
-      "min": 2,
-      "max": 3
-    },
-    "entries": [
-    {
-      "type": "minecraft:item",
-      "name": "minecraft:bone",
-      "weight": 100,
-      "functions": [
+      "rolls":
       {
-        "function": "set_count",
-        "count":
-        {
-          "min": 1,
-          "max": 2
-        }
-      }]
-    },
-    {
-      "type": "minecraft:item",
-      "name": "born_in_chaos_v1:shattered_skull",
-      "weight": 20,
-      "functions": [
-      {
-        "function": "set_count",
-        "count":
-        {
-          "min": 0,
-          "max": 1
-        }
-      }]
-    },
-    {
-      "type": "minecraft:item",
-      "name": "born_in_chaos_v1:seedof_chaos",
-      "weight": 20,
-      "functions": [
-      {
-        "function": "set_count",
-        "count":
-        {
-          "min": 1,
-          "max": 2
-        }
+        "min": 2,
+        "max": 3
       },
-      {
-        "function": "minecraft:apply_bonus",
-        "enchantment": "minecraft:fortune",
-        "formula": "minecraft:ore_drops"
-      }]
-    },
-    {
-      "type": "minecraft:item",
-      "name": "born_in_chaos_v1:staffof_magic_arrows",
-      "weight": 5,
-      "functions": [
-      {
-        "function": "set_count",
-        "count":
+      "entries":
+      [
         {
-          "min": 1,
-          "max": 1
-        }
-      },
-      {
-        "function": "minecraft:apply_bonus",
-        "enchantment": "minecraft:fortune",
-        "formula": "minecraft:ore_drops"
-      }]
-    },
-    {
-      "type": "minecraft:item",
-      "name": "born_in_chaos_v1:pieceofdarkmetal",
-      "weight": 7,
-      "functions": [
-      {
-        "function": "set_count",
-        "count":
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 100,
+          "functions":
+          [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
         {
-          "min": 1,
-          "max": 1
-        }
-      },
-      {
-        "function": "minecraft:apply_bonus",
-        "enchantment": "minecraft:fortune",
-        "formula": "minecraft:ore_drops"
-      }]
-    },
-    {
-      "type": "minecraft:item",
-      "name": "born_in_chaos_v1:orbofthe_summoner",
-      "weight": 1,
-      "functions": [
-      {
-        "function": "set_count",
-        "count":
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:shattered_skull",
+          "weight": 20,
+          "functions":
+          [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
         {
-          "min": 1,
-          "max": 1
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:seedof_chaos",
+          "weight": 20,
+          "functions":
+          [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:staffof_magic_arrows",
+          "weight": 5,
+          "functions":
+          [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:pieceofdarkmetal",
+          "weight": 7,
+          "functions":
+          [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:orbofthe_summoner",
+          "weight": 1,
+          "functions":
+          [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         }
-      },
-      {
-        "function": "minecraft:apply_bonus",
-        "enchantment": "minecraft:fortune",
-        "formula": "minecraft:ore_drops"
-      }]
-    }]
-  }]
+      ]
+    }
+  ]
 }

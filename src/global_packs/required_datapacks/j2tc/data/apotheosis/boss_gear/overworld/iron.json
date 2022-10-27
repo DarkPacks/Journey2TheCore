@@ -1,7 +1,12 @@
 {
   "weight": 80,
   "quality": 5,
-  "mainhands": [
+  "stages":
+  [
+    "quest_2"
+  ],
+  "mainhands":
+  [
     {
       "weight": 100,
       "stack":
@@ -83,8 +88,10 @@
       }
     }
   ],
-  "offhands": [],
-  "boots": [
+  "offhands":
+  [],
+  "boots":
+  [
     {
       "weight": 1,
       "stack":
@@ -93,7 +100,8 @@
       }
     }
   ],
-  "leggings": [
+  "leggings":
+  [
     {
       "weight": 1,
       "stack":
@@ -102,7 +110,8 @@
       }
     }
   ],
-  "chestplates": [
+  "chestplates":
+  [
     {
       "weight": 1,
       "stack":
@@ -111,7 +120,8 @@
       }
     }
   ],
-  "helmets": [
+  "helmets":
+  [
     {
       "weight": 1,
       "stack":
@@ -120,7 +130,8 @@
       }
     }
   ],
-  "tags": [
+  "tags":
+  [
     "overworld"
   ]
 }

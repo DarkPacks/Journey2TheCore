@@ -15,7 +15,7 @@
 
 ["Experience Orbs"]
 	#Enable/Disable experience orbs optimization.
-	optimizeExperienceOrbs = true
+	optimizeExperienceOrbs = false
 	#Defines the radius in which experience orbs will be clustered together.
 	#Range: 1 ~ 16
 	experienceOrbsClusterRange = 4

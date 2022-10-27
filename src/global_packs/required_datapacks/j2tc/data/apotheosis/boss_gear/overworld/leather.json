@@ -1,6 +1,7 @@
 {
   "weight": 100,
-  "mainhands": [
+  "mainhands":
+  [
     {
       "weight": 100,
       "stack":
@@ -74,8 +75,10 @@
       }
     }
   ],
-  "offhands": [],
-  "boots": [
+  "offhands":
+  [],
+  "boots":
+  [
     {
       "weight": 1,
       "stack":
@@ -84,7 +87,8 @@
       }
     }
   ],
-  "leggings": [
+  "leggings":
+  [
     {
       "weight": 1,
       "stack":
@@ -93,7 +97,8 @@
       }
     }
   ],
-  "chestplates": [
+  "chestplates":
+  [
     {
       "weight": 1,
       "stack":
@@ -102,7 +107,8 @@
       }
     }
   ],
-  "helmets": [
+  "helmets":
+  [
     {
       "weight": 1,
       "stack":
@@ -111,7 +117,8 @@
       }
     }
   ],
-  "tags": [
+  "tags":
+  [
     "overworld"
   ]
 }

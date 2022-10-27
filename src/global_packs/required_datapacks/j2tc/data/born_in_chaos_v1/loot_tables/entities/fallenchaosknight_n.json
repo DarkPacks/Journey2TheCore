@@ -1,28 +1,37 @@
 {
   "type": "minecraft:entity",
-  "pools": [
+  "pools":
+  [
     {
-      "rolls": {
+      "rolls":
+      {
         "min": 1,
         "max": 2
       },
-      "entries": [
+      "entries":
+      [
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:pieceofdarkmetal",
           "weight": 70,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -30,18 +39,24 @@
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:pileof_dark_metal",
           "weight": 1,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -49,10 +64,12 @@
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:seedof_chaos",
           "weight": 35,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -63,10 +80,12 @@
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 100,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }

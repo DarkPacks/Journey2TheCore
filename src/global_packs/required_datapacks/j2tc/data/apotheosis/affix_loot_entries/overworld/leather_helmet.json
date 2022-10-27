@@ -1,6 +1,10 @@
 {
   "weight": 100,
   "quality": 1.0,
+      "stages":
+  [
+    "quest_0"
+  ],
   "stack": {
     "item": "minecraft:leather_helmet",
     "count": 1,

@@ -4,7 +4,7 @@
   [
     {
       "type": "minecraft:count",
-      "count": 8
+      "count": 16
     },
     {
       "type": "minecraft:biome"
@@ -38,7 +38,7 @@
           -1,
           0
         ],
-        "tag": "j2tc_tweaks:greed_layer_main_stone_block"
+        "tag": "j2tc_tweaks:greed_layer_surface"
       }
     }
   ]

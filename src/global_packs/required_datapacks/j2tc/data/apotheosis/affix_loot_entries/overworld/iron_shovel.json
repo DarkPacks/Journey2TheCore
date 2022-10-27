@@ -1,6 +1,10 @@
 {
   "weight": 85,
   "quality": 4.0,
+    "stages":
+  [
+    "quest_2"
+  ],
   "stack":
   {
     "item": "tconstruct:mattock",

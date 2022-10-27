@@ -12,5 +12,5 @@
 	#Range: > 0
 	range = 256
 	#List of stages and their linked modifiers (case-sensitive), in the format: stagename:MM_Modifier1,MM_Modifier2
-	stages = ["quest_2:MM_Gravity,MM_Blastoff,MM_Sticky", "quest_3:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness", "quest_4:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness,MM_Choke,MM_Regen,MM_Ghastly,MM_Ninja,MM_Quicksand,MM_Berserk,MM_Alchemist,MM_Storm,MM_Weakness,MM_Sprint,MM_Bulwark,MM_Ender,MM_Exhaust,MM_Rust,MM_Sapper,MM_Vengeance"]
+	stages = ["quest_2:MM_Gravity,MM_Blastoff,MM_Darkness", "quest_3:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness", "quest_4:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness,MM_Choke,MM_Regen,MM_Ghastly,MM_Ninja,MM_Quicksand,MM_Berserk,MM_Alchemist,MM_Storm,MM_Weakness,MM_Sprint,MM_Bulwark,MM_Ender,MM_Exhaust,MM_Rust,MM_Sapper,MM_Vengeance"]
 

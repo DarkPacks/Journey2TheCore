@@ -1,7 +1,7 @@
 {
   "stats": {
     "tconstruct:head": {
-      "durability": 100,
+      "durability": 115,
       "miningSpeed": 2.5,
       "harvestTier": "minecraft:stone",
       "attack": 1.25

@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material",
+  "ingredient":
+  {
+    "item": "candyworld:white_chocolate_block"
+  },
+  "value": 4,
+  "needed": 1,
+  "material": "tconstruct:candy#white_chocolate"
+}

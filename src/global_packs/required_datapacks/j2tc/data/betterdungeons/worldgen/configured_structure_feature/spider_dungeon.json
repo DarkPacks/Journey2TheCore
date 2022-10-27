@@ -1,12 +1,16 @@
 {
   "type": "betterdungeons:spider_dungeon",
-  "config": {},
+  "config":
+  {},
   "biomes": "#betterdungeons:has_structure/has_spider_dungeon",
   "adapt_noise": false,
-  "spawn_overrides": {
-    "monster": {
+  "spawn_overrides":
+  {
+    "monster":
+    {
       "bounding_box": "piece",
-      "spawns": [
+      "spawns":
+      [
         {
           "type": "minecraft:spider",
           "weight": 100,

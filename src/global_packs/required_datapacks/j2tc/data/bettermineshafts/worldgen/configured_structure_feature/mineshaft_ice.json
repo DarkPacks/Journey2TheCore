@@ -1,10 +1,12 @@
 {
   "type": "bettermineshafts:mineshaft",
-  "config": {
+  "config":
+  {
     "flammableLegs": false,
     "replacementRate": 0.95,
     "legVariant": "inner",
-    "decorationChances": {
+    "decorationChances":
+    {
       "vineChance": 0,
       "snowChance": 0,
       "cactusChance": 0,
@@ -14,97 +16,126 @@
       "lushDecorations": false,
       "dripstoneDecorations": false
     },
-    "blockStates": {
-      "mainBlockState": {
+    "blockStates":
+    {
+      "mainBlockState":
+      {
         "Name": "minecraft:packed_ice"
       },
-      "supportBlockState": {
+      "supportBlockState":
+      {
         "Name": "minecraft:packed_ice"
       },
-      "slabBlockState": {
+      "slabBlockState":
+      {
         "Name": "minecraft:packed_ice"
       },
-      "gravelBlockState": {
+      "gravelBlockState":
+      {
         "Name": "minecraft:snow_block"
       },
-      "stoneWallBlockState": {
+      "stoneWallBlockState":
+      {
         "Name": "minecraft:packed_ice"
       },
-      "stoneSlabBlockState": {
+      "stoneSlabBlockState":
+      {
         "Name": "minecraft:packed_ice"
       },
-      "trapdoorBlockState": {
+      "trapdoorBlockState":
+      {
         "Name": "minecraft:spruce_trapdoor"
       },
-      "smallLegBlockState": {
+      "smallLegBlockState":
+      {
         "Name": "minecraft:packed_ice"
       }
     },
-    "blockStateRandomizers": {
-      "mainRandomizer": {
-        "defaultBlockState": {
+    "blockStateRandomizers":
+    {
+      "mainRandomizer":
+      {
+        "defaultBlockState":
+        {
           "Name": "minecraft:packed_ice"
         },
-        "entries": [
+        "entries":
+        [
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:snow_block"
             },
             "probability": 0.1
           },
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:blue_ice"
             },
             "probability": 0.4
           },
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:cave_air"
             },
             "probability": 0.1
           }
         ]
       },
-      "floorRandomizer": {
-        "defaultBlockState": {
+      "floorRandomizer":
+      {
+        "defaultBlockState":
+        {
           "Name": "minecraft:packed_ice"
         },
-        "entries": [
+        "entries":
+        [
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:snow_block"
             },
             "probability": 0.1
           },
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:blue_ice"
             },
             "probability": 0.2
           }
         ]
       },
-      "brickRandomizer": {
-        "defaultBlockState": {
+      "brickRandomizer":
+      {
+        "defaultBlockState":
+        {
           "Name": "minecraft:packed_ice"
         },
-        "entries": [
+        "entries":
+        [
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:blue_ice"
             },
             "probability": 0.5
           }
         ]
       },
-      "legRandomizer": {
-        "defaultBlockState": {
+      "legRandomizer":
+      {
+        "defaultBlockState":
+        {
           "Name": "minecraft:packed_ice"
         },
-        "entries": [
+        "entries":
+        [
           {
-            "blockState": {
+            "blockState":
+            {
               "Name": "minecraft:blue_ice"
             },
             "probability": 0.5
@@ -115,5 +146,6 @@
   },
   "biomes": "#bettermineshafts:has_structure/has_mineshaft_ice",
   "adapt_noise": false,
-  "spawn_overrides": {}
+  "spawn_overrides":
+  {}
 }

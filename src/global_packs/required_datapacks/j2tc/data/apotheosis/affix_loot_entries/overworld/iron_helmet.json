@@ -1,6 +1,10 @@
 {
   "weight": 70,
   "quality": 5.0,
+    "stages":
+  [
+    "quest_2"
+  ],
   "stack": {
     "item": "minecraft:iron_helmet",
     "count": 1,

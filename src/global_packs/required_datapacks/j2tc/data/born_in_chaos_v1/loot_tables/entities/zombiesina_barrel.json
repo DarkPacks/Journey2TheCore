@@ -1,24 +1,30 @@
 {
   "type": "minecraft:entity",
-  "pools": [
+  "pools":
+  [
     {
-      "rolls": {
+      "rolls":
+      {
         "min": 3,
         "max": 5
       },
-      "bonus_rolls": {
+      "bonus_rolls":
+      {
         "min": 0,
         "max": 1
       },
-      "entries": [
+      "entries":
+      [
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 100,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -29,10 +35,12 @@
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
           "weight": 12,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
@@ -43,18 +51,24 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
           "weight": 47,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 3
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -62,18 +76,24 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
           "weight": 35,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -81,10 +101,12 @@
           "type": "minecraft:item",
           "name": "minecraft:kelp",
           "weight": 65,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 2,
                 "max": 3
               }
@@ -95,18 +117,24 @@
           "type": "minecraft:item",
           "name": "minecraft:prismarine_shard",
           "weight": 20,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -114,10 +142,12 @@
           "type": "minecraft:item",
           "name": "minecraft:ink_sac",
           "weight": 40,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 2
               }
@@ -128,18 +158,24 @@
           "type": "minecraft:item",
           "name": "minecraft:sea_pickle",
           "weight": 13,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -147,10 +183,12 @@
           "type": "minecraft:item",
           "name": "minecraft:fire_coral",
           "weight": 5,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -161,18 +199,24 @@
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
           "weight": 27,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -180,18 +224,24 @@
           "type": "minecraft:item",
           "name": "minecraft:prismarine_crystals",
           "weight": 17,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -199,18 +249,24 @@
           "type": "minecraft:item",
           "name": "minecraft:scute",
           "weight": 16,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -218,18 +274,24 @@
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
           "weight": 5,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -237,18 +299,24 @@
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
           "weight": 3,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -256,10 +324,12 @@
           "type": "minecraft:item",
           "name": "minecraft:wooden_shovel",
           "weight": 15,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -267,15 +337,20 @@
             {
               "function": "enchant_with_levels",
               "treasure": true,
-              "levels": {
+              "levels":
+              {
                 "min": 0,
                 "max": 15
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -283,18 +358,24 @@
           "type": "minecraft:item",
           "name": "minecraft:heart_of_the_sea",
           "weight": 4,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -302,18 +383,24 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 1,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -321,18 +408,24 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 17,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -340,18 +433,24 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 12,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -359,10 +458,12 @@
           "type": "minecraft:item",
           "name": "minecraft:chainmail_chestplate",
           "weight": 1,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
@@ -373,10 +474,12 @@
           "type": "minecraft:item",
           "name": "minecraft:carrot",
           "weight": 35,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -387,10 +490,12 @@
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
           "weight": 60,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 2
               }
@@ -401,10 +506,12 @@
           "type": "minecraft:item",
           "name": "minecraft:fermented_spider_eye",
           "weight": 20,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
@@ -415,10 +522,12 @@
           "type": "minecraft:item",
           "name": "minecraft:barrel",
           "weight": 13,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
@@ -429,10 +538,12 @@
           "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 40,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 2
               }
@@ -443,10 +554,12 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 5,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -457,10 +570,12 @@
           "type": "minecraft:item",
           "name": "minecraft:beetroot_seeds",
           "weight": 25,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 2
               }
@@ -471,10 +586,12 @@
           "type": "minecraft:item",
           "name": "minecraft:pufferfish",
           "weight": 12,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 0,
                 "max": 1
               }
@@ -485,10 +602,12 @@
           "type": "minecraft:item",
           "name": "minecraft:cod",
           "weight": 48,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -499,10 +618,12 @@
           "type": "minecraft:item",
           "name": "minecraft:tropical_fish",
           "weight": 30,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
@@ -513,18 +634,24 @@
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:seedof_chaos",
           "weight": 1,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -532,18 +659,24 @@
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:pieceofdarkmetal",
           "weight": 7,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count":
+              {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
             }
           ]
         },
@@ -551,10 +684,12 @@
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
           "weight": 20,
-          "functions": [
+          "functions":
+          [
             {
               "function": "set_count",
-              "count": {
+              "count":
+              {
                 "min": 1,
                 "max": 1
               }

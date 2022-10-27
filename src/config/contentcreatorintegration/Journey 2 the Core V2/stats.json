@@ -3,7 +3,7 @@
     {
       "layer": "chat",
       "type": "message",
-      "count": 39914
+      "count": 41063
     },
     {
       "layer": "minecraft",
@@ -18,14 +18,14 @@
     {
       "layer": "streamlabs",
       "type": "bits",
-      "count": 3294,
-      "amount": 1463971.0
+      "count": 3316,
+      "amount": 1472752.0
     },
     {
       "layer": "streamlabs",
       "type": "donation",
-      "count": 203,
-      "amount": 2759.621509143618
+      "count": 207,
+      "amount": 2779.621509143618
     },
     {
       "layer": "streamlabs",
@@ -41,14 +41,14 @@
     {
       "layer": "streamlabs",
       "type": "subMysteryGift",
-      "count": 1522,
-      "amount": 37761.0
+      "count": 1526,
+      "amount": 37769.0
     },
     {
       "layer": "streamlabs",
       "type": "subscription",
-      "count": 19834,
-      "amount": 368462.0
+      "count": 19919,
+      "amount": 370308.0
     },
     {
       "layer": "twitchpubsub",
@@ -63,7 +63,7 @@
     {
       "layer": "twitchpubsub",
       "type": "hype-train-approaching",
-      "count": 194
+      "count": 198
     },
     {
       "layer": "twitchpubsub",
@@ -83,12 +83,12 @@
     {
       "layer": "twitchpubsub",
       "type": "moderation_action",
-      "count": 116
+      "count": 118
     },
     {
       "layer": "twitchpubsub",
       "type": "reward-redeemed",
-      "count": 4786
+      "count": 4809
     }
   ]
 }

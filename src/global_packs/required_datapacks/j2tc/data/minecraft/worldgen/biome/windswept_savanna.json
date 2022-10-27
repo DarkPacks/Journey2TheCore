@@ -30,7 +30,8 @@
     [
       "j2tc_tweaks:water_layer",
       "j2tc_tweaks:water_layer1",
-      "j2tc_tweaks:water_layer2"
+      "j2tc_tweaks:water_layer2",
+      "j2tc_tweaks:limbo_layer/large_tree_roots"
     ],
     [
       "j2tc_tweaks:lake_lava",
@@ -144,6 +145,7 @@
       "j2tc_tweaks:gluttony_layer/pile_white_red_candy_cane",
       "j2tc_tweaks:gluttony_layer/dark_chocolate_bar",
       "j2tc_tweaks:gluttony_layer/mushroom_placement",
+      "j2tc_tweaks:gluttony_layer/cotton_candy_bush",
       "j2tc_tweaks:greed_layer/scrap_metal",
       "j2tc_tweaks:limbo_layer/scrap_brush",
       "j2tc_tweaks:limbo_layer/scrap_bones",
@@ -191,7 +193,6 @@
       "j2tc_tweaks:desire_layer/mossy_cobblestone_gravestone",
       "j2tc_tweaks:desire_layer/skull_with_rib_cage",
       "j2tc_tweaks:greed_layer/features/urn_place1",
-      "j2tc_tweaks:greed_layer/features/urn_place2",
       "j2tc_tweaks:stone_geyser",
       "j2tc_tweaks:stone_geyser_upper",
       "j2tc_tweaks:brown_mushroom_place",

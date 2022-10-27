@@ -1,4 +1,14 @@
 {
-  "conditions": [],
-  "type": "apotheosis:gems"
+  "pools":
+  [
+    {
+      "rolls": 1,
+      "entries":
+      [
+        {
+          "type": "apotheosis:random_gem"
+        }
+      ]
+    }
+  ]
 }

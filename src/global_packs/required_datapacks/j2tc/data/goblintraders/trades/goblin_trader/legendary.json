@@ -1,6 +1,7 @@
 {
   "replace": true,
-  "trades": [
+  "trades":
+  [
     {
       "type": "goblintraders:basic",
       "offer_item":
@@ -390,6 +391,39 @@
       {
         "item": "minecraft:player_head",
         "count": 1
+      },
+      "price_multiplier": 0.1,
+      "max_trades": 1,
+      "experience": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "treasurebags:treasure_bag",
+        "count": 1,
+        "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:apotheosis_gem\"}}"
+      },
+      "payment_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 18
+      },
+      "price_multiplier": 0.1,
+      "max_trades": 2,
+      "experience": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
+        "item": "apotheosis:superior_sigil_of_socketing",
+        "count": 1
+      },
+      "payment_item":
+      {
+        "item": "turkeydevutil:cookie",
+        "count": 42
       },
       "price_multiplier": 0.1,
       "max_trades": 1,

@@ -1,7 +1,7 @@
 {
   "type": "bettermineshafts:mineshaft",
   "config": {
-    "flammableLegs": true,
+    "flammableLegs": false,
     "replacementRate": 0.6,
     "legVariant": "edge",
     "decorationChances": {
