@@ -1,7 +1,9 @@
 # Node/NPM
+coverage/
 node_modules/
 
 # Build
+build/
 dist/
 
 # Dev mods
@@ -28,4 +30,3 @@ src/config/ichunutil/head/*
 # Content Creator
 src/config/contentcreatorintegration/contentcreatorintegration-common.toml
 src/config/contentcreatorintegration/logs/*
-
