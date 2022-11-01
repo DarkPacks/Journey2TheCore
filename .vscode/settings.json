@@ -5,7 +5,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "eslint.alwaysShowStatus": true,
-  "eslint.validate": ["javascript", "typescript"],
+  "eslint.validate": ["javascript", "json", "toml", "typescript"],
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.enable": true,
 
