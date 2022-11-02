@@ -5,12 +5,12 @@ const config = {
     "eslint:recommended",
     "plugin:toml/recommended",
     "plugin:jsonc/prettier",
-    "plugin:@typescript-eslint/recommended",
     "plugin:editorconfig/all",
     "plugin:prettier/recommended",
   ],
   plugins: ["@typescript-eslint", "editorconfig"],
   rules: {
+    // "no-multiple-empty-lines": ["error", { max: 0 }],
     "toml/indent": ["error", 2, { subTables: 1, keyValuePairs: 1 }],
     "toml/no-space-dots": "error",
     "toml/padding-line-between-tables": "error",
@@ -42,6 +42,7 @@ const config = {
     {
       files: "*.ts",
       parser: "@typescript-eslint/parser",
+      extends: ["plugin:@typescript-eslint/recommended"],
     },
   ],
 };
