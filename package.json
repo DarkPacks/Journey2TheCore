@@ -7,7 +7,7 @@
     "build": "tsc",
     "format": "prettier --write .",
     "lint": "npm-run-all --parallel lint:eslint lint:prettier",
-    "lint:eslint": "eslint . --ext .js,.json,.toml,.ts",
+    "lint:eslint": "eslint . --ext .js,.json,.jsonc,.json5,.mcmeta,.toml,.ts",
     "lint:prettier": "prettier --check . --loglevel error",
     "prepare": "husky install",
     "test": "jest"
@@ -31,7 +31,7 @@
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-editorconfig": "^4.0.2",
-    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsonc": "^2.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-toml": "^0.3.1",
     "husky": "^8.0.1",
