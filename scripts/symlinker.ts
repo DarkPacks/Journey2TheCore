@@ -6,12 +6,13 @@ import sudo from "@vscode/sudo-prompt";
 
 const rl = readline.createInterface(process.stdin, process.stdout);
 
-const buildDir = path.join(process.cwd(), "src");
+const buildDir = path.join(process.cwd(), "minecraft");
 const symlinkDirs = new Set([
   "config",
   "defaultconfigs",
   "global_packs",
   "journeymap",
+  "mods",
   "packmenu",
 ]);
 
