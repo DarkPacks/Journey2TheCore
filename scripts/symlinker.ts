@@ -6,7 +6,7 @@ import sudo from "@vscode/sudo-prompt";
 
 const rl = readline.createInterface(process.stdin, process.stdout);
 
-const buildDir = path.join(process.cwd(), "build");
+const buildDir = path.join(process.cwd(), "src");
 const symlinkDirs = new Set([
   "config",
   "defaultconfigs",
