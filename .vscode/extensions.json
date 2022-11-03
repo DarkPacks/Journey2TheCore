@@ -3,6 +3,8 @@
     "bungcip.better-toml",
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-json5",
+    "SPGoding.datapack-language-server"
   ]
 }
