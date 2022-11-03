@@ -11,6 +11,7 @@
     "lint:prettier": "prettier --check . --loglevel error",
     "modlist": "ts-node ./scripts/modlist",
     "prepare": "husky install",
+    "setup:node": "ts-node ./scripts/nvm",
     "symlink": "ts-node ./scripts/symlinker",
     "test": "jest"
   },
