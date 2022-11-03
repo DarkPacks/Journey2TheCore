@@ -6,22 +6,38 @@ const config = {
     "plugin:toml/recommended",
     "plugin:jsonc/prettier",
     "plugin:editorconfig/all",
-    "plugin:prettier/recommended",
+    "prettier",
   ],
-  plugins: ["@typescript-eslint", "editorconfig"],
+  plugins: [
+    "@typescript-eslint",
+    "editorconfig",
+  ],
   rules: {
     // "no-multiple-empty-lines": ["error", { max: 0 }],
-    "toml/indent": ["error", 2, { subTables: 1, keyValuePairs: 1 }],
+    "toml/indent": [
+      "error",
+      2,
+      { subTables: 1, keyValuePairs: 1 },
+    ],
     "toml/no-space-dots": "error",
     "toml/padding-line-between-tables": "error",
     "toml/quoted-keys": "error",
     "toml/array-bracket-newline": "error",
-    "toml/array-element-newline": ["error", "consistent"],
+    "toml/array-element-newline": [
+      "error",
+      "consistent",
+    ],
     "toml/comma-style": "error",
     "toml/inline-table-curly-spacing": "error",
     "toml/key-spacing": "error",
-    "toml/spaced-comment": ["error", "always"],
-    "toml/table-bracket-spacing": ["error", "always"],
+    "toml/spaced-comment": [
+      "error",
+      "always",
+    ],
+    "toml/table-bracket-spacing": [
+      "error",
+      "always",
+    ],
   },
   env: {
     es2021: true,
@@ -31,12 +47,14 @@ const config = {
     {
       files: "*.toml",
       parser: "toml-eslint-parser",
-      rules: {
-        "prettier/prettier": "off",
-      },
     },
     {
-      files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
+      files: [
+        "*.json",
+        "*.json5",
+        "*.jsonc",
+        "*.mcmeta",
+      ],
       parser: "jsonc-eslint-parser",
     },
     {
