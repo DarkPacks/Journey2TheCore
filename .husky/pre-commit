@@ -4,5 +4,4 @@
 npm run modlist
 git add modlist.json
 
-npm run format
 npm run lint
