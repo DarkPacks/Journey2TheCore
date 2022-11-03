@@ -1,18 +1,21 @@
 {
   "weight": 70,
   "quality": 5.0,
-    "stages":
+  "stages":
   [
     "quest_2"
   ],
-  "stack": {
+  "stack":
+  {
     "item": "minecraft:iron_helmet",
     "count": 1,
     "nbt": "{Damage:0}"
   },
   "type": "ARMOR",
-  "dimensions": [
+  "dimensions":
+  [
     "minecraft:overworld"
   ],
+  "min_rarity": "uncommon",
   "max_rarity": "rare"
 }

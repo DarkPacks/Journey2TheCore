@@ -14,5 +14,6 @@
   "dimensions": [
     "minecraft:overworld"
   ],
-  "max_rarity": "rare"
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
 }

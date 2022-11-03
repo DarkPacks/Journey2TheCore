@@ -16,5 +16,6 @@
   [
     "minecraft:overworld"
   ],
+  "min_rarity": "common",
   "max_rarity": "rare"
 }

@@ -336,10 +336,10 @@
 		[cyclic.blocks.peace_candle]
 			#Height reach of the candle for spawn prevention
 			#Range: 0 ~ 512
-			height = 1
+			height = 0
 			#Reach of the candle for spawn prevention
 			#Range: 0 ~ 64
-			radius = 1
+			radius = 0
 
 		[cyclic.blocks.water_candle]
 			#Reach of the candle

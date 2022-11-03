@@ -145,7 +145,7 @@
         {
           "id": "tconstruct:dagger",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":66.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":77.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
         }
       ],
       "rewardchoice": [
@@ -1019,7 +1019,8 @@
                 "id": "minecraft:crossbow",
                 "Count": 1,
                 "tag": "{Damage:0}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }

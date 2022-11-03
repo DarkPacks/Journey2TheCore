@@ -1,0 +1,19 @@
+{
+  "weight": 85,
+  "quality": 4.0,
+  "stages":
+  [
+    "quest_2"
+  ],
+  "stack":
+  {
+    "item": "born_in_chaos_v1:nightmare_scythe"
+  },
+  "type": "HEAVY_WEAPON",
+  "dimensions":
+  [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "uncommon",
+  "max_rarity": "rare"
+}

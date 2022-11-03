@@ -1,1 +1,663 @@
-{}
+{
+  "chancecubes:armor_stand_armor":
+  {
+    "handItemStacks":
+    [
+      {
+        "id": "minecraft:grass",
+        "Count": 1
+      },
+      {
+        "id": "minecraft:stick",
+        "Count": 16,
+        "tag":
+        {
+          "Enchantments":
+          []
+        }
+      },
+      {
+        "id": "dabomb:flower_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:ender_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:dynamite",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:sticky_dynamite",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:bouncy_dynamite",
+        "Count": 1
+      },
+      {
+        "id": "rechiseled:chisel",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:bouncy_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:sticky_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:bomb_fish",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:dirt_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:dry_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:water_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:lava_bomb",
+        "Count": 1
+      },
+      {
+        "id": "dabomb:bee_bomb",
+        "Count": 1
+      },
+      {
+        "id": "tconstruct:pickaxe",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:iron",
+            "tconstruct:iron",
+            "tconstruct:iron"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:piercing"
+            },
+            {
+              "level": "3s",
+              "name": "tconstruct:sturdy"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:sword",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:iron",
+            "tconstruct:iron",
+            "tconstruct:iron"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:sturdy"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:silky_shears"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:hand_axe",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:iron",
+            "tconstruct:iron",
+            "tconstruct:iron"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:sturdy"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:axe_strip"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:axe_scrape"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:mattock",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:iron",
+            "tconstruct:iron",
+            "tconstruct:iron"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:knockback"
+            },
+            {
+              "level": "3s",
+              "name": "tconstruct:sturdy"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:hoe_till"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:kama",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:iron",
+            "tconstruct:iron",
+            "tconstruct:iron"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:sturdy"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:shears"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:harvest"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:dagger",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:iron",
+            "tconstruct:iron",
+            "tconstruct:iron"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:padded"
+            },
+            {
+              "level": "2s",
+              "name": "tconstruct:sturdy"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:offhand_attack"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:silky_shears"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:pickaxe",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:rock",
+            "tconstruct:rock",
+            "tconstruct:rock"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:piercing"
+            },
+            {
+              "level": "3s",
+              "name": "tconstruct:stonebound"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:sword",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:rock",
+            "tconstruct:rock",
+            "tconstruct:rock"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:stonebound"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:silky_shears"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:hand_axe",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:rock",
+            "tconstruct:rock",
+            "tconstruct:rock"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:stonebound"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:axe_strip"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:axe_scrape"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:mattock",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:rock",
+            "tconstruct:rock",
+            "tconstruct:rock"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:knockback"
+            },
+            {
+              "level": "3s",
+              "name": "tconstruct:stonebound"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:hoe_till"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:kama",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:rock",
+            "tconstruct:rock",
+            "tconstruct:rock"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:stonebound"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:shears"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:harvest"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:dagger",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:rock",
+            "tconstruct:rock",
+            "tconstruct:rock"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:padded"
+            },
+            {
+              "level": "2s",
+              "name": "tconstruct:stonebound"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:offhand_attack"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:silky_shears"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:pickaxe",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood",
+            "tconstruct:wood",
+            "tconstruct:wood"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:piercing"
+            },
+            {
+              "level": "3s",
+              "name": "tconstruct:cultivated"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:sword",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood",
+            "tconstruct:wood",
+            "tconstruct:wood"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:cultivated"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:silky_shears"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:hand_axe",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood",
+            "tconstruct:wood",
+            "tconstruct:wood"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:cultivated"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:axe_strip"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:axe_scrape"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:mattock",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood",
+            "tconstruct:wood",
+            "tconstruct:wood"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:knockback"
+            },
+            {
+              "level": "3s",
+              "name": "tconstruct:cultivated"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:hoe_till"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:kama",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood",
+            "tconstruct:wood",
+            "tconstruct:wood"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "3s",
+              "name": "tconstruct:cultivated"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:shears"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:harvest"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      },
+      {
+        "id": "tconstruct:dagger",
+        "Count": 1,
+        "tag":
+        {
+          "tic_materials":
+          [
+            "tconstruct:wood",
+            "tconstruct:wood",
+            "tconstruct:wood"
+          ],
+          "tic_modifiers":
+          [
+            {
+              "level": "1s",
+              "name": "tconstruct:padded"
+            },
+            {
+              "level": "2s",
+              "name": "tconstruct:cultivated"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:offhand_attack"
+            },
+            {
+              "level": "1s",
+              "name": "tconstruct:silky_shears"
+            }
+          ],
+          "tic_persistent_data":
+          {
+            "abilities": 1,
+            "upgrades": 3
+          }
+        }
+      }
+    ]
+  }
+}

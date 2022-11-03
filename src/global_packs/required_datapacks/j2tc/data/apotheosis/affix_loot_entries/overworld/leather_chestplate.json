@@ -1,18 +1,21 @@
 {
   "weight": 100,
   "quality": 1.0,
-      "stages":
+  "stages":
   [
     "quest_0"
   ],
-  "stack": {
+  "stack":
+  {
     "item": "minecraft:leather_chestplate",
     "count": 1,
     "nbt": "{Damage:0}"
   },
   "type": "ARMOR",
-  "dimensions": [
+  "dimensions":
+  [
     "minecraft:overworld"
   ],
-  "max_rarity": "rare"
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
 }
