@@ -8,7 +8,7 @@
     "lint": "npm-run-all --parallel lint:eslint lint:prettier",
     "lint:eslint": "eslint . --ext .js,.json,.jsonc,.json5,.mcmeta,.toml,.ts",
     "lint:prettier": "prettier --check . --loglevel error",
-    "modlist": "ts-node ./scripts/modlist",
+    "modlist": "ts-node ./scripts/modlist && prettier --write ./modlist.json",
     "prepare": "husky install",
     "setup:node": "ts-node ./scripts/nvm",
     "symlink": "ts-node ./scripts/symlinker",

@@ -25,10 +25,7 @@ async function main() {
       return obj;
     }, {} as FileMapping);
 
-  fs.writeFile(
-    modlistPath,
-    JSON.stringify(sortedFileMapping, undefined, 2) + "\n",
-  );
+  fs.writeFile(modlistPath, JSON.stringify(sortedFileMapping, undefined, 2));
 }
 
 interface FileMapping {
