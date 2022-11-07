@@ -13,7 +13,6 @@ const config = {
     "editorconfig",
   ],
   rules: {
-    // "no-multiple-empty-lines": ["error", { max: 0 }],
     "toml/indent": [
       "error",
       2,
@@ -56,6 +55,18 @@ const config = {
         "*.mcmeta",
       ],
       parser: "jsonc-eslint-parser",
+    },
+    {
+      files: [
+        "minecraft/**/*.json",
+        "minecraft/**/*.mcmeta",
+      ],
+      rules: {
+        "no-multiple-empty-lines": [
+          "error",
+          { max: 0 },
+        ],
+      },
     },
     {
       files: "*.ts",
