@@ -3,10 +3,7 @@
     "item": "cookingforblockheads:cabinet"
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CCC",
-    "CBC"
-  ],
+  "pattern": ["CCC", "CBC"],
   "key": {
     "C": {
       "item": "minecraft:terracotta"

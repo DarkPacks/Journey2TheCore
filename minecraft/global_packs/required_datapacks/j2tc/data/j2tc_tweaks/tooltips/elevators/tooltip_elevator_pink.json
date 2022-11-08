@@ -1,7 +1,5 @@
 {
-  "items": [
-    "elevatorid:elevator_pink"
-  ],
+  "items": ["elevatorid:elevator_pink"],
   "tooltips": [
     {
       "text": "Can transport up to 32 blocks away",

@@ -1,6 +1,3 @@
 {
-  "values": [
-    "minecraft:bedrock",
-    "minecraft:netherrack"
-  ]
+  "values": ["minecraft:bedrock", "minecraft:netherrack"]
 }

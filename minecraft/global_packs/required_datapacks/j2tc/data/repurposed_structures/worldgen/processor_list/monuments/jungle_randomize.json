@@ -10,17 +10,13 @@
     },
     {
       "input_block": "minecraft:mossy_stone_brick_stairs",
-      "output_blocks": [
-        "minecraft:stone_brick_stairs"
-      ],
+      "output_blocks": ["minecraft:stone_brick_stairs"],
       "probability": 0.35,
       "processor_type": "repurposed_structures:random_replace_with_properties_processor"
     },
     {
       "input_block": "minecraft:mossy_stone_brick_slab",
-      "output_blocks": [
-        "minecraft:stone_brick_slab"
-      ],
+      "output_blocks": ["minecraft:stone_brick_slab"],
       "probability": 0.35,
       "processor_type": "repurposed_structures:random_replace_with_properties_processor"
     },
@@ -199,10 +195,10 @@
       "forced_placement": true,
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:wet_sponge"
           }
         }
@@ -214,10 +210,10 @@
       "pillar_processor_list": "repurposed_structures:monuments/jungle_randomize",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:light_blue_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:mossy_stone_bricks"
           }
         }

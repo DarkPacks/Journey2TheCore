@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "IBI",
-          "CDC",
-          "BBB"
-        ],
+        "pattern": ["IBI", "CDC", "BBB"],
         "key": {
           "I": {
             "tag": "forge:gems/diamond"

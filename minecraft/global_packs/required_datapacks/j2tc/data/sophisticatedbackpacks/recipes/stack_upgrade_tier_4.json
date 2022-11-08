@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "NNN",
-    "NSN",
-    "NNN"
-  ],
+  "pattern": ["NNN", "NSN", "NNN"],
   "key": {
     "S": {
       "item": "sophisticatedbackpacks:stack_upgrade_tier_3"

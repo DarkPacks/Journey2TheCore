@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "thermal:green_bean"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

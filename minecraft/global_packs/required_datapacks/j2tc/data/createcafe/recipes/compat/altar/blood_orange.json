@@ -6,12 +6,10 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "input":
-  {
+  "input": {
     "tag": "forge:fruits/orange"
   },
-  "output":
-  {
+  "output": {
     "item": "createcafe:blood_orange"
   },
   "upgradeLevel": 0,

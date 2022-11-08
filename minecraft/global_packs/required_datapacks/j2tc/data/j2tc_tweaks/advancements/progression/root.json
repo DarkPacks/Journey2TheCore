@@ -1,16 +1,12 @@
 {
-  "display":
-  {
-    "icon":
-    {
+  "display": {
+    "icon": {
       "item": "minecraft:grass_block"
     },
-    "title":
-    {
+    "title": {
       "translate": "Root advancements"
     },
-    "description":
-    {
+    "description": {
       "translate": "advancements.story.root.description"
     },
     "frame": "task",
@@ -19,20 +15,13 @@
     "hidden": false,
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
   },
-  "criteria":
-  {
-    "crafting_table":
-    {
+  "criteria": {
+    "crafting_table": {
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "requirements": [
-    [
-      "crafting_table"
-    ]
-  ],
-  "rewards":
-  {
+  "requirements": [["crafting_table"]],
+  "rewards": {
     "function": "j2tc_tweaks:stages/quest_0"
   }
 }

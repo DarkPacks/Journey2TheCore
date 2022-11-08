@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "minecraft:iron_nugget"
-  ]
+  "values": ["minecraft:iron_nugget"]
 }

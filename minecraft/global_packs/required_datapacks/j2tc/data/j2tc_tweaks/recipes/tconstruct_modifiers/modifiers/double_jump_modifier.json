@@ -7,16 +7,13 @@
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Double Jump\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:double_jump\"}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/boots"
   },
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:double_jump",
     "level": 1
   }

@@ -1,17 +1,13 @@
 {
   "parent": "j2tc_tweaks:progression/root",
-  "display":
-  {
-    "icon":
-    {
+  "display": {
+    "icon": {
       "item": "minecraft:nether_bricks"
     },
-    "title":
-    {
+    "title": {
       "translate": "Locate a Village"
     },
-    "description":
-    {
+    "description": {
       "translate": "Locate a village and recieve the locate_village gamestage"
     },
     "frame": "task",
@@ -19,22 +15,17 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "criteria":
-  {
-    "fortress":
-    {
+  "criteria": {
+    "fortress": {
       "trigger": "minecraft:location",
-      "conditions":
-      {
-        "location":
-        {
+      "conditions": {
+        "location": {
           "feature": "underground_villages:underground_village"
         }
       }
     }
   },
-  "rewards":
-  {
+  "rewards": {
     "function": "j2tc_tweaks:stages/locate_village"
   }
 }

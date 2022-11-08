@@ -3,13 +3,11 @@
   "trades": [
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "create:copper_nugget",
         "count": 12
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_copper",
         "count": 1
       },
@@ -19,13 +17,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:arrow",
         "count": 16
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:scaffolding",
         "count": 4
       },
@@ -35,13 +31,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "cyclic:soil",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:bone",
         "count": 42
       },
@@ -51,13 +45,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "tconstruct:pick_head_cast",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_copper",
         "count": 16
       },
@@ -67,13 +59,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "tconstruct:small_blade_cast",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_copper",
         "count": 16
       },
@@ -83,13 +73,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "tconstruct:small_axe_head_cast",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_copper",
         "count": 16
       },
@@ -99,13 +87,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:iron_nugget",
         "count": 12
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_iron",
         "count": 1
       },
@@ -115,13 +101,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:gunpowder",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
@@ -131,13 +115,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 6
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:turtle_egg",
         "count": 1
       },
@@ -147,13 +129,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:sponge",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 8
       },
@@ -163,13 +143,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:terracotta",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:clay",
         "count": 1
       },
@@ -179,18 +157,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:book",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:leather",
         "count": 1
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:paper",
         "count": 3
       },
@@ -200,13 +175,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:amethyst_shard",
         "count": 2
       },
@@ -216,13 +189,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 12
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "alexsmobs:shield_of_the_deep",
         "count": 1
       },
@@ -232,18 +203,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "factinventory:inventory_dropper",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
@@ -253,18 +221,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "factinventory:inventory_pump",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
@@ -274,13 +239,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "buddycards:buddycard_pack_base",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "createcafe:oreo",
         "count": 4
       },
@@ -290,13 +253,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:baked_potato",
         "count": 16
       },
@@ -306,13 +267,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:carrot",
         "count": 32
       },
@@ -322,18 +281,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "cyclic:crafting_bag",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "cyclic:crafting_stick",
         "count": 1
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 2
       },
@@ -343,13 +299,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "cyclic:torch_launcher",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "geore:coal_shard",
         "count": 32
       },
@@ -359,13 +313,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "cyclic:spelunker",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:ender_pearl",
         "count": 2
       },
@@ -375,13 +327,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "cyclic:prospector",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_iron_block",
         "count": 2
       },
@@ -391,13 +341,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set1",
         "count": 1
       },
@@ -407,13 +355,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set2",
         "count": 1
       },
@@ -423,13 +369,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set3",
         "count": 1
       },
@@ -439,13 +383,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set4",
         "count": 1
       },
@@ -455,13 +397,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set5",
         "count": 1
       },
@@ -471,13 +411,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set6",
         "count": 1
       },
@@ -487,13 +425,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set7",
         "count": 1
       },
@@ -503,13 +439,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set8",
         "count": 1
       },
@@ -519,13 +453,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set9",
         "count": 1
       },
@@ -535,13 +467,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set10",
         "count": 1
       },
@@ -551,13 +481,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set11",
         "count": 1
       },
@@ -567,13 +495,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set12",
         "count": 1
       },
@@ -583,13 +509,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set13",
         "count": 1
       },
@@ -599,13 +523,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set14",
         "count": 1
       },
@@ -615,13 +537,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set15",
         "count": 1
       },

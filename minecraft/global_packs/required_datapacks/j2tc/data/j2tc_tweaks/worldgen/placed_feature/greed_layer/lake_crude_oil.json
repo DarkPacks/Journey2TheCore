@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:greed_layer/lake_crude_oil",
-  "placement":
-  [
+  "placement": [
     {
       "type": "minecraft:count",
       "count": 1
@@ -14,15 +13,12 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 140
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 260
         }
       }

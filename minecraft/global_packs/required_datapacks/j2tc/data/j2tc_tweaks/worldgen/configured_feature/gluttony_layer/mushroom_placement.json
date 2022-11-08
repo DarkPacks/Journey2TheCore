@@ -1,75 +1,61 @@
 {
   "type": "minecraft:random_patch",
-  "config":
-  {
+  "config": {
     "tries": 24,
     "xz_spread": 3,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
+    "feature": {
+      "feature": {
         "type": "minecraft:simple_block",
-        "config":
-        {
-          "to_place":
-          {
+        "config": {
+          "to_place": {
             "type": "minecraft:weighted_state_provider",
-            "entries":
-            [
+            "entries": [
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:dark_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:white_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:milk_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:dark_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:milk_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:milk_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:white_chocolate_mushroom"
                 }
               },
               {
                 "weight": 1,
-                "data":
-                {
+                "data": {
                   "Name": "candyworld:dark_chocolate_mushroom"
                 }
               }
@@ -77,17 +63,12 @@
           }
         }
       },
-      "placement":
-      [
+      "placement": [
         {
           "type": "minecraft:block_predicate_filter",
-          "predicate":
-          {
+          "predicate": {
             "type": "minecraft:matching_blocks",
-            "blocks":
-            [
-              "minecraft:air"
-            ]
+            "blocks": ["minecraft:air"]
           }
         }
       ]

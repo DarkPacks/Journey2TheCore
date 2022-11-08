@@ -1,8 +1,6 @@
 {
-  "stats":
-  {
-    "tconstruct:head":
-    {
+  "stats": {
+    "tconstruct:head": {
       "harvestTier": "cyclic:sandstone"
     }
   }

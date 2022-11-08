@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "BRB",
-    "III"
-  ],
+  "pattern": ["III", "BRB", "III"],
   "key": {
     "B": {
       "tag": "forge:storage_blocks/redstone"

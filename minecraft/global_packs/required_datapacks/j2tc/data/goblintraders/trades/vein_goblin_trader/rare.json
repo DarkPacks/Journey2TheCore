@@ -3,13 +3,11 @@
   "trades": [
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:experience_bottle",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 3
       },
@@ -19,18 +17,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:name_tag",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 24
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:paper",
         "count": 8
       },
@@ -40,13 +35,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:blue_ice",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:packed_ice",
         "count": 4
       },
@@ -56,13 +49,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_cat",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -72,13 +63,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_blocks",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -88,13 +77,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_chirp",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -104,13 +91,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_mellohi",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -120,13 +105,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_stal",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -136,13 +119,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 20
       },

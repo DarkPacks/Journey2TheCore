@@ -1,6 +1,5 @@
 {
-  "config":
-  {
+  "config": {
     "start_pool": "minecraft:village/plains/town_centers",
     "set_fixed_y_spawn": 300,
     "size": 6,
@@ -9,7 +8,6 @@
   },
   "biomes": "#minecraft:has_structure/village_plains",
   "adapt_noise": false,
-  "spawn_overrides":
-  {},
+  "spawn_overrides": {},
   "type": "minecraft:village"
 }

@@ -12,9 +12,7 @@
       "stat": "tconstruct:durability",
       "type": "add",
       "value": -250.0,
-      "tags": [
-        "tconstruct:modifiable/armor"
-      ]
+      "tags": ["tconstruct:modifiable/armor"]
     },
     {
       "stat": "tconstruct:armor",

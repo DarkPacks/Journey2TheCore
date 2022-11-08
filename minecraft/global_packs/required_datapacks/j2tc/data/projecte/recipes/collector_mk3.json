@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GUG",
-    "SPS",
-    "SGS"
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["GUG", "SPS", "SGS"],
+  "key": {
+    "G": {
       "item": "minecraft:glowstone"
     },
-    "P":
-    {
+    "P": {
       "item": "projecte:collector_mk2"
     },
-    "U":
-    {
+    "U": {
       "item": "projecte:red_matter"
     },
-    "S":
-    {
+    "S": {
       "item": "compressium:cobblestone_5"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:collector_mk3"
   }
 }

@@ -3,21 +3,16 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set16"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set16"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set21"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set21"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "type": "forge:intersection",
     "children": [
       {
@@ -28,12 +23,10 @@
       }
     ]
   },
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:flamewake",
     "level": 1
   },

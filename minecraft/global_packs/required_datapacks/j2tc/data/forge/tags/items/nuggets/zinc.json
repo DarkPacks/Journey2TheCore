@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "create:zinc_nugget"
-  ]
+  "values": ["create:zinc_nugget"]
 }

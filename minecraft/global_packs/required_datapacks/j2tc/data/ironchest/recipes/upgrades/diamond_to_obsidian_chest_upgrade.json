@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "MMM",
-    "MGM",
-    "MMM"
-  ],
+  "pattern": ["MMM", "MGM", "MMM"],
   "key": {
     "M": {
       "item": "minecraft:obsidian"

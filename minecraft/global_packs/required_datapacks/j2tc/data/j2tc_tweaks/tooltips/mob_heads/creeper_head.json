@@ -1,7 +1,5 @@
 {
-  "items": [
-    "minecraft:creeper_head"
-  ],
+  "items": ["minecraft:creeper_head"],
   "tooltips": [
     {
       "text": "Mob Head",

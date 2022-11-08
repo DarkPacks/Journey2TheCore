@@ -18,12 +18,10 @@
       "tag": "tconstruct:modifiable/armor/chestplate"
     }
   ],
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:haste",
     "level": 1
   },

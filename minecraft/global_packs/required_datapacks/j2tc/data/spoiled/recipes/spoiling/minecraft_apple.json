@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "minecraft:apple"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

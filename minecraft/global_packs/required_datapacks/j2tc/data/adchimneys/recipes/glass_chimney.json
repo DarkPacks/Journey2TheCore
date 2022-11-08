@@ -5,11 +5,7 @@
       "item": "minecraft:glass"
     }
   },
-  "pattern": [
-    "M M",
-    "M M",
-    "M M"
-  ],
+  "pattern": ["M M", "M M", "M M"],
   "result": {
     "count": 8,
     "item": "adchimneys:glass_chimney"

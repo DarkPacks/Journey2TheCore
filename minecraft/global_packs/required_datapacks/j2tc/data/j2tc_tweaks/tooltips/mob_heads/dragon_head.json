@@ -1,7 +1,5 @@
 {
-  "items": [
-    "minecraft:dragon_head"
-  ],
+  "items": ["minecraft:dragon_head"],
   "tooltips": [
     {
       "text": "Mob Head",

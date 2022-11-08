@@ -72,10 +72,10 @@
       "forced_placement": true,
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:wet_sponge"
           }
         }
@@ -87,10 +87,10 @@
       "pillar_processor_list": "repurposed_structures:monuments/desert_randomize",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:light_blue_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:cut_sandstone"
           }
         }

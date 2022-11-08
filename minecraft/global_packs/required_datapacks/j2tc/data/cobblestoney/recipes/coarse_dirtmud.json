@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "DG",
-    "GD"
-  ],
+  "pattern": ["DG", "GD"],
   "key": {
     "D": {
       "item": "cobblestoney:mud"

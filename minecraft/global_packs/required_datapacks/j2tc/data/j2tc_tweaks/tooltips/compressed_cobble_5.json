@@ -1,7 +1,5 @@
 {
-  "items": [
-    "compressium:cobblestone_5"
-  ],
+  "items": ["compressium:cobblestone_5"],
   "tooltips": [
     {
       "text": "59,049 Cobblestone",

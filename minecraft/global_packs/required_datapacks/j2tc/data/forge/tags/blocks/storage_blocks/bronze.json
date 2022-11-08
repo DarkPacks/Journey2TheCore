@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "thermal:bronze_block"
-  ]
+  "values": ["thermal:bronze_block"]
 }

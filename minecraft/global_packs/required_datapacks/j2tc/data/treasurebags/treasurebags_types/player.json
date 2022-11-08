@@ -8,7 +8,5 @@
   "bagColor": "#FF00FF",
   "bagOverlayColor": "#6495ED",
   "bagStringColor": "#FFD700",
-  "dropsFromGroups": [
-    "player"
-  ]
+  "dropsFromGroups": ["player"]
 }

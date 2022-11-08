@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "alexsmobs:cooked_moose_ribs"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

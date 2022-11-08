@@ -1,1 +1,8 @@
-{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"projecte:philosophers_stone"},{"item":"minecraft:coal"}],"result":{"item":"minecraft:charcoal","count":4}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "projecte:philosophers_stone" },
+    { "item": "minecraft:coal" }
+  ],
+  "result": { "item": "minecraft:charcoal", "count": 4 }
+}

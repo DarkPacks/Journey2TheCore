@@ -11,7 +11,7 @@
     },
     {
       "item": "thermal:rosin",
-      "chance": 0.50
+      "chance": 0.5
     }
   ],
   "energy": 4000

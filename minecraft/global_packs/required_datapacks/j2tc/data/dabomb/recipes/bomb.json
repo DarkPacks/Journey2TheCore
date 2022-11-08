@@ -1,23 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "   ",
-    "GSG",
-    " G "
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["   ", "GSG", " G "],
+  "key": {
+    "G": {
       "tag": "forge:gunpowder"
     },
-    "S":
-    {
+    "S": {
       "tag": "forge:sand"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "dabomb:bomb",
     "count": 2
   }

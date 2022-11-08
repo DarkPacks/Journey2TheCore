@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:auto_smelting_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:auto_smelting_upgrade"]
           }
         ]
       }
@@ -25,10 +23,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_auto_smelting_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_auto_smelting_upgrade", "has_the_recipe"]]
 }

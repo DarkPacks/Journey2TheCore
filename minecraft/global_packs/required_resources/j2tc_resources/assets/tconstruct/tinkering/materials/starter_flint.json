@@ -1,9 +1,5 @@
 {
-  "fallbacks": [
-    "crystal",
-    "rock",
-    "stick"
-  ],
+  "fallbacks": ["crystal", "rock", "stick"],
   "color": "3D3C3C",
   "luminosity": 0,
   "generator": {

@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "minecraft:suspicious_stew"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

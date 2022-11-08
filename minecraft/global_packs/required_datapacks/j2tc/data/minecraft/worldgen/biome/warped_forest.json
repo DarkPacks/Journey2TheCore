@@ -1,29 +1,23 @@
 {
-  "effects":
-  {
-    "mood_sound":
-    {
+  "effects": {
+    "mood_sound": {
       "sound": "minecraft:ambient.warped_forest.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.additions",
       "tick_chance": 0.0111
     },
-    "music":
-    {
+    "music": {
       "sound": "minecraft:music.nether.warped_forest",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "particle":
-    {
-      "options":
-      {
+    "particle": {
+      "options": {
         "type": "minecraft:warped_spore"
       },
       "probability": 0.01428
@@ -34,8 +28,7 @@
     "water_color": 8914952,
     "water_fog_color": 3866888
   },
-  "carvers":
-  {
+  "carvers": {
     "air": "minecraft:nether_cave"
   },
   "features": [
@@ -72,8 +65,7 @@
       "minecraft:twisting_vines"
     ]
   ],
-  "spawners":
-  {
+  "spawners": {
     "monster": [
       {
         "type": "minecraft:enderman",
@@ -97,10 +89,8 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs":
-  {
-    "minecraft:enderman":
-    {
+  "spawn_costs": {
+    "minecraft:enderman": {
       "energy_budget": 0.12,
       "charge": 1.0
     }

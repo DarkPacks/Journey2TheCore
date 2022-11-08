@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "#j2tc_tweaks:mining_tiers/wood"
-  ]
+  "values": ["#j2tc_tweaks:mining_tiers/wood"]
 }

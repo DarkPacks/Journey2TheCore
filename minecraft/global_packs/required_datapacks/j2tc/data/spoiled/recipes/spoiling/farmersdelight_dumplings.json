@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:dumplings"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

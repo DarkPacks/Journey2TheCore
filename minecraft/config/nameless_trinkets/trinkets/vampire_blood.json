@@ -6,9 +6,7 @@
   },
   "loot": [
     {
-      "table": [
-        "minecraft:chests/spawn_bonus_chest"
-      ],
+      "table": ["minecraft:chests/spawn_bonus_chest"],
       "chance": 0.7692308
     },
     {
@@ -41,9 +39,7 @@
       "chance": 0.053846154
     },
     {
-      "table": [
-        "minecraft:chests/bastion_treasure"
-      ],
+      "table": ["minecraft:chests/bastion_treasure"],
       "chance": 0.53846157
     },
     {

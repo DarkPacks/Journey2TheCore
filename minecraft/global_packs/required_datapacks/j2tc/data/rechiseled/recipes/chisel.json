@@ -1,22 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " A",
-    "B "
-  ],
-  "key":
-  {
-    "A":
-    {
+  "pattern": [" A", "B "],
+  "key": {
+    "A": {
       "item": "minecraft:brick"
     },
-    "B":
-    {
+    "B": {
       "tag": "forge:rods/wooden"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "rechiseled:chisel"
   }
 }

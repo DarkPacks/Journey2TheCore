@@ -105,7 +105,7 @@
           },
           "input_predicate": {
             "block": "minecraft:deepslate_bricks",
-            "probability": 1.0E-4,
+            "probability": 1.0e-4,
             "predicate_type": "minecraft:random_block_match"
           },
           "location_predicate": {
@@ -202,7 +202,7 @@
       "if_air_in_world": true,
       "weighted_list_of_replacement_blocks": [
         {
-          "block" : "minecraft:deepslate",
+          "block": "minecraft:deepslate",
           "weight": 1
         }
       ]

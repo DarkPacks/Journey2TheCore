@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "RR",
-    " H",
-    " M"
-  ],
-  "key":
-  {
-    "R":
-    {
+  "pattern": ["RR", " H", " M"],
+  "key": {
+    "R": {
       "item": "projecte:red_matter"
     },
-    "M":
-    {
+    "M": {
       "item": "projecte:klein_star_omega"
     },
-    "H":
-    {
+    "H": {
       "item": "projecte:dm_hoe"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:rm_hoe"
   }
 }

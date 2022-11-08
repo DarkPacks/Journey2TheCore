@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "B",
-    "C",
-    "R"
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": ["B", "C", "R"],
+  "key": {
+    "B": {
       "item": "create:electron_tube"
     },
-    "R":
-    {
+    "R": {
       "tag": "forge:workbenches"
     },
-    "C":
-    {
+    "C": {
       "item": "create:brass_casing"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "create:mechanical_crafter",
     "count": 3
   }

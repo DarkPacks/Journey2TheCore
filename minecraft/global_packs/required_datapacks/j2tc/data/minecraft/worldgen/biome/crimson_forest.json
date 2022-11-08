@@ -1,33 +1,27 @@
 {
-  "effects":
-  {
+  "effects": {
     "sky_color": 7254527,
     "ambient_sound": "minecraft:ambient.crimson_forest.loop",
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.0111
     },
     "water_fog_color": 3866888,
-    "mood_sound":
-    {
+    "mood_sound": {
       "tick_delay": 6000,
       "sound": "minecraft:ambient.crimson_forest.mood",
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "particle":
-    {
+    "particle": {
       "probability": 0.025,
-      "options":
-      {
+      "options": {
         "type": "minecraft:crimson_spore"
       }
     },
     "water_color": 8914952,
     "fog_color": 3343107,
-    "music":
-    {
+    "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "sound": "minecraft:music.nether.crimson_forest",
@@ -67,46 +61,45 @@
     ]
   ],
   "category": "nether",
-  "carvers":
-  {
+  "carvers": {
     "air": "minecraft:nether_cave"
   },
-  "spawn_costs":
-  {},
-  "spawners":
-  {
+  "spawn_costs": {},
+  "spawners": {
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
     "monster": [
-    {
-      "weight": 1,
-      "minCount": 2,
-      "type": "minecraft:zombified_piglin",
-      "maxCount": 4
-    },
-    {
-      "weight": 9,
-      "minCount": 3,
-      "type": "minecraft:hoglin",
-      "maxCount": 4
-    },
-    {
-      "weight": 5,
-      "minCount": 3,
-      "type": "minecraft:piglin",
-      "maxCount": 4
-    }],
+      {
+        "weight": 1,
+        "minCount": 2,
+        "type": "minecraft:zombified_piglin",
+        "maxCount": 4
+      },
+      {
+        "weight": 9,
+        "minCount": 3,
+        "type": "minecraft:hoglin",
+        "maxCount": 4
+      },
+      {
+        "weight": 5,
+        "minCount": 3,
+        "type": "minecraft:piglin",
+        "maxCount": 4
+      }
+    ],
     "misc": [],
     "ambient": [],
     "creature": [
-    {
-      "weight": 60,
-      "minCount": 1,
-      "type": "minecraft:strider",
-      "maxCount": 2
-    }]
+      {
+        "weight": 60,
+        "minCount": 1,
+        "type": "minecraft:strider",
+        "maxCount": 2
+      }
+    ]
   },
   "precipitation": "none",
   "downfall": 0.0,

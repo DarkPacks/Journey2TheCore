@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:netherite_backpack"
-    ]
+    "recipes": ["sophisticatedbackpacks:netherite_backpack"]
   },
   "criteria": {
     "has_diamond_backpack": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:diamond_backpack"
-            ]
+            "items": ["sophisticatedbackpacks:diamond_backpack"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_diamond_backpack",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_diamond_backpack", "has_the_recipe"]]
 }

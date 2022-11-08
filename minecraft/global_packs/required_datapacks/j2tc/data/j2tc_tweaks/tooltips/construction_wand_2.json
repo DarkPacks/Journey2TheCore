@@ -1,7 +1,5 @@
 {
-  "items": [
-    "constructionwand:iron_wand"
-  ],
+  "items": ["constructionwand:iron_wand"],
   "tooltips": [
     {
       "text": "It's like a Builder's Wand!",

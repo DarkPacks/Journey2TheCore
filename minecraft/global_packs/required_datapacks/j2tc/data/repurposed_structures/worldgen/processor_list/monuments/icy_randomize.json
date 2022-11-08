@@ -51,10 +51,10 @@
       "forced_placement": true,
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:wet_sponge"
           }
         }
@@ -65,10 +65,10 @@
       "direction": "DOWN",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:light_blue_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:packed_ice"
           }
         }

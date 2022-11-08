@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "createcafe:oreo_crushed"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

@@ -14,8 +14,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_8": 1
                   }
                 }
@@ -53,8 +52,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_7": 1
                   }
                 }
@@ -92,8 +90,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_6": 1
                   }
                 }
@@ -131,8 +128,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_5": 1
                   }
                 }
@@ -170,8 +166,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_4": 1
                   }
                 }
@@ -209,8 +204,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_3": 1
                   }
                 }
@@ -248,8 +242,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_2": 1
                   }
                 }
@@ -287,8 +280,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_1": 1
                   }
                 }
@@ -326,8 +318,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_0": 1
                   }
                 }
@@ -370,8 +361,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_8": 1
                   }
                 }
@@ -409,8 +399,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_7": 1
                   }
                 }
@@ -448,8 +437,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_6": 1
                   }
                 }
@@ -487,8 +475,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_5": 1
                   }
                 }
@@ -526,8 +513,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_4": 1
                   }
                 }
@@ -565,8 +551,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_3": 1
                   }
                 }
@@ -604,8 +589,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_2": 1
                   }
                 }
@@ -643,8 +627,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_1": 1
                   }
                 }
@@ -682,8 +665,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_0": 1
                   }
                 }
@@ -726,8 +708,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_8": 1
                   }
                 }
@@ -765,8 +746,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_7": 1
                   }
                 }
@@ -804,8 +784,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_6": 1
                   }
                 }
@@ -843,8 +822,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_5": 1
                   }
                 }
@@ -882,8 +860,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_4": 1
                   }
                 }
@@ -921,8 +898,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_3": 1
                   }
                 }
@@ -960,8 +936,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_2": 1
                   }
                 }
@@ -999,8 +974,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_1": 1
                   }
                 }
@@ -1038,8 +1012,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_0": 1
                   }
                 }
@@ -1082,8 +1055,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_8": 1
                   }
                 }
@@ -1121,8 +1093,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_7": 1
                   }
                 }
@@ -1160,8 +1131,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_6": 1
                   }
                 }
@@ -1199,8 +1169,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_5": 1
                   }
                 }
@@ -1238,8 +1207,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_4": 1
                   }
                 }
@@ -1277,8 +1245,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_3": 1
                   }
                 }
@@ -1316,8 +1283,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_2": 1
                   }
                 }
@@ -1355,8 +1321,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_1": 1
                   }
                 }
@@ -1394,8 +1359,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_0": 1
                   }
                 }
@@ -1438,8 +1402,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_8": 1
                   }
                 }
@@ -1477,8 +1440,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_7": 1
                   }
                 }
@@ -1516,8 +1478,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_6": 1
                   }
                 }
@@ -1555,8 +1516,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_5": 1
                   }
                 }
@@ -1594,8 +1554,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_4": 1
                   }
                 }
@@ -1633,8 +1592,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_3": 1
                   }
                 }
@@ -1672,8 +1630,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_2": 1
                   }
                 }
@@ -1711,8 +1668,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_1": 1
                   }
                 }
@@ -1750,8 +1706,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_0": 1
                   }
                 }
@@ -1794,8 +1749,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_8": 1
                   }
                 }
@@ -1827,8 +1781,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_7": 1
                   }
                 }
@@ -1860,8 +1813,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_6": 1
                   }
                 }
@@ -1893,8 +1845,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_5": 1
                   }
                 }
@@ -1926,8 +1877,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_4": 1
                   }
                 }
@@ -1959,8 +1909,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_3": 1
                   }
                 }
@@ -1992,8 +1941,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_2": 1
                   }
                 }
@@ -2025,8 +1973,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_1": 1
                   }
                 }
@@ -2058,8 +2005,7 @@
                 {
                   "condition": "minecraft:entity_scores",
                   "entity": "this",
-                  "scores":
-                  {
+                  "scores": {
                     "quest_0": 1
                   }
                 }

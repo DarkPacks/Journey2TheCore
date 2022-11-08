@@ -6,10 +6,7 @@
       "item": "pickletweaks:flint_shears"
     }
   ],
-  "pattern": [
-    " F",
-    "F "
-  ],
+  "pattern": [" F", "F "],
   "key": {
     "F": {
       "item": "minecraft:flint"

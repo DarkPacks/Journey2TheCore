@@ -1,23 +1,19 @@
 {
   "type": "tconstruct:modifier",
   "inputs": [
-  {
-    "type": "forge:partial_nbt",
-    "items": [
-      "buddycards:buddycard_base9"
-    ],
-    "nbt": "{foil:1b}"
-  }],
-  "tools":
-  {
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_base9"],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
     "tag": "tconstruct:modifiable/melee"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:antiaquatic",
     "level": 1
   },

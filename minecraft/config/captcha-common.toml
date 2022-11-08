@@ -1,40 +1,40 @@
 
-#General settings
-[General]
-	#Defines the amount of time in seconds in which the captcha should be solved [Default: 15]
-	#Range: > 1
-	captchaTime = 15
-	#Defines the cooldown between captcha requests in seconds [Default: 900 (15 minutes)]
-	#Range: > 30
-	captchaCooldown = 1500
-	#Defines the amount of ticks at the start of a world where no captcha's get requested [Default: 6000]
-	#Range: > 0
-	gracePeriod = 576000
+# General settings
+[ General ]
+  # Defines the amount of time in seconds in which the captcha should be solved [Default: 15]
+  # Range: > 1
+  captchaTime = 15
+  # Defines the cooldown between captcha requests in seconds [Default: 900 (15 minutes)]
+  # Range: > 30
+  captchaCooldown = 1500
+  # Defines the amount of ticks at the start of a world where no captcha's get requested [Default: 6000]
+  # Range: > 0
+  gracePeriod = 576000
 
-#Math settings
-[Math]
-	#Defines the max the first number can be in the addition problem [Default: 100]
-	#Range: > 1
-	additionMaxX = 50
-	#Defines the max the second number can be in the addition problem [Default: 100]
-	#Range: > 30
-	additionMaxY = 50
-	#Defines the max the first number can be in the subtraction problem [Default: 100]
-	#Range: > 1
-	subtractionMaxX = 25
-	#Defines the max the second number can be in the subtraction problem [Default: 100]
-	#Range: > 30
-	subtractionMaxY = 30
-	#Defines the max the first number can be in the multiplication problem [Default: 20]
-	#Range: > 1
-	multiplicationMaxX = 5
-	#Defines the max the second number can be in the multiplication problem [Default: 20]
-	#Range: > 30
-	multiplicationMaxY = 30
-	#Defines the max the first number can be in the division problem [Default: 100]
-	#Range: > 1
-	divisionMaxX = 5
-	#Defines the max the second number can be in the division problem [Default: 100]
-	#Range: > 30
-	divisionMaxY = 30
+# Math settings
+[ Math ]
+  # Defines the max the first number can be in the addition problem [Default: 100]
+  # Range: > 1
+  additionMaxX = 50
+  # Defines the max the second number can be in the addition problem [Default: 100]
+  # Range: > 30
+  additionMaxY = 50
+  # Defines the max the first number can be in the subtraction problem [Default: 100]
+  # Range: > 1
+  subtractionMaxX = 25
+  # Defines the max the second number can be in the subtraction problem [Default: 100]
+  # Range: > 30
+  subtractionMaxY = 30
+  # Defines the max the first number can be in the multiplication problem [Default: 20]
+  # Range: > 1
+  multiplicationMaxX = 5
+  # Defines the max the second number can be in the multiplication problem [Default: 20]
+  # Range: > 30
+  multiplicationMaxY = 30
+  # Defines the max the first number can be in the division problem [Default: 100]
+  # Range: > 1
+  divisionMaxX = 5
+  # Defines the max the second number can be in the division problem [Default: 100]
+  # Range: > 30
+  divisionMaxY = 30
 

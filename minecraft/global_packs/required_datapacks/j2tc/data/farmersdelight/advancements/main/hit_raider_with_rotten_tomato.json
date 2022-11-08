@@ -39,9 +39,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "hit_raider_with_rotten_tomato"
-    ]
-  ]
+  "requirements": [["hit_raider_with_rotten_tomato"]]
 }

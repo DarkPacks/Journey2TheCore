@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:limbo_layer/ore_glowstone",
-  "placement":
-  [
+  "placement": [
     {
       "count": 36,
       "type": "minecraft:count"
@@ -13,14 +12,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": -60
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": -4
         },
         "type": "minecraft:uniform"

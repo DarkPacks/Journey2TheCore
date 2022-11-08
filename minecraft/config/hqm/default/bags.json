@@ -5,13 +5,7 @@
       "isTranslationKey": false
     },
     "colour": "RED",
-    "weights": [
-      50,
-      50,
-      50,
-      5,
-      0
-    ],
+    "weights": [50, 50, 50, 5, 0],
     "groups": [
       {
         "id": "0693a576-3533-4f18-a7a6-15cbf91e5038",
@@ -30,13 +24,7 @@
       "isTranslationKey": false
     },
     "colour": "GRAY",
-    "weights": [
-      50,
-      50,
-      50,
-      30,
-      10
-    ],
+    "weights": [50, 50, 50, 30, 10],
     "groups": [
       {
         "id": "0c4ebd25-5159-4b04-a69c-df8931bbb160",
@@ -55,13 +43,7 @@
       "isTranslationKey": false
     },
     "colour": "GREEN",
-    "weights": [
-      20,
-      30,
-      40,
-      30,
-      20
-    ],
+    "weights": [20, 30, 40, 30, 20],
     "groups": [
       {
         "id": "8ec203b0-4cf4-450c-bd76-76d761417a26",
@@ -80,13 +62,7 @@
       "isTranslationKey": false
     },
     "colour": "BLUE",
-    "weights": [
-      5,
-      10,
-      15,
-      20,
-      25
-    ],
+    "weights": [5, 10, 15, 20, 25],
     "groups": [
       {
         "id": "68958a9f-3c28-4017-9b3b-25c659ccbfd9",
@@ -105,13 +81,7 @@
       "isTranslationKey": false
     },
     "colour": "ORANGE",
-    "weights": [
-      3,
-      6,
-      12,
-      18,
-      21
-    ],
+    "weights": [3, 6, 12, 18, 21],
     "groups": []
   },
   {
@@ -120,13 +90,7 @@
       "isTranslationKey": false
     },
     "colour": "PURPLE",
-    "weights": [
-      1,
-      2,
-      3,
-      4,
-      30
-    ],
+    "weights": [1, 2, 3, 4, 30],
     "groups": []
   }
 ]

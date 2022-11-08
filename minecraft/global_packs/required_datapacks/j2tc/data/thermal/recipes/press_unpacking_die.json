@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CTI",
-    "TXT",
-    "ITC"
-  ],
-  "key":
-  {
-    "C":
-    {
+  "pattern": ["CTI", "TXT", "ITC"],
+  "key": {
+    "C": {
       "item": "thermal:gold_plate"
     },
-    "I":
-    {
+    "I": {
       "item": "thermal:gold_coin"
     },
-    "X":
-    {
+    "X": {
       "item": "thermal:lapis_gear"
     },
-    "T":
-    {
+    "T": {
       "item": "thermal:tar"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:press_unpacking_die"
   }
 }

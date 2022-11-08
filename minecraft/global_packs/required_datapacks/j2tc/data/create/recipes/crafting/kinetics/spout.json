@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "T",
-    "P",
-    "S"
-  ],
+  "pattern": ["T", "P", "S"],
   "key": {
     "T": {
       "item": "create:fluid_tank"

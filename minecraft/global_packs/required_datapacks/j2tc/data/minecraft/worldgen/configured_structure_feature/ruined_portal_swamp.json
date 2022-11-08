@@ -1,6 +1,5 @@
 {
-  "config":
-  {
+  "config": {
     "portal_type": "swamp"
   },
   "biomes": [
@@ -39,7 +38,6 @@
     "minecraft:windswept_hills",
     "minecraft:windswept_savanna"
   ],
-  "spawn_overrides":
-  {},
+  "spawn_overrides": {},
   "type": "minecraft:ruined_portal"
 }

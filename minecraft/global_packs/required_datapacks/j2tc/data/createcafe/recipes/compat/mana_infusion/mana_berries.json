@@ -6,12 +6,10 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "input":
-  {
+  "input": {
     "item": "minecraft:sweet_berries"
   },
-  "output":
-  {
+  "output": {
     "item": "createcafe:mana_berries"
   },
   "mana": 40

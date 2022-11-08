@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "R",
-    "S",
-    "M"
-  ],
-  "key":
-  {
-    "R":
-    {
+  "pattern": ["R", "S", "M"],
+  "key": {
+    "R": {
       "item": "projecte:red_matter"
     },
-    "M":
-    {
+    "M": {
       "item": "projecte:klein_star_omega"
     },
-    "S":
-    {
+    "S": {
       "item": "projecte:dm_shovel"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:rm_shovel"
   }
 }

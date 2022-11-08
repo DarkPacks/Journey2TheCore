@@ -7,9 +7,7 @@
     "nbt": "{Damage:0}"
   },
   "type": "ARMOR",
-  "dimensions": [
-    "minecraft:the_nether"
-  ],
+  "dimensions": ["minecraft:the_nether"],
   "min_rarity": "uncommon",
   "max_rarity": "epic"
 }

@@ -1,15 +1,15 @@
 
-["Spawn settings"]
-	#Min group size in which TNT Slimes should spawn [Default: 1]
-	#Range: 0 ~ 64
-	minGroup = 1
-	#Max group size in which TNT Slimes should spawn [Default: 2]
-	#Range: 0 ~ 64
-	maxGroup = 2
-	#Spawn weight in which TNT Slimes should spawn [Default: 10]
-	#Range: > 0
-	weight = 10
-	#Defines from which Y level and below  a TNT slime can naturally spawn underground [Default: 40]
-	#Range: > -2147483648
-	minY = 40
+[ "Spawn settings" ]
+  # Min group size in which TNT Slimes should spawn [Default: 1]
+  # Range: 0 ~ 64
+  minGroup = 1
+  # Max group size in which TNT Slimes should spawn [Default: 2]
+  # Range: 0 ~ 64
+  maxGroup = 2
+  # Spawn weight in which TNT Slimes should spawn [Default: 10]
+  # Range: > 0
+  weight = 10
+  # Defines from which Y level and below  a TNT slime can naturally spawn underground [Default: 40]
+  # Range: > -2147483648
+  minY = 40
 

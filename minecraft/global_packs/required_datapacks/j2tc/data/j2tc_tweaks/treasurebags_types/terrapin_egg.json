@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "It Goes in the Water!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/terrapin_egg",

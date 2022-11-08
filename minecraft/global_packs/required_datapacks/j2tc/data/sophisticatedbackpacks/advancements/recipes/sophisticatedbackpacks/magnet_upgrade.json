@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:magnet_upgrade"
-    ]
+    "recipes": ["sophisticatedbackpacks:magnet_upgrade"]
   },
   "criteria": {
     "has_pickup_upgrade": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:pickup_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:pickup_upgrade"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_pickup_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_pickup_upgrade", "has_the_recipe"]]
 }

@@ -3,22 +3,17 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set5"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set5"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/melee"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:bane_of_sssss",
     "level": 1
   },

@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Wifi!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/ender_storage",

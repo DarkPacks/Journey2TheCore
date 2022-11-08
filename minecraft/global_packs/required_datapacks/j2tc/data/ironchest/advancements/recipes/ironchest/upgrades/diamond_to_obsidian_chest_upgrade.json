@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "ironchest:upgrades/diamond_to_obsidian_chest_upgrade"
-    ]
+    "recipes": ["ironchest:upgrades/diamond_to_obsidian_chest_upgrade"]
   },
   "criteria": {
     "has_glass": {
@@ -23,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_glass",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_glass", "has_the_recipe"]]
 }

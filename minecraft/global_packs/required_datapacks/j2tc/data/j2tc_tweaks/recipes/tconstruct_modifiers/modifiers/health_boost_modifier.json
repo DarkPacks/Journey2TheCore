@@ -15,12 +15,10 @@
       "tag": "tconstruct:modifiable/armor/boots"
     }
   ],
-  "slots":
-  {
+  "slots": {
     "defense": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:revitalizing",
     "level": 1
   },

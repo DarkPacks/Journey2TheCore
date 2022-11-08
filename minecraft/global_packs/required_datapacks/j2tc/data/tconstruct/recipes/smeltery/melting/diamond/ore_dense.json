@@ -3,16 +3,12 @@
   "conditions": [
     {
       "registry": "minecraft:item",
-      "tags": [
-        "forge:ores/diamond",
-        "forge:ore_rates/dense"
-      ],
+      "tags": ["forge:ores/diamond", "forge:ore_rates/dense"],
       "type": "tconstruct:tag_intersection_present"
     }
   ],
   "rate": "gem",
-  "ingredient":
-  {
+  "ingredient": {
     "type": "forge:intersection",
     "children": [
       {
@@ -23,8 +19,7 @@
       }
     ]
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:molten_diamond",
     "amount": 300
   },

@@ -11,8 +11,7 @@
       "tag": "minecraft:stone_tool_materials"
     }
   ],
-  "result":
-  {
+  "result": {
     "item": "cyclic:workbench",
     "count": 1
   }

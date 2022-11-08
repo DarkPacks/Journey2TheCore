@@ -3,19 +3,16 @@
   "trades": [
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"goblintraders:haste\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 25
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"minecraft:awkward\"}"
@@ -26,19 +23,16 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"goblintraders:absorption\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 25
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"minecraft:awkward\"}"
@@ -49,19 +43,16 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"goblintraders:levitation\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 25
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"minecraft:awkward\"}"
@@ -72,19 +63,16 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"goblintraders:luck\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 25
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"minecraft:awkward\"}"
@@ -95,19 +83,16 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"goblintraders:dolphins_grace\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 25
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"minecraft:awkward\"}"
@@ -118,19 +103,16 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"goblintraders:powerful_strength\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 25
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:potion",
         "count": 1,
         "nbt": "{Potion:\"minecraft:awkward\"}"

@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "PPG",
-          "PDG",
-          "PEP"
-        ],
+        "pattern": ["PPG", "PDG", "PEP"],
         "key": {
           "P": {
             "item": "minecraft:paper"

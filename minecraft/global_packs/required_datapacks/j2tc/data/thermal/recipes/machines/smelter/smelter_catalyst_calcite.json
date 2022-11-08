@@ -6,6 +6,6 @@
   "primary_mod": 2.0,
   "secondary_mod": 1.5,
   "energy_mod": 1.25,
-  "min_chance": 0.10,
-  "use_chance": 0.10
+  "min_chance": 0.1,
+  "use_chance": 0.1
 }

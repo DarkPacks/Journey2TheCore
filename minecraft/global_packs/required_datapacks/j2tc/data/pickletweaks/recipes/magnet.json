@@ -6,28 +6,19 @@
       "item": "pickletweaks:magnet"
     }
   ],
-  "pattern": [
-    "IEI",
-    "IRI",
-    " I "
-  ],
-  "key":
-  {
-    "I":
-    {
+  "pattern": ["IEI", "IRI", " I "],
+  "key": {
+    "I": {
       "tag": "forge:ingots/iron"
     },
-    "R":
-    {
+    "R": {
       "tag": "forge:dusts/redstone"
     },
-    "E":
-    {
+    "E": {
       "item": "minecraft:ender_pearl"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "pickletweaks:magnet"
   }
 }

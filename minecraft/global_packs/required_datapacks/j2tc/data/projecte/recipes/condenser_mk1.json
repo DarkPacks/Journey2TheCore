@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ODO",
-    "DCD",
-    "ODO"
-  ],
-  "key":
-  {
-    "C":
-    {
+  "pattern": ["ODO", "DCD", "ODO"],
+  "key": {
+    "C": {
       "item": "projecte:alchemical_chest"
     },
-    "O":
-    {
+    "O": {
       "item": "compressium:coal_2"
     },
-    "D":
-    {
+    "D": {
       "item": "minecraft:diamond_block"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:condenser_mk1"
   }
 }

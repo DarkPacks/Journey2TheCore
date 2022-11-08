@@ -6,32 +6,22 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "RIR",
-    "IBI",
-    "RFR"
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": ["RIR", "IBI", "RFR"],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "R":
-    {
+    "R": {
       "tag": "minecraft:coals"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "F":
-    {
+    "F": {
       "item": "minecraft:furnace"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:smelting_upgrade"
   }
 }

@@ -1,5 +1,3 @@
 {
-  "values": [
-    "bossbar:bossbar/tick"
-  ]
+  "values": ["bossbar:bossbar/tick"]
 }

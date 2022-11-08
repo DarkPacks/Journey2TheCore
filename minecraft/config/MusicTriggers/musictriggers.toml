@@ -1,61 +1,67 @@
-#[runaway]
+# [runaway]
 #       pitch = "1.01"
 #        volume = "1.0"
 #    [runaway.trigger]
 #        name = "menu"
 
-[underwater_ambience]
-        volume = "1.0"
-        must_finish = "false"
-    [underwater_ambience.trigger]
-        name = "zones"
-        identifier = "underwater_ambience"
-        fade_in = "20"
-        fade_out = "10"
-        time = "40"
-        [underwater_ambience.trigger.zone]
-            x_min = "-30000000"
-            y_min = "0"
-            z_min = "-30000000"
-            x_max = "30000000"
-            y_max = "132"
-            z_max = "30000000"
+[ underwater_ambience ]
+  volume = "1.0"
+  must_finish = "false"
 
-[soulsand_valley_ambience]
-        volume = "1.0"
-        must_finish = "false"
-    [soulsand_valley_ambience.trigger]
-        name = "zones"
-        identifier = "soulsand_valley_ambience"
-        fade_in = "20"
-        fade_out = "10"
-        time = "40"
-        [soulsand_valley_ambience.trigger.zone]
-            x_min = "-30000000"
-            y_min = "397"
-            z_min = "-30000000"
-            x_max = "30000000"
-            y_max = "528"
-            z_max = "30000000"
+  [ underwater_ambience.trigger ]
+    name = "zones"
+    identifier = "underwater_ambience"
+    fade_in = "20"
+    fade_out = "10"
+    time = "40"
 
+    [ underwater_ambience.trigger.zone ]
+      x_min = "-30000000"
+      y_min = "0"
+      z_min = "-30000000"
+      x_max = "30000000"
+      y_max = "132"
+      z_max = "30000000"
 
-    [basalt_deltas_ambience]
-        volume = "1.0"
-        must_finish = "false"
-    [basalt_deltas_ambience.trigger]
-        name = "zones"
-        identifier = "basalt_deltas_ambience"
-        fade_in = "20"
-        fade_out = "10"
-        time = "40"
-        [basalt_deltas_ambience.trigger.zone]
-            x_min = "-30000000"
-            y_min = "529"
-            z_min = "-30000000"
-            x_max = "30000000"
-            y_max = "688"
-            z_max = "30000000"
+[ soulsand_valley_ambience ]
+  volume = "1.0"
+  must_finish = "false"
+
+  [ soulsand_valley_ambience.trigger ]
+    name = "zones"
+    identifier = "soulsand_valley_ambience"
+    fade_in = "20"
+    fade_out = "10"
+    time = "40"
+
+    [ soulsand_valley_ambience.trigger.zone ]
+      x_min = "-30000000"
+      y_min = "397"
+      z_min = "-30000000"
+      x_max = "30000000"
+      y_max = "528"
+      z_max = "30000000"
 
 
-        [[basalt_deltas_ambience.loop]]
-            amount = "2147483647"
+[ basalt_deltas_ambience ]
+  volume = "1.0"
+  must_finish = "false"
+
+  [ basalt_deltas_ambience.trigger ]
+    name = "zones"
+    identifier = "basalt_deltas_ambience"
+    fade_in = "20"
+    fade_out = "10"
+    time = "40"
+
+    [ basalt_deltas_ambience.trigger.zone ]
+      x_min = "-30000000"
+      y_min = "529"
+      z_min = "-30000000"
+      x_max = "30000000"
+      y_max = "688"
+      z_max = "30000000"
+
+
+  [[ basalt_deltas_ambience.loop ]]
+    amount = "2147483647"

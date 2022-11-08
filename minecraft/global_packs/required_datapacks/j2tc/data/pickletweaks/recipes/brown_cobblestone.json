@@ -6,11 +6,7 @@
       "item": "pickletweaks:brown_cobblestone"
     }
   ],
-  "pattern": [
-    "CCC",
-    "CDC",
-    "CCC"
-  ],
+  "pattern": ["CCC", "CDC", "CCC"],
   "key": {
     "C": {
       "tag": "forge:cobblestone"

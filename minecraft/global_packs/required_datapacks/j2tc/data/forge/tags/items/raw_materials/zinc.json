@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "create:raw_zinc"
-  ]
+  "values": ["create:raw_zinc"]
 }

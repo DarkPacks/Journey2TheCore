@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "D",
-    "G",
-    "S"
-  ],
+  "pattern": ["D", "G", "S"],
   "key": {
     "D": {
       "item": "minecraft:orange_dye"

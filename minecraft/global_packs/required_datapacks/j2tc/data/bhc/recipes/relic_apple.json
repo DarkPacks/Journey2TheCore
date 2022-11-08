@@ -1,10 +1,6 @@
 {
   "type": "crafting_shaped",
-  "pattern": [
-    " D ",
-    "EAE",
-    " D "
-  ],
+  "pattern": [" D ", "EAE", " D "],
   "key": {
     "D": {
       "tag": "forge:gems/diamond"
@@ -12,7 +8,7 @@
     "E": {
       "tag": "forge:gems/emerald"
     },
-    "A" : {
+    "A": {
       "item": "minecraft:apple"
     }
   },

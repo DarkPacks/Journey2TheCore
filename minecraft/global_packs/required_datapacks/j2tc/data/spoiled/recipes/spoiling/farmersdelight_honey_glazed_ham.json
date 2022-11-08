@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:honey_glazed_ham"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

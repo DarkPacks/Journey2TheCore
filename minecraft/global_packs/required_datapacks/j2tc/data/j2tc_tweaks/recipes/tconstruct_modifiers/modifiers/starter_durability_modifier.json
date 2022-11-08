@@ -5,12 +5,10 @@
       "item": "cyclic:battery_infinite"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/melee"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:starter_durability_increase",
     "level": 1
   }

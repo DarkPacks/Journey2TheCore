@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "#j2tc_tweaks:mining_tiers/diamond"
-  ]
+  "values": ["#j2tc_tweaks:mining_tiers/diamond"]
 }

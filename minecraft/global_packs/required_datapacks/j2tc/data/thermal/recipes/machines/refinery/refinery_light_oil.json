@@ -11,7 +11,7 @@
     },
     {
       "item": "thermal:sulfur_dust",
-      "chance": 0.20
+      "chance": 0.2
     }
   ],
   "energy": 6000

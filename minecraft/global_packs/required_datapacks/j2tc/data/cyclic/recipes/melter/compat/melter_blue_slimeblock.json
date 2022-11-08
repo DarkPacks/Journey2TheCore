@@ -14,13 +14,11 @@
       "item": "tconstruct:sky_slime"
     }
   ],
-  "energy":
-  {
+  "energy": {
     "rfpertick": 100,
     "ticks": 160
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:sky_slime",
     "count": 4500
   }

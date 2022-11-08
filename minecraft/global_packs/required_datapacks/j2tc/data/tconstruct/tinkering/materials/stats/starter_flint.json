@@ -1,8 +1,6 @@
 {
-  "stats":
-  {
-    "tconstruct:head":
-    {
+  "stats": {
+    "tconstruct:head": {
       "durability": 200,
       "miningSpeed": 3.5,
       "harvestTier": "minecraft:wood",

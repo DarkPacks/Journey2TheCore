@@ -3,14 +3,12 @@
   "removeOtherTrades": true,
   "trades": [
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:white_brownie",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -21,14 +19,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:milk_brownie",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -39,14 +35,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:dark_brownie",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -57,14 +51,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:cookie",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -75,14 +67,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:white_green_candy_cane",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -93,14 +83,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:green_candy_cane",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -111,14 +99,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:white_chocolate_bar",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -129,14 +115,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:dark_chocolate_bar",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -147,14 +131,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:milk_chocolate_bar",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -165,14 +147,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:white_candy_cane",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -183,14 +163,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:red_candy_cane",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -201,14 +179,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:white_red_candy_cane",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -219,14 +195,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "candyworld:red_green_candy_cane",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -237,14 +211,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:cake",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 5,
         "priceModifier": 0
@@ -255,14 +227,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:map",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 5,
         "priceModifier": 0
@@ -273,14 +243,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:toast",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 5,
         "priceModifier": 0
@@ -291,14 +259,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:bread",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 5,
         "priceModifier": 0

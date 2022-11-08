@@ -1,14 +1,10 @@
 {
   "type": "lychee:item_inside",
-  "item_in":
-  {
+  "item_in": {
     "item": "minecraft:torch"
   },
-  "block_in":
-  {
-    "blocks": [
-      "minecraft:water"
-    ]
+  "block_in": {
+    "blocks": ["minecraft:water"]
   },
   "post": [
     {

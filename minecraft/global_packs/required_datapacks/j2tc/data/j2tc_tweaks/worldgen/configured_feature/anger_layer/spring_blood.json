@@ -1,6 +1,5 @@
 {
-  "config":
-  {
+  "config": {
     "rock_count": 4,
     "hole_count": 1,
     "valid_blocks": [
@@ -16,10 +15,8 @@
       "minecraft:powder_snow",
       "minecraft:packed_ice"
     ],
-    "state":
-    {
-      "Properties":
-      {
+    "state": {
+      "Properties": {
         "falling": "true"
       },
       "Name": "tconstruct:blood_fluid"

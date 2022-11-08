@@ -8,10 +8,7 @@
       "item": "minecraft:stick"
     }
   },
-  "pattern": [
-    " H",
-    "I "
-  ],
+  "pattern": [" H", "I "],
   "result": {
     "item": "adchimneys:wooden_paintbrush"
   }

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "trt",
-    "rsr",
-    "trt"
-  ],
+  "pattern": ["trt", "rsr", "trt"],
   "key": {
     "s": {
       "item": "minecraft:string"

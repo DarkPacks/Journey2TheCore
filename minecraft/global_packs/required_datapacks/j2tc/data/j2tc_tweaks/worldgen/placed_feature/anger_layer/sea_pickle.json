@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:anger_layer/sea_pickle",
-  "placement":
-  [
+  "placement": [
     {
       "type": "minecraft:count",
       "count": 2
@@ -14,32 +13,22 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 0
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 3
         }
       }
     },
     {
       "type": "minecraft:block_predicate_filter",
-      "predicate":
-      {
+      "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset":
-        [
-          0,
-          -1,
-          0
-        ],
-        "blocks":
-        [
+        "offset": [0, -1, 0],
+        "blocks": [
           "minecraft:dead_fire_coral_block",
           "minecraft:tuff",
           "minecraft:andesite",

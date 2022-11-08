@@ -1,11 +1,9 @@
 {
   "conditions": [],
-  "original":
-  {
+  "original": {
     "item": "minecraft:stone_sword"
   },
-  "replacement":
-  {
+  "replacement": {
     "item": "tconstruct:sword",
     "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:rock\",\"tconstruct:wood\",\"tconstruct:wood\"]}"
   },

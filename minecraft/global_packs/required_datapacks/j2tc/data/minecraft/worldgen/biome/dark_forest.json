@@ -1,6 +1,5 @@
 {
-  "spawn_costs":
-  {},
+  "spawn_costs": {},
   "features": [
     [
       "j2tc_tweaks:water_layer",
@@ -16,14 +15,8 @@
       "j2tc_tweaks:greed_layer/lake_liquid_gold",
       "j2tc_tweaks:greed_layer/lake_crude_oil"
     ],
-    [
-      "minecraft:amethyst_geode",
-      "j2tc_tweaks:cave_decoration/large_dripstone"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:amethyst_geode", "j2tc_tweaks:cave_decoration/large_dripstone"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [
       "j2tc_tweaks:anger_layer/anger_bottom_layer",
@@ -175,31 +168,31 @@
     ],
     []
   ],
-  "spawners":
-  {
+  "spawners": {
     "water_ambient": [],
     "misc": [],
     "creature": [],
     "water_creature": [],
     "monster": [],
     "axolotls": [
-    {
-      "type": "minecraft:axolotl",
-      "maxCount": 6,
-      "weight": 10,
-      "minCount": 4
-    }],
+      {
+        "type": "minecraft:axolotl",
+        "maxCount": 6,
+        "weight": 10,
+        "minCount": 4
+      }
+    ],
     "ambient": [
-    {
-      "type": "minecraft:bat",
-      "maxCount": 8,
-      "weight": 10,
-      "minCount": 8
-    }],
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "weight": 10,
+        "minCount": 8
+      }
+    ],
     "underground_water_creature": []
   },
-  "carvers":
-  {
+  "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
@@ -207,10 +200,8 @@
     ]
   },
   "precipitation": "none",
-  "effects":
-  {
-    "additions_sound":
-    {
+  "effects": {
+    "additions_sound": {
       "tick_chance": 0.0111,
       "sound": "minecraft:ambient.basalt_deltas.additions"
     },
@@ -218,8 +209,7 @@
     "fog_color": 591623,
     "sky_color": 591623,
     "water_color": 8914952,
-    "mood_sound":
-    {
+    "mood_sound": {
       "offset": 2,
       "block_search_extent": 8,
       "tick_delay": 3000,

@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#B#",
-    "~$~",
-    " # "
-  ],
-  "key":
-  {
-    "~":
-    {
+  "pattern": ["#B#", "~$~", " # "],
+  "key": {
+    "~": {
       "item": "minecraft:string"
     },
-    "#":
-    {
+    "#": {
       "item": "minecraft:stick"
     },
-    "B":
-    {
+    "B": {
       "tag": "forge:bones"
     },
-    "$":
-    {
+    "$": {
       "item": "minecraft:tripwire_hook"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "minecraft:crossbow"
   }
 }

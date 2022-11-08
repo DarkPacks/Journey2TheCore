@@ -1,35 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-		"SWW",
-		"NCN",
-		"LLL"
-	],
-  "key":
-  {
-    "N":
-    {
+  "pattern": ["SWW", "NCN", "LLL"],
+  "key": {
+    "N": {
       "tag": "forge:ingots/iron"
     },
-    "L":
-    {
+    "L": {
       "tag": "forge:leather"
     },
-    "S":
-    {
+    "S": {
       "tag": "forge:slimeballs"
     },
-    "W":
-    {
+    "W": {
       "tag": "minecraft:wool"
     },
-    "C":
-    {
+    "C": {
       "item": "tconstruct:piggy_backpack"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "adpother:iron_vacuum_bag",
     "count": 1
   }

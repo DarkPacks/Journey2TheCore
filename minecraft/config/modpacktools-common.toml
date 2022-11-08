@@ -1,5 +1,5 @@
 
-[Debug]
-	#Print debug information to the console
-	printDebug = false
+[ Debug ]
+  # Print debug information to the console
+  printDebug = false
 

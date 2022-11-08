@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "thermal:nickel_nugget"
-  ]
+  "values": ["thermal:nickel_nugget"]
 }

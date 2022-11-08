@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:oregen/heresy_transition_gold_ore",
-  "placement":
-  [
+  "placement": [
     {
       "count": 18,
       "type": "minecraft:count"
@@ -13,14 +12,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": -60
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": -4
         },
         "type": "minecraft:uniform"

@@ -1,7 +1,6 @@
 {
   "type": "tconstruct:material",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "candyworld:milk_chocolate_bar"
   },
   "value": 1,

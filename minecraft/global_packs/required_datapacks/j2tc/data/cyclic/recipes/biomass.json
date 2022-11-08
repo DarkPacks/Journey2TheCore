@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "sis",
-    "ipi",
-    "sis"
-  ],
-  "key":
-  {
-    "s":
-    {
+  "pattern": ["sis", "ipi", "sis"],
+  "key": {
+    "s": {
       "tag": "minecraft:leaves"
     },
-    "i":
-    {
+    "i": {
       "tag": "forge:mushrooms"
     },
-    "p":
-    {
+    "p": {
       "tag": "minecraft:saplings"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "cyclic:biomass",
     "count": 8
   }

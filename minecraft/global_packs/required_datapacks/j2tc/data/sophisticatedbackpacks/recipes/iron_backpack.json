@@ -6,24 +6,16 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "III",
-    "IBI",
-    "III"
-  ],
-  "key":
-  {
-    "I":
-    {
+  "pattern": ["III", "IBI", "III"],
+  "key": {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "B":
-    {
+    "B": {
       "item": "sophisticatedbackpacks:backpack"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:iron_backpack"
   }
 }

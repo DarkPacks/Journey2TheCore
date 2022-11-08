@@ -1,28 +1,28 @@
 
-["Progress Indicator"]
-	#Always use custom progress indicator, chunkDistance == 0 is always overridden
-	alwaysOverrideProgressIndicator = false
-	#Delay between frames in milliseconds, ignored when using single progressAnimation frame
-	#Range: > 1
-	animationFrameTime = 333
-	#Animation frames to use for progress indicator, can use vanilla Formatting Codes
-	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	progressAnimation = ["[#####]", "[§c#§r####]", "[§4#§c#§r###]", "[§c#§4#§c#§r##]", "[#§c#§4#§c#§r#]", "[##§c#§4#§c#§r]", "[###§c#§4#§r]", "[####§c#§r]"]
+[ "Progress Indicator" ]
+  # Always use custom progress indicator, chunkDistance == 0 is always overridden
+  alwaysOverrideProgressIndicator = false
+  # Delay between frames in milliseconds, ignored when using single progressAnimation frame
+  # Range: > 1
+  animationFrameTime = 333
+  # Animation frames to use for progress indicator, can use vanilla Formatting Codes
+  # https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
+  progressAnimation = ["[#####]", "[§c#§r####]", "[§4#§c#§r###]", "[§c#§4#§c#§r##]", "[#§c#§4#§c#§r#]", "[##§c#§4#§c#§r]", "[###§c#§4#§r]", "[####§c#§r]"]
 
-["World Create/Load Text"]
-	#Use (randomized) text for createWorld.preparing
-	preparingWorldTextOverride = false
-	#Random text used for createWorld.preparing, can use vanilla Formatting Codes
-	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	preparingWorldText = ["Preparing for your doom...", "Prepare to meet your horrible doom!"]
-	#Use (randomized) text for selectWorld.data_read
-	readDataTextOverride = false
-	#Random text used for selectWorld.data_read, can use vanilla Formatting Codes
-	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	readDataText = ["Abandoning all hope...", "The knowledge... It fills me! It is neat!"]
-	#Use (randomized) text for connect.joining
-	joiningWorldTextOverride = false
-	#Random text used for connect.joining, can use vanilla Formatting Codes
-	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	joiningWorldText = ["I'm an unstoppable death machine, you know", "Dance with us, Dance with us into oblivion!", "Yayyyy! It BURNS!"]
+[ "World Create/Load Text" ]
+  # Use (randomized) text for createWorld.preparing
+  preparingWorldTextOverride = false
+  # Random text used for createWorld.preparing, can use vanilla Formatting Codes
+  # https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
+  preparingWorldText = ["Preparing for your doom...", "Prepare to meet your horrible doom!"]
+  # Use (randomized) text for selectWorld.data_read
+  readDataTextOverride = false
+  # Random text used for selectWorld.data_read, can use vanilla Formatting Codes
+  # https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
+  readDataText = ["Abandoning all hope...", "The knowledge... It fills me! It is neat!"]
+  # Use (randomized) text for connect.joining
+  joiningWorldTextOverride = false
+  # Random text used for connect.joining, can use vanilla Formatting Codes
+  # https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
+  joiningWorldText = ["I'm an unstoppable death machine, you know", "Dance with us, Dance with us into oblivion!", "Yayyyy! It BURNS!"]
 

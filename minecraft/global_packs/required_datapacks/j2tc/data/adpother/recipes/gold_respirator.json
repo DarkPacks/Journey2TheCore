@@ -1,32 +1,28 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"BHB",
-		"LGL",
-		"WVW"
-	],
-	"key": {
-		"G": {
-			"tag": "forge:ingots/gold"
-		},
-		"L": {
-			"tag": "forge:leather"
-		},
-		"V": {
-			"tag": "minecraft:leaves"
-		},
-		"W": {
-			"tag": "minecraft:wool"
-		},
-		"H": {
-			"item": "minecraft:leather_helmet"
-		},
-		"B": {
-			"item": "minecraft:glass_bottle"
-		}
-	},
-	"result": {
-		"item": "adpother:gold_respirator",
-		"count": 1
-	}
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BHB", "LGL", "WVW"],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "L": {
+      "tag": "forge:leather"
+    },
+    "V": {
+      "tag": "minecraft:leaves"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "H": {
+      "item": "minecraft:leather_helmet"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "adpother:gold_respirator",
+    "count": 1
+  }
 }

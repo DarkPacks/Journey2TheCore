@@ -1,8 +1,6 @@
 {
-  "chancecubes:armor_stand_armor":
-  {
-    "handItemStacks":
-    [
+  "chancecubes:armor_stand_armor": {
+    "handItemStacks": [
       {
         "id": "minecraft:grass",
         "Count": 1
@@ -10,10 +8,8 @@
       {
         "id": "minecraft:stick",
         "Count": 16,
-        "tag":
-        {
-          "Enchantments":
-          []
+        "tag": {
+          "Enchantments": []
         }
       },
       {
@@ -79,16 +75,13 @@
       {
         "id": "tconstruct:pickaxe",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:iron",
             "tconstruct:iron",
             "tconstruct:iron"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:piercing"
@@ -98,8 +91,7 @@
               "name": "tconstruct:sturdy"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -108,16 +100,13 @@
       {
         "id": "tconstruct:sword",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:iron",
             "tconstruct:iron",
             "tconstruct:iron"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:sturdy"
@@ -127,8 +116,7 @@
               "name": "tconstruct:silky_shears"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -137,16 +125,13 @@
       {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:iron",
             "tconstruct:iron",
             "tconstruct:iron"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:sturdy"
@@ -160,8 +145,7 @@
               "name": "tconstruct:axe_scrape"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -170,16 +154,13 @@
       {
         "id": "tconstruct:mattock",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:iron",
             "tconstruct:iron",
             "tconstruct:iron"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:knockback"
@@ -193,8 +174,7 @@
               "name": "tconstruct:hoe_till"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -203,16 +183,13 @@
       {
         "id": "tconstruct:kama",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:iron",
             "tconstruct:iron",
             "tconstruct:iron"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:sturdy"
@@ -226,8 +203,7 @@
               "name": "tconstruct:harvest"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -236,16 +212,13 @@
       {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:iron",
             "tconstruct:iron",
             "tconstruct:iron"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:padded"
@@ -263,8 +236,7 @@
               "name": "tconstruct:silky_shears"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -273,16 +245,13 @@
       {
         "id": "tconstruct:pickaxe",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:rock",
             "tconstruct:rock",
             "tconstruct:rock"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:piercing"
@@ -292,8 +261,7 @@
               "name": "tconstruct:stonebound"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -302,16 +270,13 @@
       {
         "id": "tconstruct:sword",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:rock",
             "tconstruct:rock",
             "tconstruct:rock"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:stonebound"
@@ -321,8 +286,7 @@
               "name": "tconstruct:silky_shears"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -331,16 +295,13 @@
       {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:rock",
             "tconstruct:rock",
             "tconstruct:rock"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:stonebound"
@@ -354,8 +315,7 @@
               "name": "tconstruct:axe_scrape"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -364,16 +324,13 @@
       {
         "id": "tconstruct:mattock",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:rock",
             "tconstruct:rock",
             "tconstruct:rock"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:knockback"
@@ -387,8 +344,7 @@
               "name": "tconstruct:hoe_till"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -397,16 +353,13 @@
       {
         "id": "tconstruct:kama",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:rock",
             "tconstruct:rock",
             "tconstruct:rock"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:stonebound"
@@ -420,8 +373,7 @@
               "name": "tconstruct:harvest"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -430,16 +382,13 @@
       {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:rock",
             "tconstruct:rock",
             "tconstruct:rock"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:padded"
@@ -457,8 +406,7 @@
               "name": "tconstruct:silky_shears"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -467,16 +415,13 @@
       {
         "id": "tconstruct:pickaxe",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:wood",
             "tconstruct:wood",
             "tconstruct:wood"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:piercing"
@@ -486,8 +431,7 @@
               "name": "tconstruct:cultivated"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -496,16 +440,13 @@
       {
         "id": "tconstruct:sword",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:wood",
             "tconstruct:wood",
             "tconstruct:wood"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:cultivated"
@@ -515,8 +456,7 @@
               "name": "tconstruct:silky_shears"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -525,16 +465,13 @@
       {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:wood",
             "tconstruct:wood",
             "tconstruct:wood"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:cultivated"
@@ -548,8 +485,7 @@
               "name": "tconstruct:axe_scrape"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -558,16 +494,13 @@
       {
         "id": "tconstruct:mattock",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:wood",
             "tconstruct:wood",
             "tconstruct:wood"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:knockback"
@@ -581,8 +514,7 @@
               "name": "tconstruct:hoe_till"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -591,16 +523,13 @@
       {
         "id": "tconstruct:kama",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:wood",
             "tconstruct:wood",
             "tconstruct:wood"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "3s",
               "name": "tconstruct:cultivated"
@@ -614,8 +543,7 @@
               "name": "tconstruct:harvest"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }
@@ -624,16 +552,13 @@
       {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag":
-        {
-          "tic_materials":
-          [
+        "tag": {
+          "tic_materials": [
             "tconstruct:wood",
             "tconstruct:wood",
             "tconstruct:wood"
           ],
-          "tic_modifiers":
-          [
+          "tic_modifiers": [
             {
               "level": "1s",
               "name": "tconstruct:padded"
@@ -651,8 +576,7 @@
               "name": "tconstruct:silky_shears"
             }
           ],
-          "tic_persistent_data":
-          {
+          "tic_persistent_data": {
             "abilities": 1,
             "upgrades": 3
           }

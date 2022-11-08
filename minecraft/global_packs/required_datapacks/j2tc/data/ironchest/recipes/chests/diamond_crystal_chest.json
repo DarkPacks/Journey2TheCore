@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GGG",
-    "GSG",
-    "GGG"
-  ],
+  "pattern": ["GGG", "GSG", "GGG"],
   "key": {
     "G": {
       "tag": "forge:glass"

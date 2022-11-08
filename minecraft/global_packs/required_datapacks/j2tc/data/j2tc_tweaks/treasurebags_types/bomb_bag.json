@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Bomber Man"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/bomb_bag",

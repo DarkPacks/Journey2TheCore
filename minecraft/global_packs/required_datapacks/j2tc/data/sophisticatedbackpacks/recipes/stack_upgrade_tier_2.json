@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "GGG",
-    "GSG",
-    "GGG"
-  ],
+  "pattern": ["GGG", "GSG", "GGG"],
   "key": {
     "S": {
       "item": "sophisticatedbackpacks:stack_upgrade_tier_1"

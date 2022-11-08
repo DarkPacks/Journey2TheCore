@@ -1,16 +1,16 @@
 
-[Display]
-	#Hidden Modifier are obfuscated rather than not shown
-	obfuscateHiddenModifiers = false
-	#Color based on mob tier
-	colorBasedOnTier = true
-	#Max Modifiers per line (0 = no limit)
-	#Range: > 0
-	modifiersPerLine = 5
+[ Display ]
+  # Hidden Modifier are obfuscated rather than not shown
+  obfuscateHiddenModifiers = false
+  # Color based on mob tier
+  colorBasedOnTier = true
+  # Max Modifiers per line (0 = no limit)
+  # Range: > 0
+  modifiersPerLine = 5
 
-["Black/Whitelisting"]
-	#Modifiers to hide/show (defaults to blacklist, case-sensitive)
-	modifierList = []
-	#Modifier list is whitelist
-	modifierWhitelist = false
+[ "Black/Whitelisting" ]
+  # Modifiers to hide/show (defaults to blacklist, case-sensitive)
+  modifierList = []
+  # Modifier list is whitelist
+  modifierWhitelist = false
 

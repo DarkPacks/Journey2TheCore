@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "DDD",
-    "DBD",
-    "DDD"
-  ],
+  "pattern": ["DDD", "DBD", "DDD"],
   "key": {
     "D": {
       "tag": "forge:gems/diamond"

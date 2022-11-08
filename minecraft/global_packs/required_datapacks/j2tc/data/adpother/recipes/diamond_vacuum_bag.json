@@ -1,35 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-		"SWW",
-		"DCD",
-		"LLL"
-	],
-  "key":
-  {
-    "D":
-    {
+  "pattern": ["SWW", "DCD", "LLL"],
+  "key": {
+    "D": {
       "tag": "forge:gems/diamond"
     },
-    "L":
-    {
+    "L": {
       "tag": "forge:leather"
     },
-    "S":
-    {
+    "S": {
       "tag": "forge:slimeballs"
     },
-    "W":
-    {
+    "W": {
       "tag": "minecraft:wool"
     },
-    "C":
-    {
+    "C": {
       "item": "tconstruct:piggy_backpack"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "adpother:diamond_vacuum_bag",
     "count": 1
   }

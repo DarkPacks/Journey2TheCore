@@ -6,11 +6,7 @@
       "item": "pickletweaks:watering_can"
     }
   ],
-  "pattern": [
-    "DBI",
-    "IWI",
-    "DID"
-  ],
+  "pattern": ["DBI", "IWI", "DID"],
   "key": {
     "I": {
       "item": "minecraft:iron_block"

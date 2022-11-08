@@ -1,7 +1,6 @@
 {
   "feature": "rocks:spruce_stick",
-  "placement":
-  [
+  "placement": [
     {
       "type": "minecraft:count",
       "count": 128
@@ -14,30 +13,21 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 530
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 684
         }
       }
     },
     {
       "type": "minecraft:block_predicate_filter",
-      "predicate":
-      {
+      "predicate": {
         "type": "minecraft:matching_block_tag",
-        "offset":
-        [
-          0,
-          -1,
-          0
-        ],
+        "offset": [0, -1, 0],
         "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top"
       }
     }

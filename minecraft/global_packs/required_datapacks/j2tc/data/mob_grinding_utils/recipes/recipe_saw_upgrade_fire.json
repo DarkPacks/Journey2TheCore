@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GFG",
-    "FRF",
-    "GFG"
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["GFG", "FRF", "GFG"],
+  "key": {
+    "G": {
       "tag": "forge:nuggets/gold"
     },
-    "F":
-    {
+    "F": {
       "item": "tconstruct:flint_and_brick"
     },
-    "R":
-    {
+    "R": {
       "tag": "forge:dusts/redstone"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "mob_grinding_utils:saw_upgrade_fire"
   }
 }

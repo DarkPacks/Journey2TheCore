@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Everybody gets one!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/lever",

@@ -1,16 +1,12 @@
 {
   "type": "gateways:gate_recipe",
   "group": "gateways",
-  "pattern": [
-    " # ",
-    "#A#",
-    " # "
-  ],
+  "pattern": [" # ", "#A#", " # "],
   "key": {
     "#": {
       "item": "minecraft:magma_cream"
     },
-	"A": {
+    "A": {
       "item": "minecraft:ender_pearl"
     }
   },

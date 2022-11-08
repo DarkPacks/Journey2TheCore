@@ -1,12 +1,10 @@
 {
   "type": "spoiled:spoil_recipe",
   "spoiltime": 200,
-  "ingredient":
-  {
+  "ingredient": {
     "item": "artifacts:everlasting_beef"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

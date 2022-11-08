@@ -1,16 +1,12 @@
 {
-  "display":
-  {
-    "icon":
-    {
+  "display": {
+    "icon": {
       "item": "minecraft:nether_bricks"
     },
-    "title":
-    {
+    "title": {
       "translate": "Find Gold Ingot"
     },
-    "description":
-    {
+    "description": {
       "translate": "Find Gold Ingot activate quest_4 gamestage"
     },
     "frame": "task",
@@ -19,30 +15,23 @@
     "hidden": false
   },
   "parent": "j2tc_tweaks:progression/root",
-  "criteria":
-  {
-    "requirement":
-    {
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":
-      {
+      "conditions": {
         "player": [
           {
             "condition": "minecraft:entity_scores",
             "entity": "this",
-            "scores":
-            {
+            "scores": {
               "quest_3": 1
             }
           }
         ],
         "items": [
           {
-            "items": [
-              "minecraft:gold_ingot"
-            ],
-            "count":
-            {
+            "items": ["minecraft:gold_ingot"],
+            "count": {
               "min": 9,
               "max": 64
             }
@@ -51,8 +40,7 @@
       }
     }
   },
-  "rewards":
-  {
+  "rewards": {
     "function": "j2tc_tweaks:stages/quest_4"
   }
 }

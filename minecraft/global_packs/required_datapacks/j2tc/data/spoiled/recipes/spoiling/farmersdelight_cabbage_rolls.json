@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:cabbage_rolls"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

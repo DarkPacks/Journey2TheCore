@@ -1,7 +1,5 @@
 {
-  "items": [
-    "curios:amulet"
-  ],
+  "items": ["curios:amulet"],
   "tooltips": [
     {
       "text": "Adds the Regeneration effect to the player",

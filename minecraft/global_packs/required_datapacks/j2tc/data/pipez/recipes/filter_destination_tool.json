@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "RGR",
-    "IBI"
-  ],
+  "pattern": ["III", "RGR", "IBI"],
   "key": {
     "I": {
       "tag": "forge:ingots/iron"

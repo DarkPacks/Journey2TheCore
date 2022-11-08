@@ -5,10 +5,10 @@
       "direction": "DOWN",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:oak_log",
             "Properties": {
               "axis": "y"

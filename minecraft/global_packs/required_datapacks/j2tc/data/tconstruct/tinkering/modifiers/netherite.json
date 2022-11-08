@@ -29,7 +29,5 @@
       "value": 0.25
     }
   ],
-  "flags": [
-    "tconstruct:indestructible"
-  ]
+  "flags": ["tconstruct:indestructible"]
 }

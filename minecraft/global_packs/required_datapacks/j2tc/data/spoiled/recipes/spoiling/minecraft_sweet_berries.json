@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "minecraft:sweet_berries"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

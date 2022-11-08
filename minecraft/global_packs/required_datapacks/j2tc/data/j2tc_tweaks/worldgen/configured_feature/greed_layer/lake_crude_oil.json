@@ -1,24 +1,18 @@
 {
   "type": "minecraft:lake",
-  "config":
-  {
-    "fluid":
-    {
+  "config": {
+    "fluid": {
       "type": "minecraft:simple_state_provider",
-      "state":
-      {
+      "state": {
         "Name": "tconstruct:molten_obsidian_fluid",
-        "Properties":
-        {
+        "Properties": {
           "level": "0"
         }
       }
     },
-    "barrier":
-    {
+    "barrier": {
       "type": "minecraft:simple_state_provider",
-      "state":
-      {
+      "state": {
         "Name": "minecraft:tuff"
       }
     }

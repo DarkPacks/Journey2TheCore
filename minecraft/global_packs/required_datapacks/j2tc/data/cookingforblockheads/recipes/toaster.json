@@ -3,11 +3,7 @@
     "item": "cookingforblockheads:toaster"
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "  B",
-    "IDI",
-    "ILI"
-  ],
+  "pattern": ["  B", "IDI", "ILI"],
   "key": {
     "I": {
       "tag": "forge:ingots/iron"

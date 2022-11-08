@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " F ",
-    " SF",
-    "S  "
-  ],
+  "pattern": [" F ", " SF", "S  "],
   "key": {
     "F": {
       "item": "minecraft:flint"

@@ -7,8 +7,7 @@
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:glowing\"}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "type": "forge:intersection",
     "children": [
       {
@@ -19,12 +18,10 @@
       }
     ]
   },
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:glowing",
     "level": 1
   },

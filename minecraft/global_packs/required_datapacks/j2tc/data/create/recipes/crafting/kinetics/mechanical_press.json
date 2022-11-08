@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " B ",
-    "SCS",
-    " I "
-  ],
+  "pattern": [" B ", "SCS", " I "],
   "key": {
     "B": {
       "item": "create:andesite_alloy"

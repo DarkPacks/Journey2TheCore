@@ -7,9 +7,7 @@
     "nbt": "{Damage:0}"
   },
   "type": "BREAKER",
-  "dimensions": [
-    "minecraft:the_end"
-  ],
+  "dimensions": ["minecraft:the_end"],
   "min_rarity": "rare",
   "max_rarity": "mythic"
 }

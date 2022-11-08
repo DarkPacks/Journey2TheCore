@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "minecraft:snowy_slopes"
-  ]
+  "values": ["minecraft:snowy_slopes"]
 }

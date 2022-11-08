@@ -21,7 +21,7 @@
           },
           "input_predicate": {
             "block": "minecraft:gilded_blackstone",
-            "probability": 0.80,
+            "probability": 0.8,
             "predicate_type": "minecraft:random_block_match"
           },
           "location_predicate": {

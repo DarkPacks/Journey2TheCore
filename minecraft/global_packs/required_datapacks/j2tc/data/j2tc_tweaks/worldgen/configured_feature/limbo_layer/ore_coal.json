@@ -1,18 +1,16 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
-    {
-      "target":
       {
-        "tag": "j2tc_tweaks:limbo_layer_main_block",
-        "predicate_type": "minecraft:tag_match"
-      },
-      "state":
-      {
-        "Name": "minecraft:coal_ore"
+        "target": {
+          "tag": "j2tc_tweaks:limbo_layer_main_block",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:coal_ore"
+        }
       }
-    }],
+    ],
     "size": 16,
     "discard_chance_on_air_exposure": 0
   },

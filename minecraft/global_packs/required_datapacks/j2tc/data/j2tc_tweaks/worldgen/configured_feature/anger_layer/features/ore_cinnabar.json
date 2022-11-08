@@ -1,15 +1,12 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:anger_ore_replaceable",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "thermal:deepslate_cinnabar_ore"
         }
       }

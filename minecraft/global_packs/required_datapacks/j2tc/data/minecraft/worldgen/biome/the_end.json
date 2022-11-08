@@ -1,8 +1,6 @@
 {
-  "effects":
-  {
-    "mood_sound":
-    {
+  "effects": {
+    "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
@@ -13,23 +11,17 @@
     "water_color": 8914952,
     "water_fog_color": 3866888
   },
-  "carvers":
-  {},
+  "carvers": {},
   "features": [
     [],
     [],
     [],
     [],
-    [
-      "minecraft:end_spike"
-    ],
+    ["minecraft:end_spike"],
     [],
-    [
-      "j2tc_tweaks:ice_layer_generator"
-    ]
+    ["j2tc_tweaks:ice_layer_generator"]
   ],
-  "spawners":
-  {
+  "spawners": {
     "monster": [
       {
         "type": "minecraft:enderman",
@@ -46,8 +38,7 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs":
-  {},
+  "spawn_costs": {},
   "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,

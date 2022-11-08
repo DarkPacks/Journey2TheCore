@@ -6,10 +6,7 @@
       "item": "pickletweaks:reinforced_night_vision_goggles"
     }
   ],
-  "pattern": [
-    "IGI",
-    "S S"
-  ],
+  "pattern": ["IGI", "S S"],
   "key": {
     "I": {
       "tag": "forge:gems/diamond"

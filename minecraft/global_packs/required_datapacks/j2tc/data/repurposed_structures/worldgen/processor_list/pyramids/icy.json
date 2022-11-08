@@ -37,10 +37,10 @@
       "pillar_processor_list": "repurposed_structures:pyramids/icy_pillar",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:packed_ice"
           }
         }

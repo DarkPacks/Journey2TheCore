@@ -1,6 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "nameless_trinkets:gods_crown"
-  ]
+  "values": ["nameless_trinkets:gods_crown"]
 }

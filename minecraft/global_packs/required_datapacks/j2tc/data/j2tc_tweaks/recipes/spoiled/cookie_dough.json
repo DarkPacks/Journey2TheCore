@@ -7,11 +7,9 @@
           "type": "spoiled:initialize_spoiling"
         }
       ],
-      "recipe":
-      {
+      "recipe": {
         "type": "spoiled:spoil_recipe",
-        "ingredient":
-        {
+        "ingredient": {
           "item": "turkeydevutil:cookie"
         }
       }

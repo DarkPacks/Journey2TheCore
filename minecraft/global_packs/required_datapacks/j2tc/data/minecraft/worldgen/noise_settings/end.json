@@ -4,48 +4,40 @@
   "aquifers_enabled": false,
   "ore_veins_enabled": false,
   "legacy_random_source": true,
-  "default_block":
-  {
+  "default_block": {
     "Name": "minecraft:end_stone"
   },
-  "default_fluid":
-  {
+  "default_fluid": {
     "Name": "minecraft:powder_snow"
   },
-  "noise":
-  {
+  "noise": {
     "min_y": 0,
     "height": 128,
     "size_horizontal": 2,
     "size_vertical": 1,
-    "sampling":
-    {
+    "sampling": {
       "xz_scale": 2,
       "y_scale": 1,
       "xz_factor": 80,
       "y_factor": 160
     },
-    "bottom_slide":
-    {
+    "bottom_slide": {
       "target": -0.234375,
       "size": 7,
       "offset": 1
     },
-    "top_slide":
-    {
+    "top_slide": {
       "target": -23.4375,
       "size": 64,
       "offset": -46
     },
-    "terrain_shaper":
-    {
+    "terrain_shaper": {
       "offset": 0,
       "factor": 1,
       "jaggedness": 0
     }
   },
-  "noise_router":
-  {
+  "noise_router": {
     "barrier": 0,
     "fluid_level_floodedness": 0,
     "fluid_level_spread": 0,
@@ -56,29 +48,22 @@
     "erosion": 0,
     "depth": 0,
     "ridges": 0,
-    "initial_density_without_jaggedness":
-    {
+    "initial_density_without_jaggedness": {
       "type": "minecraft:cache_2d",
-      "argument":
-      {
+      "argument": {
         "type": "minecraft:end_islands"
       }
     },
-    "final_density":
-    {
+    "final_density": {
       "type": "minecraft:squeeze",
-      "argument":
-      {
+      "argument": {
         "type": "minecraft:mul",
         "argument1": 0.64,
-        "argument2":
-        {
+        "argument2": {
           "type": "minecraft:interpolated",
-          "argument":
-          {
+          "argument": {
             "type": "minecraft:blend_density",
-            "argument":
-            {
+            "argument": {
               "type": "minecraft:slide",
               "argument": "minecraft:end/sloped_cheese"
             }
@@ -90,11 +75,9 @@
     "vein_ridged": 0,
     "vein_gap": 0
   },
-  "surface_rule":
-  {
+  "surface_rule": {
     "type": "minecraft:block",
-    "result_state":
-    {
+    "result_state": {
       "Name": "minecraft:end_stone"
     }
   }

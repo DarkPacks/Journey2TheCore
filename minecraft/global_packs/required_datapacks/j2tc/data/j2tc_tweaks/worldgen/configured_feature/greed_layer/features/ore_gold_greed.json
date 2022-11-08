@@ -1,15 +1,12 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:greed_layer_ore_placement",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "turkeydevutil:greed_gold_ore"
         }
       }

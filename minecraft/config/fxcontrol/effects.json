@@ -30,8 +30,7 @@
     "dimension": "minecraft:overworld",
     "minheight": 265,
     "maxheight": 396,
-    "chestplate":
-    {
+    "chestplate": {
       "item": "tconstruct:plate_chestplate",
       "nbt": [
         {
@@ -52,8 +51,7 @@
     "dimension": "minecraft:overworld",
     "minheight": 265,
     "maxheight": 396,
-    "chestplate":
-    {
+    "chestplate": {
       "item": "tconstruct:travelers_chestplate",
       "nbt": [
         {
@@ -86,8 +84,7 @@
     "dimension": "minecraft:overworld",
     "minheight": 397,
     "maxheight": 528,
-    "helmet":
-    {
+    "helmet": {
       "item": "tconstruct:plate_helmet",
       "nbt": [
         {
@@ -108,8 +105,7 @@
     "dimension": "minecraft:overworld",
     "minheight": 397,
     "maxheight": 528,
-    "helmet":
-    {
+    "helmet": {
       "item": "tconstruct:travelers_helmet",
       "nbt": [
         {

@@ -2,8 +2,7 @@
   "type": "create:mixing",
   "conditions": [
     {
-      "value":
-      {
+      "value": {
         "tag": "forge:fruits/durian",
         "type": "forge:tag_empty"
       },

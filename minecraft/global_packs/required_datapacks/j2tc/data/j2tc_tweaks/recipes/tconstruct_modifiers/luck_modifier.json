@@ -7,16 +7,13 @@
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:luck\"}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/melee_or_harvest"
   },
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:luck",
     "level": 1
   },

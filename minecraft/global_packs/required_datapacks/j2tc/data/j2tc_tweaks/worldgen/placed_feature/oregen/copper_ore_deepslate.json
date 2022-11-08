@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:oregen/copper_ore_deepslate",
-  "placement":
-  [
+  "placement": [
     {
       "count": 60,
       "type": "minecraft:count"
@@ -13,14 +12,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": 3
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 130
         },
         "type": "minecraft:uniform"

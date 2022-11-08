@@ -7,24 +7,19 @@
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Bouncy\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:bouncy\"}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "type": "forge:difference",
-    "base":
-    {
+    "base": {
       "tag": "tconstruct:modifiable/armor/boots"
     },
-    "subtracted":
-    {
+    "subtracted": {
       "item": "tconstruct:slime_boots"
     }
   },
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:bouncy",
     "level": 1
   }

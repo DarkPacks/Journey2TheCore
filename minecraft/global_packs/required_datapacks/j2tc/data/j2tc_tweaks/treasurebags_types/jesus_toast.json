@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Is that what I think it is?!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/jesus_toast",

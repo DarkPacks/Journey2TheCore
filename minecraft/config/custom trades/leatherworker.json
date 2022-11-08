@@ -3,14 +3,12 @@
   "removeOtherTrades": true,
   "trades": [
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "alexsmobs:kangaroo_hide",
         "amount": 2,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0.0
@@ -21,14 +19,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:rabbit_hide",
         "amount": 2,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0.0
@@ -39,14 +35,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:leather",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 4,
         "priceModifier": 0.0
@@ -57,14 +51,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:rabbit_foot",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 8,
         "priceModifier": 0.0
@@ -75,14 +67,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "alexsmobs:crocodile_chestplate",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 24,
         "priceModifier": 0.0
@@ -93,14 +83,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "alexsmobs:roadrunner_boots",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 24,
         "priceModifier": 0.0
@@ -111,14 +99,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "alexsmobs:frontier_cap",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 24,
         "priceModifier": 0.0
@@ -129,14 +115,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set1",
         "amount": 1,
         "priceModifier": 0.0
@@ -145,16 +129,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set2",
         "amount": 1,
         "priceModifier": 0.0
@@ -163,16 +145,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set3",
         "amount": 1,
         "priceModifier": 0.0
@@ -181,16 +161,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set4",
         "amount": 1,
         "priceModifier": 0.0
@@ -199,16 +177,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set5",
         "amount": 1,
         "priceModifier": 0.0
@@ -217,16 +193,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set6",
         "amount": 1,
         "priceModifier": 0.0
@@ -235,16 +209,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set7",
         "amount": 1,
         "priceModifier": 0.0
@@ -253,16 +225,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set8",
         "amount": 1,
         "priceModifier": 0.0
@@ -271,16 +241,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set9",
         "amount": 1,
         "priceModifier": 0.0
@@ -289,16 +257,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set10",
         "amount": 1,
         "priceModifier": 0.0
@@ -307,16 +273,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set11",
         "amount": 1,
         "priceModifier": 0.0
@@ -325,16 +289,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set12",
         "amount": 1,
         "priceModifier": 0.0
@@ -343,16 +305,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set13",
         "amount": 1,
         "priceModifier": 0.0
@@ -361,16 +321,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set14",
         "amount": 1,
         "priceModifier": 0.0
@@ -379,16 +337,14 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   },
+    },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:lanyard",
         "amount": 1,
         "priceModifier": 0.0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "buddycards:buddycard_mob_test_set15",
         "amount": 1,
         "priceModifier": 0.0
@@ -397,6 +353,6 @@
       "maxUses": 2,
       "tradeExp": 20,
       "tradeLevel": 1
-   }
+    }
   ]
 }

@@ -1,19 +1,13 @@
 {
-  "config":
-  {
+  "config": {
     "tries": 1,
     "xz_spread": 0,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
-        "config":
-        {
-          "to_place":
-          {
-            "state":
-            {
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "state": {
               "Name": "chancecubes:chance_cube"
             },
             "type": "minecraft:simple_state_provider"
@@ -22,16 +16,14 @@
         "type": "minecraft:simple_block"
       },
       "placement": [
-      {
-        "predicate":
         {
-          "blocks": [
-            "minecraft:air"
-          ],
-          "type": "minecraft:matching_blocks"
-        },
-        "type": "minecraft:block_predicate_filter"
-      }]
+          "predicate": {
+            "blocks": ["minecraft:air"],
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
     }
   },
   "type": "minecraft:random_patch"

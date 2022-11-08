@@ -3,22 +3,17 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base24"
-      ],
+      "items": ["buddycards:buddycard_base24"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/melee"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:knockback",
     "level": 1
   },

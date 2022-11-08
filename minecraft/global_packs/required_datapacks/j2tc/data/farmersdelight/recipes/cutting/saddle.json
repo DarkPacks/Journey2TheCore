@@ -1,17 +1,14 @@
 {
   "type": "farmersdelight:cutting",
-  "ingredients":
-  [
+  "ingredients": [
     {
       "item": "minecraft:saddle"
     }
   ],
-  "tool":
-  {
+  "tool": {
     "tag": "forge:shears"
   },
-  "result":
-  [
+  "result": [
     {
       "item": "minecraft:leather",
       "count": 2

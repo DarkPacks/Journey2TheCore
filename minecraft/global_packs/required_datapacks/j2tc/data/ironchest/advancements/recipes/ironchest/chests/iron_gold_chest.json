@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "ironchest:chests/iron_gold_chest"
-    ]
+    "recipes": ["ironchest:chests/iron_gold_chest"]
   },
   "criteria": {
     "has_gold_ingot": {
@@ -23,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_gold_ingot",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_gold_ingot", "has_the_recipe"]]
 }

@@ -1,11 +1,9 @@
 {
   "type": "tconstruct:ore_melting",
   "rate": "gem",
-  "ingredient":
-  {
+  "ingredient": {
     "type": "forge:difference",
-    "base":
-    {
+    "base": {
       "tag": "forge:ores/diamond"
     },
     "subtracted": [
@@ -17,8 +15,7 @@
       }
     ]
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:molten_diamond",
     "amount": 100
   },

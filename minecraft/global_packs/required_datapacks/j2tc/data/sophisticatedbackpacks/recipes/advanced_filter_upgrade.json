@@ -6,10 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "GPG",
-    "RRR"
-  ],
+  "pattern": ["GPG", "RRR"],
   "key": {
     "G": {
       "tag": "forge:ingots/gold"

@@ -16,14 +16,11 @@
     {
       "tag": "buddycards:buddycards"
     }
-
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/chestplate"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:well_fed",
     "level": 1
   }

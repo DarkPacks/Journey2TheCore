@@ -29,8 +29,7 @@
       "tag": "forge:dusts/redstone"
     }
   ],
-  "result":
-  {
+  "result": {
     "item": "create:rose_quartz"
   }
 }

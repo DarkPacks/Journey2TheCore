@@ -4,10 +4,7 @@
     "count": 12
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "BW",
-    "WB"
-  ],
+  "pattern": ["BW", "WB"],
   "key": {
     "B": {
       "item": "minecraft:coal_block"

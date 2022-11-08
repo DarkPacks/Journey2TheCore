@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "alexsmobs:cooked_lobster_tail"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

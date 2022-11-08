@@ -1,1 +1,31 @@
-{"type":"forge:conditional","recipes":[{"conditions":[{"type":"projecte:full_klein_stars"}],"recipe":{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"projecte:rm_boots"},{"item":"projecte:swiftwolf_rending_gale"},{"item":"projecte:swiftwolf_rending_gale"},{"type":"projecte:full_klein_star","tier":5}],"result":{"item":"projecte:gem_boots"}}},{"conditions":[{"type":"forge:true"}],"recipe":{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"projecte:rm_boots"},{"item":"projecte:swiftwolf_rending_gale"},{"item":"projecte:swiftwolf_rending_gale"},{"item":"projecte:klein_star_omega"}],"result":{"item":"projecte:gem_boots"}}}]}
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [{ "type": "projecte:full_klein_stars" }],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          { "item": "projecte:rm_boots" },
+          { "item": "projecte:swiftwolf_rending_gale" },
+          { "item": "projecte:swiftwolf_rending_gale" },
+          { "type": "projecte:full_klein_star", "tier": 5 }
+        ],
+        "result": { "item": "projecte:gem_boots" }
+      }
+    },
+    {
+      "conditions": [{ "type": "forge:true" }],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          { "item": "projecte:rm_boots" },
+          { "item": "projecte:swiftwolf_rending_gale" },
+          { "item": "projecte:swiftwolf_rending_gale" },
+          { "item": "projecte:klein_star_omega" }
+        ],
+        "result": { "item": "projecte:gem_boots" }
+      }
+    }
+  ]
+}

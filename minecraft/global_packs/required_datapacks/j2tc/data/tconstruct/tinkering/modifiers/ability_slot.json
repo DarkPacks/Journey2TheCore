@@ -2,8 +2,7 @@
   "type": "tconstruct:extra_slot",
   "level_display": "tconstruct:single_level",
   "always_show": false,
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   }
 }

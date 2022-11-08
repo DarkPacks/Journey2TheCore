@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "123",
-    "RRR",
-    "RRR"
-  ],
-  "key":
-  {
-    "1":
-    {
+  "pattern": ["123", "RRR", "RRR"],
+  "key": {
+    "1": {
       "item": "projecte:rm_hammer"
     },
-    "2":
-    {
+    "2": {
       "item": "projecte:rm_pick"
     },
-    "3":
-    {
+    "3": {
       "item": "projecte:rm_shovel"
     },
-    "R":
-    {
+    "R": {
       "item": "projecte:red_matter"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:rm_morning_star"
   }
 }

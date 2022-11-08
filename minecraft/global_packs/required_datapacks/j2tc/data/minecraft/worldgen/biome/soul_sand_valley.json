@@ -1,29 +1,23 @@
 {
-  "effects":
-  {
-    "mood_sound":
-    {
+  "effects": {
+    "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.0111
     },
-    "music":
-    {
+    "music": {
       "sound": "minecraft:music.nether.soul_sand_valley",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "particle":
-    {
-      "options":
-      {
+    "particle": {
+      "options": {
         "type": "minecraft:ash"
       },
       "probability": 0.00625
@@ -34,16 +28,13 @@
     "water_color": 8914952,
     "water_fog_color": 3866888
   },
-  "carvers":
-  {
+  "carvers": {
     "air": "minecraft:nether_cave"
   },
   "features": [
     [],
     [],
-    [
-      "minecraft:basalt_pillar"
-    ],
+    ["minecraft:basalt_pillar"],
     [],
     [],
     [],
@@ -66,12 +57,9 @@
       "minecraft:ore_debris_small"
     ],
     [],
-    [
-      "minecraft:spring_lava"
-    ]
+    ["minecraft:spring_lava"]
   ],
-  "spawners":
-  {
+  "spawners": {
     "monster": [
       {
         "type": "minecraft:skeleton",
@@ -107,25 +95,20 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs":
-  {
-    "minecraft:skeleton":
-    {
+  "spawn_costs": {
+    "minecraft:skeleton": {
       "energy_budget": 0.15,
       "charge": 0.7
     },
-    "minecraft:ghast":
-    {
+    "minecraft:ghast": {
       "energy_budget": 0.15,
       "charge": 0.7
     },
-    "minecraft:enderman":
-    {
+    "minecraft:enderman": {
       "energy_budget": 0.15,
       "charge": 0.7
     },
-    "minecraft:strider":
-    {
+    "minecraft:strider": {
       "energy_budget": 0.15,
       "charge": 0.7
     }

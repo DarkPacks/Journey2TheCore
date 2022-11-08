@@ -3,9 +3,7 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set4"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set4"],
       "nbt": "{foil:1b}"
     }
   ],
@@ -17,12 +15,10 @@
       "tag": "tconstruct:modifiable/armor"
     }
   ],
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:sticky",
     "level": 1
   },

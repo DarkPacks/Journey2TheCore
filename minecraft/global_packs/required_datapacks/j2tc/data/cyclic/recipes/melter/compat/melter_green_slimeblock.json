@@ -14,13 +14,11 @@
       "item": "minecraft:slime_block"
     }
   ],
-  "energy":
-  {
+  "energy": {
     "rfpertick": 100,
     "ticks": 160
   },
-  "result":
-  {
+  "result": {
     "fluid": "cyclic:slime",
     "count": 4500
   }

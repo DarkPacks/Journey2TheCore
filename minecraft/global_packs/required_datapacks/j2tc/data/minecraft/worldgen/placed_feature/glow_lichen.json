@@ -1,37 +1,33 @@
 {
   "feature": "minecraft:glow_lichen",
   "placement": [
-  {
-    "count":
     {
-      "type": "minecraft:uniform",
-      "value":
-      {
-        "min_inclusive": 104,
-        "max_inclusive": 256
-      }
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 104,
+          "max_inclusive": 256
+        }
+      },
+      "type": "minecraft:count"
     },
-    "type": "minecraft:count"
-  },
-  {
-    "height":
     {
-      "min_inclusive":
-      {
-        "absolute": 0
+      "height": {
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 132
+        },
+        "type": "minecraft:uniform"
       },
-      "max_inclusive":
-      {
-        "absolute": 132
-      },
-      "type": "minecraft:uniform"
+      "type": "minecraft:height_range"
     },
-    "type": "minecraft:height_range"
-  },
-  {
-    "type": "minecraft:in_square"
-  },
-  {
-    "type": "minecraft:biome"
-  }]
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

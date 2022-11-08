@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GIG",
-    "IEI",
-    "GIG"
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["GIG", "IEI", "GIG"],
+  "key": {
+    "G": {
       "tag": "forge:ingots/bronze"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:gems/emerald"
     },
-    "E":
-    {
+    "E": {
       "tag": "forge:ender_pearls"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "factinventory:interaction_module"
   }
 }

@@ -8,10 +8,5 @@
   "bagColor": "#708090",
   "bagOverlayColor": "#D2691E",
   "bagStringColor": "#D3D3D3",
-  "dropsFromGroups": [
-    "player",
-    "boss",
-    "hostile",
-    "peaceful"
-  ]
+  "dropsFromGroups": ["player", "boss", "hostile", "peaceful"]
 }

@@ -1,296 +1,296 @@
 
-#General settings
-[elementaryores]
+# General settings
+[ elementaryores ]
 
-	[elementaryores.nether]
+  [ elementaryores.nether ]
 
-		[elementaryores.nether.emerald]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 128
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 8
+    [ elementaryores.nether.emerald ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 128
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 8
 
-		[elementaryores.nether.iron]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 128
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 10
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 16
+    [ elementaryores.nether.iron ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 128
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 10
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 16
 
-		[elementaryores.nether.lapis]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 0
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 120
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 8
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 12
+    [ elementaryores.nether.lapis ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 0
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 120
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 8
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 12
 
-		[elementaryores.nether.diamond]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 128
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 8
+    [ elementaryores.nether.diamond ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 128
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 8
 
-		[elementaryores.nether.coal]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 60
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 256
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 10
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 18
+    [ elementaryores.nether.coal ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 60
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 256
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 10
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 18
 
-		[elementaryores.nether.copper]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = -8
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 128
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 6
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 16
+    [ elementaryores.nether.copper ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = -8
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 128
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 6
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 16
 
-		[elementaryores.nether.ghast]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 0
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 64
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 10
+    [ elementaryores.nether.ghast ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 0
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 64
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 10
 
-		[elementaryores.nether.redstone]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = -128
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 50
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 8
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 50
+    [ elementaryores.nether.redstone ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = -128
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 50
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 8
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 50
 
-	[elementaryores.end]
+  [ elementaryores.end ]
 
-		[elementaryores.end.redstone]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 128
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 14
+    [ elementaryores.end.redstone ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 128
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 14
 
-		[elementaryores.end.emerald]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 60
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 8
+    [ elementaryores.end.emerald ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 60
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 8
 
-		[elementaryores.end.ender]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 256
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 16
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 16
+    [ elementaryores.end.ender ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 256
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 16
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 16
 
-		[elementaryores.end.diamond]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 256
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 3
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 8
+    [ elementaryores.end.diamond ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 256
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 3
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 8
 
-		[elementaryores.end.lapis]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 256
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 8
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 14
+    [ elementaryores.end.lapis ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 256
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 8
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 14
 
-		[elementaryores.end.coal]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 80
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 18
+    [ elementaryores.end.coal ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 80
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 18
 
-		[elementaryores.end.copper]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 1
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 128
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 4
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 14
+    [ elementaryores.end.copper ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 1
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 128
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 4
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 14
 
-		[elementaryores.end.iron]
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			lowest = 40
-			#
-			# Min and max y levels for spawn
-			#Range: -4096 ~ 4096
-			highest = 256
-			#
-			# Registered worldgen feature size
-			#Range: 0 ~ 64
-			size = 8
-			#
-			# Spread area
-			#Range: 0 ~ 64
-			spread = 30
+    [ elementaryores.end.iron ]
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      lowest = 40
+      #
+      # Min and max y levels for spawn
+      # Range: -4096 ~ 4096
+      highest = 256
+      #
+      # Registered worldgen feature size
+      # Range: 0 ~ 64
+      size = 8
+      #
+      # Spread area
+      # Range: 0 ~ 64
+      spread = 30
 

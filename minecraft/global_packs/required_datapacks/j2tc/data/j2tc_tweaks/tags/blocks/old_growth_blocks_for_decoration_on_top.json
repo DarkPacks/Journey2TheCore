@@ -1,6 +1,3 @@
 {
-  "values": [
-    "minecraft:podzol",
-    "minecraft:coarse_dirt"
-  ]
+  "values": ["minecraft:podzol", "minecraft:coarse_dirt"]
 }

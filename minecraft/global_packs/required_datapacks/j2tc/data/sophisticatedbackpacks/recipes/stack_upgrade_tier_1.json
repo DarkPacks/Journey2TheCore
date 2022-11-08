@@ -6,24 +6,16 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "III",
-    "IBI",
-    "III"
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": ["III", "IBI", "III"],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:storage_blocks/copper"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
   }
 }

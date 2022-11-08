@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:bacon_and_eggs"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

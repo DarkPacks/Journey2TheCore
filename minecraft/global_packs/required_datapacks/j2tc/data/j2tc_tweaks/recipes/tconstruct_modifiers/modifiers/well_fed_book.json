@@ -7,12 +7,10 @@
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Well Fed\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:well_fed\"}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/chestplate"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:well_fed",
     "level": 1
   }

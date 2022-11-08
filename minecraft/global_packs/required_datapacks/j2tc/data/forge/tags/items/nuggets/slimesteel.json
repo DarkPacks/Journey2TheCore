@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "tconstruct:slimesteel_nugget"
-  ]
+  "values": ["tconstruct:slimesteel_nugget"]
 }

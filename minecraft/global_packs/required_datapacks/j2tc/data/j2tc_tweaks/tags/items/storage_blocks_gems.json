@@ -1,6 +1,3 @@
 {
-  "values": [
-    "minecraft:amethyst_block",
-    "minecraft:quartz_block"
-  ]
+  "values": ["minecraft:amethyst_block", "minecraft:quartz_block"]
 }

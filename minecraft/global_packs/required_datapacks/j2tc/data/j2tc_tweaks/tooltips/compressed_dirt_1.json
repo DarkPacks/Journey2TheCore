@@ -1,7 +1,5 @@
 {
-  "items": [
-    "compressium:dirt_1"
-  ],
+  "items": ["compressium:dirt_1"],
   "tooltips": [
     {
       "text": "9 Dirt",

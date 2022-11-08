@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "nameless_trinkets:gods_crown"
   },
-  "result":
-  {
+  "result": {
     "item": "nameless_trinkets:cracked_crown"
   }
 }

@@ -83,12 +83,10 @@
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:ability_slot",
     "level": 1
   },

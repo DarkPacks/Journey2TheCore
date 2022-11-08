@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:iron_backpack"
-    ]
+    "recipes": ["sophisticatedbackpacks:iron_backpack"]
   },
   "criteria": {
     "has_backpack": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:backpack"
-            ]
+            "items": ["sophisticatedbackpacks:backpack"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_backpack",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_backpack", "has_the_recipe"]]
 }

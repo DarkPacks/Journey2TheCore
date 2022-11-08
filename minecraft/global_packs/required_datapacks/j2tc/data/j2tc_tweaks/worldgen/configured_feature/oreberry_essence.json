@@ -1,22 +1,15 @@
 {
-  "config":
-  {
+  "config": {
     "tries": 4,
     "xz_spread": 0,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
-        "config":
-        {
-          "to_place":
-          {
-            "state":
-            {
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "state": {
               "Name": "oreberriesreplanted:essence_berry_bush",
-              "Properties":
-              {
+              "Properties": {
                 "age": "2"
               }
             },
@@ -27,11 +20,8 @@
       },
       "placement": [
         {
-          "predicate":
-          {
-            "blocks": [
-              "minecraft:air"
-            ],
+          "predicate": {
+            "blocks": ["minecraft:air"],
             "type": "minecraft:matching_blocks"
           },
           "type": "minecraft:block_predicate_filter"

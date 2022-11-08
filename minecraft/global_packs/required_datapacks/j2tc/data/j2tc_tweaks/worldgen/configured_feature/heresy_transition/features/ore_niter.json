@@ -1,15 +1,12 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:heresy_transition_stone_replacement",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "thermal:deepslate_niter_ore"
         }
       }

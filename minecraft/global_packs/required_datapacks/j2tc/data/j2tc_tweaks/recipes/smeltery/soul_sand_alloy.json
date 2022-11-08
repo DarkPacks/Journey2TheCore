@@ -14,8 +14,7 @@
       "amount": 50
     }
   ],
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:liquid_soul",
     "amount": 250
   },

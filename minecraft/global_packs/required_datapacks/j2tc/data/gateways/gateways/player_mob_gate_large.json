@@ -137,12 +137,12 @@
         {
           "attribute": "generic.knockback_resistance",
           "operation": "ADDITION",
-          "value": 0.10
+          "value": 0.1
         },
         {
           "attribute": "generic.movement_speed",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.10
+          "value": 0.1
         }
       ],
       "rewards": [
@@ -289,12 +289,12 @@
         {
           "attribute": "generic.knockback_resistance",
           "operation": "ADDITION",
-          "value": 0.20
+          "value": 0.2
         },
         {
           "attribute": "generic.movement_speed",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.20
+          "value": 0.2
         }
       ],
       "rewards": [

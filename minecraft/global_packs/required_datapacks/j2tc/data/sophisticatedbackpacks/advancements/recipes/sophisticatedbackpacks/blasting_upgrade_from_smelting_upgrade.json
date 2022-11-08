@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:blasting_upgrade_from_smelting_upgrade"
-    ]
+    "recipes": ["sophisticatedbackpacks:blasting_upgrade_from_smelting_upgrade"]
   },
   "criteria": {
     "has_smelting_upgrade": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:smelting_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:smelting_upgrade"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_smelting_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_smelting_upgrade", "has_the_recipe"]]
 }

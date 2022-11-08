@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "My ears!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/sound_muffler",

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " M ",
-    "MDM",
-    " M "
-  ],
+  "pattern": [" M ", "MDM", " M "],
   "key": {
     "M": {
       "item": "factinventory:interaction_module"

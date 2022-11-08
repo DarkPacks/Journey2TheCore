@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "create:zinc_block"
-  ]
+  "values": ["create:zinc_block"]
 }

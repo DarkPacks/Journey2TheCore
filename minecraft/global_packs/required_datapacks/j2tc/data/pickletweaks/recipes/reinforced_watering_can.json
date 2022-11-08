@@ -6,11 +6,7 @@
       "item": "pickletweaks:reinforced_watering_can"
     }
   ],
-  "pattern": [
-    " BD",
-    "DWD",
-    " D "
-  ],
+  "pattern": [" BD", "DWD", " D "],
   "key": {
     "D": {
       "tag": "forge:gems/diamond"

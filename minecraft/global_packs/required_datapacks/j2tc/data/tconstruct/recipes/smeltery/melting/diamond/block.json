@@ -1,11 +1,9 @@
 {
   "type": "tconstruct:melting",
-  "ingredient":
-  {
+  "ingredient": {
     "tag": "forge:storage_blocks/diamond"
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:molten_diamond",
     "amount": 900
   },

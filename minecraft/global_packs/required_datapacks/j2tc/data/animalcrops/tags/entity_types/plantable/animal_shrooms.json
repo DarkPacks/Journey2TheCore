@@ -1,6 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "#animalcrops:droppable/animal_shrooms"
-  ]
+  "values": ["#animalcrops:droppable/animal_shrooms"]
 }

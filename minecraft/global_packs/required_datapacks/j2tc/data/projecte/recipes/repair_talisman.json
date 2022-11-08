@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "projecte:repair_talisman",
-  "pattern": [
-    "LMH",
-    "SPS",
-    "HML"
-  ],
+  "pattern": ["LMH", "SPS", "HML"],
   "key": {
     "P": {
       "item": "cyclic:carbon_paper"

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GGG",
-    "MSM",
-    "GGG"
-  ],
+  "pattern": ["GGG", "MSM", "GGG"],
   "key": {
     "M": {
       "tag": "forge:gems/diamond"

@@ -3,10 +3,7 @@
     "item": "cookingforblockheads:ice_unit"
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "ICI"
-  ],
+  "pattern": ["SSS", "ICI"],
   "key": {
     "S": {
       "item": "minecraft:snowball"

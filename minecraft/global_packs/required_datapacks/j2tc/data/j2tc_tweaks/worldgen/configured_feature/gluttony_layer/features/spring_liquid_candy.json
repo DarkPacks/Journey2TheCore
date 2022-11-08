@@ -1,6 +1,5 @@
 {
-  "config":
-  {
+  "config": {
     "rock_count": 4,
     "hole_count": 1,
     "valid_blocks": [
@@ -8,10 +7,8 @@
       "candyworld:dark_brownie_block",
       "candyworld:white_brownie_block"
     ],
-    "state":
-    {
-      "Properties":
-      {
+    "state": {
+      "Properties": {
         "falling": "true"
       },
       "Name": "candyworld:liquid_candy"

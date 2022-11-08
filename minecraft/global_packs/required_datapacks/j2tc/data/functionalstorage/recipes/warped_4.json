@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "CPC",
-          "PPP",
-          "CPC"
-        ],
+        "pattern": ["CPC", "PPP", "CPC"],
         "key": {
           "P": {
             "item": "minecraft:warped_planks"

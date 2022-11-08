@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "IEF",
-    "MRM",
-    "IEF"
-  ],
+  "pattern": ["IEF", "MRM", "IEF"],
   "key": {
     "I": {
       "item": "pipez:item_pipe"

@@ -5,10 +5,10 @@
       "direction": "DOWN",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:prismarine"
           }
         }
@@ -16,9 +16,7 @@
     },
     {
       "processor_type": "repurposed_structures:tick_blocks_processor",
-      "blocks_to_tick": [
-        "minecraft:bubble_column"
-      ]
+      "blocks_to_tick": ["minecraft:bubble_column"]
     }
   ]
 }

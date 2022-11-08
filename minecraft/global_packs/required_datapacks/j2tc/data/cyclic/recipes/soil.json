@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "lml",
-    "lbl",
-    "lml"
-  ],
-  "key":
-  {
-    "l":
-    {
+  "pattern": ["lml", "lbl", "lml"],
+  "key": {
+    "l": {
       "item": "minecraft:dirt"
     },
-    "m":
-    {
+    "m": {
       "item": "minecraft:glow_berries"
     },
-    "b":
-    {
+    "b": {
       "item": "cyclic:biomass"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "cyclic:soil",
     "count": 1
   }

@@ -1,29 +1,24 @@
 {
   "type": "tconstruct:modifier",
   "inputs": [
-  {
-    "type": "forge:partial_nbt",
-    "items": [
-      "buddycards:buddycard_mob_test_set17"
-    ],
-    "nbt": "{foil:1b}"
-  }],
-  "tools":
-  {
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_mob_test_set17"],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
     "tag": "tconstruct:modifiable/unarmed"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "requirements":
-  {
+  "requirements": {
     "name": "tconstruct:unarmed",
     "level": 1,
     "error": "recipe.tconstruct.modifier.unarmed"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:killager",
     "level": 1
   },

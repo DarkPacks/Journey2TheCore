@@ -1,7 +1,6 @@
 {
   "type": "thermal:stirling_fuel",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "turkeydevutil:greed_oil_ore"
   },
   "energy": 24000

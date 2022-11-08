@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "IBI",
-          "CDC",
-          "BIB"
-        ],
+        "pattern": ["IBI", "CDC", "BIB"],
         "key": {
           "I": {
             "tag": "forge:ingots/gold"

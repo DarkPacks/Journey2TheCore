@@ -1,7 +1,5 @@
 {
-  "items": [
-    "compressium:gravel_1"
-  ],
+  "items": ["compressium:gravel_1"],
   "tooltips": [
     {
       "text": "9 Gravel",

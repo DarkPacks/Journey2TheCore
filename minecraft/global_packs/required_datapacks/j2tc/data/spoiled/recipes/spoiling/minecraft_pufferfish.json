@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "minecraft:pufferfish"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

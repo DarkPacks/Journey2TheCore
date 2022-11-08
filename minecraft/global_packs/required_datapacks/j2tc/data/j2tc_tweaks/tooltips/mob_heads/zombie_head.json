@@ -1,7 +1,5 @@
 {
-  "items": [
-    "minecraft:zombie_head"
-  ],
+  "items": ["minecraft:zombie_head"],
   "tooltips": [
     {
       "text": "Mob Head",

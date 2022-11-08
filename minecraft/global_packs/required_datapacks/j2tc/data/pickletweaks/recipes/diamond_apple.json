@@ -6,11 +6,7 @@
       "item": "pickletweaks:diamond_apple"
     }
   ],
-  "pattern": [
-    "DDD",
-    "DAD",
-    "DDD"
-  ],
+  "pattern": ["DDD", "DAD", "DDD"],
   "key": {
     "A": {
       "item": "minecraft:apple"

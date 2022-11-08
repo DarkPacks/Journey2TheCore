@@ -1,7 +1,6 @@
 {
   "type": "tconstruct:melting_fuel",
-  "fluid":
-  {
+  "fluid": {
     "name": "delivery:liquid_energy",
     "amount": 50
   },

@@ -23,9 +23,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "place_organic_compost"
-    ]
-  ]
+  "requirements": [["place_organic_compost"]]
 }

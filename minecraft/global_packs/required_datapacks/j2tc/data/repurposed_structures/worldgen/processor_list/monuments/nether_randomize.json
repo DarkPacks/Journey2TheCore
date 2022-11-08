@@ -76,10 +76,10 @@
       "forced_placement": true,
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:ancient_debris"
           }
         }
@@ -91,10 +91,10 @@
       "pillar_processor_list": "repurposed_structures:monuments/nether_randomize",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:light_blue_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:nether_bricks"
           }
         }

@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "thermal:nickel_ingot"
-  ]
+  "values": ["thermal:nickel_ingot"]
 }

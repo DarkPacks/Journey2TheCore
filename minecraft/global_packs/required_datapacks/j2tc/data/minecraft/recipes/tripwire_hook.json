@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "B",
-    "S",
-    "#"
-  ],
-  "key":
-  {
-    "#":
-    {
+  "pattern": ["B", "S", "#"],
+  "key": {
+    "#": {
       "tag": "minecraft:planks"
     },
-    "S":
-    {
+    "S": {
       "item": "minecraft:stick"
     },
-    "B":
-    {
+    "B": {
       "tag": "forge:bones"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "minecraft:tripwire_hook",
     "count": 2
   }

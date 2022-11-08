@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx"
-  ],
+  "pattern": ["xxx", "xxx"],
   "key": {
     "x": {
       "item": "buddycards:buddycard_pack_mob_set"

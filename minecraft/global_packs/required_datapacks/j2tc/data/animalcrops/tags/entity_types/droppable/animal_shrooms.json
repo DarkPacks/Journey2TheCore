@@ -1,7 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "minecraft:hoglin",
-    "minecraft:piglin"
-  ]
+  "values": ["minecraft:hoglin", "minecraft:piglin"]
 }

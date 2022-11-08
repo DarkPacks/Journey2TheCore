@@ -1,32 +1,25 @@
 {
   "type": "minecraft:simple_random_selector",
-  "config":
-  {
+  "config": {
     "features": [
       {
-        "feature":
-        {
+        "feature": {
           "type": "minecraft:coral_tree",
-          "config":
-          {}
+          "config": {}
         },
         "placement": []
       },
       {
-        "feature":
-        {
+        "feature": {
           "type": "minecraft:coral_claw",
-          "config":
-          {}
+          "config": {}
         },
         "placement": []
       },
       {
-        "feature":
-        {
+        "feature": {
           "type": "minecraft:coral_mushroom",
-          "config":
-          {}
+          "config": {}
         },
         "placement": []
       }

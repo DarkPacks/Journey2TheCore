@@ -1,7 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "minecraft:snowy_taiga",
-    "minecraft:grove"
-  ]
+  "values": ["minecraft:snowy_taiga", "minecraft:grove"]
 }

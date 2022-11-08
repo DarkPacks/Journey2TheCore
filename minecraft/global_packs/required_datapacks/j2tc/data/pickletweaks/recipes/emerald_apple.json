@@ -6,11 +6,7 @@
       "item": "pickletweaks:emerald_apple"
     }
   ],
-  "pattern": [
-    "EEE",
-    "EAE",
-    "EEE"
-  ],
+  "pattern": ["EEE", "EAE", "EEE"],
   "key": {
     "A": {
       "item": "minecraft:apple"

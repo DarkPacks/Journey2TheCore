@@ -1,16 +1,12 @@
 {
-  "display":
-  {
-    "icon":
-    {
+  "display": {
+    "icon": {
       "item": "minecraft:wither_skeleton_skull"
     },
-    "title":
-    {
+    "title": {
       "translate": "Yup1"
     },
-    "description":
-    {
+    "description": {
       "translate": "Yes"
     },
     "frame": "challenge",
@@ -19,10 +15,8 @@
     "hidden": true,
     "background": "minecraft:textures/block/purple_concrete.png"
   },
-  "criteria":
-  {
-    "always":
-    {
+  "criteria": {
+    "always": {
       "trigger": "minecraft:impossible"
     }
   }

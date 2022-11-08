@@ -1,15 +1,12 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "j2tc_tweaks:limbo_layer_main_block",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "rechiseled:dirt_muddy"
         }
       }

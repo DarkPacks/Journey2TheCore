@@ -136,7 +136,7 @@
           },
           "input_predicate": {
             "block": "minecraft:prismarine_slab",
-            "probability": 0.50,
+            "probability": 0.5,
             "predicate_type": "minecraft:random_block_match"
           },
           "location_predicate": {
@@ -311,8 +311,8 @@
         {
           "output_state": {
             "Properties": {
-                "type": "top",
-                "waterlogged": "true"
+              "type": "top",
+              "waterlogged": "true"
             },
             "Name": "minecraft:prismarine_slab"
           },

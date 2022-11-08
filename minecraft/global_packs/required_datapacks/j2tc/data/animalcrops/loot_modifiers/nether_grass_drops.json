@@ -30,10 +30,12 @@
             "chance": 0.02
           }
         ],
-        "functions": [{
-          "function": "animalcrops:random_animal",
-          "type": "shrooms"
-        }]
+        "functions": [
+          {
+            "function": "animalcrops:random_animal",
+            "type": "shrooms"
+          }
+        ]
       },
       {
         "type": "minecraft:item",
@@ -48,10 +50,12 @@
             "chance": 0.02
           }
         ],
-        "functions": [{
-          "function": "animalcrops:random_animal",
-          "type": "magnemone"
-        }]
+        "functions": [
+          {
+            "function": "animalcrops:random_animal",
+            "type": "magnemone"
+          }
+        ]
       }
     ]
   }

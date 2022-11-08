@@ -10,32 +10,22 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:trapezoid",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 0
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 688
         }
       }
     },
     {
       "type": "minecraft:block_predicate_filter",
-      "predicate":
-      {
+      "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [
-          0,
-          -1,
-          0
-        ],
-        "blocks": [
-          "minecraft:dirt"
-        ]
+        "offset": [0, -1, 0],
+        "blocks": ["minecraft:dirt"]
       }
     }
   ]

@@ -1,14 +1,10 @@
 {
   "type": "lychee:item_inside",
-  "item_in":
-  {
+  "item_in": {
     "item": "minecraft:bucket"
   },
-  "block_in":
-  {
-    "blocks": [
-      "minecraft:water"
-    ]
+  "block_in": {
+    "blocks": ["minecraft:water"]
   },
   "post": [
     {

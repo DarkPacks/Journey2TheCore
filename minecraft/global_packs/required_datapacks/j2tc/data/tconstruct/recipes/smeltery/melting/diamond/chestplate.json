@@ -1,11 +1,9 @@
 {
   "type": "tconstruct:damagable_melting",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "minecraft:diamond_chestplate"
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:molten_diamond",
     "amount": 800
   },

@@ -6,10 +6,10 @@
       "pillar_processor_list": "repurposed_structures:pyramids/badlands",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:red_sandstone"
           }
         }

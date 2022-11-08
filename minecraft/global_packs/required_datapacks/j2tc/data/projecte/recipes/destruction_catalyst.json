@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "NMN",
-    "MFM",
-    "NMN"
-  ],
-  "key":
-  {
-    "F":
-    {
+  "pattern": ["NMN", "MFM", "NMN"],
+  "key": {
+    "F": {
       "item": "tconstruct:flint_and_brick"
     },
-    "M":
-    {
+    "M": {
       "item": "projecte:mobius_fuel"
     },
-    "N":
-    {
+    "N": {
       "item": "projecte:nova_catalyst"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:destruction_catalyst"
   }
 }

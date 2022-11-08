@@ -1,8 +1,10 @@
 {
-	"conditions": [{
-		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
-	}],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
   "weight": 100,
   "quality": 1,
   "stack": {
@@ -11,9 +13,7 @@
     "nbt": "{Damage:0}"
   },
   "type": "HEAVY_WEAPON",
-  "dimensions": [
-    "twilightforest:twilight_forest"
-  ],
+  "dimensions": ["twilightforest:twilight_forest"],
   "min_rarity": "uncommon",
   "max_rarity": "epic"
 }

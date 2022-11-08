@@ -5,14 +5,9 @@
       "weight": 1
     }
   ],
-  "placement":
-  {
+  "placement": {
     "salt": 642378,
-    "locate_offset": [
-      9,
-      0,
-      9
-    ],
+    "locate_offset": [9, 0, 9],
     "spacing": 1,
     "separation": 0,
     "type": "minecraft:random_spread"

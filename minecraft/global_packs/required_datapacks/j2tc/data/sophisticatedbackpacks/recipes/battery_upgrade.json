@@ -6,28 +6,19 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "GRG",
-    "RBR",
-    "GRG"
-  ],
-  "key":
-  {
-    "R":
-    {
+  "pattern": ["GRG", "RBR", "GRG"],
+  "key": {
+    "R": {
       "tag": "forge:storage_blocks/redstone"
     },
-    "G":
-    {
+    "G": {
       "tag": "forge:ingots/copper"
     },
-    "B":
-    {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:battery_upgrade"
   }
 }

@@ -7,13 +7,7 @@
       "reticle": 12,
       "stride": 0,
       "elevation": 0,
-      "mask": [
-        "OOOOO",
-        "OOOOO",
-        "OOXOO",
-        "OOXOO",
-        "OOOOO"
-      ]
+      "mask": ["OOOOO", "OOOOO", "OOXOO", "OOXOO", "OOOOO"]
     },
     {
       "name": "Farms",
@@ -22,13 +16,7 @@
       "reticle": 12,
       "stride": 0,
       "elevation": 0,
-      "mask": [
-        "OXXXO",
-        "OXXXO",
-        "OXXXO",
-        "OXXXO",
-        "OOOOO"
-      ]
+      "mask": ["OXXXO", "OXXXO", "OXXXO", "OXXXO", "OOOOO"]
     },
     {
       "name": "1 Block",
@@ -37,13 +25,7 @@
       "reticle": 12,
       "stride": 0,
       "elevation": 0,
-      "mask": [
-        "OOOOO",
-        "OOOOO",
-        "OOXOO",
-        "OOOOO",
-        "OOOOO"
-      ]
+      "mask": ["OOOOO", "OOOOO", "OOXOO", "OOOOO", "OOOOO"]
     }
   ]
 }

@@ -6,28 +6,19 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "SIS",
-    "ILI",
-    "SIS"
-  ],
-  "key":
-  {
-    "L":
-    {
+  "pattern": ["SIS", "ILI", "SIS"],
+  "key": {
+    "L": {
       "tag": "forge:leather"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "S":
-    {
+    "S": {
       "tag": "forge:string"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:upgrade_base"
   }
 }

@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "pcp",
-    "xdx",
-    "pcp"
-  ],
-  "key":
-  {
-    "c":
-    {
+  "pattern": ["pcp", "xdx", "pcp"],
+  "key": {
+    "c": {
       "tag": "forge:workbenches"
     },
-    "d":
-    {
+    "d": {
       "item": "cyclic:gem_amber"
     },
-    "x":
-    {
+    "x": {
       "item": "minecraft:sticky_piston"
     },
-    "p":
-    {
+    "p": {
       "item": "minecraft:amethyst_block"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "cyclic:crafter",
     "count": 1
   }

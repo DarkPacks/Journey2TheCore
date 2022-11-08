@@ -1,13 +1,10 @@
 {
   "feature": "minecraft:glow_lichen",
-  "placement":
-  [
+  "placement": [
     {
-      "count":
-      {
+      "count": {
         "type": "minecraft:uniform",
-        "value":
-        {
+        "value": {
           "min_inclusive": 104,
           "max_inclusive": 256
         }
@@ -21,14 +18,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": 400
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 688
         },
         "type": "minecraft:uniform"

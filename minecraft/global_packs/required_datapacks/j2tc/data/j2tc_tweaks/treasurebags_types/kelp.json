@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Kelp Me!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/kelp",

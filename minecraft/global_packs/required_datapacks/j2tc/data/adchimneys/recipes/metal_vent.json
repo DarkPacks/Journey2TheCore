@@ -5,11 +5,7 @@
       "item": "adchimneys:metal_chimney"
     }
   },
-  "pattern": [
-    "H H",
-    "   ",
-    "H H"
-  ],
+  "pattern": ["H H", "   ", "H H"],
   "result": {
     "count": 4,
     "item": "adchimneys:metal_vent"

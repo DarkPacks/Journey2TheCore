@@ -9,16 +9,13 @@
   ],
   "amount_per_item": 1,
   "needed_per_level": 1,
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/boots"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:feather_falling",
     "level": 1
   },

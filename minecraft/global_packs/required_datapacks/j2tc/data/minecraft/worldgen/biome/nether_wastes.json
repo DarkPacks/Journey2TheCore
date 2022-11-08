@@ -1,20 +1,16 @@
 {
-  "effects":
-  {
-    "mood_sound":
-    {
+  "effects": {
+    "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.nether_wastes.additions",
       "tick_chance": 0.0111
     },
-    "music":
-    {
+    "music": {
       "sound": "minecraft:music.nether.nether_wastes",
       "min_delay": 12000,
       "max_delay": 24000,
@@ -26,8 +22,7 @@
     "water_color": 8914952,
     "water_fog_color": 3866888
   },
-  "carvers":
-  {
+  "carvers": {
     "air": "minecraft:nether_cave"
   },
   "features": [
@@ -62,8 +57,7 @@
       "minecraft:red_mushroom_normal"
     ]
   ],
-  "spawners":
-  {
+  "spawners": {
     "monster": [
       {
         "type": "minecraft:ghast",
@@ -111,8 +105,7 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs":
-  {},
+  "spawn_costs": {},
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,

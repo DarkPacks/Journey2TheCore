@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GSG",
-    "GAG",
-    "GNG"
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["GSG", "GAG", "GNG"],
+  "key": {
+    "G": {
       "item": "minecraft:gold_block"
     },
-    "A":
-    {
+    "A": {
       "item": "minecraft:apple"
     },
-    "N":
-    {
+    "N": {
       "item": "turkeydevutil:unstable_ingot"
     },
-    "S":
-    {
+    "S": {
       "item": "minecraft:nether_star"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "minecraft:enchanted_golden_apple"
   }
 }

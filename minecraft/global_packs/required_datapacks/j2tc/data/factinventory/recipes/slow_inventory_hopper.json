@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "M",
-    "H",
-    "M"
-  ],
+  "pattern": ["M", "H", "M"],
   "key": {
     "M": {
       "item": "factinventory:interaction_module"

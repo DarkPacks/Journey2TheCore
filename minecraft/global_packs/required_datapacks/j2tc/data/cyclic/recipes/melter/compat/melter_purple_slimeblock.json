@@ -14,13 +14,11 @@
       "item": "tconstruct:ender_slime"
     }
   ],
-  "energy":
-  {
+  "energy": {
     "rfpertick": 100,
     "ticks": 160
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:ender_slime",
     "count": 4500
   }

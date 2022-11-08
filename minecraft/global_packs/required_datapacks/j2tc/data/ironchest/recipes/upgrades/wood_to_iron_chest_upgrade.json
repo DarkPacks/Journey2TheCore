@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "MMM",
-    "MPM",
-    "MMM"
-  ],
+  "pattern": ["MMM", "MPM", "MMM"],
   "key": {
     "M": {
       "tag": "forge:ingots/iron"

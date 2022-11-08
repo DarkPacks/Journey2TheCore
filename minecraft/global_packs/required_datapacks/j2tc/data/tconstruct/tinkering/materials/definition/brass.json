@@ -1,6 +1,5 @@
 {
-  "condition":
-  {
+  "condition": {
     "type": "forge:false"
   }
 }

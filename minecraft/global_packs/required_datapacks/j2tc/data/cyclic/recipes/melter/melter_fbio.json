@@ -1,15 +1,17 @@
 {
   "type": "cyclic:melter",
-  "ingredients": [ {
+  "ingredients": [
+    {
       "item": "cyclic:biomass"
+    },
+    {
+      "item": "cyclic:biomass"
+    }
+  ],
+  "energy": {
+    "rfpertick": 40,
+    "ticks": 60
   },
-  {
-      "item": "cyclic:biomass"
-  }],
-	"energy": {
-		"rfpertick": 40,
-		"ticks": 60
-	},
   "result": {
     "fluid": "cyclic:biomass",
     "count": 1000

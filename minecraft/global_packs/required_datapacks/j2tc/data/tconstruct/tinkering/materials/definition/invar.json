@@ -1,14 +1,12 @@
 {
-  "condition":
-  {
+  "condition": {
     "values": [
       {
         "prop": "force_integration_materials",
         "type": "tconstruct:config"
       },
       {
-        "value":
-        {
+        "value": {
           "tag": "forge:ingots/invar",
           "type": "forge:tag_empty"
         },

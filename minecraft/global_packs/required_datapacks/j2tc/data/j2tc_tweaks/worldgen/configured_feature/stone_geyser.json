@@ -1,19 +1,13 @@
 {
-  "config":
-  {
+  "config": {
     "tries": 2,
     "xz_spread": 0,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
-        "config":
-        {
-          "to_place":
-          {
-            "state":
-            {
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "state": {
               "Name": "rocks:geyser"
             },
             "type": "minecraft:simple_state_provider"
@@ -23,11 +17,8 @@
       },
       "placement": [
         {
-          "predicate":
-          {
-            "blocks": [
-              "minecraft:air"
-            ],
+          "predicate": {
+            "blocks": ["minecraft:air"],
             "type": "minecraft:matching_blocks"
           },
           "type": "minecraft:block_predicate_filter"

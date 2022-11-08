@@ -5,11 +5,7 @@
       "item": "minecraft:iron_ingot"
     }
   },
-  "pattern": [
-    "I I",
-    "I I",
-    "I I"
-  ],
+  "pattern": ["I I", "I I", "I I"],
   "result": {
     "count": 8,
     "item": "adchimneys:pipe"

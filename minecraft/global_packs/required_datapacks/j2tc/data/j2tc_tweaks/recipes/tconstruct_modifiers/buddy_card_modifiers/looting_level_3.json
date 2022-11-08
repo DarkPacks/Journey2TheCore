@@ -3,28 +3,22 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base10"
-      ],
+      "items": ["buddycards:buddycard_base10"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/unarmed"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "requirements":
-  {
+  "requirements": {
     "name": "tconstruct:looting",
     "level": 2,
     "error": "recipe.tconstruct.modifier.looting.level_3"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:looting",
     "level": 1
   },

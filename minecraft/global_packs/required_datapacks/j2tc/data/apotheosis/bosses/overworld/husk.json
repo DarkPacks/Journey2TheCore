@@ -2,30 +2,18 @@
   "entity": "minecraft:husk",
   "weight": 20,
   "quality": 2,
-  "size":
-  {
+  "size": {
     "width": 1,
     "height": 2
   },
-  "valid_gear_sets": [
-    "apotheosis:overworld/leather"
-  ],
-  "dimensions": [
-    "minecraft:overworld"
-  ],
+  "valid_gear_sets": ["apotheosis:overworld/leather"],
+  "dimensions": ["minecraft:overworld"],
   "min_rarity": "uncommon",
   "max_rarity": "rare",
-  "stats":
-  {
-    "uncommon":
-    {
+  "stats": {
+    "uncommon": {
       "enchant_chance": 0.25,
-      "enchantment_levels": [
-        12,
-        8,
-        20,
-        14
-      ],
+      "enchantment_levels": [12, 8, 20, 14],
       "effects": [
         {
           "effect": "minecraft:fire_resistance",
@@ -36,8 +24,7 @@
         {
           "attribute": "minecraft:generic.max_health",
           "operation": "ADDITION",
-          "value":
-          {
+          "value": {
             "min": 20,
             "steps": 20,
             "step": 2
@@ -46,8 +33,7 @@
         {
           "attribute": "minecraft:generic.movement_speed",
           "operation": "MULTIPLY_BASE",
-          "value":
-          {
+          "value": {
             "min": 0.05,
             "steps": 5,
             "step": 0.01
@@ -56,8 +42,7 @@
         {
           "attribute": "minecraft:generic.attack_damage",
           "operation": "MULTIPLY_BASE",
-          "value":
-          {
+          "value": {
             "min": 0.2,
             "steps": 20,
             "step": 0.01
@@ -70,15 +55,9 @@
         }
       ]
     },
-    "rare":
-    {
+    "rare": {
       "enchant_chance": 0.35,
-      "enchantment_levels": [
-        15,
-        10,
-        23,
-        17
-      ],
+      "enchantment_levels": [15, 10, 23, 17],
       "effects": [
         {
           "effect": "minecraft:fire_resistance",
@@ -89,8 +68,7 @@
         {
           "attribute": "minecraft:generic.max_health",
           "operation": "ADDITION",
-          "value":
-          {
+          "value": {
             "min": 40,
             "steps": 30,
             "step": 2
@@ -99,9 +77,8 @@
         {
           "attribute": "minecraft:generic.movement_speed",
           "operation": "MULTIPLY_BASE",
-          "value":
-          {
-            "min": 0.10,
+          "value": {
+            "min": 0.1,
             "steps": 8,
             "step": 0.01
           }
@@ -109,8 +86,7 @@
         {
           "attribute": "minecraft:generic.attack_damage",
           "operation": "MULTIPLY_BASE",
-          "value":
-          {
+          "value": {
             "min": 0.25,
             "steps": 25,
             "step": 0.01

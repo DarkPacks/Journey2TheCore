@@ -1,6 +1,3 @@
 {
-  "values": [
-    "minecraft:raw_gold_block",
-    "minecraft:stone"
-  ]
+  "values": ["minecraft:raw_gold_block", "minecraft:stone"]
 }

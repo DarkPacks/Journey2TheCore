@@ -1,7 +1,5 @@
 {
-  "items": [
-    "minecraft:wither_skeleton_skull"
-  ],
+  "items": ["minecraft:wither_skeleton_skull"],
   "tooltips": [
     {
       "text": "Mob Head",

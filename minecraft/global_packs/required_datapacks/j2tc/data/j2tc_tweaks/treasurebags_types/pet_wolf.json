@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Enjoy your new pet wolf!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/pet_wolf",

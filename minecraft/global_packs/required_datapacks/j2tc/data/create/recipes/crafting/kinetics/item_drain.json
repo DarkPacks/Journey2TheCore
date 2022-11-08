@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "P",
-    "S"
-  ],
+  "pattern": ["P", "S"],
   "key": {
     "P": {
       "item": "cyclic:copper_bars"

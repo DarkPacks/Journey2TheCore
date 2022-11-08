@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Village Location Map"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/treasure_map",

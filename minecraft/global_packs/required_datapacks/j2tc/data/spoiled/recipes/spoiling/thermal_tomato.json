@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "thermal:tomato"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

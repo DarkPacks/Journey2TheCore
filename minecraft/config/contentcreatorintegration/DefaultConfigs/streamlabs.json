@@ -74,10 +74,7 @@
           }
         ]
       },
-      "queue": [
-        "host+subscription+bits",
-        "follow"
-      ],
+      "queue": ["host+subscription+bits", "follow"],
       "for": "twitch_account"
     },
     {
@@ -94,10 +91,7 @@
           }
         ]
       },
-      "ignoredTypes": [
-        "streamlabels",
-        "streamlabels.underlying"
-      ]
+      "ignoredTypes": ["streamlabels", "streamlabels.underlying"]
     }
   ],
   "init": [],

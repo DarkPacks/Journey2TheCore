@@ -1,63 +1,46 @@
 {
   "weight": 100,
-  "stages":
-  [
-    "quest_1"
-  ],
-  "mainhands":
-  [
+  "stages": ["quest_1"],
+  "mainhands": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:bow"
       }
     }
   ],
-  "offhands":
-  [],
-  "boots":
-  [
+  "offhands": [],
+  "boots": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_boots"
       }
     }
   ],
-  "leggings":
-  [
+  "leggings": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_leggings"
       }
     }
   ],
-  "chestplates":
-  [
+  "chestplates": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_chestplate"
       }
     }
   ],
-  "helmets":
-  [
+  "helmets": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_helmet"
       }
     }
   ],
-  "tags":
-  [
-    "overworld_bow"
-  ]
+  "tags": ["overworld_bow"]
 }

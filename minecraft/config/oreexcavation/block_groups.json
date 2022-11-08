@@ -1,46 +1,22 @@
 {
   "blockGroups": [
-    [
-      "tag:minecraft:leaves"
-    ],
-    [
-      "tag:minecraft:dirt_like"
-    ],
-    [
-      "tag:minecraft:logs"
-    ],
-    [
-      "tag:minecraft:flower_pots"
-    ],
-    [
-      "minecraft:stone",
-      "minecraft:infested_stone"
-    ],
-    [
-      "minecraft:cobblestone",
-      "minecraft:infested_cobblestone"
-    ],
-    [
-      "minecraft:stone_bricks",
-      "minecraft:infested_stone_bricks"
-    ],
+    ["tag:minecraft:leaves"],
+    ["tag:minecraft:dirt_like"],
+    ["tag:minecraft:logs"],
+    ["tag:minecraft:flower_pots"],
+    ["minecraft:stone", "minecraft:infested_stone"],
+    ["minecraft:cobblestone", "minecraft:infested_cobblestone"],
+    ["minecraft:stone_bricks", "minecraft:infested_stone_bricks"],
     [
       "minecraft:cracked_stone_bricks",
       "minecraft:infested_cracked_stone_bricks"
     ],
-    [
-      "minecraft:mossy_stone_bricks",
-      "minecraft:infested_mossy_stone_bricks"
-    ],
+    ["minecraft:mossy_stone_bricks", "minecraft:infested_mossy_stone_bricks"],
     [
       "minecraft:chiseled_stone_bricks",
       "minecraft:infested_chiseled_stone_bricks"
     ],
-    [
-      "minecraft:rooted_dirt",
-      "cobblestoney:clay_silt",
-      "rechiseled:dirt_muddy"
-    ]
+    ["minecraft:rooted_dirt", "cobblestoney:clay_silt", "rechiseled:dirt_muddy"]
   ],
   "strictSubtypes": [
     "tag:minecraft:crops",
@@ -51,8 +27,7 @@
     "minecraft:melon_stem",
     "minecraft:pumpkin_stem"
   ],
-  "gamestages":
-  {
+  "gamestages": {
     "examplemod:example_block1": "example_stage1",
     "examplemod:example_block2": "example_stage2"
   }

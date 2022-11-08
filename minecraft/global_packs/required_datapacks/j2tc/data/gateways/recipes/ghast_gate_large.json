@@ -1,16 +1,12 @@
 {
   "type": "gateways:gate_recipe",
   "group": "gateways",
-  "pattern": [
-    "###",
-    "#A#",
-    "###"
-  ],
+  "pattern": ["###", "#A#", "###"],
   "key": {
     "#": {
       "item": "minecraft:ghast_tear"
     },
-	"A": {
+    "A": {
       "item": "minecraft:nether_star"
     }
   },

@@ -1,6 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "repurposed_structures:fortress_jungle"
-  ]
+  "values": ["repurposed_structures:fortress_jungle"]
 }

@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:auto_blasting_upgrade"
-    ]
+    "recipes": ["sophisticatedbackpacks:auto_blasting_upgrade"]
   },
   "criteria": {
     "has_blasting_upgrade": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:blasting_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:blasting_upgrade"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_blasting_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_blasting_upgrade", "has_the_recipe"]]
 }

@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "minecraft:gold_nugget"
-  ]
+  "values": ["minecraft:gold_nugget"]
 }

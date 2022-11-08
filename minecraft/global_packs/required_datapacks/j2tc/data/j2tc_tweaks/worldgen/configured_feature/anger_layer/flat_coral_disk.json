@@ -1,16 +1,12 @@
 {
   "type": "minecraft:disk",
-  "config":
-  {
-    "state":
-    {
+  "config": {
+    "state": {
       "Name": "minecraft:fire_coral_block"
     },
-    "radius":
-    {
+    "radius": {
       "type": "minecraft:uniform",
-      "value":
-      {
+      "value": {
         "min_inclusive": 2,
         "max_inclusive": 4
       }

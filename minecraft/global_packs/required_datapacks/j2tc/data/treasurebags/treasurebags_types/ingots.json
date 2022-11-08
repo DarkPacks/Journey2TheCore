@@ -8,8 +8,5 @@
   "bagColor": "#FAEBD7",
   "bagOverlayColor": "#808000",
   "bagStringColor": "#404040",
-  "dropsFromGroups": [
-    "boss",
-    "hostile"
-  ]
+  "dropsFromGroups": ["boss", "hostile"]
 }

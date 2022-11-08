@@ -1,6 +1,10 @@
 {
   "config": {
-    "arch_blocks": ["minecraft:warped_hyphae", "minecraft:shroomlight", "minecraft:warped_planks"],
+    "arch_blocks": [
+      "minecraft:warped_hyphae",
+      "minecraft:shroomlight",
+      "minecraft:warped_planks"
+    ],
     "pillar_state": {
       "Properties": {
         "axis": "y"

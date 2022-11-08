@@ -1,16 +1,17 @@
 {
   "type": "cyclic:melter",
-  "ingredients":[ {
+  "ingredients": [
+    {
       "tag": "forge:stone"
-  },
-   {
+    },
+    {
       "tag": "forge:obsidian"
-		}
-	],
-	"energy": {
-		"rfpertick": 100,
-		"ticks": 160
-	},
+    }
+  ],
+  "energy": {
+    "rfpertick": 100,
+    "ticks": 160
+  },
   "result": {
     "fluid": "minecraft:lava",
     "count": 1000

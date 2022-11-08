@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "EIE",
-    "IPI",
-    "R L"
-  ],
+  "pattern": ["EIE", "IPI", "R L"],
   "key": {
     "E": {
       "tag": "forge:ender_pearls"

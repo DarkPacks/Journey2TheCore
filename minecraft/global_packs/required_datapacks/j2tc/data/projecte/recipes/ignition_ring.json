@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "FMF",
-    "DID",
-    "FMF"
-  ],
-  "key":
-  {
-    "D":
-    {
+  "pattern": ["FMF", "DID", "FMF"],
+  "key": {
+    "D": {
       "item": "projecte:dark_matter"
     },
-    "F":
-    {
+    "F": {
       "item": "tconstruct:flint_and_brick"
     },
-    "I":
-    {
+    "I": {
       "item": "projecte:iron_band"
     },
-    "M":
-    {
+    "M": {
       "item": "projecte:mobius_fuel"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:ignition_ring"
   }
 }

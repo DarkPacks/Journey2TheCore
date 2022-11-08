@@ -295,8 +295,8 @@
           "weight": 1,
           "functions": [
             {
-              "function":"set_nbt",
-              "tag":"{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
             }
           ]
         },
@@ -310,8 +310,8 @@
           "weight": 8,
           "functions": [
             {
-              "function":"set_nbt",
-              "tag":"{BlockEntityTag:{Patterns:[{Pattern:bri,Color:0},{Pattern:bri,Color:3},{Pattern:ss,Color:3},{Pattern:dls,Color:9},{Pattern:dls,Color:0},{Pattern:gru,Color:11},{Pattern:bt,Color:15},{Pattern:bt,Color:15},{Pattern:bt,Color:11},{Pattern:bts,Color:15},{Pattern:bts,Color:11},{Pattern:gru,Color:15}]}}"
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Pattern:bri,Color:0},{Pattern:bri,Color:3},{Pattern:ss,Color:3},{Pattern:dls,Color:9},{Pattern:dls,Color:0},{Pattern:gru,Color:11},{Pattern:bt,Color:15},{Pattern:bt,Color:15},{Pattern:bt,Color:11},{Pattern:bts,Color:15},{Pattern:bts,Color:11},{Pattern:gru,Color:15}]}}"
             }
           ]
         },

@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:fried_egg"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

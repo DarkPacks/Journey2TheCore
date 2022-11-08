@@ -6,28 +6,19 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "GPG",
-    "PBP",
-    "GPG"
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["GPG", "PBP", "GPG"],
+  "key": {
+    "G": {
       "tag": "forge:glass"
     },
-    "P":
-    {
+    "P": {
       "item": "adchimneys:stone_pump"
     },
-    "B":
-    {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:pump_upgrade"
   }
 }

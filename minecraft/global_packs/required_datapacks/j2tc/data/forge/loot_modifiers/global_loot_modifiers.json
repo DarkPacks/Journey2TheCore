@@ -1,7 +1,6 @@
 {
   "replace": true,
-  "entries":
-  [
+  "entries": [
     "repurposed_structures:import_modded_loot",
     "nameless_trinkets:dungeon_loot_modifier",
     "thermal:seeds_from_grass",

@@ -13,11 +13,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "MMM",
-          "MSM",
-          "MMM"
-        ],
+        "pattern": ["MMM", "MSM", "MMM"],
         "key": {
           "M": {
             "tag": "forge:ingots/copper"

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " D ",
-    "DBD",
-    " D "
-  ],
+  "pattern": [" D ", "DBD", " D "],
   "key": {
     "D": {
       "tag": "minecraft:dirt"

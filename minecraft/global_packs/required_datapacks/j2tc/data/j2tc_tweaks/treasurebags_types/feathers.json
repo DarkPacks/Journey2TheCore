@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Are You Chicken?!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/feathers",

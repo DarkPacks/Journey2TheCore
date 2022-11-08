@@ -8,13 +8,11 @@
       "item": "minecraft:magma_cream"
     }
   ],
-  "energy":
-  {
+  "energy": {
     "rfpertick": 80,
     "ticks": 60
   },
-  "result":
-  {
+  "result": {
     "fluid": "cyclic:magma",
     "count": 200
   }

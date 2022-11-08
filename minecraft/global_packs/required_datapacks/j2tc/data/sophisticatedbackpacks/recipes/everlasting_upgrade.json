@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "CSC",
-    "SBS",
-    "CSC"
-  ],
+  "pattern": ["CSC", "SBS", "CSC"],
   "key": {
     "B": {
       "item": "sophisticatedbackpacks:upgrade_base"

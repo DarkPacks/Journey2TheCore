@@ -1,10 +1,8 @@
 {
   "condition": "minecraft:entity_properties",
   "entity": "this",
-  "predicate":
-  {
-    "distance":
-    {
+  "predicate": {
+    "distance": {
       "y": 0,
       "absolute": 10
     }

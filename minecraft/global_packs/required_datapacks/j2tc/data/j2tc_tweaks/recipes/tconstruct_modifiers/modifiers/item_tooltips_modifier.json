@@ -20,12 +20,10 @@
       "tag": "tconstruct:modifiable/held"
     }
   ],
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:the_one_probe",
     "level": 1
   },

@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "SSS",
-          "PDP",
-          "SIS"
-        ],
+        "pattern": ["SSS", "PDP", "SIS"],
         "key": {
           "S": {
             "item": "minecraft:stone"

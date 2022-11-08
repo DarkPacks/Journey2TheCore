@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "alexsmobs:cosmic_cod"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

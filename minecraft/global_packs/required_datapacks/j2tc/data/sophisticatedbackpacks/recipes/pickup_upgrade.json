@@ -6,32 +6,22 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    " P ",
-    "SBS",
-    "RRR"
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": [" P ", "SBS", "RRR"],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "R":
-    {
+    "R": {
       "item": "minecraft:clay_ball"
     },
-    "S":
-    {
+    "S": {
       "tag": "forge:string"
     },
-    "P":
-    {
+    "P": {
       "tag": "forge:slimeballs"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:pickup_upgrade"
   }
 }

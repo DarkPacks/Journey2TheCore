@@ -1,36 +1,36 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		},
-		{
-			"tag": "forge:shards/glass"
-		}
-	],
-	"result": {
-		"item": "minecraft:glass",
-		"count": 1
-	}
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    },
+    {
+      "tag": "forge:shards/glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glass",
+    "count": 1
+  }
 }

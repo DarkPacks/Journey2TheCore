@@ -2,10 +2,8 @@
   "redirect": [
     {
       "id": "tconstruct:bronze",
-      "condition":
-      {
-        "value":
-        {
+      "condition": {
+        "value": {
           "tag": "forge:ingots/bronze",
           "type": "forge:tag_empty"
         },

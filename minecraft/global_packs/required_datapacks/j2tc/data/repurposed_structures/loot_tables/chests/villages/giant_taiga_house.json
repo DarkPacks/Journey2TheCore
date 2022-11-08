@@ -127,8 +127,8 @@
           "weight": 1,
           "functions": [
             {
-              "function":"set_nbt",
-              "tag":"{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
             }
           ]
         },
@@ -142,8 +142,8 @@
           "weight": 4,
           "functions": [
             {
-              "function":"set_nbt",
-              "tag":"{BlockEntityTag:{Patterns:[{Pattern:gra,Color:12},{Pattern:gru,Color:7},{Pattern:bri,Color:15},{Pattern:bri,Color:7},{Pattern:tts,Color:15},{Pattern:tts,Color:8},{Pattern:bts,Color:15},{Pattern:bts,Color:8},{Pattern:mc,Color:7},{Pattern:flo,Color:15},{Pattern:flo,Color:15},{Pattern:flo,Color:8}]}}"
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Pattern:gra,Color:12},{Pattern:gru,Color:7},{Pattern:bri,Color:15},{Pattern:bri,Color:7},{Pattern:tts,Color:15},{Pattern:tts,Color:8},{Pattern:bts,Color:15},{Pattern:bts,Color:8},{Pattern:mc,Color:7},{Pattern:flo,Color:15},{Pattern:flo,Color:15},{Pattern:flo,Color:8}]}}"
             }
           ]
         },
@@ -167,7 +167,7 @@
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.0,
-                "max": 0.60
+                "max": 0.6
               }
             },
             {

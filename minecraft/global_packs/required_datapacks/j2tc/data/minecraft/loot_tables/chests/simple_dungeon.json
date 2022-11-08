@@ -1,16 +1,13 @@
 {
   "type": "minecraft:chest",
-  "pools":
-  [
+  "pools": [
     {
-      "rolls":
-      {
+      "rolls": {
         "min": 1,
         "max": 3,
         "type": "minecraft:uniform"
       },
-      "entries":
-      [
+      "entries": [
         {
           "name": "turkeydevutil:lanyard",
           "type": "minecraft:item",
@@ -50,12 +47,10 @@
           "name": "minecraft:wheat",
           "type": "minecraft:item",
           "weight": 20,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 4,
                 "type": "minecraft:uniform"
@@ -67,12 +62,10 @@
           "name": "minecraft:torch",
           "type": "minecraft:item",
           "weight": 15,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 2,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -84,12 +77,10 @@
           "name": "minecraft:melon_seeds",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 4,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -101,12 +92,10 @@
           "name": "minecraft:melon",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -118,12 +107,10 @@
           "name": "minecraft:potato",
           "type": "minecraft:item",
           "weight": 5,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -135,12 +122,10 @@
           "name": "minecraft:carrot",
           "type": "minecraft:item",
           "weight": 5,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -152,12 +137,10 @@
           "name": "minecraft:cocoa_beans",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 2,
                 "max": 4,
                 "type": "minecraft:uniform"
@@ -169,18 +152,15 @@
     },
     {
       "rolls": 3,
-      "entries":
-      [
+      "entries": [
         {
           "name": "minecraft:bone",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -192,12 +172,10 @@
           "name": "minecraft:gunpowder",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 4,
                 "type": "minecraft:uniform"
@@ -209,12 +187,10 @@
           "name": "minecraft:bamboo",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -226,12 +202,10 @@
           "name": "minecraft:rotten_flesh",
           "type": "minecraft:item",
           "weight": 10,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 8,
                 "type": "minecraft:uniform"
@@ -243,12 +217,10 @@
           "name": "minecraft:poisonous_potato",
           "type": "minecraft:item",
           "weight": 5,
-          "functions":
-          [
+          "functions": [
             {
               "function": "minecraft:set_count",
-              "count":
-              {
+              "count": {
                 "min": 1,
                 "max": 3,
                 "type": "minecraft:uniform"
@@ -261,14 +233,12 @@
     {
       "rolls": 0,
       "bonus_rolls": 1,
-      "entries":
-      [
+      "entries": [
         {
           "name": "minecraft:pink_banner",
           "type": "minecraft:item",
           "weight": 20,
-          "functions":
-          [
+          "functions": [
             {
               "function": "set_nbt",
               "tag": "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
@@ -283,8 +253,7 @@
           "name": "minecraft:black_banner",
           "type": "minecraft:item",
           "weight": 92,
-          "functions":
-          [
+          "functions": [
             {
               "function": "set_nbt",
               "tag": "{BlockEntityTag:{Patterns:[{Pattern:mr,Color:5},{Pattern:flo,Color:5},{Pattern:flo,Color:15},{Pattern:tts,Color:15},{Pattern:tts,Color:15},{Pattern:tts,Color:5},{Pattern:bts,Color:15},{Pattern:bts,Color:15},{Pattern:bts,Color:5},{Pattern:cbo,Color:7},{Pattern:bo,Color:5},{Pattern:cbo,Color:15}]}}"
@@ -301,8 +270,7 @@
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "entries":
-      [
+      "entries": [
         {
           "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/artifact_bag",
@@ -317,8 +285,7 @@
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "entries":
-      [
+      "entries": [
         {
           "name": "minecraft:music_disc_13",
           "type": "minecraft:item",

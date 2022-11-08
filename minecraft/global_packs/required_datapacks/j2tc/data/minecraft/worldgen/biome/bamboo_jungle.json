@@ -1,25 +1,21 @@
 {
-  "effects":
-  {
+  "effects": {
     "sky_color": 591623,
     "water_color": 8914952,
     "water_fog_color": 3866888,
     "fog_color": 591623,
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },
-    "mood_sound":
-    {
+    "mood_sound": {
       "tick_delay": 3000,
       "sound": "minecraft:ambient.basalt_deltas.mood",
       "block_search_extent": 8,
       "offset": 2
     }
   },
-  "features":
-  [
+  "features": [
     [
       "j2tc_tweaks:water_layer",
       "j2tc_tweaks:water_layer1",
@@ -34,14 +30,8 @@
       "j2tc_tweaks:greed_layer/lake_liquid_gold",
       "j2tc_tweaks:greed_layer/lake_crude_oil"
     ],
-    [
-      "minecraft:amethyst_geode",
-      "j2tc_tweaks:cave_decoration/large_dripstone"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:amethyst_geode", "j2tc_tweaks:cave_decoration/large_dripstone"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [
       "j2tc_tweaks:anger_layer/anger_bottom_layer",
@@ -193,21 +183,16 @@
     []
   ],
   "category": "jungle",
-  "carvers":
-  {
-    "air":
-    [
+  "carvers": {
+    "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
-  "spawn_costs":
-  {},
-  "spawners":
-  {
-    "axolotls":
-    [
+  "spawn_costs": {},
+  "spawners": {
+    "axolotls": [
       {
         "weight": 10,
         "minCount": 4,
@@ -215,18 +200,12 @@
         "maxCount": 6
       }
     ],
-    "underground_water_creature":
-    [],
-    "water_creature":
-    [],
-    "water_ambient":
-    [],
-    "monster":
-    [],
-    "misc":
-    [],
-    "ambient":
-    [
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "monster": [],
+    "misc": [],
+    "ambient": [
       {
         "weight": 10,
         "minCount": 8,
@@ -234,8 +213,7 @@
         "maxCount": 8
       }
     ],
-    "creature":
-    []
+    "creature": []
   },
   "precipitation": "none",
   "downfall": 0.9,

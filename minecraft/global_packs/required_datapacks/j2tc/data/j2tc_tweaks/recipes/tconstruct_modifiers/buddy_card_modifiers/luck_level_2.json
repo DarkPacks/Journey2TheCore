@@ -3,24 +3,19 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base6"
-      ],
+      "items": ["buddycards:buddycard_base6"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/melee_or_harvest"
   },
-  "requirements":
-  {
+  "requirements": {
     "name": "tconstruct:luck",
     "level": 1,
     "error": "recipe.tconstruct.modifier.luck.level_2"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:luck",
     "level": 1
   },

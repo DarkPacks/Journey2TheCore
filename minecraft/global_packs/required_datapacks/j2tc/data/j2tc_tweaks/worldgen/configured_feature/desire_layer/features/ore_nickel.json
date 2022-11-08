@@ -1,15 +1,12 @@
 {
-  "config":
-  {
+  "config": {
     "targets": [
       {
-        "target":
-        {
+        "target": {
           "tag": "minecraft:stone_ore_replaceables",
           "predicate_type": "minecraft:tag_match"
         },
-        "state":
-        {
+        "state": {
           "Name": "thermal:nickel_ore"
         }
       }

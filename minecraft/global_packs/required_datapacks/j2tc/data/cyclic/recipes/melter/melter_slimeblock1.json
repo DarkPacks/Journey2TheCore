@@ -2,8 +2,7 @@
   "type": "cyclic:melter",
   "conditions": [
     {
-      "value":
-      {
+      "value": {
         "modid": "tconstruct",
         "type": "forge:mod_loaded"
       },
@@ -15,13 +14,11 @@
       "item": "minecraft:slime_block"
     }
   ],
-  "energy":
-  {
+  "energy": {
     "rfpertick": 100,
     "ticks": 160
   },
-  "result":
-  {
+  "result": {
     "fluid": "cyclic:slime",
     "count": 2250
   }

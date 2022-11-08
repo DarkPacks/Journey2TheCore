@@ -1,6 +1,5 @@
 {
-  "config":
-  {
+  "config": {
     "rock_count": 4,
     "hole_count": 1,
     "valid_blocks": [
@@ -21,10 +20,8 @@
       "candyworld:crystallized_sugar",
       "minecraft:raw_gold_block"
     ],
-    "state":
-    {
-      "Properties":
-      {
+    "state": {
+      "Properties": {
         "falling": "true"
       },
       "Name": "minecraft:water"

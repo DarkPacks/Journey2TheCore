@@ -14,12 +14,10 @@
       "tag": "buddycards:buddycards"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/helmets"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:color_gilded",
     "level": 1
   }

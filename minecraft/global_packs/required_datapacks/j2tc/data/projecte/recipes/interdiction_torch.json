@@ -1,31 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "RDR",
-    "DPD",
-    "GGG"
-  ],
-  "key":
-  {
-    "R":
-    {
+  "pattern": ["RDR", "DPD", "GGG"],
+  "key": {
+    "R": {
       "item": "minecraft:soul_torch"
     },
-    "G":
-    {
+    "G": {
       "tag": "forge:dusts/glowstone"
     },
-    "D":
-    {
+    "D": {
       "item": "compressium:coal_7"
     },
-    "P":
-    {
+    "P": {
       "item": "projecte:red_matter"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:interdiction_torch",
     "count": 4
   }

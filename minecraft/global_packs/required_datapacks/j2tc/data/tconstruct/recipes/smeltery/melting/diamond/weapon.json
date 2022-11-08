@@ -8,8 +8,7 @@
       "item": "minecraft:diamond_hoe"
     }
   ],
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:molten_diamond",
     "amount": 200
   },

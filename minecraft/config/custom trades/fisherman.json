@@ -3,14 +3,12 @@
   "removeOtherTrades": true,
   "trades": [
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:cod",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -21,14 +19,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:salmon",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -39,14 +35,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "alexsmobs:blobfish",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -57,14 +51,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "rocks:starfish",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -75,14 +67,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:fishing_rod",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 8,
         "priceModifier": 0
@@ -93,14 +83,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:kelp",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -111,14 +99,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:cooked_cod",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -129,14 +115,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:cooked_salmon",
         "amount": 2,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -147,14 +131,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:dried_kelp",
         "amount": 3,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -165,14 +147,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:tube_coral_block",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -183,14 +163,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:brain_coral_block",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -201,14 +179,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:bubble_coral_block",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -219,14 +195,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:horn_coral_block",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -237,14 +211,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:fire_coral_block",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -255,14 +227,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:wet_sponge",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 4,
         "priceModifier": 0
@@ -273,14 +243,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "glowinc:glow_ball",
         "amount": 8,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -291,14 +259,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "minecraft:glow_ink_sac",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 4,
         "priceModifier": 0
@@ -309,14 +275,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "farmersdelight:fish_stew",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 4,
         "priceModifier": 0
@@ -327,14 +291,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "nameless_trinkets:puffer_fish_liver",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 16,
         "priceModifier": 0

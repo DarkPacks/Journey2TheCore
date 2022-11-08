@@ -3,36 +3,27 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set7"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set7"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set8"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set8"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set14"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set14"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/chestplate"
   },
-  "slots":
-  {
+  "slots": {
     "abilities": 1
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:strength",
     "level": 1
   }

@@ -1,7 +1,5 @@
 {
-  "items": [
-    "compressium:sand_3"
-  ],
+  "items": ["compressium:sand_3"],
   "tooltips": [
     {
       "text": "729 Sand",

@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:pasta_with_meatballs"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

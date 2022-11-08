@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "thermal:electrum_nugget"
-  ]
+  "values": ["thermal:electrum_nugget"]
 }

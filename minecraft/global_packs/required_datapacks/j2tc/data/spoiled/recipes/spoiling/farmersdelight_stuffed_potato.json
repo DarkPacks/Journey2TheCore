@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:stuffed_potato"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

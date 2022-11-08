@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "PCP",
-          "PPP",
-          "PCP"
-        ],
+        "pattern": ["PCP", "PPP", "PCP"],
         "key": {
           "P": {
             "item": "minecraft:jungle_planks"

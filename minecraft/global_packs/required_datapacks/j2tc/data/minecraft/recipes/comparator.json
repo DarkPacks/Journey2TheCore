@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    "#X#",
-    "III"
-  ],
-  "key":
-  {
-    "#":
-    {
+  "pattern": [" # ", "#X#", "III"],
+  "key": {
+    "#": {
       "item": "minecraft:redstone_torch"
     },
-    "X":
-    {
+    "X": {
       "tag": "forge:gems"
     },
-    "I":
-    {
+    "I": {
       "item": "minecraft:stone"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "minecraft:comparator"
   }
 }

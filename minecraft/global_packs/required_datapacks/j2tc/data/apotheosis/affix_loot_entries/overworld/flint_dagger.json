@@ -1,20 +1,13 @@
 {
   "weight": 100,
   "quality": 1.0,
-  "stages":
-  [
-    "quest_0"
-  ],
-  "stack":
-  {
+  "stages": ["quest_0"],
+  "stack": {
     "item": "tconstruct:dagger",
     "nbt": "{tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
   },
   "type": "SWORD",
-  "dimensions":
-  [
-    "minecraft:overworld"
-  ],
+  "dimensions": ["minecraft:overworld"],
   "min_rarity": "common",
   "max_rarity": "common"
 }

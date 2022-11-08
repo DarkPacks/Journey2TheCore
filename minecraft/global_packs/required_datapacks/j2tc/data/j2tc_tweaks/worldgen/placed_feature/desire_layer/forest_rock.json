@@ -1,22 +1,18 @@
 {
   "feature": "j2tc_tweaks:desire_layer/forest_rock",
-  "placement":
-  [
+  "placement": [
     {
       "type": "minecraft:count",
       "count": 2
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 400
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 525
         }
       }

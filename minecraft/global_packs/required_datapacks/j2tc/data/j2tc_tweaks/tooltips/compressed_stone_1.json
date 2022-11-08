@@ -1,7 +1,5 @@
 {
-  "items": [
-    "compressium:stone_1"
-  ],
+  "items": ["compressium:stone_1"],
   "tooltips": [
     {
       "text": "9 Stone",

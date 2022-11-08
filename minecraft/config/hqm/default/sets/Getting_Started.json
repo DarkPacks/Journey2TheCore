@@ -32,9 +32,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -94,12 +92,8 @@
           ]
         }
       ],
-      "prerequisites": [
-        "3949257e-5aa1-4ea3-a234-fc6fe770a6eb"
-      ],
-      "optionlinks": [
-        "354eaca2-3412-4ea7-a81e-d24766bb17f5"
-      ],
+      "prerequisites": ["3949257e-5aa1-4ea3-a234-fc6fe770a6eb"],
+      "optionlinks": ["354eaca2-3412-4ea7-a81e-d24766bb17f5"],
       "reward": [
         {
           "id": "treasurebags:treasure_bag",
@@ -144,9 +138,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "99816012-74e9-4c81-bb97-17e3836f506c"
-      ],
+      "prerequisites": ["99816012-74e9-4c81-bb97-17e3836f506c"],
       "optionlinks": [],
       "reward": [
         {
@@ -248,9 +240,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "866fc362-44e0-46c8-812e-ace95546a9c9"
-      ],
+      "prerequisites": ["866fc362-44e0-46c8-812e-ace95546a9c9"],
       "optionlinks": [],
       "reward": [
         {
@@ -301,9 +291,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "813c7bde-eb89-45ec-971d-f35d8531be80"
-      ],
+      "prerequisites": ["813c7bde-eb89-45ec-971d-f35d8531be80"],
       "optionlinks": [],
       "reward": [
         {
@@ -345,9 +333,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -391,9 +377,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "dc474a8f-ac11-4e03-b0df-afe1c2c91ae2"
-      ],
+      "prerequisites": ["dc474a8f-ac11-4e03-b0df-afe1c2c91ae2"],
       "optionlinks": [],
       "reward": [
         {
@@ -450,9 +434,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -509,9 +491,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "c2e78dce-4b29-4622-ba44-8784b4dc4a99"
-      ],
+      "prerequisites": ["c2e78dce-4b29-4622-ba44-8784b4dc4a99"],
       "optionlinks": [],
       "reward": [
         {
@@ -571,9 +551,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9a7870b3-61e6-46ab-9c97-a553669ffa79"
-      ],
+      "prerequisites": ["9a7870b3-61e6-46ab-9c97-a553669ffa79"],
       "optionlinks": [],
       "reward": [
         {
@@ -614,9 +592,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "ab162aff-a063-4527-b7ef-b87390c42509"
-      ],
+      "prerequisites": ["ab162aff-a063-4527-b7ef-b87390c42509"],
       "optionlinks": [],
       "reward": [
         {
@@ -657,9 +633,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
-      ],
+      "prerequisites": ["9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"],
       "optionlinks": [],
       "reward": [
         {
@@ -710,9 +684,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "c170fa53-a589-44cd-ac20-f1f557897ed0"
-      ],
+      "prerequisites": ["c170fa53-a589-44cd-ac20-f1f557897ed0"],
       "optionlinks": [],
       "reward": [
         {
@@ -799,9 +771,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "a6bc09a4-ea29-4986-9dd8-421a963546b7"
-      ],
+      "prerequisites": ["a6bc09a4-ea29-4986-9dd8-421a963546b7"],
       "optionlinks": [],
       "reward": [
         {
@@ -846,9 +816,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "3949257e-5aa1-4ea3-a234-fc6fe770a6eb"
-      ],
+      "prerequisites": ["3949257e-5aa1-4ea3-a234-fc6fe770a6eb"],
       "optionlinks": [],
       "reward": [
         {
@@ -895,9 +863,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -1077,9 +1043,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "c2e78dce-4b29-4622-ba44-8784b4dc4a99"
-      ],
+      "prerequisites": ["c2e78dce-4b29-4622-ba44-8784b4dc4a99"],
       "optionlinks": [],
       "reward": [
         {
@@ -1180,9 +1144,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "1a793aac-0be4-4f4a-87c2-6725781939b1"
-      ],
+      "prerequisites": ["1a793aac-0be4-4f4a-87c2-6725781939b1"],
       "optionlinks": [],
       "reward": [
         {
@@ -1282,9 +1244,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -1404,9 +1364,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "1a793aac-0be4-4f4a-87c2-6725781939b1"
-      ],
+      "prerequisites": ["1a793aac-0be4-4f4a-87c2-6725781939b1"],
       "optionlinks": [],
       "reward": [
         {
@@ -1463,9 +1421,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -1523,9 +1479,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "520a68de-ccc3-4882-b041-5719ce564659"
-      ],
+      "prerequisites": ["520a68de-ccc3-4882-b041-5719ce564659"],
       "optionlinks": [],
       "reward": [
         {
@@ -1588,9 +1542,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "f714fdae-5d73-4e85-90b3-d7eeb25d35b6"
-      ],
+      "prerequisites": ["f714fdae-5d73-4e85-90b3-d7eeb25d35b6"],
       "optionlinks": [],
       "reward": [
         {
@@ -1657,9 +1609,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
-      ],
+      "prerequisites": ["1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"],
       "optionlinks": [],
       "reward": [
         {
@@ -1710,9 +1660,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
-      ],
+      "prerequisites": ["6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"],
       "optionlinks": [],
       "reward": [
         {
@@ -1774,9 +1722,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "99816012-74e9-4c81-bb97-17e3836f506c"
-      ],
+      "prerequisites": ["99816012-74e9-4c81-bb97-17e3836f506c"],
       "optionlinks": [],
       "reward": [
         {
@@ -1824,9 +1770,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
-      ],
+      "prerequisites": ["1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"],
       "optionlinks": [],
       "reward": [
         {
@@ -1912,9 +1856,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "3949257e-5aa1-4ea3-a234-fc6fe770a6eb"
-      ],
+      "prerequisites": ["3949257e-5aa1-4ea3-a234-fc6fe770a6eb"],
       "optionlinks": [],
       "reward": [
         {
@@ -1959,9 +1901,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "1a793aac-0be4-4f4a-87c2-6725781939b1"
-      ],
+      "prerequisites": ["1a793aac-0be4-4f4a-87c2-6725781939b1"],
       "optionlinks": [],
       "reward": [
         {
@@ -2081,9 +2021,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "258827b4-456a-4284-af33-4885b5c21cd1"
-      ],
+      "prerequisites": ["258827b4-456a-4284-af33-4885b5c21cd1"],
       "optionlinks": [],
       "reward": [
         {
@@ -2197,9 +2135,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "48c3b4fb-79bd-49bc-a05c-67ff33834f3d"
-      ],
+      "prerequisites": ["48c3b4fb-79bd-49bc-a05c-67ff33834f3d"],
       "optionlinks": [],
       "reward": [
         {
@@ -2293,9 +2229,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "a6bc09a4-ea29-4986-9dd8-421a963546b7"
-      ],
+      "prerequisites": ["a6bc09a4-ea29-4986-9dd8-421a963546b7"],
       "optionlinks": [],
       "reward": [
         {
@@ -2350,9 +2284,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "520a68de-ccc3-4882-b041-5719ce564659"
-      ],
+      "prerequisites": ["520a68de-ccc3-4882-b041-5719ce564659"],
       "optionlinks": [],
       "reward": [
         {
@@ -2506,9 +2438,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "ee5a7cb5-497f-4187-a83d-cc9d853be572"
-      ],
+      "prerequisites": ["ee5a7cb5-497f-4187-a83d-cc9d853be572"],
       "optionlinks": [],
       "reward": [
         {
@@ -2549,9 +2479,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
-      ],
+      "prerequisites": ["6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"],
       "optionlinks": [],
       "reward": [
         {
@@ -2638,9 +2566,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
-      ],
+      "prerequisites": ["6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"],
       "optionlinks": [],
       "reward": [
         {
@@ -2833,9 +2759,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "3df20889-c86a-41d2-a2e1-0b1e21ce8521"
-      ],
+      "prerequisites": ["3df20889-c86a-41d2-a2e1-0b1e21ce8521"],
       "optionlinks": [],
       "reward": [
         {
@@ -2923,9 +2847,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "10100082-484d-412a-979e-dddb55806b0a"
-      ],
+      "prerequisites": ["10100082-484d-412a-979e-dddb55806b0a"],
       "optionlinks": [],
       "reward": [
         {
@@ -2988,9 +2910,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "520a68de-ccc3-4882-b041-5719ce564659"
-      ],
+      "prerequisites": ["520a68de-ccc3-4882-b041-5719ce564659"],
       "optionlinks": [],
       "reward": [
         {
@@ -3034,9 +2954,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "f8a86133-e715-448c-87dc-4391fef2d72f"
-      ],
+      "prerequisites": ["f8a86133-e715-448c-87dc-4391fef2d72f"],
       "optionlinks": [],
       "reward": [
         {
@@ -3082,9 +3000,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "1517ec86-93c5-46fa-8942-ebc756b5e4bd"
-      ],
+      "prerequisites": ["1517ec86-93c5-46fa-8942-ebc756b5e4bd"],
       "optionlinks": [],
       "reward": [
         {
@@ -3129,9 +3045,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -3171,9 +3085,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "813c7bde-eb89-45ec-971d-f35d8531be80"
-      ],
+      "prerequisites": ["813c7bde-eb89-45ec-971d-f35d8531be80"],
       "optionlinks": [],
       "reward": [
         {
@@ -3233,9 +3145,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {
@@ -3358,9 +3268,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "258827b4-456a-4284-af33-4885b5c21cd1"
-      ],
+      "prerequisites": ["258827b4-456a-4284-af33-4885b5c21cd1"],
       "optionlinks": [],
       "reward": [
         {
@@ -3423,9 +3331,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
       "optionlinks": [],
       "reward": [
         {

@@ -1,8 +1,6 @@
 {
-  "display":
-  {
-    "icon":
-    {
+  "display": {
+    "icon": {
       "item": "minecraft:stone"
     },
     "title": "Find Buddy Cards Mob Set",
@@ -13,13 +11,10 @@
     "hidden": false
   },
   "parent": "j2tc_tweaks:progression/root",
-  "criteria":
-  {
-    "locate_card_1":
-    {
+  "criteria": {
+    "locate_card_1": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":
-      {
+      "conditions": {
         "items": [
           {
             "items": [

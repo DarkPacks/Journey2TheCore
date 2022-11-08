@@ -13,10 +13,10 @@
       "direction": "DOWN",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:dark_oak_planks"
           }
         }
@@ -27,9 +27,7 @@
     },
     {
       "processor_type": "repurposed_structures:tick_blocks_processor",
-      "blocks_to_tick": [
-        "minecraft:daylight_detector"
-      ]
+      "blocks_to_tick": ["minecraft:daylight_detector"]
     }
   ]
 }

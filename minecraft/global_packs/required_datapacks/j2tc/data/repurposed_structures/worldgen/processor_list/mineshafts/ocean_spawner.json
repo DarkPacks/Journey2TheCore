@@ -107,7 +107,7 @@
       "processor_type": "repurposed_structures:close_off_air_sources_processor",
       "weighted_list_of_replacement_blocks": [
         {
-          "block" : "minecraft:prismarine",
+          "block": "minecraft:prismarine",
           "weight": 1
         }
       ]

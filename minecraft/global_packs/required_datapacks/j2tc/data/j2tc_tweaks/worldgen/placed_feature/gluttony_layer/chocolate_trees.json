@@ -1,49 +1,42 @@
 {
   "feature": "j2tc_tweaks:gluttony_layer/chocolate_trees",
   "placement": [
-  {
-    "type": "minecraft:count",
-    "count": 64
-  },
-  {
-    "type": "minecraft:in_square"
-  },
-  {
-    "type": "minecraft:biome"
-  },
-  {
-    "height":
     {
-      "min_inclusive":
-      {
-        "absolute": 270
-      },
-      "max_inclusive":
-      {
-        "absolute": 390
-      },
-      "type": "minecraft:uniform"
+      "type": "minecraft:count",
+      "count": 64
     },
-    "type": "minecraft:height_range"
-  },
-  {
-    "type": "minecraft:block_predicate_filter",
-    "predicate":
     {
-      "type": "minecraft:matching_blocks",
-      "offset": [
-        0,
-        -1,
-        0
-      ],
-      "blocks": [
-        "candyworld:milk_brownie_block",
-        "candyworld:dark_brownie_block",
-        "candyworld:crystallized_sugar",
-        "candyworld:candy_grass_block",
-        "candyworld:white_brownie_block",
-        "candyworld:chocolate_covered_white_brownie"
-      ]
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 270
+        },
+        "max_inclusive": {
+          "absolute": 390
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [
+          "candyworld:milk_brownie_block",
+          "candyworld:dark_brownie_block",
+          "candyworld:crystallized_sugar",
+          "candyworld:candy_grass_block",
+          "candyworld:white_brownie_block",
+          "candyworld:chocolate_covered_white_brownie"
+        ]
+      }
     }
-  }]
+  ]
 }

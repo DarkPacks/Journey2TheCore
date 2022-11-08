@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:auto_smoking_upgrade"
-    ]
+    "recipes": ["sophisticatedbackpacks:auto_smoking_upgrade"]
   },
   "criteria": {
     "has_smoking_upgrade": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:smoking_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:smoking_upgrade"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_smoking_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_smoking_upgrade", "has_the_recipe"]]
 }

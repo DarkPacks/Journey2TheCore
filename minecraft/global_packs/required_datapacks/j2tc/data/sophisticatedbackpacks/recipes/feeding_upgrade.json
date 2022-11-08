@@ -6,36 +6,25 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    " C ",
-    "ABM",
-    " E "
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": [" C ", "ABM", " E "],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "C":
-    {
+    "C": {
       "item": "farmersdelight:wheat_dough"
     },
-    "A":
-    {
+    "A": {
       "item": "farmersdelight:cabbage_crate"
     },
-    "M":
-    {
+    "M": {
       "item": "farmersdelight:tomato_crate"
     },
-    "E":
-    {
+    "E": {
       "item": "farmersdelight:onion_crate"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:feeding_upgrade"
   }
 }

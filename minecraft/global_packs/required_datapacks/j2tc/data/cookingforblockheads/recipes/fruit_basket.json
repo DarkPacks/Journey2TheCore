@@ -3,9 +3,7 @@
     "item": "cookingforblockheads:fruit_basket"
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SPS"
-  ],
+  "pattern": ["SPS"],
   "key": {
     "S": {
       "tag": "wooden_slabs"

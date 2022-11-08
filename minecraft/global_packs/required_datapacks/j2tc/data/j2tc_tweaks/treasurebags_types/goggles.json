@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "4 Eyes!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/goggles",

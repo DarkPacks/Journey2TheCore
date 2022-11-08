@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:desire_layer/features/ore_copper",
-  "placement":
-  [
+  "placement": [
     {
       "count": 30,
       "type": "minecraft:count"
@@ -13,14 +12,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": 400
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 525
         },
         "type": "minecraft:uniform"

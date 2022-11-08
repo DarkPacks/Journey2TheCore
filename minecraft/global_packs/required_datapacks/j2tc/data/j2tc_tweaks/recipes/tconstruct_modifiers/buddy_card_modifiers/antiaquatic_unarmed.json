@@ -3,28 +3,22 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base9"
-      ],
+      "items": ["buddycards:buddycard_base9"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/unarmed"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "requirements":
-  {
+  "requirements": {
     "name": "tconstruct:unarmed",
     "level": 1,
     "error": "recipe.tconstruct.modifier.unarmed"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:antiaquatic",
     "level": 1
   },

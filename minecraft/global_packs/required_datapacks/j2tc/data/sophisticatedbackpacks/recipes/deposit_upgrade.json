@@ -6,36 +6,25 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    " P ",
-    "IBI",
-    "RCR"
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": [" P ", "IBI", "RCR"],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "C":
-    {
+    "C": {
       "tag": "forge:chests/wooden"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "R":
-    {
+    "R": {
       "item": "minecraft:pointed_dripstone"
     },
-    "P":
-    {
+    "P": {
       "item": "minecraft:oak_trapdoor"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:deposit_upgrade"
   }
 }

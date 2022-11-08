@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "tconstruct:manyullyn_nugget"
-  ]
+  "values": ["tconstruct:manyullyn_nugget"]
 }

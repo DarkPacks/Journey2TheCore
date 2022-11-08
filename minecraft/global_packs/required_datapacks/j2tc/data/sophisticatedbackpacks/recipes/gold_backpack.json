@@ -6,28 +6,19 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "GEG",
-    "EBE",
-    "GEG"
-  ],
-  "key":
-  {
-    "G":
-    {
+  "pattern": ["GEG", "EBE", "GEG"],
+  "key": {
+    "G": {
       "tag": "forge:ingots/bronze"
     },
-    "B":
-    {
+    "B": {
       "item": "sophisticatedbackpacks:iron_backpack"
     },
-    "E":
-    {
+    "E": {
       "item": "minecraft:emerald"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:gold_backpack"
   }
 }

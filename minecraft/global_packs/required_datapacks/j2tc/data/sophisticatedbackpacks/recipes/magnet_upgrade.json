@@ -6,32 +6,22 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "EIE",
-    "IPI",
-    " M "
-  ],
-  "key":
-  {
-    "E":
-    {
+  "pattern": ["EIE", "IPI", " M "],
+  "key": {
+    "E": {
       "tag": "forge:ender_pearls"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "M":
-    {
+    "M": {
       "item": "pickletweaks:magnet"
     },
-    "P":
-    {
+    "P": {
       "item": "sophisticatedbackpacks:pickup_upgrade"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:magnet_upgrade"
   }
 }

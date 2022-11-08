@@ -1,19 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ss",
-    "ss",
-    "ss"
-  ],
-  "key":
-  {
-    "s":
-    {
+  "pattern": ["ss", "ss", "ss"],
+  "key": {
+    "s": {
       "item": "minecraft:hanging_roots"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "farmersdelight:rope",
     "count": 3
   }

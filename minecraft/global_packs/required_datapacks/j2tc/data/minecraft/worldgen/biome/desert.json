@@ -1,15 +1,12 @@
 {
-  "effects":
-  {
-    "mood_sound":
-    {
+  "effects": {
+    "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_delay": 3000,
       "block_search_extent": 8,
       "offset": 2
     },
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },
@@ -18,8 +15,7 @@
     "water_color": 8914952,
     "water_fog_color": 3866888
   },
-  "carvers":
-  {
+  "carvers": {
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
@@ -41,10 +37,7 @@
       "j2tc_tweaks:greed_layer/lake_liquid_gold",
       "j2tc_tweaks:greed_layer/lake_crude_oil"
     ],
-    [
-      "minecraft:amethyst_geode",
-      "j2tc_tweaks:cave_decoration/large_dripstone"
-    ],
+    ["minecraft:amethyst_geode", "j2tc_tweaks:cave_decoration/large_dripstone"],
     [
       "minecraft:fossil_upper",
       "minecraft:fossil_lower",
@@ -200,8 +193,7 @@
     ],
     []
   ],
-  "spawners":
-  {
+  "spawners": {
     "monster": [],
     "creature": [],
     "underground_water_creature": [],
@@ -209,8 +201,7 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs":
-  {},
+  "spawn_costs": {},
   "precipitation": "none",
   "temperature": 2,
   "downfall": 0,

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " G ",
-    "GWG",
-    " G "
-  ],
+  "pattern": [" G ", "GWG", " G "],
   "key": {
     "G": {
       "tag": "forge:gunpowder"

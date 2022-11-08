@@ -1,6 +1,5 @@
 {
-  "cities":
-  {
+  "cities": {
     "cityLevel3Height": 200,
     "cityMinRadius": 30,
     "cityAvoidVoid": true,
@@ -17,16 +16,14 @@
     "oceanCorrectionBorder": 4,
     "cityPerlinScale": 3.0
   },
-  "client":
-  {
+  "client": {
     "horizon": 128.0,
     "fogDensity": 0.02,
     "fogBlue": 0.0,
     "fogRed": 0.0,
     "fogGreen": 0.0
   },
-  "explosions":
-  {
+  "explosions": {
     "explosionMaxRadius": 0,
     "explosionMinRadius": 0,
     "explosionMinHeight": 0,
@@ -40,8 +37,7 @@
     "explosionsInCitiesOnly": true,
     "miniExplosionMinHeight": 0
   },
-  "lostcity":
-  {
+  "lostcity": {
     "highwaySupports": false,
     "ruinChance": 0.5,
     "groundLevel": 143,
@@ -111,8 +107,7 @@
     "buildingMaxCellars": 0,
     "highwayMainPerlinScale": 1.0
   },
-  "cityspheres":
-  {
+  "cityspheres": {
     "monorailOffset": -2,
     "outsideSurfaceVariation": 1.0,
     "monorailChance": 0.8,

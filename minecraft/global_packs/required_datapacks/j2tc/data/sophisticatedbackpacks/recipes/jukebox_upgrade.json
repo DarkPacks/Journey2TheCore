@@ -6,27 +6,19 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    " J ",
-    "IBI"
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": [" J ", "IBI"],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "J":
-    {
+    "J": {
       "item": "minecraft:jukebox"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:jukebox_upgrade"
   }
 }

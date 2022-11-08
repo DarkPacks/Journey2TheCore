@@ -1,7 +1,6 @@
 {
   "structures": [],
-  "placement":
-  {
+  "placement": {
     "spread_type": "triangular",
     "salt": 10387313,
     "spacing": 32,

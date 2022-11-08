@@ -13,35 +13,24 @@
           "type": "forge:and"
         }
       ],
-      "recipe":
-      {
+      "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "IBI",
-          "CDC",
-          "IBI"
-        ],
-        "key":
-        {
-          "I":
-          {
+        "pattern": ["IBI", "CDC", "IBI"],
+        "key": {
+          "I": {
             "tag": "forge:stone"
           },
-          "B":
-          {
+          "B": {
             "tag": "j2tc_tweaks:geode_blocks"
           },
-          "C":
-          {
+          "C": {
             "tag": "functionalstorage:drawer"
           },
-          "D":
-          {
+          "D": {
             "item": "factinventory:slow_inventory_hopper"
           }
         },
-        "result":
-        {
+        "result": {
           "item": "functionalstorage:storage_controller"
         }
       }

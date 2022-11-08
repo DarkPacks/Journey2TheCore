@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:ore_clay",
-  "placement":
-  [
+  "placement": [
     {
       "count": 64,
       "type": "minecraft:count"
@@ -13,14 +12,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": 2
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 686
         },
         "type": "minecraft:uniform"

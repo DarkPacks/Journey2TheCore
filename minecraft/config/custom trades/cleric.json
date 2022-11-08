@@ -3,14 +3,12 @@
   "removeOtherTrades": true,
   "trades": [
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "mob_grinding_utils:solid_xp_baby",
         "amount": 6,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 1,
         "priceModifier": 0
@@ -21,14 +19,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "turkeydevutil:ramen",
         "amount": 4,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 2,
         "priceModifier": 0
@@ -39,14 +35,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "cyclic:charm_stealthpotion",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 6,
         "priceModifier": 0
@@ -57,14 +51,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "cyclic:apple_prismarine",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 4,
         "priceModifier": 0
@@ -75,14 +67,12 @@
       "tradeLevel": 1
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "cyclic:apple_bone",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 6,
         "priceModifier": 0
@@ -93,14 +83,12 @@
       "tradeLevel": 2
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "cyclic:charm_xp_blocker",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 16,
         "priceModifier": 0
@@ -111,14 +99,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "cyclic:charm_xp_speed",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 16,
         "priceModifier": 0
@@ -129,14 +115,12 @@
       "tradeLevel": 3
     },
     {
-      "offer":
-      {
+      "offer": {
         "itemKey": "cyclic:charm_luck",
         "amount": 1,
         "priceModifier": 0
       },
-      "request":
-      {
+      "request": {
         "itemKey": "turkeydevutil:cookie",
         "amount": 16,
         "priceModifier": 0

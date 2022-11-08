@@ -15,7 +15,7 @@
     },
     {
       "item": "thermal:bitumen",
-      "chance": 0.10
+      "chance": 0.1
     }
   ],
   "energy": 6000

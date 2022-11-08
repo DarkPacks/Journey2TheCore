@@ -4,9 +4,7 @@
     "item": "tconstruct:hand_axe"
   },
   "block_in": {
-    "blocks": [
-      "minecraft:wheat"
-    ],
+    "blocks": ["minecraft:wheat"],
     "state": {
       "age": 6
     }

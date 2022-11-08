@@ -9,15 +9,15 @@
       "ignore_down": true,
       "weighted_list_of_replacement_blocks": [
         {
-          "block" : "minecraft:gilded_blackstone",
+          "block": "minecraft:gilded_blackstone",
           "weight": 1
         },
         {
-          "block" : "minecraft:blackstone",
+          "block": "minecraft:blackstone",
           "weight": 2
         },
         {
-          "block" : "minecraft:cracked_polished_blackstone_bricks",
+          "block": "minecraft:cracked_polished_blackstone_bricks",
           "weight": 1
         }
       ]

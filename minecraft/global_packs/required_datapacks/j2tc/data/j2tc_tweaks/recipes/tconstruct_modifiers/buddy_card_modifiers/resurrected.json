@@ -3,39 +3,29 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set9"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set9"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base26"
-      ],
+      "items": ["buddycards:buddycard_base26"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base35"
-      ],
+      "items": ["buddycards:buddycard_base35"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_base31"
-      ],
+      "items": ["buddycards:buddycard_base31"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:resurrected",
     "level": 1
   },

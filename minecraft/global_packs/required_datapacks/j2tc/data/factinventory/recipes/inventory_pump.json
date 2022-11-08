@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "BMB",
-    "GIG",
-    "GMG"
-  ],
+  "pattern": ["BMB", "GIG", "GMG"],
   "key": {
     "M": {
       "item": "factinventory:interaction_module"

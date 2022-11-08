@@ -1,14 +1,12 @@
 {
-  "conditions":
-  [
+  "conditions": [
     {
       "condition": "minecraft:random_chance",
       "chance": 0.5
     },
     {
       "condition": "minecraft:alternative",
-      "terms":
-      [
+      "terms": [
         {
           "condition": "forge:loot_table_id",
           "loot_table_id": "minecraft:chests/simple_dungeon"
@@ -24,8 +22,7 @@
       ]
     }
   ],
-  "entry":
-  {
+  "entry": {
     "type": "minecraft:loot_table",
     "name": "j2tc_tweaks:chests/random_tinkers_pool"
   },

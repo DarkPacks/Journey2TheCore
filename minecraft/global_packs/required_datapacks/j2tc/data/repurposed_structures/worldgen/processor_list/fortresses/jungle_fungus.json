@@ -144,10 +144,10 @@
       "pillar_processor_list": "repurposed_structures:fortresses/jungle_main",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
+          "replacement": {
             "Name": "minecraft:stone_bricks"
           }
         }

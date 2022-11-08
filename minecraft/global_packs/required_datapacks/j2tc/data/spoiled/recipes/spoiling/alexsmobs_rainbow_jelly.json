@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "alexsmobs:rainbow_jelly"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

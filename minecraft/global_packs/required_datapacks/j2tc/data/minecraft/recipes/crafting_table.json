@@ -1,18 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key":
-  {
-    "#":
-    {
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
       "tag": "minecraft:planks"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "tconstruct:crafting_station"
   }
 }

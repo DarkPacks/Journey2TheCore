@@ -1,9 +1,7 @@
 {
-  "village_raid":
-  {
+  "village_raid": {
     "chance": 0,
-    "Command":
-    [
+    "Command": [
       {
         "command": "/summon minecraft:villager %px %py %pz {VillagerData:{level:1,profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}",
         "copies": 9,
@@ -14,8 +12,7 @@
         "delay": 300
       }
     ],
-    "Message":
-    [
+    "Message": [
       {
         "message": "<%%[A_D,Ugrashrath,Marioluigi7896]%%> Do you want to play a game?",
         "delay": 200

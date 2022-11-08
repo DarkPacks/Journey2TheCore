@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "thermal:netherite_nugget"
-  ]
+  "values": ["thermal:netherite_nugget"]
 }

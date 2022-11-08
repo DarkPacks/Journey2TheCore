@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "alexsmobs:banana"
   },
-  "result":
-  {
+  "result": {
     "item": "alexsmobs:banana_peel"
   }
 }

@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "GRG",
-    "RLR",
-    "GRG"
-  ],
-  "key":
-  {
-    "R":
-    {
+  "pattern": ["GRG", "RLR", "GRG"],
+  "key": {
+    "R": {
       "item": "projecte:red_matter"
     },
-    "G":
-    {
+    "G": {
       "item": "compressium:coal_7"
     },
-    "L":
-    {
+    "L": {
       "item": "minecraft:lapis_block"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:soul_stone"
   }
 }

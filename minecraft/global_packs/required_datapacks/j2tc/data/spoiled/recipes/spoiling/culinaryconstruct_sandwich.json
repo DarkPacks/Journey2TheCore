@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "culinaryconstruct:sandwich"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

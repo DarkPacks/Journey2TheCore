@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "RER",
-    "CPC",
-    "RER"
-  ],
+  "pattern": ["RER", "CPC", "RER"],
   "key": {
     "R": {
       "tag": "forge:dusts/redstone"

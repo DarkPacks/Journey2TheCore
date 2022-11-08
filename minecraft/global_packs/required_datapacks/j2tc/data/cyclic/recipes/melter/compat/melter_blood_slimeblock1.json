@@ -11,13 +11,11 @@
       "item": "tconstruct:blood_slime"
     }
   ],
-  "energy":
-  {
+  "energy": {
     "rfpertick": 100,
     "ticks": 160
   },
-  "result":
-  {
+  "result": {
     "fluid": "tconstruct:blood",
     "count": 2250
   }

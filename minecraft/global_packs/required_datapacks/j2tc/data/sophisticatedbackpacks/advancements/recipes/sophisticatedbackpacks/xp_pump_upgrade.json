@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:xp_pump_upgrade"
-    ]
+    "recipes": ["sophisticatedbackpacks:xp_pump_upgrade"]
   },
   "criteria": {
     "has_advanced_pump_upgrade": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:advanced_pump_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:advanced_pump_upgrade"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_advanced_pump_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_advanced_pump_upgrade", "has_the_recipe"]]
 }

@@ -1,14 +1,11 @@
 {
   "feature": "j2tc_tweaks:bamboo_some_podzol",
-  "placement":
-  [
+  "placement": [
     {
       "type": "minecraft:count",
-      "count":
-      {
+      "count": {
         "type": "minecraft:uniform",
-        "value":
-        {
+        "value": {
           "min_inclusive": 60,
           "max_inclusive": 72
         }
@@ -22,15 +19,12 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 500
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 688
         }
       }

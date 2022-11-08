@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "thermal:stuffed_pepper"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "www",
-    " b "
-  ],
+  "pattern": ["www", " b "],
   "key": {
     "w": {
       "item": "minecraft:wheat"

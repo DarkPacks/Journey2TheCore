@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "ICI",
-          "IDI",
-          "IBI"
-        ],
+        "pattern": ["ICI", "IDI", "IBI"],
         "key": {
           "I": {
             "tag": "forge:stone"

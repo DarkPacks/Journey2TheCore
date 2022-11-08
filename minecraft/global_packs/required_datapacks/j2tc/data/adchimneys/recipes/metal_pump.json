@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key":
-  {
-    "#":
-    {
+  "key": {
+    "#": {
       "item": "adchimneys:metal_vent"
     },
-    "R":
-    {
+    "R": {
       "item": "create:large_cogwheel"
     },
-    "V":
-    {
+    "V": {
       "item": "cyclic:hopper_fluid"
     }
   },
-  "pattern": [
-    "#R#",
-    "RVR",
-    "#R#"
-  ],
-  "result":
-  {
+  "pattern": ["#R#", "RVR", "#R#"],
+  "result": {
     "count": 4,
     "item": "adchimneys:metal_pump"
   }

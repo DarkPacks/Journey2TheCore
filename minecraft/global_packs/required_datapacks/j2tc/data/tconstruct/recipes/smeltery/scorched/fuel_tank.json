@@ -1,23 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#B#",
-    "###"
-  ],
-  "key":
-  {
-    "#":
-    {
+  "pattern": ["###", "#B#", "###"],
+  "key": {
+    "#": {
       "item": "tconstruct:scorched_brick"
     },
-    "B":
-    {
+    "B": {
       "item": "minecraft:amethyst_shard"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "tconstruct:scorched_fuel_tank"
   }
 }

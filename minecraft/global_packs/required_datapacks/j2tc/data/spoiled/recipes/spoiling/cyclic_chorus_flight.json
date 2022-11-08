@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "cyclic:chorus_flight"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

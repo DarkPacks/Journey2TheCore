@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "SLS",
-    "SCS",
-    "LLL"
-  ],
+  "pattern": ["SLS", "SCS", "LLL"],
   "key": {
     "L": {
       "tag": "forge:leather"

@@ -49,10 +49,12 @@
             "chance": 0.01
           }
         ],
-        "functions": [{
-          "function": "animalcrops:random_animal",
-          "type": "crops"
-        }]
+        "functions": [
+          {
+            "function": "animalcrops:random_animal",
+            "type": "crops"
+          }
+        ]
       },
       {
         "type": "minecraft:item",
@@ -67,12 +69,14 @@
             "chance": 0.01
           }
         ],
-        "functions": [{
-          "function": "minecraft:apply_bonus",
-          "enchantment": "minecraft:fortune",
-          "formula": "minecraft:uniform_bonus_count",
-          "parameters": { "bonusMultiplier": 2 }
-        }]
+        "functions": [
+          {
+            "function": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:uniform_bonus_count",
+            "parameters": { "bonusMultiplier": 2 }
+          }
+        ]
       }
     ]
   },

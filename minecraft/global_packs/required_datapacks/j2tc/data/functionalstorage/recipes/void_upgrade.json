@@ -15,11 +15,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "III",
-          "IDI",
-          "III"
-        ],
+        "pattern": ["III", "IDI", "III"],
         "key": {
           "I": {
             "tag": "forge:obsidian"

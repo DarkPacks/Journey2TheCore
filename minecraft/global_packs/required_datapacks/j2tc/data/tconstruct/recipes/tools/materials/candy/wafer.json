@@ -1,7 +1,6 @@
 {
   "type": "tconstruct:material",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "candyworld:wafer_stick"
   },
   "value": 1,

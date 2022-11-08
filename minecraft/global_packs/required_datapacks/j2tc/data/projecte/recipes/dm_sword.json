@@ -1,23 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "M",
-    "M",
-    "D"
-  ],
-  "key":
-  {
-    "D":
-    {
+  "pattern": ["M", "M", "D"],
+  "key": {
+    "D": {
       "item": "projecte:klein_star_vier"
     },
-    "M":
-    {
+    "M": {
       "item": "projecte:dark_matter"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:dm_sword"
   }
 }

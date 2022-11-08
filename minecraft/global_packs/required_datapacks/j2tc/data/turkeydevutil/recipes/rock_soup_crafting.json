@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "b"
-  ],
+  "pattern": ["#", "b"],
   "key": {
     "#": {
       "tag": "forge:cobblestone"

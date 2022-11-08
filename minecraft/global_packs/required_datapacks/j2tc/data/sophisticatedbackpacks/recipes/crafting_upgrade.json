@@ -6,32 +6,22 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    " T ",
-    "IBI",
-    " C "
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": [" T ", "IBI", " C "],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "C":
-    {
+    "C": {
       "tag": "forge:chests"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "T":
-    {
+    "T": {
       "tag": "forge:workbenches"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:crafting_upgrade"
   }
 }

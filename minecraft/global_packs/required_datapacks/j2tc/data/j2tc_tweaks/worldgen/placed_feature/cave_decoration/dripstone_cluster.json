@@ -1,14 +1,11 @@
 {
   "feature": "minecraft:dripstone_cluster",
-  "placement":
-  [
+  "placement": [
     {
       "type": "minecraft:count",
-      "count":
-      {
+      "count": {
         "type": "minecraft:uniform",
-        "value":
-        {
+        "value": {
           "min_inclusive": 48,
           "max_inclusive": 96
         }
@@ -22,15 +19,12 @@
     },
     {
       "type": "minecraft:height_range",
-      "height":
-      {
+      "height": {
         "type": "minecraft:uniform",
-        "min_inclusive":
-        {
+        "min_inclusive": {
           "absolute": 5
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 685
         }
       }

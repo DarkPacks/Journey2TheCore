@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "create:brass_ingot"
-  ]
+  "values": ["create:brass_ingot"]
 }

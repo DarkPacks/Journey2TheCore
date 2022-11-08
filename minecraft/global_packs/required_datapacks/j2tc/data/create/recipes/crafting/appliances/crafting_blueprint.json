@@ -8,8 +8,7 @@
       "tag": "forge:workbenches"
     }
   ],
-  "result":
-  {
+  "result": {
     "item": "create:crafting_blueprint"
   }
 }

@@ -1,24 +1,20 @@
 {
-  "pools":
-  [
+  "pools": [
     {
       "name": "placebo_code_pool_19",
-      "rolls":
-      {
+      "rolls": {
         "min": 5.0,
         "max": 6.0,
         "type": "minecraft:uniform"
       },
-      "entries":
-      [
+      "entries": [
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/simple_dungeon",
           "weight": 100
         }
       ],
-      "bonus_rolls":
-      {
+      "bonus_rolls": {
         "min": 1.0,
         "max": 4.0
       }

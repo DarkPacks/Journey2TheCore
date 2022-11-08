@@ -280,9 +280,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "d503f5ec-69d7-4e7f-bfb6-9849ffaca63c"
-      ],
+      "prerequisites": ["d503f5ec-69d7-4e7f-bfb6-9849ffaca63c"],
       "optionlinks": [],
       "reward": [
         {

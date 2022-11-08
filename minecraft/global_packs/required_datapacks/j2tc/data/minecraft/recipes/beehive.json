@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "WWW",
-    "FFF",
-    "WWW"
-  ],
+  "pattern": ["WWW", "FFF", "WWW"],
   "key": {
     "F": {
       "item": "create:sail_frame"

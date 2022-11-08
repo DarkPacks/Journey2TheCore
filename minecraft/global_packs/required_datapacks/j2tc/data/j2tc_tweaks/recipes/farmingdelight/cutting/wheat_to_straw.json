@@ -5,8 +5,7 @@
       "item": "minecraft:wheat"
     }
   ],
-  "tool":
-  {
+  "tool": {
     "tag": "forge:tools/knives"
   },
   "result": [

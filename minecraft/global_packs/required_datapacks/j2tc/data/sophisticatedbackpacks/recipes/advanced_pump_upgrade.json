@@ -6,11 +6,7 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    "DID",
-    "GPG",
-    "RRR"
-  ],
+  "pattern": ["DID", "GPG", "RRR"],
   "key": {
     "I": {
       "item": "minecraft:dispenser"

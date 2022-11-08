@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "I can see clearly now!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/nightvision_potions",

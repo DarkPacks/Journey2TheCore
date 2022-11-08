@@ -13,11 +13,7 @@
       ],
       "recipe": {
         "type": "minecraft:crafting_shaped",
-        "pattern": [
-          "MGM",
-          "GSG",
-          "MGM"
-        ],
+        "pattern": ["MGM", "GSG", "MGM"],
         "key": {
           "M": {
             "tag": "forge:ingots/iron"

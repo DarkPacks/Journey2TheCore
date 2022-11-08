@@ -1,26 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "pc",
-    "rp"
-  ],
-  "key":
-  {
-    "c":
-    {
+  "pattern": ["pc", "rp"],
+  "key": {
+    "c": {
       "tag": "forge:workbenches"
     },
-    "r":
-    {
+    "r": {
       "item": "minecraft:redstone"
     },
-    "p":
-    {
+    "p": {
       "item": "minecraft:paper"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "rftoolsbase:crafting_card",
     "count": 8
   }

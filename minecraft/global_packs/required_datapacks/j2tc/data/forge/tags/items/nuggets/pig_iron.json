@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "tconstruct:pig_iron_nugget"
-  ]
+  "values": ["tconstruct:pig_iron_nugget"]
 }

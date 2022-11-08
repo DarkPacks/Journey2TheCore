@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " m",
-    "s "
-  ],
+  "pattern": [" m", "s "],
   "key": {
     "m": {
       "item": "minecraft:gold_ingot"

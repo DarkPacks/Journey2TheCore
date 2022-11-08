@@ -1,12 +1,9 @@
 {
   "condition": "minecraft:entity_properties",
   "entity": "this",
-  "predicate":
-  {
-    "equipment":
-    {
-      "mainhand":
-      {
+  "predicate": {
+    "equipment": {
+      "mainhand": {
         "nbt": "{tic_upgrades:[{name:\"tconstruct:silky\"}]}"
       }
     }

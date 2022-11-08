@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "alexsmobs:cooked_kangaroo_meat"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

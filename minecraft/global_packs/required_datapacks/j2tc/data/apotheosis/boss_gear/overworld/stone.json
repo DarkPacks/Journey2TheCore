@@ -1,124 +1,102 @@
 {
   "weight": 100,
-  "mainhands":
-  [
+  "mainhands": [
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:sword",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:dagger",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:kama",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:pickaxe",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:hand_axe",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:cleaver",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:scythe",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:broad_axe",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     },
     {
       "weight": 100,
-      "stack":
-      {
+      "stack": {
         "item": "tconstruct:mattock",
         "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
       }
     }
   ],
-  "offhands":
-  [],
-  "boots":
-  [
+  "offhands": [],
+  "boots": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_boots"
       }
     }
   ],
-  "leggings":
-  [
+  "leggings": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_leggings"
       }
     }
   ],
-  "chestplates":
-  [
+  "chestplates": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_chestplate"
       }
     }
   ],
-  "helmets":
-  [
+  "helmets": [
     {
       "weight": 1,
-      "stack":
-      {
+      "stack": {
         "item": "minecraft:leather_helmet"
       }
     }
   ],
-  "tags":
-  [
-    "overworld"
-  ]
+  "tags": ["overworld"]
 }

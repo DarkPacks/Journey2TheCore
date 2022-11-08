@@ -1,6 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "#forge:is_overworld"
-  ]
+  "values": ["#forge:is_overworld"]
 }

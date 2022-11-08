@@ -6,12 +6,10 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "input":
-  {
+  "input": {
     "item": "minecraft:apple"
   },
-  "output":
-  {
+  "output": {
     "item": "createcafe:blood_orange"
   },
   "upgradeLevel": 0,

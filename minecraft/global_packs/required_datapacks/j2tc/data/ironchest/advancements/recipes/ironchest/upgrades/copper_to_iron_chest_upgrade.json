@@ -13,9 +13,7 @@
       "advancement": {
         "parent": "minecraft:recipes/root",
         "rewards": {
-          "recipes": [
-            "ironchest:upgrades/copper_to_iron_chest_upgrade"
-          ]
+          "recipes": ["ironchest:upgrades/copper_to_iron_chest_upgrade"]
         },
         "criteria": {
           "has_item": {
@@ -35,12 +33,7 @@
             }
           }
         },
-        "requirements": [
-          [
-            "has_item",
-            "has_the_recipe"
-          ]
-        ]
+        "requirements": [["has_item", "has_the_recipe"]]
       }
     }
   ]

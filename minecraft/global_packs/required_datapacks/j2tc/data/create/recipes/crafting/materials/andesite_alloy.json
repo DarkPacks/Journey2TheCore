@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "BA",
-    "AB"
-  ],
+  "pattern": ["BA", "AB"],
   "key": {
     "A": {
       "item": "minecraft:andesite"

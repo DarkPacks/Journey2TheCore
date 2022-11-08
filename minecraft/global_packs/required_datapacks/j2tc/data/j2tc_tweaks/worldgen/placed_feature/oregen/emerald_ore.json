@@ -1,7 +1,6 @@
 {
   "feature": "j2tc_tweaks:oregen/emerald_ore",
-  "placement":
-  [
+  "placement": [
     {
       "count": 16,
       "type": "minecraft:count"
@@ -13,14 +12,11 @@
       "type": "minecraft:in_square"
     },
     {
-      "height":
-      {
-        "min_inclusive":
-        {
+      "height": {
+        "min_inclusive": {
           "absolute": 397
         },
-        "max_inclusive":
-        {
+        "max_inclusive": {
           "absolute": 528
         },
         "type": "minecraft:uniform"

@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "Pane in the Glass!"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/glass_panes",

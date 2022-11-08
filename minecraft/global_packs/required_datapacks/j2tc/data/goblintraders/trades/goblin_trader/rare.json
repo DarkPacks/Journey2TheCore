@@ -1,16 +1,13 @@
 {
   "replace": true,
-  "trades":
-  [
+  "trades": [
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:copper_ingot",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_copper",
         "count": 1
       },
@@ -20,13 +17,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:iron_ingot",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_iron",
         "count": 1
       },
@@ -36,13 +31,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:gold_ingot",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_gold",
         "count": 1
       },
@@ -52,13 +45,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:experience_bottle",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 3
       },
@@ -68,18 +59,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:name_tag",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 24
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:paper",
         "count": 8
       },
@@ -89,13 +77,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:blue_ice",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:packed_ice",
         "count": 4
       },
@@ -105,13 +91,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_cat",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -121,13 +105,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_blocks",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -137,13 +119,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_chirp",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -153,13 +133,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_mellohi",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -169,13 +147,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:music_disc_stal",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 32
       },
@@ -185,13 +161,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lanyard",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 20
       },
@@ -201,14 +175,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set1",
         "count": 1
       },
@@ -218,14 +190,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set2",
         "count": 1
       },
@@ -235,14 +205,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set3",
         "count": 1
       },
@@ -252,14 +220,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set4",
         "count": 1
       },
@@ -269,14 +235,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set5",
         "count": 1
       },
@@ -286,14 +250,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set6",
         "count": 1
       },
@@ -303,14 +265,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set7",
         "count": 1
       },
@@ -320,14 +280,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set8",
         "count": 1
       },
@@ -337,14 +295,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set9",
         "count": 1
       },
@@ -354,14 +310,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set10",
         "count": 1
       },
@@ -371,14 +325,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set11",
         "count": 1
       },
@@ -388,14 +340,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set12",
         "count": 1
       },
@@ -405,14 +355,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set13",
         "count": 1
       },
@@ -422,14 +370,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set14",
         "count": 1
       },
@@ -439,14 +385,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:good_bags\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "buddycards:buddycard_mob_test_set15",
         "count": 1
       },
@@ -456,14 +400,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:honey_bottle",
         "count": 2
       },
@@ -473,18 +415,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "factinventory:inventory_furnace",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
@@ -494,13 +433,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "hardcorequesting:quarterheart",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "bhc:red_heart",
         "count": 1
       },
@@ -510,13 +447,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "hardcorequesting:halfheart",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "bhc:yellow_heart",
         "count": 1
       },
@@ -526,13 +461,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "hardcorequesting:threequartsheart",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "bhc:green_heart",
         "count": 1
       },
@@ -542,13 +475,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "hardcorequesting:heart",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "bhc:blue_heart",
         "count": 1
       },
@@ -558,14 +489,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:book",
         "count": 1,
         "nbt": "{display:{Name:'{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:glowing\"}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:glowstone_dust",
         "count": 64
       },
@@ -575,14 +504,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:book",
         "count": 1
       },
@@ -592,14 +519,12 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "treasurebags:treasure_bag",
         "count": 1,
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:apotheosis_gem\"}}"
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 18
       },
@@ -609,13 +534,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "apotheosis:sigil_of_socketing",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 28
       },

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "DRD",
-    "III"
-  ],
+  "pattern": ["III", "DRD", "III"],
   "key": {
     "D": {
       "item": "minecraft:dropper"

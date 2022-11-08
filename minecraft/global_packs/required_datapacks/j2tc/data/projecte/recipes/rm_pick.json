@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "RRR",
-    " P ",
-    " M "
-  ],
-  "key":
-  {
-    "R":
-    {
+  "pattern": ["RRR", " P ", " M "],
+  "key": {
+    "R": {
       "item": "projecte:red_matter"
     },
-    "M":
-    {
+    "M": {
       "item": "projecte:klein_star_omega"
     },
-    "P":
-    {
+    "P": {
       "item": "projecte:dm_pick"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:rm_pick"
   }
 }

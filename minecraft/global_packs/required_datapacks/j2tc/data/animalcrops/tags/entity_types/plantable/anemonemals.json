@@ -1,6 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "#animalcrops:droppable/anemonemals"
-  ]
+  "values": ["#animalcrops:droppable/anemonemals"]
 }

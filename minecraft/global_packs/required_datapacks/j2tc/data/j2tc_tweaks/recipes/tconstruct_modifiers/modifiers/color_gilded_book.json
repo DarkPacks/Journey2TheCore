@@ -7,12 +7,10 @@
       "nbt": "{display:{Name:'{\"text\":\"Modifier: Color\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:color_gilded\"}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/armor/helmets"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:color_gilded",
     "level": 1
   }

@@ -5,8 +5,7 @@
       "item": "tconstruct:crafting_station"
     }
   ],
-  "result":
-  {
+  "result": {
     "item": "minecraft:crafting_table"
   }
 }

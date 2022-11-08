@@ -1,7 +1,6 @@
 {
   "group": "idk",
-  "displayName":
-  {
+  "displayName": {
     "text": "This is totally useful"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/lightning_rod",

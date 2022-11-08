@@ -3,35 +3,27 @@
   "inputs": [
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set1"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set1"],
       "nbt": "{foil:1b}"
     },
     {
       "type": "forge:partial_nbt",
-      "items": [
-        "buddycards:buddycard_mob_test_set2"
-      ],
+      "items": ["buddycards:buddycard_mob_test_set2"],
       "nbt": "{foil:1b}"
     }
   ],
-  "tools":
-  {
+  "tools": {
     "tag": "tconstruct:modifiable/unarmed"
   },
-  "slots":
-  {
+  "slots": {
     "upgrades": 1
   },
-  "requirements":
-  {
+  "requirements": {
     "name": "tconstruct:unarmed",
     "level": 1,
     "error": "recipe.tconstruct.modifier.unarmed"
   },
-  "result":
-  {
+  "result": {
     "name": "tconstruct:sharpness",
     "level": 1
   },

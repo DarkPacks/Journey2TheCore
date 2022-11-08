@@ -1,11 +1,9 @@
 {
   "type": "spoiled:spoil_recipe",
-  "ingredient":
-  {
+  "ingredient": {
     "item": "farmersdelight:fruit_salad"
   },
-  "result":
-  {
+  "result": {
     "item": "thermal:compost"
   }
 }

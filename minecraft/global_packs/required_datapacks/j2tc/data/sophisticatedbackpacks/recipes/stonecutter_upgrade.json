@@ -6,32 +6,22 @@
       "type": "sophisticatedcore:item_enabled"
     }
   ],
-  "pattern": [
-    " S ",
-    "IBI",
-    " R "
-  ],
-  "key":
-  {
-    "B":
-    {
+  "pattern": [" S ", "IBI", " R "],
+  "key": {
+    "B": {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
-    "R":
-    {
+    "R": {
       "item": "minecraft:stone_brick_stairs"
     },
-    "I":
-    {
+    "I": {
       "tag": "forge:ingots/copper"
     },
-    "S":
-    {
+    "S": {
       "item": "minecraft:stonecutter"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "sophisticatedbackpacks:stonecutter_upgrade"
   }
 }

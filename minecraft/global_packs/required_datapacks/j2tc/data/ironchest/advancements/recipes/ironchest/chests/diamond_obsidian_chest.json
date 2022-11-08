@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "ironchest:chests/diamond_obsidian_chest"
-    ]
+    "recipes": ["ironchest:chests/diamond_obsidian_chest"]
   },
   "criteria": {
     "has_obsidian": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:obsidian"
-            ]
+            "items": ["minecraft:obsidian"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_obsidian",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_obsidian", "has_the_recipe"]]
 }

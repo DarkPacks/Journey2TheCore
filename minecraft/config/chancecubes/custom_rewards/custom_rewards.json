@@ -793,7 +793,6 @@
       }
     ]
   },
-
   "Patterns": {
     "chance": 0,
     "Message": [
@@ -997,7 +996,6 @@
       }
     ]
   },
-
   "apotheosis_gem": {
     "chance": 0,
     "Command": [

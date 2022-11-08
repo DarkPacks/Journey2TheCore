@@ -1,10 +1,6 @@
 {
   "type": "crafting_shaped",
-  "pattern": [
-    "S S",
-    "GHG",
-    " G "
-  ],
+  "pattern": ["S S", "GHG", " G "],
   "key": {
     "S": {
       "tag": "forge:string"

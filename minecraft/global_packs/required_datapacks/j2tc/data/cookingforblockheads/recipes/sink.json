@@ -3,11 +3,7 @@
     "item": "cookingforblockheads:sink"
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    "CBC",
-    "CCC"
-  ],
+  "pattern": ["III", "CBC", "CCC"],
   "key": {
     "I": {
       "tag": "forge:ingots/iron"

@@ -1,6 +1,3 @@
 {
-  "values": [
-    "minecraft:basalt",
-    "minecraft:blackstone"
-  ]
+  "values": ["minecraft:basalt", "minecraft:blackstone"]
 }

@@ -1,35 +1,35 @@
 
-#General settings
-[General]
-	#The delay between torch ticks [Default: 60]
-	#Range: > 1
-	torchTickDelay = 60
-	#Make the torch ticking completely random [Default: false]
-	randomTicking = false
-	#Enable Torches setting flammable blocks on fire [Default: true]
-	enableTorch = true
-	#Enable Torches setting flammable blocks on fire [Default: true]
-	enableSoulTorch = true
-	#The delay between soul torch ticks [Default: 60]
-	#Range: > 1
-	soulTorchTickDelay = 60
-	#Make the soul torch ticking completely random [Default: false]
-	randomSoulTicking = false
-	#Enable Campfires setting flammable blocks on fire [Default: true]
-	enableCampfire = true
-	#The delay between campfire ticks [Default: 60]
-	#Range: > 1
-	campfireTickDelay = 60
-	#Enable Soul Campfires setting flammable blocks on fire [Default: true]
-	enableSoulCampfire = true
-	#The delay between soul campfire ticks [Default: 60]
-	#Range: > 1
-	soulCampfireTickDelay = 60
-	#Enable Candles setting flammable blocks on fire [Default: true]
-	enableCandles = true
-	#The delay between candle ticks [Default: 60]
-	#Range: > 1
-	candleTickDelay = 60
-	#Make the candle ticking completely random [Default: false]
-	randomCandleTicking = false
+# General settings
+[ General ]
+  # The delay between torch ticks [Default: 60]
+  # Range: > 1
+  torchTickDelay = 60
+  # Make the torch ticking completely random [Default: false]
+  randomTicking = false
+  # Enable Torches setting flammable blocks on fire [Default: true]
+  enableTorch = true
+  # Enable Torches setting flammable blocks on fire [Default: true]
+  enableSoulTorch = true
+  # The delay between soul torch ticks [Default: 60]
+  # Range: > 1
+  soulTorchTickDelay = 60
+  # Make the soul torch ticking completely random [Default: false]
+  randomSoulTicking = false
+  # Enable Campfires setting flammable blocks on fire [Default: true]
+  enableCampfire = true
+  # The delay between campfire ticks [Default: 60]
+  # Range: > 1
+  campfireTickDelay = 60
+  # Enable Soul Campfires setting flammable blocks on fire [Default: true]
+  enableSoulCampfire = true
+  # The delay between soul campfire ticks [Default: 60]
+  # Range: > 1
+  soulCampfireTickDelay = 60
+  # Enable Candles setting flammable blocks on fire [Default: true]
+  enableCandles = true
+  # The delay between candle ticks [Default: 60]
+  # Range: > 1
+  candleTickDelay = 60
+  # Make the candle ticking completely random [Default: false]
+  randomCandleTicking = false
 

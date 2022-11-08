@@ -1,22 +1,16 @@
 {
   "type": "minecraft:random_patch",
-  "config":
-  {
+  "config": {
     "tries": 4,
     "xz_spread": 3,
     "y_spread": 0,
-    "feature":
-    {
-      "feature":
-      {
+    "feature": {
+      "feature": {
         "type": "minecraft:simple_block",
-        "config":
-        {
-          "to_place":
-          {
+        "config": {
+          "to_place": {
             "type": "minecraft:simple_state_provider",
-            "state":
-            {
+            "state": {
               "Name": "scraps:scrap_bones"
             }
           }
@@ -25,12 +19,9 @@
       "placement": [
         {
           "type": "minecraft:block_predicate_filter",
-          "predicate":
-          {
+          "predicate": {
             "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air"
-            ]
+            "blocks": ["minecraft:air"]
           }
         }
       ]

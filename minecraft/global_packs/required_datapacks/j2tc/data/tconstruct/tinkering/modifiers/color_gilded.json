@@ -2,7 +2,5 @@
   "type": "tconstruct:stat_boost",
   "level_display": "tconstruct:no_levels",
   "rarity": "epic",
-  "flags": [
-    "tconstruct:shiny"
-  ]
+  "flags": ["tconstruct:shiny"]
 }

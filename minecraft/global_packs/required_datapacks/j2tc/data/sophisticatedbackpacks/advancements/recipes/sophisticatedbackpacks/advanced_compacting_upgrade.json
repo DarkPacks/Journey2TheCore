@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "sophisticatedbackpacks:advanced_compacting_upgrade"
-    ]
+    "recipes": ["sophisticatedbackpacks:advanced_compacting_upgrade"]
   },
   "criteria": {
     "has_compacting_upgrade": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "sophisticatedbackpacks:compacting_upgrade"
-            ]
+            "items": ["sophisticatedbackpacks:compacting_upgrade"]
           }
         ]
       }
@@ -25,10 +21,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_compacting_upgrade",
-      "has_the_recipe"
-    ]
-  ]
+  "requirements": [["has_compacting_upgrade", "has_the_recipe"]]
 }

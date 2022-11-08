@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "rsr",
-    "sts",
-    "rsr"
-  ],
+  "pattern": ["rsr", "sts", "rsr"],
   "key": {
     "s": {
       "item": "minecraft:stone"

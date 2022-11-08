@@ -1,19 +1,12 @@
 {
   "weight": 50,
   "quality": 2.5,
-  "stages":
-  [
-    "quest_3"
-  ],
-  "stack":
-  {
+  "stages": ["quest_3"],
+  "stack": {
     "item": "minecraft:trident"
   },
   "type": "TRIDENT",
   "min_rarity": "common",
   "max_rarity": "rare",
-  "dimensions":
-  [
-    "minecraft:overworld"
-  ]
+  "dimensions": ["minecraft:overworld"]
 }

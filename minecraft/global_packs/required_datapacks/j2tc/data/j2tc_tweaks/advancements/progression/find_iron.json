@@ -1,16 +1,12 @@
 {
-  "display":
-  {
-    "icon":
-    {
+  "display": {
+    "icon": {
       "item": "minecraft:nether_bricks"
     },
-    "title":
-    {
+    "title": {
       "translate": "Find Copper Ingot"
     },
-    "description":
-    {
+    "description": {
       "translate": "Find Iron Ingot activate quest_3 gamestage"
     },
     "frame": "task",
@@ -19,30 +15,23 @@
     "hidden": false
   },
   "parent": "j2tc_tweaks:progression/root",
-  "criteria":
-  {
-    "requirement":
-    {
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
-      "conditions":
-      {
+      "conditions": {
         "player": [
           {
             "condition": "minecraft:entity_scores",
             "entity": "this",
-            "scores":
-            {
+            "scores": {
               "quest_2": 1
             }
           }
         ],
         "items": [
           {
-            "items": [
-              "minecraft:iron_ingot"
-            ],
-            "count":
-            {
+            "items": ["minecraft:iron_ingot"],
+            "count": {
               "min": 1,
               "max": 64
             }
@@ -51,8 +40,7 @@
       }
     }
   },
-  "rewards":
-  {
+  "rewards": {
     "function": "j2tc_tweaks:stages/quest_3"
   }
 }

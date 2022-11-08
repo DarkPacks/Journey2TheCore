@@ -1,9 +1,7 @@
 {
   "type": "minecraft:fill_layer",
-  "config":
-  {
-    "state":
-    {
+  "config": {
+    "state": {
       "Name": "cobblestoney:granite_red"
     },
     "height": 196

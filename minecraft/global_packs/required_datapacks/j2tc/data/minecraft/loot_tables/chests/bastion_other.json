@@ -149,9 +149,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "enchantments": ["minecraft:soul_speed"]
             }
           ],
           "name": "minecraft:book"
@@ -208,9 +206,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "enchantments": ["minecraft:soul_speed"]
             }
           ],
           "name": "minecraft:golden_boots"

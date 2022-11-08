@@ -3,11 +3,7 @@
     "item": "cookingforblockheads:cooking_table"
   },
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "CBC",
-    "CCC"
-  ],
+  "pattern": ["SSS", "CBC", "CCC"],
   "key": {
     "S": {
       "tag": "forge:stone"

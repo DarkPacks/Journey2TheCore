@@ -1,20 +1,22 @@
 {
   "type": "cyclic:solidifier",
-  "ingredients":[ {
-    "tag": "forge:cobblestone"
-  },
-  {
-    "tag": "forge:cobblestone"
-  },
-   {
-    "tag": "forge:cobblestone"
-  }],
+  "ingredients": [
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    }
+  ],
   "mix": {
     "fluid": "tconstruct:blazing_blood",
     "count": 800
   },
   "result": {
     "item": "minecraft:obsidian",
-	"count": 1
+    "count": 1
   }
 }

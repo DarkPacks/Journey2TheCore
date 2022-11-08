@@ -1,6 +1,4 @@
 {
   "replace": true,
-  "values": [
-    "create:brass_block"
-  ]
+  "values": ["create:brass_block"]
 }

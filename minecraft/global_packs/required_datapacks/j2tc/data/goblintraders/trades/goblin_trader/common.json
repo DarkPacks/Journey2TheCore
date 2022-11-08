@@ -3,13 +3,11 @@
   "trades": [
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:apple",
         "count": 8
       },
@@ -19,13 +17,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "tconstruct:pattern",
         "count": 16
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:string",
         "count": 8
       },
@@ -35,13 +31,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:iron_ingot",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_iron",
         "count": 1
       },
@@ -51,13 +45,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:copper_ingot",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:raw_copper",
         "count": 1
       },
@@ -67,13 +59,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:coal",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:rotten_flesh",
         "count": 4
       },
@@ -83,13 +73,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:flint",
         "count": 2
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:gravel",
         "count": 1
       },
@@ -99,13 +87,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:flint",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:gravel",
         "count": 1
       },
@@ -115,13 +101,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:cobblestone",
         "count": 32
       },
@@ -131,13 +115,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "minecraft:leather",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "turkeydevutil:cookie",
         "count": 4
       },
@@ -147,18 +129,15 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "factinventory:slow_inventory_hopper",
         "count": 1
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
-      "secondary_payment_item":
-      {
+      "secondary_payment_item": {
         "item": "minecraft:player_head",
         "count": 1
       },
@@ -168,13 +147,11 @@
     },
     {
       "type": "goblintraders:basic",
-      "offer_item":
-      {
+      "offer_item": {
         "item": "turkeydevutil:lime",
         "count": 4
       },
-      "payment_item":
-      {
+      "payment_item": {
         "item": "create:limestone",
         "count": 16
       },

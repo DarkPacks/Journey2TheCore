@@ -1,27 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "DOD",
-    "OSO",
-    "DOD"
-  ],
-  "key":
-  {
-    "D":
-    {
+  "pattern": ["DOD", "OSO", "DOD"],
+  "key": {
+    "D": {
       "item": "compressium:coal_4"
     },
-    "S":
-    {
+    "S": {
       "item": "minecraft:glow_ink_sac"
     },
-    "O":
-    {
+    "O": {
       "item": "projecte:dark_matter"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "projecte:gem_of_eternal_density"
   }
 }
