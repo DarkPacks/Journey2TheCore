@@ -1,0 +1,7 @@
+
+[ MinecraftServer ]
+  # Chunk Distance as used by ServerChunkCache->addRegionTicket() (0 = skip generating chunks, 11 = vanilla)
+  # Actual logic used: ((chunkDistance * 2) - 1) ^ 2 = totalChunkCount, taking vanilla as a example: ((11 * 2) - 1) ^ 2 = 441 chunks
+  # Range: 0 ~ 32
+  chunkDistance = 0
+

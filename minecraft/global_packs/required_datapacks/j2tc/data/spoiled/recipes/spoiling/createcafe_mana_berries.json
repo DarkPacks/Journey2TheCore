@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "createcafe:mana_berries"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

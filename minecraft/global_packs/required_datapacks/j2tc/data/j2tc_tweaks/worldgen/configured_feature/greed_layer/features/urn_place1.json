@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 4,
+    "xz_spread": 0,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:green_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:brown_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:white_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:gray_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:light_gray_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:blue_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:cyan_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:light_blue_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:red_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:orange_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:yellow_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:pink_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:magenta_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:purple_urn"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lime_urn"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": ["minecraft:air"]
+          }
+        }
+      ]
+    }
+  }
+}

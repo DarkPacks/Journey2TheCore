@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Extra Lives??????"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/bad_hqm_hearts",
+  "rarity": "uncommon",
+  "bagColor": "#ff0000",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

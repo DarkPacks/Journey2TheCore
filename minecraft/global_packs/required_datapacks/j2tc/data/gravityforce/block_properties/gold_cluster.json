@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:gold_cluster",
+  "dropBlock": "geore:small_gold_bud",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:glowstone"
+}

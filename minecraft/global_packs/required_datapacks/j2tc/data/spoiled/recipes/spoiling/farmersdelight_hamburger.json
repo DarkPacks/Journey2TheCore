@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:hamburger"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

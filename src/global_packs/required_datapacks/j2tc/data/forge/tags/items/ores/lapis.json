@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:lapis_ores",
-    "elementaryores:ore_lapis_nether",
-    "elementaryores:ore_lapis_end",
-    "turkeydevutil:greed_lapis_ore"
-  ]
-}

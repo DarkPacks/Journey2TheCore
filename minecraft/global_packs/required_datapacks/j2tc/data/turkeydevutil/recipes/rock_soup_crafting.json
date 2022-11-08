@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["#", "b"],
+  "key": {
+    "#": {
+      "tag": "forge:cobblestone"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "turkeydevutil:rock_soup"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "cobblestoney:diorite_cobbled"
+    },
+    {
+      "item": "cobblestoney:diorite_cobbled"
+    }
+  ],
+  "value": 1,
+  "needed": 1,
+  "material": "tconstruct:rock#diorite"
+}

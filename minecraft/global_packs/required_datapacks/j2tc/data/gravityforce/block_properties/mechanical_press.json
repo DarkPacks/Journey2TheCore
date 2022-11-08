@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:mechanical_press",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

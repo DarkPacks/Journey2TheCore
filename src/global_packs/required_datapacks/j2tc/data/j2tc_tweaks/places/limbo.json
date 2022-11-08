@@ -1,9 +1,0 @@
-{
-  "type": "youarehere:y_level",
-  "soundLocation": "cyclic:chaos_reaper",
-  "title": "Oblivion",
-  "subtitle": "Betwixt the Gates",
-  "minY": 529,
-  "maxY": 688,
-  "dimension": "minecraft:overworld"
-}

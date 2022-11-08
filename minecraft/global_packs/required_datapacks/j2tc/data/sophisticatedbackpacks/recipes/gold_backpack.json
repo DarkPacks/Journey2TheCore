@@ -1,0 +1,24 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": ["GEG", "EBE", "GEG"],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/bronze"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

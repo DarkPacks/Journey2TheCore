@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "I can see clearly now!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/nightvision_potions",
+  "rarity": "uncommon",
+  "bagColor": "#ffbaba",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

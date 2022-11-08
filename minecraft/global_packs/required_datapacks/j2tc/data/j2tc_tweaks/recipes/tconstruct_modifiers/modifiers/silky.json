@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:nbt",
+      "item": "turkeydevutil:book",
+      "nbt": "{display:{Name:'{\"text\":\"Modifier: Silk Touch\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:silky\"}"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/harvest"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "result": {
+    "name": "tconstruct:silky",
+    "level": 1
+  },
+  "max_level": 1
+}

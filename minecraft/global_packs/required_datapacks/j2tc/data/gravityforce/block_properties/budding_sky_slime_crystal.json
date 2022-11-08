@@ -1,0 +1,7 @@
+{
+  "blockLocation": "tconstruct:budding_sky_slime_crystal",
+  "dropBlock": "tconstruct:sky_slime_crystal_block",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

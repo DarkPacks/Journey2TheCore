@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:monster_room",
+  "placement": [
+    {
+      "count": 20,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 265
+        },
+        "max_inclusive": {
+          "absolute": 680
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1666899950432,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5RkAcZIQn3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1666378924498,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eb0wyMHeh1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1666377518267,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tRqATKbEge"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1665793319512,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OASsHkpBKA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkosto",
+      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
+    },
+    "time": 1663979379790,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/or0WyFIkfS"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:nbt",
+      "item": "turkeydevutil:book",
+      "nbt": "{display:{Name:'{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:revitalizing\"}"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/armor/helmets"
+    },
+    {
+      "tag": "tconstruct:modifiable/armor/boots"
+    }
+  ],
+  "slots": {
+    "defense": 1
+  },
+  "result": {
+    "name": "tconstruct:revitalizing",
+    "level": 1
+  },
+  "max_level": 2
+}

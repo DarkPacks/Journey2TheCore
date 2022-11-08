@@ -1,0 +1,326 @@
+{
+  "profession": "farmer",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "farmersdelight:tomato_seeds",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:sweet_berries",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "turkeydevutil:lime_seeds",
+        "amount": 8,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:beetroot_seeds",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:wheat_seeds",
+        "amount": 3,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:melon_seeds",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:pumpkin_seeds",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:carrot",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potato",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:spruce_sapling",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:oak_sapling",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cabbage_seeds",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:jungle_sapling",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:birch_sapling",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:acacia_sapling",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:dark_oak_sapling",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 16,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "minecraft:wheat",
+        "amount": 32,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 16,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "minecraft:wheat",
+        "amount": 32,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 16,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "create:tree_fertilizer",
+        "amount": 16,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 24,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0.0
+      },
+      "request": {
+        "itemKey": "farmersdelight:mixed_salad",
+        "amount": 4,
+        "priceModifier": 0.0
+      },
+      "tradeExp": 6,
+      "maxUses": 16,
+      "priceMultiplier": 0.0,
+      "tradeLevel": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "feature": "j2tc_tweaks:snow_features/iceberg_blue",
+  "placement": [
+    {
+      "chance": 50,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

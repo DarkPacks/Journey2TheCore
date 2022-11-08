@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Another Brick in the Wall"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/walls",
+  "rarity": "uncommon",
+  "bagColor": "#666666",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

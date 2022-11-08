@@ -1,9 +1,0 @@
-
-#Generation settings
-[Generation]
-	#The Y level it'll try to generate ship wrecks at [default: -20]
-	#Range: > -2147483648
-	yLevel = 1
-	#Overwrite the default yLevel with the y level specified in 'yLevel' [default: false]
-	overwriteYLevel = true
-

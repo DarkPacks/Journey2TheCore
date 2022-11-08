@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "thermal:niter"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:niter_dust",
+      "count": 1
+    }
+  ],
+  "processingTime": 150
+}

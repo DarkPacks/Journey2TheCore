@@ -1,0 +1,51 @@
+{
+  "configs": [
+    {
+      "types": {
+        "message": [
+          {
+            "name": "UUID Test",
+            "conditions": [
+              {
+                "username": "darkosto",
+                "type": "user"
+              },
+              {
+                "phrase": "test",
+                "type": "message"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown 5 (Random Color)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "-1"
+          },
+          {
+            "name": "Listen for Chat Name Colors",
+            "conditions": [],
+            "outcomes": [
+              {
+                "noteName": "$name",
+                "noteContent": "$color",
+                "type": "note",
+                "displayName": "Commit Name Color to Notes File"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "for": "twitch"
+    },
+    {
+      "types": {},
+      "for": "youtube"
+    }
+  ],
+  "init": [],
+  "type": "chat"
+}

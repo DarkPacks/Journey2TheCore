@@ -1,0 +1,15 @@
+{
+  "values": [
+    "tconstruct:sky_slime_crystal_cluster",
+    "tconstruct:ender_slime_crystal_cluster",
+    "minecraft:amethyst_cluster",
+    "geore:coal_cluster",
+    "geore:diamond_cluster",
+    "geore:emerald_cluster",
+    "geore:lapis_cluster",
+    "geore:redstone_cluster",
+    "geore:quartz_cluster",
+    "tconstruct:earth_slime_crystal_cluster",
+    "tconstruct:ichor_slime_crystal_cluster"
+  ]
+}

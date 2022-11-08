@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "It's Tool Time!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/toolbox",
+  "rarity": "uncommon",
+  "bagColor": "#d4ce33",
+  "bagOverlayColor": "#3cde2a",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

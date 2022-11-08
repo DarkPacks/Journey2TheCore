@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "createcafe:blood_orange"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

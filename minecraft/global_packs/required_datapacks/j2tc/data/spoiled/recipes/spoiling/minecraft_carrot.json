@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

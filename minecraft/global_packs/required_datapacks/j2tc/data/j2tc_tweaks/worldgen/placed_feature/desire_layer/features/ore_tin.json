@@ -1,0 +1,27 @@
+{
+  "feature": "j2tc_tweaks:desire_layer/features/ore_tin",
+  "placement": [
+    {
+      "count": 16,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 400
+        },
+        "max_inclusive": {
+          "absolute": 525
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

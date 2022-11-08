@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:water_wheel",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

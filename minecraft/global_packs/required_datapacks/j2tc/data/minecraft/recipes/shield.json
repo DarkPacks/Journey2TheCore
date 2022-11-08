@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["WoW", "WWW", " W "],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "o": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield"
+  }
+}

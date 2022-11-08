@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:diorite",
+  "dropBlock": "cobblestoney:diorite_cobbled",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

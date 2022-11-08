@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:cabbage_leaf"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

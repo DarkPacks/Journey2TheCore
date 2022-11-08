@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_base24"],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "result": {
+    "name": "tconstruct:knockback",
+    "level": 1
+  },
+  "max_level": 5
+}

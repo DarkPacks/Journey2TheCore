@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "I'm your biggest fan!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/fan",
+  "rarity": "uncommon",
+  "bagColor": "#ffbaba",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

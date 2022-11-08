@@ -1,7 +1,0 @@
-{
-  "blockLocation": "thermal:nickel_ore",
-  "dropBlock": "minecraft:cobblestone",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

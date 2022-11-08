@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["111", "111", "111"],
+  "key": {
+    "1": {
+      "item": "compressium:coal_8"
+    }
+  },
+  "result": {
+    "item": "turkeydevutil:condensed_core"
+  }
+}

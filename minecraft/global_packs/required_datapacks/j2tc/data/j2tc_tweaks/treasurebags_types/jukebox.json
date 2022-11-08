@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Jukebox Hero!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/jukebox",
+  "rarity": "uncommon",
+  "bagColor": "#ff0000",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

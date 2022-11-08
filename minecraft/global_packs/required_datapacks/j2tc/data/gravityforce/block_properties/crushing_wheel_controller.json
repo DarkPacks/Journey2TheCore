@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:crushing_wheel_controller",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:none"
+}

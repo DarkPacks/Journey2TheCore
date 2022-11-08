@@ -1,6 +1,0 @@
-{
-  "zombies_attack_kobolds": false,
-  "illagers_attack_kobolds": false,
-  "villagers_avoid_kobolds": true,
-  "kobold_breed_item": "DIAMOND"
-}

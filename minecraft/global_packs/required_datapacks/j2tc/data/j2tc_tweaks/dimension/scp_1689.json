@@ -1,0 +1,12 @@
+{
+  "type": "j2tc_tweaks:scp_1689",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": "j2tc_tweaks:scp_1689",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "j2tc_tweaks:scp_1689"
+    }
+  }
+}

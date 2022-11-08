@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "createcafe:oreo_half"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["M", "D", "D"],
+  "key": {
+    "D": {
+      "item": "projecte:klein_star_vier"
+    },
+    "M": {
+      "item": "projecte:dark_matter"
+    }
+  },
+  "result": {
+    "item": "projecte:dm_shovel"
+  }
+}

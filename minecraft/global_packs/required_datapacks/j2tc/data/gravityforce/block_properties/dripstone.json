@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:dripstone_block",
+  "dropBlock": "cobblestoney:dripstone_cobbled",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

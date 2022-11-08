@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "createcafe:coffee_fruit"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

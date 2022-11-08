@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_bricks"
+    },
+    "title": {
+      "translate": "Find Oak Saplings"
+    },
+    "description": {
+      "translate": "Find Oak Saplings for quest_1"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "j2tc_tweaks:progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:oak_sapling"],
+            "count": {
+              "min": 4,
+              "max": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "j2tc_tweaks:stages/quest_1"
+  }
+}

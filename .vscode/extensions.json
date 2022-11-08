@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "arcensoth.language-mcfunction",
+    "bungcip.better-toml",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-json5"
+  ]
+}

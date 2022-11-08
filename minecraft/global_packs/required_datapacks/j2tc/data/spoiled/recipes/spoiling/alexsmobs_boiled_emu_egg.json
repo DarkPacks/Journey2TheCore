@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "alexsmobs:boiled_emu_egg"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

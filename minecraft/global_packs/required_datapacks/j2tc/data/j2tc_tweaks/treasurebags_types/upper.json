@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "It Goes Up!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/upper",
+  "rarity": "uncommon",
+  "bagColor": "#40311f",
+  "bagOverlayColor": "#dbd800",
+  "bagStringColor": "#e6e229",
+  "dropsFromGroups": []
+}

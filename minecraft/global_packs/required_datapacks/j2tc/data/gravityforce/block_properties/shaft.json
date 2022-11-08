@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:shaft",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

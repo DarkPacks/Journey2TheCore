@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:andesite",
+  "dropBlock": "cobblestoney:andesite_cobbled",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

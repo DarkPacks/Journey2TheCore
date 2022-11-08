@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:glow_berry_custard"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

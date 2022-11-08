@@ -1,0 +1,27 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": ["EIE", "IPI", " M "],
+  "key": {
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "I": {
+      "tag": "forge:ingots/copper"
+    },
+    "M": {
+      "item": "pickletweaks:magnet"
+    },
+    "P": {
+      "item": "sophisticatedbackpacks:pickup_upgrade"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:magnet_upgrade"
+  }
+}

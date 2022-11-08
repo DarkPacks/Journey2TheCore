@@ -1,0 +1,10 @@
+{
+  "stats": {
+    "tconstruct:head": {
+      "durability": 210,
+      "miningSpeed": 7,
+      "harvestTier": "cyclic:copper",
+      "attack": 1.5
+    }
+  }
+}

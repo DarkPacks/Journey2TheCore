@@ -1,0 +1,94 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": [
+        "buddycards:buddycard_mob_test_set1",
+        "buddycards:buddycard_mob_test_set2",
+        "buddycards:buddycard_mob_test_set3",
+        "buddycards:buddycard_mob_test_set4",
+        "buddycards:buddycard_mob_test_set5",
+        "buddycards:buddycard_mob_test_set6",
+        "buddycards:buddycard_mob_test_set7",
+        "buddycards:buddycard_mob_test_set8",
+        "buddycards:buddycard_mob_test_set9",
+        "buddycards:buddycard_mob_test_set10",
+        "buddycards:buddycard_mob_test_set11",
+        "buddycards:buddycard_mob_test_set12",
+        "buddycards:buddycard_mob_test_set13",
+        "buddycards:buddycard_mob_test_set14",
+        "buddycards:buddycard_mob_test_set15",
+        "buddycards:buddycard_mob_test_set16",
+        "buddycards:buddycard_mob_test_set17",
+        "buddycards:buddycard_mob_test_set18",
+        "buddycards:buddycard_mob_test_set19",
+        "buddycards:buddycard_mob_test_set20",
+        "buddycards:buddycard_mob_test_set21"
+      ],
+      "nbt": "{foil:1b}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "items": [
+        "buddycards:buddycard_mob_test_set1",
+        "buddycards:buddycard_mob_test_set2",
+        "buddycards:buddycard_mob_test_set3",
+        "buddycards:buddycard_mob_test_set4",
+        "buddycards:buddycard_mob_test_set5",
+        "buddycards:buddycard_mob_test_set6",
+        "buddycards:buddycard_mob_test_set7",
+        "buddycards:buddycard_mob_test_set8",
+        "buddycards:buddycard_mob_test_set9",
+        "buddycards:buddycard_mob_test_set10",
+        "buddycards:buddycard_mob_test_set11",
+        "buddycards:buddycard_mob_test_set12",
+        "buddycards:buddycard_mob_test_set13",
+        "buddycards:buddycard_mob_test_set14",
+        "buddycards:buddycard_mob_test_set15",
+        "buddycards:buddycard_mob_test_set16",
+        "buddycards:buddycard_mob_test_set17",
+        "buddycards:buddycard_mob_test_set18",
+        "buddycards:buddycard_mob_test_set19",
+        "buddycards:buddycard_mob_test_set20",
+        "buddycards:buddycard_mob_test_set21"
+      ],
+      "nbt": "{foil:1b}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "items": [
+        "buddycards:buddycard_mob_test_set1",
+        "buddycards:buddycard_mob_test_set2",
+        "buddycards:buddycard_mob_test_set3",
+        "buddycards:buddycard_mob_test_set4",
+        "buddycards:buddycard_mob_test_set5",
+        "buddycards:buddycard_mob_test_set6",
+        "buddycards:buddycard_mob_test_set7",
+        "buddycards:buddycard_mob_test_set8",
+        "buddycards:buddycard_mob_test_set9",
+        "buddycards:buddycard_mob_test_set10",
+        "buddycards:buddycard_mob_test_set11",
+        "buddycards:buddycard_mob_test_set12",
+        "buddycards:buddycard_mob_test_set13",
+        "buddycards:buddycard_mob_test_set14",
+        "buddycards:buddycard_mob_test_set15",
+        "buddycards:buddycard_mob_test_set16",
+        "buddycards:buddycard_mob_test_set17",
+        "buddycards:buddycard_mob_test_set18",
+        "buddycards:buddycard_mob_test_set19",
+        "buddycards:buddycard_mob_test_set20",
+        "buddycards:buddycard_mob_test_set21"
+      ],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "result": {
+    "name": "tconstruct:ability_slot",
+    "level": 1
+  },
+  "max_level": 1
+}

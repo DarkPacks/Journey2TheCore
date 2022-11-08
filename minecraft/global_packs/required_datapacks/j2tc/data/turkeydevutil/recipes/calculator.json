@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ddd", "dcd", "bBb"],
+  "key": {
+    "d": {
+      "item": "projecte:dark_matter"
+    },
+    "b": {
+      "tag": "buddycards:buddycards"
+    },
+    "c": {
+      "item": "sophisticatedbackpacks:crafting_upgrade"
+    },
+    "B": {
+      "item": "cyclic:crafting_bag"
+    }
+  },
+  "result": {
+    "item": "turkeydevutil:calculator"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "You'll Shoot Your Eye Out, Kid!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/potato_cannon",
+  "rarity": "uncommon",
+  "bagColor": "#ed9f55",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#f6ff00",
+  "dropsFromGroups": []
+}

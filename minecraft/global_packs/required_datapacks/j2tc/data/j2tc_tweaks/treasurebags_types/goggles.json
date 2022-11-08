@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "4 Eyes!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/goggles",
+  "rarity": "uncommon",
+  "bagColor": "#ff0000",
+  "bagOverlayColor": "#c505e3",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

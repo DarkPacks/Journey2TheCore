@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bhc:blue_heart"
+    },
+    {
+      "item": "bhc:green_heart_canister"
+    },
+    {
+      "item": "buddycards:buddycard_pack_nether"
+    }
+  ],
+  "result": {
+    "item": "bhc:blue_heart_canister"
+  }
+}

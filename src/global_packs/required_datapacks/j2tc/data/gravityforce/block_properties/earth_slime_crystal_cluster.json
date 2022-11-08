@@ -1,7 +1,0 @@
-{
-  "blockLocation": "tconstruct:earth_slime_crystal_cluster",
-  "dropBlock": "tconstruct:small_earth_slime_crystal_bud",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:glowstone"
-}

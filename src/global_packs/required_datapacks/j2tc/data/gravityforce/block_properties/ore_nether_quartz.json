@@ -1,7 +1,0 @@
-{
-  "blockLocation": "minecraft:nether_quartz_ore",
-  "dropBlock": "minecraft:netherrack",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

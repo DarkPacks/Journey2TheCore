@@ -1,7 +1,0 @@
-{
-  "blockLocation": "geore:budding_gold",
-  "dropBlock": "geore:gold_block",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

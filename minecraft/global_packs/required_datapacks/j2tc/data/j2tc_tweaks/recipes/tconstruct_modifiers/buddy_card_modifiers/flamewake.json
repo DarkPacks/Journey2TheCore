@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_mob_test_set16"],
+      "nbt": "{foil:1b}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_mob_test_set21"],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
+    "type": "forge:intersection",
+    "children": [
+      {
+        "tag": "tconstruct:modifiable/armor/boots"
+      },
+      {
+        "tag": "tconstruct:modifiable/durability"
+      }
+    ]
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "result": {
+    "name": "tconstruct:flamewake",
+    "level": 1
+  },
+  "max_level": 1
+}

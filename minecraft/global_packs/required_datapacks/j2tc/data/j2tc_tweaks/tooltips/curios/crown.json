@@ -1,0 +1,9 @@
+{
+  "items": ["curios:crown"],
+  "tooltips": [
+    {
+      "text": "Adds the Night Vision effect to the player",
+      "color": "#ecbf00"
+    }
+  ]
+}

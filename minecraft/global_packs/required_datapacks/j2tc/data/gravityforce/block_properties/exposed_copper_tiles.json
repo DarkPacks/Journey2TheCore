@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:exposed_copper_tiles",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

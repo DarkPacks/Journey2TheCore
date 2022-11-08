@@ -1,0 +1,9 @@
+
+[ General ]
+  # A list of dimensions where there needs to be a bedrock floor
+  flooredDimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+  # A list of dimensions where there needs to be a bedrock roof
+  roofedDimensions = ["minecraft:overworld", "minecraft:the_nether"]
+  # Enable logging of the bedrock generation
+  enableLogging = false
+

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "I, I got a new life You would hardly recognize me I'm so glad How can a person like me care for you? (Ah) Why do I bother When you're not the one for me Is enough enough? I saw the sign and it opened up my eyes I saw the sign Life is demanding without understanding I saw the sign and it opened up my eyes I saw the sign No one's gonna drag you up To get into the light where you belong But where do you belong? Under the pale moon For so many years I've wondered who you are How could a person like you bring me joy Under the pale moon Where I see a lot of stars Is enough enough? I saw the sign and it opened up my eyes I saw the sign Life is demanding without understanding I saw the sign and it opened up my eyes I saw the sign No one's gonna drag you up To get into the light where you belong But where do you belong? Oh, oh, oh, oh I saw the sign and it opened up my mind And I am happy now Living without you I've left you, oh oh oh I saw the sign and it opened up my eyes I saw the sign No one's gonna drag you up To get into the light where you belong I saw the sign, I saw the sign I saw the sign I saw the sign, I saw the sign I saw the sign, I saw the sign I saw the sign and it opened up my eyes I saw the sign"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/signs",
+  "rarity": "uncommon",
+  "bagColor": "#d4ce33",
+  "bagOverlayColor": "#3cde2a",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

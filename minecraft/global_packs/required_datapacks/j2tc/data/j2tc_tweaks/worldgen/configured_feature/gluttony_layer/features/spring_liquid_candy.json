@@ -1,0 +1,19 @@
+{
+  "config": {
+    "rock_count": 4,
+    "hole_count": 1,
+    "valid_blocks": [
+      "candyworld:red_gummy_block",
+      "candyworld:dark_brownie_block",
+      "candyworld:white_brownie_block"
+    ],
+    "state": {
+      "Properties": {
+        "falling": "true"
+      },
+      "Name": "candyworld:liquid_candy"
+    },
+    "requires_block_below": true
+  },
+  "type": "minecraft:spring_feature"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:void_upgrade",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [" E ", " B ", " R "],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "R": {
+      "item": "cyclic:trash"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:void_upgrade"
+  }
+}

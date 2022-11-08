@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Knowledge"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/books",
+  "rarity": "uncommon",
+  "bagColor": "#e0bd5c",
+  "bagOverlayColor": "#967f3e",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

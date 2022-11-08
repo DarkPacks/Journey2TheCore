@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "buddycards:buddycard_pack_base"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "buddycards:buddycard_pack_mob_test_set"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "buddycards:buddycard_pack_patreon_supporter_set"
+        }
+      ]
+    }
+  ]
+}

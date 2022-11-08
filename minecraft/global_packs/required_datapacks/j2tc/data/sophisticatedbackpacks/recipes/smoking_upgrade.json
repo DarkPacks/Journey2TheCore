@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:smoking_upgrade",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": ["RIR", "IBI", "RSR"],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "R": {
+      "tag": "minecraft:coals"
+    },
+    "I": {
+      "tag": "forge:ingots/copper"
+    },
+    "S": {
+      "item": "minecraft:smoker"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:smoking_upgrade"
+  }
+}

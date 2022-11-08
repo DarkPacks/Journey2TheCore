@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:smooth_glowstone"
+    }
+  ],
+  "ingredient": {
+    "item": "minecraft:glowstone"
+  },
+  "result": "pickletweaks:smooth_glowstone",
+  "experience": 0.3,
+  "cookingtime": 200
+}

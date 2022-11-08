@@ -1,0 +1,115 @@
+{
+  "listeners": [
+    {
+      "name": "Chat Triggers Quest",
+      "className": "RaidMeterEvent$Complete",
+      "staticAccessors": [],
+      "accessors": [
+        {
+          "function": "getRaidMeter()",
+          "nextAccessors": [
+            {
+              "function": "getId()",
+              "argName": "raidmeter_id"
+            }
+          ]
+        }
+      ],
+      "argBasedAccessors": {},
+      "event": {
+        "conditions": [],
+        "outcomes": [
+          {
+            "message": "RaidMeter ID: $raidmeter_id",
+            "type": "chat"
+          },
+          {
+            "events": [
+              {
+                "conditions": [
+                  {
+                    "variableName": "raidmeter_id",
+                    "variableResult": "quest",
+                    "type": "variableCheck"
+                  }
+                ],
+                "outcomes": [
+                  {
+                    "name": "Chat Decides Quest",
+                    "type": "constant"
+                  }
+                ]
+              }
+            ],
+            "type": "event",
+            "displayName": "Trigger Chat Quest"
+          },
+          {
+            "events": [
+              {
+                "conditions": [
+                  {
+                    "variableName": "raidmeter_id",
+                    "variableResult": "raid",
+                    "type": "variableCheck"
+                  }
+                ],
+                "outcomes": [
+                  {
+                    "command": "/say This is when a raid would happen",
+                    "executeAsSelf": true,
+                    "type": "command"
+                  }
+                ]
+              }
+            ],
+            "type": "event",
+            "displayName": "Trigger Raid"
+          }
+        ],
+        "allowsOtherEventsToTrigger": true
+      }
+    },
+    {
+      "name": "Chat Message  Test",
+      "className": "ServerChatEvent",
+      "staticAccessors": [],
+      "accessors": [
+        {
+          "function": "getMessage()",
+          "argName": "getMessageTest"
+        },
+        {
+          "function": "getUsername()",
+          "argName": "getMessageTestUsername"
+        }
+      ],
+      "argBasedAccessors": {},
+      "event": {
+        "name": "MessageTesting",
+        "conditions": [
+          {
+            "variableName": "getMessageTest",
+            "variableResult": "testing",
+            "type": "variableCheck",
+            "displayName": "Check Message Contents"
+          },
+          {
+            "variableName": "getMessageTestUsername",
+            "variableResult": "Darkosto",
+            "type": "variableCheck",
+            "displayName": "Check Username"
+          }
+        ],
+        "outcomes": [
+          {
+            "command": "/say Test Success!",
+            "executeAsSelf": true,
+            "type": "command"
+          }
+        ],
+        "allowsOtherEventsToTrigger": true
+      }
+    }
+  ]
+}

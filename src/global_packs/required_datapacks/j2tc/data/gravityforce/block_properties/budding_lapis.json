@@ -1,7 +1,0 @@
-{
-  "blockLocation": "geore:budding_lapis",
-  "dropBlock": "geore:lapis_block",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

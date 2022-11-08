@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["LMH", "SDS", "ICI"],
+  "key": {
+    "L": {
+      "item": "projecte:low_covalence_dust"
+    },
+    "M": {
+      "item": "projecte:medium_covalence_dust"
+    },
+    "H": {
+      "item": "projecte:high_covalence_dust"
+    },
+    "S": {
+      "item": "compressium:coal_2"
+    },
+    "I": {
+      "item": "projecte:dark_matter"
+    },
+    "C": {
+      "item": "ironchest:obsidian_chest"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "projecte:alchemical_chest"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:onion"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

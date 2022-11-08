@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "cobblestoney:granite_soladite"
+  },
+  "result": "minecraft:light_blue_dye",
+  "experience": 0.08,
+  "cookingtime": 1200
+}

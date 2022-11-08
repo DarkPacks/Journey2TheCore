@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:minced_beef"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "blockLocation": "tconstruct:budding_earth_slime_crystal",
-  "dropBlock": "tconstruct:earth_slime_crystal_block",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

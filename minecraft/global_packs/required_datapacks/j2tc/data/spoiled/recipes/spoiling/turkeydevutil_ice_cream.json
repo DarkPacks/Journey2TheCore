@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "turkeydevutil:ice_cream"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

@@ -1,0 +1,64 @@
+
+# Bomb settings
+[ Bomb ]
+  # Defines the amount of bees released by Bee bomb [Default: 10]
+  # Range: > 0
+  beeAmount = 10
+  # Defines the blast radius of the Bee bomb [Default: 2.0]
+  # Range: 0.0 ~ 20.0
+  beeBombRadius = 2.0
+  # Defines the blast radius of the regular Bomb [Default: 2.0]
+  # Range: 0.0 ~ 20.0
+  bombRadius = 2.0
+  # Defines the blast radius of the Bomb fish [Default: 2.5]
+  # Range: 0.0 ~ 20.0
+  bombFishRadius = 2.5
+  # Defines the blast radius of the Bouncy bomb [Default: 2.0]
+  # Range: 0.0 ~ 20.0
+  bouncyBombRadius = 2.0
+  # Defines the blast radius of the Dirt bomb [Default: 2.0]
+  # Range: 0.0 ~ 20.0
+  dirtBombRadius = 2.0
+  # Defines the blast radius of the Dry bomb [Default: 1.5]
+  # Range: 0.0 ~ 20.0
+  dryBombRadius = 1.5
+  # Defines the blast radius of the Lava bomb [Default: 1.5]
+  # Range: 0.0 ~ 20.0
+  lavaBombRadius = 1.5
+  # Defines the blast radius of the Sticky bomb [Default: 1.5]
+  # Range: 0.0 ~ 20.0
+  stickyBombRadius = 1.5
+  # Defines the blast radius of the Water bomb [Default: 1.5]
+  # Range: 0.0 ~ 20.0
+  waterBombRadius = 1.5
+  # Defines the blast radius of the Flower bomb [Default: 2.0]
+  # Range: 0.0 ~ 20.0
+  enderBombRadius = 2.0
+  # Defines the blast radius of the Flower bomb [Default: 2.0]
+  # Range: 0.0 ~ 20.0
+  flowerBombRadius = 2.0
+  # Defines the chance that the Flower bomb will place a random flower per valid location in the blast radius [Default: 0.3]
+  # Range: 0.0 ~ 1.0
+  flowerBombChance = 0.3
+  # Defines the chance that the Flower bomb will spawn a bee per valid location in the blast radius [Default: 0.01]
+  # Range: 0.0 ~ 1.0
+  flowerBombBeeChance = 0.01
+
+# Dynamite settings
+[ Dynamite ]
+  # Defines the blast radius of Bouncy dynamite [Default: 3.5]
+  # Range: 0.0 ~ 20.0
+  bouncyDynamiteRadius = 3.5
+  # Defines the blast radius of Dynamite [Default: 3.5]
+  # Range: 0.0 ~ 20.0
+  dynamiteRadius = 3.5
+  # Defines the blast radius of Sticky Dynamite [Default: 3.5]
+  # Range: 0.0 ~ 20.0
+  stickyDynamiteRadius = 3.5
+
+# Other settings
+[ Other ]
+  # Defines the blast radius of C4 [Default: 4.5]
+  # Range: 0.0 ~ 20.0
+  c4Radius = 4.5
+

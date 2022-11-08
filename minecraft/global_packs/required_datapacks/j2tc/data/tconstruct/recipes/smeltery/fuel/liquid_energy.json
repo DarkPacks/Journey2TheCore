@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "name": "delivery:liquid_energy",
+    "amount": 50
+  },
+  "duration": 120,
+  "temperature": 1200
+}

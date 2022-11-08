@@ -1,0 +1,134 @@
+{
+  "profession": "mason",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:scaffolding",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 20,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "turkeydevutil:rock_soup",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:clay",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "rechiseled:chisel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:brick",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:rainbow_glass",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "cyclic:doorbell",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 2,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    }
+  ]
+}

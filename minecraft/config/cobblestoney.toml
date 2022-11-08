@@ -1,0 +1,14 @@
+
+# [cobblestoney] Worldgen settings.  Control which features / placements run during worldgen if any
+[ cobblestoney ]
+
+  [ cobblestoney.cobblestoney ]
+
+    [ cobblestoney.cobblestoney.worldgen ]
+      # True to enable soil worldgen. This affects worldgen for the soil type blocks such as Mudstone
+      soil = true
+      # True to enable granite worldgen. This affects worldgen for the special granite variants such as Pink Granite 
+      granite = true
+      # True to enable cobbled worldgen. This affects worldgen for cobbled versions of existing blocks such as Cobbled Diorite
+      cobbled = false
+

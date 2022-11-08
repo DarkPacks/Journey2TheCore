@@ -1,7 +1,0 @@
-{
-  "blockLocation": "geore:budding_copper",
-  "dropBlock": "geore:copper_block",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

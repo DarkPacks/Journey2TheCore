@@ -1,0 +1,25 @@
+{
+  "type": "cyclic:crusher",
+  "input": {
+    "item": "minecraft:diorite"
+  },
+  "energy": {
+    "ticks": 60,
+    "rfpertick": 20
+  },
+  "result": {
+    "item": "cobblestoney:diorite_cobbled",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "cyclic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:coal_cluster",
+  "dropBlock": "geore:small_coal_bud",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:glowstone"
+}

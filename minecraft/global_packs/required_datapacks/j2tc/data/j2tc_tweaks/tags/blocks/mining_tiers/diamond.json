@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "values": [
+    "geore:gold_cluster",
+    "minecraft:crying_obsidian",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:gold_ore",
+    "turkeydevutil:greed_gold_ore",
+    "minecraft:obsidian",
+    "tconstruct:cobalt_ore",
+    "thermal:deepslate_lead_ore",
+    "thermal:lead_ore",
+    "minecraft:amethyst_cluster",
+    "minecraft:budding_amethyst",
+    "minecraft:amethyst_block",
+    "minecraft:small_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:large_amethyst_bud",
+    "minecraft:amethyst_cluster",
+    "turkeydevutil:greed_silver_ore",
+    "turkeydevutil:greed_oil_ore",
+    "turkeydevutil:greed_randomite_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "turkeydevutil:cookie",
+    "minecraft:diamond",
+    "hardcorequesting:quest_book"
+  ]
+}

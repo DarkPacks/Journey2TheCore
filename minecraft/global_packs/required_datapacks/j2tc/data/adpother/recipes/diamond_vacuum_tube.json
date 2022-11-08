@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["  B", "TD ", "RC "],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "T": {
+      "tag": "minecraft:buttons"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "adpother:diamond_vacuum_tube",
+    "count": 1
+  }
+}

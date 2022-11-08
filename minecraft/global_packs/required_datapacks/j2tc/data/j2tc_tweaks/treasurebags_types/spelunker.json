@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Spelunky!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/spelunker",
+  "rarity": "uncommon",
+  "bagColor": "#6b4f1e",
+  "bagOverlayColor": "#99712c",
+  "bagStringColor": "#755e36",
+  "dropsFromGroups": []
+}

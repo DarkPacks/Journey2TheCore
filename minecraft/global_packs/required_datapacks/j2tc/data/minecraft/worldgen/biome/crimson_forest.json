@@ -1,0 +1,107 @@
+{
+  "effects": {
+    "sky_color": 7254527,
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "water_fog_color": 3866888,
+    "mood_sound": {
+      "tick_delay": 6000,
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "particle": {
+      "probability": 0.025,
+      "options": {
+        "type": "minecraft:crimson_spore"
+      }
+    },
+    "water_color": 8914952,
+    "fog_color": 3343107,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "sound": "minecraft:music.nether.crimson_forest",
+      "replace_current_music": false
+    }
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether",
+      "minecraft:ore_ancient_debris_large",
+      "minecraft:ore_debris_small"
+    ],
+    [],
+    [
+      "minecraft:spring_lava",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:weeping_vines",
+      "minecraft:crimson_fungi",
+      "minecraft:crimson_forest_vegetation"
+    ]
+  ],
+  "category": "nether",
+  "carvers": {
+    "air": "minecraft:nether_cave"
+  },
+  "spawn_costs": {},
+  "spawners": {
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "monster": [
+      {
+        "weight": 1,
+        "minCount": 2,
+        "type": "minecraft:zombified_piglin",
+        "maxCount": 4
+      },
+      {
+        "weight": 9,
+        "minCount": 3,
+        "type": "minecraft:hoglin",
+        "maxCount": 4
+      },
+      {
+        "weight": 5,
+        "minCount": 3,
+        "type": "minecraft:piglin",
+        "maxCount": 4
+      }
+    ],
+    "misc": [],
+    "ambient": [],
+    "creature": [
+      {
+        "weight": 60,
+        "minCount": 1,
+        "type": "minecraft:strider",
+        "maxCount": 2
+      }
+    ]
+  },
+  "precipitation": "none",
+  "downfall": 0.0,
+  "temperature": 2.0
+}

@@ -1,0 +1,223 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:haste\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:luck\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:reinforced\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:glowing\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:sharpness\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:knockback\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:fiery\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:necrotic\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Magnetic\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:magnetic\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Feather Falling\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:feather_falling\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Slurping\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:slurping\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Zoom\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:zoom\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:revitalizing\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Unarmed\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:unarmed\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Strength\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:strength\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:shield_strap\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:pockets\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:speedy\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Bouncy\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:bouncy\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Double Jump\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:double_jump\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Flamewake\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:flamewake\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

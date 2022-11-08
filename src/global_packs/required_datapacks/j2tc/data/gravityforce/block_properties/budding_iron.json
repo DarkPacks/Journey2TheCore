@@ -1,7 +1,0 @@
-{
-  "blockLocation": "geore:budding_iron",
-  "dropBlock": "geore:iron_block",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

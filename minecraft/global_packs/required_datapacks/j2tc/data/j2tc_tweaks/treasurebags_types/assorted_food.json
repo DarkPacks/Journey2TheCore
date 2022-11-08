@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Sack Lunch"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/assorted_food",
+  "rarity": "uncommon",
+  "bagColor": "#ffffff",
+  "bagOverlayColor": "#960000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

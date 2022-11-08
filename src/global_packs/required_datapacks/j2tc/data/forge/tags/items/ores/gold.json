@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:gold_ores",
-    "turkeydevutil:greed_gold_ore"
-  ]
-}

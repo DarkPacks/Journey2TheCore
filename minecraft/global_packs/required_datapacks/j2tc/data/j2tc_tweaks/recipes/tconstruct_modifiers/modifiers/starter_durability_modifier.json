@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "cyclic:battery_infinite"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "result": {
+    "name": "tconstruct:starter_durability_increase",
+    "level": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Time to Tinker!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/tinkers_casts",
+  "rarity": "uncommon",
+  "bagColor": "#454545",
+  "bagOverlayColor": "#8a8350",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

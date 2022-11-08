@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "My ears!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/sound_muffler",
+  "rarity": "uncommon",
+  "bagColor": "#ffffff",
+  "bagOverlayColor": "#960000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

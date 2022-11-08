@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "result": {
+    "item": "minecraft:poisonous_potato"
+  }
+}

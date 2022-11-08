@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Garbage Bag"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/poor_bags",
+  "rarity": "uncommon",
+  "bagColor": "#1f1f1f",
+  "bagOverlayColor": "#262626",
+  "bagStringColor": "#f6ff00",
+  "dropsFromGroups": []
+}

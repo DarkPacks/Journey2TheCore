@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#animalcrops:plantable/animal_crops",
-    "#animalcrops:plantable/anemonemals",
-    "#animalcrops:plantable/animal_shrooms",
-    "#animalcrops:plantable/magnemones"
-  ]
-}

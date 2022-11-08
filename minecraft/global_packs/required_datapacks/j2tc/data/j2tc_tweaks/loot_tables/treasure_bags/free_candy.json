@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 15
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "candyworld:white_candy_cane"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:red_candy_cane"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:green_candy_cane"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:white_red_candy_cane"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:white_green_candy_cane"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:red_green_candy_cane"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:milk_chocolate_bar_block"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:white_chocolate_bar_block"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:dark_chocolate_bar_block"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:red_gummy_worm"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:orange_gummy_worm"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:yellow_gummy_worm"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:white_gummy_worm"
+        },
+        {
+          "type": "item",
+          "name": "candyworld:green_gummy_worm"
+        }
+      ]
+    }
+  ]
+}

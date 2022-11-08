@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:kelp_roll"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

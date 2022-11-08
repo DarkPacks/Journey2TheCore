@@ -1,0 +1,18 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "j2tc_tweaks:gluttony_greed_iron",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      }
+    ],
+    "size": 4,
+    "discard_chance_on_air_exposure": 0
+  },
+  "type": "minecraft:ore"
+}

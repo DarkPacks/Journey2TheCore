@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Great Place to Rest!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/coffins",
+  "rarity": "uncommon",
+  "bagColor": "#009FBF",
+  "bagOverlayColor": "#003542",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

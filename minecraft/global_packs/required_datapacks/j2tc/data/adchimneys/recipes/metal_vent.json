@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "H": {
+      "item": "adchimneys:metal_chimney"
+    }
+  },
+  "pattern": ["H H", "   ", "H H"],
+  "result": {
+    "count": 4,
+    "item": "adchimneys:metal_vent"
+  }
+}

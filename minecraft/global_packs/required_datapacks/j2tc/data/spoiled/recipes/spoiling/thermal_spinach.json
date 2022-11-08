@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "thermal:spinach"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

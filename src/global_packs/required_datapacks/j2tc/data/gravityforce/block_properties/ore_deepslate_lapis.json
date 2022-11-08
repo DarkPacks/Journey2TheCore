@@ -1,7 +1,0 @@
-{
-  "blockLocation": "minecraft:deepslate_lapis_ore",
-  "dropBlock": "minecraft:cobbled_deepslate",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

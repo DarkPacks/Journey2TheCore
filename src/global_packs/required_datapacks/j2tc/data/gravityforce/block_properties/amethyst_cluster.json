@@ -1,7 +1,0 @@
-{
-  "blockLocation": "minecraft:amethyst_cluster",
-  "dropBlock": "minecraft:small_amethyst_bud",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:glowstone"
-}

@@ -1,7 +1,0 @@
-{
-  "blockLocation": "create:deepslate_zinc_ore",
-  "dropBlock": "minecraft:cobbled_deepslate",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

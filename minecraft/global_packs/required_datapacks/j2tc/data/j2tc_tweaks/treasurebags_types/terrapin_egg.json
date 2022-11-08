@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "It Goes in the Water!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/terrapin_egg",
+  "rarity": "uncommon",
+  "bagColor": "#ffff00",
+  "bagOverlayColor": "#1c1c1c",
+  "bagStringColor": "#382f24",
+  "dropsFromGroups": []
+}

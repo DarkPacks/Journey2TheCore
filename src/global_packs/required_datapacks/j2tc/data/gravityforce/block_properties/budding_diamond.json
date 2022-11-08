@@ -1,7 +1,0 @@
-{
-  "blockLocation": "geore:budding_diamond",
-  "dropBlock": "geore:diamond_block",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

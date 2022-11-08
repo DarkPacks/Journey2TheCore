@@ -1,0 +1,422 @@
+{
+  "profession": "butcher",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:porkchop",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:beef",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chicken",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:rabbit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:mutton",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:kangaroo_meat",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:lobster_tail",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:moose_ribs",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:chicken_cuts",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:bacon",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cod_slice",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:mutton_chops",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:salmon_slice",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_porkchop",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_beef",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_chicken",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_rabbit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_mutton",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:cooked_kangaroo_meat",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:cooked_lobster_tail",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:cooked_moose_ribs",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cooked_chicken_cuts",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cooked_bacon",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cooked_cod_slice",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cooked_mutton_chops",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:cooked_salmon_slice",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "turkeydevutil:cookie",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    }
+  ]
+}

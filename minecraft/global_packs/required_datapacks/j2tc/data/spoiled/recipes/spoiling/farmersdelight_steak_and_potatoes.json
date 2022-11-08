@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:steak_and_potatoes"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

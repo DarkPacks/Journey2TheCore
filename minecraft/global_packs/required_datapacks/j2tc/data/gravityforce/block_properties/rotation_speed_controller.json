@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:rotation_speed_controller",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

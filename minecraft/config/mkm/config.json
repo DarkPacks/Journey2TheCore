@@ -1,0 +1,12 @@
+{
+  "macro0": "function dev_tools:debug/start",
+  "macro1": "pdt inventory",
+  "macro2": "pdt hotbar",
+  "macro3": "pdt hand",
+  "macro4": "placefeature j2tc_tweaks:greed_layer/features/urn_place_with_loot",
+  "macro5": "function bossbar:bossbar/raidmeter/raidmeter_hide",
+  "macro6": "function dev_tools:debug/gear",
+  "macro7": "gamemode survival",
+  "macro8": "gamemode spectator",
+  "macro9": "gamemode creative"
+}

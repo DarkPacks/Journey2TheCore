@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Artifacts!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/nameless_trinkets",
+  "rarity": "uncommon",
+  "bagColor": "#ff0000",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

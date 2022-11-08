@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "cobblestoney:dirt_sand"
-  },
-  "result": "cobblestoney:silt",
-  "experience": 0.05,
-  "cookingtime": 600
-}

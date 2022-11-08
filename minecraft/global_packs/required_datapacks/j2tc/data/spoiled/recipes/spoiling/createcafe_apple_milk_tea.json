@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "createcafe:apple_milk_tea"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

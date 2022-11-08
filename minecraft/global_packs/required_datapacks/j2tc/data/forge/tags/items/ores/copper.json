@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:copper_ores",
+    "elementaryores:ore_copper_nether",
+    "elementaryores:ore_copper_end",
+    "#minecraft:copper_ores",
+    "turkeydevutil:sugar_copper_ore"
+  ]
+}

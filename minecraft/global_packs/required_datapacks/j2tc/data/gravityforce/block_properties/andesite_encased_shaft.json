@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:andesite_encased_shaft",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

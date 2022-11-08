@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "forge:ores/ghast"
-  },
-  "result": "minecraft:ghast_tear",
-  "experience": 0.35,
-  "cookingtime": 500
-}

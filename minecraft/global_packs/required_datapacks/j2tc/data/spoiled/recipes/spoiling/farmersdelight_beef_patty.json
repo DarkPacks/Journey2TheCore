@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:beef_patty"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

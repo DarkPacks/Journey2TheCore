@@ -1,0 +1,9 @@
+{
+  "type": "youarehere:y_level",
+  "soundLocation": "cyclic:chaos_reaper",
+  "title": "Hypocrisy",
+  "subtitle": "The False Prophet",
+  "minY": 0,
+  "maxY": 128,
+  "dimension": "minecraft:the_nether"
+}

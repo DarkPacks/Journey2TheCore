@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:bowl",
+    "saltfactory:teary_bowl",
+    "saltfactory:crying_bowl",
+    "farmersdelight:stuffed_pumpkin",
+    "farmersdelight:pie_crust",
+    "farmersdelight:stuffed_pumpkin_block"
+  ]
+}

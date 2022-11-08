@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "gem",
+  "ingredient": {
+    "type": "forge:intersection",
+    "children": [
+      {
+        "tag": "forge:ores/diamond"
+      },
+      {
+        "tag": "forge:ore_rates/sparse"
+      }
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:molten_diamond",
+    "amount": 50
+  },
+  "temperature": 1250,
+  "time": 79,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_cobalt",
+      "amount": 50
+    }
+  ]
+}

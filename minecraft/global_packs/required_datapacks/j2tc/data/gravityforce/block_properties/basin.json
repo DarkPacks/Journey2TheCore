@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:basin",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

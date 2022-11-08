@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:tuff",
+  "dropBlock": "cobblestoney:tuff_cobbled",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

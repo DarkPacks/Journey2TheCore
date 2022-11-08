@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "That's Lit"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/candles",
+  "rarity": "uncommon",
+  "bagColor": "#ede7a6",
+  "bagOverlayColor": "#faaa32",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "See Pickle!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/sea_pickle",
+  "rarity": "uncommon",
+  "bagColor": "#d4b4cc",
+  "bagOverlayColor": "#9e999d",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

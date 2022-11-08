@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "dabomb:bouncy_dynamite"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:bouncy_bomb"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:sticky_bomb"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:bomb_fish"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:dry_bomb"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:water_bomb"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:lava_bomb"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:dynamite"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:sticky_dynamite"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:bomb"
+        },
+        {
+          "type": "item",
+          "name": "dabomb:dirt_bomb"
+        }
+      ]
+    }
+  ]
+}

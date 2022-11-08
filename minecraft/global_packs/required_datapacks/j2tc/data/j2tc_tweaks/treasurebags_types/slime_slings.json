@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Slime Slings"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/slime_slings",
+  "rarity": "uncommon",
+  "bagColor": "#ff0000",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

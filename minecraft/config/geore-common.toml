@@ -1,0 +1,199 @@
+
+# Generation settings
+[ Generation ]
+
+  # Coal settings
+  [ Generation.Coal ]
+    # Generate Coal GeOre [Default: true]
+    generateCoalGeore = true
+    # The Min Y level that Coal GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    coalGeoreMinY = 5
+    # The max Y level that Coal GeOre will generate at [Default: 30]
+    # Range: > 0
+    coalGeoreMaxY = 688
+    # Coal GeOre Rarity [Default: 60] (The higher the value the rarer)
+    # Range: > 0
+    coalGeoreRarity = 2
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Coal GeOre [Default: OVERWORLD]
+    coalGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Copper settings
+  [ Generation.Copper ]
+    # Generate Copper GeOre [Default: true]
+    generateCopperGeore = false
+    # The Min Y level that Copper GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    copperGeoreMinY = 6
+    # The max Y level that Copper GeOre will generate at [Default: 30]
+    # Range: > 0
+    copperGeoreMaxY = 30
+    # Copper GeOre Rarity [Default: 90] (The higher the value the rarer)
+    # Range: > 0
+    copperGeoreRarity = 90
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Copper GeOre [Default: OVERWORLD]
+    copperGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Diamond settings
+  [ Generation.Diamond ]
+    # Generate Diamond GeOre [Default: true]
+    generateDiamondGeore = true
+    # The Min Y level that Diamond GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    diamondGeoreMinY = 0
+    # The max Y level that Diamond GeOre will generate at [Default: 30]
+    # Range: > 0
+    diamondGeoreMaxY = 264
+    # Diamond GeOre Rarity [Default: 330] (The higher the value the rarer)
+    # Range: > 0
+    diamondGeoreRarity = 15
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Diamond GeOre [Default: OVERWORLD]
+    diamondGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Emerald settings
+  [ Generation.Emerald ]
+    # Generate Emerald GeOre [Default: true]
+    generateEmeraldGeore = true
+    # The Min Y level that Emerald GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    emeraldGeoreMinY = 400
+    # The max Y level that Emerald GeOre will generate at [Default: 30]
+    # Range: > 0
+    emeraldGeoreMaxY = 520
+    # Emerald GeOre Rarity [Default: 420] (The higher the value the rarer)
+    # Range: > 0
+    emeraldGeoreRarity = 10
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Emerald GeOre [Default: OVERWORLD]
+    emeraldGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Gold settings
+  [ Generation.Gold ]
+    # Generate Gold GeOre [Default: true]
+    generateGoldGeore = true
+    # The Min Y level that Gold GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    goldGeoreMinY = 5
+    # The max Y level that Gold GeOre will generate at [Default: 30]
+    # Range: > 0
+    goldGeoreMaxY = 250
+    # Gold GeOre Rarity [Default: 180] (The higher the value the rarer)
+    # Range: > 0
+    goldGeoreRarity = 20
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Gold GeOre [Default: OVERWORLD]
+    goldGeoreDictionaryTypes = ["NETHER"]
+
+  # Iron settings
+  [ Generation.Iron ]
+    # Generate Iron GeOre [Default: true]
+    generateIronGeore = false
+    # The Min Y level that Iron GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    ironGeoreMinY = 6
+    # The max Y level that Iron GeOre will generate at [Default: 30]
+    # Range: > 0
+    ironGeoreMaxY = 30
+    # Iron GeOre Rarity [Default: 120] (The higher the value the rarer)
+    # Range: > 0
+    ironGeoreRarity = 120
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Iron GeOre [Default: OVERWORLD]
+    ironGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Lapis settings
+  [ Generation.Lapis ]
+    # Generate Lapis GeOre [Default: true]
+    generateLapisGeore = true
+    # The Min Y level that Lapis GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    lapisGeoreMinY = 5
+    # The max Y level that Lapis GeOre will generate at [Default: 30]
+    # Range: > 0
+    lapisGeoreMaxY = 250
+    # Lapis GeOre Rarity [Default: 210] (The higher the value the rarer)
+    # Range: > 0
+    lapisGeoreRarity = 17
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Lapis GeOre [Default: OVERWORLD]
+    lapisGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Quartz settings
+  [ Generation.Quartz ]
+    # Generate Quartz GeOre [Default: true]
+    generateQuartzGeore = true
+    # The Min Y level that Quartz GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    quartzGeoreMinY = 5
+    # The max Y level that Quartz GeOre will generate at [Default: 30]
+    # Range: > 0
+    quartzGeoreMaxY = 250
+    # Quartz GeOre Rarity [Default: 150] (The higher the value the rarer)
+    # Range: > 0
+    quartzGeoreRarity = 15
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Quartz GeOre [Default: OVERWORLD, NETHER]
+    quartzGeoreDictionaryTypes = ["NETHER"]
+
+  # Redstone settings
+  [ Generation.Redstone ]
+    # Generate Redstone GeOre [Default: true]
+    generateRedstoneGeore = true
+    # The Min Y level that Redstone GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    redstoneGeoreMinY = 270
+    # The max Y level that Redstone GeOre will generate at [Default: 30]
+    # Range: > 0
+    redstoneGeoreMaxY = 396
+    # Redstone GeOre Rarity [Default: 240] (The higher the value the rarer)
+    # Range: > 0
+    redstoneGeoreRarity = 10
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Redstone GeOre [Default: OVERWORLD]
+    redstoneGeoreDictionaryTypes = ["OVERWORLD"]
+
+# Modded settings
+[ Modded ]
+
+  # Ruby settings
+  [ Modded.Ruby ]
+    # Generate Ruby GeOre [Default: false]
+    generateRubyGeore = false
+    # The Min Y level that Ruby GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    rubyGeoreMinY = 6
+    # The max Y level that Ruby GeOre will generate at [Default: 30]
+    # Range: > 0
+    rubyGeoreMaxY = 30
+    # Ruby GeOre Rarity [Default: 240] (The higher the value the rarer)
+    # Range: > 0
+    rubyGeoreRarity = 240
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Ruby GeOre [Default: OVERWORLD]
+    rubyGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Sapphire settings
+  [ Modded.Sapphire ]
+    # Generate Sapphire GeOre [Default: false]
+    generateSapphireGeore = false
+    # The Min Y level that Sapphire GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    sapphireGeoreMinY = 6
+    # The max Y level that Sapphire GeOre will generate at [Default: 30]
+    # Range: > 0
+    sapphireGeoreMaxY = 30
+    # Sapphire GeOre Rarity [Default: 240] (The higher the value the rarer)
+    # Range: > 0
+    sapphireGeoreRarity = 240
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Sapphire GeOre [Default: OVERWORLD]
+    sapphireGeoreDictionaryTypes = ["OVERWORLD"]
+
+  # Topaz settings
+  [ Modded.Topaz ]
+    # Generate Topaz GeOre [Default: false]
+    generateTopazGeore = false
+    # The Min Y level that Topaz GeOre will generate at (above minimum world height) [Default: 6]
+    # Range: > 0
+    topazGeoreMinY = 6
+    # The max Y level that Topaz GeOre will generate at [Default: 30]
+    # Range: > 0
+    topazGeoreMaxY = 30
+    # Topaz GeOre Rarity [Default: 240] (The higher the value the rarer)
+    # Range: > 0
+    topazGeoreRarity = 240
+    # Biomes that have any of these Biome Dictionary Tags will be able to generate Topaz GeOre [Default: OVERWORLD]
+    topazGeoreDictionaryTypes = ["OVERWORLD"]
+

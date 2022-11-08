@@ -1,0 +1,37 @@
+{
+  "config": {},
+  "loot": [
+    {
+      "table": [],
+      "chance": 1.0
+    },
+    {
+      "table": [],
+      "chance": 0.02
+    },
+    {
+      "table": [],
+      "chance": 0.25
+    },
+    {
+      "table": [],
+      "chance": 0.07
+    },
+    {
+      "table": [],
+      "chance": 0.7
+    },
+    {
+      "table": [],
+      "chance": 0.1
+    },
+    {
+      "table": [],
+      "chance": 0.3
+    },
+    {
+      "table": [],
+      "chance": 0.2
+    }
+  ]
+}

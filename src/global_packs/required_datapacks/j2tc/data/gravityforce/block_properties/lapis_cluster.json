@@ -1,7 +1,0 @@
-{
-  "blockLocation": "geore:lapis_cluster",
-  "dropBlock": "geore:small_lapis_bud",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:glowstone"
-}

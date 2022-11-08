@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_base24"],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "result": {
+    "name": "tconstruct:knockback_armor",
+    "level": 1
+  },
+  "max_level": 3
+}

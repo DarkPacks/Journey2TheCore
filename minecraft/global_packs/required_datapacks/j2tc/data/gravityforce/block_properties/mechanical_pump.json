@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:mechanical_pump",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

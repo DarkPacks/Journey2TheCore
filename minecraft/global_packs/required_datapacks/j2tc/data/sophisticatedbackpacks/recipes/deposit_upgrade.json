@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:deposit_upgrade",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [" P ", "IBI", "RCR"],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "I": {
+      "tag": "forge:ingots/copper"
+    },
+    "R": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "P": {
+      "item": "minecraft:oak_trapdoor"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:deposit_upgrade"
+  }
+}

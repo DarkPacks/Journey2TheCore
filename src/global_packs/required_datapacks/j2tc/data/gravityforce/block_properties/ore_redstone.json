@@ -1,7 +1,0 @@
-{
-  "blockLocation": "minecraft:redstone_ore",
-  "dropBlock": "minecraft:cobblestone",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Kelp Me!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/kelp",
+  "rarity": "uncommon",
+  "bagColor": "#ffbaba",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

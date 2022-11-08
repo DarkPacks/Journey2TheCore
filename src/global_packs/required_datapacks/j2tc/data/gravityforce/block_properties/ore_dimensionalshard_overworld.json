@@ -1,7 +1,0 @@
-{
-  "blockLocation": "rftoolsbase:dimensionalshard_overworld",
-  "dropBlock": "minecraft:cobblestone",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

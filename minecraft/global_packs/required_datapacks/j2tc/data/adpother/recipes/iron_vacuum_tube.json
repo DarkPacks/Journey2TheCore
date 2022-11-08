@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["  B", "TN ", "RC "],
+  "key": {
+    "N": {
+      "tag": "forge:ingots/iron"
+    },
+    "T": {
+      "tag": "minecraft:buttons"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "adpother:iron_vacuum_tube",
+    "count": 1
+  }
+}

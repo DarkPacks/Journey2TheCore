@@ -1,0 +1,8 @@
+
+# Old School Hardcore configs
+[ common ]
+  # If this mod should be enabled and delete the world on death
+  enabled = true
+  # If gamemode changing should be blocked when the player enters the world as spectator after death
+  forceSpectator = true
+

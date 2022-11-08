@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "buddycards:buddycards_patreon_supporter_set"
+    },
+    {
+      "tag": "buddycards:buddycards_patreon_supporter_set"
+    },
+    {
+      "tag": "buddycards:buddycards_patreon_supporter_set"
+    }
+  ],
+  "result": {
+    "item": "buddycards:buddycard_binder_patreon_supporter_set"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:budding_emerald",
+  "dropBlock": "geore:emerald_block",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

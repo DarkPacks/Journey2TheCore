@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:sweet_berry_cookie"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

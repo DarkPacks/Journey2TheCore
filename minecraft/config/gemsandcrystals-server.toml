@@ -1,0 +1,342 @@
+
+[ oregen ]
+
+  [ oregen.ruby_ore ]
+    # Generate Ruby Ore in the overworld - [true/false]
+    generate_ruby = true
+    # Minimum size of Ruby Ore veins - default = 3
+    # Range: 0 ~ 100
+    ruby_min_vein_size = 3
+    # Maximum size of Ruby Ore veins - default = 8
+    # Range: 0 ~ 100
+    ruby_max_vein_size = 8
+    # Number of Ruby Ore veins generated in a chunk - default = 4
+    # Range: 0 ~ 1000
+    ruby_chance = 4
+    # Minimum height for Ruby Ore generation - default = -64
+    # Range: -64 ~ 319
+    ruby_min_height = -64
+    # Maximum height for Ruby Ore generation - default = 16
+    # Range: -64 ~ 319
+    ruby_max_height = 16
+
+  [ oregen.sapphire_ore ]
+    # Generate Sapphire Ore in the overworld - [true/false]
+    generate_sapphire = true
+    # Minimum size of Sapphire Ore veins - default = 3
+    # Range: 0 ~ 100
+    sapphire_min_vein_size = 3
+    # Maximum size of Sapphire Ore veins - default = 8
+    # Range: 0 ~ 100
+    sapphire_max_vein_size = 8
+    # Number of Sapphire Ore veins generated in a chunk - default = 4
+    # Range: 0 ~ 1000
+    sapphire_chance = 4
+    # Minimum height for Sapphire Ore generation - default = -64
+    # Range: -64 ~ 319
+    sapphire_min_height = -64
+    # Maximum height for Sapphire Ore generation - default = 16
+    # Range: -64 ~ 319
+    sapphire_max_height = 16
+
+  [ oregen.topaz_ore ]
+    # Generate Topaz Ore in the overworld - [true/false]
+    generate_topaz = true
+    # Minimum size of Topaz Ore veins - default = 3
+    # Range: 0 ~ 100
+    topaz_min_vein_size = 3
+    # Maximum size of Topaz Ore veins - default = 8
+    # Range: 0 ~ 100
+    topaz_max_vein_size = 8
+    # Number of Topaz Ore veins generated in a chunk - default = 4
+    # Range: 0 ~ 1000
+    topaz_chance = 4
+    # Minimum height for Topaz Ore generation - default = -64
+    # Range: -64 ~ 319
+    topaz_min_height = -64
+    # Maximum height for Topaz Ore generation - default = 24
+    # Range: -64 ~ 319
+    topaz_max_height = 24
+
+  [ oregen.amethyst_ore ]
+    # Generate Amethyst Ore in the overworld - [true/false]
+    generate_amethyst = true
+    # Minimum size of Amethyst Ore veins - default = 5
+    # Range: 0 ~ 100
+    amethyst_min_vein_size = 5
+    # Maximum size of Amethyst Ore veins - default = 8
+    # Range: 0 ~ 100
+    amethyst_max_vein_size = 8
+    # Number of Amethyst Ore veins generated in a chunk - default = 3
+    # Range: 0 ~ 1000
+    amethyst_chance = 3
+    # Minimum height for Amethyst Ore generation - default = -64
+    # Range: -64 ~ 319
+    amethyst_min_height = -64
+    # Maximum height for Amethyst Ore generation - default = 32
+    # Range: -64 ~ 319
+    amethyst_max_height = 32
+
+  [ oregen.quartz_ore ]
+    # Generate Quartz Ore in the overworld - [true/false]
+    generate_quartz = true
+    # Minimum size of Quartz Ore veins - default = 3
+    # Range: 0 ~ 100
+    quartz_min_vein_size = 3
+    # Maximum size of Quartz Ore veins - default = 8
+    # Range: 0 ~ 100
+    quartz_max_vein_size = 8
+    # Number of Quartz Ore veins generated in a chunk - default = 4
+    # Range: 0 ~ 1000
+    quartz_chance = 4
+    # Minimum height for Quartz Ore generation - default = -64
+    # Range: -64 ~ 319
+    quartz_min_height = -64
+    # Maximum height for Quartz Ore generation - default = 48
+    # Range: -64 ~ 319
+    quartz_max_height = 48
+
+[ toolstats ]
+
+  [ toolstats.ruby ]
+    # Harvest Level of Ruby Tools
+    # Range: 0 ~ 4
+    ruby_harvest_level = 3
+    # Max Uses of Ruby Tools
+    # Range: 0 ~ 1000
+    ruby_max_uses = 900
+    # Efficiency of Ruby Tools
+    # Range: 0.0 ~ 100.0
+    ruby_efficiency = 9.0
+    # Attack Damage of Ruby Tools
+    # Range: 0.0 ~ 100.0
+    ruby_attack_damage = 4.0
+    # Enchantability of Ruby Tools
+    # Range: 0 ~ 100
+    ruby_enchantability = 12
+
+  [ toolstats.sapphire ]
+    # Harvest Level of Sapphire Tools
+    # Range: 0 ~ 4
+    sapphire_harvest_level = 3
+    # Max Uses of Sapphire Tools
+    # Range: 0 ~ 1000
+    sapphire_max_uses = 900
+    # Efficiency of Sapphire Tools
+    # Range: 0.0 ~ 100.0
+    sapphire_efficiency = 9.0
+    # Attack Damage of Sapphire Tools
+    # Range: 0.0 ~ 100.0
+    sapphire_attack_damage = 4.0
+    # Enchantability of Sapphire Tools
+    # Range: 0 ~ 100
+    sapphire_enchantability = 12
+
+  [ toolstats.emerald ]
+    # Harvest Level of Emerald Tools
+    # Range: 0 ~ 4
+    emerald_harvest_level = 3
+    # Max Uses of Emerald Tools
+    # Range: 0 ~ 1000
+    emerald_max_uses = 850
+    # Efficiency of Emerald Tools
+    # Range: 0.0 ~ 100.0
+    emerald_efficiency = 8.5
+    # Attack Damage of Emerald Tools
+    # Range: 0.0 ~ 100.0
+    emerald_attack_damage = 3.5
+    # Enchantability of Emerald Tools
+    # Range: 0 ~ 100
+    emerald_enchantability = 11
+
+  [ toolstats.topaz ]
+    # Harvest Level of Topaz Tools
+    # Range: 0 ~ 4
+    topaz_harvest_level = 2
+    # Max Uses of Topaz Tools
+    # Range: 0 ~ 1000
+    topaz_max_uses = 775
+    # Efficiency of Topaz Tools
+    # Range: 0.0 ~ 100.0
+    topaz_efficiency = 8.0
+    # Attack Damage of Topaz Tools
+    # Range: 0.0 ~ 100.0
+    topaz_attack_damage = 2.700000047683716
+    # Enchantability of Topaz Tools
+    # Range: 0 ~ 100
+    topaz_enchantability = 9
+
+  [ toolstats.amethyst ]
+    # Harvest Level of Amethyst Tools
+    # Range: 0 ~ 4
+    amethyst_harvest_level = 2
+    # Max Uses of Amethyst Tools
+    # Range: 0 ~ 1000
+    amethyst_max_uses = 750
+    # Efficiency of Amethyst Tools
+    # Range: 0.0 ~ 100.0
+    amethyst_efficiency = 8.0
+    # Attack Damage of Amethyst Tools
+    # Range: 0.0 ~ 100.0
+    amethyst_attack_damage = 2.299999952316284
+    # Enchantability of Amethyst Tools
+    # Range: 0 ~ 100
+    amethyst_enchantability = 9
+
+  [ toolstats.quartz ]
+    # Harvest Level of Quartz Tools
+    # Range: 0 ~ 4
+    quartz_harvest_level = 2
+    # Max Uses of Quartz Tools
+    # Range: 0 ~ 1000
+    quartz_max_uses = 400
+    # Efficiency of Quartz Tools
+    # Range: 0.0 ~ 100.0
+    quartz_efficiency = 7.0
+    # Attack Damage of Quartz Tools
+    # Range: 0.0 ~ 100.0
+    quartz_attack_damage = 2.299999952316284
+    # Enchantability of Quartz Tools
+    # Range: 0 ~ 100
+    quartz_enchantability = 9
+
+[ armorstats ]
+
+  [ armorstats.ruby ]
+    # Max Damage Factor In of Ruby Armour
+    # Range: 0 ~ 100
+    ruby_max_damage_factor_in = 35
+    # Armour Strength of Ruby Boots
+    # Range: 0 ~ 100
+    ruby_boots_strength = 4
+    # Armour Strength of Ruby Leggings
+    # Range: 0 ~ 100
+    ruby_leggings_strength = 7
+    # Armour Strength of Ruby Chestplate
+    # Range: 0 ~ 100
+    ruby_chestplate_strength = 9
+    # Armour Strength of Ruby Helmet
+    # Range: 0 ~ 100
+    ruby_helmet_strength = 4
+    # Enchantability of Ruby Armour
+    # Range: 0 ~ 100
+    ruby_armor_enchantability = 11
+    # Knockback Resistance of Ruby Armour
+    # Range: 0 ~ 100
+    ruby_armor_knockback_resistance = 0
+
+  [ armorstats.sapphire ]
+    # Max Damage Factor In of Sapphire Armour
+    # Range: 0 ~ 100
+    sapphire_max_damage_factor_in = 35
+    # Armour Strength of Sapphire Boots
+    # Range: 0 ~ 100
+    sapphire_boots_strength = 4
+    # Armour Strength of Sapphire Leggings
+    # Range: 0 ~ 100
+    sapphire_leggings_strength = 7
+    # Armour Strength of Sapphire Chestplate
+    # Range: 0 ~ 100
+    sapphire_chestplate_strength = 9
+    # Armour Strength of Sapphire Helmet
+    # Range: 0 ~ 100
+    sapphire_helmet_strength = 4
+    # Enchantability of Sapphire Armour
+    # Range: 0 ~ 100
+    sapphire_armor_enchantability = 11
+    # Knockback Resistance of Sapphire Armour
+    # Range: 0 ~ 100
+    sapphire_armor_knockback_resistance = 0
+
+  [ armorstats.emerald ]
+    # Max Damage Factor In of Emerald Armour
+    # Range: 0 ~ 100
+    emerald_max_damage_factor_in = 33
+    # Armour Strength of Emerald Boots
+    # Range: 0 ~ 100
+    emerald_boots_strength = 4
+    # Armour Strength of Emerald Leggings
+    # Range: 0 ~ 100
+    emerald_leggings_strength = 6
+    # Armour Strength of Emerald Chestplate
+    # Range: 0 ~ 100
+    emerald_chestplate_strength = 9
+    # Armour Strength of Emerald Helmet
+    # Range: 0 ~ 100
+    emerald_helmet_strength = 3
+    # Enchantability of Emerald Armour
+    # Range: 0 ~ 100
+    emerald_armor_enchantability = 10
+    # Knockback Resistance of Emerald Armour
+    # Range: 0 ~ 100
+    emerald_armor_knockback_resistance = 0
+
+  [ armorstats.topaz ]
+    # Max Damage Factor In of Topaz Armour
+    # Range: 0 ~ 100
+    topaz_max_damage_factor_in = 20
+    # Armour Strength of Topaz Boots
+    # Range: 0 ~ 100
+    topaz_boots_strength = 2
+    # Armour Strength of Topaz Leggings
+    # Range: 0 ~ 100
+    topaz_leggings_strength = 6
+    # Armour Strength of Topaz Chestplate
+    # Range: 0 ~ 100
+    topaz_chestplate_strength = 7
+    # Armour Strength of Topaz Helmet
+    # Range: 0 ~ 100
+    topaz_helmet_strength = 2
+    # Enchantability of Topaz Armour
+    # Range: 0 ~ 100
+    topaz_armor_enchantability = 9
+    # Knockback Resistance of Topaz Armour
+    # Range: 0 ~ 100
+    topaz_armor_knockback_resistance = 0
+
+  [ armorstats.amethyst ]
+    # Max Damage Factor In of Amethyst Armour
+    # Range: 0 ~ 100
+    amethyst_max_damage_factor_in = 17
+    # Armour Strength of Amethyst Boots
+    # Range: 0 ~ 100
+    amethyst_boots_strength = 3
+    # Armour Strength of Amethyst Leggings
+    # Range: 0 ~ 100
+    amethyst_leggings_strength = 5
+    # Armour Strength of Amethyst Chestplate
+    # Range: 0 ~ 100
+    amethyst_chestplate_strength = 6
+    # Armour Strength of Amethyst Helmet
+    # Range: 0 ~ 100
+    amethyst_helmet_strength = 3
+    # Enchantability of Amethyst Armour
+    # Range: 0 ~ 100
+    amethyst_armor_enchantability = 9
+    # Knockback Resistance of Amethyst Armour
+    # Range: 0 ~ 100
+    amethyst_armor_knockback_resistance = 0
+
+  [ armorstats.quartz ]
+    # Max Damage Factor In of Quartz Armour
+    # Range: 0 ~ 100
+    quartz_max_damage_factor_in = 10
+    # Armour Strength of Quartz Boots
+    # Range: 0 ~ 100
+    quartz_boots_strength = 1
+    # Armour Strength of Quartz Leggings
+    # Range: 0 ~ 100
+    quartz_leggings_strength = 4
+    # Armour Strength of Quartz Chestplate
+    # Range: 0 ~ 100
+    quartz_chestplate_strength = 5
+    # Armour Strength of Quartz Helmet
+    # Range: 0 ~ 100
+    quartz_helmet_strength = 2
+    # Enchantability of Quartz Armour
+    # Range: 0 ~ 100
+    quartz_armor_enchantability = 12
+    # Knockback Resistance of Quartz Armour
+    # Range: 0 ~ 100
+    quartz_armor_knockback_resistance = 0
+

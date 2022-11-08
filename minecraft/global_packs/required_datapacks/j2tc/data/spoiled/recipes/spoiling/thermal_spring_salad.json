@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "thermal:spring_salad"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

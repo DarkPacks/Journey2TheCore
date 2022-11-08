@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" C ", "SCS", "SSS"],
+  "key": {
+    "S": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "create:whisk"
+  }
+}

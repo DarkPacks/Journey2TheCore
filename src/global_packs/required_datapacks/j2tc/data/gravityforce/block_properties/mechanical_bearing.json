@@ -1,6 +1,0 @@
-{
-  "blockLocation": "create:mechanical_bearing",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:strong"
-}

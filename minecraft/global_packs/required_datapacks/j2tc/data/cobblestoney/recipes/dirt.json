@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cobblestoney:silt"
+    },
+    {
+      "item": "cobblestoney:mud"
+    },
+    {
+      "item": "cobblestoney:mud"
+    },
+    {
+      "item": "cobblestoney:mud"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dirt"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "blockLocation": "geore:budding_quartz",
+  "dropBlock": "geore:quartz_block",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

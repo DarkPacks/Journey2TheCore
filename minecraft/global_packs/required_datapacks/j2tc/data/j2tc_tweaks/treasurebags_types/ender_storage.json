@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Wifi!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/ender_storage",
+  "rarity": "uncommon",
+  "bagColor": "#ffffff",
+  "bagOverlayColor": "#960000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

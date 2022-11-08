@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Blast Off!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/firework_rocket",
+  "rarity": "uncommon",
+  "bagColor": "#ed9f55",
+  "bagOverlayColor": "#ffffff",
+  "bagStringColor": "#f6ff00",
+  "dropsFromGroups": []
+}

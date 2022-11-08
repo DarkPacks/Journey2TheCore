@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "You Grow, Girl!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/flowers",
+  "rarity": "uncommon",
+  "bagColor": "#ff0000",
+  "bagOverlayColor": "#c505e3",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

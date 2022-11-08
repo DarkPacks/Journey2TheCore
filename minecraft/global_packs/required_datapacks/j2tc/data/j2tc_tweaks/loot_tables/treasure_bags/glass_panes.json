@@ -1,0 +1,163 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 32,
+        "max": 128
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:light_gray_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cyan_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:purple_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:blue_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:brown_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:green_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:red_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:black_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:pink_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:lime_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:yellow_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:light_blue_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:magenta_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:orange_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:white_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:gray_stained_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:tiled_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:framed_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:horizontal_framed_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:vertical_framed_glass_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:oak_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:spruce_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:birch_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:jungle_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:acacia_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:ornate_iron_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:warped_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:crimson_window_pane"
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "create:dark_oak_window_pane"
+        }
+      ]
+    }
+  ]
+}

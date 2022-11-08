@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      "j2tc_tweaks:greed_layer/vending_machines_north",
+      "j2tc_tweaks:greed_layer/vending_machines_east",
+      "j2tc_tweaks:greed_layer/vending_machines_south",
+      "j2tc_tweaks:greed_layer/vending_machines_west"
+    ]
+  }
+}

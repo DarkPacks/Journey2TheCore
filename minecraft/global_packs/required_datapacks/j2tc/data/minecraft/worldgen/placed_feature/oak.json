@@ -1,0 +1,41 @@
+{
+  "feature": "minecraft:oak",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 64
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 528
+        },
+        "max_inclusive": {
+          "absolute": 688
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [
+          "cobblestoney:clay_silt",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:snow_block",
+          "rechiseled:dirt_muddy"
+        ]
+      }
+    }
+  ]
+}

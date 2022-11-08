@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "cobblestoney:diorite_cobbled"
-  },
-  "result": "minecraft:diorite",
-  "count": 1
-}

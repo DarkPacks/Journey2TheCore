@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:granite",
+  "dropBlock": "cobblestoney:granite_cobbled",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

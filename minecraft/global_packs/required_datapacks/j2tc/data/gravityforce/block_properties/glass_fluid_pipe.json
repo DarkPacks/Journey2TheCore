@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:glass_fluid_pipe",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

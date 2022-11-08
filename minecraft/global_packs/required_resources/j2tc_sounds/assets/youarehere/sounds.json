@@ -1,0 +1,48 @@
+{
+  "sound.1": {
+    "sounds": ["youarehere:empty1"],
+    "replace": true
+  },
+  "sound.2": {
+    "sounds": [
+      "youarehere:empty2",
+      "youarehere:empty3",
+      "youarehere:empty4",
+      "youarehere:empty5",
+      "youarehere:empty6"
+    ],
+    "replace": true
+  },
+  "sound.3": {
+    "sounds": ["youarehere:empty3"],
+    "replace": true
+  },
+  "sound.4": {
+    "sounds": ["youarehere:empty4"],
+    "replace": true
+  },
+  "sound.5": {
+    "sounds": ["youarehere:empty5"],
+    "replace": true
+  },
+  "sound.6": {
+    "sounds": ["youarehere:empty6"],
+    "replace": true
+  },
+  "sound.7": {
+    "sounds": ["youarehere:empty7"],
+    "replace": true
+  },
+  "sound.8": {
+    "sounds": ["youarehere:empty8"],
+    "replace": true
+  },
+  "sound.9": {
+    "sounds": ["youarehere:empty9"],
+    "replace": true
+  },
+  "sound.10": {
+    "sounds": ["youarehere:empty10"],
+    "replace": true
+  }
+}

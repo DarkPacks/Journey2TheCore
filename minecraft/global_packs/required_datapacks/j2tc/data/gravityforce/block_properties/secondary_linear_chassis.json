@@ -1,0 +1,6 @@
+{
+  "blockLocation": "create:secondary_linear_chassis",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

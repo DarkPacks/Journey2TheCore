@@ -1,0 +1,31 @@
+
+# Physic Settings
+[ Settings ]
+  # Turn physics On/Off (WHAT ARE YOU DOING) [default: true]
+  enablePhysics = true
+  # Enable Physics Landslide (Warning, Landslide isn't 100% functional) [default: true]
+  enableLandslide = false
+  # How long until individual chunk's physics starts after loading (DO NOT SET TOO LOW) [default: 1000]
+  # Range: > 0
+  chunkDelay = 1000
+  # This will change maximum number of blocks that can be updated with physics at a time. -1 = Unlimited [default: 128]
+  # Range: > -1
+  updateCap = 128
+  # The number of ticks between physics update passes (must be 6 or more) [default: 6]
+  # Range: > 6
+  physInterval = 6
+  # How long after world start until the physics system kicks in (DO NOT SET TOO LOW) [default: 1000]
+  # Range: > 0
+  worldDelay = 1250
+  # Setting Large Ice Cracking to true can cause Massive Lag [default: false]
+  spreadIce = false
+  # Stone Cracks Before Falling [default: true]
+  stoneCracks = true
+  # 0 = No action, 1 = Limit to < 100 per 8x8 block area, 2 = Delete excessive entities & Dump physics (EMERGENCY ONLY) [default: 1]
+  # Range: 0 ~ 2
+  entityFailsafe = 2
+  # The default stability to use when no stability has been specified by a datapack
+  defaultStability = "gravityforce:loose"
+  # Blocks Can Turn Into Other Blocks Before Falling [default: true]
+  intermediaryBlocks = true
+

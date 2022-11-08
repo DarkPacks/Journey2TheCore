@@ -1,7 +1,0 @@
-{
-  "blockLocation": "thermal:deepslate_lead_ore",
-  "dropBlock": "minecraft:cobbled_deepslate",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

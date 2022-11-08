@@ -1,0 +1,9 @@
+{
+  "items": ["cyclic:tile_transporter_empty"],
+  "tooltips": [
+    {
+      "text": "Can transport Spawners",
+      "color": "#ecbf00"
+    }
+  ]
+}

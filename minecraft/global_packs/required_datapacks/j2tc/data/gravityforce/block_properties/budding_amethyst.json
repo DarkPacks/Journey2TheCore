@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:budding_amethyst",
+  "dropBlock": "minecraft:amethyst_block",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}

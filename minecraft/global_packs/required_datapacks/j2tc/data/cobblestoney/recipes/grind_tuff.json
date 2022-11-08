@@ -1,0 +1,21 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:tuff"
+  },
+  "result": {
+    "item": "cobblestoney:tuff_cobbled",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "plaingrinder",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

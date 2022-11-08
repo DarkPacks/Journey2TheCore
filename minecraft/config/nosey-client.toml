@@ -1,0 +1,10 @@
+
+# Client settings
+[ client ]
+  # When enabled Ghast's grow a nose [default: true]
+  showGhastNose = true
+  # When enabled Creeper's grow a nose [default: true]
+  showCreeperNose = true
+  # When enabled Bee's grow a nose [default: true]
+  showBeeNose = true
+

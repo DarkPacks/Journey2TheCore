@@ -1,0 +1,18 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:dark_forest",
+    {
+      "id": "#forge:is_spooky",
+      "required": false
+    },
+    {
+      "id": "#forge:is_dead",
+      "required": false
+    },
+    {
+      "id": "#c:dead",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "It flings dirt"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/dirt_flinger",
+  "rarity": "uncommon",
+  "bagColor": "#101010",
+  "bagOverlayColor": "#ecbf00",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:ore_infested",
+  "placement": [
+    {
+      "count": 36,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 400
+        },
+        "max_inclusive": {
+          "absolute": 530
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

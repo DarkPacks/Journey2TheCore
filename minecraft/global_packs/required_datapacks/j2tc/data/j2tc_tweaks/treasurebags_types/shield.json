@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Shielded"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/shield",
+  "rarity": "uncommon",
+  "bagColor": "#6b4f1e",
+  "bagOverlayColor": "#99712c",
+  "bagStringColor": "#755e36",
+  "dropsFromGroups": []
+}

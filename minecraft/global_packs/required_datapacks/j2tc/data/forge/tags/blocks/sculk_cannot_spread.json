@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:features_cannot_replace",
+    "#minecraft:fire",
+    "#minecraft:portals",
+    "#minecraft:beehives",
+    "#minecraft:buttons",
+    "#minecraft:doors",
+    "#minecraft:carpets",
+    "#minecraft:saplings",
+    "#minecraft:beds",
+    "#minecraft:fences",
+    "#minecraft:flowers",
+    "#minecraft:tall_flowers",
+    "#minecraft:candles",
+    "#minecraft:signs",
+    "#minecraft:campfires",
+    "#minecraft:crops",
+    "#minecraft:fence_gates",
+    "#forge:sculk_blocks"
+  ]
+}

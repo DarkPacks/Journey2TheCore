@@ -1,9 +1,0 @@
-{
-  "type": "youarehere:y_level",
-  "soundLocation": "cyclic:chaos_reaper",
-  "title": "Deceit",
-  "subtitle": "The Denied",
-  "minY": -64,
-  "maxY": -1,
-  "dimension": "minecraft:overworld"
-}

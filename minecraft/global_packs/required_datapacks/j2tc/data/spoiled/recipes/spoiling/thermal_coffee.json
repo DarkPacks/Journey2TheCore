@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "thermal:coffee"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

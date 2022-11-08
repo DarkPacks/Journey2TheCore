@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    },
+    {
+      "tag": "forge:shards/paper"
+    }
+  ],
+  "result": {
+    "item": "minecraft:paper",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "tconstruct:hand_axe"
+  },
+  "block_in": {
+    "blocks": ["minecraft:wheat"],
+    "state": {
+      "age": 6
+    }
+  },
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "farmersdelight:tree_bark",
+      "contextual": {
+        "type": "chance",
+        "chance": 1.0
+      }
+    },
+    {
+      "type": "place",
+      "block": "stripped_birch_log"
+    },
+    {
+      "type": "damage_item"
+    }
+  ]
+}

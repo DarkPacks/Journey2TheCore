@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Free Candy! It's back here in my van"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/free_candy",
+  "rarity": "uncommon",
+  "bagColor": "#6290a6",
+  "bagOverlayColor": "#7da8bd",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

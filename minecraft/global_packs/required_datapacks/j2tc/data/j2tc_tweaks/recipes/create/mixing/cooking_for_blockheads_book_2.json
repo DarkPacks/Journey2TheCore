@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "cookingforblockheads:recipe_book"
+    }
+  ],
+  "results": [
+    {
+      "item": "cookingforblockheads:crafting_book"
+    }
+  ]
+}

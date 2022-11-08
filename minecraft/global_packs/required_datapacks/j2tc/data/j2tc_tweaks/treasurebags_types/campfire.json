@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Light the Bonfire"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/campfire",
+  "rarity": "uncommon",
+  "bagColor": "#382e1c",
+  "bagOverlayColor": "#ffa600",
+  "bagStringColor": "#fff566",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,1091 @@
+{
+  "configs": [
+    {
+      "types": {
+        "bits": [
+          {
+            "name": "Chat Message",
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just sent you $amount bits!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "-1"
+          },
+          {
+            "name": "5 Bits",
+            "conditions": [
+              {
+                "amount": 5.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Item Rename",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "25 Bits",
+            "conditions": [
+              {
+                "amount": 25.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Rearrange Hotbar",
+                "type": "constant"
+              }
+            ]
+          },
+          {
+            "name": "33 Bits",
+            "conditions": [
+              {
+                "amount": 33.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Dad Joke",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "50 Bits",
+            "conditions": [
+              {
+                "amount": 50.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Rotate Player",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "66 Bits",
+            "conditions": [
+              {
+                "amount": 66.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Random Enchant Item",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "69 Bits",
+            "conditions": [
+              {
+                "amount": 69.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Baby Raccoon",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "(75 bits) Captcha Math Problem",
+            "conditions": [
+              {
+                "amount": 75.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Captcha Math",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "500 Bits",
+            "conditions": [
+              {
+                "amount": 500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "value500",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1000 Bits",
+            "conditions": [
+              {
+                "amount": 1000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Inventory Bomb",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "100 Bits",
+            "conditions": [
+              {
+                "amount": 100.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Fake Crash Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1812",
+            "conditions": [
+              {
+                "amount": 1812.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2181",
+            "conditions": [
+              {
+                "amount": 2181.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812",
+                "type": "constant"
+              },
+              {
+                "name": "Dirt Creeper Summon Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Chance Cubes Test",
+            "conditions": [
+              {
+                "amount": 2000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers $playerName",
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "5000 Bits",
+            "conditions": [
+              {
+                "amount": 5000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Super Charged Creeper",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "18120 Bits",
+            "conditions": [
+              {
+                "amount": 18120.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Countdown to Super Charged Creeper",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              },
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "666 Bits",
+            "conditions": [
+              {
+                "amount": 666.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Summon Angry Bear",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1500 Bits",
+            "conditions": [
+              {
+                "amount": 1500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Pillager Patrol",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "400 Bits",
+            "conditions": [
+              {
+                "amount": 400.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Chance Cube Surround",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "200 Bits",
+            "conditions": [
+              {
+                "amount": 200.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Mount Player on Entity",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "150 Bits",
+            "conditions": [
+              {
+                "amount": 150.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "95 Bits",
+            "conditions": [
+              {
+                "amount": 95.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Shuffle Inventory",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "777 Bits",
+            "conditions": [
+              {
+                "amount": 777.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Armor Stand (teleport)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "125 Bits",
+            "conditions": [
+              {
+                "amount": 125.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Super Secret Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2500 Bits",
+            "conditions": [
+              {
+                "amount": 2500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Add to Raid Meter",
+            "conditions": [],
+            "outcomes": [
+              {
+                "command": "/raidmeter modify quest add $amount",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "667 Bits",
+            "conditions": [
+              {
+                "amount": 667.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Bone Serpent",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "668 Bits",
+            "conditions": [
+              {
+                "amount": 668.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Baby Bear Group",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "665 Bits",
+            "conditions": [
+              {
+                "amount": 665.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "669 Bits",
+            "conditions": [
+              {
+                "amount": 669.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "778 Bits",
+            "conditions": [
+              {
+                "amount": 778.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Random Downward Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ],
+        "subMysteryGift": [
+          {
+            "name": "Gift Chat Message",
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $name just gave out $amount subs!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "times": "1",
+                "outcome": {
+                  "name": "value500",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ],
+        "subscription": [
+          {
+            "name": "Prime Gaming Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "Prime",
+                "type": "variableCheck"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "value500",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 1 Twitch Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "1000",
+                "type": "variableCheck"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "value500",
+                "type": "constant"
+              },
+              {
+                "name": "RaidMeter Value 500",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 2 Twitch Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "2000",
+                "type": "variableCheck"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "2",
+                "outcome": {
+                  "name": "value500",
+                  "type": "constant"
+                },
+                "type": "repeat",
+                "displayName": ""
+              },
+              {
+                "times": "2",
+                "outcome": {
+                  "name": "RaidMeter Value 500",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 3 Twitch Subscription",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "3000",
+                "type": "variableCheck"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "6",
+                "outcome": {
+                  "name": "value500",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              },
+              {
+                "times": "5",
+                "outcome": {
+                  "name": "RaidMeter Value 500",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Chat Message for sub",
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just subscribed for $amount months!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Colorblind Effect",
+            "conditions": [
+              {
+                "name": "random_number_generator2",
+                "type": "constant"
+              },
+              {
+                "name": "Ticks to Seconds (math)",
+                "type": "constant"
+              },
+              {
+                "name": "Ticks to Seconds but I rounded it",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Colorblind Full Array FINAL",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "$rng2",
+            "delay": "10"
+          }
+        ],
+        "follow": [
+          {
+            "conditions": [],
+            "outcomes": [],
+            "playTime": "20"
+          }
+        ],
+        "host": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just hosted you for up to $amount viewers!",
+                "type": "chat"
+              }
+            ],
+            "playTime": "20"
+          }
+        ],
+        "raid": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just raided you with $amount raiders!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "queue": ["host+subscription+bits", "follow"],
+      "for": "twitch_account"
+    },
+    {
+      "types": {
+        "donation": [
+          {
+            "name": "Chat Message",
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "18.12 Tip",
+            "conditions": [
+              {
+                "amount": 18.12,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "21.81 Tip",
+            "conditions": [
+              {
+                "amount": 21.81,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              },
+              {
+                "name": "Dirt Creeper Summon Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "50.00 Tip",
+            "conditions": [
+              {
+                "amount": 50.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Super Charged Creeper",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "181.20 Tip",
+            "conditions": [
+              {
+                "amount": 181.2,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Countdown to Super Charged Creeper",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              },
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers ~ ~ ~",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.66 Tip",
+            "conditions": [
+              {
+                "amount": 6.66,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Summon Angry Bear",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "15.00 Tip",
+            "conditions": [
+              {
+                "amount": 15.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Pillager Patrol",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "4.00 Tip",
+            "conditions": [
+              {
+                "amount": 4.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Chance Cube Surround",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2.00 Tip",
+            "conditions": [
+              {
+                "amount": 2.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Mount Player on Entity",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.50 Tip",
+            "conditions": [
+              {
+                "amount": 1.5,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "10.00 Tip",
+            "conditions": [
+              {
+                "amount": 10.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Inventory Bomb",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "7.77 Tip",
+            "conditions": [
+              {
+                "amount": 7.77,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Armor Stand (teleport)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "$25 Tip",
+            "conditions": [
+              {
+                "amount": 25.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.25 Tip",
+            "conditions": [
+              {
+                "amount": 1.25,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "5.00 Tip",
+            "conditions": [
+              {
+                "amount": 5.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "value500",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Add to Raidmeter",
+            "conditions": [
+              {
+                "calc": "x",
+                "value1": "$amount",
+                "value2": "100",
+                "variableName": "tipMathed",
+                "type": "math"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/raidmeter modify quest add $tipMathed",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.67 Tip",
+            "conditions": [
+              {
+                "amount": 6.67,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Bone Serpent",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.68 Tip",
+            "conditions": [
+              {
+                "amount": 6.68,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Baby Bear Group",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.65 Tip",
+            "conditions": [
+              {
+                "amount": 6.65,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.69 Tip",
+            "conditions": [
+              {
+                "amount": 6.69,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "singleOutcomeOnly": true
+          },
+          {
+            "conditions": [
+              {
+                "amount": 7.78,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Random Downward Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "ignoredTypes": ["streamlabels", "streamlabels.underlying"]
+    }
+  ],
+  "init": [],
+  "type": "streamlabs"
+}

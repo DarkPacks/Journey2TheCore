@@ -1,0 +1,9 @@
+{
+  "type": "youarehere:y_level",
+  "soundLocation": "cyclic:chaos_reaper",
+  "title": "§kUnknown",
+  "subtitle": "???",
+  "minY": 0,
+  "maxY": 32,
+  "dimension": "j2tc_tweaks:scp_1689"
+}

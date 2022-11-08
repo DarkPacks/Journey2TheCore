@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:fried_rice"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

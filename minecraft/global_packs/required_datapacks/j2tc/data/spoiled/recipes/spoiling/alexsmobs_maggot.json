@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "alexsmobs:maggot"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

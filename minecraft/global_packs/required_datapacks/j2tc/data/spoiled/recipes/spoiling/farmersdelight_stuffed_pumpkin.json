@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "farmersdelight:stuffed_pumpkin"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

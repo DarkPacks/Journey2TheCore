@@ -1,0 +1,9 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "create:bar_of_chocolate"
+  },
+  "result": {
+    "item": "thermal:compost"
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "blockLocation": "randomite:deepslate_randomite_ore",
-  "dropBlock": "minecraft:cobbled_deepslate",
-  "slides": false,
-  "wetSlide": false,
-  "stability": "gravityforce:average"
-}

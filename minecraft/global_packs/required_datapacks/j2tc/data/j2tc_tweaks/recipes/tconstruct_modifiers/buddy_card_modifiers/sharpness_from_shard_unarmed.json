@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_mob_test_set1"],
+      "nbt": "{foil:1b}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "items": ["buddycards:buddycard_mob_test_set2"],
+      "nbt": "{foil:1b}"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/unarmed"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "requirements": {
+    "name": "tconstruct:unarmed",
+    "level": 1,
+    "error": "recipe.tconstruct.modifier.unarmed"
+  },
+  "result": {
+    "name": "tconstruct:sharpness",
+    "level": 1
+  },
+  "max_level": 5
+}

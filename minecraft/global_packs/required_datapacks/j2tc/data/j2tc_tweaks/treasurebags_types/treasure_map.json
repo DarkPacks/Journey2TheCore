@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Village Location Map"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/treasure_map",
+  "rarity": "uncommon",
+  "bagColor": "#960000",
+  "bagOverlayColor": "#ff00f7",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Light up the night!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/beacon",
+  "rarity": "uncommon",
+  "bagColor": "#fffccc",
+  "bagOverlayColor": "#1c1c1c",
+  "bagStringColor": "#382f24",
+  "dropsFromGroups": []
+}

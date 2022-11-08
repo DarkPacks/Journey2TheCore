@@ -1,0 +1,7 @@
+{
+  "blockLocation": "minecraft:deepslate_coal_ore",
+  "dropBlock": "minecraft:cobbled_deepslate",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:average"
+}
