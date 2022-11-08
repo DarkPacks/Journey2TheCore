@@ -1,0 +1,14 @@
+{
+  "weight": 100,
+  "quality": 1.0,
+  "stages": ["quest_0"],
+  "stack": {
+    "item": "mob_grinding_utils:monocle",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
+}

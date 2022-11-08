@@ -1,20 +1,13 @@
 {
   "weight": 85,
   "quality": 4.0,
-  "stages":
-  [
-    "quest_2"
-  ],
-  "stack":
-  {
+  "stages": ["quest_2"],
+  "stack": {
     "item": "tconstruct:hand_axe",
     "nbt": "{tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":8.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":398.75f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f}}"
   },
   "type": "HEAVY_WEAPON",
-  "dimensions":
-  [
-    "minecraft:overworld"
-  ],
+  "dimensions": ["minecraft:overworld"],
   "min_rarity": "common",
   "max_rarity": "rare"
 }

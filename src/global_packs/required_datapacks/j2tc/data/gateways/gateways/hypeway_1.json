@@ -116,22 +116,7 @@
           "entity": "enchantwithmob:enchanter"
         },
         {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
+          "type": "apotheosis:boss"
         }
       ],
       "rewards": [
@@ -175,12 +160,12 @@
         {
           "attribute": "generic.knockback_resistance",
           "operation": "ADDITION",
-          "value": 0.20
+          "value": 0.2
         },
         {
           "attribute": "generic.movement_speed",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.20
+          "value": 0.2
         }
       ],
       "rewards": [
@@ -283,22 +268,7 @@
           "entity": "enchantwithmob:enchanter"
         },
         {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
+          "type": "apotheosis:boss"
         }
       ],
       "rewards": [
@@ -423,22 +393,7 @@
           "entity": "enchantwithmob:enchanter"
         },
         {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
+          "type": "apotheosis:boss"
         }
       ],
       "rewards": [
@@ -563,22 +518,7 @@
           "entity": "enchantwithmob:enchanter"
         },
         {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
+          "type": "apotheosis:boss"
         }
       ],
       "rewards": [
@@ -703,22 +643,7 @@
           "entity": "enchantwithmob:enchanter"
         },
         {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
-        },
-        {
-          "entity": "player_mobs:player_mob"
+          "type": "apotheosis:boss"
         }
       ],
       "rewards": [

@@ -1,19 +1,14 @@
 {
   "weight": 50,
   "quality": 2.5,
-  "stack":
-  {
-    "item": "minecraft:bow"
+  "stack": {
+    "item": "minecraft:bow",
+    "count": 1,
+    "nbt": "{Damage:0}"
   },
   "type": "BOW",
-  "stages":
-  [
-    "quest_2"
-  ],
+  "stages": ["quest_2"],
   "min_rarity": "common",
   "max_rarity": "rare",
-  "dimensions":
-  [
-    "minecraft:overworld"
-  ]
+  "dimensions": ["minecraft:overworld"]
 }

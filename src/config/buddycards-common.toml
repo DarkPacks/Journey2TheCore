@@ -44,7 +44,7 @@
 [luminis]
 	#
 	#Enable Luminis vein generation, default is true
-	enableVeins = true
+	enableVeins = false
 	#
 	#Distance between chunks that can spawn Luminis veins, under right conditions, default is 5
 	#Range: 1 ~ 16

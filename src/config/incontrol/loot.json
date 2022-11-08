@@ -15,46 +15,35 @@
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
+    "mob": ["player_mobs:player_mob"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set1",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set2",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set2",
     "random": 0.06,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:zombie",
-      "minecraft:drowned"
-    ],
+    "mob": ["minecraft:zombie", "minecraft:drowned"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set3",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:spider"
-    ],
+    "mob": ["minecraft:spider"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set4",
     "random": 0.04,
@@ -78,99 +67,77 @@
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:slime"
-    ],
+    "mob": ["minecraft:slime"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set6",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "graveyard:ghoul"
-    ],
+    "mob": ["graveyard:ghoul"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set7",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "graveyard:revenant"
-    ],
+    "mob": ["graveyard:revenant"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set8",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:enderman"
-    ],
+    "mob": ["minecraft:enderman"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set9",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:husk"
-    ],
+    "mob": ["minecraft:husk"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set10",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:husk"
-    ],
+    "mob": ["minecraft:husk"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set10",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:stray"
-    ],
+    "mob": ["minecraft:stray"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set11",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:zombie_villager"
-    ],
+    "mob": ["minecraft:zombie_villager"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set12",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:witch"
-    ],
+    "mob": ["minecraft:witch"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set13",
     "random": 0.08,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:drowned"
-    ],
+    "mob": ["minecraft:drowned"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set14",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:ghast"
-    ],
+    "mob": ["minecraft:ghast"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set15",
     "random": 0.04,
@@ -190,9 +157,7 @@
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:blaze"
-    ],
+    "mob": ["minecraft:blaze"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set17",
     "random": 0.04,
@@ -210,140 +175,160 @@
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set19",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:magma_monster",
-      "minecraft:magma_monster_grunt"
-    ],
+    "mob": ["minecraft:magma_monster", "minecraft:magma_monster_grunt"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set20",
     "random": 0.06,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:magma_cube"
-    ],
+    "mob": ["minecraft:magma_cube"],
     "player": true,
     "item": "buddycards:buddycard_mob_test_set21",
     "random": 0.04,
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
+    "mob": ["player_mobs:player_mob"],
     "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set1"
-    ],
-    "random": 0.01,
+    "item": ["buddycards:buddycard_patreon_supporter_set1"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set2"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set3"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set4"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set5"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set6"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set7"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set8"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set9"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set10"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set11"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set12"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set13"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set14"],
+    "random": 0.005,
+    "itemcount": "1/1/1-2"
+  },
+
+  {
+    "mob": ["player_mobs:player_mob"],
+    "player": true,
+    "item": ["buddycards:buddycard_patreon_supporter_set15"],
+    "random": 0.005,
     "itemcount": "1/1/1-2"
   },
   {
     "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
       "player_mobs:player_mob"
     ],
     "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set2"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set3"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set4"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set5"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set6"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set7"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set8"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set9"
-    ],
-    "random": 0.01,
-    "itemcount": "1/1/1-2"
-  },
-  {
-    "mob": [
-      "player_mobs:player_mob"
-    ],
-    "player": true,
-    "item": [
-      "buddycards:buddycard_patreon_supporter_set10"
-    ],
+    "item": "buddycards:buddycard_pack_mob_test_set",
+    "gamestage": "quest_1",
     "random": 0.01,
     "itemcount": "1/1/1-2"
   },
@@ -370,6 +355,196 @@
     ],
     "player": true,
     "item": "buddycards:buddycard_pack_mob_test_set",
+    "gamestage": "quest_2",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_mob_test_set",
+    "gamestage": "quest_3",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_mob_test_set",
+    "gamestage": "quest_4",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_mob_test_set",
+    "gamestage": "quest_5",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_patreon_supporter_set",
+    "gamestage": "quest_2",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_patreon_supporter_set",
+    "gamestage": "quest_3",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_patreon_supporter_set",
+    "gamestage": "quest_4",
+    "random": 0.01,
+    "itemcount": "1/1/1-2"
+  },
+  {
+    "mob": [
+      "player_mobs:player_mob",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:zombie",
+      "minecraft:spider",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:zombie_villager",
+      "minecraft:witch",
+      "minecraft:drowned",
+      "minecraft:ghast",
+      "player_mobs:player_mob"
+    ],
+    "player": true,
+    "item": "buddycards:buddycard_pack_patreon_supporter_set",
+    "gamestage": "quest_5",
     "random": 0.01,
     "itemcount": "1/1/1-2"
   },
@@ -388,14 +563,9 @@
     "itemcount": "1/1/1-2"
   },
   {
-    "mob": [
-      "minecraft:husk",
-      "minecraft:stray"
-    ],
+    "mob": ["minecraft:husk", "minecraft:stray"],
     "player": true,
-    "item": [
-      "thermal:gold_coin"
-    ],
+    "item": ["thermal:gold_coin"],
     "random": 0.15,
     "itemcount": "1/1/1-2"
   }

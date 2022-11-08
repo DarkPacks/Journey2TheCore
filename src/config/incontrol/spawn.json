@@ -13,8 +13,7 @@
   {
     "dimension": "minecraft:overworld",
     "mod": "candyworld",
-    "block":
-    [
+    "block": [
       "candyworld:red_gummy_block",
       "candyworld:green_gummy_block",
       "candyworld:white_gummy_block",
@@ -78,15 +77,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:stray",
-      "minecraft:husk"
-    ],
+    "mob": ["minecraft:stray", "minecraft:husk"],
     "healthmultiply": 4,
     "damagemultiply": 1.5,
     "damageadd": 1,
-    "speedmultiply": 1.25,
+    "speedmultiply": 1.0,
     "onjoin": true,
     "minlight": 0,
     "maxlight": 7,
@@ -96,23 +91,15 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:stray",
-      "minecraft:husk"
-    ],
+    "mob": ["minecraft:stray", "minecraft:husk"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "minecraft:stray",
-      "minecraft:husk"
-    ],
+    "mob": ["minecraft:stray", "minecraft:husk"],
     "healthmultiply": 4,
     "damagemultiply": 1.5,
     "damageadd": 1,
-    "speedmultiply": 1.25,
+    "speedmultiply": 1.0,
     "onjoin": true,
     "minlight": 8,
     "maxlight": 15,
@@ -122,8 +109,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -133,8 +119,7 @@
     "result": "deny"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -152,8 +137,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -171,8 +155,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -190,8 +173,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:pillager",
       "minecraft:vindicator",
       "minecraft:evoker",
@@ -200,8 +182,8 @@
     ],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
-    "damageadd": 0,
     "speedmultiply": 1.0,
+    "damageadd": 0,
     "gamestage": "quest_3",
     "minlight": 8,
     "maxlight": 15,
@@ -209,15 +191,14 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
-    "damageadd": 0,
     "speedmultiply": 0.8,
+    "damageadd": 0,
     "gamestage": "quest_1",
     "minlight": 0,
     "maxlight": 7,
@@ -225,15 +206,14 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
-    "damageadd": 0,
     "speedmultiply": 0.8,
+    "damageadd": 0,
     "gamestage": "quest_2",
     "minlight": 0,
     "maxlight": 7,
@@ -241,15 +221,14 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "healthmultiply": 1.2,
     "damagemultiply": 1.0,
-    "damageadd": 0,
     "speedmultiply": 1.0,
+    "damageadd": 0,
     "gamestage": "quest_3",
     "minlight": 0,
     "maxlight": 7,
@@ -257,23 +236,21 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "result": "deny"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
-    "damageadd": 0,
     "speedmultiply": 0.8,
+    "damageadd": 0,
     "gamestage": "quest_1",
     "minlight": 8,
     "maxlight": 15,
@@ -281,15 +258,14 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
-    "damageadd": 0,
     "speedmultiply": 0.8,
+    "damageadd": 0,
     "gamestage": "quest_2",
     "minlight": 8,
     "maxlight": 15,
@@ -297,15 +273,14 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
     "healthmultiply": 1.2,
     "damagemultiply": 1.0,
-    "damageadd": 0,
     "speedmultiply": 1.0,
+    "damageadd": 0,
     "gamestage": "quest_3",
     "minlight": 8,
     "maxlight": 15,
@@ -313,27 +288,19 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "goblintraders:goblin_trader",
-      "goblintraders:vein_goblin_trader"
-    ],
+    "mob": ["goblintraders:goblin_trader", "goblintraders:vein_goblin_trader"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
     "gamestage": "quest_0",
     "onjoin": true,
-    "damageadd": 0,
-    "speedmultiply": 1.0,
     "minlight": 0,
     "maxlight": 15,
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "goblintraders:goblin_trader",
-      "goblintraders:vein_goblin_trader"
-    ],
+    "mob": ["goblintraders:goblin_trader", "goblintraders:vein_goblin_trader"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "gamestage": "quest_1",
@@ -345,11 +312,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "goblintraders:goblin_trader",
-      "goblintraders:vein_goblin_trader"
-    ],
+    "mob": ["goblintraders:goblin_trader", "goblintraders:vein_goblin_trader"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "gamestage": "quest_2",
@@ -361,11 +324,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "goblintraders:goblin_trader",
-      "goblintraders:vein_goblin_trader"
-    ],
+    "mob": ["goblintraders:goblin_trader", "goblintraders:vein_goblin_trader"],
     "healthmultiply": 1.1,
     "damagemultiply": 1.1,
     "gamestage": "quest_3",
@@ -377,10 +336,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
@@ -389,25 +345,16 @@
     "minlight": 0,
     "maxlight": 7,
     "gamestage": "quest_0",
-    "helditem":
-    [
-      "minecraft:bone"
-    ],
+    "helditem": ["minecraft:bone"],
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
     "speedmultiply": 0.8,
-    "helditem":
-    [
-      "minecraft:bone"
-    ],
+    "helditem": ["minecraft:bone"],
     "gamestage": "quest_1",
     "onjoin": true,
     "minlight": 0,
@@ -415,10 +362,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -431,10 +375,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "damageadd": 0,
@@ -447,17 +388,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
@@ -466,17 +401,11 @@
     "minlight": 8,
     "maxlight": 15,
     "gamestage": "quest_0",
-    "helditem":
-    [
-      "minecraft:bone"
-    ],
+    "helditem": ["minecraft:bone"],
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
@@ -485,17 +414,11 @@
     "minlight": 8,
     "maxlight": 15,
     "gamestage": "quest_1",
-    "helditem":
-    [
-      "minecraft:bone"
-    ],
+    "helditem": ["minecraft:bone"],
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -508,10 +431,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:skeleton"
-    ],
+    "mob": ["minecraft:skeleton"],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "damageadd": 0,
@@ -524,10 +444,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
@@ -540,10 +457,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -556,10 +470,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "damageadd": 0,
@@ -572,17 +483,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
@@ -595,10 +500,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -611,10 +513,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:wither_skeleton"
-    ],
+    "mob": ["minecraft:wither_skeleton"],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "damageadd": 0,
@@ -627,28 +526,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:spider",
-      "minecraft:zombie",
-      "player_mobs:player_mob",
-      "minecraft:zombie_villager",
-      "tconstruct:ender_slime",
-      "minecraft:enderman",
-      "core_creepers:dirt_creeper"
-    ],
-    "healthmultiply": 0.75,
-    "damagemultiply": 0.75,
-    "gamestage": "quest_0",
-    "damageadd": 0,
-    "speedmultiply": 0.8,
-    "minlight": 0,
-    "maxlight": 7,
-    "result": "allow"
-  },
-  {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -663,12 +541,13 @@
     "gamestage": "quest_0",
     "damageadd": 0,
     "speedmultiply": 0.8,
+    "minlight": 0,
+    "maxlight": 7,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "minecraft:zombie_villager",
@@ -687,8 +566,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -709,8 +587,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -722,17 +599,17 @@
       "core_creepers:dirt_creeper"
     ],
     "gamestage": "quest_3",
-    "minlight": 0,
-    "maxlight": 7,
-    "damageadd": 0,
-    "speedmultiply": 1.0,
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -746,8 +623,27 @@
     "result": "deny"
   },
   {
-    "mob":
-    [
+    "mob": [
+      "minecraft:spider",
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "tconstruct:ender_slime",
+      "minecraft:enderman",
+      "core_creepers:dirt_creeper",
+      "tntslimes:tnt_slime"
+    ],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.75,
+    "damageadd": 0,
+    "speedmultiply": 0.8,
+    "gamestage": "quest_0",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "minecraft:zombie_villager",
@@ -767,8 +663,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -791,8 +686,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "minecraft:spider",
       "minecraft:zombie",
       "player_mobs:player_mob",
@@ -815,11 +709,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -831,11 +721,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "damageadd": 0,
@@ -847,19 +733,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "damageadd": 0,
@@ -871,11 +749,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "healthmultiply": 0.8,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -886,11 +760,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "damageadd": 0,
@@ -902,11 +772,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "minecraft:creeper",
-      "core_creepers:cluster_creeper"
-    ],
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "damageadd": 0,
@@ -918,8 +784,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
@@ -934,8 +799,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
@@ -950,16 +814,14 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
     "result": "deny"
   },
   {
-    "mob":
-    [
+    "mob": [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
@@ -974,12 +836,71 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:lobster",
-      "alexsmobs:comb_jelly",
-      "alexsmobs:crocodile"
-    ],
+    "mob": ["minecraft:polar_bear"],
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:polar_bear"],
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.5,
+    "damageadd": 0,
+    "speedmultiply": 0.5,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:polar_bear"],
+    "healthmultiply": 0.6,
+    "damagemultiply": 0.6,
+    "damageadd": 0,
+    "speedmultiply": 0.6,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:polar_bear"],
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.7,
+    "damageadd": 0,
+    "speedmultiply": 0.7,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:polar_bear"],
+    "healthmultiply": 0.8,
+    "damagemultiply": 0.8,
+    "damageadd": 0,
+    "speedmultiply": 0.8,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:polar_bear"],
+    "healthmultiply": 0.9,
+    "damagemultiply": 0.9,
+    "damageadd": 0,
+    "speedmultiply": 0.9,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["alexsmobs:lobster", "alexsmobs:comb_jelly", "alexsmobs:crocodile"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
@@ -989,19 +910,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:lobster",
-      "alexsmobs:comb_jelly",
-      "alexsmobs:crocodile"
-    ],
+    "mob": ["alexsmobs:lobster", "alexsmobs:comb_jelly", "alexsmobs:crocodile"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "artifacts:mimic"
-    ],
+    "mob": ["artifacts:mimic"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
@@ -1011,17 +924,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "artifacts:mimic"
-    ],
+    "mob": ["artifacts:mimic"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "alexsmobs:raccoon"
-    ],
+    "mob": ["alexsmobs:raccoon"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "damageadd": 0,
@@ -1032,15 +939,11 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:raccoon"
-    ],
+    "mob": ["alexsmobs:raccoon"],
     "result": "deny"
   },
   {
-    "mob":
-    [
+    "mob": [
       "alexsmobs:seagull",
       "alexsmobs:crow",
       "alexsmobs:crimson_mosquito"
@@ -1055,8 +958,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
+    "mob": [
       "alexsmobs:seagull",
       "alexsmobs:crow",
       "alexsmobs:crimson_mosquito"
@@ -1064,19 +966,11 @@
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "alexsmobs:void_worm",
-      "alexsmobs:void_worm_part"
-    ],
+    "mob": ["alexsmobs:void_worm", "alexsmobs:void_worm_part"],
     "result": "deny"
   },
   {
-    "mob":
-    [
-      "alexsmobs:void_worm",
-      "alexsmobs:void_worm_part"
-    ],
+    "mob": ["alexsmobs:void_worm", "alexsmobs:void_worm_part"],
     "healthmultiply": 0.6,
     "damagemultiply": 0.6,
     "speedmultiply": 0.6,
@@ -1088,11 +982,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:void_worm",
-      "alexsmobs:void_worm_part"
-    ],
+    "mob": ["alexsmobs:void_worm", "alexsmobs:void_worm_part"],
     "healthmultiply": 0.7,
     "damagemultiply": 0.7,
     "speedmultiply": 0.7,
@@ -1104,11 +994,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:void_worm",
-      "alexsmobs:void_worm_part"
-    ],
+    "mob": ["alexsmobs:void_worm", "alexsmobs:void_worm_part"],
     "healthmultiply": 0.8,
     "damagemultiply": 0.8,
     "speedmultiply": 0.8,
@@ -1120,11 +1006,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:void_worm",
-      "alexsmobs:void_worm_part"
-    ],
+    "mob": ["alexsmobs:void_worm", "alexsmobs:void_worm_part"],
     "healthmultiply": 0.9,
     "damagemultiply": 0.9,
     "speedmultiply": 0.9,
@@ -1136,11 +1018,7 @@
     "result": "allow"
   },
   {
-    "mob":
-    [
-      "alexsmobs:void_worm",
-      "alexsmobs:void_worm_part"
-    ],
+    "mob": ["alexsmobs:void_worm", "alexsmobs:void_worm_part"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
@@ -1149,65 +1027,6 @@
     "minlight": 0,
     "maxlight": 15,
     "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "mob":
-    [
-      "born_in_chaos_v1:decrepit_skeleton",
-      "born_in_chaos_v1:decaying_zombie",
-      "born_in_chaos_v1:shy_spirit"
-    ],
-    "mincount": 4,
-    "result": "deny"
-  },
-  {
-    "mob":
-    [
-      "born_in_chaos_v1:zombiesina_barrel",
-      "born_in_chaos_v1:nightmare_stalker"
-    ],
-    "mincount": 1,
-    "result": "deny"
-  },
-  {
-    "mob":
-    [
-      "born_in_chaos_v1:ser_pumpkinhead"
-    ],
-    "result": "deny",
-    "mincount": 6
-  },
-  {
-    "mob":
-    [
-      "born_in_chaos_v1:decrepit_skeleton",
-      "born_in_chaos_v1:decaying_zombie",
-      "born_in_chaos_v1:zombiesina_barrel",
-      "born_in_chaos_v1:shy_spirit"
-    ],
-    "minlight": 0,
-    "maxlight": 7,
-    "gamestage": "quest_1",
-    "healthmultiply": 0.75,
-    "damagemultiply": 0.75,
-    "speedmultiply": 0.8,
-    "result": "allow"
-  },
-  {
-    "mob":
-    [
-      "born_in_chaos_v1:decrepit_skeleton",
-      "born_in_chaos_v1:decaying_zombie",
-      "born_in_chaos_v1:zombiesina_barrel",
-      "born_in_chaos_v1:shy_spirit",
-      "born_in_chaos_v1:mr_pumpkin",
-      "born_in_chaos_v1:ser_pumpkinhead"
-    ],
-    "minlight": 0,
-    "maxlight": 7,
-    "gamestage": "quest_2",
-    "healthmultiply": 1.0,
     "result": "allow"
   },
   {
@@ -1226,69 +1045,13 @@
     "result": "deny"
   },
   {
-    "mob": "born_in_chaos_v1:firelight_n",
-    "mincount": 8,
-    "result": "deny"
-  },
-  {
-    "mob": "born_in_chaos_v1:firelight",
-    "mincount": 8,
-    "result": "deny"
-  },
-  {
     "mob": "distantfriends:friend",
     "mincount": 1,
     "result": "deny"
   },
   {
-    "mob":
-    [
+    "mob": [
       "alexsmobs:skelewag",
-      "born_in_chaos_v1:baby_s_2",
-      "born_in_chaos_v1:baby_sk_pow",
-      "born_in_chaos_v1:baby_skeleton",
-      "born_in_chaos_v1:baby_skeleton_n",
-      "born_in_chaos_v1:baby_skkl",
-      "born_in_chaos_v1:bone_imp",
-      "born_in_chaos_v1:bone_imp_2",
-      "born_in_chaos_v1:bone_imp_n",
-      "born_in_chaos_v1:bonescaller",
-      "born_in_chaos_v1:bonescaller_n",
-      "born_in_chaos_v1:controlled_baby_skeleton",
-      "born_in_chaos_v1:dark_vortex",
-      "born_in_chaos_v1:dark_vortex_n",
-      "born_in_chaos_v1:decaying_zombie_n",
-      "born_in_chaos_v1:decrepit_skeleton_n",
-      "born_in_chaos_v1:diamond_thermite",
-      "born_in_chaos_v1:dread_hound",
-      "born_in_chaos_v1:dread_hound_n",
-      "born_in_chaos_v1:fallen_chaos_knight",
-      "born_in_chaos_v1:fallenchaosknight_n",
-      "born_in_chaos_v1:firelight",
-      "born_in_chaos_v1:firelight_n",
-      "born_in_chaos_v1:nightmare_stalker_n",
-      "born_in_chaos_v1:phantom_creeper",
-      "born_in_chaos_v1:phantom_creeper_form",
-      "born_in_chaos_v1:phantom_creeper_n",
-      "born_in_chaos_v1:projectile_staffof_blindness",
-      "born_in_chaos_v1:projectile_staffof_magic_arrows",
-      "born_in_chaos_v1:pumpkin_spirit",
-      "born_in_chaos_v1:restless_spirit",
-      "born_in_chaos_v1:restless_spirit_n",
-      "born_in_chaos_v1:s_bonescaller_n",
-      "born_in_chaos_v1:scarletpersecutor",
-      "born_in_chaos_v1:seared_spirit",
-      "born_in_chaos_v1:shy_spirit",
-      "born_in_chaos_v1:skeleton_bomb",
-      "born_in_chaos_v1:skeleton_bomb_n",
-      "born_in_chaos_v1:skeleton_thrasher",
-      "born_in_chaos_v1:skeleton_thrasher_n",
-      "born_in_chaos_v1:supreme_bonecaller",
-      "born_in_chaos_v1:supreme_bonescaller_s_2",
-      "born_in_chaos_v1:wither_strider",
-      "born_in_chaos_v1:wither_strider_n",
-      "born_in_chaos_v1:zombieswith_door",
-      "born_in_chaos_v1:zombieswith_door_n",
       "buddycards:enderling",
       "graveyard:nightmare",
       "graveyard:reaper",

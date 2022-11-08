@@ -8,10 +8,7 @@
       "item": "bhc:green_heart_canister"
     },
     {
-      "item": "minecraft:totem_of_undying"
-    },
-    {
-      "tag": "forge:gems/emerald"
+      "item": "buddycards:buddycard_pack_nether"
     }
   ],
   "result": {

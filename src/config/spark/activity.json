@@ -63,18 +63,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/or0WyFIkfS"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Darkosto",
-      "uniqueId": "10755ea6-9721-467a-8b5c-92adf689072c"
-    },
-    "time": 1662618873486,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/Dkn8hvednx"
-    }
   }
 ]

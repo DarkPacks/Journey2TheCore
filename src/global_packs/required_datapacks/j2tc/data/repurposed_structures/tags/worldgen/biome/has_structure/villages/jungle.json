@@ -2,9 +2,3 @@
   "replace": true,
   "values": []
 }
-{
-  "replace": false,
-  "values": [
-    "#repurposed_structures:collections/jungles"
-  ]
-}

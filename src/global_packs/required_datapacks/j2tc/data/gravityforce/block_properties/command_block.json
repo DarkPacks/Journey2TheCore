@@ -1,0 +1,6 @@
+{
+  "blockLocation": "minecraft:command_block",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:none"
+}

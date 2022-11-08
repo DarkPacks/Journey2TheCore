@@ -1,0 +1,1759 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base1",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base2",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base3",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base4",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base5",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base6",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base7",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base8",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base9",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base10",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base11",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base12",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base13",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base14",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base15",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base16",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base17",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base18",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base19",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base20",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base21",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base22",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base23",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base24",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base25",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base26",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base27",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base28",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base29",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base30",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base31",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base32",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base33",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base34",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base35",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_base36",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether1",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether2",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether3",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether4",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether5",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether6",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether7",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether8",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether9",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether10",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether11",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether12",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether13",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether14",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether15",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether16",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether17",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether18",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether19",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether20",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether21",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether22",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether23",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether24",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether25",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether26",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_nether27",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end1",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end2",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end3",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end4",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end5",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end6",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end7",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end8",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end9",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end10",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end11",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end12",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end13",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end14",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end15",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end16",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end17",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end18",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end19",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end20",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end21",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end22",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end23",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end24",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end25",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end26",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_end27",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_5": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set1",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set2",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set3",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set4",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set5",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set6",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set7",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set8",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set9",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set10",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set11",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set12",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set13",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set14",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set15",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set16",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set17",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set18",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set19",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set20",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_mob_test_set21",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set1",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set2",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set3",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set4",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set5",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set6",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set7",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set8",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set9",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set10",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set11",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set12",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set13",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set14",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_patreon_supporter_set15",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{foil:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

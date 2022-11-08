@@ -4,24 +4,21 @@ execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if sc
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s potato_dimension_teleport_chance matches 1 run function bossbar:bossbar/potato_dimension_teleport
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run scoreboard players reset @s eat_poisonous_potato
 #track other potatoes in overworld
-execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s eat_baked_potato matches 1 run cyclic scoreboard random @s 1 200 potato_dimension_teleport_chance
+execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s eat_baked_potato matches 1 run cyclic scoreboard random @s 1 350 potato_dimension_teleport_chance
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s potato_dimension_teleport_chance matches 1 run function bossbar:bossbar/potato_dimension_teleport
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run scoreboard players reset @s eat_baked_potato
 
-execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s eat_stuffed_potato matches 1 run cyclic scoreboard random @s 1 200 potato_dimension_teleport_chance
+execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s eat_stuffed_potato matches 1 run cyclic scoreboard random @s 1 250 potato_dimension_teleport_chance
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s potato_dimension_teleport_chance matches 1 run function bossbar:bossbar/potato_dimension_teleport
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run scoreboard players reset @s eat_stuffed_potato
 
-execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s eat_steak_and_potato matches 1 run cyclic scoreboard random @s 1 200 potato_dimension_teleport_chance
+execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s eat_steak_and_potato matches 1 run cyclic scoreboard random @s 1 250 potato_dimension_teleport_chance
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run execute if score @s potato_dimension_teleport_chance matches 1 run function bossbar:bossbar/potato_dimension_teleport
 execute as @a[predicate=bossbar:player_in_overworld_dimension] run scoreboard players reset @s eat_steak_and_potato
 
 
-
 #Runs checks for filling dimension and teleporting back to the overworld
 execute as @a run execute in j2tc_tweaks:scp_1689 run execute as @a[predicate=bossbar:player_in_potato_dimension] run execute if score @s potato_dimension matches 1 run function bossbar:bossbar/fill_potato_dimension
-
-
 
 
 execute as @a[predicate=bossbar:player_in_potato_dimension] run execute if score @s eat_potato matches 1 run cyclic scoreboard random @s 1 11 return_to_overworld_from_potato_dimension

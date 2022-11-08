@@ -229,6 +229,12 @@
     "Sticks": true,
     "Extra Lives": true,
     "Sweep!": true,
-    "Daily Dad Says": true
+    "Daily Dad Says": true,
+    "CARDSPLOSION!": true,
+    "cardsplosion": true,
+    "totem": true,
+    "luggage": true,
+    "health_boost": true,
+    "apotheosis_gem": true
   }
 }

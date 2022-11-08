@@ -1,0 +1,14 @@
+{
+  "weight": 50,
+  "quality": 1.5,
+  "stages": ["quest_2"],
+  "stack": {
+    "item": "cyclic:shield_obsidian",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SHIELD",
+  "min_rarity": "common",
+  "max_rarity": "rare",
+  "dimensions": ["minecraft:overworld"]
+}
