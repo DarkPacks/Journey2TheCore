@@ -5,7 +5,7 @@
 	shouldSpawnWithTinkersBook = false
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
-	showOnlyToolMaterial = "tconstruct:manyullyn"
+	showOnlyToolMaterial = ""
 	#If non-empty, only material will be shown on parts in creative and JEI (or the first valid material if this is invalid for the part).
 	#If empty, all materials will show
 	showOnlyPartMaterial = ""

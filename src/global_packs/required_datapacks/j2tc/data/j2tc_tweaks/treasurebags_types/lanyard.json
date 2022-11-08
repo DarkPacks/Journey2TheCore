@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Lanyards!"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/lanyard",
+  "rarity": "uncommon",
+  "bagColor": "#A020F0",
+  "bagOverlayColor": "#bd3e68",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

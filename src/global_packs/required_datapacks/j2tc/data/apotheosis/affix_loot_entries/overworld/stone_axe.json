@@ -8,12 +8,13 @@
   "stack":
   {
     "item": "tconstruct:hand_axe",
-    "nbt": "tconstruct:pickaxe{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
+    "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
   },
   "type": "HEAVY_WEAPON",
   "dimensions":
   [
     "minecraft:overworld"
   ],
+  "min_rarity": "uncommon",
   "max_rarity": "rare"
 }

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "weight": 10,
+          "name": "buddycards:buddycards_base",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 10,
+          "name": "buddycards:buddycards_mob_test_set",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 10,
+          "name": "buddycards:buddycards_patreon_supporter_set",
+          "expand": true
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "j2tc_tweaks:chests/chance_cube_tables/buddycards_foil"
+        }
+      ]
+    }
+  ]
+}

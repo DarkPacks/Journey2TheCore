@@ -3,33 +3,26 @@
   "downfall": 0.8,
   "precipitation": "none",
   "category": "forest",
-  "effects":
-  {
+  "effects": {
     "sky_color": 0,
     "fog_color": 0,
     "water_color": 8914952,
     "water_fog_color": 3866888,
-    "mood_sound":
-    {
+    "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_delay": 3000,
       "block_search_extent": 8,
       "offset": 2
     },
-    "additions_sound":
-    {
+    "additions_sound": {
       "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     }
   },
-  "spawners":
-  {
-    "monster":
-    [],
-    "creature":
-    [],
-    "ambient":
-    [
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
       {
         "type": "minecraft:bat",
         "weight": 10,
@@ -37,8 +30,7 @@
         "maxCount": 8
       }
     ],
-    "axolotls":
-    [
+    "axolotls": [
       {
         "type": "minecraft:axolotl",
         "weight": 10,
@@ -46,28 +38,20 @@
         "maxCount": 6
       }
     ],
-    "underground_water_creature":
-    [],
-    "water_creature":
-    [],
-    "water_ambient":
-    [],
-    "misc":
-    []
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
   },
-  "spawn_costs":
-  {},
-  "carvers":
-  {
-    "air":
-    [
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
-  "features":
-  [
+  "features": [
     [
       "j2tc_tweaks:water_layer",
       "j2tc_tweaks:water_layer1",
@@ -82,14 +66,8 @@
       "j2tc_tweaks:greed_layer/lake_liquid_gold",
       "j2tc_tweaks:greed_layer/lake_crude_oil"
     ],
-    [
-      "minecraft:amethyst_geode",
-      "j2tc_tweaks:cave_decoration/large_dripstone"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:amethyst_geode", "j2tc_tweaks:cave_decoration/large_dripstone"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [
       "j2tc_tweaks:anger_layer/anger_bottom_layer",

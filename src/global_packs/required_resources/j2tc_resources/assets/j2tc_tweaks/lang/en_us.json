@@ -5,5 +5,9 @@
   "block.monstereggs.cave_spider_egg": "Mysterious Shell",
   "block.rechiseled.dirt_muddy": "Hardened Dirt",
   "item.sophisticatedbackpacks.iron_backpack": "Copper Backpack",
-  "item.sophisticatedbackpacks.gold_backpack": "Bronze Backpack"
+  "item.sophisticatedbackpacks.gold_backpack": "Bronze Backpack",
+  "modifier.tconstruct.well_fed": "Well Fed",
+  "modifier.tconstruct.starter_durability_increase": "Increased Durability",
+  "modifier.tconstruct.color_gilded": "Color Restoration",
+  "modifier.tconstruct.ability_slot": "Ability Slot"
 }

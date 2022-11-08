@@ -9,8 +9,29 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:chests/simple_dungeon",
-          "weight": 100
+          "name": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddycard_pack_patreon_supporter_set",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_2": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }

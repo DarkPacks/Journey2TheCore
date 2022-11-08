@@ -44,6 +44,9 @@
 		[cyclic.enchantment.growth]
 			#Set false to disable enchantment
 			enabled = true
+			#Radius per level.  size around player to perform growth logic
+			#Range: 1 ~ 16
+			radius = 2
 
 		[cyclic.enchantment.launch]
 			#Set false to disable Multi Jump enchantment
@@ -152,6 +155,9 @@
 			#Ore Prospector radius around player to search for ores
 			#Range: 1 ~ 256
 			range = 32
+			#Ore Prospector height around player to search for ores
+			#Range: 1 ~ 128
+			height = 8
 
 		[cyclic.items.charm_torch]
 			#Light level limit for placing torches
@@ -308,6 +314,50 @@
 			#Range: 1 ~ 99
 			leg = 10
 
+		# scythe_brush settings. note radius is halved while player is sneaking
+		[cyclic.items.scythe_brush]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# scythe_forage settings. note radius is halved while player is sneaking
+		[cyclic.items.scythe_forage]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# scythe_leaves settings.  radius is halved while player is sneaking
+		[cyclic.items.scythe_leaves]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# scythe_harvest settings. radius is halved while player is sneaking
+		[cyclic.items.scythe_harvest]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		# spell_water settings
+		[cyclic.items.spell_water]
+			#Radius defines how far it reaches
+			#Range: 0 ~ 32
+			radius = 3
+
+		# spell_ice settings
+		[cyclic.items.spell_ice]
+			#Radius defines how far it reaches
+			#Range: 0 ~ 32
+			radius = 3
+
+		#apple_ender settings
+		[cyclic.items.apple_ender]
+			#Ignored Structures
+			ignore = ["minecraft:shipwreck", "minecraft:mineshaft", "minecraft:stronghold", "minecraft:buried_treasure", "minecraft:pillager_outpost", "minecraft:village", "minecraft:nether_fossil"]
+			#How many results the client will see
+			#Range: 1 ~ 60
+			printed = 5
+
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
@@ -336,10 +386,10 @@
 		[cyclic.blocks.peace_candle]
 			#Height reach of the candle for spawn prevention
 			#Range: 0 ~ 512
-			height = 1
+			height = 0
 			#Reach of the candle for spawn prevention
 			#Range: 0 ~ 64
-			radius = 1
+			radius = 0
 
 		[cyclic.blocks.water_candle]
 			#Reach of the candle
@@ -465,6 +515,9 @@
 			#Tick rate.  20 will fire one block per second
 			#Range: 1 ~ 20
 			ticks = 20
+			#Radius
+			#Range: 1 ~ 32
+			radius = 4
 
 		#Ender Anchor settings
 		[cyclic.blocks.eye_teleport]
@@ -570,4 +623,25 @@
 			#Radius to find and muffle sounds. 
 			#Range: 1 ~ 128
 			radius = 6
+
+		#battery settings
+		[cyclic.blocks.battery]
+			#RF/t charging rate for the battery item slot
+			#Range: 1 ~ 6400000
+			charge = 8000
+
+		#experience_pylon settings
+		[cyclic.blocks.experience_pylon]
+			#Radius to pickup xp orbs
+			#Range: 1 ~ 64
+			radius = 16
+
+		#fisher settings
+		[cyclic.blocks.fisher]
+			#Radius to Fish from nearby water
+			#Range: 1 ~ 32
+			radius = 12
+			#Chance to Fish from nearby water.  Smaller values is slower fish
+			#Range: 1.0E-6 ~ 0.999
+			chance = 0.06
 

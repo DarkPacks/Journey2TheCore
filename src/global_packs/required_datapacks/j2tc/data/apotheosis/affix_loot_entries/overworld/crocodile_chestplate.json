@@ -1,0 +1,14 @@
+{
+  "weight": 70,
+  "quality": 5.0,
+  "stages": ["quest_2"],
+  "stack": {
+    "item": "alexsmobs:crocodile_chestplate",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "uncommon",
+  "max_rarity": "rare"
+}

@@ -145,7 +145,7 @@
         {
           "id": "tconstruct:dagger",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":66.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":77.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
         }
       ],
       "rewardchoice": [
@@ -526,49 +526,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "d3588484-cb69-4071-bb20-e98eca988220",
-      "name": {
-        "text": "Buddy Cards - Mobs",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 143,
-      "y": 135,
-      "icon": {
-        "id": "buddycards:buddycard_pack_mob_test_set",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "buddycards:buddycard_pack_mob_test_set",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "813c7bde-eb89-45ec-971d-f35d8531be80",
-        "194356c6-df5a-4270-8cbf-9206db3aa212"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "buddycards:buddycard_binder_mob_test_set",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "29129ee7-a78b-49ba-947c-b248a45552b0",
       "name": {
         "text": "Dig Your Own Grave",
@@ -840,6 +797,55 @@
       "commandrewards": []
     },
     {
+      "uuid": "65f44142-6e68-41ef-b630-eb1d1ac97e4c",
+      "name": {
+        "text": "You Need Me and I Need You",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 122,
+      "y": 185,
+      "icon": {
+        "id": "buddycards:buddycard_patreon_supporter_set3",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": {
+                "text": "New",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "buddycards:buddycard_patreon_supporter_set3",
+                "Count": 1
+              },
+              "adv_name": "j2tc_tweaks:progression/find_patreon_buddycard"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "buddycards:buddycard_pack_patreon_supporter_set",
+          "Count": 2
+        },
+        {
+          "id": "buddycards:buddycard_binder_patreon_supporter_set",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d4f99a03-afd8-4b88-a2fa-1c285765c501",
       "name": {
         "text": "Kama Chameleon",
@@ -903,7 +909,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 100,
+      "x": 97,
       "y": 157,
       "icon": {
         "id": "ironchest:obsidian_chest",
@@ -1019,7 +1025,8 @@
                 "id": "minecraft:crossbow",
                 "Count": 1,
                 "tag": "{Damage:0}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1288,8 +1295,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 170,
-      "y": 106,
+      "x": 97,
+      "y": 185,
       "icon": {
         "id": "buddycards:buddycard_base3",
         "Count": 1
@@ -1314,7 +1321,16 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "buddycards:buddycard_pack_base",
+          "Count": 2
+        },
+        {
+          "id": "buddycards:buddycard_binder_base",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1444,53 +1460,6 @@
       ],
       "rewardchoice": [],
       "commandrewards": []
-    },
-    {
-      "uuid": "acf37685-68bc-4693-9885-299aa0a02716",
-      "name": {
-        "text": "BUDDY CARD I CHOOSE YOU",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "What\u0027s this really about?! That\u0027s right! Finding the entire BuddyCard collection!\n\nIf you\u0027re running low on space, throw the BuddyCard Binder into a Curios slot!",
-        "isTranslationKey": false
-      },
-      "x": 170,
-      "y": 136,
-      "icon": {
-        "id": "buddycards:buddycard_pack_base",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "buddycards:buddycard_pack_base",
-                "Count": 1
-              },
-              "precision": "TAG_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "813c7bde-eb89-45ec-971d-f35d8531be80",
-        "6a9c4e4e-74ed-42e1-8f88-f5463e865c3b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "buddycards:buddycard_binder_base",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": [
-        "/playertabs addTab",
-        "/function j2tc_tweaks:new_inventory_tab_notification"
-      ]
     },
     {
       "uuid": "1915414e-c271-47d2-87a1-4cdc5c6a3a1e",
@@ -1966,8 +1935,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 144,
-      "y": 106,
+      "x": 72,
+      "y": 185,
       "icon": {
         "id": "buddycards:buddycard_mob_test_set1",
         "Count": 1
@@ -1992,7 +1961,60 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "buddycards:buddycard_pack_mob_test_set",
+          "Count": 2
+        },
+        {
+          "id": "buddycards:buddycard_binder_mob_test_set",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6aae154-01be-4b2d-8f8a-2781457b0de3",
+      "name": {
+        "text": "Nails on a Chalkboard",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 122,
+      "y": 157,
+      "icon": {
+        "id": "chalk:white_chalk",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "chalk:white_chalk",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "chalk:chalk_box",
+          "Count": 1,
+          "tag": "{Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"}]}"
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },

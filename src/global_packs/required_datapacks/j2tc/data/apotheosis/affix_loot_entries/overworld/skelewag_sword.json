@@ -1,0 +1,14 @@
+{
+  "weight": 85,
+  "quality": 0.5,
+  "stages": ["quest_0"],
+  "stack": {
+    "item": "alexsmobs:skelewag_sword",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "uncommon",
+  "max_rarity": "common"
+}

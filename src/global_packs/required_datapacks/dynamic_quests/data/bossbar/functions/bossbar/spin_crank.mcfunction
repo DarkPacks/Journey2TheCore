@@ -1,3 +1,3 @@
-data merge block 756 657 -333 {Speed: 32.0f, Network: {Capacity: 256.0f, Size: 3, AddedCapacity: 8.0f, Id: 208082574193297L, Stress: 128.0f}, x: 756, y: 657, InUse: 200, z: -333, id: "create:hand_crank"}
-data merge block 756 656 -333 {Speed: 32.0f, Network: {Capacity: 256.0f, Size: 3, Id: 208082574193297L, Stress: 128.0f}, x: 756, y: 656, z: -333, id: "create:simple_kinetic", Source: {X: 756, Y: 657, Z: -333}}
-data merge block 755 656 -333 {Speed: -32.0f, Network: {Capacity: 256.0f, Size: 3, AddedStress: 4.0f, Id: 208082574193297L, Stress: 128.0f}, x: 755, y: 656, z: -333, id: "create:millstone", Source: {X: 756, Y: 656, Z: -333}}
+data merge block -16 656 -10 {Speed: 32.0f, Network: {Capacity: 256.0f, Size: 3, AddedCapacity: 8.0f, Id: -4123168644464L, Stress: 128.0f}, x: -16, y: 656, InUse: 200, z: -10, id: "create:hand_crank"}
+data merge block -16 655 -10 {Speed: 32.0f, Network: {Capacity: 256.0f, Size: 3, Id: -4123168644464L, Stress: 128.0f}, x: -16, y: 655, z: -10, id: "create:simple_kinetic", Source: {X: -16, Y: 656, Z: -10}}
+data merge block -17 655 -10 {Speed: -32.0f, Network: {Capacity: 256.0f, Size: 3, AddedStress: 4.0f, Id: -4123168644464L, Stress: 128.0f}, x: -17, y: 655, z: -10, id: "create:millstone", Source: {X: -16, Y: 655, Z: -10}}

@@ -1,0 +1,14 @@
+{
+  "weight": 85,
+  "quality": 4.0,
+  "stages": ["quest_1"],
+  "stack": {
+    "item": "tconstruct:travelers_boots",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "uncommon",
+  "max_rarity": "rare"
+}

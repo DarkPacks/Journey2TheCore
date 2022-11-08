@@ -1,17 +1,14 @@
 {
-	"weight": 50,
-	"quality": 2.5,
-	    "stages":
-  [
-    "quest_2"
-  ],
-	"stack": {
-		"item": "minecraft:shield"
-	},
-	"type": "SHIELD",
-	"min_rarity": "common",
-	"max_rarity": "rare",
-	"dimensions": [
-		"minecraft:overworld"
-	]
+  "weight": 50,
+  "quality": 2.5,
+  "stages": ["quest_2"],
+  "stack": {
+    "item": "minecraft:shield",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SHIELD",
+  "min_rarity": "common",
+  "max_rarity": "rare",
+  "dimensions": ["minecraft:overworld"]
 }

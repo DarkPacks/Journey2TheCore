@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "Find Buddy Cards Patreon Set",
+    "description": "Find Buddy Cards Patreon Set",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "j2tc_tweaks:progression/root",
+  "criteria": {
+    "locate_card_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buddycards:buddycard_patreon_supporter_set1",
+              "buddycards:buddycard_patreon_supporter_set2",
+              "buddycards:buddycard_patreon_supporter_set3",
+              "buddycards:buddycard_patreon_supporter_set4",
+              "buddycards:buddycard_patreon_supporter_set5",
+              "buddycards:buddycard_patreon_supporter_set6",
+              "buddycards:buddycard_patreon_supporter_set7",
+              "buddycards:buddycard_patreon_supporter_set8",
+              "buddycards:buddycard_patreon_supporter_set9",
+              "buddycards:buddycard_patreon_supporter_set10",
+              "buddycards:buddycard_patreon_supporter_set11",
+              "buddycards:buddycard_patreon_supporter_set12",
+              "buddycards:buddycard_patreon_supporter_set13",
+              "buddycards:buddycard_patreon_supporter_set14",
+              "buddycards:buddycard_patreon_supporter_set15"
+            ],
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

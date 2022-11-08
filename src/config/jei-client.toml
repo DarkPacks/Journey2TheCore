@@ -68,7 +68,7 @@
 	VerticalAlignment = "TOP"
 	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
 	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
-	ButtonNavigationVisibility = "ENABLED"
+	ButtonNavigationVisibility = "AUTO_HIDE"
 	#Set to true to draw a background texture behind the gui.
 	DrawBackground = false
 
@@ -87,7 +87,7 @@
 	VerticalAlignment = "TOP"
 	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
 	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
-	ButtonNavigationVisibility = "ENABLED"
+	ButtonNavigationVisibility = "AUTO_HIDE"
 	#Set to true to draw a background texture behind the gui.
 	DrawBackground = false
 

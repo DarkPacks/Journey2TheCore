@@ -101,6 +101,22 @@
       "type": "goblintraders:basic",
       "offer_item":
       {
+        "item": "minecraft:flint",
+        "count": 1
+      },
+      "payment_item":
+      {
+        "item": "minecraft:gravel",
+        "count": 1
+      },
+      "price_multiplier": 0.05,
+      "max_trades": 14,
+      "experience": 3
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item":
+      {
         "item": "turkeydevutil:cookie",
         "count": 1
       },
