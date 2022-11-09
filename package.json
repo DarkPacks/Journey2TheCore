@@ -4,7 +4,9 @@
   "description": "Journey2TheCore",
   "private": true,
   "scripts": {
-    "format": "prettier --write .",
+    "format": "npm-run-all --sequential format:eslint format:prettier",
+    "format:eslint": "eslint . --ext .js,.json,.jsonc,.json5,.mcmeta,.toml,.ts --fix",
+    "format:prettier": "prettier --write .",
     "lint": "npm-run-all --parallel lint:eslint lint:prettier",
     "lint:eslint": "eslint . --ext .js,.json,.jsonc,.json5,.mcmeta,.toml,.ts",
     "lint:prettier": "prettier --check . --loglevel error",
