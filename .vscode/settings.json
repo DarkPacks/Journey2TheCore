@@ -2,6 +2,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "eslint.alwaysShowStatus": true,
@@ -17,12 +18,6 @@
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.enable": true,
 
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "cSpell.words": [
     "alexsmobs",
     "backtank",
