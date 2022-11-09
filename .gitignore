@@ -30,3 +30,6 @@ minecraft/config/ichunutil/head/*
 # Content Creator
 minecraft/config/contentcreatorintegration/contentcreatorintegration-common.toml
 minecraft/config/contentcreatorintegration/logs/*
+
+# Minecraft Mods
+minecraft/mods/*
