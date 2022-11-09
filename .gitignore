@@ -28,6 +28,7 @@ minecraft/config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
 minecraft/config/ichunutil/head/*
 
 # Content Creator
+minecraft/config/contentcreatorintegration/contentcreatorintegration.toml
 minecraft/config/contentcreatorintegration/contentcreatorintegration-common.toml
 minecraft/config/contentcreatorintegration/logs/*
 
