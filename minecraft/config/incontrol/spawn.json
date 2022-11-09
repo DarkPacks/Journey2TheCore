@@ -696,7 +696,7 @@
       "graveyard:ghoul",
       "graveyard:revenant",
       "core_creepers:dirt_creeper",
-      "tntslimes:tnt_sslime"
+      "tntslimes:tnt_slime"
     ],
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
