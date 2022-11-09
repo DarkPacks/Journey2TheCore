@@ -42,6 +42,64 @@ const config = {
       },
     },
     {
+      files: ["minecraft/config/incontrol/loot.json"],
+      rules: {
+        "jsonc/sort-keys": [
+          "error",
+          {
+            pathPattern: ".*",
+            order: [
+              "mob",
+              "player",
+              "item",
+              "gamestage",
+              "random",
+              "itemcount",
+            ],
+          },
+        ],
+      },
+    },
+    {
+      files: ["minecraft/config/incontrol/spawn.json"],
+      rules: {
+        "jsonc/sort-keys": [
+          "error",
+          {
+            pathPattern: ".*",
+            order: [
+              "mob",
+              "mod",
+              "dimension",
+              "block",
+              "healthmultiply",
+              "damagemultiply",
+              "speedmultiply",
+              "damageadd",
+              "gamestage",
+              "minlight",
+              "maxlight",
+              "onjoin",
+              "helditem",
+              "result",
+            ],
+          },
+        ],
+      },
+    },
+    {
+      files: ["minecraft/config/incontrol/spawner.json"],
+      rules: {
+        "jsonc/sort-keys": [
+          "error",
+          {
+            pathPattern: ".*",
+            order: ["mob", "persecond", "attempts", "amount", "conditions"],
+          },
+        ],
+      },
+    },
+    {
       files: "*.ts",
       parser: "@typescript-eslint/parser",
       extends: ["plugin:@typescript-eslint/recommended"],
