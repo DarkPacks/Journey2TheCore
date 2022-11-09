@@ -95,7 +95,7 @@ function checkIfFilesExist(mcDir: string): string[] | null {
 async function createSymlinks(mcDir: string) {
   if (!(await isElevated())) {
     sudo.exec(
-      `npm run symlink -- ${mcDir}`,
+      `npm run symlink -- "${mcDir}"`,
       { name: "MC Pack Symlinker" },
       (error) => {
         if (error) {
