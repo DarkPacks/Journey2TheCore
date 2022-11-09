@@ -7,26 +7,26 @@ build/
 dist/
 
 # Dev mods
-src/config/tellme.*
-src/config/tellme/*
-src/config/worldstripper-common.toml
+minecraft/config/tellme.*
+minecraft/config/tellme/*
+minecraft/config/worldstripper-common.toml
 
 # Client configs
 # These are ones we feel the user should be customizing, not us.
-src/config/jei/bookmarks.ini
-src/config/jei/world/*
+minecraft/config/jei/bookmarks.ini
+minecraft/config/jei/world/*
 
 # Journeymap
 # Configs/etc in journeymap that are not necessary to be version controlled
-src/journeymap/data/*
-src/journeymap/server/*
-src/journeymap/journeymap.log
+minecraft/journeymap/data/*
+minecraft/journeymap/server/*
+minecraft/journeymap/journeymap.log
 
 # Mod Junk
-src/config/byg/README.txt
-src/config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
-src/config/ichunutil/head/*
+minecraft/config/byg/README.txt
+minecraft/config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
+minecraft/config/ichunutil/head/*
 
 # Content Creator
-src/config/contentcreatorintegration/contentcreatorintegration-common.toml
-src/config/contentcreatorintegration/logs/*
+minecraft/config/contentcreatorintegration/contentcreatorintegration-common.toml
+minecraft/config/contentcreatorintegration/logs/*
