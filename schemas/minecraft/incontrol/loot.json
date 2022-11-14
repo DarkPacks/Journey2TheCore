@@ -1,0 +1,205 @@
+{
+  "title": "InControl Loot",
+  "description": "A list of loot entries for InControl mod",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "item": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "itemcount": {
+        "type": "string"
+      },
+      "nbt": {
+        "type": "object"
+      },
+      "remove": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "removeall": {
+        "type": "boolean"
+      },
+
+      "baby": {
+        "type": "boolean"
+      },
+      "biome": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "biometags": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "biometype": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "block": {
+        "type": ["string", "array", "object"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "blockoffset": {
+        "type": "object"
+      },
+      "bothhandsitem": {
+        "type": ["string", "array", "object"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "category": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "difficulty": {
+        "type": "string",
+        "enum": ["easy", "normal", "hard", "peaceful"]
+      },
+      "dimension": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "dimensionmod": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "explosion": {
+        "type": "boolean"
+      },
+      "fakeplayer": {
+        "type": "boolean"
+      },
+      "fire": {
+        "type": "boolean"
+      },
+      "gamestage": {
+        "type": "string"
+      },
+      "hostile": {
+        "type": "boolean"
+      },
+      "inbuilding": {
+        "type": "boolean"
+      },
+      "incity": {
+        "type": "boolean"
+      },
+      "insphere": {
+        "type": "boolean"
+      },
+      "instreet": {
+        "type": "boolean"
+      },
+      "magic": {
+        "type": "boolean"
+      },
+      "maxdifficulty": {
+        "type": "number"
+      },
+      "maxheight": {
+        "type": "number"
+      },
+      "maxlight": {
+        "type": "number"
+      },
+      "maxspawndist": {
+        "type": "number"
+      },
+      "maxtime": {
+        "type": "number"
+      },
+      "mindifficulty": {
+        "type": "number"
+      },
+      "minheight": {
+        "type": "number"
+      },
+      "minlight": {
+        "type": "number"
+      },
+      "minspawndist": {
+        "type": "number"
+      },
+      "mintime": {
+        "type": "number"
+      },
+      "mob": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "mod": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "offhanditem": {
+        "type": ["string", "array", "object"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "passive": {
+        "type": "boolean"
+      },
+      "player": {
+        "type": "boolean"
+      },
+      "playerhelditem": {
+        "type": ["string", "array", "object"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "projectile": {
+        "type": "boolean"
+      },
+      "random": {
+        "type": "number"
+      },
+      "realplayer": {
+        "type": "boolean"
+      },
+      "seesky": {
+        "type": "boolean"
+      },
+      "source": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "structure": {
+        "type": "string"
+      },
+      "weather": {
+        "type": "string",
+        "enum": ["rain", "thunder"]
+      }
+    }
+  }
+}
