@@ -20,7 +20,7 @@
 
   # Changes to light
   [ Client.Light ]
-    # If true night vision will no longer flash 10 seconds before expiring.
+    # If true night vision will no longer flash 10 seconds before expiring, instead will slowly fade out 4 seconds before expiring.
     "No Night Vision Flashing" = true
 
   # Changes to sounds

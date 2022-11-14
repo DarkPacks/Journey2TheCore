@@ -204,7 +204,21 @@
           "tag": "{RepairCost:0,display:{Name:\u0027{\"text\":\"Snad\"}\u0027}}"
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 4
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -322,8 +336,8 @@
         "text": "Is your base getting a little dirty?! Do you find dust collecting from all your furnaces and machines?! I\u0027ve got the perfect solution! Using the Broom to sweep your problems away and onto your neighbor\u0027s property!",
         "isTranslationKey": false
       },
-      "x": 242,
-      "y": 13,
+      "x": 113,
+      "y": 124,
       "icon": {
         "id": "undertherug:broom",
         "Count": 1
@@ -341,7 +355,7 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": ["3aa38fcb-eae5-421b-9470-c6008eb97919"],
       "optionlinks": [],
       "reward": [
         {

@@ -1021,7 +1021,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Place the Carved Pumpkin on top of the Hay Bale to create a Straw Golem. He will harvest any crops and put them into a chest nearby.",
+        "text": "Place the Carved Pumpkin on top of the Hay Bale to create a Straw Golem. He will harvest any crops and put them into a chest nearby. Feed your new Golem friend Limes to keep them happy!",
         "isTranslationKey": false
       },
       "x": 62,
@@ -1049,6 +1049,10 @@
         {
           "id": "minecraft:carved_pumpkin",
           "Count": 1
+        },
+        {
+          "id": "turkeydevutil:lime",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -1183,8 +1187,7 @@
       "y": 35,
       "icon": {
         "id": "glow_sticks:glow_stick_purple",
-        "Count": 1,
-        "tag": "{activated:0b,step:0b}"
+        "Count": 1
       },
       "tasks": [
         {
@@ -1193,10 +1196,9 @@
             {
               "item": {
                 "id": "glow_sticks:glow_stick_purple",
-                "Count": 1,
-                "tag": "{activated:0b,step:0b}"
+                "Count": 1
               },
-              "required": 16,
+              "required": 8,
               "precision": "TAG_NBT_FUZZY"
             }
           ]
@@ -1207,8 +1209,7 @@
       "reward": [
         {
           "id": "glow_sticks:glow_stick_purple",
-          "Count": 16,
-          "tag": "{activated:0b,step:0b}"
+          "Count": 16
         }
       ],
       "rewardchoice": [],

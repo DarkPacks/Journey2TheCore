@@ -1,0 +1,53 @@
+{
+  "duck_quack": {
+    "category": "entity",
+    "sounds": [
+      {
+        "name": "turkeydevutil:duck_double_quack",
+        "stream": false
+      },
+      {
+        "name": "turkeydevutil:duck_single_quack",
+        "stream": false
+      }
+    ]
+  },
+  "im_a_duck": {
+    "category": "entity",
+    "sounds": [
+      {
+        "name": "turkeydevutil:im_a_duck",
+        "stream": false
+      }
+    ]
+  },
+  "turkey_gobble": {
+    "category": "entity",
+    "sounds": [
+      {
+        "name": "turkeydevutil:turkey_gobble",
+        "stream": false
+      }
+    ]
+  },
+  "turkey_gobble_darkosto": {
+    "category": "entity",
+    "sounds": [
+      {
+        "name": "turkeydevutil:turkey_gobble_darkosto",
+        "stream": false
+      }
+    ]
+  },
+  "j2tc.welcome": {
+    "category": "master",
+    "subtitle": "Welcome to your doom",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "turkeydevutil:j2tc.welcome",
+        "stream": false
+      }
+    ]
+  }
+}

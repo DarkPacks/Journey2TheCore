@@ -1,0 +1,30 @@
+
+# General settings
+[ general ]
+  # When enabled causes water based liquid blocks to cause nausea when collided [default: true]
+  liquidCausesNausea = false
+  # When enabled causes water based liquid blocks to cause slowness when collided [default: true]
+  liquidCausesSlowness = true
+  # When enabled causes will try to make the liquid turn every bit into a block [default: true]
+  completelyFill = false
+  # Makes liquid netherrack have a 1 in X chance of drying with fire on top (0 = disabled) [default: 30]
+  # Range: > 1
+  netherrackFireChance = 30
+  # Makes liquid ore have a 1 in X chance of drying into an ore block (higher = less chance) [default: 64]
+  # Range: > 6
+  oreChance = 1000
+  # The amount of ticks before Liquid Blocks solidify (When set to -1 it'll use the block's hardness to calculate a timer [default: -1]
+  # Range: > -1
+  solidifyTimer = 1200
+
+# Crafting settings
+[ crafting ]
+  # Enable crafting buckets with ice [default: true]
+  craftWithIce = false
+  # Enable crafting buckets with a water bottle where applicable [default: true]
+  craftWithWaterBottle = false
+  # Enable crafting buckets with a bucket of the fitting liquid [default: true]
+  craftWithWaterBucket = false
+  # Enables the crafting of the Liquid Ore bucket [default: true]
+  craftLiquidOre = false
+
