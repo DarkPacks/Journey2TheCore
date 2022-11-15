@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquidblocks:liquid_brown_concrete",
+      "amount": 1000
+    }
+  ]
+}

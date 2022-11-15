@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquidblocks:liquid_light_blue_concrete",
+      "amount": 1000
+    }
+  ]
+}

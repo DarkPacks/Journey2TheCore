@@ -3,11 +3,11 @@
   "item_in": {
     "item": "minecraft:bucket"
   },
-  "block_in": { "blocks": ["water"], "state": { "level": 0 } },
+  "block_in": { "blocks": ["lava"], "state": { "level": 0 } },
   "post": [
     {
       "type": "drop_item",
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:lava_bucket"
     },
     {
       "type": "place",

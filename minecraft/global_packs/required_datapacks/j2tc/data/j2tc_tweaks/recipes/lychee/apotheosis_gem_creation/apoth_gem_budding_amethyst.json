@@ -1,0 +1,21 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "turkeydevutil:unidentified_gem"
+  },
+  "block_in": "minecraft:budding_amethyst",
+  "post": [
+    {
+      "type": "execute",
+      "command": "loot spawn ~ ~ ~ loot j2tc_tweaks:treasure_bags/apotheosis_gem"
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.amethyst_block.break block @p ~ ~ ~ 1.0"
+    },
+    {
+      "type": "place",
+      "block": "minecraft:amethyst_block"
+    }
+  ]
+}

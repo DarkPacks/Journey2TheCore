@@ -567,36 +567,21 @@
   {
     "mob": ["impostore:impost_ore"],
     "player": true,
-    "item": "treasurebags:treasure_bag",
-    "nbt": {
-      "silentlib.LootContainer": {
-        "BagType": "j2tc_tweaks:apotheosis_gem"
-      }
-    },
+    "item": "turkeydevutil:unidentified_gem",
     "random": 1.0,
     "itemcount": "1"
   },
   {
     "hostile": true,
     "player": true,
-    "item": "treasurebags:treasure_bag",
-    "nbt": {
-      "silentlib.LootContainer": {
-        "BagType": "j2tc_tweaks:apotheosis_gem"
-      }
-    },
+    "item": "turkeydevutil:unidentified_gem",
     "random": 0.005,
     "itemcount": "1"
   },
   {
     "passive": true,
     "player": true,
-    "item": "treasurebags:treasure_bag",
-    "nbt": {
-      "silentlib.LootContainer": {
-        "BagType": "j2tc_tweaks:apotheosis_gem"
-      }
-    },
+    "item": "turkeydevutil:unidentified_gem",
     "random": 0.001,
     "itemcount": "1"
   }

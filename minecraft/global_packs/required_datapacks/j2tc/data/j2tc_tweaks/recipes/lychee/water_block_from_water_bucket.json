@@ -1,0 +1,19 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "minecraft:water_bucket"
+  },
+  "block_in": {
+    "blocks": ["minecraft:air"]
+  },
+  "post": [
+    {
+      "type": "place",
+      "block": "water"
+    },
+    {
+      "type": "drop_item",
+      "item": "minecraft:bucket"
+    }
+  ]
+}
