@@ -1,0 +1,120 @@
+{
+  "title": "InControl Spawner",
+  "description": "A list of spawner entries for InControl mod",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["mob", "conditions"],
+    "properties": {
+      "mob": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "phase": {
+        "type": ["string", "array"],
+        "items": {
+          "type": "string"
+        }
+      },
+      "mobsfrombiome": {
+        "type": "string",
+        "enum": [
+          "monster",
+          "creature",
+          "ambient",
+          "water_creature",
+          "water_ambient",
+          "misc"
+        ]
+      },
+      "attempts": {
+        "type": "number"
+      },
+      "persecond": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "object",
+        "required": ["minimum", "maximum"],
+        "properties": {
+          "minimum": {
+            "type": "number"
+          },
+          "maximum": {
+            "type": "number"
+          },
+          "groupdistance": {
+            "type": "number"
+          }
+        }
+      },
+
+      "conditions": {
+        "type": "object",
+        "required": ["dimension"],
+        "properties": {
+          "dimension": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            },
+
+            "mindaycount": {
+              "type": "number"
+            },
+            "maxdaycount": {
+              "type": "number"
+            },
+            "mindist": {
+              "type": "number"
+            },
+            "maxdist": {
+              "type": "number"
+            },
+            "minheight": {
+              "type": "number"
+            },
+            "maxheight": {
+              "type": "number"
+            },
+            "norestrictions": {
+              "type": "boolean"
+            },
+            "inliquid": {
+              "type": "boolean"
+            },
+            "inwater": {
+              "type": "boolean"
+            },
+            "inlava": {
+              "type": "boolean"
+            },
+            "inair": {
+              "type": "boolean"
+            },
+            "maxthis": {
+              "type": "number"
+            },
+            "maxtotal": {
+              "type": "number"
+            },
+            "maxpeaceful": {
+              "type": "number"
+            },
+            "maxhostile": {
+              "type": "number"
+            },
+            "maxneutral": {
+              "type": "number"
+            },
+            "maxlocal": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

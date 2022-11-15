@@ -36,6 +36,7 @@
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-editorconfig": "^4.0.2",
+    "eslint-plugin-json-schema-validator": "^4.0.2",
     "eslint-plugin-jsonc": "^2.5.0",
     "eslint-plugin-toml": "^0.3.1",
     "husky": "^8.0.1",

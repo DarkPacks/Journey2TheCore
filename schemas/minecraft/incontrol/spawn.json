@@ -1,0 +1,278 @@
+{
+  "title": "InControl Spawn",
+  "description": "A list of spawn entries for InControl mod",
+  "type": "array",
+  "items": {
+    "anyOf": [
+      {
+        "type": "object",
+        "required": ["result"],
+        "properties": {
+          "result": {
+            "type": "string",
+            "const": "deny"
+          }
+        }
+      },
+      {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "string",
+            "enum": ["default", "allow"]
+          },
+
+          "nbt": {
+            "type": "object"
+          },
+          "customname": {
+            "type": "string"
+          },
+          "healthmultiply": {
+            "type": "number"
+          },
+          "healthadd": {
+            "type": "number"
+          },
+          "speedmultiply": {
+            "type": "number"
+          },
+          "speedadd": {
+            "type": "number"
+          },
+          "damagemultiply": {
+            "type": "number"
+          },
+          "damageadd": {
+            "type": "number"
+          },
+          "angry": {
+            "type": "boolean"
+          },
+          "potion": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "helditem": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "armorboots": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "armorhelmet": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "armorlegs": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "armorchest": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+
+          "baby": {
+            "type": "boolean"
+          },
+          "biome": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "biometags": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "biometype": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "block": {
+            "type": ["string", "array", "object"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "blockoffset": {
+            "type": "object"
+          },
+          "bothhandsitem": {
+            "type": ["string", "array", "object"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "canspawnhere": {
+            "type": "boolean"
+          },
+          "category": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "daycount": {
+            "type": "number"
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["easy", "normal", "hard", "peaceful"]
+          },
+          "dimension": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "dimensionmod": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "gamestage": {
+            "type": "string"
+          },
+          "hostile": {
+            "type": "boolean"
+          },
+          "inbuilding": {
+            "type": "boolean"
+          },
+          "incity": {
+            "type": "boolean"
+          },
+          "incontrol": {
+            "type": "boolean"
+          },
+          "insphere": {
+            "type": "boolean"
+          },
+          "instreet": {
+            "type": "boolean"
+          },
+          "isnotcolliding": {
+            "type": "boolean"
+          },
+          "maxcount": {
+            "type": ["string", "number", "object"]
+          },
+          "maxdaycount": {
+            "type": "number"
+          },
+          "maxdifficulty": {
+            "type": "number"
+          },
+          "maxheight": {
+            "type": "number"
+          },
+          "maxlight": {
+            "type": "number"
+          },
+          "maxspawndist": {
+            "type": "number"
+          },
+          "maxtime": {
+            "type": "number"
+          },
+          "mincount": {
+            "type": ["string", "number", "object"]
+          },
+          "mindaycount": {
+            "type": "number"
+          },
+          "mindifficulty": {
+            "type": "number"
+          },
+          "minheight": {
+            "type": "number"
+          },
+          "minlight": {
+            "type": "number"
+          },
+          "minspawndist": {
+            "type": "number"
+          },
+          "mintime": {
+            "type": "number"
+          },
+          "mob": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "mod": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "offhanditem": {
+            "type": ["string", "array", "object"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "onjoin": {
+            "type": "boolean"
+          },
+          "passive": {
+            "type": "boolean"
+          },
+          "phase": {
+            "type": ["string", "array"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "playerhelditem": {
+            "type": ["string", "array", "object"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "random": {
+            "type": "number"
+          },
+          "seesky": {
+            "type": "boolean"
+          },
+          "slime": {
+            "type": "boolean"
+          },
+          "spawner": {
+            "type": "boolean"
+          },
+          "structure": {
+            "type": "string"
+          },
+          "weather": {
+            "type": "string",
+            "enum": ["rain", "thunder"]
+          }
+        }
+      }
+    ]
+  }
+}
