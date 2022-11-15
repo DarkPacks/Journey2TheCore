@@ -4,7 +4,7 @@ const config = {
     "eslint:recommended",
     "plugin:toml/recommended",
     "plugin:jsonc/prettier",
-    "plugin:editorconfig/all",
+    "plugin:editorconfig/noconflict",
     "prettier",
   ],
   plugins: ["@typescript-eslint", "editorconfig"],
