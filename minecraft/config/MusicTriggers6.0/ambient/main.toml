@@ -1,6 +1,6 @@
-[ runaway ]
-  pitch = "1.0"
-  volume = "1.0"
+[runaway]
+	pitch = "1.0"
+	volume = "1.0"
 
-  [ runaway.trigger ]
-    name = "menu"
+	[runaway.trigger]
+		name = "menu"

@@ -1,4 +1,4 @@
-# Music Discs
+#Music Discs
 registerdiscs = "true"
-# Client Side Only (Some triggers will not be able to trigger)
+#Client Side Only (Some triggers will not be able to trigger)
 clientsideonly = "false"

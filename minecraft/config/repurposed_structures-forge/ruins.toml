@@ -1,16 +1,16 @@
 
 #
-# Average distance between spawn attempts for Repurposed Structures Ruins.
-# 1 for spawning in most chunks and 1001 for none.
-[ Ruins ]
-  # Range: 1 ~ 1001
-  ruinsNetherAverageChunkDistance = 1001
-  # Range: 1 ~ 1001
-  ruinsLandWarmAverageChunkDistance = 1001
-  # Range: 1 ~ 1001
-  ruinsLandHotAverageChunkDistance = 1001
-  # Range: 1 ~ 1001
-  ruinsLandColdAverageChunkDistance = 1001
-  # Range: 1 ~ 1001
-  ruinsLandIcyAverageChunkDistance = 1001
+#Average distance between spawn attempts for Repurposed Structures Ruins.
+#1 for spawning in most chunks and 1001 for none.
+[Ruins]
+	#Range: 1 ~ 1001
+	ruinsNetherAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	ruinsLandWarmAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	ruinsLandHotAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	ruinsLandColdAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	ruinsLandIcyAverageChunkDistance = 1001
 

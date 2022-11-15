@@ -1,18 +1,18 @@
 
-# Friends
-[ friends ]
-  # A list of users who can be chosen when it spawns a distant friend
-  friends = ["blargerist"]
+#Friends
+[friends]
+	#A list of users who can be chosen when it spawns a distant friend
+	friends = ["blargerist"]
 
-# Spawning
-[ spawning ]
-  # The spawning weight of Friend's (0 = disabled) [default: 20]
-  # Range: > 0
-  friendWeight = 7
-  # The minimum number of Friend's in a group [default:1]
-  # Range: > 1
-  friendMinGroup = 1
-  # The maximum number of Friend's in a group [default: 2]
-  # Range: > 1
-  friendMaxGroup = 1
+#Spawning
+[spawning]
+	#The spawning weight of Friend's (0 = disabled) [default: 20]
+	#Range: > 0
+	friendWeight = 7
+	#The minimum number of Friend's in a group [default:1]
+	#Range: > 1
+	friendMinGroup = 1
+	#The maximum number of Friend's in a group [default: 2]
+	#Range: > 1
+	friendMaxGroup = 1
 

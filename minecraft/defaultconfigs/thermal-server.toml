@@ -1,310 +1,310 @@
 
-[ "Global Options" ]
-  # If TRUE, Redstone Flux will act as its own energy system and will NOT be interoperable with 'Forge Energy' - only enable this if you absolutely know what you are doing and want the Thermal Series to use a unique energy system.
-  "Standalone Redstone Flux" = false
-  # If TRUE, most Thermal Blocks will retain Energy when dropped.
-  # This setting does not control ALL blocks.
-  "Blocks Retain Energy" = true
-  # If TRUE, most Thermal Blocks will retain Inventory Contents when dropped.
-  # This setting does not control ALL blocks.
-  "Blocks Retain Inventory" = false
-  # If TRUE, most Thermal Blocks will retain Tank Contents when dropped.
-  # This setting does not control ALL blocks.
-  "Blocks Retain Tank Contents" = false
-  # If TRUE, Thermal Blocks will retain Augments when dropped.
-  "Blocks Retain Augments" = true
-  # If TRUE, Thermal Blocks will retain Redstone Control configuration when dropped.
-  "Blocks Retain Redstone Control" = true
-  # If TRUE, Thermal Blocks will retain Side configuration when dropped.
-  "Blocks Retain Side Configuration" = true
-  # If TRUE, Thermal Blocks will retain Transfer Control configuration when dropped.
-  "Blocks Retain Transfer Control" = true
+["Global Options"]
+	#If TRUE, Redstone Flux will act as its own energy system and will NOT be interoperable with 'Forge Energy' - only enable this if you absolutely know what you are doing and want the Thermal Series to use a unique energy system.
+	"Standalone Redstone Flux" = false
+	#If TRUE, most Thermal Blocks will retain Energy when dropped.
+	#This setting does not control ALL blocks.
+	"Blocks Retain Energy" = true
+	#If TRUE, most Thermal Blocks will retain Inventory Contents when dropped.
+	#This setting does not control ALL blocks.
+	"Blocks Retain Inventory" = false
+	#If TRUE, most Thermal Blocks will retain Tank Contents when dropped.
+	#This setting does not control ALL blocks.
+	"Blocks Retain Tank Contents" = false
+	#If TRUE, Thermal Blocks will retain Augments when dropped.
+	"Blocks Retain Augments" = true
+	#If TRUE, Thermal Blocks will retain Redstone Control configuration when dropped.
+	"Blocks Retain Redstone Control" = true
+	#If TRUE, Thermal Blocks will retain Side configuration when dropped.
+	"Blocks Retain Side Configuration" = true
+	#If TRUE, Thermal Blocks will retain Transfer Control configuration when dropped.
+	"Blocks Retain Transfer Control" = true
 
-[ Features ]
-  # If TRUE, various 'Vanilla+' Blocks and Recipes are enabled.
-  "Vanilla+" = true
-  # If TRUE, Rockwool Blocks and Recipes are enabled.
-  Rockwool = true
+[Features]
+	#If TRUE, various 'Vanilla+' Blocks and Recipes are enabled.
+	"Vanilla+" = true
+	#If TRUE, Rockwool Blocks and Recipes are enabled.
+	Rockwool = true
 
-  [ Features.Tools ]
-    # If TRUE, the Crescent Hammer is enabled.
-    Wrench = true
-    # If TRUE, the Redprint is enabled.
-    Redprint = true
-    # If TRUE, the Capacitato is enabled.
-    "RF Potato" = true
-    # If TRUE, the Insightful Crystal is enabled.
-    "XP Crystal" = true
-    # If TRUE, the Signalum Security Lock is enabled.
-    Lock = true
-    # If TRUE, the Remote Detonator is enabled.
-    Detonator = true
+	[Features.Tools]
+		#If TRUE, the Crescent Hammer is enabled.
+		Wrench = true
+		#If TRUE, the Redprint is enabled.
+		Redprint = true
+		#If TRUE, the Capacitato is enabled.
+		"RF Potato" = true
+		#If TRUE, the Insightful Crystal is enabled.
+		"XP Crystal" = true
+		#If TRUE, the Signalum Security Lock is enabled.
+		Lock = true
+		#If TRUE, the Remote Detonator is enabled.
+		Detonator = true
 
-    [ Features.Tools.Satchel ]
-      # If TRUE, the Satchel is enabled.
-      Satchel = true
-      # A list of Items by Resource Location which are NOT allowed in Satchels.
-      Denylist = ["thermal:satchel", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+		[Features.Tools.Satchel]
+			#If TRUE, the Satchel is enabled.
+			Satchel = true
+			#A list of Items by Resource Location which are NOT allowed in Satchels.
+			Denylist = ["thermal:satchel", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 
-  [ Features.Mobs ]
-    # If TRUE, the Basalz Mob is enabled.
-    Basalz = false
-    # If TRUE, the Blitz Mob is enabled.
-    Blitz = false
-    # If TRUE, the Blizz Mob is enabled.
-    Blizz = false
-    # If TRUE, the Blitz can occasionally call down lightning bolts.
-    "Blitz Lightning" = true
+	[Features.Mobs]
+		#If TRUE, the Basalz Mob is enabled.
+		Basalz = false
+		#If TRUE, the Blitz Mob is enabled.
+		Blitz = false
+		#If TRUE, the Blizz Mob is enabled.
+		Blizz = false
+		#If TRUE, the Blitz can occasionally call down lightning bolts.
+		"Blitz Lightning" = true
 
-[ Augments ]
-  # If TRUE, Side Reconfiguration is enabled by default on most augmentable blocks which support it.
-  # If FALSE, an augment is required.
-  # This setting does not control ALL blocks.
-  "Default Side Reconfiguration" = true
-  # If TRUE, Redstone Control is enabled by default on most augmentable blocks which support it.
-  # If FALSE, an augment is required.
-  # This setting does not control ALL blocks.
-  "Default Redstone Control" = true
-  # If TRUE, XP Storage is enabled by default on most augmentable blocks which support it.
-  # If FALSE, an augment is required.
-  # This setting does not control ALL blocks.
-  "Default XP Storage" = false
+[Augments]
+	#If TRUE, Side Reconfiguration is enabled by default on most augmentable blocks which support it.
+	#If FALSE, an augment is required.
+	#This setting does not control ALL blocks.
+	"Default Side Reconfiguration" = true
+	#If TRUE, Redstone Control is enabled by default on most augmentable blocks which support it.
+	#If FALSE, an augment is required.
+	#This setting does not control ALL blocks.
+	"Default Redstone Control" = true
+	#If TRUE, XP Storage is enabled by default on most augmentable blocks which support it.
+	#If FALSE, an augment is required.
+	#This setting does not control ALL blocks.
+	"Default XP Storage" = false
 
-[ Villagers ]
-  # If TRUE, trades will be added to various Villagers.
-  "Enable Villager Trades" = false
-  # If TRUE, trades will be added to the Wandering Trader.
-  "Enable Wandering Trader Trades" = false
+[Villagers]
+	#If TRUE, trades will be added to various Villagers.
+	"Enable Villager Trades" = false
+	#If TRUE, trades will be added to the Wandering Trader.
+	"Enable Wandering Trader Trades" = false
 
-[ Devices ]
+[Devices]
 
-  [ Devices.TreeExtractor ]
-    # This sets the base time constant (in ticks) for the Arboreal Extractor.
-    # Range: 20 ~ 72000
-    "Time Constant" = 500
+	[Devices.TreeExtractor]
+		#This sets the base time constant (in ticks) for the Arboreal Extractor.
+		#Range: 20 ~ 72000
+		"Time Constant" = 500
 
-[ World ]
+[World]
 
-  [ World.Ores ]
+	[World.Ores]
 
-    [ World.Ores."Oil Sand" ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 24
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = 40
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 80
+		[World.Ores."Oil Sand"]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 24
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = 40
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 80
 
-    [ World.Ores.Silver ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 5
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = 133
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 264
+		[World.Ores.Silver]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 5
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = 133
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 264
 
-    [ World.Ores.Lead ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 8
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = -60
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 40
+		[World.Ores.Lead]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 8
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = -60
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 40
 
-    [ World.Ores.Nickel ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 8
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = 397
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 528
+		[World.Ores.Nickel]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 8
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = 397
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 528
 
-    [ World.Ores.Cinnabar ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 5
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = 0
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 133
+		[World.Ores.Cinnabar]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 5
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = 0
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 133
 
-    [ World.Ores.Sulfur ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 7
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = -16
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 32
+		[World.Ores.Sulfur]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 7
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = -16
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 32
 
-    [ World.Ores.Tin ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 9
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = 397
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 528
+		[World.Ores.Tin]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 9
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = 397
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 528
 
-    [ World.Ores.Niter ]
-      # Max number of veins per chunk; set to 0 to disable.
-      # Range: 0 ~ 256
-      "Vein Count" = 0
-      # Max size of the vein.
-      # Range: 1 ~ 256
-      "Vein Size" = 7
-      # Minimum Y spawn.
-      # Range: -2048 ~ 2048
-      "Min Y" = -16
-      # Maximum Y spawn.
-      # Range: -2048 ~ 2048
-      "Max Y" = 64
+		[World.Ores.Niter]
+			#Max number of veins per chunk; set to 0 to disable.
+			#Range: 0 ~ 256
+			"Vein Count" = 0
+			#Max size of the vein.
+			#Range: 1 ~ 256
+			"Vein Size" = 7
+			#Minimum Y spawn.
+			#Range: -2048 ~ 2048
+			"Min Y" = -16
+			#Maximum Y spawn.
+			#Range: -2048 ~ 2048
+			"Max Y" = 64
 
-[ Dynamos ]
+[Dynamos]
 
-  [ Dynamos.Stirling ]
-    # This sets the base power generation (RF/t) for the Stirling Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Stirling]
+		#This sets the base power generation (RF/t) for the Stirling Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-  [ Dynamos.Compression ]
-    # This sets the base power generation (RF/t) for the Compression Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Compression]
+		#This sets the base power generation (RF/t) for the Compression Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-  [ Dynamos.Magmatic ]
-    # This sets the base power generation (RF/t) for the Magmatic Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Magmatic]
+		#This sets the base power generation (RF/t) for the Magmatic Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-  [ Dynamos.Numismatic ]
-    # This sets the base power generation (RF/t) for the Numismatic Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Numismatic]
+		#This sets the base power generation (RF/t) for the Numismatic Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-  [ Dynamos.Lapidary ]
-    # This sets the base power generation (RF/t) for the Lapidary Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Lapidary]
+		#This sets the base power generation (RF/t) for the Lapidary Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-  [ Dynamos.Disenchantment ]
-    # This sets the base power generation (RF/t) for the Disenchantment Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Disenchantment]
+		#This sets the base power generation (RF/t) for the Disenchantment Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-  [ Dynamos.Gourmand ]
-    # This sets the base power generation (RF/t) for the Gourmand Dynamo.
-    # Range: 10 ~ 200
-    "Base Power" = 40
+	[Dynamos.Gourmand]
+		#This sets the base power generation (RF/t) for the Gourmand Dynamo.
+		#Range: 10 ~ 200
+		"Base Power" = 40
 
-[ Machines ]
+[Machines]
 
-  [ Machines.Furnace ]
-    # This sets the base power consumption (RF/t) for the Redstone Furnace.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Furnace]
+		#This sets the base power consumption (RF/t) for the Redstone Furnace.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Sawmill ]
-    # This sets the base power consumption (RF/t) for the Sawmill.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Sawmill]
+		#This sets the base power consumption (RF/t) for the Sawmill.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Pulverizer ]
-    # This sets the base power consumption (RF/t) for the Pulverizer.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Pulverizer]
+		#This sets the base power consumption (RF/t) for the Pulverizer.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Smelter ]
-    # This sets the base power consumption (RF/t) for the Induction Smelter.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Smelter]
+		#This sets the base power consumption (RF/t) for the Induction Smelter.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Insolator ]
-    # This sets the base power consumption (RF/t) for the Phytogenic Insolator.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Insolator]
+		#This sets the base power consumption (RF/t) for the Phytogenic Insolator.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Centrifuge ]
-    # This sets the base power consumption (RF/t) for the Centrifugal Separator.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Centrifuge]
+		#This sets the base power consumption (RF/t) for the Centrifugal Separator.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Press ]
-    # This sets the base power consumption (RF/t) for the Multiservo Press.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Press]
+		#This sets the base power consumption (RF/t) for the Multiservo Press.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Crucible ]
-    # This sets the base power consumption (RF/t) for the Magma Crucible.
-    # Range: 1 ~ 200
-    "Base Power" = 80
+	[Machines.Crucible]
+		#This sets the base power consumption (RF/t) for the Magma Crucible.
+		#Range: 1 ~ 200
+		"Base Power" = 80
 
-  [ Machines.Chiller ]
-    # This sets the base power consumption (RF/t) for the Blast Chiller.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Chiller]
+		#This sets the base power consumption (RF/t) for the Blast Chiller.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Refinery ]
-    # This sets the base power consumption (RF/t) for the Fractionating Still.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Refinery]
+		#This sets the base power consumption (RF/t) for the Fractionating Still.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Pyrolyzer ]
-    # This sets the base power consumption (RF/t) for the Pyrolyzer.
-    # Range: 1 ~ 200
-    "Base Power" = 5
+	[Machines.Pyrolyzer]
+		#This sets the base power consumption (RF/t) for the Pyrolyzer.
+		#Range: 1 ~ 200
+		"Base Power" = 5
 
-  [ Machines.Bottler ]
-    # This sets the base power consumption (RF/t) for the Fluid Encapsulator.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Bottler]
+		#This sets the base power consumption (RF/t) for the Fluid Encapsulator.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Brewer ]
-    # This sets the base power consumption (RF/t) for the Alchemical Imbuer.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Brewer]
+		#This sets the base power consumption (RF/t) for the Alchemical Imbuer.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 
-  [ Machines.Crafter ]
-    # This sets the base power consumption (RF/t) for the Sequential Fabricator.
-    # Range: 1 ~ 200
-    "Base Power" = 20
+	[Machines.Crafter]
+		#This sets the base power consumption (RF/t) for the Sequential Fabricator.
+		#Range: 1 ~ 200
+		"Base Power" = 20
 

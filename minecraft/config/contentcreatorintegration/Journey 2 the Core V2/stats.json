@@ -3,7 +3,7 @@
     {
       "layer": "chat",
       "type": "message",
-      "count": 51743
+      "count": 51784
     },
     {
       "layer": "minecraft",
@@ -41,14 +41,14 @@
     {
       "layer": "streamlabs",
       "type": "subMysteryGift",
-      "count": 1574,
-      "amount": 38125.0
+      "count": 1578,
+      "amount": 38129.0
     },
     {
       "layer": "streamlabs",
       "type": "subscription",
-      "count": 21080,
-      "amount": 397294.0
+      "count": 21101,
+      "amount": 397357.0
     },
     {
       "layer": "twitchpubsub",
@@ -88,7 +88,7 @@
     {
       "layer": "twitchpubsub",
       "type": "reward-redeemed",
-      "count": 5357
+      "count": 5363
     }
   ]
 }

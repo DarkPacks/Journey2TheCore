@@ -1,19 +1,19 @@
-# The light level that the darkness should trigger at.
-# Range: 0 ~ 15
+#The light level that the darkness should trigger at.
+#Range: 0 ~ 15
 darkness_level = 0
-# Range: 0.0 ~ 100.0
+#Range: 0.0 ~ 100.0
 darkness_damage = 0.5
-# How fast does the darkness engulf when in low light level.
-# Range: 0.001 ~ 1.0
+#How fast does the darkness engulf when in low light level.
+#Range: 0.001 ~ 1.0
 darkness_increment = 0.001
-# Once in full darkness, how fast until the damage starts to trigger.
-# Range: 0.001 ~ 1.0
+#Once in full darkness, how fast until the damage starts to trigger.
+#Range: 0.001 ~ 1.0
 danger_increment = 0.001
-# Amount of time the Veiled effect will last (in seconds) when first joining the world or after each death. Set to 0 to never apply the effect.
-# Range: 0 ~ 1000000
+#Amount of time the Veiled effect will last (in seconds) when first joining the world or after each death. Set to 0 to never apply the effect.
+#Range: 0 ~ 1000000
 spawn_veiled_timer = 300
 
-[ dimension ]
-  whitelisted_dimensions = ["minecraft:overworld"]
-  treat_dims_as_blacklist = false
+[dimension]
+	whitelisted_dimensions = ["minecraft:overworld"]
+	treat_dims_as_blacklist = false
 

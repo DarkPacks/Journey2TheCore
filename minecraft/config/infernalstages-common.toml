@@ -1,16 +1,16 @@
 
-[ IGNORED ]
-  # List of Modifiers, these are just for documentation/use with Staging
-  dummyModifiers = "MM_1UP, MM_Alchemist, MM_Berserk, MM_Blastoff, MM_Bulwark, MM_Choke, MM_Cloaking, MM_Darkness, MM_Ender, MM_Exhaust, MM_Fiery, MM_Ghastly, MM_Gravity, MM_Lifesteal, MM_Ninja, MM_Poisonous, MM_Quicksand, MM_Regen, MM_Rust, MM_Sapper, MM_Sprint, MM_Sticky, MM_Storm, MM_Vengeance, MM_Weakness, MM_Webber, MM_Wither"
+[IGNORED]
+	#List of Modifiers, these are just for documentation/use with Staging
+	dummyModifiers = "MM_1UP, MM_Alchemist, MM_Berserk, MM_Blastoff, MM_Bulwark, MM_Choke, MM_Cloaking, MM_Darkness, MM_Ender, MM_Exhaust, MM_Fiery, MM_Ghastly, MM_Gravity, MM_Lifesteal, MM_Ninja, MM_Poisonous, MM_Quicksand, MM_Regen, MM_Rust, MM_Sapper, MM_Sprint, MM_Sticky, MM_Storm, MM_Vengeance, MM_Weakness, MM_Webber, MM_Wither"
 
-[ Staging ]
-  # Operates in either allow or deny mode
-  # When set to true modifiers are allowed if the player has the relevant stage(s), with multiple players in range it allows all of their staged modifiers
-  # When set to false modifiers are blocked by stage, inverse of above, blocked modifiers are combined for multiple players in range
-  isAllowList = true
-  # The range in which to check for players
-  # Range: > 0
-  range = 256
-  # List of stages and their linked modifiers (case-sensitive), in the format: stagename:MM_Modifier1,MM_Modifier2
-  stages = ["quest_2:MM_Gravity,MM_Blastoff,MM_Darkness", "quest_3:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness", "quest_4:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness,MM_Choke,MM_Regen,MM_Ghastly,MM_Ninja,MM_Quicksand,MM_Berserk,MM_Alchemist,MM_Storm,MM_Weakness,MM_Sprint,MM_Bulwark,MM_Ender,MM_Exhaust,MM_Rust,MM_Sapper,MM_Vengeance"]
+[Staging]
+	#Operates in either allow or deny mode
+	#When set to true modifiers are allowed if the player has the relevant stage(s), with multiple players in range it allows all of their staged modifiers
+	#When set to false modifiers are blocked by stage, inverse of above, blocked modifiers are combined for multiple players in range
+	isAllowList = true
+	#The range in which to check for players
+	#Range: > 0
+	range = 256
+	#List of stages and their linked modifiers (case-sensitive), in the format: stagename:MM_Modifier1,MM_Modifier2
+	stages = ["quest_2:MM_Gravity,MM_Blastoff,MM_Darkness", "quest_3:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness", "quest_4:MM_Gravity,MM_Blastoff,MM_Sticky,MM_1UP,MM_Lifesteal,MM_Wither,MM_Cloaking,MM_Fiery,MM_Poisonous,MM_Webber,MM_Darkness,MM_Choke,MM_Regen,MM_Ghastly,MM_Ninja,MM_Quicksand,MM_Berserk,MM_Alchemist,MM_Storm,MM_Weakness,MM_Sprint,MM_Bulwark,MM_Ender,MM_Exhaust,MM_Rust,MM_Sapper,MM_Vengeance"]
 

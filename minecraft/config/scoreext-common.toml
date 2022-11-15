@@ -1,9 +1,9 @@
 
-[ Debug ]
-  # Print debug info to the console
-  printDebug = false
+[Debug]
+	#Print debug info to the console
+	printDebug = false
 
-[ Tags ]
-  # List of block tags to register placed/mined stats for
-  trackedBlockTags = ["minecraft:logs", "minecraft:dirt", "forge:stone", "forge:glass", "forge:cobblestone", "forge:ores", "j2tc_tweaks:crystal_clusters"]
+[Tags]
+	#List of block tags to register placed/mined stats for
+	trackedBlockTags = ["minecraft:logs", "minecraft:dirt", "forge:stone", "forge:glass", "forge:cobblestone", "forge:ores", "j2tc_tweaks:crystal_clusters"]
 

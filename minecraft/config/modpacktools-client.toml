@@ -1,16 +1,16 @@
 
-[ HUD ]
-  # Delay between chunk data refreshes
-  # Range: > 10
-  chunkRendererDelay = 500
-  # Radius used for debug chunk rendering
-  # Range: > 1
-  chunkRendererRadius = 5
-  # Delay between entity HUD data refreshes
-  # Range: > 10
-  hudEntityDelay = 250
+[HUD]
+	#Delay between chunk data refreshes
+	#Range: > 10
+	chunkRendererDelay = 500
+	#Radius used for debug chunk rendering
+	#Range: > 1
+	chunkRendererRadius = 5
+	#Delay between entity HUD data refreshes
+	#Range: > 10
+	hudEntityDelay = 250
 
-[ Behavior ]
-  # Automatically copy data to clipboard when running commands to list them (mt hand/hot/inv/blockinv/recipemaker)
-  autoCopyItems = true
+[Behavior]
+	#Automatically copy data to clipboard when running commands to list them (mt hand/hot/inv/blockinv/recipemaker)
+	autoCopyItems = true
 
