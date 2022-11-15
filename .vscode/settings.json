@@ -15,6 +15,9 @@
     "toml",
     "typescript"
   ],
+  "files.exclude": {
+    ".eslintcache": true
+  },
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.enable": true,
 
