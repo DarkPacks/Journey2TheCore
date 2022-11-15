@@ -19,7 +19,7 @@ const config = {
             schema: "./schemas/minecraft/incontrol/spawner.json",
           },
         ],
-        useSchemastoreCatalog: true,
+        useSchemastoreCatalog: false,
       },
     ],
   },
