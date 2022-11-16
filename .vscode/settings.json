@@ -16,7 +16,8 @@
     "typescript"
   ],
   "files.exclude": {
-    ".eslintcache": true
+    ".eslintcache": true,
+    "node_modules": true
   },
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.enable": true,
