@@ -43,7 +43,7 @@
 		#####################################################################################
 	[simpletomb.teleport]
 		#
-		#When survival player is within this (straight line calculated) distance from the tomb, they can teleport to the tomb.  Set as zero (0) to disable survival TP feature.   Set as negative one (-1) to allow survival teleportation always and ignore the distance (within dimension) 
+		#When survival player is within this (straight line calculated) distance from the tomb, they can teleport to the tomb.  Set as zero (0) to disable survival TP feature.   Set as negative one (-1) to allow survival teleportation always and ignore the distance (within dimension)
 		#Range: -1 ~ 128
 		survival = 16
 		#

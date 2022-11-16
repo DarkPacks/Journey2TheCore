@@ -25,7 +25,7 @@
 			#Base perecentage chance to drop a head on kill
 			#Range: 1 ~ 99
 			percent = 20
-			#Percentage increase per level of enchant. Formula [percent + (level - 1) * per_level] 
+			#Percentage increase per level of enchant. Formula [percent + (level - 1) * per_level]
 			#Range: 1 ~ 99
 			per_level = 25
 
@@ -110,7 +110,7 @@
 			enabled = true
 
 	#####################################################################################
-	#Worldgen settings  
+	#Worldgen settings
 	#####################################################################################
 	[cyclic.worldgen]
 
@@ -123,7 +123,7 @@
 			enabled = false
 
 	#####################################################################################
-	#Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  
+	#Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use
 	#####################################################################################
 	[cyclic.command]
 		#True means only players with OP can use this /cyclic command
@@ -610,7 +610,7 @@
 			radius = 16
 
 		[cyclic.blocks.anti_beacon]
-			#Radius to protect players and entities from potion effects being applied (used by both sponge and artemisbeacon). 
+			#Radius to protect players and entities from potion effects being applied (used by both sponge and artemisbeacon).
 			#Range: 1 ~ 128
 			radius = 16
 			#Ticks to fire anti beacon and remove effects from entities (20 = 1 second).  Does not affect potion immunity which applies regardless of ticks. This only used if you gain a potion effect out of range and then walk into range, so keep this large.
@@ -620,7 +620,7 @@
 			potion_list = ["colorblindness:achromatopsia", "minecraft:poison", "minecraft:*_poison", "minecraft:wither", "cyclic:gravity", "cyclic:antigravity", "minecraft:night_vision", "minecraft:invisibility", "minecraft:weakness", "minecraft:slowness"]
 
 		[cyclic.blocks.soundproofing]
-			#Radius to find and muffle sounds. 
+			#Radius to find and muffle sounds.
 			#Range: 1 ~ 128
 			radius = 6
 

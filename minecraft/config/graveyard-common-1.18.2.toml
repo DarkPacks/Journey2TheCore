@@ -12,7 +12,7 @@
 #A list of all valid tags can be found here: https://minecraft.fandom.com/wiki/Tag#Biomes
 #Configure blacklist:
 #use "modId:biome" to blacklist biomes (mod identifier (for example: minecraft) + ":" + biome name).
-#for example: minecraft:plains, byg:allium_fields, terralith:moonlight_valley ... 
+#for example: minecraft:plains, byg:allium_fields, terralith:moonlight_valley ...
 #Configure terrain check radius: set how far from structure placement a block is checked in all cardinal directions. Only necessary for the large graveyard.
 #Configure max terrain height: set how far apart the different heights from the terrain check can be. Increase this value to allow more structures to spawn, but to also increase chance of weird placement.
 #Configure if graveyard mobs can spawn naturally in structures.

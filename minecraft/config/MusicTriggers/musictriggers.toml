@@ -42,7 +42,6 @@
 			y_max = "528"
 			z_max = "30000000"
 
-
 [basalt_deltas_ambience]
 	volume = "1.0"
 	must_finish = "false"
@@ -61,7 +60,6 @@
 			x_max = "30000000"
 			y_max = "688"
 			z_max = "30000000"
-
 
 	[[basalt_deltas_ambience.loop]]
 		amount = "2147483647"

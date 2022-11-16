@@ -7,7 +7,7 @@
 		[cobblestoney.cobblestoney.worldgen]
 			#True to enable soil worldgen. This affects worldgen for the soil type blocks such as Mudstone
 			soil = true
-			#True to enable granite worldgen. This affects worldgen for the special granite variants such as Pink Granite 
+			#True to enable granite worldgen. This affects worldgen for the special granite variants such as Pink Granite
 			granite = true
 			#True to enable cobbled worldgen. This affects worldgen for cobbled versions of existing blocks such as Cobbled Diorite
 			cobbled = false

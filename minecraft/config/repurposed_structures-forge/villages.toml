@@ -1,6 +1,6 @@
 
 #-----------------------------------------------------------------------------------------
-#Average distance between spawn attempts for Repurposed Structures Villages 
+#Average distance between spawn attempts for Repurposed Structures Villages
 #1 for spawning in most chunks and 1001 for no spawn.
 [Spawnrates]
 	#Range: 1 ~ 1001

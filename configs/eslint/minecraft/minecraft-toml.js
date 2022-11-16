@@ -9,8 +9,6 @@ const config = {
         "toml/spaced-comment": ["error", "never"],
         "toml/table-bracket-spacing": ["error", "never"],
         "editorconfig/eol-last": ["off"],
-        "comma-spacing": ["error", { after: true, before: false }],
-        "no-multi-spaces": ["error"],
       },
     },
   ],

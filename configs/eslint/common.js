@@ -33,6 +33,13 @@ const config = {
     {
       files: "*.toml",
       parser: "toml-eslint-parser",
+      // extends: ["plugin:editorconfig/all"],
+      rules: {
+        "comma-spacing": ["error", { after: true, before: false }],
+        "no-multi-spaces": ["error"],
+        "no-multiple-empty-lines": ["error", { max: 1 }],
+        "no-trailing-spaces": "error",
+      },
     },
     {
       files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
