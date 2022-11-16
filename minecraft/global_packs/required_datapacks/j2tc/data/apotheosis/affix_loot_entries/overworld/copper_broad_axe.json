@@ -1,0 +1,13 @@
+{
+  "weight": 65,
+  "quality": 3.0,
+  "stages": ["quest_2", "quest_3", "quest_4", "quest_5"],
+  "stack": {
+    "item": "tconstruct:broad_axe",
+    "nbt": "{tic_materials:[\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\"],tic_modifiers:[{level:4s,name:\"tconstruct:dwarven\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_persistent_data:{abilities:1,upgrades:2}}"
+  },
+  "type": "HEAVY_WEAPON",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "common",
+  "max_rarity": "rare"
+}

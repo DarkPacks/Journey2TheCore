@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 0.5,
-  "stages": ["quest_0"],
+  "stages": ["quest_0", "quest_1"],
   "stack": {
     "item": "tconstruct:hand_axe",
     "nbt": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:piercing\"}],tic_persistent_data:{abilities:1,upgrades:3}}"

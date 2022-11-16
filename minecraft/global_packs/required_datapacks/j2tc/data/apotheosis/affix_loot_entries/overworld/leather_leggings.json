@@ -1,7 +1,7 @@
 {
   "weight": 100,
   "quality": 1.0,
-  "stages": ["quest_0"],
+  "stages": ["quest_0", "quest_1", "quest_2"],
   "stack": {
     "item": "minecraft:leather_leggings",
     "count": 1,

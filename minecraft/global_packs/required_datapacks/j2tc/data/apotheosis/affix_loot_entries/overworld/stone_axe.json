@@ -1,7 +1,7 @@
 {
   "weight": 100,
   "quality": 1.0,
-  "stages": ["quest_1"],
+  "stages": ["quest_1", "quest_2", "quest_3"],
   "stack": {
     "item": "tconstruct:hand_axe",
     "nbt": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:stonebound\"}],tic_persistent_data:{abilities:1,upgrades:3}}"

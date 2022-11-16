@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 4.0,
-  "stages": ["quest_2"],
+  "stages": ["quest_3", "quest_4", "quest_5", "quest_6"],
   "stack": {
     "item": "tconstruct:pickaxe",
     "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:sturdy\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":398.75f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f}}"

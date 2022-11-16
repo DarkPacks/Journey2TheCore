@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 4.0,
-  "stages": ["quest_2"],
+  "stages": ["quest_3", "quest_4", "quest_5", "quest_6"],
   "stack": {
     "item": "tconstruct:mattock",
     "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:knockback\"},{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:hoe_till\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":3.8500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":498.4375f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.6000004f}}"

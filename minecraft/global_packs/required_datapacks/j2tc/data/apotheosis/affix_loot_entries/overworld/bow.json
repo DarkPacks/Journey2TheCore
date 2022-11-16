@@ -7,7 +7,7 @@
     "nbt": "{Damage:0}"
   },
   "type": "BOW",
-  "stages": ["quest_2"],
+  "stages": ["quest_0", "quest_1", "quest_2", "quest_3"],
   "min_rarity": "common",
   "max_rarity": "rare",
   "dimensions": ["minecraft:overworld"]

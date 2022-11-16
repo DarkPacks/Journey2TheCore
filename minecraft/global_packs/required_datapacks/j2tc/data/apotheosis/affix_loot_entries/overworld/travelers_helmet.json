@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 4.0,
-  "stages": ["quest_1"],
+  "stages": ["quest_1", "quest_2", "quest_3", "quest_4"],
   "stack": {
     "item": "tconstruct:travelers_helmet",
     "count": 1,

@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 4.0,
-  "stages": ["quest_3"],
+  "stages": ["quest_3", "quest_4", "quest_5", "quest_6"],
   "stack": {
     "item": "tconstruct:dagger",
     "nbt": "{tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:2s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_persistent_data:{abilities:1,upgrades:3}}"

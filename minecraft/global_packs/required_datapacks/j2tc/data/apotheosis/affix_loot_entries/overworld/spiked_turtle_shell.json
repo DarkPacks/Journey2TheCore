@@ -1,7 +1,7 @@
 {
   "weight": 70,
   "quality": 5.0,
-  "stages": ["quest_2"],
+  "stages": ["quest_2", "quest_2", "quest_3", "quest_4", "quest_5"],
   "stack": {
     "item": "alexsmobs:spiked_turtle_shell",
     "count": 1,

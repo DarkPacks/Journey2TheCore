@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 4.0,
-  "stages": ["quest_2"],
+  "stages": ["quest_3", "quest_4", "quest_5", "quest_6"],
   "stack": {
     "item": "tconstruct:sword",
     "nbt": "{tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":5.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":438.625f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.0f}}"

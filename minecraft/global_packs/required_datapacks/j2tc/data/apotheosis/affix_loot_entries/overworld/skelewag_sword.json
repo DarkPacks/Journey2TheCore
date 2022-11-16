@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 0.5,
-  "stages": ["quest_0"],
+  "stages": ["quest_2", "quest_3", "quest_4", "quest_5"],
   "stack": {
     "item": "alexsmobs:skelewag_sword",
     "count": 1,

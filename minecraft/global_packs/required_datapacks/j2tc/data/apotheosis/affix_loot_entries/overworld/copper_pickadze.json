@@ -1,0 +1,13 @@
+{
+  "weight": 85,
+  "quality": 2.5,
+  "stages": ["quest_2", "quest_3", "quest_4", "quest_5"],
+  "stack": {
+    "item": "tconstruct:pickadze",
+    "nbt": "{tic_materials:[\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\"],tic_modifiers:[{level:1s,name:\"tconstruct:bane_of_sssss\"},{level:3s,name:\"tconstruct:dwarven\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
+  },
+  "type": "BREAKER",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "common",
+  "max_rarity": "rare"
+}

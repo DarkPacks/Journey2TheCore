@@ -1,7 +1,7 @@
 {
   "weight": 85,
   "quality": 3.0,
-  "stages": ["quest_1"],
+  "stages": ["quest_0", "quest_1", "quest_2"],
   "stack": {
     "item": "alexsmobs:frontier_cap",
     "count": 1,

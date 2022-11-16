@@ -1,7 +1,7 @@
 {
   "weight": 70,
   "quality": 5.0,
-  "stages": ["quest_2"],
+  "stages": ["quest_3", "quest_4", "quest_5", "quest_6"],
   "stack": {
     "item": "minecraft:iron_chestplate",
     "count": 1,
