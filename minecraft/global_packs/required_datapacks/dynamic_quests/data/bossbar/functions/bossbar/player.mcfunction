@@ -18,7 +18,7 @@ execute if score @s damage_dad_joke matches 1 run function bossbar:bossbar/quest
 execute if score @s effect_resistance matches 1 run function bossbar:bossbar/quest_complete/quest_complete_outcomes/effect_resistance
 
 
-function bossbar:bossbar/tracking_functions/spy_glass_tracking
+#function bossbar:bossbar/tracking_functions/spy_glass_tracking
 
 #Block breaking events
 execute if score @s mine_ghast matches 1.. run execute as @s[predicate=!bossbar:silk_touch_mainhand] run summon minecraft:ghast
