@@ -568,21 +568,21 @@
     "mob": ["impostore:impost_ore"],
     "player": true,
     "item": "turkeydevutil:unidentified_gem",
-    "random": 1.0,
+    "random": 0.5,
     "itemcount": "1"
   },
   {
     "hostile": true,
     "player": true,
     "item": "turkeydevutil:unidentified_gem",
-    "random": 0.005,
+    "random": 0.008,
     "itemcount": "1"
   },
   {
     "passive": true,
     "player": true,
     "item": "turkeydevutil:unidentified_gem",
-    "random": 0.001,
+    "random": 0.006,
     "itemcount": "1"
   }
 ]

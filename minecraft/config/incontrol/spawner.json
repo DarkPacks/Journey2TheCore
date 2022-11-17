@@ -475,7 +475,7 @@
     }
   },
   {
-    "mob": ["minecraft:enderman", "tntslimes:tnt_slime"],
+    "mob": ["tntslimes:tnt_slime"],
     "persecond": 0.05,
     "attempts": 5,
     "amount": {
@@ -866,8 +866,8 @@
       "inair": true,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": -64,
+      "maxheight": 396,
       "maxthis": 1
     }
   },
@@ -886,7 +886,7 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
+      "minheight": 529,
       "maxheight": 688,
       "maxthis": 2
     }
@@ -906,8 +906,8 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 397,
+      "maxheight": 528,
       "maxthis": 2
     }
   },
@@ -963,8 +963,8 @@
       "dimension": "minecraft:overworld",
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 397,
+      "maxheight": 528,
       "maxthis": 1
     }
   },
@@ -983,8 +983,8 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": 133,
+      "maxheight": 264,
       "maxthis": 1
     }
   },
@@ -1003,7 +1003,7 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
+      "minheight": 529,
       "maxheight": 688,
       "maxthis": 1
     }
@@ -1048,7 +1048,7 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
+      "minheight": 397,
       "maxheight": 688,
       "maxthis": 2
     }
@@ -1088,8 +1088,8 @@
       "inair": false,
       "mindist": 24,
       "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 688,
+      "minheight": -64,
+      "maxheight": 132,
       "maxthis": 2
     }
   },
@@ -1408,6 +1408,24 @@
       "minheight": 133,
       "maxheight": 264,
       "maxthis": 1
+    }
+  },
+  {
+    "mob": "alexsmobs:rocky_roller",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxthis": 4
     }
   }
 ]
