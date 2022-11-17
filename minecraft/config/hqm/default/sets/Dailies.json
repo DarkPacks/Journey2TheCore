@@ -1,0 +1,48 @@
+{
+  "name": "Dailies",
+  "quests": [
+    {
+      "uuid": "5fa5d2a9-d9e6-41b3-a48a-e61dd455bcf0",
+      "name": {
+        "text": "Player Mob Test",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 66,
+      "y": 56,
+      "icon": {
+        "id": "geore:redstone_spyglass",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Players",
+                "isTranslationKey": false
+              },
+              "mob": "player_mobs:player_mob",
+              "kills": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

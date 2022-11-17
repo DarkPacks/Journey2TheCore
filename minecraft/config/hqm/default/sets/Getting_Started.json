@@ -61,6 +61,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
+      "name": {
+        "text": "Amethyst",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Y\u003d0 to Y\u003d132",
+        "isTranslationKey": false
+      },
+      "x": 263,
+      "y": 67,
+      "icon": {
+        "id": "minecraft:amethyst_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:amethyst_shard",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": ["99816012-74e9-4c81-bb97-17e3836f506c"],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d8504b44-30a1-4b68-a498-37c4c32b702e",
       "name": {
         "text": "Culinary Stew",
@@ -103,48 +145,6 @@
         {
           "id": "cyclic:soil",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
-      "name": {
-        "text": "Amethyst",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Y\u003d0 to Y\u003d132",
-        "isTranslationKey": false
-      },
-      "x": 263,
-      "y": 67,
-      "icon": {
-        "id": "minecraft:amethyst_shard",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:amethyst_shard",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": ["99816012-74e9-4c81-bb97-17e3836f506c"],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:pick_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
         }
       ],
       "rewardchoice": [],
@@ -833,65 +833,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
-      "name": {
-        "text": "Leggings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
-        "isTranslationKey": false
-      },
-      "x": 198,
-      "y": 11,
-      "icon": {
-        "id": "tconstruct:travelers_leggings",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "monstereggs:skeleton_egg",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:travelers_leggings",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:book",
-          "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:shield_strap\"}"
-        },
-        {
-          "id": "turkeydevutil:book",
-          "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:pockets\"}"
-        },
-        {
-          "id": "turkeydevutil:book",
-          "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "998ed66b-32d7-4b8c-8d05-1a2ce19f8b20",
       "name": {
         "text": "They\u0027re Hunting You!",
@@ -949,6 +890,65 @@
           "id": "treasurebags:treasure_bag",
           "Count": 1,
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
+      "name": {
+        "text": "Leggings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+        "isTranslationKey": false
+      },
+      "x": 198,
+      "y": 11,
+      "icon": {
+        "id": "tconstruct:travelers_leggings",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:skeleton_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_leggings",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:shield_strap\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:pockets\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
         }
       ],
       "commandrewards": []
