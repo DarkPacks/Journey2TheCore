@@ -1,8 +1,29 @@
-#[runaway]
-#pitch = "1.01"
-#volume = "1.0"
-#[runaway.trigger]
-#name = "menu"
+[horror_intro]
+	pitch = "1.0"
+	volume = "1.0"
+	play_once = "2"
+
+	[horror_intro.trigger]
+		name = "menu"
+
+[sewer_ambience]
+	volume = "0.05"
+	must_finish = "false"
+
+	[sewer_ambience.trigger]
+		name = "zones"
+		identifier = "sewer_ambience"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
+
+		[sewer_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "0"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "20"
+			z_max = "30000000"
 
 [underwater_ambience]
 	volume = "1.0"
@@ -11,28 +32,47 @@
 	[underwater_ambience.trigger]
 		name = "zones"
 		identifier = "underwater_ambience"
-		fade_in = "20"
-		fade_out = "10"
-		time = "40"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
 
 		[underwater_ambience.trigger.zone]
 			x_min = "-30000000"
-			y_min = "0"
+			y_min = "20"
 			z_min = "-30000000"
 			x_max = "30000000"
 			y_max = "132"
 			z_max = "30000000"
 
-[soulsand_valley_ambience]
+[castle_ambience]
 	volume = "1.0"
+	must_finish = "false"
+
+	[castle_ambience.trigger]
+		name = "zones"
+		identifier = "castle_ambience"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
+
+		[castle_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "133"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "264"
+			z_max = "30000000"
+
+[soulsand_valley_ambience]
+	volume = "0.2"
 	must_finish = "false"
 
 	[soulsand_valley_ambience.trigger]
 		name = "zones"
 		identifier = "soulsand_valley_ambience"
-		fade_in = "20"
-		fade_out = "10"
-		time = "40"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
 
 		[soulsand_valley_ambience.trigger.zone]
 			x_min = "-30000000"
@@ -42,24 +82,21 @@
 			y_max = "528"
 			z_max = "30000000"
 
-[basalt_deltas_ambience]
-	volume = "1.0"
+[minor_ambience]
+	volume = "0.1"
 	must_finish = "false"
 
-	[basalt_deltas_ambience.trigger]
+	[minor_ambience.trigger]
 		name = "zones"
-		identifier = "basalt_deltas_ambience"
-		fade_in = "20"
-		fade_out = "10"
-		time = "40"
+		identifier = "minor_ambience"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
 
-		[basalt_deltas_ambience.trigger.zone]
+		[minor_ambience.trigger.zone]
 			x_min = "-30000000"
-			y_min = "529"
+			y_min = "528"
 			z_min = "-30000000"
 			x_max = "30000000"
 			y_max = "688"
 			z_max = "30000000"
-
-	[[basalt_deltas_ambience.loop]]
-		amount = "2147483647"
