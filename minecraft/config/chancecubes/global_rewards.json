@@ -5,7 +5,7 @@
     "chancecubes:actual_invisible_ghast": true,
     "chancecubes:anti_slab": false,
     "chancecubes:bad_omen": false,
-    "chancecubes:bedrock": true,
+    "chancecubes:bedrock": false,
     "chancecubes:bees": true,
     "chancecubes:roosevelts_stick": false,
     "chancecubes:bookshelves": true,
