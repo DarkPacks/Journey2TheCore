@@ -5,5 +5,6 @@
   "subtitle": "The Denied",
   "minY": -64,
   "maxY": -1,
+  "volume": 0.25,
   "dimension": "minecraft:overworld"
 }

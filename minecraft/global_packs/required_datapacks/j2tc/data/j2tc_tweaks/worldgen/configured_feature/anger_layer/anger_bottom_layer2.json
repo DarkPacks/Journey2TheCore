@@ -2,7 +2,7 @@
   "type": "minecraft:fill_layer",
   "config": {
     "state": {
-      "Name": "cobblestoney:granite_red"
+      "Name": "minecraft:tuff"
     },
     "height": 63
   }

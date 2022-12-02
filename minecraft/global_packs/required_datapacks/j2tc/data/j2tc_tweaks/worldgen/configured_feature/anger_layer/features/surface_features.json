@@ -1,0 +1,170 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 12,
+    "xz_spread": 7,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:acacia_stick",
+                  "Properties": {
+                    "variation": "small"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:acacia_stick",
+                  "Properties": {
+                    "variation": "medium"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:acacia_stick",
+                  "Properties": {
+                    "variation": "large"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:birch_stick",
+                  "Properties": {
+                    "variation": "small"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:birch_stick",
+                  "Properties": {
+                    "variation": "medium"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:birch_stick",
+                  "Properties": {
+                    "variation": "large"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:crimson_stick",
+                  "Properties": {
+                    "variation": "small"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:crimson_stick",
+                  "Properties": {
+                    "variation": "medium"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:crimson_stick",
+                  "Properties": {
+                    "variation": "large"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:seashell",
+                  "Properties": {
+                    "variation": "yellow"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:seashell",
+                  "Properties": {
+                    "variation": "white"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:seashell",
+                  "Properties": {
+                    "variation": "pink"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:starfish",
+                  "Properties": {
+                    "variation": "red"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:starfish",
+                  "Properties": {
+                    "variation": "pink"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "rocks:starfish",
+                  "Properties": {
+                    "variation": "orange"
+                  }
+                }
+              },
+              {
+                "weight": 40,
+                "data": {
+                  "Name": "minecraft:air"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

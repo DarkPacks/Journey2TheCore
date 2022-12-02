@@ -28,7 +28,7 @@
       "predicate": {
         "type": "minecraft:matching_block_tag",
         "offset": [0, -1, 0],
-        "tag": "j2tc_tweaks:anger_ore_replaceable"
+        "tag": "j2tc_tweaks:anger_layer_surface_feature_placement"
       }
     }
   ]

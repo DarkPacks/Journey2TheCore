@@ -1,9 +1,9 @@
 {
-  "feature": "j2tc_tweaks:greed_layer/features/urn_place1",
+  "feature": "j2tc_tweaks:greed_layer/urn_structure",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 24
+      "count": 16
     },
     {
       "type": "minecraft:biome"
@@ -29,6 +29,14 @@
         "type": "minecraft:matching_block_tag",
         "offset": [0, -1, 0],
         "tag": "j2tc_tweaks:greed_layer_surface"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, 1, 0],
+        "blocks": "minecraft:air"
       }
     }
   ]

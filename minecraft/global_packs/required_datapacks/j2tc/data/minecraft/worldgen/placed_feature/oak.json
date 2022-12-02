@@ -33,7 +33,8 @@
           "minecraft:coarse_dirt",
           "minecraft:rooted_dirt",
           "minecraft:snow_block",
-          "rechiseled:dirt_muddy"
+          "rechiseled:dirt_muddy",
+          "minecraft:podzol"
         ]
       }
     }

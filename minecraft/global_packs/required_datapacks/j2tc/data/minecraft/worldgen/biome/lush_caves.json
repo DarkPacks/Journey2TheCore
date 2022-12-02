@@ -10,12 +10,6 @@
       "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },
-    "music": {
-      "sound": "minecraft:music.overworld.lush_caves",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
     "sky_color": 0,
     "fog_color": 0,
     "water_color": 8914952,
@@ -165,6 +159,8 @@
     ],
     [
       "minecraft:glow_lichen",
+      "j2tc_tweaks:anger_layer/moss_block_replace",
+      "j2tc_tweaks:greed_layer/cracked_bricks",
       "minecraft:oak",
       "j2tc_tweaks:gluttony_layer/chocolate_trees",
       "j2tc_tweaks:gluttony_layer/cotton_candy_trees",
@@ -197,7 +193,10 @@
       "j2tc_tweaks:stone_geyser",
       "j2tc_tweaks:stone_geyser_upper",
       "j2tc_tweaks:brown_mushroom_place",
-      "j2tc_tweaks:red_mushroom_place"
+      "j2tc_tweaks:red_mushroom_place",
+      "j2tc_tweaks:anger_layer/features/surface_features",
+      "j2tc_tweaks:anger_layer/moss_carpet",
+      "j2tc_tweaks:anger_layer/azalea_on_moss"
     ],
     []
   ],

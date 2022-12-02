@@ -1,0 +1,23 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": [
+      "minecraft:greed_urn_black",
+      "minecraft:greed_urn_brown",
+      "minecraft:greed_urn_white",
+      "minecraft:greed_urn_gray",
+      "minecraft:greed_urn_light_gray",
+      "minecraft:greed_urn_cyan",
+      "minecraft:greed_urn_light_blue",
+      "minecraft:greed_urn_red",
+      "minecraft:greed_urn_orange",
+      "minecraft:greed_urn_yellow",
+      "minecraft:greed_urn_pink",
+      "minecraft:greed_urn_magenta",
+      "minecraft:greed_urn_blue",
+      "minecraft:greed_urn_green",
+      "minecraft:greed_urn_purple",
+      "minecraft:greed_urn_lime"
+    ]
+  }
+}

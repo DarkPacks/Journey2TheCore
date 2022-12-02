@@ -3,7 +3,7 @@
     "targets": [
       {
         "target": {
-          "tag": "j2tc_tweaks:limbo_layer_main_block",
+          "tag": "j2tc_tweaks:limbo_layer_glowstone_replacement",
           "predicate_type": "minecraft:tag_match"
         },
         "state": {

@@ -5,5 +5,6 @@
   "subtitle": "The Insatiable One",
   "minY": 265,
   "maxY": 396,
+  "volume": 0.25,
   "dimension": "minecraft:overworld"
 }
