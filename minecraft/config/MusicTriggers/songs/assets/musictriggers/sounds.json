@@ -8,6 +8,69 @@
       }
     ]
   },
+  "music.castle_ambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/castle_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "music.greed_ambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/greed_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "music.horror_intro": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/horror_intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.infernal_music": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/infernal_music",
+        "stream": true
+      }
+    ]
+  },
+  "music.limbo_ambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/limbo_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "music.minor_ambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/minor_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "music.sewer_ambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/sewer_ambience",
+        "stream": true
+      }
+    ]
+  },
   "music.soulsand_valley_ambience": {
     "category": "music",
     "sounds": [
