@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:bone_meal"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:slime",
+    "amount": 100
+  },
+  "result": "minecraft:green_dye",
+  "cooling_time": 60
+}
