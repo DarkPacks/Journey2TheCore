@@ -8,6 +8,13 @@
     "turkeydevutil:cookie",
     "minecraft:cookie",
     "createcafe:oreo_half",
-    "createcafe:oreo"
+    "createcafe:oreo",
+    "candyworld:milk_brownie",
+    "candyworld:white_brownie",
+    "candyworld:dark_brownie",
+    "candyworld:milk_chocolate_bar",
+    "candyworld:white_chocolate_bar",
+    "candyworld:dark_chocolate_bar",
+    "farmersdelight:cooked_chicken_cuts"
   ]
 }

@@ -2,7 +2,6 @@
   "replace": true,
   "values": [
     "create:limestone",
-    "create:ochrum",
     "geore:budding_coal",
     "geore:coal_block",
     "geore:coal_cluster",

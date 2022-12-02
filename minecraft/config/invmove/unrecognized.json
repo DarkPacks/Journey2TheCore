@@ -119,7 +119,9 @@
     "shadows.apotheosis.adventure.affix.salvaging.SalvagingScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookCategory": true,
     "net.act.naturesaid.client.gui.RecycleTableUIScreen": true,
-    "com.mrbysco.junkdrawers.client.screen.DrawerScreen": true
+    "com.mrbysco.junkdrawers.client.screen.DrawerScreen": true,
+    "slimeknights.tconstruct.tables.client.inventory.ModifierWorktableScreen": true,
+    "com.leobeliik.extremesoundmuffler.gui.MufflerScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

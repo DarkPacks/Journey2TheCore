@@ -1,0 +1,23 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "minecraft:bone_meal"
+  },
+  "block_in": {
+    "blocks": ["adpother:sulfur"]
+  },
+  "post": [
+    {
+      "type": "place",
+      "block": "air"
+    },
+    {
+      "type": "drop_item",
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "type": "place",
+      "block": "adpother:dust"
+    }
+  ]
+}

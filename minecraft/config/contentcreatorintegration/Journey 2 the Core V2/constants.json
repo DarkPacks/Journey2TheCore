@@ -451,52 +451,52 @@
     "Chance Cubes Surround Player": {
       "outcomes": [
         {
-          "command": "/setblock ~ ~-1 ~ chancecubes:chance_cube replace",
+          "command": "/setblock ~ ~-1 ~ chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~ ~2 ~ chancecubes:chance_cube replace",
+          "command": "/setblock ~ ~2 ~ chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~1 ~ ~ chancecubes:chance_cube replace",
+          "command": "/setblock ~1 ~ ~ chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~1 ~1 ~ chancecubes:chance_cube replace",
+          "command": "/setblock ~1 ~1 ~ chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~ ~ ~1 chancecubes:chance_cube replace",
+          "command": "/setblock ~ ~ ~1 chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~ ~1 ~1 chancecubes:chance_cube replace",
+          "command": "/setblock ~ ~1 ~1 chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~-1 ~ ~ chancecubes:chance_cube replace",
+          "command": "/setblock ~-1 ~ ~ chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~-1 ~1 ~ chancecubes:chance_cube replace",
+          "command": "/setblock ~-1 ~1 ~ chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~ ~ ~-1 chancecubes:chance_cube replace",
+          "command": "/setblock ~ ~ ~-1 chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         },
         {
-          "command": "/setblock ~ ~1 ~-1 chancecubes:chance_cube replace",
+          "command": "/setblock ~ ~1 ~-1 chancecubes:chance_cube destroy",
           "executeAsSelf": true,
           "type": "command"
         }
