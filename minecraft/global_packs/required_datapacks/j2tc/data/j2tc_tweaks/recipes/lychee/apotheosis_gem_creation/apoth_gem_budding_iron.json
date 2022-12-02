@@ -7,11 +7,13 @@
   "post": [
     {
       "type": "execute",
-      "command": "loot spawn ~ ~ ~ loot j2tc_tweaks:treasure_bags/apotheosis_gem"
+      "command": "loot spawn ~ ~ ~ loot j2tc_tweaks:treasure_bags/apotheosis_gem",
+      "hide": true
     },
     {
       "type": "execute",
-      "command": "playsound minecraft:block.amethyst_block.break block @p ~ ~ ~ 1.0"
+      "command": "playsound minecraft:block.amethyst_block.break block @p ~ ~ ~ 1.0",
+      "hide": true
     },
     {
       "type": "place",
