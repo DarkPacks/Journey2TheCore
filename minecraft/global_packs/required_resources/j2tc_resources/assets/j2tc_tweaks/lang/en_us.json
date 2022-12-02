@@ -9,5 +9,6 @@
   "modifier.tconstruct.well_fed": "Well Fed",
   "modifier.tconstruct.starter_durability_increase": "Increased Durability",
   "modifier.tconstruct.color_gilded": "Color Restoration",
-  "modifier.tconstruct.ability_slot": "Ability Slot"
+  "modifier.tconstruct.ability_slot": "Ability Slot",
+  "material.tconstruct.candy": "Candy"
 }
