@@ -4,12 +4,12 @@
 	"Mineshaft Spawn Rate" = 0.02
 	#The lowest a mineshaft can spawn.
 	#Default: -55
-	"Minimum y-coordinate" = -50
+	"Minimum y-coordinate" = -45
 	#The highest the a mineshaft can spawn.
 	#Be careful, setting this too high may make mineshafts poke through ocean floors.
 	#Default: 30
 	#
-	"Maximum y-coordinate" = 650
+	"Maximum y-coordinate" = 640
 	#Whether or not vanilla mineshafts should be disabled.
 	#Default: true
 	#
@@ -27,31 +27,31 @@
 		#Chance of an ore deposit containing coal.
 		#Default: 20
 		#Range: 0 ~ 100
-		"Coal Spawn Chance" = 20
+		"Coal Spawn Chance" = 0
 		#Chance of an ore deposit containing iron.
 		#Default: 9
 		#Range: 0 ~ 100
-		"Iron Spawn Chance" = 9
+		"Iron Spawn Chance" = 0
 		#Chance of an ore deposit containing redstone.
 		#Default: 7
 		#Range: 0 ~ 100
-		"Redstone Spawn Chance" = 7
+		"Redstone Spawn Chance" = 0
 		#Chance of an ore deposit containing gold.
 		#Default: 7
 		#Range: 0 ~ 100
-		"Gold Spawn Chance" = 7
+		"Gold Spawn Chance" = 0
 		#Chance of an ore deposit containing lapis lazuli.
 		#Default: 3
 		#Range: 0 ~ 100
-		"Lapis Spawn Chance" = 3
+		"Lapis Spawn Chance" = 0
 		#Chance of an ore deposit containing emerald.
 		#Default: 3
 		#Range: 0 ~ 100
-		"Emerald Spawn Chance" = 3
+		"Emerald Spawn Chance" = 0
 		#Chance of an ore deposit containing diamond.
 		#Default: 1
 		#Range: 0 ~ 100
-		"Diamond Spawn Chance" = 1
+		"Diamond Spawn Chance" = 0
 
 	###########################################################################################################
 	## Spawn rates for various mineshaft parts and decorations.
@@ -60,7 +60,7 @@
 		#The spawn rate for lanterns in the main shaft.
 		#Default: .0067
 		#Range: 0.0 ~ 1.0
-		"Lantern Spawn Rate" = 0.0067
+		"Lantern Spawn Rate" = 0.009
 		#The spawn rate for torches in small shafts.
 		#Default: .02
 		#Range: 0.0 ~ 1.0
@@ -80,7 +80,7 @@
 		#The spawn rate for cobwebs.
 		#Default: .15
 		#Range: 0.0 ~ 1.0
-		"Cobweb Spawn Rate" = 0.15
+		"Cobweb Spawn Rate" = 0.23
 		#The spawn rate for minecarts holding chests in small shafts.
 		#Default: .00125
 		#Range: 0.0 ~ 1.0
@@ -100,7 +100,7 @@
 		#Percent chance of an Abandoned Miners' Outpost to spawn at the end of a small mineshaft tunnel.
 		#Default: 2
 		#Range: 0 ~ 100
-		"Abandoned Miners' Outpost Spawn Chance" = 2
+		"Abandoned Miners' Outpost Spawn Chance" = 9
 		#The number of "pieces" (e.g. straight, turn, ladder, intersection, etc.) in a single small shaft.
 		#This determines the overall length of small shafts.
 		#Default: 9
