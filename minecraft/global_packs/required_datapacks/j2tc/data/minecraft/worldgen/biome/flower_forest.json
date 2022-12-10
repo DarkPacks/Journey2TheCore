@@ -26,8 +26,7 @@
     [
       "j2tc_tweaks:water_layer",
       "j2tc_tweaks:water_layer1",
-      "j2tc_tweaks:water_layer2",
-      "j2tc_tweaks:limbo_layer/large_tree_roots"
+      "j2tc_tweaks:water_layer2"
     ],
     [
       "j2tc_tweaks:lake_lava",
@@ -175,15 +174,8 @@
       "j2tc_tweaks:greed_layer/features/chain_copper",
       "j2tc_tweaks:moss_ceiling",
       "j2tc_tweaks:limbo_layer/grass_place",
-      "j2tc_tweaks:skeleton_hand",
-      "j2tc_tweaks:desire_layer/cobblestone_gravestone",
-      "j2tc_tweaks:desire_layer/creeper_skeleton",
-      "j2tc_tweaks:desire_layer/deepslate_gravestone",
-      "j2tc_tweaks:desire_layer/gravestone",
-      "j2tc_tweaks:desire_layer/leaning_skeleton",
-      "j2tc_tweaks:desire_layer/lying_skeleton",
-      "j2tc_tweaks:desire_layer/mossy_cobblestone_gravestone",
-      "j2tc_tweaks:desire_layer/skull_with_rib_cage",
+      "j2tc_tweaks:desire_layer/gravestones",
+      "j2tc_tweaks:desire_layer/skeleton_on_ground",
       "j2tc_tweaks:greed_layer/features/urn_place1",
       "j2tc_tweaks:stone_geyser",
       "j2tc_tweaks:stone_geyser_upper",
@@ -193,7 +185,14 @@
       "j2tc_tweaks:anger_layer/moss_carpet",
       "j2tc_tweaks:anger_layer/azalea_on_moss"
     ],
-    []
+    [
+      "j2tc_tweaks:limbo_layer/column_structures",
+      "j2tc_tweaks:limbo_layer/tree_columns_oak",
+      "j2tc_tweaks:desire_layer/desire_structures",
+      "j2tc_tweaks:greed_layer/tnt_structures",
+      "j2tc_tweaks:greed_layer/greed_columns",
+      "j2tc_tweaks:limbo_layer/large_tree_roots"
+    ]
   ],
   "spawners": {
     "monster": [],
