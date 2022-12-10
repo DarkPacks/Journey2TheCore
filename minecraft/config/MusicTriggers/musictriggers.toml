@@ -1,6 +1,6 @@
 [[horror_intro]]
 	pitch = "1.0"
-	volume = "0.2"
+	volume = "1.0"
 	play_once = "2"
 
 	[horror_intro.trigger]
@@ -113,6 +113,13 @@
 			x_max = "30000000"
 			y_max = "688"
 			z_max = "30000000"
+
+[[muddr_was_right]]
+	volume = "1.0"
+
+	[muddr_was_right.trigger]
+		name = "zones"
+		identifier = "limbo_ambience"
 
 [[infernal_music]]
 	volume = "0.5"

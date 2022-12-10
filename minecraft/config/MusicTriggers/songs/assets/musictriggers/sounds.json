@@ -62,6 +62,15 @@
       }
     ]
   },
+  "music.muddr_was_right": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "musictriggers:music/muddr_was_right",
+        "stream": true
+      }
+    ]
+  },
   "music.sewer_ambience": {
     "category": "music",
     "sounds": [
