@@ -130,11 +130,6 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "nameless_trinkets:lucky_rock"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
           "name": "nameless_trinkets:creeper_sense"
         },
         {

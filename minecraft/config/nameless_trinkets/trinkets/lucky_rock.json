@@ -8,32 +8,15 @@
       "chance": 1.0
     },
     {
-      "table": [
-        "minecraft:chests/village/village_desert_house",
-        "minecraft:chests/village/village_plains_house",
-        "minecraft:chests/village/village_snowy_house",
-        "minecraft:chests/village/village_taiga_house",
-        "minecraft:chests/village/village_savanna_house",
-        "minecraft:chests/village/village_butcher"
-      ],
+      "table": [],
       "chance": 0.02
     },
     {
-      "table": [
-        "minecraft:chests/abandoned_mineshaft",
-        "minecraft:chests/buried_treasure",
-        "minecraft:chests/pillager_outpost",
-        "minecraft:chests/stronghold_corridor",
-        "minecraft:chests/woodland_mansion"
-      ],
+      "table": [],
       "chance": 0.25
     },
     {
-      "table": [
-        "minecraft:chests/village/village_armorer",
-        "minecraft:chests/village/village_toolsmith",
-        "minecraft:chests/village/village_weaponsmith"
-      ],
+      "table": [],
       "chance": 0.07
     },
     {
@@ -41,12 +24,7 @@
       "chance": 0.7
     },
     {
-      "table": [
-        "minecraft:chests/simple_dungeon",
-        "minecraft:chests/nether_bridge",
-        "minecraft:chests/ruined_portal",
-        "minecraft:chests/shipwreck_treasure"
-      ],
+      "table": [],
       "chance": 0.1
     },
     {
