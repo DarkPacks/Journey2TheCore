@@ -1,0 +1,750 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 16,
+    "xz_spread": 0,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skeleton_hand",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skeleton_hand",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:bone_remains",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:bone_remains",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:bone_remains",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:bone_remains",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:candle_holder",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:candle_holder",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:candle_holder",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:candle_holder",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:creeper_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:creeper_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:creeper_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:creeper_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:laterally_lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_wither_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_wither_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_wither_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:leaning_wither_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:lying_wither_skeleton",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_on_pike",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_on_pike",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_on_pike",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_on_pike",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_pile",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_pile",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_pile",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_pile",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:torso_pile",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:torso_pile",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:torso_pile",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:torso_pile",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_bone_remains",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_bone_remains",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_bone_remains",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_bone_remains",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_on_pike",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_on_pike",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_on_pike",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_on_pike",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_pile",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_pile",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_pile",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_pile",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_skull_with_rib_cage",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_torso_pile",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_torso_pile",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_torso_pile",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "graveyard:wither_torso_pile",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": {},
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "feature": "j2tc_tweaks:desire_layer/mossy_cobblestone_gravestone",
+  "feature": "j2tc_tweaks:desire_layer/gravestones",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 8
+      "count": 32
     },
     {
       "type": "minecraft:biome"

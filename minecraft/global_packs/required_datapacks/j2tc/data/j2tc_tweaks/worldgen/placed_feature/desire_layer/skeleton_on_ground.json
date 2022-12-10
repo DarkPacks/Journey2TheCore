@@ -1,9 +1,9 @@
 {
-  "feature": "j2tc_tweaks:desire_layer/gravestone",
+  "feature": "j2tc_tweaks:desire_layer/skeleton_on_ground",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 8
+      "count": 164
     },
     {
       "type": "minecraft:biome"
@@ -28,7 +28,7 @@
       "predicate": {
         "type": "minecraft:matching_block_tag",
         "offset": [0, -1, 0],
-        "tag": "j2tc_tweaks:desire_layer_feature_placement_on_top"
+        "tag": "j2tc_tweaks:stone_blocks_for_feature_placement"
       }
     }
   ]
