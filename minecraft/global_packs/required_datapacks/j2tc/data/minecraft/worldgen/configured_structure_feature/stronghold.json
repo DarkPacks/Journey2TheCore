@@ -1,6 +1,6 @@
 {
   "config": {},
-  "biomes": "#minecraft:has_structure/stronghold",
+  "biomes": "#j2tc_tweaks:has_structure/empty",
   "adapt_noise": true,
   "spawn_overrides": {},
   "type": "minecraft:stronghold"

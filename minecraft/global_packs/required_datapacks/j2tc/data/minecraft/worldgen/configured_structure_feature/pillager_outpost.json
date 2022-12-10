@@ -3,20 +3,8 @@
     "start_pool": "minecraft:pillager_outpost/base_plates",
     "size": 7
   },
-  "biomes": "#minecraft:has_structure/pillager_outpost",
+  "biomes": "#j2tc_tweaks:has_structure/empty",
   "adapt_noise": true,
-  "spawn_overrides": {
-    "monster": {
-      "bounding_box": "full",
-      "spawns": [
-        {
-          "type": "minecraft:pillager",
-          "weight": 1,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ]
-    }
-  },
+  "spawn_overrides": {},
   "type": "minecraft:pillager_outpost"
 }

@@ -1,10 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "minecraft:stronghold",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "distance": 32,
     "spread": 3,

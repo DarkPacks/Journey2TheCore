@@ -1,6 +1,6 @@
 {
   "config": {},
-  "biomes": "#minecraft:has_structure/jungle_temple",
+  "biomes": "#j2tc_tweaks:has_structure/empty",
   "spawn_overrides": {},
   "type": "minecraft:jungle_pyramid"
 }
