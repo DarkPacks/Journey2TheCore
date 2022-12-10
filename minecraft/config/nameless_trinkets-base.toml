@@ -11,7 +11,7 @@
 
 ["Amount of Trinket Slot Obtainable:"]
 	#Range: 0 ~ 99
-	"How many trinket slots?" = 4
+	"How many trinket slots?" = 6
 
 ["Speed Force Particles"]
 	"Show particles?" = true
