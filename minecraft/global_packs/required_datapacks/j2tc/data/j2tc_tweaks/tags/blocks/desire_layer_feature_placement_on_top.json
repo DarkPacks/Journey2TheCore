@@ -1,3 +1,9 @@
 {
-  "values": ["minecraft:deepslate", "minecraft:snow_block", "create:limestone"]
+  "values": [
+    "minecraft:snow_block",
+    "create:limestone",
+    "minecraft:stone",
+    "minecraft:dripstone_block",
+    "minecraft:clay"
+  ]
 }

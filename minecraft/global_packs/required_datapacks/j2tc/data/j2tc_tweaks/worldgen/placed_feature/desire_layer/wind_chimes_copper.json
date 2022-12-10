@@ -27,7 +27,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [0, 1, 0],
+        "offset": [0, 2, 0],
         "blocks": [
           "minecraft:stone",
           "create:limestone",
@@ -43,7 +43,23 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [0, -1, 0],
+        "offset": [0, 0, 0],
+        "blocks": ["minecraft:air"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, 1, 0],
+        "blocks": ["minecraft:air"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [1, 0, 0],
         "blocks": ["minecraft:air"]
       }
     }
