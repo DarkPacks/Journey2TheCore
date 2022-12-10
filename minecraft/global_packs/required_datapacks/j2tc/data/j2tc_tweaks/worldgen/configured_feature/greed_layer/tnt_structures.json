@@ -1,0 +1,6 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": ["minecraft:tnt_structure_1", "minecraft:tnt_structure_2"]
+  }
+}

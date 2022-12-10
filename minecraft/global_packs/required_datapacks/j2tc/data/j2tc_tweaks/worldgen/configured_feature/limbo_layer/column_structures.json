@@ -1,0 +1,6 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": ["minecraft:limbo_column_1", "minecraft:column_structure_2"]
+  }
+}

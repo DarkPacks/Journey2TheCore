@@ -1,0 +1,6 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": ["tree_columns/acacia_tree_column_l"]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": ["tree_columns/spruce_tree_column_l"]
+  }
+}
