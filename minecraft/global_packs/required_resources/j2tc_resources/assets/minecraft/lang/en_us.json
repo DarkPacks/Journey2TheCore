@@ -1,4 +1,5 @@
 {
   "createWorld.preparing": "Preparing for your doom...",
-  "selectWorld.data_read": "Abandoning all hope..."
+  "selectWorld.data_read": "Abandoning all hope...",
+  "block.minecraft.trapped_chest": "Chest"
 }
