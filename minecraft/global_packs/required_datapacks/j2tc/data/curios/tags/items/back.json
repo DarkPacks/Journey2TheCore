@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "create_jetpack:jetpack",
+    { "required": false, "id": "create_jetpack:jetpack" },
     "nameless_trinkets:ethereal_wings",
     "thermal:satchel",
     "sophisticatedbackpacks:backpack",
