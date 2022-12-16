@@ -1,9 +1,15 @@
 {
-  "feature": "j2tc_tweaks:greed_layer/greed_columns",
+  "feature": "j2tc_tweaks:limbo_layer/tree_columns_acacia_wide",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      }
     },
     {
       "type": "minecraft:biome"
@@ -16,10 +22,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 216
+          "absolute": 658
         },
         "max_inclusive": {
-          "absolute": 217
+          "absolute": 661
         }
       }
     },
@@ -28,23 +34,23 @@
       "predicate": {
         "type": "minecraft:matching_block_tag",
         "offset": [0, -1, 0],
-        "tag": "j2tc_tweaks:greed_layer_surface"
+        "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top_2"
       }
     },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_block_tag",
-        "offset": [2, -1, 0],
-        "tag": "j2tc_tweaks:greed_layer_surface"
+        "offset": [1, -1, 0],
+        "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top_2"
       }
     },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_block_tag",
-        "offset": [0, -1, 2],
-        "tag": "j2tc_tweaks:greed_layer_surface"
+        "offset": [0, -1, 1],
+        "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top_2"
       }
     },
     {

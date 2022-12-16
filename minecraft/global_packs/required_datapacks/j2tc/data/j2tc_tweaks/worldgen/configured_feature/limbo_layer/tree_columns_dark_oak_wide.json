@@ -1,0 +1,6 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": ["tree_columns/dark_oak_tree_column_wide"]
+  }
+}

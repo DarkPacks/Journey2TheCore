@@ -1,6 +1,6 @@
 {
   "type": "platypus:structure",
   "config": {
-    "structures": ["minecraft:greed_column_m"]
+    "structures": ["minecraft:greed_column_m", "minecraft:greed_column_l"]
   }
 }

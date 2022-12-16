@@ -1,0 +1,6 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "structures": ["tree_columns/birch_tree_column_wide"]
+  }
+}

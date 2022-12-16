@@ -177,6 +177,7 @@
     [
       "j2tc_tweaks:limbo_layer/column_structures",
       "j2tc_tweaks:limbo_layer/tree_columns_spruce",
+      "j2tc_tweaks:limbo_layer/tree_columns_spruce_wide",
       "j2tc_tweaks:desire_layer/desire_structures",
       "j2tc_tweaks:greed_layer/tnt_structures",
       "j2tc_tweaks:greed_layer/greed_columns",
