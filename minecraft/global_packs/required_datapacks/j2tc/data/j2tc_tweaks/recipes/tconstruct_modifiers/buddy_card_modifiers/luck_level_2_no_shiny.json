@@ -1,12 +1,12 @@
 {
-  "type": "tconstruct:modifier",
-  "inputs": [
+  "type": "tconstruct:incremental_modifier",
+  "input": 
     {
-      "type": "forge:partial_nbt",
-      "items": ["buddycards:buddycard_base6"],
-      "nbt": "{foil:1b}"
-    }
-  ],
+
+      "item": "buddycards:buddycard_base6"
+    },
+          "amount_per_item": 1,
+  "needed_per_level": 4,
   "tools": {
     "tag": "tconstruct:modifiable/melee_or_harvest"
   },

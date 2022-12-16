@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": 
+    {
+      "item": "buddycards:buddycard_mob_test_set19"
+    },
+          "amount_per_item": 1,
+  "needed_per_level": 4,
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "result": {
+    "name": "tconstruct:necrotic",
+    "level": 1
+  },
+  "max_level": 5
+}
