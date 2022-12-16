@@ -1259,6 +1259,107 @@
     "result": "allow"
   },
   {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.5,
+    "speedmultiply": 0.6,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 0.6,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.75,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.5,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 0.6,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.75,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
     "mob": [
       "alexsmobs:skelewag",
       "buddycards:enderling",
