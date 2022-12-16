@@ -158,10 +158,10 @@
 			generation_separation = 8
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_max = 256.0
+			height_max = -65
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_min = 256.0
+			height_min = -65
 			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = ["minecraft:villages", "underground_villages:underground_village"]
 
@@ -210,10 +210,10 @@
 			generation_separation = 8
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_max = 100.0
+			height_max = -65
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_min = 50.0
+			height_min = -65
 			#Names of structures this mob/structure will avoid when generating
 			avoid_structures = ["minecraft:villages", "underground_villages:underground_village"]
 
@@ -317,7 +317,7 @@
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = true
+			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = []
 
@@ -427,16 +427,16 @@
 			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:sand"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_max = 256
+			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 256
+			height_min = -65
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = true
+			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts", "mowziesmobs:barakoa_villages"]
 
@@ -494,7 +494,7 @@
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = true
 			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = true
+			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = ["minecraft:villages", "underground_villages:underground_village"]
 
@@ -543,16 +543,16 @@
 			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_max = 256
+			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 256
+			height_min = -65
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = true
+			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = ["minecraft:villages", "underground_villages:underground_village"]
 
