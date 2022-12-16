@@ -73,7 +73,7 @@
 		#Making this too large may cause problems.
 		#Default: 20
 		#
-		"Zombie Dungeon Surface Entrance Staircase Max Length" = 20
+		"Zombie Dungeon Surface Entrance Staircase Max Length" = 1
 
 	###########################################################################################################
 	## Small Dungeon settings.
