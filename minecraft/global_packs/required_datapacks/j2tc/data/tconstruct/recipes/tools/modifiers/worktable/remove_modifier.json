@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:remove_modifier",
+  "inputs": [
+    {
+      "item": "minecraft:cobweb"
+    }
+  ],
+  "leftovers": ["minecraft:string"]
+}
