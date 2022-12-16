@@ -5,6 +5,8 @@
 
 	[horror_intro.trigger]
 		name = "menu"
+		fade_in = "40"
+		fade_out = "40"
 
 [[sewer_ambience]]
 	volume = "0.05"
