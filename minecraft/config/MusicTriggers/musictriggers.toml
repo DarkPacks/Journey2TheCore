@@ -7,6 +7,7 @@
 		name = "menu"
 		fade_in = "40"
 		fade_out = "40"
+		time = "80"
 
 [[sewer_ambience]]
 	volume = "0.05"
@@ -122,6 +123,9 @@
 	[muddr_was_right.trigger]
 		name = "zones"
 		identifier = "limbo_ambience"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
 
 [[infernal_music]]
 	volume = "0.5"
