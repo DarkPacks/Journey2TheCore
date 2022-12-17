@@ -1,0 +1,23 @@
+{
+  "mobType": "humanoid_extended",
+  "entities": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "drowned"
+    }
+  ],
+  "textures": [
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/humanoid/sweater1.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/humanoid/sweater2.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/humanoid/sweater3.png"
+    }
+  ]
+}

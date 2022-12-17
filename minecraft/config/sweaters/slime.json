@@ -1,0 +1,23 @@
+{
+  "mobType": "slime",
+  "entities": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "slime"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "magma_cube"
+    }
+  ],
+  "textures": [
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/slime/sweater1.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/slime/sweater2.png"
+    }
+  ]
+}

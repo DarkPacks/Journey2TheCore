@@ -1,0 +1,18 @@
+{
+  "mobType": "player",
+  "entities": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "player"
+    },
+    {
+      "f_135804_": "player_mobs",
+      "f_135805_": "player_mob"
+    },
+    {
+      "f_135804_": "statues",
+      "f_135805_": "player_statue"
+    }
+  ],
+  "textures": []
+}

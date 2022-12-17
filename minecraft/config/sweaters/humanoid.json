@@ -1,0 +1,55 @@
+{
+  "mobType": "humanoid",
+  "entities": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "zombie"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "husk"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "skeleton"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "wither_skeleton"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "stray"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "husk"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "piglin"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "piglin_brute"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "zombified_piglin"
+    }
+  ],
+  "textures": [
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/humanoid/sweater1.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/humanoid/sweater2.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/humanoid/sweater3.png"
+    }
+  ]
+}

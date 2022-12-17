@@ -1,0 +1,19 @@
+{
+  "mobType": "chicken",
+  "entities": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chicken"
+    }
+  ],
+  "textures": [
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/chicken/sweater1.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/chicken/sweater2.png"
+    }
+  ]
+}

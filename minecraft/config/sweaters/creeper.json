@@ -1,0 +1,23 @@
+{
+  "mobType": "creeper",
+  "entities": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "creeper"
+    }
+  ],
+  "textures": [
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/creeper/sweater1.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/creeper/sweater2.png"
+    },
+    {
+      "f_135804_": "sweaters",
+      "f_135805_": "textures/entity/creeper/sweater3.png"
+    }
+  ]
+}
