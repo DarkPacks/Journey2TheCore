@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:glow_ink_sac",
+    "minecraft:glowstone_dust",
+    "minecraft:glow_berries",
+    "glowinc:pure_glow_bottle",
+    "glowinc:glow_ball",
+    "tconstruct:glow_ball"
+  ]
+}

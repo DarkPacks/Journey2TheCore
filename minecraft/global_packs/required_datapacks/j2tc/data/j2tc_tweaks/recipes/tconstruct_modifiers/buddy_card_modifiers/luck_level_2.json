@@ -5,19 +5,17 @@
       "type": "forge:partial_nbt",
       "items": ["buddycards:buddycard_base6"],
       "nbt": "{foil:1b}"
+    },
+    {
+      "item": "buddycards:buddycard_base6"
     }
   ],
   "tools": {
     "tag": "tconstruct:modifiable/melee_or_harvest"
   },
-  "requirements": {
-    "name": "tconstruct:luck",
-    "level": 1,
-    "error": "recipe.tconstruct.modifier.luck.level_2"
-  },
   "result": {
     "name": "tconstruct:luck",
-    "level": 2
+    "level": 1
   },
-  "max_level": 2
+  "max_level": 1
 }

@@ -1,11 +1,19 @@
 {
-  "type": "tconstruct:incremental_modifier",
-  "input": 
+  "type": "tconstruct:modifier",
+  "inputs": [
     {
-      "item": "buddycards:buddycard_mob_test_set19"
+      "item": "buddycards:buddycard_base19"
     },
-          "amount_per_item": 1,
-  "needed_per_level": 4,
+    {
+      "item": "buddycards:buddycard_base19"
+    },
+    {
+      "item": "buddycards:buddycard_base19"
+    },
+    {
+      "item": "buddycards:buddycard_base19"
+    }
+  ],
   "tools": {
     "tag": "tconstruct:modifiable/melee"
   },

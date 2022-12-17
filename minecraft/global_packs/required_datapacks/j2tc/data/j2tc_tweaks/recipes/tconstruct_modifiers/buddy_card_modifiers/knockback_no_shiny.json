@@ -1,10 +1,9 @@
 {
   "type": "tconstruct:incremental_modifier",
-  "input": 
-    {
-      "item": "buddycards:buddycard_base24"
-    },
-      "amount_per_item": 1,
+  "input": {
+    "item": "buddycards:buddycard_base24"
+  },
+  "amount_per_item": 1,
   "needed_per_level": 4,
   "tools": {
     "tag": "tconstruct:modifiable/melee"

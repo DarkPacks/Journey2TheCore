@@ -1,15 +1,27 @@
 {
-  "type": "tconstruct:incremental_modifier",
-  "input": 
+  "type": "tconstruct:modifier",
+  "inputs": [
     {
-
       "item": "buddycards:buddycard_base6"
     },
-          "amount_per_item": 1,
-  "needed_per_level": 4,
-  "tools": {
-    "tag": "tconstruct:modifiable/melee_or_harvest"
-  },
+    {
+      "item": "buddycards:buddycard_base6"
+    },
+    {
+      "item": "buddycards:buddycard_base6"
+    },
+    {
+      "item": "buddycards:buddycard_base6"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee_or_harvest"
+    },
+    {
+      "tag": "tconstruct:modifiable/armor/leggings"
+    }
+  ],
   "slots": {
     "abilities": 1
   },
@@ -17,5 +29,5 @@
     "name": "tconstruct:luck",
     "level": 1
   },
-  "max_level": 1
+  "max_level": 3
 }
