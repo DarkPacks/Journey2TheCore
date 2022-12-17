@@ -1,0 +1,14 @@
+{
+  "weight": 50,
+  "quality": 1.0,
+  "stack": {
+    "item": "tconstruct:longbow",
+    "count": 1,
+    "nbt": "{tic_materials:[\"tconstruct:bamboo\",\"tconstruct:bamboo\",\"tconstruct:bamboo\",\"tconstruct:string\"],tic_persistent_data:{abilities:1,upgrades:2}}"
+  },
+  "type": "BOW",
+  "stages": ["quest_1", "quest_2", "quest_3"],
+  "min_rarity": "common",
+  "max_rarity": "rare",
+  "dimensions": ["minecraft:overworld"]
+}
