@@ -22,6 +22,15 @@
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.enable": true,
 
+  "BC-MC.Education.Enable": false,
+  "BC-MC.Plugin.CodeLens": false,
+  "BC-MC.Diagnostics.Tags": false,
+  "BC-MC.Diagnostics.Objectives": false,
+  "BC-MC.Diagnostics.Mcfunctions": false,
+  "BC-MC.Diagnostics.Lang": false,
+  "BC-MC.Diagnostics.Json": false,
+  "BC-MC.Diagnostics.Enable": false,
+
   "cSpell.words": [
     "abyssalcraft",
     "adpother",
