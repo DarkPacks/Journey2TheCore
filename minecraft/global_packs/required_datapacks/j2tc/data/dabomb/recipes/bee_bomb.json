@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GBG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:gunpowder"
+    },
+    "B": {
+      "item": "minecraft:beehive"
+    }
+  },
+  "result": {
+    "item": "dabomb:bee_bomb",
+    "count": 2
+  }
+}
