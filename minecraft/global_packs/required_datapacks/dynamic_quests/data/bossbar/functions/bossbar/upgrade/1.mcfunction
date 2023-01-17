@@ -1,6 +1,6 @@
 #All Quests that are completed are routed here
-title @a title ""
-title @a subtitle {"text":"Quest Completed","color":"green"}
+title @s title ""
+title @s subtitle {"text":"Quest Completed","color":"green"}
 
 #Remove tag and set stage to 0
 scoreboard players set @p stage 0

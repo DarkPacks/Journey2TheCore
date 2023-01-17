@@ -1,5 +1,5 @@
-title @a title ""
-title @a subtitle {"text":"Your ears are now safe","color":"white"}
+title @s title ""
+title @s subtitle {"text":"Your ears are now safe","color":"white"}
 
 scoreboard players set @s damage_dad_joke 0
 

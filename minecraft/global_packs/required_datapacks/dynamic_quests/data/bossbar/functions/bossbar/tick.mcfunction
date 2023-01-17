@@ -16,3 +16,9 @@ function sbt:quest_completion_timer/rng
 execute if score @p completion_timer matches 1.. run scoreboard players remove @p completion_timer 1
 execute if score @p completion_timer matches 1.. store result bossbar minecraft:completion_timer value run scoreboard players get @p completion_timer
 execute if score @p completion_timer matches 0 run bossbar set minecraft:completion_timer visible false
+
+#Teleport Timer
+function sbt:quest_completion_timer/rng
+execute if score @p teleport_timer matches 1.. run scoreboard players remove @p teleport_timer 1
+execute if score @p teleport_timer matches 1.. store result bossbar minecraft:teleport_timer value run scoreboard players get @p teleport_timer
+execute if score @p teleport_timer matches 0 run bossbar set minecraft:teleport_timer visible false

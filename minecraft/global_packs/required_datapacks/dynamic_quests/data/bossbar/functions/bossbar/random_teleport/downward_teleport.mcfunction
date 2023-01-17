@@ -1,0 +1,2 @@
+function bossbar:bossbar/teleport_timer/load_teleport_timer
+chancecubes spawnReward chancecubes:random_teleport @s

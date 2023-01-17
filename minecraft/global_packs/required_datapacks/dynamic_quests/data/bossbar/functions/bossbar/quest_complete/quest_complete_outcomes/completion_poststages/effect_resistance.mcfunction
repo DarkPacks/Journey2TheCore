@@ -1,5 +1,5 @@
-title @a title ""
-title @a subtitle {"text":"You feel a bit weaker","color":"white"}
+title @s title ""
+title @s subtitle {"text":"You feel a bit weaker","color":"white"}
 
 scoreboard players set @s effect_resistance 0
 

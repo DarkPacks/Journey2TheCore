@@ -22,8 +22,8 @@ scoreboard players set @s stage 17
 function bossbar:bossbar/stage/upgrade
 
 #set timer min/max
-scoreboard players set @a min_time 4800
-scoreboard players set @a max_time 6000
+scoreboard players set @s min_time 6000
+scoreboard players set @s max_time 8400
 
 #Start Timer
 function sbt:test
@@ -40,5 +40,5 @@ execute as @s store result score @s dig_down run data get entity @s Pos[1] 1
 scoreboard players operation @s dig_down -= @s number
 
 
-title @a title ""
-title @a subtitle {"text":"Quest Start","color":"white"}
+title @s title ""
+title @s subtitle {"text":"Quest Start","color":"white"}

@@ -1,5 +1,5 @@
-title @a title ""
-title @a subtitle {"text":"Quest Completed","color":"white"}
+title @s title ""
+title @s subtitle {"text":"Quest Completed","color":"white"}
 
 #Remove tag and set stage to 0
 scoreboard players set @p stage 0

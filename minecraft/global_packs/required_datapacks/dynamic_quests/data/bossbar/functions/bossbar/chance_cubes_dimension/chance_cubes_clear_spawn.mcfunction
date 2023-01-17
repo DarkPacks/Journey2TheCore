@@ -1,0 +1,20 @@
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~-1 ~ minecraft:shroomlight replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~ ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~1 ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~1 ~ ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~1 ~ ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~1 ~1 ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~1 ~1 ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~ ~1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~ ~1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~1 ~1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~1 ~1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~-1 ~ ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~-1 ~ ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~-1 ~1 ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~-1 ~1 ~ minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~ ~-1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~ ~-1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~1 ~-1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run setblock ~ ~1 ~-1 minecraft:air replace
+execute as @s run execute in j2tc_tweaks:chance_cubes run fill ~-8 ~ ~-8 ~8 ~1 ~8 minecraft:air replace

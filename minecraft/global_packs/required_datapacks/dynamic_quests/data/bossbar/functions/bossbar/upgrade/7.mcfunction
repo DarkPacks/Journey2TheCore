@@ -1,5 +1,5 @@
 
 
-title @a title ""
-title @a subtitle {"text":"Completed","color":"yellow"}
+title @s title ""
+title @s subtitle {"text":"Completed","color":"yellow"}
 

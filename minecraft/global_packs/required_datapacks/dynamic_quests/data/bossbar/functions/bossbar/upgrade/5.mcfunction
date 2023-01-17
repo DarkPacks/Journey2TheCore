@@ -1,5 +1,5 @@
-title @a title ""
-title @a subtitle {"text":"Quest 5 Completed","color":"white"}
+title @s title ""
+title @s subtitle {"text":"Quest 5 Completed","color":"white"}
 
 #Remove tag and set stage to 0
 tag @s remove stage_5

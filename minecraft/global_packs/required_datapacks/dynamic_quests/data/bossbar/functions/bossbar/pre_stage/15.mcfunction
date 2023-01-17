@@ -20,8 +20,8 @@ scoreboard players set @s stage 15
 function bossbar:bossbar/stage/upgrade
 
 #set timer min/max
-scoreboard players set @a min_time 9600
-scoreboard players set @a max_time 14400
+scoreboard players set @s min_time 12000
+scoreboard players set @s max_time 21600
 
 #Start Timer
 function sbt:test
@@ -32,5 +32,5 @@ execute run bossbar set bar color blue
 function bossbar:bossbar/stage/15
 bossbar set bar visible true
 
-title @a title ""
-title @a subtitle {"text":"Quest Start","color":"white"}
+title @s title ""
+title @s subtitle {"text":"Quest Start","color":"white"}

@@ -3,8 +3,8 @@ execute at @s run playsound cyclic:explosm master @s ~ ~ ~ 1.0 1.3
 
 
 #On Screen Text telling you that you are a failure
-title @a title ""
-title @a subtitle {"text":"Quest Failed","color":"red"}
+title @s title ""
+title @s subtitle {"text":"Quest Failed","color":"red"}
 
 #Set stage to 0
 scoreboard players set @p stage 0

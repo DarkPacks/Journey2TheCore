@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "stepping_on": {
+      "dimension": "j2tc_tweaks:chance_cubes",
+      "block": {
+        "blocks": ["minecraft:shroomlight"]
+      }
+    }
+  }
+}

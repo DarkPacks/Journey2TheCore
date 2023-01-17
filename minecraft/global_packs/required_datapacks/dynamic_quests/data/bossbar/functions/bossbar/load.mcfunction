@@ -27,18 +27,28 @@ scoreboard objectives add completion_min_time dummy
 scoreboard objectives add completion_max_time dummy
 scoreboard objectives add completion_random_number dummy
 
+#loads quest completion timers
+scoreboard objectives add teleport_timer dummy
+scoreboard objectives add teleport_min_time dummy
+scoreboard objectives add teleport_max_time dummy
+scoreboard objectives add teleport_random_number dummy
+
+
 #Setup Boss Bars
-bossbar add minecraft:test2 "Time left"
-bossbar set bar color red
+bossbar add minecraft:test2 "Quest Timer"
+bossbar set minecraft:test2 color red
 
 bossbar add bar "bar"
 bossbar set bar color blue
 
 bossbar add minecraft:fail_timer "Timeout Corner"
-bossbar set bar color red
+bossbar set minecraft:fail_timer color red
 
-bossbar add minecraft:completion_timer "Time left"
-bossbar set bar color green
+bossbar add minecraft:completion_timer "Effects Duration"
+bossbar set minecraft:completion_timer color green
+
+bossbar add minecraft:teleport_timer "Return Timer"
+bossbar set minecraft:teleport_timer color purple
 
 #Setup Completion or Fail events needing to run every tick
 scoreboard objectives add inventory_randomize dummy
@@ -82,6 +92,43 @@ scoreboard objectives add punched_animal_25 minecraft.killed:minecraft.wandering
 scoreboard objectives add punched_animal_26 minecraft.killed:minecraft.wolf
 scoreboard objectives add punched_animal_27 minecraft.killed:minecraft.axolotl
 scoreboard objectives add punched_animal_28 minecraft.killed:minecraft.cat
+scoreboard objectives add punched_animal_29 minecraft.killed:minecraft.cod
+scoreboard objectives add punched_animal_30 minecraft.killed:minecraft.dolphin
+scoreboard objectives add punched_animal_31 minecraft.killed:minecraft.glow_squid
+scoreboard objectives add punched_animal_32 minecraft.killed:minecraft.iron_golem
+scoreboard objectives add punched_animal_33 minecraft.killed:minecraft.snow_golem
+scoreboard objectives add punched_animal_34 minecraft.killed:minecraft.strider
+scoreboard objectives add punched_animal_35 minecraft.killed:minecraft.zombie_horse
+scoreboard objectives add punched_animal_36 minecraft.killed:candyworld.cotton_candy_sheep
+scoreboard objectives add punched_animal_37 minecraft.killed:candyworld.easter_chicken
+scoreboard objectives add punched_animal_38 minecraft.killed:candyworld.gummy_mouse
+scoreboard objectives add punched_animal_39 minecraft.killed:candyworld.gummy_bear
+scoreboard objectives add punched_animal_40 minecraft.killed:strawgolem.strawgolem
+scoreboard objectives add punched_animal_41 minecraft.killed:strawgolem.strawnggolem
+scoreboard objectives add punched_animal_42 minecraft.killed:alexsmobs.roadrunner
+scoreboard objectives add punched_animal_43 minecraft.killed:alexsmobs.gazelle
+scoreboard objectives add punched_animal_44 minecraft.killed:alexsmobs.fly
+scoreboard objectives add punched_animal_45 minecraft.killed:alexsmobs.hummingbird
+scoreboard objectives add punched_animal_46 minecraft.killed:alexsmobs.sunbird
+scoreboard objectives add punched_animal_47 minecraft.killed:alexsmobs.warped_toad
+scoreboard objectives add punched_animal_48 minecraft.killed:alexsmobs.raccoon
+scoreboard objectives add punched_animal_49 minecraft.killed:alexsmobs.blobfish
+scoreboard objectives add punched_animal_50 minecraft.killed:alexsmobs.elephant
+scoreboard objectives add punched_animal_51 minecraft.killed:alexsmobs.mungus
+scoreboard objectives add punched_animal_52 minecraft.killed:alexsmobs.platypus
+scoreboard objectives add punched_animal_53 minecraft.killed:alexsmobs.tasmanian_devil
+scoreboard objectives add punched_animal_54 minecraft.killed:alexsmobs.kangaroo
+scoreboard objectives add punched_animal_55 minecraft.killed:alexsmobs.bald_eagle
+scoreboard objectives add punched_animal_56 minecraft.killed:alexsmobs.mimic_octopus
+scoreboard objectives add punched_animal_57 minecraft.killed:alexsmobs.seagull
+scoreboard objectives add punched_animal_58 minecraft.killed:alexsmobs.toucan
+scoreboard objectives add punched_animal_59 minecraft.killed:alexsmobs.anteater
+scoreboard objectives add punched_animal_60 minecraft.killed:alexsmobs.terrapin
+scoreboard objectives add punched_animal_61 minecraft.killed:alexsmobs.comb_jelly
+scoreboard objectives add punched_animal_62 minecraft.killed:alexsmobs.cosmic_cod
+scoreboard objectives add punched_animal_63 minecraft.killed:alexsmobs.bunfungus
+scoreboard objectives add punched_animal_64 minecraft.killed:alexsmobs.catfish
+scoreboard objectives add punched_animal_65 minecraft.killed:minecraft.bat
 #stage 4
 scoreboard objectives add block_with_shield minecraft.custom:minecraft.damage_blocked_by_shield
 
@@ -194,12 +241,34 @@ scoreboard objectives add return_to_overworld_from_potato_dimension dummy
 scoreboard objectives add potato_dimension_cleared dummy
 
 
+#Chance Cube Dimension Scores
+#scoreboard objectives add eat_poisonous_potato scoreext.food_eaten:minecraft_poisonous_potato
+#scoreboard objectives add eat_potato scoreext.food_eaten:minecraft_potato
+
+
+#scoreboard objectives add eat_baked_potato scoreext.food_eaten:minecraft_baked_potato
+#scoreboard objectives add eat_stuffed_potato scoreext.food_eaten:farmersdelight_stuffed_potato
+#scoreboard objectives add eat_steak_and_potato scoreext.food_eaten:farmersdelight_steak_and_potatoes
+
+
+scoreboard objectives add chance_cubes_dimension dummy
+scoreboard objectives add chance_cubes_dimension_fill dummy
+scoreboard objectives add chance_cubes_dimension_teleport_chance dummy
+scoreboard objectives add return_to_overworld_from_chance_cubes_dimension dummy
+scoreboard objectives add chance_cubes_dimension_cleared dummy
+
 
 #Game stage objectives
 scoreboard objectives add quest_0 dummy
 scoreboard objectives add quest_1 dummy
 scoreboard objectives add quest_2 dummy
 scoreboard objectives add quest_3 dummy
+scoreboard objectives add quest_4 dummy
+scoreboard objectives add quest_5 dummy
+scoreboard objectives add quest_6 dummy
+scoreboard objectives add quest_7 dummy
+scoreboard objectives add quest_8 dummy
+scoreboard objectives add quest_9 dummy
 scoreboard objectives add esm_1 dummy
 scoreboard objectives add esm_2 dummy
 
