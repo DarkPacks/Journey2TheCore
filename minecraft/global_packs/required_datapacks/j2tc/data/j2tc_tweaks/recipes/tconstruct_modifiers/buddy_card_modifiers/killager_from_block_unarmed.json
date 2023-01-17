@@ -18,6 +18,7 @@
     "level": 1,
     "error": "recipe.tconstruct.modifier.unarmed"
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:killager",
     "level": 1

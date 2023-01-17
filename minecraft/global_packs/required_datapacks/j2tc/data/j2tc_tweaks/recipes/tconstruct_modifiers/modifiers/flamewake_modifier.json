@@ -21,6 +21,7 @@
   "slots": {
     "abilities": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:flamewake",
     "level": 1

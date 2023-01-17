@@ -55,6 +55,7 @@
     "turkeydevutil:sugar_iron_ore",
     "minecraft:anvil",
     "minecraft:chipped_anvil",
-    "minecraft:damaged_anvil"
+    "minecraft:damaged_anvil",
+    "candyworld:cookie_ore"
   ]
 }

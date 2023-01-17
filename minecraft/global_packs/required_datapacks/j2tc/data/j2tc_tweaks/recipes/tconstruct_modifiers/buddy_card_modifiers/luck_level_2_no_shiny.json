@@ -14,6 +14,7 @@
   "tools": {
     "tag": "tconstruct:modifiable/melee_or_harvest"
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:luck",
     "level": 1

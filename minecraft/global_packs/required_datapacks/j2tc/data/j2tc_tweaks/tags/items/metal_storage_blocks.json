@@ -1,0 +1,33 @@
+{
+  "values": [
+    "buddycards:buddysteel_block",
+    "buddycards:luminis_block",
+    "create:brass_block",
+    "create:zinc_block",
+    "graveyard:dark_iron_block",
+    "minecraft:copper_block",
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "minecraft:netherite_block",
+    "minecraft:copper_block",
+    "tconstruct:amethyst_bronze_block",
+    "tconstruct:cobalt_block",
+    "tconstruct:hepatizon_block",
+    "tconstruct:manyullyn_block",
+    "tconstruct:pig_iron_block",
+    "tconstruct:queens_slime_block",
+    "tconstruct:rose_gold_block",
+    "tconstruct:slimesteel_block",
+    "thermal:bronze_block",
+    "thermal:constantan_block",
+    "thermal:electrum_block",
+    "thermal:enderium_block",
+    "thermal:invar_block",
+    "thermal:lead_block",
+    "thermal:lumium_block",
+    "thermal:nickel_block",
+    "thermal:signalum_block",
+    "thermal:silver_block",
+    "thermal:tin_block"
+  ]
+}

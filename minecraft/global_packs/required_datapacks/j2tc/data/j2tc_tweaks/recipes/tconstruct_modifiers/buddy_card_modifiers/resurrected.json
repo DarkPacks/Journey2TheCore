@@ -25,6 +25,7 @@
   "tools": {
     "tag": "tconstruct:modifiable"
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:resurrected",
     "level": 1

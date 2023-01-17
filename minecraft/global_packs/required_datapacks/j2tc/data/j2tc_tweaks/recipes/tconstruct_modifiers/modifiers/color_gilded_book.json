@@ -10,6 +10,7 @@
   "tools": {
     "tag": "tconstruct:modifiable/armor/helmets"
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:color_gilded",
     "level": 1

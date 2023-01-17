@@ -20,6 +20,7 @@
   "tools": {
     "tag": "tconstruct:modifiable/armor/chestplate"
   },
+  "allow_crystal": true,
   "result": {
     "name": "tconstruct:well_fed",
     "level": 1

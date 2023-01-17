@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:chain",
+    "cyclic:copper_chain",
+    "cyclic:gold_chain",
+    "cyclic:netherite_chain"
+  ]
+}

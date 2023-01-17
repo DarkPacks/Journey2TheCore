@@ -86,6 +86,7 @@
   "tools": {
     "tag": "tconstruct:modifiable"
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:ability_slot",
     "level": 1

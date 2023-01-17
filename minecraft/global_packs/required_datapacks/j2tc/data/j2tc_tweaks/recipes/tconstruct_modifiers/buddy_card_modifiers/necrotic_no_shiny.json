@@ -20,6 +20,7 @@
   "slots": {
     "upgrades": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:necrotic",
     "level": 1

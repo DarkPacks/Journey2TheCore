@@ -13,6 +13,7 @@
   "slots": {
     "abilities": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:shield_strap",
     "level": 1

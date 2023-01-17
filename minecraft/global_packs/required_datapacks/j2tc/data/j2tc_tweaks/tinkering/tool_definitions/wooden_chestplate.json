@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "base": {
+      "tconstruct:durability": 72,
+      "tconstruct:armor": 2,
+      "tconstruct:knockback_resistance": 0.09
+    }
+  },
+  "traits": [
+    { "name": "tconstruct:cultivated", "level": 1 },
+    { "name": "tconstruct:thorns", "level": 1 }
+  ],
+  "slots": {
+    "upgrades": 1,
+    "defense": 2,
+    "abilities": 1
+  }
+}

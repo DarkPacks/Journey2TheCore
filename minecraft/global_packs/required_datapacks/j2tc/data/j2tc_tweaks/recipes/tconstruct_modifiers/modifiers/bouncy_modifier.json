@@ -19,6 +19,7 @@
   "slots": {
     "abilities": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:bouncy",
     "level": 1

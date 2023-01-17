@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "base": {
+      "tconstruct:durability": 120,
+      "tconstruct:armor": 3,
+      "tconstruct:knockback_resistance": 0.3
+    }
+  },
+  "traits": [
+    { "name": "tconstruct:slowdown", "level": 1 },
+    { "name": "tconstruct:melee_protection", "level": 1 }
+  ],
+  "slots": {
+    "upgrades": 1,
+    "defense": 3,
+    "abilities": 1
+  }
+}

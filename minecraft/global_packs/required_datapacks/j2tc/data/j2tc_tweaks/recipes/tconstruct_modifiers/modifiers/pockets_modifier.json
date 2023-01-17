@@ -13,6 +13,7 @@
   "slots": {
     "abilities": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:pockets",
     "level": 1

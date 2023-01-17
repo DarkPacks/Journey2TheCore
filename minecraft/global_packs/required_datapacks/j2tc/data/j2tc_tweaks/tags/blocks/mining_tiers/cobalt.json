@@ -2,6 +2,8 @@
   "replace": true,
   "values": [
     "minecraft:netherrack",
+    "minecraft:nether_gold_ore",
+    "minecraft:magma_block",
     "minecraft:basalt",
     "minecraft:nether_quartz_ore",
     "geore:quartz_cluster",

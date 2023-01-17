@@ -23,6 +23,7 @@
   "slots": {
     "upgrades": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:the_one_probe",
     "level": 1

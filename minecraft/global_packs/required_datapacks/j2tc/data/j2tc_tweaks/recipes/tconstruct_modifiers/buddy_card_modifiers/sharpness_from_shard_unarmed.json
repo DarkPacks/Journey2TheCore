@@ -23,6 +23,7 @@
     "level": 1,
     "error": "recipe.tconstruct.modifier.unarmed"
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:sharpness",
     "level": 1

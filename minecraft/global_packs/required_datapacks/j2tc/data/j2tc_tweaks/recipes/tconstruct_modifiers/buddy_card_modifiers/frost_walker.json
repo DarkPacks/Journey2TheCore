@@ -18,6 +18,7 @@
   "slots": {
     "abilities": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:frost_walker",
     "level": 1
