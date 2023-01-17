@@ -5,6 +5,28 @@
     }
   },
   "outcomes": {
+    "Ferrous Wroughtnaut Event": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Space Check - 2x2x4 SolidBlock Underneath",
+              "type": "constant",
+              "displayName": "Space Check"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$display_name\",\"color\":\"$color\"}'}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
     "Zombie Spawning Event": {
       "events": [
         {

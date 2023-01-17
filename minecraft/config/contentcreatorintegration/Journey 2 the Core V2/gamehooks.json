@@ -20,10 +20,6 @@
         "conditions": [],
         "outcomes": [
           {
-            "message": "RaidMeter ID: $raidmeter_id",
-            "type": "chat"
-          },
-          {
             "events": [
               {
                 "conditions": [

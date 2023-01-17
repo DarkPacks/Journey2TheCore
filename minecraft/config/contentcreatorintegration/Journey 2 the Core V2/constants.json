@@ -92,7 +92,15 @@
       "displayName": "New Adult Spawn Check"
     },
     "Random Language Selector": {
-      "values": ["en_au", "en_ca", "en_gb", "en_nz", "en_pt", "en_ud", "en_us"],
+      "values": [
+        "en_au",
+        "en_ca",
+        "en_gb",
+        "en_nz",
+        "en_pt",
+        "en_ud",
+        "en_us"
+      ],
       "variableName": "randomLanguage",
       "type": "randomString"
     },
@@ -396,13 +404,13 @@
     "1812 Full Array": {
       "condition": {
         "target": "$playerName",
-        "horiRadius": "8",
+        "horiRadius": "16",
         "vertRadius": "3",
         "tries": "15",
         "variableName": "slimeSpawnCondition",
         "customHeight": "2",
         "customWidth": "2",
-        "minHoriDistance": "3",
+        "minHoriDistance": "8",
         "type": "freeSpace",
         "displayName": "Large Slime Check"
       },
@@ -1134,7 +1142,7 @@
                   "conditions": [],
                   "outcomes": [
                     {
-                      "command": "/chancecubes spawnReward chancecubes:random_teleport $playerName",
+                      "command": "/function bossbar:bossbar/random_teleport/downward_teleport",
                       "executeAsSelf": true,
                       "type": "command"
                     }

@@ -28,7 +28,7 @@
 		#Range: 2 ~ 128
 		search_range = 8
 
-		#####################################################################################
+	#####################################################################################
 	[simpletomb.key]
 		#
 		#Whether to give a Grave Key item to the player on death.  Tomb can be opened without they key, but the key will help the player locate the grave
@@ -40,7 +40,7 @@
 		#True means the key will open the grave on use, even if the player is not standing on top
 		openOnUse = true
 
-		#####################################################################################
+	#####################################################################################
 	[simpletomb.teleport]
 		#
 		#When survival player is within this (straight line calculated) distance from the tomb, they can teleport to the tomb.  Set as zero (0) to disable survival TP feature.   Set as negative one (-1) to allow survival teleportation always and ignore the distance (within dimension)

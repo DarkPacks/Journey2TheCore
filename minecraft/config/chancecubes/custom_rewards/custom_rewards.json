@@ -1,5 +1,29 @@
 {
-  "start_quest": {
+  "start_quest_0": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/function bossbar:bossbar/random_quest_selector"
+      }
+    ]
+  },
+  "start_quest_1": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/function bossbar:bossbar/random_quest_selector"
+      }
+    ]
+  },
+  "start_quest_2": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/function bossbar:bossbar/random_quest_selector"
+      }
+    ]
+  },
+  "start_quest_3": {
     "chance": 0,
     "Command": [
       {
@@ -224,6 +248,22 @@
           "id": "minecraft:enderman"
         },
         "copies": 10
+      }
+    ]
+  },
+  "Chance Cubes Horde": {
+    "chance": 0,
+    "Message": [
+      {
+        "message": "Release the horde!",
+        "range": 25
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon impostore:impost_ore ~ ~ ~ {BlockState: {Properties: {texture: \"default\"}, Name: \"chancecubes:chance_cube\"}}",
+        "copies": 10,
+        "delay": 80
       }
     ]
   },

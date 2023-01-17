@@ -11,7 +11,7 @@
 		coalGeoreMinY = 5
 		#The max Y level that Coal GeOre will generate at [Default: 30]
 		#Range: > 0
-		coalGeoreMaxY = 688
+		coalGeoreMaxY = 680
 		#Coal GeOre Rarity [Default: 60] (The higher the value the rarer)
 		#Range: > 0
 		coalGeoreRarity = 2
@@ -69,7 +69,7 @@
 	#Gold settings
 	[Generation.Gold]
 		#Generate Gold GeOre [Default: true]
-		generateGoldGeore = true
+		generateGoldGeore = false
 		#The Min Y level that Gold GeOre will generate at (above minimum world height) [Default: 6]
 		#Range: > 0
 		goldGeoreMinY = 5

@@ -30,7 +30,7 @@
 			per_level = 25
 
 		[cyclic.enchantment.curse]
-			#Set false to disable enchantment
+			#(Gloom) Set false to disable enchantment
 			enabled = true
 
 		[cyclic.enchantment.disarm]
@@ -49,7 +49,7 @@
 			radius = 2
 
 		[cyclic.enchantment.launch]
-			#Set false to disable Multi Jump enchantment
+			#(Multi-Jump) Set false to disable Multi Jump enchantment
 			enabled = true
 
 		[cyclic.enchantment.life_leech]
@@ -61,7 +61,7 @@
 			enabled = true
 
 		[cyclic.enchantment.multishot]
-			#Set false to disable enchantment
+			#(Multi-bow) Set false to disable enchantment
 			enabled = true
 
 		[cyclic.enchantment.ender]
@@ -502,7 +502,7 @@
 
 		[cyclic.blocks.ender_shelf]
 			#Each shelf has five rows.  Set the number of books stored per row here
-			#Range: 1 ~ 64
+			#Range: 1 ~ 1024
 			books_per_row = 64
 			#Controller Max distance to search (using manhattan distance)
 			#Range: 1 ~ 256
@@ -644,4 +644,81 @@
 			#Chance to Fish from nearby water.  Smaller values is slower fish
 			#Range: 1.0E-6 ~ 0.999
 			chance = 0.06
+
+	#####################################################################################
+	#Configs make sure players will not be able to craft any in survival  (api only allows me to disable original base level potion, stuff like splash/tipped arrows are out of my control, for futher steps i suggest modpacks hide them from JEI as well if desired, or bug Mojang to implement JSON brewing stand recipes)
+	#####################################################################################
+	[cyclic.potion]
+
+		[cyclic.potion.antigravity]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.attack_range]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.blind]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.butterfingers]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.flight]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.frost_walker]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.gravity]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.haste]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.hunger]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.levitation]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.magnetic]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.reach_distance]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.resistance]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.stun]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.swimspeed]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.snowwalk]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.waterwalk]
+			#Set false to disable the base recipe
+			enabled = true
+
+		[cyclic.potion.wither]
+			#Set false to disable the base recipe
+			enabled = true
 

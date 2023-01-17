@@ -121,7 +121,19 @@
     "net.act.naturesaid.client.gui.RecycleTableUIScreen": true,
     "com.mrbysco.junkdrawers.client.screen.DrawerScreen": true,
     "slimeknights.tconstruct.tables.client.inventory.ModifierWorktableScreen": true,
-    "com.leobeliik.extremesoundmuffler.gui.MufflerScreen": true
+    "com.leobeliik.extremesoundmuffler.gui.MufflerScreen": true,
+    "com.lothrazar.cyclic.block.cratemini.ScreenCrateMini": true,
+    "com.lothrazar.cyclic.block.crate.ScreenCrate": true,
+    "com.nyfaria.nyfsquiver.core.interfaces.QuiverRenameScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.SharestoneSelectionScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WarpPlateScreen": true,
+    "hunternif.mc.impl.atlas.client.gui.GuiAtlas": true,
+    "com.supermartijn642.core.gui.WidgetScreen": true,
+    "com.supermartijn642.rechiseled.RechiseledClient$1": true,
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
+    "me.ichun.mods.cci.common.config.outcome.FakeCrashOutcome$MemoryErrorScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

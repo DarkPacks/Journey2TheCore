@@ -43,17 +43,31 @@
 	#Example id: "minecraft:overworld"
 	"Dimension Blocklist" = ["minecraft:overworld"]
 	#A list of items that the player mobs can spawn with.
-	#Default is 50% of getting a bow or a sword, then the swords are distributed after that.
-	#There is a separated chance to spawn with an item at all, this is to pick what it to spawn when it does
-	#Syntax is 'namespace:id-weight'
+	#Default is 40% for a bow, 10% for a crossbow and 50% for a sword, then the swords are distributed after that.
+	#There is a separated chance to spawn with an item at all, this is to pick what to spawn when it does
+	#Syntax is "namespace:id-weight"
 	"Spawn Items" = []
 	#What item to be able to spawn in the offhand
+	#Offhand items can only spawn when on hard difficulty
 	#It won't spawn an item in the offhand if it spawns with a bow like item.
 	#There is a separated chance to spawn with an item at all, this is to pick what it to spawn when it does
-	#Syntax is 'namespace:id-weight'
+	#Syntax is "namespace:id-weight"
 	"Spawn Items Offhand" = []
 	#Force the mobs to spawn holding items.
 	"Force Items Spawn" = false
+	#The difficulty and above that player mobs can spawn with items in their offhand.
+	#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
+	"Offhand Spawn Difficulty" = "HARD"
+	#The chance of items spawning in the offhand
+	#If holding a projectile weapon this can spawn a tipped arrow if allowed
+	#Else it will spawn from the offhand item list
+	#Set to -1 to disable.
+	#Range: -1.0 ~ 1.0
+	"Offhand Spawn Chance" = 0.5
+	#Allow for a change to spawn a random tipped arrow when the mob is holding a projectile weapon
+	"Spawn Tipped Arrows" = true
+	#A list of potion "namespace:id" to block from getting applied to tipped arrows
+	"Tipped Arrow Blocklist" = ["minecraft:awkward", "minecraft:empty", "minecraft:fire_resistance", "minecraft:healing", "minecraft:invisibility", "minecraft:leaping", "minecraft:long_fire_resistance", "minecraft:long_invisibility", "minecraft:long_leaping", "minecraft:long_night_vision", "minecraft:long_regeneration", "minecraft:long_strength", "minecraft:long_swiftness", "minecraft:long_turtle_master", "minecraft:long_water_breathing", "minecraft:luck", "minecraft:mundane", "minecraft:night_vision", "minecraft:regeneration", "minecraft:strength", "minecraft:strong_healing", "minecraft:strong_leaping", "minecraft:strong_regeneration", "minecraft:strong_strength", "minecraft:strong_swiftness", "minecraft:strong_turtle_master", "minecraft:swiftness", "minecraft:thick", "minecraft:turtle_master", "minecraft:water"]
 
 #Configs related to the names of the mobs.
 [names]

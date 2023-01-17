@@ -24,6 +24,9 @@
 		falling_block = false
 		#Makes lightning count as fire damage
 		lightning = true
+		#Amount of durability restored by a repair kit in terms of ingots. Does not affect the cost to create the kit, that is controlled by JSON.
+		#Range: 0.0 ~ 32767.0
+		repairKitAmount = 2.0
 
 #Options related to recipes, limited options as a datapack allows most recipes to be modified
 [recipes]

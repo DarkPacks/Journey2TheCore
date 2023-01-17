@@ -434,8 +434,20 @@
             ],
             "outcomes": [
               {
-                "name": "Spawn Bone Serpent",
-                "type": "constant"
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "Ferrous Wroughtnaut Event",
+                        "type": "constant"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true,
+                    "singleOutcomeOnly": true
+                  }
+                ],
+                "type": "event"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -721,7 +733,10 @@
           }
         ]
       },
-      "queue": ["host+subscription+bits", "follow"],
+      "queue": [
+        "host+subscription+bits",
+        "follow"
+      ],
       "for": "twitch_account"
     },
     {
@@ -1002,12 +1017,27 @@
               {
                 "amount": 6.67,
                 "type": "amount"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
-                "name": "Spawn Bone Serpent",
-                "type": "constant"
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "Ferrous Wroughtnaut Event",
+                        "type": "constant"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -1083,7 +1113,10 @@
           }
         ]
       },
-      "ignoredTypes": ["streamlabels", "streamlabels.underlying"]
+      "ignoredTypes": [
+        "streamlabels",
+        "streamlabels.underlying"
+      ]
     }
   ],
   "init": [],

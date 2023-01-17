@@ -2,6 +2,111 @@
   "name": "Getting Started",
   "quests": [
     {
+      "uuid": "0e800749-6a52-44c4-89e3-b53fe9bbeb38",
+      "name": {
+        "text": "Wither or Not",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 152,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Wither Skeleton",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:necrotic_bone",
+          "Count": 8
+        },
+        {
+          "id": "cyclic:milk_bottle",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 3
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5af16a2a-d4c0-455d-a18c-c133e26de296",
+      "name": {
+        "text": "Shurikens",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 246,
+      "y": 156,
+      "icon": {
+        "id": "tconstruct:flint_shuriken",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:flint",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:flint_shuriken",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "b77048ee-afe9-40d8-b885-3f7d9ea8de7c",
       "name": {
         "text": "Helmet",
@@ -32,7 +137,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -58,6 +165,50 @@
           "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:revitalizing\"}"
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
+      "name": {
+        "text": "Amethyst",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Y\u003d0 to Y\u003d132",
+        "isTranslationKey": false
+      },
+      "x": 263,
+      "y": 67,
+      "icon": {
+        "id": "minecraft:amethyst_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:amethyst_shard",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "99816012-74e9-4c81-bb97-17e3836f506c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -92,8 +243,12 @@
           ]
         }
       ],
-      "prerequisites": ["3949257e-5aa1-4ea3-a234-fc6fe770a6eb"],
-      "optionlinks": ["354eaca2-3412-4ea7-a81e-d24766bb17f5"],
+      "prerequisites": [
+        "3949257e-5aa1-4ea3-a234-fc6fe770a6eb"
+      ],
+      "optionlinks": [
+        "354eaca2-3412-4ea7-a81e-d24766bb17f5"
+      ],
       "reward": [
         {
           "id": "treasurebags:treasure_bag",
@@ -103,48 +258,6 @@
         {
           "id": "cyclic:soil",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
-      "name": {
-        "text": "Amethyst",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Y\u003d0 to Y\u003d132",
-        "isTranslationKey": false
-      },
-      "x": 263,
-      "y": 67,
-      "icon": {
-        "id": "minecraft:amethyst_shard",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:amethyst_shard",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": ["99816012-74e9-4c81-bb97-17e3836f506c"],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:pick_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
         }
       ],
       "rewardchoice": [],
@@ -240,7 +353,9 @@
           ]
         }
       ],
-      "prerequisites": ["866fc362-44e0-46c8-812e-ace95546a9c9"],
+      "prerequisites": [
+        "866fc362-44e0-46c8-812e-ace95546a9c9"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -291,7 +406,9 @@
           ]
         }
       ],
-      "prerequisites": ["813c7bde-eb89-45ec-971d-f35d8531be80"],
+      "prerequisites": [
+        "813c7bde-eb89-45ec-971d-f35d8531be80"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -333,7 +450,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -377,7 +496,9 @@
           ]
         }
       ],
-      "prerequisites": ["dc474a8f-ac11-4e03-b0df-afe1c2c91ae2"],
+      "prerequisites": [
+        "dc474a8f-ac11-4e03-b0df-afe1c2c91ae2"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -434,7 +555,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -474,7 +597,7 @@
       "icon": {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:axe_strip\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":95.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stripping\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":95.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
       },
       "tasks": [
         {
@@ -491,7 +614,9 @@
           ]
         }
       ],
-      "prerequisites": ["c2e78dce-4b29-4622-ba44-8784b4dc4a99"],
+      "prerequisites": [
+        "c2e78dce-4b29-4622-ba44-8784b4dc4a99"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -530,7 +655,7 @@
         "isTranslationKey": false
       },
       "x": 303,
-      "y": 38,
+      "y": 37,
       "icon": {
         "id": "sophisticatedbackpacks:netherite_backpack",
         "Count": 1,
@@ -551,7 +676,9 @@
           ]
         }
       ],
-      "prerequisites": ["9a7870b3-61e6-46ab-9c97-a553669ffa79"],
+      "prerequisites": [
+        "9a7870b3-61e6-46ab-9c97-a553669ffa79"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -592,7 +719,9 @@
           ]
         }
       ],
-      "prerequisites": ["ab162aff-a063-4527-b7ef-b87390c42509"],
+      "prerequisites": [
+        "ab162aff-a063-4527-b7ef-b87390c42509"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -633,7 +762,9 @@
           ]
         }
       ],
-      "prerequisites": ["9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"],
+      "prerequisites": [
+        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -662,8 +793,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 275,
-      "y": 38,
+      "x": 277,
+      "y": 37,
       "icon": {
         "id": "sophisticatedbackpacks:diamond_backpack",
         "Count": 1,
@@ -684,7 +815,9 @@
           ]
         }
       ],
-      "prerequisites": ["c170fa53-a589-44cd-ac20-f1f557897ed0"],
+      "prerequisites": [
+        "c170fa53-a589-44cd-ac20-f1f557897ed0"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -731,7 +864,7 @@
         {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         },
         {
           "id": "hardcorequesting:quarterheart",
@@ -771,7 +904,9 @@
           ]
         }
       ],
-      "prerequisites": ["a6bc09a4-ea29-4986-9dd8-421a963546b7"],
+      "prerequisites": [
+        "a6bc09a4-ea29-4986-9dd8-421a963546b7"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -816,7 +951,9 @@
           ]
         }
       ],
-      "prerequisites": ["3949257e-5aa1-4ea3-a234-fc6fe770a6eb"],
+      "prerequisites": [
+        "3949257e-5aa1-4ea3-a234-fc6fe770a6eb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -830,65 +967,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
-      "name": {
-        "text": "Leggings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
-        "isTranslationKey": false
-      },
-      "x": 198,
-      "y": 11,
-      "icon": {
-        "id": "tconstruct:travelers_leggings",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "monstereggs:skeleton_egg",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:travelers_leggings",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:book",
-          "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:shield_strap\"}"
-        },
-        {
-          "id": "turkeydevutil:book",
-          "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:pockets\"}"
-        },
-        {
-          "id": "turkeydevutil:book",
-          "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -954,6 +1032,67 @@
       "commandrewards": []
     },
     {
+      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
+      "name": {
+        "text": "Leggings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+        "isTranslationKey": false
+      },
+      "x": 198,
+      "y": 11,
+      "icon": {
+        "id": "tconstruct:travelers_leggings",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:skeleton_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_leggings",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:shield_strap\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:pockets\"}"
+        },
+        {
+          "id": "turkeydevutil:book",
+          "Count": 1,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "9cf2648d-71c5-4ac2-82eb-cc9cfd38ff9e",
       "name": {
         "text": "Kill Creepers",
@@ -994,7 +1133,7 @@
         {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:firestarter_hidden\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         }
       ],
       "rewardchoice": [
@@ -1043,7 +1182,9 @@
           ]
         }
       ],
-      "prerequisites": ["c2e78dce-4b29-4622-ba44-8784b4dc4a99"],
+      "prerequisites": [
+        "c2e78dce-4b29-4622-ba44-8784b4dc4a99"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1100,6 +1241,10 @@
           "id": "mob_grinding_utils:monocle",
           "Count": 1,
           "tag": "{Damage:0}"
+        },
+        {
+          "id": "cyclic:milk_bottle",
+          "Count": 4
         }
       ],
       "rewardchoice": [
@@ -1148,7 +1293,9 @@
           ]
         }
       ],
-      "prerequisites": ["1a793aac-0be4-4f4a-87c2-6725781939b1"],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1198,7 +1345,7 @@
                 "id": "glow_sticks:glow_stick_purple",
                 "Count": 1
               },
-              "required": 8,
+              "required": 16,
               "precision": "TAG_NBT_FUZZY"
             }
           ]
@@ -1245,7 +1392,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1365,7 +1514,9 @@
           ]
         }
       ],
-      "prerequisites": ["1a793aac-0be4-4f4a-87c2-6725781939b1"],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1422,7 +1573,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1433,19 +1586,24 @@
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Unarmed\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:unarmed\"}"
+          "tag": "{modifier:\"tconstruct:ambidextrous\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Strength\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:strength\"}"
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:glowing\"}"
+          "tag": "{modifier:\"tconstruct:strength\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:glowing\"}"
         }
       ],
       "commandrewards": []
@@ -1480,7 +1638,9 @@
           ]
         }
       ],
-      "prerequisites": ["520a68de-ccc3-4882-b041-5719ce564659"],
+      "prerequisites": [
+        "520a68de-ccc3-4882-b041-5719ce564659"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1543,7 +1703,9 @@
           ]
         }
       ],
-      "prerequisites": ["f714fdae-5d73-4e85-90b3-d7eeb25d35b6"],
+      "prerequisites": [
+        "f714fdae-5d73-4e85-90b3-d7eeb25d35b6"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1610,7 +1772,9 @@
           ]
         }
       ],
-      "prerequisites": ["1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"],
+      "prerequisites": [
+        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1656,12 +1820,15 @@
                 "id": "tconstruct:tool_handle",
                 "Count": 1,
                 "tag": "{Material:\"tconstruct:wood\"}"
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": ["6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1723,7 +1890,9 @@
           ]
         }
       ],
-      "prerequisites": ["99816012-74e9-4c81-bb97-17e3836f506c"],
+      "prerequisites": [
+        "99816012-74e9-4c81-bb97-17e3836f506c"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1771,7 +1940,9 @@
           ]
         }
       ],
-      "prerequisites": ["1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"],
+      "prerequisites": [
+        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1857,7 +2028,9 @@
           ]
         }
       ],
-      "prerequisites": ["3949257e-5aa1-4ea3-a234-fc6fe770a6eb"],
+      "prerequisites": [
+        "3949257e-5aa1-4ea3-a234-fc6fe770a6eb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1902,7 +2075,9 @@
           ]
         }
       ],
-      "prerequisites": ["1a793aac-0be4-4f4a-87c2-6725781939b1"],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1929,6 +2104,88 @@
         "/gamestage add @s quest_4",
         "/gamestage remove @s quest_3"
       ]
+    },
+    {
+      "uuid": "55b84590-447b-4c2e-9af7-5130afc3f2a9",
+      "name": {
+        "text": "Cobblestone Upgrade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Need slightly better armor? Cobblestone Armor is a smidgen above Wooden Armor and pretty heavy so it slows you down. But it rocks! ",
+        "isTranslationKey": false
+      },
+      "x": 12,
+      "y": 131,
+      "icon": {
+        "id": "j2tc_tweaks:cobblestone_chestplate",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "j2tc_tweaks:cobblestone_helmet",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+              }
+            },
+            {
+              "item": {
+                "id": "j2tc_tweaks:cobblestone_chestplate",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+              }
+            },
+            {
+              "item": {
+                "id": "j2tc_tweaks:cobblestone_leggings",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":104.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+              }
+            },
+            {
+              "item": {
+                "id": "j2tc_tweaks:cobblestone_boots",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tinkers_things:large_repair_kit",
+          "Count": 4,
+          "tag": "{Material:\"tconstruct:rock\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:blast_protection\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:melee_protection\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:speedy\"}"
+        }
+      ],
+      "commandrewards": []
     },
     {
       "uuid": "533ca0f2-2ef6-47d0-8ba3-48df6f9a535c",
@@ -2011,18 +2268,13 @@
                 "Count": 1
               },
               "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "farmersdelight:apple_pie",
-                "Count": 1
-              },
-              "precision": "NBT_FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": ["258827b4-456a-4284-af33-4885b5c21cd1"],
+      "prerequisites": [
+        "258827b4-456a-4284-af33-4885b5c21cd1"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2091,15 +2343,15 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Not wearing armor might be a bad idea! Cobblestone Armor might not be very protective and it slows you down a lot but hey! it\u0027s better than nothing, right?!",
+        "text": "Not wearing armor might be a bad idea! Wooden Armor might not be very protective but hey! it\u0027s better than nothing, right?!",
         "isTranslationKey": false
       },
       "x": 21,
       "y": 53,
       "icon": {
-        "id": "turkeydevutil:cobblestone_chestplate",
+        "id": "j2tc_tweaks:wooden_chestplate",
         "Count": 1,
-        "tag": "{Damage:0}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
       },
       "tasks": [
         {
@@ -2107,36 +2359,38 @@
           "items": [
             {
               "item": {
-                "id": "turkeydevutil:cobblestone_helmet",
+                "id": "j2tc_tweaks:wooden_helmet",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":56.0f,\"tconstruct:knockback_resistance\":0.075f}}"
               }
             },
             {
               "item": {
-                "id": "turkeydevutil:cobblestone_chestplate",
+                "id": "j2tc_tweaks:wooden_chestplate",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
               }
             },
             {
               "item": {
-                "id": "turkeydevutil:cobblestone_leggings",
+                "id": "j2tc_tweaks:wooden_leggings",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":92.0f,\"tconstruct:knockback_resistance\":0.075f}}"
               }
             },
             {
               "item": {
-                "id": "turkeydevutil:cobblestone_boots",
+                "id": "j2tc_tweaks:wooden_boots",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":48.0f,\"tconstruct:knockback_resistance\":0.075f}}"
               }
             }
           ]
         }
       ],
-      "prerequisites": ["48c3b4fb-79bd-49bc-a05c-67ff33834f3d"],
+      "prerequisites": [
+        "48c3b4fb-79bd-49bc-a05c-67ff33834f3d"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2163,7 +2417,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You\u0027ll need to unlock those inventory slots to gain more inventory splace. Use Experience Confection to unlock 1 slot. The cost increases for every slot you unlock.",
+        "text": "You\u0027ll need to unlock those inventory slots to gain more inventory space. Use Experience Confection to unlock 1 slot. The cost increases for every slot you unlock.",
         "isTranslationKey": false
       },
       "x": 44,
@@ -2191,10 +2445,6 @@
       "reward": [
         {
           "id": "turkeydevutil:lanyard",
-          "Count": 1
-        },
-        {
-          "id": "bhc:heart_amulet",
           "Count": 1
         }
       ],
@@ -2230,7 +2480,9 @@
           ]
         }
       ],
-      "prerequisites": ["a6bc09a4-ea29-4986-9dd8-421a963546b7"],
+      "prerequisites": [
+        "a6bc09a4-ea29-4986-9dd8-421a963546b7"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2285,7 +2537,9 @@
           ]
         }
       ],
-      "prerequisites": ["520a68de-ccc3-4882-b041-5719ce564659"],
+      "prerequisites": [
+        "520a68de-ccc3-4882-b041-5719ce564659"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2295,6 +2549,53 @@
         {
           "id": "turkeydevutil:lime_seeds",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc0831cd-141e-4c28-bb6c-dd5e8188b32e",
+      "name": {
+        "text": "Calcium Supplements",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You can use Bone Blocks to Reinforce your Tinkers\u0027 Construct Gear",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 106,
+      "icon": {
+        "id": "minecraft:bone_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bone_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bone_block",
+          "Count": 2
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
         }
       ],
       "rewardchoice": [],
@@ -2350,7 +2651,7 @@
     {
       "uuid": "e13a3c1b-980f-4e21-a7b1-49500798249c",
       "name": {
-        "text": "Ghoul",
+        "text": "Ghouls Just Wanna Have Fun",
         "isTranslationKey": false
       },
       "description": {
@@ -2414,11 +2715,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Ready to take your backpack game to the next level? Gather the materials and craft yourself a sturdy and stylish bronze backpack. With this upgraded pack on your back, you\u0027ll be able to carry all your gear and supplies with ease as you journey through the treacherous world!",
         "isTranslationKey": false
       },
       "x": 249,
-      "y": 38,
+      "y": 37,
       "icon": {
         "id": "sophisticatedbackpacks:gold_backpack",
         "Count": 1,
@@ -2439,7 +2740,9 @@
           ]
         }
       ],
-      "prerequisites": ["ee5a7cb5-497f-4187-a83d-cc9d853be572"],
+      "prerequisites": [
+        "ee5a7cb5-497f-4187-a83d-cc9d853be572"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2480,7 +2783,9 @@
           ]
         }
       ],
-      "prerequisites": ["6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2567,7 +2872,9 @@
           ]
         }
       ],
-      "prerequisites": ["6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2760,7 +3067,9 @@
           ]
         }
       ],
-      "prerequisites": ["3df20889-c86a-41d2-a2e1-0b1e21ce8521"],
+      "prerequisites": [
+        "3df20889-c86a-41d2-a2e1-0b1e21ce8521"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2814,9 +3123,22 @@
         {
           "id": "cyclic:copper_lantern",
           "Count": 1
+        },
+        {
+          "id": "hardcorequesting:heart",
+          "Count": 1
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:heart",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -2848,7 +3170,9 @@
           ]
         }
       ],
-      "prerequisites": ["10100082-484d-412a-979e-dddb55806b0a"],
+      "prerequisites": [
+        "10100082-484d-412a-979e-dddb55806b0a"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2911,7 +3235,9 @@
           ]
         }
       ],
-      "prerequisites": ["520a68de-ccc3-4882-b041-5719ce564659"],
+      "prerequisites": [
+        "520a68de-ccc3-4882-b041-5719ce564659"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2955,7 +3281,9 @@
           ]
         }
       ],
-      "prerequisites": ["f8a86133-e715-448c-87dc-4391fef2d72f"],
+      "prerequisites": [
+        "f8a86133-e715-448c-87dc-4391fef2d72f"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3001,7 +3329,9 @@
           ]
         }
       ],
-      "prerequisites": ["1517ec86-93c5-46fa-8942-ebc756b5e4bd"],
+      "prerequisites": [
+        "1517ec86-93c5-46fa-8942-ebc756b5e4bd"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3046,7 +3376,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3086,7 +3418,9 @@
           ]
         }
       ],
-      "prerequisites": ["813c7bde-eb89-45ec-971d-f35d8531be80"],
+      "prerequisites": [
+        "813c7bde-eb89-45ec-971d-f35d8531be80"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3146,7 +3480,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3241,6 +3577,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "09600ba3-4932-4f14-8049-09b7d50b0cea",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 237,
+      "y": 13,
+      "icon": {
+        "id": "bhc:heart_amulet",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "bhc:red_heart",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bhc:heart_amulet",
+          "Count": 1
+        },
+        {
+          "id": "bhc:red_heart_canister",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "ab162aff-a063-4527-b7ef-b87390c42509",
       "name": {
         "text": "Book 1",
@@ -3269,7 +3649,9 @@
           ]
         }
       ],
-      "prerequisites": ["258827b4-456a-4284-af33-4885b5c21cd1"],
+      "prerequisites": [
+        "258827b4-456a-4284-af33-4885b5c21cd1"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3307,7 +3689,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "text": "Pack It Up: Time to ditch that old, tattered satchel and upgrade to a real adventurer\u0027s backpack! Gather the materials and get crafting - your hoarding habit will thank you for the extra storage space!",
         "isTranslationKey": false
       },
       "x": 222,
@@ -3332,7 +3714,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -3347,7 +3731,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+    "text": "You\u0027ll learn the basics and how to survive in this treacherous world, but the challenges won\u0027t be easy. Are you ready to take on the first steps of your epic journey? Gather your gear and let\u0027s go!",
     "isTranslationKey": false
   }
 }

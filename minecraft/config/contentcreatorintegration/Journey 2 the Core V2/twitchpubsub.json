@@ -88,7 +88,7 @@
                 "type": "command"
               },
               {
-                "command": "/playsound youarehere:sound.2 ambient $playerName",
+                "command": "/playsound youarehere:sound.2 neutral $playerName ~ ~ ~ 0.65",
                 "executeAsSelf": true,
                 "type": "command",
                 "displayName": "Play Sound"
@@ -206,14 +206,42 @@
               {
                 "variableName": "redemption_reward_title",
                 "variableResult": "[Minecraft] Play Creeper Hiss Sound",
-                "type": "variableCheck"
+                "type": "variableCheck",
+                "displayName": "Grabs channel point "
+              },
+              {
+                "name": "Space Check - 1x2 SolidBlock Underneath",
+                "type": "constant",
+                "displayName": "Entity Space Check"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
                 "command": "/playsound minecraft:entity.creeper.primed player @s ~ ~ ~ 5.0",
                 "executeAsSelf": true,
-                "type": "command"
+                "type": "command",
+                "displayName": "Plays sound"
+              },
+              {
+                "outcomes": [
+                  {
+                    "command": "/summon core_creepers:dirt_water_creeper $entitySpaceCheck {CustomName:'{\"text\":\"$redemption_user_display_name\",\"color\":\"$uColor\",\"bold\":true,\"underlined\":true}'}",
+                    "executeAsSelf": true,
+                    "type": "command",
+                    "displayName": "Spawns Creeper",
+                    "weight": 1
+                  },
+                  {
+                    "type": "null",
+                    "weight": 99
+                  }
+                ],
+                "singleOutcomeOnly": true,
+                "type": "multiple"
               }
             ]
           },

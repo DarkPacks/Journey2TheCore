@@ -20,10 +20,6 @@
 
 	#Changes to the speed on how food is eaten or how items are consumed.
 	[Hunger."Food Consuming"]
-		#Makes potion faster to drink, 1 second instead of 1.6.
-		"Faster Potion Consuming" = true
-		#Makes milk faster to drink, 1 second instead of 1.6.
-		"Faster Milk Consuming" = true
 		#Multiplier for the time taken to eat. Only applied if 'Eating Speed Based Off Food Config' is active.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Eating Time Multiplier" = 0.08
@@ -34,6 +30,8 @@
 		#The minimum speed a food will take to eat. "Fast Food" items have this value halved. Vanilla time is 32/16
 		#Range: > 0
 		"Eating Time Minimum" = 24
+		#Makes potions, milk and honey faster to drink, 1 second instead of 1.6.
+		"Faster Drink Consuming" = true
 
 	#Makes Health regen work differently, like in Combat Test snapshots. Can be customized. Also adds Well Fed and Injured effects.
 	[Hunger."Health Regen"]
@@ -310,6 +308,8 @@
 		"Better Conduit Protection" = true
 		#If true, pets will also get the beacon effects
 		"Affect Pets" = true
+		#If true, with the regeneration effect, the Vigour effect is also applied (reduces hunger consumption).
+		"Vigour with Regeneration" = true
 
 [Mining]
 	#Change all the blocks hardness
@@ -370,7 +370,7 @@
 	[Combat.Stats]
 		#If true, Swords and Tridents get -1 damage and Axes get -1.5 damage.
 		"Reduce Weapon Damage" = false
-		#If true, Arrows from Bows will no longer randomly crit (basically disables the random bonus damage given when firing a fully charged arrow).
+		#If true, Arrows from Bows and Crossbows will no longer randomly crit (basically disables the random bonus damage given when firing a fully charged arrow).
 		"Disable Arrow Crits" = false
 		#If true, Arrows from Crossbows will no longer deal random damage, but a set amount of damage (about 9 at a medium distance).
 		"Adjust Crossbow Damage" = false

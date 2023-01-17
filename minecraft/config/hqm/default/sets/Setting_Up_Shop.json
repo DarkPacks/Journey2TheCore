@@ -37,7 +37,9 @@
           ]
         }
       ],
-      "prerequisites": ["9db7d4d5-ce87-43fa-8df2-861cd5280cb4"],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -82,7 +84,9 @@
           ]
         }
       ],
-      "prerequisites": ["115a79c7-f3fd-4f24-82d2-a168f12c0094"],
+      "prerequisites": [
+        "115a79c7-f3fd-4f24-82d2-a168f12c0094"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -109,7 +113,7 @@
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
       },
       "tasks": [
         {
@@ -119,7 +123,7 @@
               "item": {
                 "id": "tconstruct:dagger",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
               }
             }
           ]
@@ -129,7 +133,9 @@
         "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a",
         "2bb836c8-a4ba-4df7-b477-f0a4095e2fe8"
       ],
-      "optionlinks": ["b8be04dd-572f-4724-b330-41599ac4442b"],
+      "optionlinks": [
+        "b8be04dd-572f-4724-b330-41599ac4442b"
+      ],
       "reward": [
         {
           "id": "tconstruct:tool_handle",
@@ -195,7 +201,9 @@
           ]
         }
       ],
-      "prerequisites": ["c77e0ea6-c692-4e1b-a2d2-970d885cdfc0"],
+      "prerequisites": [
+        "c77e0ea6-c692-4e1b-a2d2-970d885cdfc0"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -251,7 +259,9 @@
           ]
         }
       ],
-      "prerequisites": ["bc95062d-134d-458e-a64b-ed1efd55b7fb"],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -295,7 +305,9 @@
           ]
         }
       ],
-      "prerequisites": ["bc95062d-134d-458e-a64b-ed1efd55b7fb"],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -355,7 +367,9 @@
           ]
         }
       ],
-      "prerequisites": ["3aa38fcb-eae5-421b-9470-c6008eb97919"],
+      "prerequisites": [
+        "3aa38fcb-eae5-421b-9470-c6008eb97919"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -396,7 +410,9 @@
           ]
         }
       ],
-      "prerequisites": ["e8cd132f-cdee-4f58-8af1-bc5f685eb55b"],
+      "prerequisites": [
+        "e8cd132f-cdee-4f58-8af1-bc5f685eb55b"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -512,7 +528,9 @@
           ]
         }
       ],
-      "prerequisites": ["bc95062d-134d-458e-a64b-ed1efd55b7fb"],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -538,7 +556,7 @@
       "icon": {
         "id": "tconstruct:excavator",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:lightweight\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.3439999f,\"tconstruct:durability\":3146.25f,\"tconstruct:harvest_tier\":\"cyclic:nether_bricks\",\"tconstruct:mining_speed\":3.024f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:lightweight\"},{level:1s,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.3439999f,\"tconstruct:durability\":3146.25f,\"tconstruct:harvest_tier\":\"cyclic:nether_bricks\",\"tconstruct:mining_speed\":3.024f}}"
       },
       "tasks": [
         {
@@ -548,14 +566,16 @@
               "item": {
                 "id": "tconstruct:excavator",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:4s,name:\"tconstruct:insatiable\"},{level:2s,name:\"tconstruct:knockback\"},{level:1s,name:\"tconstruct:shovel_flatten\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":5156.25f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:insatiable\"},{level:1s,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":5156.25f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
               },
               "precision": "NBT_FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": ["493f0705-0bee-45a0-a34c-d07408a35848"],
+      "prerequisites": [
+        "493f0705-0bee-45a0-a34c-d07408a35848"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -615,7 +635,9 @@
           ]
         }
       ],
-      "prerequisites": ["c0e80ad0-6ee8-44e8-b12e-648e5cd189b4"],
+      "prerequisites": [
+        "c0e80ad0-6ee8-44e8-b12e-648e5cd189b4"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -624,7 +646,28 @@
           "tag": "{Damage:0,affix_data:{affixes:{\"apotheosis:socket\":1.0f}},inventory:{currentslot:0,inventory:{columns:9,rows:1,stack0:{Count:1b,id:\"minecraft:air\"},stack1:{Count:1b,id:\"minecraft:air\"},stack2:{Count:1b,id:\"minecraft:air\"},stack3:{Count:1b,id:\"minecraft:air\"},stack4:{Count:1b,id:\"minecraft:air\"},stack5:{Count:1b,id:\"minecraft:air\"},stack6:{Count:1b,id:\"minecraft:air\"},stack7:{Count:1b,id:\"minecraft:air\"},stack8:{Count:1b,id:\"minecraft:air\"},stacks:9}}}"
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:bowstring",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:vine\"}"
+        },
+        {
+          "id": "tconstruct:bowstring",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:chain\"}"
+        },
+        {
+          "id": "tconstruct:bowstring",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:skyslime_vine\"}"
+        },
+        {
+          "id": "tconstruct:bowstring",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:darkthread\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -716,7 +759,9 @@
           ]
         }
       ],
-      "prerequisites": ["43711b2e-bbe7-40c6-b0f2-8a94ccd041ba"],
+      "prerequisites": [
+        "43711b2e-bbe7-40c6-b0f2-8a94ccd041ba"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -771,7 +816,9 @@
           ]
         }
       ],
-      "prerequisites": ["d4f99a03-afd8-4b88-a2fa-1c285765c501"],
+      "prerequisites": [
+        "d4f99a03-afd8-4b88-a2fa-1c285765c501"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -867,7 +914,9 @@
           ]
         }
       ],
-      "prerequisites": ["10100082-484d-412a-979e-dddb55806b0a"],
+      "prerequisites": [
+        "10100082-484d-412a-979e-dddb55806b0a"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -916,7 +965,9 @@
           ]
         }
       ],
-      "prerequisites": ["813c7bde-eb89-45ec-971d-f35d8531be80"],
+      "prerequisites": [
+        "813c7bde-eb89-45ec-971d-f35d8531be80"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -968,7 +1019,9 @@
           ]
         }
       ],
-      "prerequisites": ["42056b47-007d-43d1-b17f-7c8a0a8e9f85"],
+      "prerequisites": [
+        "42056b47-007d-43d1-b17f-7c8a0a8e9f85"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -996,9 +1049,9 @@
       "x": 301,
       "y": 55,
       "icon": {
-        "id": "minecraft:crossbow",
+        "id": "tconstruct:crossbow",
         "Count": 1,
-        "tag": "{Damage:0}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.75f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":120.0f,\"tconstruct:velocity\":1.0f}}"
       },
       "tasks": [
         {
@@ -1006,24 +1059,52 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:crossbow",
+                "id": "tconstruct:crossbow",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.75f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":120.0f,\"tconstruct:velocity\":1.0f}}"
               },
               "precision": "NBT_FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": ["1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"],
+      "prerequisites": [
+        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
+      ],
       "optionlinks": [],
       "reward": [
         {
           "id": "minecraft:arrow",
           "Count": 32
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\"}}"
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:bow_limb",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bamboo\"}"
+        },
+        {
+          "id": "tconstruct:bow_limb",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:slimewood\"}"
+        },
+        {
+          "id": "tconstruct:bow_grip",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bamboo\"}"
+        },
+        {
+          "id": "tconstruct:bow_grip",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:slimewood\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1055,7 +1136,9 @@
           ]
         }
       ],
-      "prerequisites": ["e8cd132f-cdee-4f58-8af1-bc5f685eb55b"],
+      "prerequisites": [
+        "e8cd132f-cdee-4f58-8af1-bc5f685eb55b"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1092,14 +1175,16 @@
               "item": {
                 "id": "tconstruct:sledge_hammer",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:4s,name:\"tconstruct:necrotic\"},{level:2s,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:necrotic\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
               },
               "precision": "NBT_FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": ["2bb836c8-a4ba-4df7-b477-f0a4095e2fe8"],
+      "prerequisites": [
+        "2bb836c8-a4ba-4df7-b477-f0a4095e2fe8"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1195,7 +1280,9 @@
           ]
         }
       ],
-      "prerequisites": ["43711b2e-bbe7-40c6-b0f2-8a94ccd041ba"],
+      "prerequisites": [
+        "43711b2e-bbe7-40c6-b0f2-8a94ccd041ba"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1222,8 +1309,8 @@
         "text": "Plant the Bee Seed on Grass or Dirt. Water. Magic!",
         "isTranslationKey": false
       },
-      "x": 81,
-      "y": 61,
+      "x": 76,
+      "y": 66,
       "icon": {
         "id": "minecraft:beehive",
         "Count": 1
@@ -1393,8 +1480,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 159,
-      "y": 59,
+      "x": 143,
+      "y": 51,
       "icon": {
         "id": "convenientcurioscontainer:curios_container",
         "Count": 1,
@@ -1419,7 +1506,9 @@
           ]
         }
       ],
-      "prerequisites": ["bc95062d-134d-458e-a64b-ed1efd55b7fb"],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1515,7 +1604,9 @@
           ]
         }
       ],
-      "prerequisites": ["bc95062d-134d-458e-a64b-ed1efd55b7fb"],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1605,8 +1696,8 @@
         "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
-      "x": 119,
-      "y": 81,
+      "x": 103,
+      "y": 67,
       "icon": {
         "id": "bhc:yellow_heart_canister",
         "Count": 1
@@ -1636,7 +1727,9 @@
           ]
         }
       ],
-      "prerequisites": ["0a39766f-6045-4398-a16f-827ac1ef0dcf"],
+      "prerequisites": [
+        "0a39766f-6045-4398-a16f-827ac1ef0dcf"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1671,8 +1764,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 133,
-      "y": 59,
+      "x": 130,
+      "y": 32,
       "icon": {
         "id": "thermal:bronze_ingot",
         "Count": 1
@@ -1691,7 +1784,9 @@
           ]
         }
       ],
-      "prerequisites": ["bc95062d-134d-458e-a64b-ed1efd55b7fb"],
+      "prerequisites": [
+        "bc95062d-134d-458e-a64b-ed1efd55b7fb"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1832,9 +1927,16 @@
           ]
         }
       ],
-      "prerequisites": ["e56945ce-6a1d-449a-933a-ed8c1479bdca"],
+      "prerequisites": [
+        "e56945ce-6a1d-449a-933a-ed8c1479bdca"
+      ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:feather",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1848,8 +1950,8 @@
         "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
-      "x": 105,
-      "y": 61,
+      "x": 90,
+      "y": 47,
       "icon": {
         "id": "functionalstorage:oak_1",
         "Count": 1
@@ -1868,7 +1970,9 @@
           ]
         }
       ],
-      "prerequisites": ["115a79c7-f3fd-4f24-82d2-a168f12c0094"],
+      "prerequisites": [
+        "115a79c7-f3fd-4f24-82d2-a168f12c0094"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2017,7 +2121,9 @@
           ]
         }
       ],
-      "prerequisites": ["8af66fd1-6e79-47b3-8092-6dd4a3f5761c"],
+      "prerequisites": [
+        "8af66fd1-6e79-47b3-8092-6dd4a3f5761c"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2070,7 +2176,9 @@
           ]
         }
       ],
-      "prerequisites": ["258827b4-456a-4284-af33-4885b5c21cd1"],
+      "prerequisites": [
+        "258827b4-456a-4284-af33-4885b5c21cd1"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -2082,5 +2190,9 @@
       "commandrewards": []
     }
   ],
-  "reputationBar": []
+  "reputationBar": [],
+  "description": {
+    "text": "In these quests, you\u0027ll learn how to get your base running like a well-oiled machine. From gathering resources to crafting essential items, you\u0027ll be well on your way to dominating the world and surviving the toughest challenges.",
+    "isTranslationKey": false
+  }
 }

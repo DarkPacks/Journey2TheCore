@@ -3,13 +3,16 @@
 [common]
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 32
+	Limit = 64
 	#How many blocks per tick can be excavated
 	#Range: > 1
-	Speed = 5
+	Speed = 16
 	#How far from the origin an excavation can travel
 	#Range: > 1
 	Range = 16
+	#Amount of exhaustion per block excavated
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Ehxaustion = 0.10000000149011612
 	#Experience cost per block excavated
 	#Range: > 0
 	Experience = 0
@@ -37,12 +40,9 @@
 	#Allows excavation undo function to work through liquids and other replaceable blocks
 	"Undo Replaceables " = true
 	#The default game stage required to unlock excavations (requires gamestages to be installed)
-	"Game Stage" = "ore_excavation"
+	"Game Stage" = ""
 	#Tools blacklisted from excavating
 	"Tool Blacklist" = []
 	#Blocks blacklisted from being excavated
 	"Block Blacklist" = []
-	#Amount of exhaustion per block excavated
-	#Range: 0.0 ~ 1.7976931348623157E308
-	Ehxaustion = 0.10000000149011612
 

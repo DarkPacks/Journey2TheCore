@@ -235,6 +235,11 @@
     "totem": true,
     "luggage": true,
     "health_boost": true,
-    "apotheosis_gem": true
+    "apotheosis_gem": true,
+    "start_quest_0": true,
+    "start_quest_1": true,
+    "start_quest_2": true,
+    "start_quest_3": true,
+    "Chance Cubes Horde": true
   }
 }

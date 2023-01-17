@@ -2,25 +2,25 @@
   "name": "Dailies",
   "quests": [
     {
-      "uuid": "5fa5d2a9-d9e6-41b3-a48a-e61dd455bcf0",
+      "uuid": "96569f65-d03a-4c41-bb89-b8a1882b19db",
       "name": {
-        "text": "Player Mob Test",
+        "text": "Ghoulevard of Broken Dreams",
         "isTranslationKey": false
       },
       "description": {
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 66,
-      "y": 56,
+      "x": 59,
+      "y": 62,
       "icon": {
-        "id": "geore:redstone_spyglass",
+        "id": "graveyard:ghoul_spawn_egg",
         "Count": 1
       },
       "repeat": {
-        "type": "INTERVAL",
-        "days": 1,
-        "hours": 0
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
       },
       "tasks": [
         {
@@ -28,19 +28,659 @@
           "mobs": [
             {
               "name": {
-                "text": "Players",
+                "text": "Ghouls",
                 "isTranslationKey": false
               },
-              "mob": "player_mobs:player_mob",
-              "kills": 20
+              "icon": {
+                "id": "graveyard:ghoul_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:ghoul",
+              "kills": 25
             }
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "e13a3c1b-980f-4e21-a7b1-49500798249c"
+      ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee20bfe8-4b5d-4190-91b6-dd000b7034b3",
+      "name": {
+        "text": "It\u0027s irRevenant",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 86,
+      "y": 62,
+      "icon": {
+        "id": "graveyard:revenant_spawn_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Revenant",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "graveyard:revenant_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:revenant",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e44cab3b-f383-4c1a-87e3-e4f759fe667e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9ec60d73-7ecb-46b7-84bb-e72ac8edfe33",
+      "name": {
+        "text": "Cuz I\u0027m a Creep",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 33,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:creeper_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Creepers",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:creeper_head",
+                "Count": 1
+              },
+              "mob": "minecraft:pig",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9cf2648d-71c5-4ac2-82eb-cc9cfd38ff9e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:threequartsheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "858e3eb4-44ec-4c6b-8ae2-9e60c9735b8b",
+      "name": {
+        "text": "Ender-ing These Quest Names",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 96,
+      "icon": {
+        "id": "tconstruct:enderman_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Endermen",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:enderman_head",
+                "Count": 1
+              },
+              "mob": "minecraft:pig",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "27d3e279-4b31-497b-bada-528ad24ad44f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:threequartsheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7bce7e67-5af1-4386-9ba5-638322167347",
+      "name": {
+        "text": "Dark Side of the Bone",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 111,
+      "y": 26,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Wither Skeletons",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0e800749-6a52-44c4-89e3-b53fe9bbeb38"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:threequartsheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7500cabb-7e5d-417f-93e2-e5cba2bce0c6",
+      "name": {
+        "text": "Literally Australia",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 112,
+      "y": 62,
+      "icon": {
+        "id": "tconstruct:spider_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Spiders",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:spider_head",
+                "Count": 1
+              },
+              "mob": "minecraft:spider",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8b970dba-dacb-45bf-a9bd-9ae411d393a3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "244c37f8-8abf-45f0-8fb5-a1ee3e838f79",
+      "name": {
+        "text": "Hardcore Australia",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 32,
+      "y": 96,
+      "icon": {
+        "id": "tconstruct:cave_spider_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Cave Spiders",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:cave_spider_head",
+                "Count": 1
+              },
+              "mob": "minecraft:cave_spider",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6c9dce8d-0f41-44f2-9dc0-1d73dbab9d95"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5fa5d2a9-d9e6-41b3-a48a-e61dd455bcf0",
+      "name": {
+        "text": "Player Mobs",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "When you feel the need to do more face stomping!",
+        "isTranslationKey": false
+      },
+      "x": 33,
+      "y": 26,
+      "icon": {
+        "id": "minecraft:player_head",
+        "Count": 1,
+        "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"qXnMQu83I9dgE1Ko/3dFYqrhWq+g1Ac5EONfYkb3n/2zzHP30VS1Np4B+KgDF4ddgtE5FqFyU275Nrom6VgRUZdn80cRYJ+xnctWC6SbqvB/2ooG8hS/wT0J8sN9uM3toJLc219DZ1+udCJFReRV7rq6lUS8m3so+bf15nW/BDVKCkQEkfqt+m0qKU2AdlSUkz4DfGydqupSJ7+gLE26R0fv2KuU9njyyTqdxhM//ipN6TXXL8sStu7DBjgwo+BAun8P2X4CHZmNhtWYNzsIbgdHvvK7z/zKUCiv8me98kolTkldxn0XBWKc3S5V+mCKPe8WKVzBeREuUo5g/GyKJ2M0iMfQhQ22afPppPeLCTJVpkrzuK/lQUQZt3tHsU15ArCP8pWT0cr/b/zxhHuFDYtdjvSubqqT/aBEfVwoM3TXd90oaFVJmS92X8F5jZL3GeD/vqRFoqJ0mD4h3dsle2/DEhO15W0AuespGxiCE94lS18PihBOXmBfpAu8YIlVMAmN52XKbKnEXxamMpJ5qm5iwVuauwO764efWtyktuqg0YU3RaXwhFy9ABvv9SmTcPVsqiFoKLDlP1JQZoTmznpwkizm1pUM7VVOVXsOVlTovXNfAZMGKnjpbs8UbbeTz/ayZ95we5ciQfRIuyUgDbcn3tBW4j4OvodGnSAIgLA\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MzgxODkzNDk5MSwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Player Mobs",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:player_head",
+                "Count": 1,
+                "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"qXnMQu83I9dgE1Ko/3dFYqrhWq+g1Ac5EONfYkb3n/2zzHP30VS1Np4B+KgDF4ddgtE5FqFyU275Nrom6VgRUZdn80cRYJ+xnctWC6SbqvB/2ooG8hS/wT0J8sN9uM3toJLc219DZ1+udCJFReRV7rq6lUS8m3so+bf15nW/BDVKCkQEkfqt+m0qKU2AdlSUkz4DfGydqupSJ7+gLE26R0fv2KuU9njyyTqdxhM//ipN6TXXL8sStu7DBjgwo+BAun8P2X4CHZmNhtWYNzsIbgdHvvK7z/zKUCiv8me98kolTkldxn0XBWKc3S5V+mCKPe8WKVzBeREuUo5g/GyKJ2M0iMfQhQ22afPppPeLCTJVpkrzuK/lQUQZt3tHsU15ArCP8pWT0cr/b/zxhHuFDYtdjvSubqqT/aBEfVwoM3TXd90oaFVJmS92X8F5jZL3GeD/vqRFoqJ0mD4h3dsle2/DEhO15W0AuespGxiCE94lS18PihBOXmBfpAu8YIlVMAmN52XKbKnEXxamMpJ5qm5iwVuauwO764efWtyktuqg0YU3RaXwhFy9ABvv9SmTcPVsqiFoKLDlP1JQZoTmznpwkizm1pUM7VVOVXsOVlTovXNfAZMGKnjpbs8UbbeTz/ayZ95we5ciQfRIuyUgDbcn3tBW4j4OvodGnSAIgLA\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MzgxODkzNDk5MSwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
+              },
+              "mob": "player_mobs:player_mob",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "998ed66b-32d7-4b8c-8d05-1a2ce19f8b20"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "170b1d7a-8a7c-4d77-8540-3841aefa39fa",
+      "name": {
+        "text": "In the Bone Zone",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 85,
+      "y": 26,
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Skeletons",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f16c1942-17bc-4410-b8ef-5a40b4ac4386"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0197e45-0b63-4035-9e53-4591cdb18d36",
+      "name": {
+        "text": "Zombieland",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 26,
+      "icon": {
+        "id": "minecraft:zombie_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Zombies",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f92f705c-bd8e-453c-aa60-3654e6c462df"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
       "commandrewards": []
     }
   ],

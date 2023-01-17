@@ -713,7 +713,7 @@
   },
   {
     "mob": "minecraft:ghast",
-    "persecond": 0.05,
+    "persecond": 0.0005,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -768,26 +768,6 @@
       "maxdist": 120,
       "minheight": -64,
       "maxheight": -1,
-      "maxthis": 5
-    }
-  },
-  {
-    "mob": "minecraft:ghast",
-    "persecond": 0.05,
-    "attempts": 1,
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "conditions": {
-      "dimension": "minecraft:the_nether",
-      "norestrictions": true,
-      "inwater": false,
-      "inair": true,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 1,
-      "maxheight": 256,
       "maxthis": 5
     }
   },
@@ -1029,12 +1009,7 @@
     }
   },
   {
-    "mob": [
-      "alexsmobs:fly",
-      "alexsmobs:hummingbird",
-      "alexsmobs:crow",
-      "alexsmobs:roadrunner"
-    ],
+    "mob": ["alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:roadrunner"],
     "persecond": 0.1,
     "attempts": 1,
     "amount": {
@@ -1375,24 +1350,6 @@
     }
   },
   {
-    "mob": "alexsmobs:crow",
-    "persecond": 0.1,
-    "attempts": 1,
-    "amount": {
-      "minimum": 1,
-      "maximum": 2
-    },
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "norestrictions": true,
-      "mindist": 24,
-      "maxdist": 120,
-      "minheight": 133,
-      "maxheight": 264,
-      "maxthis": 3
-    }
-  },
-  {
     "mob": "alexsmobs:crimson_mosquito",
     "persecond": 0.1,
     "attempts": 1,
@@ -1425,6 +1382,329 @@
       "maxdist": 120,
       "minheight": 133,
       "maxheight": 264,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": [
+      "witherstormmod:sickened_zombie",
+      "witherstormmod:sickened_skeleton",
+      "witherstormmod:sickened_spider",
+      "witherstormmod:sickened_creeper"
+    ],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "norestrictions": true,
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 5,
+      "maxheight": 64,
+      "maxthis": 12
+    }
+  },
+  {
+    "mob": ["witherstormmod:tentacle"],
+    "persecond": 0.01,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "norestrictions": true,
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 5,
+      "maxheight": 64,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "minecraft:ghast",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "norestrictions": true,
+      "inwater": false,
+      "inair": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 255,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": [
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:wither_skeleton",
+      "minecraft:zombified_piglin",
+      "kobolds:kobold_zombie",
+      "kobolds:kobold_skeleton"
+    ],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "norestrictions": true,
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 129,
+      "maxheight": 255,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": "alexsmobs:soul_vulture",
+    "persecond": 0.005,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": true,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 255,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": ["alexsmobs:rattlesnake", "alexsmobs:anaconda"],
+    "persecond": 0.05,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 65,
+      "maxheight": 128,
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": "goblintraders:vein_goblin_trader",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 255,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "goblintraders:vein_goblin_trader",
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 255,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "alexsmobs:mimic",
+    "persecond": 0.06,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 65,
+      "maxheight": 128,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": ["minecraft:skeleton_horse", "minecraft:zombie_horse"],
+    "persecond": 0.06,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 65,
+      "maxheight": 255,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": ["enchantwithmob:enchanter"],
+    "persecond": 0.04,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 65,
+      "maxheight": 128,
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": ["alexsmobs:sunbird"],
+    "persecond": 0.04,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 65,
+      "maxheight": 255,
+      "maxthis": 1
+    }
+  },
+  {
+    "mob": ["alexsmobs:laviathan", "alexsmobs:bone_serpent"],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 30,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": [
+      "graveyard:skeleton_creeper",
+      "graveyard:acolyte",
+      "graveyard:reaper",
+      "graveyard:wraith",
+      "graveyard:corrupted_pillager",
+      "graveyard:corrupted_vindicator",
+      "graveyard:ghouling"
+    ],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 64,
+      "maxthis": 8
+    }
+  },
+  {
+    "mob": ["graveyard:nightmare"],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "inwater": false,
+      "inlava": false,
+      "inair": false,
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 64,
       "maxthis": 4
     }
   }

@@ -116,6 +116,78 @@
       "minecraft:witch",
       "minecraft:ravager"
     ],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.6,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:witch",
+      "minecraft:ravager"
+    ],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.65,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:witch",
+      "minecraft:ravager"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 0.7,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:witch",
+      "minecraft:ravager"
+    ],
+    "healthmultiply": 1.2,
+    "damagemultiply": 0.75,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:witch",
+      "minecraft:ravager"
+    ],
     "result": "deny"
   },
   {
@@ -127,7 +199,7 @@
       "minecraft:ravager"
     ],
     "healthmultiply": 0.75,
-    "damagemultiply": 0.75,
+    "damagemultiply": 0.6,
     "speedmultiply": 0.8,
     "damageadd": 0,
     "gamestage": "quest_0",
@@ -145,7 +217,7 @@
       "minecraft:ravager"
     ],
     "healthmultiply": 0.75,
-    "damagemultiply": 0.75,
+    "damagemultiply": 0.65,
     "speedmultiply": 0.8,
     "damageadd": 0,
     "gamestage": "quest_1",
@@ -163,7 +235,7 @@
       "minecraft:ravager"
     ],
     "healthmultiply": 1.0,
-    "damagemultiply": 0.8,
+    "damagemultiply": 0.7,
     "speedmultiply": 0.8,
     "damageadd": 0,
     "gamestage": "quest_2",
@@ -181,7 +253,7 @@
       "minecraft:ravager"
     ],
     "healthmultiply": 1.2,
-    "damagemultiply": 1.2,
+    "damagemultiply": 0.75,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
@@ -550,6 +622,7 @@
     "mob": [
       "minecraft:spider",
       "minecraft:zombie",
+      "player_mobs:player_mob",
       "minecraft:zombie_villager",
       "tconstruct:ender_slime",
       "minecraft:enderman",
@@ -843,7 +916,7 @@
     "mob": ["minecraft:polar_bear"],
     "healthmultiply": 0.5,
     "damagemultiply": 0.5,
-    "speedmultiply": 0.55,
+    "speedmultiply": 0.7,
     "damageadd": 0,
     "gamestage": "quest_0",
     "minlight": 0,
@@ -855,7 +928,7 @@
     "mob": ["minecraft:polar_bear"],
     "healthmultiply": 0.6,
     "damagemultiply": 0.6,
-    "speedmultiply": 0.65,
+    "speedmultiply": 0.75,
     "damageadd": 0,
     "gamestage": "quest_1",
     "minlight": 0,
@@ -867,7 +940,7 @@
     "mob": ["minecraft:polar_bear"],
     "healthmultiply": 0.7,
     "damagemultiply": 0.7,
-    "speedmultiply": 0.75,
+    "speedmultiply": 0.8,
     "damageadd": 0,
     "gamestage": "quest_2",
     "minlight": 0,
@@ -943,11 +1016,7 @@
     "result": "deny"
   },
   {
-    "mob": [
-      "alexsmobs:seagull",
-      "alexsmobs:crow",
-      "alexsmobs:crimson_mosquito"
-    ],
+    "mob": ["alexsmobs:seagull", "alexsmobs:crimson_mosquito"],
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
@@ -958,11 +1027,7 @@
     "result": "allow"
   },
   {
-    "mob": [
-      "alexsmobs:seagull",
-      "alexsmobs:crow",
-      "alexsmobs:crimson_mosquito"
-    ],
+    "mob": ["alexsmobs:seagull", "alexsmobs:crimson_mosquito"],
     "result": "deny"
   },
   {
@@ -1117,6 +1182,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 0.75,
@@ -1133,6 +1200,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 0.75,
@@ -1149,6 +1218,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 1.0,
@@ -1165,6 +1236,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 1.2,
@@ -1181,14 +1254,19 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "mincount": 10,
     "result": "deny"
   },
   {
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 0.75,
@@ -1205,6 +1283,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 0.75,
@@ -1221,6 +1301,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 1.0,
@@ -1237,6 +1319,8 @@
     "mob": [
       "mowziesmobs:barakoa",
       "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
     "healthmultiply": 1.2,
@@ -1248,6 +1332,11 @@
     "maxlight": 15,
     "onjoin": true,
     "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:barakoan_barakoana"],
+    "mincount": 10,
+    "result": "deny"
   },
   {
     "mob": ["mowziesmobs:foliaath"],
@@ -1351,8 +1440,133 @@
     "result": "allow"
   },
   {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.4,
+    "damagemultiply": 0.25,
+    "speedmultiply": 0.75,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.45,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.4,
+    "speedmultiply": 0.85,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.6,
+    "damagemultiply": 0.7,
+    "speedmultiply": 0.9,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.8,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "result": "deny"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.4,
+    "damagemultiply": 0.25,
+    "speedmultiply": 0.75,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.45,
+    "damagemultiply": 0.3,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.4,
+    "speedmultiply": 0.85,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.6,
+    "damagemultiply": 0.7,
+    "speedmultiply": 0.9,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.8,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
     "mob": [
       "alexsmobs:skelewag",
+      "alexsmobs:crow",
       "buddycards:enderling",
       "graveyard:nightmare",
       "graveyard:reaper",

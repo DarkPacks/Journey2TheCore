@@ -2,35 +2,47 @@
   "conditions": {
     "Space Check - 1x1 SolidBlock Underneath": {
       "target": "$playerName",
-      "horiRadius": "10",
+      "horiRadius": "12",
       "vertRadius": "4",
       "tries": "25",
       "variableName": "smallEntitySpaceCheck",
       "customHeight": "1",
       "customWidth": "1",
-      "minHoriDistance": "3",
+      "minHoriDistance": "5",
       "requireSolidBlock": true,
       "type": "freeSpace"
     },
     "Space Check - 1x2 SolidBlock Underneath": {
       "target": "$playerName",
-      "horiRadius": "10",
+      "horiRadius": "12",
       "vertRadius": "4",
       "tries": "25",
       "variableName": "entitySpaceCheck",
       "customHeight": "2",
       "customWidth": "1",
-      "minHoriDistance": "3",
+      "minHoriDistance": "5",
       "requireSolidBlock": true,
       "type": "freeSpace"
     },
     "Space Check - 2x2 SolidBlock Underneath": {
       "target": "$playerName",
-      "horiRadius": "6",
+      "horiRadius": "12",
       "vertRadius": "3",
       "tries": "25",
       "variableName": "largeEntitySpaceCheck",
       "customHeight": "2",
+      "customWidth": "2",
+      "minHoriDistance": "5",
+      "requireSolidBlock": true,
+      "type": "freeSpace"
+    },
+    "Space Check - 2x2x4 SolidBlock Underneath": {
+      "target": "$playerName",
+      "horiRadius": "24",
+      "vertRadius": "6",
+      "tries": "35",
+      "variableName": "wideTallEntitySpaceCheck",
+      "customHeight": "4",
       "customWidth": "2",
       "minHoriDistance": "3",
       "requireSolidBlock": true,
@@ -44,7 +56,7 @@
       "variableName": "floatingLargeEntitySpaceCheck",
       "customHeight": "4",
       "customWidth": "4",
-      "minHoriDistance": "3",
+      "minHoriDistance": "5",
       "type": "freeSpace"
     }
   },

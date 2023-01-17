@@ -16,4 +16,10 @@ alwayEnchantableMobs = []
 disableMobEnchants = []
 #Enable Player More Bigger When You have Huge Enchant. [true / false]
 "Big Your Self" = false
+#Set The Difficulty Base Enchanted Mob Spawn Percent. [(Difficulty Base Percent * Difficulty id) + (Effective Difficulty Percent * Effective Difficulty)]
+#Range: 0.0 ~ 1.0
+"Difficulty Enchanted Spawn Percent" = 0.005
+#Set The Effective Difficulty Base Enchanted Mob Spawn Percent [(Difficulty Base Percent * Difficulty id) + (Effective Difficulty Percent * Effective Difficulty)]
+#Range: 0.0 ~ 1.0
+"Effective Difficulty Enchanted Spawn Percent" = 0.025
 

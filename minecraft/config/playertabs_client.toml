@@ -1,5 +1,5 @@
 #The names of the tabs.
-tabNames = ["Tab 1", "Tab 2", "Tab 3", "Tab 4", "Tab 5", "Tab 6", "Tab 7", "Tab 8"]
+tabNames = ["minecraft:chest", "ironchest:copper_chest", "ironchest:iron_chest", "ironchest:gold_chest", "ironchest:diamond_chest", "ironchest:crystal_chest", "Tab 7", "Tab 8"]
 #The names of the screens that tabs should NOT be rendered in.
 screensBlacklist = []
 #Show the names of the opened screens in chat.
