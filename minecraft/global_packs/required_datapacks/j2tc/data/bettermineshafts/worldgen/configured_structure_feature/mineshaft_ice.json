@@ -100,16 +100,12 @@
       },
       "legRandomizer": {
         "defaultBlockState": {
-          "Name": "minecraft:packed_ice"
-        },
-        "entries": [
-          {
-            "blockState": {
-              "Name": "minecraft:blue_ice"
-            },
-            "probability": 0.5
+          "Name": "create:cut_calcite_brick_wall",
+          "Properties": {
+            "up": "true"
           }
-        ]
+        },
+        "entries": []
       }
     }
   },

@@ -37,9 +37,9 @@
         "Name": "minecraft:spruce_trapdoor"
       },
       "smallLegBlockState": {
-        "Name": "minecraft:stripped_spruce_log",
+        "Name": "minecraft:andesite_wall",
         "Properties": {
-          "axis": "y"
+          "up": "true"
         }
       }
     },
@@ -139,9 +139,9 @@
       },
       "legRandomizer": {
         "defaultBlockState": {
-          "Name": "minecraft:stripped_spruce_log",
+          "Name": "minecraft:stone_brick_wall",
           "Properties": {
-            "axis": "y"
+            "up": "true"
           }
         },
         "entries": []

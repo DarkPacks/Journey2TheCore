@@ -134,52 +134,24 @@
         "entries": [
           {
             "blockState": {
-              "Name": "minecraft:chiseled_red_sandstone"
+              "Name": "minecraft:bricks"
             },
-            "probability": 0.1
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:cut_red_sandstone"
-            },
-            "probability": 0.2
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:smooth_red_sandstone"
-            },
-            "probability": 0.2
+            "probability": 1.0
           }
         ]
       },
       "legRandomizer": {
         "defaultBlockState": {
-          "Name": "minecraft:red_sandstone"
-        },
-        "entries": [
-          {
-            "blockState": {
-              "Name": "minecraft:chiseled_red_sandstone"
-            },
-            "probability": 0.1
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:cut_red_sandstone"
-            },
-            "probability": 0.2
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:smooth_red_sandstone"
-            },
-            "probability": 0.2
+          "Name": "minecraft:brick_wall",
+          "Properties": {
+            "up": "true"
           }
-        ]
+        },
+        "entries": []
       }
     }
   },
-  "biomes": "#bettermineshafts:has_structure/has_mineshaft_red_desert",
+  "biomes": "#bettermineshafts:has_structure/has_mineshaft_desert",
   "adapt_noise": false,
   "spawn_overrides": {}
 }

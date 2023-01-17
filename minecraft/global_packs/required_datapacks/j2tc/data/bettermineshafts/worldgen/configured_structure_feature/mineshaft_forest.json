@@ -139,16 +139,16 @@
       },
       "legRandomizer": {
         "defaultBlockState": {
-          "Name": "minecraft:oak_log",
+          "Name": "minecraft:stone_brick_wall",
           "Properties": {
-            "axis": "y"
+            "up": "true"
           }
         },
         "entries": []
       }
     }
   },
-  "biomes": "#bettermineshafts:has_structure/has_mineshaft_forest",
+  "biomes": "#j2tc_tweaks:has_structure/overworld_generic_biomes",
   "adapt_noise": false,
   "spawn_overrides": {}
 }

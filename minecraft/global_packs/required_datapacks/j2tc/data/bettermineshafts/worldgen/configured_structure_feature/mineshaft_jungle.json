@@ -37,9 +37,9 @@
         "Name": "minecraft:jungle_trapdoor"
       },
       "smallLegBlockState": {
-        "Name": "minecraft:stripped_jungle_log",
+        "Name": "minecraft:andesite_wall",
         "Properties": {
-          "axis": "y"
+          "up": "true"
         }
       }
     },
@@ -157,16 +157,16 @@
       },
       "legRandomizer": {
         "defaultBlockState": {
-          "Name": "minecraft:stripped_jungle_log",
+          "Name": "minecraft:stone_brick_wall",
           "Properties": {
-            "axis": "y"
+            "up": "true"
           }
         },
         "entries": []
       }
     }
   },
-  "biomes": "#bettermineshafts:has_structure/has_mineshaft_jungle",
+  "biomes": "#j2tc_tweaks:has_structure/overworld_generic_biomes",
   "adapt_noise": false,
   "spawn_overrides": {}
 }

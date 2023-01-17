@@ -134,48 +134,20 @@
         "entries": [
           {
             "blockState": {
-              "Name": "minecraft:chiseled_sandstone"
+              "Name": "create:cut_limestone_bricks"
             },
-            "probability": 0.1
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:cut_sandstone"
-            },
-            "probability": 0.2
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:smooth_sandstone"
-            },
-            "probability": 0.2
+            "probability": 1.0
           }
         ]
       },
       "legRandomizer": {
         "defaultBlockState": {
-          "Name": "minecraft:sandstone"
-        },
-        "entries": [
-          {
-            "blockState": {
-              "Name": "minecraft:chiseled_sandstone"
-            },
-            "probability": 0.1
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:cut_sandstone"
-            },
-            "probability": 0.2
-          },
-          {
-            "blockState": {
-              "Name": "minecraft:smooth_sandstone"
-            },
-            "probability": 0.2
+          "Name": "create:cut_limestone_brick_wall",
+          "Properties": {
+            "up": "true"
           }
-        ]
+        },
+        "entries": []
       }
     }
   },
