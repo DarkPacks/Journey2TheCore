@@ -1,0 +1,12 @@
+{
+  "type": "j2tc_tweaks:chance_cubes",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": "j2tc_tweaks:chance_cubes",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "j2tc_tweaks:chance_cubes"
+    }
+  }
+}
