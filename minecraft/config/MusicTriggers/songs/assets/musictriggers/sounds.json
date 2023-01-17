@@ -1,101 +1,86 @@
 {
   "music.basalt_deltas_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/basalt_deltas_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/basalt_deltas_ambience",
+			"stream": true
+		}]
+	},
   "music.castle_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/castle_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/castle_ambience",
+			"stream": true
+		}]
+	},
   "music.greed_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/greed_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/greed_ambience",
+			"stream": true
+		}]
+	},
+  "music.heresy_ambience": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/heresy_ambience",
+			"stream": true
+		}]
+	},
   "music.horror_intro": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/horror_intro",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/horror_intro",
+			"stream": true
+		}]
+	},
   "music.infernal_music": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/infernal_music",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/infernal_music",
+			"stream": true
+		}]
+	},
   "music.limbo_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/limbo_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/limbo_ambience",
+			"stream": true
+		}]
+	},
   "music.minor_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/minor_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/minor_ambience",
+			"stream": true
+		}]
+	},
   "music.muddr_was_right": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/muddr_was_right",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/muddr_was_right",
+			"stream": true
+		}]
+	},
   "music.sewer_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/sewer_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/sewer_ambience",
+			"stream": true
+		}]
+	},
   "music.soulsand_valley_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/soulsand_valley_ambience",
-        "stream": true
-      }
-    ]
-  },
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/soulsand_valley_ambience",
+			"stream": true
+		}]
+	},
   "music.underwater_ambience": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "musictriggers:music/underwater_ambience",
-        "stream": true
-      }
-    ]
-  }
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/underwater_ambience",
+			"stream": true
+		}]
+	}
 }

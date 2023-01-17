@@ -1,6 +1,6 @@
 [[horror_intro]]
 	pitch = "1.0"
-	volume = "1.0"
+	volume = "0.5"
 	play_once = "2"
 
 	[horror_intro.trigger]
@@ -8,6 +8,24 @@
 		fade_in = "40"
 		fade_out = "40"
 		time = "80"
+
+[[heresy_ambience]]
+	volume = "0.35"
+
+	[heresy_ambience.trigger]
+		name = "zones"
+		identifier = "heresy_layer"
+		fade_in = "40"
+		fade_out = "40"
+		time = "80"
+
+		[heresy_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "-64"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "0"
+			z_max = "30000000"
 
 [[sewer_ambience]]
 	volume = "0.05"
