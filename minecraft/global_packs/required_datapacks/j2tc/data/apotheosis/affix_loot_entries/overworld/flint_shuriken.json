@@ -1,0 +1,13 @@
+{
+  "weight": 65,
+  "quality": 2,
+  "stack": {
+    "item": "tconstruct:flint_shuriken",
+    "count": 64
+  },
+  "type": "BOW",
+  "stages": ["quest_0", "quest_1", "quest_2", "quest_3"],
+  "min_rarity": "common",
+  "max_rarity": "rare",
+  "dimensions": ["minecraft:overworld"]
+}

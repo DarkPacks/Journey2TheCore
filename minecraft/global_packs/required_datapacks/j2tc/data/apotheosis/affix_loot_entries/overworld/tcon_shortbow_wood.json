@@ -1,0 +1,14 @@
+{
+  "weight": 50,
+  "quality": 1.0,
+  "stack": {
+    "item": "things:shortbow",
+    "count": 1,
+    "nbt": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
+  },
+  "type": "BOW",
+  "stages": ["quest_0", "quest_1"],
+  "min_rarity": "common",
+  "max_rarity": "rare",
+  "dimensions": ["minecraft:overworld"]
+}

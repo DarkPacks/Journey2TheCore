@@ -1,5 +1,6 @@
 {
   "entity": "graveyard:corrupted_vindicator",
+  "stages": ["quest_1", "quest_2", "quest_3"],
   "weight": 15,
   "quality": 4,
   "size": {

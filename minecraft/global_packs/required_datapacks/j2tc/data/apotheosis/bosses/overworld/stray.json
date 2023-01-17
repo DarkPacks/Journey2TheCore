@@ -1,5 +1,6 @@
 {
   "entity": "minecraft:stray",
+  "stages": ["quest_1", "quest_2", "quest_3", "quest_4"],
   "weight": 20,
   "quality": 2,
   "size": {

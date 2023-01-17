@@ -1,6 +1,6 @@
 {
   "weight": 100,
-  "stages": ["quest_1"],
+  "stages": ["quest_0", "quest_1", "quest_2", "quest_3"],
   "mainhands": [
     {
       "weight": 1,

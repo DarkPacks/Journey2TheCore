@@ -1,0 +1,13 @@
+{
+  "weight": 65,
+  "quality": 1.2,
+  "stages": ["quest_0", "quest_1", "quest_2"],
+  "stack": {
+    "item": "tconstruct:cleaver",
+    "nbt": "{tic_materials:[\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\"],tic_modifiers:[{level:4s,name:\"tconstruct:dwarven\"},{level:2s,name:\"tconstruct:severing\"},{level:1s,name:\"tconstruct:silky_aoe_shears\"}],tic_persistent_data:{abilities:1,upgrades:2}}"
+  },
+  "type": "HEAVY_WEAPON",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "common",
+  "max_rarity": "rare"
+}

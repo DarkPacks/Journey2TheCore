@@ -1,7 +1,6 @@
 {
-  "weight": 85,
+  "weight": 0,
   "quality": 3.0,
-  "stages": ["quest_2", "quest_3", "quest_4", "quest_5"],
   "stack": {
     "item": "minecraft:chainmail_leggings",
     "count": 1,
@@ -9,6 +8,5 @@
   },
   "type": "ARMOR",
   "dimensions": ["minecraft:overworld"],
-  "min_rarity": "common",
   "max_rarity": "rare"
 }

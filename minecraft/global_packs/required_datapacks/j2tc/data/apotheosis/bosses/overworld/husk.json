@@ -1,5 +1,6 @@
 {
   "entity": "minecraft:husk",
+  "stages": ["quest_1", "quest_2", "quest_3"],
   "weight": 20,
   "quality": 2,
   "size": {

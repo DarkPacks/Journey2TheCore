@@ -1,14 +1,14 @@
 {
   "weight": 50,
-  "quality": 0.5,
+  "quality": 2.5,
   "stack": {
     "item": "tconstruct:longbow",
     "count": 1,
-    "nbt": "{tic_materials:[\"tconstruct:slimewood\",\"tconstruct:slimewood\",\"tconstruct:slimewood\",\"tconstruct:string\"],tic_persistent_data:{abilities:1,\"tconstruct:overslime\":3,upgrades:2}}"
+    "nbt": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_persistent_data:{abilities:1,upgrades:2}}"
   },
   "type": "BOW",
   "stages": ["quest_0", "quest_1"],
   "min_rarity": "common",
-  "max_rarity": "uncommon",
+  "max_rarity": "rare",
   "dimensions": ["minecraft:overworld"]
 }

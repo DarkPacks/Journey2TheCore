@@ -1,5 +1,6 @@
 {
   "entity": "minecraft:goat",
+  "stages": ["quest_0", "quest_1", "quest_2", "quest_3"],
   "weight": 10,
   "quality": 6,
   "size": {

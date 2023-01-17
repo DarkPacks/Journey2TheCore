@@ -1,7 +1,7 @@
 {
   "weight": 80,
   "quality": 5,
-  "stages": ["quest_2"],
+  "stages": ["quest_2", "quest_3", "quest_4"],
   "mainhands": [
     {
       "weight": 3,

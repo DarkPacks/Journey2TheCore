@@ -2,6 +2,7 @@
   "entity": "minecraft:bee",
   "weight": 10,
   "quality": 5,
+  "stages": ["quest_0", "quest_1", "quest_2", "quest_3"],
   "size": {
     "width": 1,
     "height": 1

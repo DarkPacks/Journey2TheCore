@@ -1,7 +1,6 @@
 {
-  "weight": 70,
+  "weight": 0,
   "quality": 5.0,
-  "stages": ["quest_3", "quest_4", "quest_5", "quest_6"],
   "stack": {
     "item": "minecraft:iron_leggings",
     "count": 1,
@@ -9,6 +8,5 @@
   },
   "type": "ARMOR",
   "dimensions": ["minecraft:overworld"],
-  "min_rarity": "uncommon",
   "max_rarity": "rare"
 }

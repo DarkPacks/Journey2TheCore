@@ -1,0 +1,13 @@
+{
+  "weight": 65,
+  "quality": 3.0,
+  "stages": ["quest_0", "quest_1", "quest_2", "quest_3"],
+  "stack": {
+    "item": "tconstruct:cleaver",
+    "nbt": "{tic_materials:[\"tconstruct:slimewood\",\"tconstruct:slimewood\",\"tconstruct:slimewood\",\"tconstruct:slimewood\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:reach\"},{level:4s,name:\"tconstruct:overgrowth\"}],tic_persistent_data:{abilities:1,\"tconstruct:overslime\":1,upgrades:2}}"
+  },
+  "type": "HEAVY_WEAPON",
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "common",
+  "max_rarity": "rare"
+}

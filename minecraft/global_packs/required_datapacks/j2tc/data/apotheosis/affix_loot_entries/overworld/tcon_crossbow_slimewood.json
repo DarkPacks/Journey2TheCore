@@ -1,0 +1,14 @@
+{
+  "weight": 50,
+  "quality": 0.5,
+  "stack": {
+    "item": "tconstruct:crossbow",
+    "count": 1,
+    "nbt": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_persistent_data:{abilities:1,upgrades:3}}"
+  },
+  "type": "CROSSBOW",
+  "stages": ["quest_0", "quest_1"],
+  "min_rarity": "common",
+  "max_rarity": "uncommon",
+  "dimensions": ["minecraft:overworld"]
+}

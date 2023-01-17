@@ -1,6 +1,7 @@
 {
   "entity": "minecraft:rabbit",
   "nbt": "{RabbitType:99}",
+  "stages": ["quest_1", "quest_2", "quest_3"],
   "weight": 10,
   "quality": 6,
   "size": {

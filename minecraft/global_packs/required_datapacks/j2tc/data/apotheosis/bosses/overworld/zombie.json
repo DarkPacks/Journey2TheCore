@@ -1,5 +1,6 @@
 {
   "entity": "minecraft:zombie",
+  "stages": ["quest_1", "quest_2", "quest_3", "quest_4"],
   "weight": 0,
   "quality": 0,
   "size": {
