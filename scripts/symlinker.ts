@@ -14,6 +14,7 @@ const symlinkDirs = new Set([
   "journeymap",
   "mods",
   "packmenu",
+  "thingpacks",
 ]);
 
 main();
