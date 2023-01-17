@@ -1,6 +1,8 @@
 {
   "type": "platypus:structure",
+  "random_rotation": true,
   "config": {
+    "random_rotation": true,
     "structures": [
       "desire_structure_1",
       "desire_structure_2",

@@ -1,6 +1,7 @@
 {
   "type": "platypus:structure",
   "config": {
+    "random_rotation": true,
     "structures": ["minecraft:limbo_column_1", "minecraft:column_structure_2"]
   }
 }

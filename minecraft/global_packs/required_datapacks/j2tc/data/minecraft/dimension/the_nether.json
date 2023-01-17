@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "biome_source": {
+      "type": "platypus:simple_layered_simplex",
+      "biomes": [
+        "minecraft:nether_wastes",
+        "minecraft:crimson_forest",
+        "minecraft:soul_sand_valley",
+        "minecraft:warped_forest",
+        "minecraft:basalt_deltas"
+      ],
+      "layers": [
+        {
+          "size": 64,
+          "minY": 129,
+          "maxY": 256,
+          "biomes": ["minecraft:nether_wastes", "minecraft:crimson_forest"]
+        },
+        {
+          "size": 64,
+          "minY": 65,
+          "maxY": 128,
+          "biomes": [
+            "minecraft:soul_sand_valley",
+            "minecraft:warped_forest",
+            "minecraft:basalt_deltas"
+          ]
+        },
+        {
+          "size": 64,
+          "minY": 0,
+          "maxY": 64,
+          "biomes": ["minecraft:nether_wastes"]
+        }
+      ]
+    },
+    "seed": 666,
+    "settings": "minecraft:nether",
+    "type": "minecraft:noise"
+  },
+  "forge:use_server_seed": true
+}

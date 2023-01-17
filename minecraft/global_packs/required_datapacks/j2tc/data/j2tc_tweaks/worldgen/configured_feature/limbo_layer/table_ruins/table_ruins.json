@@ -1,0 +1,17 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": true,
+    "structures": [
+      "minecraft:table_ruins/table_ruin_1",
+      "minecraft:table_ruins/table_ruin_2",
+      "minecraft:table_ruins/table_ruin_3",
+      "minecraft:table_ruins/table_ruin_4",
+      "minecraft:table_ruins/table_ruin_5",
+      "minecraft:table_ruins/table_ruin_6",
+      "minecraft:table_ruins/table_ruin_7",
+      "minecraft:table_ruins/table_ruin_8",
+      "minecraft:table_ruins/table_ruin_9"
+    ]
+  }
+}

@@ -1,6 +1,8 @@
 {
   "type": "platypus:structure",
+  "random_rotation": true,
   "config": {
+    "random_rotation": true,
     "structures": [
       "minecraft:greed_urn_black",
       "minecraft:greed_urn_brown",

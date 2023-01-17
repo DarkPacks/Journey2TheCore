@@ -1,0 +1,11 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": true,
+    "structures": [
+      "waystones/waystone_mossy",
+      "waystones/waystone_stone",
+      "waystones/waystone_sand"
+    ]
+  }
+}

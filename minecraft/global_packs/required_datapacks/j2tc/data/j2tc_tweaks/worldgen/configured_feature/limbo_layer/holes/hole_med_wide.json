@@ -1,0 +1,7 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": true,
+    "structures": ["minecraft:holes/hole_med_wide"]
+  }
+}

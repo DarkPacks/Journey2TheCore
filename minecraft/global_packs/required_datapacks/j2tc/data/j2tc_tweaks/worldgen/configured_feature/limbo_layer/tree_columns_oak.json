@@ -1,6 +1,7 @@
 {
   "type": "platypus:structure",
   "config": {
+    "random_rotation": true,
     "structures": ["tree_columns/oak_tree_column_l"]
   }
 }
