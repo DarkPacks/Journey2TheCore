@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "waystones:warp_stone"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["DED", "EGE", "DED"],
+  "key": {
+    "G": {
+      "item": "turkeydevutil:unstable_ingot"
+    },
+    "E": {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    "D": {
+      "item": "tconstruct:ender_slime_crystal"
+    }
+  }
+}
