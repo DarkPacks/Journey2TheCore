@@ -1,4 +1,4 @@
 {
   "replace": true,
-  "values": ["minecraft:soul_sand_valley"]
+  "values": ["#minecraft:is_nether"]
 }
