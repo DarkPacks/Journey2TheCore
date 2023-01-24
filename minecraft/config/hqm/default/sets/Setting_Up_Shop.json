@@ -517,7 +517,7 @@
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":240.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
               },
-              "precision": "TAG_NBT_FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1905,7 +1905,7 @@
       "icon": {
         "id": "tconstruct:plate_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1930,7 +1930,7 @@
         {
           "id": "tconstruct:plate_chestplate",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],

@@ -684,5 +684,9 @@
       "commandrewards": []
     }
   ],
-  "reputationBar": []
+  "reputationBar": [],
+  "description": {
+    "text": "Repeatable quests that can be done after time passes.",
+    "isTranslationKey": false
+  }
 }

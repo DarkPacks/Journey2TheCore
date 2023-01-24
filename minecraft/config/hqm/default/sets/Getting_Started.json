@@ -113,7 +113,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
         "isTranslationKey": false
       },
       "x": 174,
@@ -1048,7 +1048,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
         "isTranslationKey": false
       },
       "x": 198,
@@ -1564,7 +1564,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
         "isTranslationKey": false
       },
       "x": 174,
@@ -1572,7 +1572,7 @@
       "icon": {
         "id": "tconstruct:travelers_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.55f},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":160.0f}}"
       },
       "tasks": [
         {
@@ -1596,7 +1596,7 @@
         {
           "id": "tconstruct:travelers_chestplate",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.55f},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":160.0f}}"
         }
       ],
       "rewardchoice": [
@@ -3471,7 +3471,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors.",
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
         "isTranslationKey": false
       },
       "x": 198,
