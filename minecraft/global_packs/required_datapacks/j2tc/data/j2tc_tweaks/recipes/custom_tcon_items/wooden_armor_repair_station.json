@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:specialized_station_repair",
+  "tool": [
+    { "item": "j2tc_tweaks:wooden_boots" },
+    { "item": "j2tc_tweaks:wooden_leggings" },
+    { "item": "j2tc_tweaks:wooden_chestplate" },
+    { "item": "j2tc_tweaks:wooden_helmet" }
+  ],
+  "repair_material": "tconstruct:wood"
+}
