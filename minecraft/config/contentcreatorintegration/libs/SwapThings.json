@@ -5,6 +5,15 @@
     }
   },
   "outcomes": {
+    "Give Gift": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": []
+        }
+      ],
+      "type": "event"
+    },
     "Push Player (Multiple)": {
       "events": [
         {
