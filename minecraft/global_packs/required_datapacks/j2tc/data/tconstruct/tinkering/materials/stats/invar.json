@@ -1,7 +1,11 @@
 {
   "stats": {
     "tconstruct:head": {
+      "durability": 1008,
       "harvestTier": "minecraft:diamond"
+    },
+    "tconstruct:limb": {
+      "durability": 1008
     }
   }
 }

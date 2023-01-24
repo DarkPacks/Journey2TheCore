@@ -1,10 +1,10 @@
 {
   "stats": {
     "tconstruct:head": {
-      "durability": 225,
+      "durability": 360,
       "miningSpeed": 5.0,
       "harvestTier": "cyclic:copper",
-      "attack": 2.25
+      "attack": 2.5
     }
   }
 }

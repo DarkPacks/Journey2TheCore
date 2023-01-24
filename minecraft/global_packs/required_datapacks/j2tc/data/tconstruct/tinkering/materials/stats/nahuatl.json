@@ -1,7 +1,11 @@
 {
   "stats": {
     "tconstruct:head": {
+      "durability": 560,
       "harvestTier": "cyclic:nether_bricks"
+    },
+    "tconstruct:limb": {
+      "durability": 560
     }
   }
 }

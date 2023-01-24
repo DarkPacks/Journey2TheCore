@@ -2,6 +2,13 @@
   "stats": {
     "tconstruct:repair_kit": {
       "durability": 65
+    },
+    "tconstruct:head": {
+      "durability": 288,
+      "harvestTier": "minecraft:stone"
+    },
+    "tconstruct:limb": {
+      "durability": 288
     }
   }
 }
