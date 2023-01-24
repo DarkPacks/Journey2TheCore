@@ -17,9 +17,9 @@
     [],
     [],
     [],
+    ["minecraft:end_spike"],
     [],
-    [],
-    ["j2tc_tweaks:ice_layer_generator"]
+    []
   ],
   "spawners": {
     "monster": [

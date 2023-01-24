@@ -1,5 +1,5 @@
 {
-  "sea_level": 40,
+  "sea_level": 0,
   "disable_mob_generation": true,
   "aquifers_enabled": false,
   "ore_veins_enabled": false,
@@ -8,11 +8,11 @@
     "Name": "minecraft:end_stone"
   },
   "default_fluid": {
-    "Name": "minecraft:powder_snow"
+    "Name": "minecraft:air"
   },
   "noise": {
     "min_y": 0,
-    "height": 128,
+    "height": 256,
     "size_horizontal": 2,
     "size_vertical": 1,
     "sampling": {
@@ -22,8 +22,8 @@
       "y_factor": 160
     },
     "bottom_slide": {
-      "target": -0.234375,
-      "size": 7,
+      "target": 1.8,
+      "size": 10,
       "offset": 1
     },
     "top_slide": {
@@ -76,9 +76,108 @@
     "vein_gap": 0
   },
   "surface_rule": {
-    "type": "minecraft:block",
-    "result_state": {
-      "Name": "minecraft:end_stone"
-    }
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "ice_layer",
+          "true_at_and_below": {
+            "above_bottom": 1
+          },
+          "false_at_and_above": {
+            "above_bottom": 58
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:ice"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "ice_surface",
+          "true_at_and_below": {
+            "absolute": 50
+          },
+          "false_at_and_above": {
+            "absolute": 30
+          }
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:stone_depth",
+            "offset": 0,
+            "surface_type": "floor",
+            "add_surface_depth": false,
+            "secondary_depth_range": 8
+          },
+          "then_run": {
+            "type": "minecraft:block",
+            "result_state": {
+              "Name": "minecraft:ice"
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "snow_layer",
+          "true_at_and_below": {
+            "absolute": 72
+          },
+          "false_at_and_above": {
+            "absolute": 66
+          }
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:stone_depth",
+            "offset": 0,
+            "surface_type": "floor",
+            "add_surface_depth": false,
+            "secondary_depth_range": 4
+          },
+          "then_run": {
+            "type": "minecraft:block",
+            "result_state": {
+              "Name": "minecraft:snow_block"
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:y_above",
+          "anchor": {
+            "above_bottom": 43
+          },
+          "surface_depth_multiplier": 4,
+          "add_stone_depth": false
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:end_stone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "minecraft:packed_ice"
+        }
+      }
+    ]
   }
 }

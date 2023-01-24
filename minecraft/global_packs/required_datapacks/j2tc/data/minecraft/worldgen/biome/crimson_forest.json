@@ -70,26 +70,7 @@
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
-    "monster": [
-      {
-        "weight": 1,
-        "minCount": 2,
-        "type": "minecraft:zombified_piglin",
-        "maxCount": 4
-      },
-      {
-        "weight": 9,
-        "minCount": 3,
-        "type": "minecraft:hoglin",
-        "maxCount": 4
-      },
-      {
-        "weight": 5,
-        "minCount": 3,
-        "type": "minecraft:piglin",
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "misc": [],
     "ambient": [],
     "creature": [

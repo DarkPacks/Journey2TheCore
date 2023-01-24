@@ -12,15 +12,7 @@
     "water_fog_color": 3866888
   },
   "carvers": {},
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    ["minecraft:end_spike"],
-    [],
-    ["j2tc_tweaks:ice_layer_generator"]
-  ],
+  "features": [[], [], [], [], ["minecraft:end_spike"], [], []],
   "spawners": {
     "monster": [
       {

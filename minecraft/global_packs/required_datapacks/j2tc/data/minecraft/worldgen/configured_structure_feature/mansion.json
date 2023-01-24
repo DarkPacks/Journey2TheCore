@@ -1,6 +1,7 @@
 {
   "config": {},
-  "biomes": "#j2tc_tweaks:has_structure/empty",
+  "biomes": "#j2tc_tweaks:has_structure/the_end",
+  "adapt_noise": true,
   "spawn_overrides": {},
   "type": "minecraft:mansion"
 }

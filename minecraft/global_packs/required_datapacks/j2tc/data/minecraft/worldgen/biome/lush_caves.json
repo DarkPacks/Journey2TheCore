@@ -19,12 +19,16 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "j2tc_tweaks:top_level_shafts"
     ]
   },
   "features": [
     [
       "j2tc_tweaks:water_layer",
+      "j2tc_tweaks:limbo_layer/holes/hole_m",
+      "j2tc_tweaks:limbo_layer/holes/hole_long",
+      "j2tc_tweaks:limbo_layer/holes/hole_med_wide",
       "j2tc_tweaks:water_layer1",
       "j2tc_tweaks:water_layer2"
     ],
@@ -36,7 +40,11 @@
       "j2tc_tweaks:greed_layer/lake_liquid_gold",
       "j2tc_tweaks:greed_layer/lake_crude_oil"
     ],
-    ["minecraft:amethyst_geode", "j2tc_tweaks:cave_decoration/large_dripstone"],
+    [
+      "minecraft:amethyst_geode",
+      "j2tc_tweaks:cave_decoration/large_dripstone",
+      "j2tc_tweaks:limbo_layer/tunnels/tunnel_1"
+    ],
     ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [
@@ -51,6 +59,7 @@
     ],
     [
       "j2tc_tweaks:limbo_layer/rooted_dirt_top_row_layer",
+      "j2tc_tweaks:limbo_layer/table_ruins/table_ruins",
       "j2tc_tweaks:oreberry_essence",
       "minecraft:ore_dirt",
       "j2tc_tweaks:ore_clay",
@@ -123,6 +132,9 @@
       "j2tc_tweaks:blackstone_lower",
       "j2tc_tweaks:basalt_lower",
       "j2tc_tweaks:limbo_layer/ore_dead_stripped_log",
+      "j2tc_tweaks:desire_layer/features/ore_cookie",
+      "j2tc_tweaks:gluttony_layer/features/ore_cookie_sugar",
+      "j2tc_tweaks:limbo_layer/ore_cookie",
       "j2tc_tweaks:anger_layer/scrap_bones",
       "j2tc_tweaks:anger_layer/scrap_brush",
       "j2tc_tweaks:anger_layer/scrap_metal",

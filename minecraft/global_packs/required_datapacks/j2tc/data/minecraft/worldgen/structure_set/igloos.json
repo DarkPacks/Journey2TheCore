@@ -1,9 +1,30 @@
 {
-  "structures": [],
+  "structures": [
+    {
+      "structure": "minecraft:igloo",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:mansion",
+      "weight": 1
+    },
+    {
+      "structure": "underground_villages:underground_village",
+      "weight": 1
+    }
+  ],
   "placement": {
     "salt": 14357618,
-    "spacing": 32,
-    "separation": 8,
+    "spacing": 12,
+    "separation": 5,
     "type": "minecraft:random_spread"
   }
 }

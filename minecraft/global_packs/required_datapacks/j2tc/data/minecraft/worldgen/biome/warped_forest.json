@@ -66,14 +66,7 @@
     ]
   ],
   "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "creature": [
       {
         "type": "minecraft:strider",
