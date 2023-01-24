@@ -1,7 +1,7 @@
 {
   "group": "idk",
   "displayName": {
-    "text": "Tinkers' Modifier Books"
+    "text": "Tinkers' Modifier Crystals"
   },
   "lootTable": "j2tc_tweaks:treasure_bags/tcon_modifier_books",
   "rarity": "uncommon",

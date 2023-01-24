@@ -4,7 +4,7 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "create:copper_nugget",
+        "item": "thermal:copper_nugget",
         "count": 12
       },
       "payment_item": {
@@ -547,6 +547,34 @@
       },
       "price_multiplier": 0.2,
       "max_trades": 2,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "waystones:return_scroll",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "waystones:bound_scroll",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 4
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
       "experience": 20
     }
   ]

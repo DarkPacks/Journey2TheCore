@@ -1,12 +1,14 @@
 #reset scoreboard
 scoreboard players reset @p stage
-scoreboard players add @a random_number 0
-scoreboard players add @a timer 0
-scoreboard players add @a fail_timer 0
-scoreboard players add @a completion_timer 0
-bossbar set minecraft:test2 players @a
-bossbar set minecraft:fail_timer players @a
-bossbar set minecraft:completion_timer players @a
+scoreboard players add @p random_number 0
+scoreboard players add @p timer 0
+scoreboard players add @p fail_timer 0
+scoreboard players add @p completion_timer 0
+scoreboard players add @p teleport_timer 0
+bossbar set minecraft:test2 players @p
+bossbar set minecraft:fail_timer players @p
+bossbar set minecraft:completion_timer players @p
+bossbar set minecraft:teleport_timer players @p
 
 #revoke advancements
 advancement revoke @p everything
@@ -48,6 +50,7 @@ curios set head @p 1
 #reset gamerules
 gamerule doInsomnia false
 gamerule doWeatherCycle false
+#gamerule sendCommandFeedback false
 
 #Set Stage Objective Scores
 scoreboard players set @p quest_0 1
@@ -73,5 +76,5 @@ give @p minecraft:torch 8
 effect clear @p
 effect give @p minecraft:resistance 30 2 true
 
-setworldspawn
-spawnpoint
+setworldspawn ~ ~ ~
+spawnpoint @p

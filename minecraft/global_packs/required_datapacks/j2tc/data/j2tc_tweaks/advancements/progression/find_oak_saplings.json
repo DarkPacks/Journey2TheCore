@@ -22,10 +22,7 @@
         "items": [
           {
             "items": ["minecraft:oak_sapling"],
-            "count": {
-              "min": 4,
-              "max": 4
-            }
+            "count": 4
           }
         ]
       }

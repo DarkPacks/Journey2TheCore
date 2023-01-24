@@ -33,6 +33,7 @@
     "turkeydevutil:greed_silver_ore",
     "turkeydevutil:sugar_copper_ore",
     "turkeydevutil:sugar_iron_ore",
-    "turkeydevutil:sugar_redstone_ore"
+    "turkeydevutil:sugar_redstone_ore",
+    "chancecubes:chance_cube"
   ]
 }

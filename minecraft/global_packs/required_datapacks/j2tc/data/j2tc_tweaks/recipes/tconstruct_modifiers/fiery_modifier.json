@@ -17,5 +17,6 @@
     "name": "tconstruct:fiery",
     "level": 1
   },
+  "allow_crystal": false,
   "max_level": 5
 }

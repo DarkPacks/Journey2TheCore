@@ -6,9 +6,9 @@
   },
   "conditions": {},
   "effects": {
-    "commandPickup": "effect give @p minecraft:instant_damage 2",
-    "commandLoop": "effect give @p minecraft:hunger 1 30",
-    "commandPlace": "effect give @p minecraft:slowness 30 5"
+    "commandPickup": "effect give @s minecraft:instant_damage 2",
+    "commandLoop": "effect give @s minecraft:hunger 1 30",
+    "commandPlace": "effect give @s minecraft:slowness 30 5"
   },
   "render": {
     "translation": "y=4,x=0,z=-24.5",
