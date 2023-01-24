@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["i i", " i "],
+  "key": {
+    "i": {
+      "tag": "j2tc_tweaks:metal_ingots"
+    }
+  },
+  "result": {
+    "item": "minecraft:bucket"
+  }
+}
