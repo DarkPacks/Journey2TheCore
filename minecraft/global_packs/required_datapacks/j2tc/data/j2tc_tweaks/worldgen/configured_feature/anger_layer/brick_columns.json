@@ -1,0 +1,10 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": true,
+    "structures": [
+      "minecraft:brick_column_small",
+      "minecraft:brick_column_large"
+    ]
+  }
+}

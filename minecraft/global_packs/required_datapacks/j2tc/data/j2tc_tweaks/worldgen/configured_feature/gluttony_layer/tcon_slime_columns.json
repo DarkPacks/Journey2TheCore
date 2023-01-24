@@ -1,0 +1,12 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": true,
+    "structures": [
+      "minecraft:tcon_column_blue_small",
+      "minecraft:tcon_column_blue_large",
+      "minecraft:tcon_column_green_small",
+      "minecraft:tcon_column_green_large"
+    ]
+  }
+}

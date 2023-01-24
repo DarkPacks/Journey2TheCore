@@ -122,42 +122,6 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "graveyard:candle_holder",
-                  "Properties": {
-                    "facing": "north"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "graveyard:candle_holder",
-                  "Properties": {
-                    "facing": "east"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "graveyard:candle_holder",
-                  "Properties": {
-                    "facing": "south"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "graveyard:candle_holder",
-                  "Properties": {
-                    "facing": "west"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
                   "Name": "graveyard:creeper_skeleton",
                   "Properties": {
                     "facing": "north"

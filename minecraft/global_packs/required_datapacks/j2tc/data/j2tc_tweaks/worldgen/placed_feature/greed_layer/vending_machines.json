@@ -1,13 +1,13 @@
 {
-  "feature": "j2tc_tweaks:desire_layer/desire_structures",
+  "feature": "j2tc_tweaks:greed_layer/vending_machines",
   "placement": [
     {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 4,
-          "max_inclusive": 24
+          "min_inclusive": 0,
+          "max_inclusive": 16
         }
       }
     },
@@ -22,10 +22,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 402
+          "absolute": 133
         },
         "max_inclusive": {
-          "absolute": 520
+          "absolute": 264
         }
       }
     },
@@ -33,39 +33,31 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_block_tag",
+        "offset": [-1, -1, 0],
+        "tag": "j2tc_tweaks:greed_layer_surface"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "offset": [0, -1, -1],
+        "tag": "j2tc_tweaks:greed_layer_surface"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "offset": [0, -1, 0],
+        "tag": "j2tc_tweaks:greed_layer_surface"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
         "offset": [0, 0, 0],
-        "tag": "j2tc_tweaks:desire_layer_feature_placement_on_top"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_block_tag",
-        "offset": [3, 0, 0],
-        "tag": "j2tc_tweaks:desire_layer_feature_placement_on_top"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_block_tag",
-        "offset": [0, 0, 5],
-        "tag": "j2tc_tweaks:desire_layer_feature_placement_on_top"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_block_tag",
-        "offset": [3, 0, 5],
-        "tag": "j2tc_tweaks:desire_layer_feature_placement_on_top"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "offset": [0, 1, 0],
         "blocks": "minecraft:air"
       }
     },
@@ -73,7 +65,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [3, 1, 0],
+        "offset": [1, 0, 0],
         "blocks": "minecraft:air"
       }
     },
@@ -81,7 +73,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [0, 1, 5],
+        "offset": [0, 0, 1],
         "blocks": "minecraft:air"
       }
     },
@@ -89,7 +81,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [3, 1, 5],
+        "offset": [0, 1, 1],
         "blocks": "minecraft:air"
       }
     },
@@ -97,31 +89,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [0, 2, 0],
-        "blocks": "minecraft:air"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "offset": [3, 2, 0],
-        "blocks": "minecraft:air"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "offset": [0, 2, 5],
-        "blocks": "minecraft:air"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "offset": [3, 2, 5],
+        "offset": [1, 1, 0],
         "blocks": "minecraft:air"
       }
     }
