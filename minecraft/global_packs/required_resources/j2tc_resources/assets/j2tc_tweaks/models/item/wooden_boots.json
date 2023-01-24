@@ -1,0 +1,9 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "j2tc_tweaks:items/wooden_boots",
+    "broken": "j2tc_tweaks:items/broken_wooden_boots"
+  },
+  "first_modifiers": ["tconstruct:golden"]
+}
