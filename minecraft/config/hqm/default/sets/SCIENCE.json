@@ -307,8 +307,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "cyclic:experience_food",
-          "Count": 16
+          "id": "treasurebags:treasure_bag",
+          "Count": 2,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
         }
       ],
       "rewardchoice": [],

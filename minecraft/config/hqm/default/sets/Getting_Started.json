@@ -121,7 +121,7 @@
       "icon": {
         "id": "tconstruct:travelers_helmet",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
       },
       "tasks": [
         {
@@ -145,24 +145,29 @@
         {
           "id": "tconstruct:travelers_helmet",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
         }
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Slurping\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:slurping\"}"
+          "tag": "{modifier:\"tconstruct:slurping\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Zoom\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:zoom\"}"
+          "tag": "{modifier:\"tconstruct:zoom\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:revitalizing\"}"
+          "tag": "{modifier:\"tconstruct:diamond\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:thorns\"}"
         }
       ],
       "commandrewards": []
@@ -597,7 +602,7 @@
       "icon": {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stripping\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":95.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stripping\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":95.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
       },
       "tasks": [
         {
@@ -627,19 +632,24 @@
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:haste\"}"
+          "tag": "{modifier:\"tconstruct:haste\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:luck\"}"
+          "tag": "{modifier:\"tconstruct:luck\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:reinforced\"}"
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:sharpness\"}"
         }
       ],
       "commandrewards": []
@@ -864,7 +874,7 @@
         {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         },
         {
           "id": "hardcorequesting:quarterheart",
@@ -1046,7 +1056,7 @@
       "icon": {
         "id": "tconstruct:travelers_leggings",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
       },
       "tasks": [
         {
@@ -1070,24 +1080,29 @@
         {
           "id": "tconstruct:travelers_leggings",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
         }
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:shield_strap\"}"
+          "tag": "{modifier:\"tconstruct:speedy\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:pockets\"}"
+          "tag": "{modifier:\"tconstruct:pockets\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:speedy\"}"
+          "tag": "{modifier:\"tconstruct:shield_strap\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
         }
       ],
       "commandrewards": []
@@ -1133,7 +1148,7 @@
         {
           "id": "tconstruct:flint_and_brick",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_multipliers:{},tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
         }
       ],
       "rewardchoice": [
@@ -1557,7 +1572,7 @@
       "icon": {
         "id": "tconstruct:travelers_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
       },
       "tasks": [
         {
@@ -1581,7 +1596,7 @@
         {
           "id": "tconstruct:travelers_chestplate",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":160.0f}}"
         }
       ],
       "rewardchoice": [
@@ -1654,7 +1669,7 @@
           "Count": 32
         },
         {
-          "id": "create:tree_fertilizer",
+          "id": "thermal:compost",
           "Count": 32
         }
       ],
@@ -1988,9 +2003,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Silk Touch\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:silky\"}"
+          "tag": "{modifier:\"tconstruct:silky\"}"
         }
       ],
       "rewardchoice": [],
@@ -2120,7 +2135,7 @@
       "icon": {
         "id": "j2tc_tweaks:cobblestone_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
       },
       "tasks": [
         {
@@ -2130,28 +2145,28 @@
               "item": {
                 "id": "j2tc_tweaks:cobblestone_helmet",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
               }
             },
             {
               "item": {
                 "id": "j2tc_tweaks:cobblestone_chestplate",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{abilities:1,defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
               }
             },
             {
               "item": {
                 "id": "j2tc_tweaks:cobblestone_leggings",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":104.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":104.0f,\"tconstruct:knockback_resistance\":0.3f}}"
               }
             },
             {
               "item": {
                 "id": "j2tc_tweaks:cobblestone_boots",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_multipliers:{},tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
               }
             }
           ]
@@ -2351,7 +2366,7 @@
       "icon": {
         "id": "j2tc_tweaks:wooden_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
       },
       "tasks": [
         {
@@ -2361,28 +2376,28 @@
               "item": {
                 "id": "j2tc_tweaks:wooden_helmet",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":56.0f,\"tconstruct:knockback_resistance\":0.075f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":56.0f,\"tconstruct:knockback_resistance\":0.075f}}"
               }
             },
             {
               "item": {
                 "id": "j2tc_tweaks:wooden_chestplate",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{abilities:1,defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
               }
             },
             {
               "item": {
                 "id": "j2tc_tweaks:wooden_leggings",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":92.0f,\"tconstruct:knockback_resistance\":0.075f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":92.0f,\"tconstruct:knockback_resistance\":0.075f}}"
               }
             },
             {
               "item": {
                 "id": "j2tc_tweaks:wooden_boots",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_multipliers:{},tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":48.0f,\"tconstruct:knockback_resistance\":0.075f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":48.0f,\"tconstruct:knockback_resistance\":0.075f}}"
               }
             }
           ]
@@ -2417,7 +2432,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You\u0027ll need to unlock those inventory slots to gain more inventory space. Use Experience Confection to unlock 1 slot. The cost increases for every slot you unlock.",
+        "text": "You\u0027ll need to unlock those inventory slots to gain more inventory space. Use Lanyards to unlock 1 slot. The cost increases for every slot you unlock.",
         "isTranslationKey": false
       },
       "x": 44,
@@ -2761,7 +2776,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Go mine copper! \n\nY\u003d265 to Y\u003d620\n\nThe safe can hold items for you so you can access them from another World. Just in case you plan on dying a lot and need to help your future self!",
+        "text": "Go mine copper! \n\nY\u003d397 to Y\u003d620\n\nThe safe can hold items for you so you can access them from another World. Just in case you plan on dying a lot and need to help your future self!",
         "isTranslationKey": false
       },
       "x": 174,
@@ -2885,24 +2900,24 @@
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:haste\"}"
+          "tag": "{modifier:\"tconstruct:haste\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:luck\"}"
+          "tag": "{modifier:\"tconstruct:luck\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:reinforced\"}"
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:glowing\"}"
+          "tag": "{modifier:\"tconstruct:glowing\"}"
         }
       ],
       "commandrewards": []
@@ -3464,7 +3479,7 @@
       "icon": {
         "id": "tconstruct:travelers_boots",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
       },
       "tasks": [
         {
@@ -3488,29 +3503,29 @@
         {
           "id": "tconstruct:travelers_boots",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
         }
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Bouncy\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:bouncy\"}"
+          "tag": "{modifier:\"tconstruct:feather_falling\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Double Jump\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:double_jump\"}"
+          "tag": "{modifier:\"tconstruct:step_up\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Flamewake\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:flamewake\"}"
+          "tag": "{modifier:\"tconstruct:path_maker\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Feather Falling\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:feather_falling\"}"
+          "tag": "{modifier:\"tconstruct:springy\"}"
         }
       ],
       "commandrewards": []

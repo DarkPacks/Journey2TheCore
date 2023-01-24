@@ -108,8 +108,8 @@
         "text": "You can dual wield daggers",
         "isTranslationKey": false
       },
-      "x": 253,
-      "y": 55,
+      "x": 238,
+      "y": 56,
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
@@ -150,24 +150,24 @@
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:sharpness\"}"
+          "tag": "{modifier:\"tconstruct:sharpness\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:knockback\"}"
+          "tag": "{modifier:\"tconstruct:knockback\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:fiery\"}"
+          "tag": "{modifier:\"tconstruct:necrotic\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:necrotic\"}"
+          "tag": "{modifier:\"tconstruct:haste\"}"
         }
       ],
       "commandrewards": []
@@ -482,12 +482,81 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Well Fed\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:well_fed\"}"
+          "tag": "{modifier:\"tconstruct:well_fed\"}"
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e1a3ba11-774a-4d65-9fa9-f0a39ba77861",
+      "name": {
+        "text": "Shortbow",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 301,
+      "y": 29,
+      "icon": {
+        "id": "tinkers_things:shortbow",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":240.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tinkers_things:shortbow",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":240.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:arrow",
+          "Count": 32
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\",LootTable:\"j2tc_tweaks:treasure_bags/tcon_modifier_books\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:bow_limb",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bamboo\"}"
+        },
+        {
+          "id": "tconstruct:bow_limb",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:slimewood\"}"
+        },
+        {
+          "id": "tconstruct:bowstring",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:darkthread\"}"
+        },
+        {
+          "id": "tconstruct:bowstring",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:skyslime_vine\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -722,9 +791,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Color\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:color_gilded\"}"
+          "tag": "{modifier:\"tconstruct:color_gilded\"}"
         }
       ],
       "rewardchoice": [],
@@ -830,7 +899,28 @@
           "Count": 1
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:reach\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:silky\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:soulbound\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:bucketing\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -892,8 +982,8 @@
         "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
-      "x": 277,
-      "y": 55,
+      "x": 264,
+      "y": 56,
       "icon": {
         "id": "tconstruct:kama",
         "Count": 1,
@@ -1046,8 +1136,8 @@
         "text": "Crossbow is probably important so you don\u0027t die as much!",
         "isTranslationKey": false
       },
-      "x": 301,
-      "y": 55,
+      "x": 264,
+      "y": 29,
       "icon": {
         "id": "tconstruct:crossbow",
         "Count": 1,
@@ -1071,7 +1161,9 @@
       "prerequisites": [
         "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
       ],
-      "optionlinks": [],
+      "optionlinks": [
+        "e1a3ba11-774a-4d65-9fa9-f0a39ba77861"
+      ],
       "reward": [
         {
           "id": "minecraft:arrow",
@@ -1215,7 +1307,7 @@
       "icon": {
         "id": "tconstruct:plate_leggings",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1245,7 +1337,7 @@
         {
           "id": "tconstruct:plate_leggings",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":450.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1407,8 +1499,8 @@
         "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
-      "x": 229,
-      "y": 55,
+      "x": 206,
+      "y": 56,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -1448,24 +1540,24 @@
       ],
       "rewardchoice": [
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:sharpness\"}"
+          "tag": "{modifier:\"tconstruct:sharpness\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:knockback\"}"
+          "tag": "{modifier:\"tconstruct:knockback\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:fiery\"}"
+          "tag": "{modifier:\"tconstruct:necrotic\"}"
         },
         {
-          "id": "turkeydevutil:book",
+          "id": "tconstruct:modifier_crystal",
           "Count": 1,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Use this book to add a modifier\"}\u0027,\u0027{\"text\":\"to Tinkers\\\u0027 Construct Gear\"}\u0027],Name:\u0027{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}\u0027},modifier_book:\"tconstruct:necrotic\"}"
+          "tag": "{modifier:\"tconstruct:haste\"}"
         }
       ],
       "commandrewards": []
@@ -1539,7 +1631,7 @@
       "icon": {
         "id": "tconstruct:plate_boots",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1569,7 +1661,7 @@
         {
           "id": "tconstruct:plate_boots",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":390.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1813,7 +1905,7 @@
       "icon": {
         "id": "tconstruct:plate_chestplate",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
       },
       "tasks": [
         {
@@ -1838,7 +1930,7 @@
         {
           "id": "tconstruct:plate_chestplate",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":480.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1859,7 +1951,7 @@
       "icon": {
         "id": "tconstruct:plate_helmet",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:nearsighted\"}],tic_multipliers:{},tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f},tic_upgrades:[{level:1b,name:\"tconstruct:nearsighted\"}]}"
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:nearsighted\"}],tic_persistent_data:{abilities:1b,defense:4b,upgrades:1b},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f},tic_upgrades:[{level:1b,name:\"tconstruct:nearsighted\"}]}"
       },
       "tasks": [
         {
@@ -1884,7 +1976,7 @@
         {
           "id": "tconstruct:plate_helmet",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{},tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1,defense:4,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:durability\":330.0f,\"tconstruct:knockback_resistance\":0.1f}}"
         }
       ],
       "rewardchoice": [],
@@ -1928,12 +2020,17 @@
         }
       ],
       "prerequisites": [
-        "e56945ce-6a1d-449a-933a-ed8c1479bdca"
+        "e56945ce-6a1d-449a-933a-ed8c1479bdca",
+        "e1a3ba11-774a-4d65-9fa9-f0a39ba77861"
       ],
       "optionlinks": [],
       "reward": [
         {
           "id": "minecraft:feather",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:arrow",
           "Count": 16
         }
       ],
