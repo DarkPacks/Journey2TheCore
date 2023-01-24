@@ -1,10 +1,24 @@
 {
   "blockGroups": [
     ["tag:minecraft:leaves"],
-    ["tag:minecraft:dirt_like"],
+    ["tag:minecraft:dirt"],
+    [
+      "minecraft:dirt",
+      "minecraft:rooted_dirt",
+      "minecraft:podzol",
+      "rechiseled:dirt_muddy",
+      "cobblestoney:clay_silt"
+    ],
     ["tag:minecraft:logs"],
     ["tag:minecraft:flower_pots"],
-    ["minecraft:stone", "minecraft:infested_stone"],
+    [
+      "minecraft:stone",
+      "rechiseled:dirt_muddy",
+      "minecraft:infested_stone",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite"
+    ],
     ["minecraft:cobblestone", "minecraft:infested_cobblestone"],
     ["minecraft:stone_bricks", "minecraft:infested_stone_bricks"],
     [
@@ -15,8 +29,7 @@
     [
       "minecraft:chiseled_stone_bricks",
       "minecraft:infested_chiseled_stone_bricks"
-    ],
-    ["minecraft:rooted_dirt", "cobblestoney:clay_silt", "rechiseled:dirt_muddy"]
+    ]
   ],
   "strictSubtypes": [
     "tag:minecraft:crops",

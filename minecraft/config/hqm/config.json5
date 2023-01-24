@@ -13,7 +13,7 @@
 	// Settings related to server start & modes
 	"Starting": {
 		// If set to true, new worlds will automatically activate Hardcore mode
-		"AUTO_HARDCORE": true,
+		"AUTO_HARDCORE": false,
 		// If set to true, new worlds will automatically activate Questing mode
 		"AUTO_QUESTING": true,
 	},

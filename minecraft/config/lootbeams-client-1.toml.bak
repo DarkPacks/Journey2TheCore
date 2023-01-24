@@ -16,21 +16,21 @@
 	beam_y_offset = 0.0
 	#Transparency of the Loot Beam.
 	#Range: 0.0 ~ 1.0
-	beam_alpha = 0.85
+	beam_alpha = 0.75
 	#How close the player has to be to see the beam. (note: ItemEntities stop rendering at 24 blocks, so that is the limit for beams)
 	#Range: 0.0 ~ 24.0
-	render_distance = 24.0
+	render_distance = 20.0
 	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
 	color_overrides = []
 
 	#Item Config
 	["Loot Beams".Items]
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-		all_items = true
+		all_items = false
 		#If Loot Beams should only be rendered on items with rarity.
-		only_rare = false
+		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
-		only_equipment = false
+		only_equipment = true
 		#Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
 		whitelist = []
 		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.

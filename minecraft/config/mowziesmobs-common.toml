@@ -253,7 +253,7 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 5
+			generation_separation = 10
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_max = 250
