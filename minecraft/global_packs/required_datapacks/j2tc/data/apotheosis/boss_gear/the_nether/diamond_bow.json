@@ -1,5 +1,6 @@
 {
   "weight": 70,
+  "stages": ["quest_9"],
   "mainhands": [
     {
       "weight": 3,
