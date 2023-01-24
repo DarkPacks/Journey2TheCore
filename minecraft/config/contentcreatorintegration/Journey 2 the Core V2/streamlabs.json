@@ -44,7 +44,8 @@
                 "name": "Rearrange Hotbar",
                 "type": "constant"
               }
-            ]
+            ],
+            "allowsOtherEventsToTrigger": true
           },
           {
             "name": "33 Bits",
@@ -127,6 +128,83 @@
             "allowsOtherEventsToTrigger": true
           },
           {
+            "name": "100 Bits",
+            "conditions": [
+              {
+                "amount": 100.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Fake Crash Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "400 Bits",
+            "conditions": [
+              {
+                "amount": 400.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Chance Cube Surround",
+                "type": "constant",
+                "weight": 10
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "events": [
+                          {
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "name": "Countdown 5 (Random Color)",
+                                "type": "constant"
+                              }
+                            ],
+                            "allowsOtherEventsToTrigger": true
+                          },
+                          {
+                            "name": "Spawn Entities",
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "times": "10",
+                                "outcome": {
+                                  "name": "Impostore - Chance Cubes Event",
+                                  "type": "constant"
+                                },
+                                "type": "repeat"
+                              }
+                            ],
+                            "singleOutcomeOnly": true,
+                            "delay": "120"
+                          }
+                        ],
+                        "type": "event"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "weight": 1
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "singleOutcomeOnly": true
+          },
+          {
             "name": "500 Bits",
             "conditions": [
               {
@@ -143,6 +221,38 @@
             "allowsOtherEventsToTrigger": true
           },
           {
+            "name": "777 Bits",
+            "conditions": [
+              {
+                "amount": 777.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Armor Stand (teleport)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "778 Bits",
+            "conditions": [
+              {
+                "amount": 778.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Random Downward Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
             "name": "1000 Bits",
             "conditions": [
               {
@@ -153,22 +263,6 @@
             "outcomes": [
               {
                 "name": "Inventory Bomb",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "100 Bits",
-            "conditions": [
-              {
-                "amount": 100.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Fake Crash Array",
                 "type": "constant"
               }
             ],
@@ -300,22 +394,6 @@
             "allowsOtherEventsToTrigger": true
           },
           {
-            "name": "400 Bits",
-            "conditions": [
-              {
-                "amount": 400.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Countdown to Chance Cube Surround",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
             "name": "200 Bits",
             "conditions": [
               {
@@ -359,22 +437,6 @@
             "outcomes": [
               {
                 "name": "Shuffle Inventory",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "777 Bits",
-            "conditions": [
-              {
-                "amount": 777.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Spawn Armor Stand (teleport)",
                 "type": "constant"
               }
             ],
@@ -502,22 +564,6 @@
                 "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
                 "executeAsSelf": true,
                 "type": "command"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "778 Bits",
-            "conditions": [
-              {
-                "amount": 778.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Random Downward Teleport",
-                "type": "constant"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -754,6 +800,184 @@
             "allowsOtherEventsToTrigger": true
           },
           {
+            "name": "Add to Raidmeter",
+            "conditions": [
+              {
+                "calc": "x",
+                "value1": "$amount",
+                "value2": "100",
+                "variableName": "tipMathed",
+                "type": "math"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/raidmeter modify quest add $tipMathed",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.25 Tip",
+            "conditions": [
+              {
+                "amount": 1.25,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.50 Tip",
+            "conditions": [
+              {
+                "amount": 1.5,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2.00 Tip",
+            "conditions": [
+              {
+                "amount": 2.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Mount Player on Entity",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "4.00 Tip",
+            "conditions": [
+              {
+                "amount": 4.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Chance Cube Surround",
+                "type": "constant",
+                "weight": 10
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "events": [
+                          {
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "name": "Countdown 5 (Random Color)",
+                                "type": "constant"
+                              }
+                            ],
+                            "allowsOtherEventsToTrigger": true
+                          },
+                          {
+                            "name": "Spawn Entities",
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "times": "10",
+                                "outcome": {
+                                  "name": "Impostore - Chance Cubes Event",
+                                  "type": "constant"
+                                },
+                                "type": "repeat"
+                              }
+                            ],
+                            "singleOutcomeOnly": true,
+                            "delay": "120"
+                          }
+                        ],
+                        "type": "event"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true,
+                    "singleOutcomeOnly": true
+                  }
+                ],
+                "type": "event",
+                "weight": 1
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "5.00 Tip",
+            "conditions": [
+              {
+                "amount": 5.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "value500",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.66 Tip",
+            "conditions": [
+              {
+                "amount": 6.66,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Summon Angry Bear",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "7.77 Tip",
+            "conditions": [
+              {
+                "amount": 7.77,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Armor Stand (teleport)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
             "name": "18.12 Tip",
             "conditions": [
               {
@@ -806,47 +1030,6 @@
             "allowsOtherEventsToTrigger": true
           },
           {
-            "name": "181.20 Tip",
-            "conditions": [
-              {
-                "amount": 181.2,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "times": "10",
-                "outcome": {
-                  "name": "Countdown to Super Charged Creeper",
-                  "type": "constant"
-                },
-                "type": "repeat"
-              },
-              {
-                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers ~ ~ ~",
-                "executeAsSelf": true,
-                "type": "command"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "6.66 Tip",
-            "conditions": [
-              {
-                "amount": 6.66,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Summon Angry Bear",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
             "name": "15.00 Tip",
             "conditions": [
               {
@@ -858,55 +1041,6 @@
               {
                 "name": "Spawn Pillager Patrol",
                 "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "4.00 Tip",
-            "conditions": [
-              {
-                "amount": 4.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Countdown to Chance Cube Surround",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "2.00 Tip",
-            "conditions": [
-              {
-                "amount": 2.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Mount Player on Entity",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "1.50 Tip",
-            "conditions": [
-              {
-                "amount": 1.5,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Push Player (Multiple)",
-                "type": "constant",
-                "displayName": "Push Player"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -928,23 +1062,7 @@
             "allowsOtherEventsToTrigger": true
           },
           {
-            "name": "7.77 Tip",
-            "conditions": [
-              {
-                "amount": 7.77,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Spawn Armor Stand (teleport)",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "$25 Tip",
+            "name": "25.00 Tip",
             "conditions": [
               {
                 "amount": 25.0,
@@ -955,58 +1073,6 @@
               {
                 "name": "Change Language Event Array",
                 "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "1.25 Tip",
-            "conditions": [
-              {
-                "amount": 1.25,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Change Language Event Array",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "5.00 Tip",
-            "conditions": [
-              {
-                "amount": 5.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "value500",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "Add to Raidmeter",
-            "conditions": [
-              {
-                "calc": "x",
-                "value1": "$amount",
-                "value2": "100",
-                "variableName": "tipMathed",
-                "type": "math"
-              }
-            ],
-            "outcomes": [
-              {
-                "command": "/raidmeter modify quest add $tipMathed",
-                "executeAsSelf": true,
-                "type": "command"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -1097,6 +1163,7 @@
             "singleOutcomeOnly": true
           },
           {
+            "name": "7.78 Tip",
             "conditions": [
               {
                 "amount": 7.78,
@@ -1107,6 +1174,31 @@
               {
                 "name": "Random Downward Teleport",
                 "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "181.20 Tip",
+            "conditions": [
+              {
+                "amount": 181.2,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Countdown to Super Charged Creeper",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              },
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers ~ ~ ~",
+                "executeAsSelf": true,
+                "type": "command"
               }
             ],
             "allowsOtherEventsToTrigger": true

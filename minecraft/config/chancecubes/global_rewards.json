@@ -117,10 +117,10 @@
     "chancecubes:5_prongs": false,
     "chancecubes:inventory_bomb": true,
     "chancecubes:nuke": false,
-    "chancecubes:random_teleport": true,
+    "chancecubes:random_teleport": false,
     "chancecubes:rotten_food": true,
     "chancecubes:thrown_in_air": true,
-    "chancecubes:torches_to_creepers": true,
+    "chancecubes:torches_to_creepers": false,
     "chancecubes:traveller": true,
     "chancecubes:troll_hole": true,
     "chancecubes:saw_nothing_diamond": true,
@@ -240,6 +240,9 @@
     "start_quest_1": true,
     "start_quest_2": true,
     "start_quest_3": true,
-    "Chance Cubes Horde": true
+    "Chance Cubes Horde": true,
+    "turkey the dev": true,
+    "random_downward_teleport": true,
+    "random_horizontal_teleport": true
   }
 }

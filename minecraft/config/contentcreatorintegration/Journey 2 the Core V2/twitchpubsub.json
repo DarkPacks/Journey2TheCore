@@ -348,7 +348,7 @@
                 "type": "command"
               },
               {
-                "command": "/data merge entity @e[type=gateways:gateway,distance=..200,limit=1,sort=nearest] {ticks_active: 9999}",
+                "command": "/data merge entity @e[type=gateways:gateway,distance=..1000,limit=1,sort=nearest] {ticks_active: 9999}",
                 "executeAsSelf": true,
                 "type": "command",
                 "displayName": "Destroys Gateway"
@@ -359,7 +359,7 @@
                     "conditions": [],
                     "outcomes": [
                       {
-                        "command": "/data merge entity @e[type=gateways:gateway,distance=..250,limit=1,sort=nearest] {ticks_active: 9999}",
+                        "command": "/data merge entity @e[type=gateways:gateway,distance=..1000,limit=1,sort=nearest] {ticks_active: 9999}",
                         "executeAsSelf": true,
                         "type": "command",
                         "displayName": "Destroys Current Gateway (2nd time for backup)"
@@ -426,19 +426,19 @@
                         "displayName": "Increment Raid Meter"
                       },
                       {
-                        "command": "/execute store result entity @e[type=gateways:gateway,distance=..64,limit=1,sort=nearest] wave int 1.0 run scoreboard players get @s hype_train_level",
+                        "command": "/execute store result entity @e[type=gateways:gateway,distance=..200,limit=1,sort=nearest] wave int 1.0 run scoreboard players get @s hype_train_level",
                         "executeAsSelf": true,
                         "type": "command",
                         "displayName": "Sets Gateway to Wave"
                       },
                       {
-                        "command": "/data merge entity @e[type=gateways:gateway,distance=..64,limit=1,sort=nearest] {active: 0b}",
+                        "command": "/data merge entity @e[type=gateways:gateway,distance=..200,limit=1,sort=nearest] {active: 0b}",
                         "executeAsSelf": true,
                         "type": "command",
                         "displayName": "Restarts the Pre Wave Timer"
                       },
                       {
-                        "command": "/data merge entity @e[type=gateways:gateway,distance=..64,limit=1,sort=nearest] {ticks_active: 5600}",
+                        "command": "/data merge entity @e[type=gateways:gateway,distance=..200,limit=1,sort=nearest] {ticks_active: 5600}",
                         "executeAsSelf": true,
                         "type": "command",
                         "displayName": "Sets Pre Wave Timer for 20 Seconds Left"
@@ -463,6 +463,54 @@
         ]
       },
       "for": "hype-train-events-v1"
+    },
+    {
+      "types": {
+        "channel-bits-events-v2": [
+          {
+            "name": "100 bits",
+            "conditions": [
+              {
+                "amount": 100.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/say Darkphan Rocks! $user_name $display_name",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          }
+        ]
+      },
+      "for": "channel-bits-events-v2"
+    },
+    {
+      "types": {
+        "channel-subscribe-events-v1": [
+          {
+            "name": "Tier 1 Sub",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "1000",
+                "type": "variableCheck"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/say $user_name $display_name has subbed! This is a test",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "for": "channel-subscribe-events-v1"
     }
   ],
   "init": [],

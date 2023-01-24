@@ -27,6 +27,40 @@
       ],
       "type": "event"
     },
+    "Impostore - Chance Cubes Event": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
+              "type": "constant"
+            }
+          ],
+          "outcomes": [
+            {
+              "events": [
+                {
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "command": "/summon impostore:impost_ore $smallEntitySpaceCheckCloseToPlayer {BlockState: {Properties: {texture: \"default\"}, Name: \"chancecubes:chance_cube\"}}",
+                      "executeAsSelf": true,
+                      "disableChatCommandFallback": true,
+                      "type": "command"
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true,
+                  "singleOutcomeOnly": true
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
     "Zombie Spawning Event": {
       "events": [
         {

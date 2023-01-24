@@ -31,11 +31,131 @@
       }
     ]
   },
+  "random_downward_teleport": {
+    "chance": 0,
+    "Title": [
+      {
+        "type": "TITLE",
+        "message": { "text": "5" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "4" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 20
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "3" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 40
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "2" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 60
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "1" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 80
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "0..." },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 100
+      }
+    ],
+    "Command": [
+      {
+        "command": "/function bossbar:bossbar/random_teleport/downward_teleport_chance_cubes",
+        "delay": 120
+      }
+    ]
+  },
+  "random_horizontal_teleport": {
+    "chance": 0,
+    "Title": [
+      {
+        "type": "TITLE",
+        "message": { "text": "5" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "4" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 20
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "3" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 40
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "2" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 60
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "1" },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 80
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "0..." },
+        "displayTime": 19,
+        "range": 32,
+        "delay": 100
+      }
+    ],
+    "Command": [
+      {
+        "command": "/swapthings randomteleport @s \"Chance Cubes\" 144 480 0 0 144 480",
+        "delay": 120
+      }
+    ]
+  },
   "Snapping Turtle": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "What do you call an alligator in a vest? An investigator!"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "What do you call an alligator in a vest? An investigator!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Command": [
@@ -76,12 +196,39 @@
   },
   "Sticks": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "How many books can you fit into an empty backpack?"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 79,
+        "range": 32,
+        "delay": 0
       },
       {
-        "message": "One. Because after that it\u2019s not empty anymore.",
+        "type": "SUBTITLE",
+        "message": {
+          "text": "How many books can you fit into an empty backpack?",
+          "color": "gold"
+        },
+        "displayTime": 79,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 80
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "One. Because after that it\u2019s not empty anymore.",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
         "delay": 80
       }
     ],
@@ -102,9 +249,23 @@
   },
   "Sweep!": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Sweep Sweep Sweep!"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "Sweep Sweep Sweep!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -165,10 +326,23 @@
         }
       }
     ],
-    "Message": [
+    "Title": [
       {
-        "message": "Lets go on a journey!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "Lets go on a journey!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ]
   },
@@ -227,19 +401,32 @@
         }
       }
     ],
-    "Message": [
+    "Title": [
       {
-        "message": "SPARTAAA!!!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": { "text": "SPARTAAA!!!", "color": "gold" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ]
   },
   "Endermen Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -247,32 +434,39 @@
         "entity": {
           "id": "minecraft:enderman"
         },
-        "copies": 10
+        "copies": 10,
+        "delay": 60
       }
     ]
   },
   "Chance Cubes Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Command": [
       {
         "command": "/summon impostore:impost_ore ~ ~ ~ {BlockState: {Properties: {texture: \"default\"}, Name: \"chancecubes:chance_cube\"}}",
         "copies": 10,
-        "delay": 80
+        "delay": 60
       }
     ]
   },
   "Witch Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -280,16 +474,20 @@
         "entity": {
           "id": "minecraft:witch"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Skeleton Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -297,16 +495,20 @@
         "entity": {
           "id": "minecraft:skeleton"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Drowned Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -314,16 +516,20 @@
         "entity": {
           "id": "minecraft:drowned"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Endermite Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -331,16 +537,20 @@
         "entity": {
           "id": "minecraft:endermite"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Hoglin Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -348,16 +558,20 @@
         "entity": {
           "id": "minecraft:hoglin"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Husk Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -365,16 +579,20 @@
         "entity": {
           "id": "minecraft:husk"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Phantom Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -382,16 +600,20 @@
         "entity": {
           "id": "minecraft:phantom"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Piglin Brute Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -399,16 +621,20 @@
         "entity": {
           "id": "minecraft:piglin_brute"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Piglin Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -416,16 +642,20 @@
         "entity": {
           "id": "minecraft:piglin"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Pillager Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -433,16 +663,20 @@
         "entity": {
           "id": "minecraft:pillager"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Spider Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -450,16 +684,20 @@
         "entity": {
           "id": "minecraft:spider"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Stray Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -467,16 +705,20 @@
         "entity": {
           "id": "minecraft:stray"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
   "Strider Horde": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Release the horde!",
-        "range": 25
+        "type": "TITLE",
+        "message": { "text": "Release the Horde!", "color": "dark_red" },
+        "displayTime": 50,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Entity": [
@@ -484,7 +726,8 @@
         "entity": {
           "id": "minecraft:strider"
         },
-        "copies": 8
+        "copies": 8,
+        "delay": 60
       }
     ]
   },
@@ -522,9 +765,23 @@
   },
   "Mimic": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Free loot!"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "Free loot!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Command": [
@@ -535,9 +792,23 @@
   },
   "Elevators": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Working on an elevator has its ups and downs!"
+        "type": "TITLE",
+        "message": { "text": "Working on an elevator" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "has its ups and downs!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -642,9 +913,23 @@
   "Bacon Portal!": {
     "chance": 0,
     "dependencies": {},
-    "Message": [
+    "Title": [
       {
-        "message": "YUMMY DELICIOUS BACON!"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "YUMMY DELICIOUS BACON!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -739,9 +1024,23 @@
   "cardsplosion": {
     "chance": 0,
     "dependencies": {},
-    "Message": [
+    "Title": [
       {
-        "message": "CARDSPLOSION!"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -835,9 +1134,23 @@
   },
   "Patterns": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "%%[My mind is blank!,I sense a pattern here]%%"
+        "type": "TITLE",
+        "message": { "text": "My mind is blank!" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "I sense a pattern here",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -851,9 +1164,23 @@
   },
   "Sponges": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "What is yellow and spongy? A sponge."
+        "type": "TITLE",
+        "message": { "text": "What is yellow and spongy?" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "A sponge.",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -873,9 +1200,23 @@
   },
   "Clock": {
     "chance": 0,
-    "Message": [
+    "Title": [
       {
-        "message": "Even a broken clock is correct twice a day!"
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "Even a broken clock is correct twice a day!",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 0
       }
     ],
     "Item": [
@@ -891,10 +1232,46 @@
     "chance": 0,
     "Message": [
       {
-        "message": "What do you call a conversation between two garbage cans?"
+        "message": ""
       },
       {
-        "message": "Trash Talk.",
+        "message": "",
+        "delay": 120
+      }
+    ],
+    "Title": [
+      {
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 119,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "What do you call a conversation between two garbage cans?",
+          "color": "gold"
+        },
+        "displayTime": 119,
+        "range": 32,
+        "delay": 0
+      },
+      {
+        "type": "TITLE",
+        "message": { "text": "" },
+        "displayTime": 80,
+        "range": 32,
+        "delay": 120
+      },
+      {
+        "type": "SUBTITLE",
+        "message": {
+          "text": "Trash Talk.",
+          "color": "gold"
+        },
+        "displayTime": 80,
+        "range": 32,
         "delay": 120
       }
     ],
@@ -1044,6 +1421,35 @@
       },
       {
         "command": "/loot spawn ~ ~2 ~ loot j2tc_tweaks:treasure_bags/apotheosis_gem"
+      }
+    ]
+  },
+  "turkey the dev": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon player_mobs:player_mob ~ ~ ~ {DeathLootTable:\"j2tc_tweaks:chests/chance_cube_tables/turkeydev\",NoAI:1b,Tags:[\"turkeydev_chancecubes\"],\"Username\":\"TurkeyDev\",CustomNameVisible:1b,CustomName:'{\"text\":\"TurkeyDev\",\"color\":\"#009FBF\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
+        "delay": 0
+      },
+      {
+        "command": "/playsound turkeydevutil:turkey_gobble block @s",
+        "delay": 0
+      },
+      {
+        "command": "/data merge entity @e[distance=..16,limit=1,tag=turkeydev_chancecubes] {CustomName:'{\"text\":\"Made Chance Cubes\",\"color\":\"#009FBF\"}'}",
+        "delay": 120
+      },
+      {
+        "command": "/data merge entity @e[distance=..16,limit=1,tag=turkeydev_chancecubes] {CustomName:'{\"text\":\"Probably blew your base up\",\"color\":\"#009FBF\"}'}",
+        "delay": 180
+      },
+      {
+        "command": "/data merge entity @e[distance=..16,limit=1,tag=turkeydev_chancecubes] {CustomName:'{\"text\":\"YA!\",\"color\":\"#009FBF\"}'}",
+        "delay": 240
+      },
+      {
+        "command": "/data merge entity @e[distance=..16,limit=1,tag=turkeydev_chancecubes] {NoAI:0b,CustomName:'{\"text\":\"GET HIM!\",\"color\":\"#009FBF\"}'}",
+        "delay": 300
       }
     ]
   }
