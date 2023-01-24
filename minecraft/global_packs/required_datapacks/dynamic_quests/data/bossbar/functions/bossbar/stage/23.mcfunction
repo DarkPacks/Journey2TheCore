@@ -1,5 +1,3 @@
-
-
 execute as @s[nbt={OnGround:0b}, tag=!air] run function bossbar:bossbar/tracking_functions/jumping_full_block
 execute as @s[nbt={OnGround:0b}, tag=air] run execute as @s store result score @s player_y_level run data get entity @s Pos[1] 1
 

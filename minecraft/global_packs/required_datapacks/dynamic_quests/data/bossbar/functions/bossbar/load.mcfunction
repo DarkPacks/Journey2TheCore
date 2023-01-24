@@ -55,7 +55,8 @@ scoreboard objectives add inventory_randomize dummy
 scoreboard objectives add damage_dad_joke dummy
 scoreboard objectives add fail_take_damage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add effect_resistance dummy
-
+scoreboard objectives add evasive_items dummy
+scoreboard objectives add butterfingers dummy
 #stage 1
 scoreboard objectives add mined_dirt minecraft.custom:minecraft.mined_tag_minecraft_dirt
 scoreboard objectives add mined_dirt_placed minecraft.custom:minecraft.placed_tag_minecraft_dirt

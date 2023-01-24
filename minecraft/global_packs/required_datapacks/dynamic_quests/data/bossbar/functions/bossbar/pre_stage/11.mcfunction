@@ -8,7 +8,7 @@ scoreboard players reset @s monster_egg_mined_6
 scoreboard players reset @s quest_quantity
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
-execute run bossbar set bar value 0
+bossbar set minecraft:bar players @a[scores={quest_active=1}]
 
 cyclic scoreboard random @s 1 16 quest_quantity
 execute store result bossbar minecraft:bar max run scoreboard players get @s quest_quantity 

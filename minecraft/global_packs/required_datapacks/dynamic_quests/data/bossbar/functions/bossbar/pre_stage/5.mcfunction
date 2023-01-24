@@ -5,7 +5,7 @@ scoreboard players reset @s quest_quantity
 scoreboard players set @s quest_quantity_converted 100
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
-execute run bossbar set bar value 0
+bossbar set minecraft:bar players @a[scores={quest_active=1}]
 
 
 

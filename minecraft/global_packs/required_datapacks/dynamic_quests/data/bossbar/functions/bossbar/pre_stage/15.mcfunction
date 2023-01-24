@@ -5,7 +5,7 @@ scoreboard players reset @s kill_skeleton_2
 scoreboard players reset @s quest_quantity
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
-execute run bossbar set bar value 0
+bossbar set minecraft:bar players @a[scores={quest_active=1}]
 
 
 cyclic scoreboard random @s 3 16 quest_quantity

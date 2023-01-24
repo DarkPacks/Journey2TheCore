@@ -4,7 +4,7 @@ scoreboard players reset @s deal_damage
 scoreboard players reset @s quest_quantity
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
-execute run bossbar set bar value 0
+bossbar set minecraft:bar players @a[scores={quest_active=1}]
 
 
 cyclic scoreboard random @s 100 1001 quest_quantity

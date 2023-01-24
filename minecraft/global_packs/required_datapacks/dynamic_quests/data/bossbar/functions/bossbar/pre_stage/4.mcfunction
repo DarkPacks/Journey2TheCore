@@ -4,6 +4,7 @@ scoreboard players reset @s block_with_shield
 scoreboard players reset @s quest_quantity
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
+bossbar set minecraft:bar players @a[scores={quest_active=1}]
 execute run bossbar set bar value 0
 
 
