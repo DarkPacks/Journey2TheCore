@@ -1,36 +1,7 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "conditions": [
     {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
-    },
-    {
-      "tag": "forge:shards/cloth"
+      "type": "forge:false"
     }
-  ],
-  "result": {
-    "item": "minecraft:string",
-    "count": 2
-  }
+  ]
 }
