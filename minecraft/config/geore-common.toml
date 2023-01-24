@@ -11,7 +11,7 @@
 		coalGeoreMinY = 5
 		#The max Y level that Coal GeOre will generate at [Default: 30]
 		#Range: > 0
-		coalGeoreMaxY = 680
+		coalGeoreMaxY = 665
 		#Coal GeOre Rarity [Default: 60] (The higher the value the rarer)
 		#Range: > 0
 		coalGeoreRarity = 2
