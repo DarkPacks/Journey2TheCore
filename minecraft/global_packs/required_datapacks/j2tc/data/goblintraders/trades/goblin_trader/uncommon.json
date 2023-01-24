@@ -576,6 +576,21 @@
       "price_multiplier": 0.2,
       "max_trades": 4,
       "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "treasurebags:treasure_bag",
+        "count": 1,
+        "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+      },
+      "payment_item": {
+        "item": "hardcorequesting:heart",
+        "count": 1
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 5,
+      "experience": 40
     }
   ]
 }

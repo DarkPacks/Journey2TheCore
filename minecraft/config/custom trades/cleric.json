@@ -129,6 +129,23 @@
       "maxUses": 2,
       "priceMultiplier": 0.1,
       "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "treasurebags:treasure_bag",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+      },
+      "request": {
+        "itemKey": "hardcorequesting:heart",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 5,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
     }
   ]
 }
