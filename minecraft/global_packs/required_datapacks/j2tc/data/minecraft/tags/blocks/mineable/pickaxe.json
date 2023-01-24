@@ -338,6 +338,8 @@
     "ironchest:trapped_copper_chest",
     "ironchest:trapped_crystal_chest",
     "ironchest:trapped_obsidian_chest",
-    "rechiseled:dirt_muddy"
+    "rechiseled:dirt_muddy",
+    "candyworld:cookie_ore",
+    "candyworld:crystallized_sugar_cookie_ore"
   ]
 }
