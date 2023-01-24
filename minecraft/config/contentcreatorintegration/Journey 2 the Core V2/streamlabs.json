@@ -4,18 +4,6 @@
       "types": {
         "bits": [
           {
-            "name": "Chat Message",
-            "conditions": [],
-            "outcomes": [
-              {
-                "message": "Hey $streamer, $user just sent you $amount bits!",
-                "type": "chat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true,
-            "playTime": "-1"
-          },
-          {
             "name": "5 Bits",
             "conditions": [
               {
@@ -181,7 +169,7 @@
                               {
                                 "times": "10",
                                 "outcome": {
-                                  "name": "Impostore - Chance Cubes Event",
+                                  "name": "Spawn Impostore",
                                   "type": "constant"
                                 },
                                 "type": "repeat"
@@ -198,7 +186,7 @@
                   }
                 ],
                 "type": "event",
-                "weight": 1
+                "weight": 100
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -596,158 +584,6 @@
             "allowsOtherEventsToTrigger": true
           }
         ],
-        "subscription": [
-          {
-            "name": "Prime Gaming Subscription",
-            "conditions": [
-              {
-                "variableName": "sub_plan",
-                "variableResult": "Prime",
-                "type": "variableCheck"
-              },
-              {
-                "name": "Chat Color Full Array",
-                "type": "constant"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "value500",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "Tier 1 Twitch Subscription",
-            "conditions": [
-              {
-                "variableName": "sub_plan",
-                "variableResult": "1000",
-                "type": "variableCheck"
-              },
-              {
-                "name": "Chat Color Full Array",
-                "type": "constant"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "value500",
-                "type": "constant"
-              },
-              {
-                "name": "RaidMeter Value 500",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "Tier 2 Twitch Subscription",
-            "conditions": [
-              {
-                "variableName": "sub_plan",
-                "variableResult": "2000",
-                "type": "variableCheck"
-              },
-              {
-                "name": "Chat Color Full Array",
-                "type": "constant"
-              }
-            ],
-            "outcomes": [
-              {
-                "times": "2",
-                "outcome": {
-                  "name": "value500",
-                  "type": "constant"
-                },
-                "type": "repeat",
-                "displayName": ""
-              },
-              {
-                "times": "2",
-                "outcome": {
-                  "name": "RaidMeter Value 500",
-                  "type": "constant"
-                },
-                "type": "repeat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "Tier 3 Twitch Subscription",
-            "conditions": [
-              {
-                "variableName": "sub_plan",
-                "variableResult": "3000",
-                "type": "variableCheck"
-              },
-              {
-                "name": "Chat Color Full Array",
-                "type": "constant"
-              }
-            ],
-            "outcomes": [
-              {
-                "times": "6",
-                "outcome": {
-                  "name": "value500",
-                  "type": "constant"
-                },
-                "type": "repeat"
-              },
-              {
-                "times": "5",
-                "outcome": {
-                  "name": "RaidMeter Value 500",
-                  "type": "constant"
-                },
-                "type": "repeat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "Chat Message for sub",
-            "conditions": [],
-            "outcomes": [
-              {
-                "message": "Hey $streamer, $user just subscribed for $amount months!",
-                "type": "chat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "Colorblind Effect",
-            "conditions": [
-              {
-                "name": "random_number_generator2",
-                "type": "constant"
-              },
-              {
-                "name": "Ticks to Seconds (math)",
-                "type": "constant"
-              },
-              {
-                "name": "Ticks to Seconds but I rounded it",
-                "type": "constant"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Colorblind Full Array FINAL",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true,
-            "playTime": "$rng2",
-            "delay": "10"
-          }
-        ],
         "follow": [
           {
             "conditions": [],
@@ -764,6 +600,7 @@
                 "type": "chat"
               }
             ],
+            "allowsOtherEventsToTrigger": true,
             "playTime": "20"
           }
         ],
@@ -775,7 +612,8 @@
                 "message": "Hey $streamer, $user just raided you with $amount raiders!",
                 "type": "chat"
               }
-            ]
+            ],
+            "allowsOtherEventsToTrigger": true
           }
         ]
       },

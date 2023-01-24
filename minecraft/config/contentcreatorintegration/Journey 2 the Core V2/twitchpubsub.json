@@ -88,10 +88,11 @@
                 "type": "command"
               },
               {
-                "command": "/playsound youarehere:sound.2 neutral $playerName ~ ~ ~ 0.65",
-                "executeAsSelf": true,
-                "type": "command",
-                "displayName": "Play Sound"
+                "clientSide": true,
+                "sound": "youarehere:sound.2",
+                "target": "$playerName",
+                "volume": 0.5,
+                "type": "sound"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -221,10 +222,11 @@
             ],
             "outcomes": [
               {
-                "command": "/playsound minecraft:entity.creeper.primed player @s ~ ~ ~ 5.0",
-                "executeAsSelf": true,
-                "type": "command",
-                "displayName": "Plays sound"
+                "clientSide": true,
+                "sound": "minecraft:entity.creeper.primed",
+                "target": "$playerName",
+                "volume": 5.0,
+                "type": "sound"
               },
               {
                 "outcomes": [
@@ -481,7 +483,20 @@
                 "executeAsSelf": true,
                 "type": "command"
               }
-            ]
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Chat Message Outcome",
+            "conditions": [],
+            "outcomes": [
+              {
+                "command": "Hey $streamer, $user-name just sent you $amount bits!",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "playTime": "-1"
           }
         ]
       },
@@ -490,6 +505,23 @@
     {
       "types": {
         "channel-subscribe-events-v1": [
+          {
+            "name": "Prime Sub",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "Prime",
+                "type": "variableCheck"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Twitch Subscription (Value 500)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
           {
             "name": "Tier 1 Sub",
             "conditions": [
@@ -501,12 +533,79 @@
             ],
             "outcomes": [
               {
-                "command": "/say $user_name $display_name has subbed! This is a test",
+                "name": "Twitch Subscription (Value 500)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 2 Sub",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "2000",
+                "type": "variableCheck"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "2",
+                "outcome": {
+                  "name": "Twitch Subscription (Value 500)",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Tier 3 Sub",
+            "conditions": [
+              {
+                "variableName": "sub_plan",
+                "variableResult": "3000",
+                "type": "variableCheck"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "6",
+                "outcome": {
+                  "name": "Twitch Subscription (Value 500)",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Chat Message Outcome",
+            "conditions": [],
+            "outcomes": [
+              {
+                "command": "Hey $streamer, $display_name just subscribed for $amount months!",
                 "executeAsSelf": true,
                 "type": "command"
               }
             ],
-            "allowsOtherEventsToTrigger": true
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "-1"
+          },
+          {
+            "name": "Colorblind Effect",
+            "conditions": [],
+            "outcomes": [
+              {
+                "name": "(Library) Colorblind Full Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "$rng200to600",
+            "delay": "10"
           }
         ]
       },

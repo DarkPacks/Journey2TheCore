@@ -1,11 +1,85 @@
 {
-  "conditions": {
-    "New Condition": {
-      "type": "null"
-    }
-  },
+  "conditions": {},
   "outcomes": {
-    "Ferrous Wroughtnaut Event": {
+    "Spawn Adult Player Mob": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Space Check - 1x2 SolidBlock Underneath",
+              "type": "constant",
+              "displayName": "Space Check"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon player_mobs:player_mob $entitySpaceCheck {\"Username\":\"$user\",CustomNameVisible:1b,CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Adult Polar Bear": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": []
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Baby Player Mob": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/summon player_mobs:player_mob $canBabySpawn {CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Baby Polar Bear (Angry)": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/summon minecraft:polar_bear $babyBear {Health:75f,CustomNameVisible:1b,Age:-1200,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:75}]}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ]
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Baby Raccoon (Leashed)": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Ferrous Wroughtnaut": {
       "events": [
         {
           "conditions": [
@@ -27,7 +101,7 @@
       ],
       "type": "event"
     },
-    "Impostore - Chance Cubes Event": {
+    "Spawn Impostore": {
       "events": [
         {
           "conditions": [
@@ -61,7 +135,22 @@
       ],
       "type": "event"
     },
-    "Zombie Spawning Event": {
+    "Spawn Purple Slime": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ]
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Zombie": {
       "events": [
         {
           "conditions": [
@@ -92,8 +181,54 @@
           "allowsOtherEventsToTrigger": true
         }
       ],
-      "type": "event",
-      "displayName": "Spawn Zombie (1)"
+      "type": "event"
+    },
+    "Twitch Subscription (Value 500)": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Chat Color Full Array",
+              "type": "constant"
+            }
+          ],
+          "outcomes": [
+            {
+              "condition": {
+                "name": "Space Check - 1x2 SolidBlock Underneath",
+                "type": "constant"
+              },
+              "outcome": {
+                "name": "Spawn Adult Player Mob",
+                "type": "constant"
+              },
+              "conditionNotMetOutcome": {
+                "condition": {
+                  "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
+                  "type": "constant"
+                },
+                "outcome": {
+                  "name": "Spawn Baby Player Mob",
+                  "type": "constant"
+                },
+                "conditionNotMetOutcome": {
+                  "name": "Spawn Purple Slime",
+                  "type": "constant"
+                },
+                "type": "conditional"
+              },
+              "type": "conditional"
+            },
+            {
+              "name": "(Raidmeter) Value 500",
+              "type": "constant"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true,
+          "playTime": "-1"
+        }
+      ],
+      "type": "event"
     }
   },
   "events": {}

@@ -40,6 +40,103 @@
     }
   },
   "outcomes": {
+    "(Library) Colorblind Full Array": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "RNG (200-600)",
+              "type": "constant"
+            },
+            {
+              "name": "(Math) Ticks to Seconds Conversion",
+              "type": "constant"
+            },
+            {
+              "name": "(Math) Ticks to Seconds Converted & Rounded",
+              "type": "constant"
+            }
+          ],
+          "outcomes": [
+            {
+              "events": [
+                {
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "outcomes": [
+                        {
+                          "command": "/effect give $playerName colorblindness:achromatomaly $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "achromatomaly",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:achromatopsia $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "achromatopsia",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:deuteranomaly $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "deuteranomaly",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:deuteranopia $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "deuteranopia",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:protanomaly $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "protanomaly",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:protanopia $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "protanopia",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:tritanomaly $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "tritanomaly",
+                          "weight": 1
+                        },
+                        {
+                          "command": "/effect give $playerName colorblindness:tritanopia $rngConvertedToSecondsRounded 1 true",
+                          "executeAsSelf": true,
+                          "type": "command",
+                          "displayName": "tritanopia",
+                          "weight": 1
+                        }
+                      ],
+                      "singleOutcomeOnly": true,
+                      "type": "multiple"
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
     "Color Full Array": {
       "condition": {
         "name": "Chat Color Full Array",

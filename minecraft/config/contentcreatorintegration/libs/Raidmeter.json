@@ -1,0 +1,15 @@
+{
+  "conditions": {
+    "New Condition": {
+      "type": "null"
+    }
+  },
+  "outcomes": {
+    "(Raidmeter) Value 500": {
+      "command": "/raidmeter modify quest add 500",
+      "executeAsSelf": true,
+      "type": "command"
+    }
+  },
+  "events": {}
+}

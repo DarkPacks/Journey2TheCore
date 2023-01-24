@@ -3,14 +3,20 @@
     "RNG (100-300)": {
       "value1": "100",
       "value2": "300",
-      "variableName": "rng",
+      "variableName": "rng100to300",
       "roundNumber": true,
+      "type": "randomNumber"
+    },
+    "RNG (200-600)": {
+      "value1": "200",
+      "value2": "600",
+      "variableName": "rng200to600",
       "type": "randomNumber"
     },
     "RNG (500-1000)": {
       "value1": "500",
       "value2": "1000",
-      "variableName": "rng",
+      "variableName": "rng500to1000",
       "roundNumber": true,
       "type": "randomNumber"
     }
