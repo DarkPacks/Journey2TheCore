@@ -1,4 +1,0 @@
-#Select the backend to use.
-#Allowed Values: OFF, BATCHING, INSTANCING
-backend = "INSTANCING"
-
