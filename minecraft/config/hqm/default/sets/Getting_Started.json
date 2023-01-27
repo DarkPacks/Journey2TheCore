@@ -173,50 +173,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
-      "name": {
-        "text": "Amethyst",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Y\u003d0 to Y\u003d132",
-        "isTranslationKey": false
-      },
-      "x": 263,
-      "y": 67,
-      "icon": {
-        "id": "minecraft:amethyst_shard",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:amethyst_shard",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "99816012-74e9-4c81-bb97-17e3836f506c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:pick_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "d8504b44-30a1-4b68-a498-37c4c32b702e",
       "name": {
         "text": "Culinary Stew",
@@ -263,6 +219,50 @@
         {
           "id": "cyclic:soil",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
+      "name": {
+        "text": "Amethyst",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Y\u003d0 to Y\u003d132",
+        "isTranslationKey": false
+      },
+      "x": 263,
+      "y": 67,
+      "icon": {
+        "id": "minecraft:amethyst_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:amethyst_shard",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "99816012-74e9-4c81-bb97-17e3836f506c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
         }
       ],
       "rewardchoice": [],
@@ -602,7 +602,7 @@
       "icon": {
         "id": "tconstruct:hand_axe",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stripping\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":95.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:wood\",\"tconstruct:flint\"],tic_modifiers:[{level:2s,name:\"tconstruct:jagged\"},{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stripping\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":7.25f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":152.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":3.5f}}"
       },
       "tasks": [
         {
@@ -737,6 +737,11 @@
         {
           "id": "farmersdelight:stove",
           "Count": 1
+        },
+        {
+          "id": "cyclic:lunchbox",
+          "Count": 1,
+          "tag": "{count_empty:7,count_max:7}"
         }
       ],
       "rewardchoice": [],

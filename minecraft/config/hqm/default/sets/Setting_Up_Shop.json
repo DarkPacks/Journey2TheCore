@@ -113,7 +113,7 @@
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":604.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
       },
       "tasks": [
         {
@@ -123,7 +123,7 @@
               "item": {
                 "id": "tconstruct:dagger",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":377.25f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":604.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
               }
             }
           ]
@@ -145,7 +145,7 @@
         {
           "id": "tconstruct:dagger",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":77.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":123.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
         }
       ],
       "rewardchoice": [
@@ -505,7 +505,7 @@
       "icon": {
         "id": "tinkers_things:shortbow",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":240.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":312.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
       },
       "tasks": [
         {
@@ -515,7 +515,7 @@
               "item": {
                 "id": "tinkers_things:shortbow",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":240.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:1s,name:\"tinkers_things:fast_use_item\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":312.0f,\"tconstruct:velocity\":0.8f},tic_volatile_data:{\"tconstruct:fast_use_item\":1b}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -625,7 +625,7 @@
       "icon": {
         "id": "tconstruct:excavator",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:lightweight\"},{level:1s,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.3439999f,\"tconstruct:durability\":3146.25f,\"tconstruct:harvest_tier\":\"cyclic:nether_bricks\",\"tconstruct:mining_speed\":3.024f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\",\"tconstruct:cobalt\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:lightweight\"},{level:1s,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":4.5f,\"tconstruct:attack_speed\":1.3439999f,\"tconstruct:durability\":5036.25f,\"tconstruct:harvest_tier\":\"cyclic:nether_bricks\",\"tconstruct:mining_speed\":3.024f}}"
       },
       "tasks": [
         {
@@ -635,7 +635,7 @@
               "item": {
                 "id": "tconstruct:excavator",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:insatiable\"},{level:1s,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":5156.25f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:manyullyn\"],tic_modifiers:[{level:2s,name:\"tconstruct:knockback\"},{level:4s,name:\"tconstruct:insatiable\"},{level:1s,name:\"tconstruct:pathing\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.2f,\"tconstruct:durability\":3.75f,\"tconstruct:mining_speed\":0.3f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.5000005f,\"tconstruct:attack_speed\":0.95f,\"tconstruct:durability\":8250.0f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":1.755f}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -987,7 +987,7 @@
       "icon": {
         "id": "tconstruct:kama",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":251.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
       },
       "tasks": [
         {
@@ -997,7 +997,7 @@
               "item": {
                 "id": "tconstruct:kama",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":157.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bloodbone\",\"tconstruct:bloodbone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:3s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":1.70625f,\"tconstruct:attack_speed\":1.7600001f,\"tconstruct:durability\":251.0f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":4.5f}}"
               },
               "precision": "FUZZY"
             }
@@ -1141,7 +1141,7 @@
       "icon": {
         "id": "tconstruct:crossbow",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.75f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":120.0f,\"tconstruct:velocity\":1.0f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.75f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":192.0f,\"tconstruct:velocity\":1.0f}}"
       },
       "tasks": [
         {
@@ -1151,7 +1151,7 @@
               "item": {
                 "id": "tconstruct:crossbow",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.75f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":120.0f,\"tconstruct:velocity\":1.0f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:string\"],tic_modifiers:[{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:accuracy\":0.75f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:draw_speed\":1.0f,\"tconstruct:durability\":192.0f,\"tconstruct:velocity\":1.0f}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1257,7 +1257,7 @@
       "icon": {
         "id": "tconstruct:sledge_hammer",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:overlord\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":6.4125f,\"tconstruct:attack_speed\":0.7125f,\"tconstruct:durability\":3564.0f,\"tconstruct:harvest_tier\":\"cyclic:sandstone\",\"tconstruct:mining_speed\":2.1599998f},tic_volatile_data:{\"tconstruct:overslime_cap\":3763,\"tconstruct:overslime_friend\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\",\"tconstruct:queens_slime\"],tic_modifiers:[{level:4s,name:\"tconstruct:overslime\"},{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:overlord\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":6.4125f,\"tconstruct:attack_speed\":0.7125f,\"tconstruct:durability\":5704.0f,\"tconstruct:harvest_tier\":\"cyclic:sandstone\",\"tconstruct:mining_speed\":2.1599998f},tic_volatile_data:{\"tconstruct:overslime_cap\":5902,\"tconstruct:overslime_friend\":1b}}"
       },
       "tasks": [
         {
@@ -1267,7 +1267,7 @@
               "item": {
                 "id": "tconstruct:sledge_hammer",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:necrotic\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":348.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:2s,name:\"tconstruct:smite\"},{level:4s,name:\"tconstruct:necrotic\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.35f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.4f},tic_persistent_data:{abilities:1,upgrades:2},tic_stats:{\"tconstruct:attack_damage\":7.441875f,\"tconstruct:attack_speed\":0.86249995f,\"tconstruct:durability\":556.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.6f}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1504,7 +1504,7 @@
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":672.10004f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":1076.9f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
       },
       "tasks": [
         {
@@ -1514,7 +1514,7 @@
               "item": {
                 "id": "tconstruct:sword",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":672.10004f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\",\"tconstruct:amethyst_bronze\"],tic_modifiers:[{level:2s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":4.6124997f,\"tconstruct:attack_speed\":1.76f,\"tconstruct:durability\":1076.9f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.675f}}"
               },
               "precision": "TAG_FUZZY"
             }
