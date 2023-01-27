@@ -6,7 +6,7 @@
   },
   "outcomes": {
     "(SwapThings) Enchant Random Item": {
-      "command": "/swapthings randomenchanting $playerName $user POSITIVE",
+      "command": "/swapthings randomenchanting $playerName $user_name POSITIVE",
       "executeAsSelf": true,
       "type": "command"
     },
@@ -20,7 +20,7 @@
       "type": "event"
     },
     "(SwapThings) Inventory Bomb": {
-      "command": "/swapthings inventoryequalizer $playerName minecraft:air 1 $user",
+      "command": "/swapthings inventoryequalizer $playerName minecraft:air 1 $user_name",
       "executeAsSelf": true,
       "type": "command"
     },
@@ -30,7 +30,7 @@
       "type": "command"
     },
     "(SwapThings) Mount Player on Entity": {
-      "command": "/swapthings summonmount $playerName $user",
+      "command": "/swapthings summonmount $playerName $user_name",
       "executeAsSelf": true,
       "type": "command"
     },
@@ -40,7 +40,7 @@
           "conditions": [],
           "outcomes": [
             {
-              "name": "Push Player",
+              "name": "(SwapThings) Push Player (Single)",
               "type": "constant",
               "displayName": "Push"
             },
@@ -50,7 +50,7 @@
                   "conditions": [],
                   "outcomes": [
                     {
-                      "name": "Push Player",
+                      "name": "(SwapThings) Push Player (Single)",
                       "type": "constant",
                       "displayName": "Push"
                     },
@@ -60,7 +60,7 @@
                           "conditions": [],
                           "outcomes": [
                             {
-                              "name": "Push Player",
+                              "name": "(SwapThings) Push Player (Single)",
                               "type": "constant",
                               "displayName": "Push"
                             }
@@ -85,27 +85,27 @@
       "type": "event"
     },
     "(SwapThings) Push Player (Single)": {
-      "command": "/swapthings playernudger $playerName $user",
+      "command": "/swapthings playernudger $playerName $user_name",
       "executeAsSelf": true,
       "type": "command"
     },
     "(SwapThings) Random Horizontal Teleport": {
-      "command": "/swapthings randomteleport $playerName $user 144 480 0 0 144 480",
+      "command": "/swapthings randomteleport $playerName $user_name 144 480 0 0 144 480",
       "executeAsSelf": true,
       "type": "command"
     },
     "(SwapThings) Rotate Player 90 Degrees": {
-      "command": "/swapthings playerrotate $playerName",
+      "command": "/swapthings playerrotate $playerName $user_name",
       "executeAsSelf": true,
       "type": "command"
     },
     "(SwapThings) Shuffle Hotbar Items": {
-      "command": "/swapthings shufflehotbar $playerName $user",
+      "command": "/swapthings shufflehotbar $playerName $user_name",
       "executeAsSelf": true,
       "type": "command"
     },
     "(SwapThings) Shuffle Inventory": {
-      "command": "/swapthings shuffleinventory $playerName $name",
+      "command": "/swapthings shuffleinventory $playerName $user_name",
       "executeAsSelf": true,
       "type": "command"
     }

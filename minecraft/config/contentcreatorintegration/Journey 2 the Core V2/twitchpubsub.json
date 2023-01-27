@@ -470,7 +470,7 @@
       "types": {
         "channel-bits-events-v2": [
           {
-            "name": "5 bits",
+            "name": "5 bits (Rename Random Item)",
             "conditions": [
               {
                 "optionalVariableName": "bits_used",
@@ -478,30 +478,569 @@
                 "type": "amount"
               }
             ],
+            "outcomes": [],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "25 Bits (Shuffle Hotbar Items)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 25.0,
+                "type": "amount"
+              }
+            ],
             "outcomes": [
               {
-                "name": "(SwapThings) Item Rename",
+                "name": "(SwapThings) Shuffle Hotbar Items",
                 "type": "constant"
               }
             ],
             "allowsOtherEventsToTrigger": true
           },
           {
-            "name": "100 bits",
+            "name": "33 Bits (Dad Joke)",
             "conditions": [
               {
-                "amount": 100.0,
+                "optionalVariableName": "bits_used",
+                "amount": 33.0,
                 "type": "amount"
-              },
-              {
-                "name": "(Global) $viewername",
-                "type": "constant"
               }
             ],
             "outcomes": [
               {
-                "message": "Darkphan Rocks! $user_name $display_name $viewername",
-                "type": "chat"
+                "name": "Dad Joke",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "50 Bits (Rotate Player)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 50.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Rotate Player 90 Degrees",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "66 Bits (Random Item Enchant)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 66.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Enchant Random Item",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "69 Bits (Spawn Raccoon Leashed to Player)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 69.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Baby Raccoon (Leashed)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "75 bits (Math Problem)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 75.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Captcha Math",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "95 Bits (Shuffle Player Inventory)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 95.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Shuffle Inventory",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "100 Bits (Fake Crash / Out of Memory)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 100.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Fake Crash Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "125 Bits (Random Screen Effect / Super Secret Settings)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 125.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Super Secret Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "150 Bits (Push Player)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 150.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "200 Bits (Mount Player on Random Entity)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 200.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Mount Player on Entity",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "400 Bits (Surround Player with Chance Cubes)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 400.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Chance Cube Surround",
+                "type": "constant",
+                "weight": 10
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "events": [
+                          {
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "name": "Countdown 5 (Random Color)",
+                                "type": "constant"
+                              }
+                            ],
+                            "allowsOtherEventsToTrigger": true
+                          },
+                          {
+                            "name": "Spawn Entities",
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "times": "10",
+                                "outcome": {
+                                  "name": "Spawn Impostore",
+                                  "type": "constant"
+                                },
+                                "type": "repeat"
+                              }
+                            ],
+                            "singleOutcomeOnly": true,
+                            "delay": "120"
+                          }
+                        ],
+                        "type": "event"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "weight": 100
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "singleOutcomeOnly": true
+          },
+          {
+            "name": "500 Bits (Spawn Player Mob)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Twitch Subscription (Value 500)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "665 Bits (Spawn Straw Golem Group)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 665.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$user_name\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "666 Bits (Spawn Angry Bear)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 666.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Adult Polar Bear (Angry)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "667 Bits (Spawn Ferrous Wroughtnaut / Boss)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 667.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "Ferrous Wroughtnaut Event",
+                        "type": "constant"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true,
+                    "singleOutcomeOnly": true
+                  }
+                ],
+                "type": "event"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "668 Bits (Spawn Angry Baby Bear Group)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 668.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Baby Polar Bear (Angry)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "669 Bits (Summon StrawnGolem / Friendly)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 669.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$user_name\"}'}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "777 Bits (Random Horizontal Teleport)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 777.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Random Horizontal Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "778 Bits (Random Downward Teleport)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 778.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Random Downward Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1000 Bits (Inventory Bomb)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 1000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Inventory Bomb",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1500 Bits (Pillager Patrol Raid)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 1500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Pillager Patrol",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1812 (Summon TNT Slimes)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 1812.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2000 bits (Torches to Creepers)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 2000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers $playerName",
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2181 (Summon TNT Slimes & Dirt Creeper)",
+            "conditions": [
+              {
+                "amount": 2181.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812",
+                "type": "constant"
+              },
+              {
+                "name": "Dirt Creeper Summon Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2500 Bits (Change Game to Random Language)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 2500.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "5000 Bits (Countdown to Super Charged Creeper)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 5000.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Super Charged Creeper",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "18120 Bits (Torches to Creepers + Countdown to Super Charged Creeper)",
+            "conditions": [
+              {
+                "optionalVariableName": "bits_used",
+                "amount": 18120.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Countdown to Super Charged Creeper",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              },
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Add to Raid Meter",
+            "conditions": [],
+            "outcomes": [
+              {
+                "command": "/raidmeter modify quest add $bits_used",
+                "executeAsSelf": true,
+                "type": "command"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -511,13 +1050,11 @@
             "conditions": [],
             "outcomes": [
               {
-                "command": "Hey $streamer, $user_name just sent you $bits_used bits!",
-                "executeAsSelf": true,
-                "type": "command"
+                "message": "Hey $streamer, $user_name just gave $bits_used bits!",
+                "type": "chat"
               }
             ],
-            "allowsOtherEventsToTrigger": true,
-            "playTime": "-1"
+            "allowsOtherEventsToTrigger": true
           }
         ]
       },

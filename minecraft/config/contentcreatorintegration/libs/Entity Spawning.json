@@ -26,7 +26,15 @@
     "Spawn Adult Polar Bear (Angry)": {
       "events": [
         {
-          "conditions": [],
+          "conditions": [
+            {
+              "name": "(Color) Get Username Color",
+              "type": "constant"
+            },
+            {
+              "type": "null"
+            }
+          ],
           "outcomes": [
             {
               "condition": {
@@ -34,7 +42,7 @@
                 "type": "constant"
               },
               "outcome": {
-                "command": "/summon minecraft:polar_bear $largeEntitySpaceCheck {Health:200f,CustomNameVisible:1b,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
+                "command": "/summon minecraft:polar_bear $largeEntitySpaceCheck {Health:200f,CustomNameVisible:1b,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
                 "executeAsSelf": true,
                 "type": "command"
               },
@@ -49,7 +57,7 @@
                     ],
                     "outcomes": [
                       {
-                        "command": "/summon minecraft:polar_bear $smallEntitySpaceCheck {Health:200f,CustomNameVisible:1b,Age:-600,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
+                        "command": "/summon minecraft:polar_bear $smallEntitySpaceCheck {Health:200f,CustomNameVisible:1b,Age:-600,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
                         "executeAsSelf": true,
                         "type": "command"
                       }
@@ -62,6 +70,7 @@
               "type": "conditional"
             }
           ],
+          "triggersFromAnyConditionMet": true,
           "allowsOtherEventsToTrigger": true
         }
       ],
@@ -86,14 +95,33 @@
     "Spawn Baby Polar Bear (Angry)": {
       "events": [
         {
-          "conditions": [],
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "Space Check - 1x1 SolidBlock Underneath",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
           "outcomes": [
             {
-              "command": "/summon minecraft:polar_bear $babyBear {Health:75f,CustomNameVisible:1b,Age:-1200,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:75}]}",
+              "command": "/summon minecraft:polar_bear $smallEntitySpaceCheck {Health:75f,CustomNameVisible:1b,Age:-1200,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:75}]}",
               "executeAsSelf": true,
               "type": "command"
             }
-          ]
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
         }
       ],
       "type": "event"
@@ -101,14 +129,36 @@
     "Spawn Baby Raccoon (Leashed)": {
       "events": [
         {
-          "conditions": [],
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "target_player_name",
+                  "type": "constant"
+                },
+                {
+                  "name": "Get Player UUID",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
           "outcomes": [
             {
-              "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
+              "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
               "executeAsSelf": true,
               "type": "command"
             }
           ],
+          "triggersFromAnyConditionMet": true,
           "allowsOtherEventsToTrigger": true
         }
       ],
@@ -140,18 +190,30 @@
         {
           "conditions": [
             {
-              "name": "Space Check - 2x2x4 SolidBlock Underneath",
-              "type": "constant",
-              "displayName": "Space Check"
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "Space Check - 2x2x4 SolidBlock Underneath",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
             }
           ],
           "outcomes": [
             {
-              "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$display_name\",\"color\":\"$color\"}'}",
+              "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$user_name\",\"color\":\"$uColor\"}'}",
               "executeAsSelf": true,
               "type": "command"
             }
           ],
+          "triggersFromAnyConditionMet": true,
           "allowsOtherEventsToTrigger": true
         }
       ],
@@ -162,8 +224,20 @@
         {
           "conditions": [
             {
-              "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
-              "type": "constant"
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
             }
           ],
           "outcomes": [
@@ -173,7 +247,7 @@
                   "conditions": [],
                   "outcomes": [
                     {
-                      "command": "/summon impostore:impost_ore $smallEntitySpaceCheckCloseToPlayer {BlockState: {Properties: {texture: \"default\"}, Name: \"chancecubes:chance_cube\"}}",
+                      "command": "/summon impostore:impost_ore $smallEntitySpaceCheckCloseToPlayer {CustomNameVisible:1b,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}', BlockState: {Properties: {texture: \"default\"}, Name: \"chancecubes:chance_cube\"}}",
                       "executeAsSelf": true,
                       "disableChatCommandFallback": true,
                       "type": "command"
@@ -186,6 +260,7 @@
               "type": "event"
             }
           ],
+          "triggersFromAnyConditionMet": true,
           "allowsOtherEventsToTrigger": true
         }
       ],
@@ -197,7 +272,7 @@
           "conditions": [],
           "outcomes": [
             {
-              "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+              "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
               "executeAsSelf": true,
               "type": "command"
             }

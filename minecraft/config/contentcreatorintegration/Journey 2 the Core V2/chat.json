@@ -15,10 +15,6 @@
               {
                 "name": "Countdown 5 (Random Color)",
                 "type": "constant"
-              },
-              {
-                "name": "Twitch Subscription (Value 500)",
-                "type": "constant"
               }
             ],
             "allowsOtherEventsToTrigger": true,
