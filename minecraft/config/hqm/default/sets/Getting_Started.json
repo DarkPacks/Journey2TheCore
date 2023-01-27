@@ -173,6 +173,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
+      "name": {
+        "text": "Amethyst",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Y\u003d0 to Y\u003d132",
+        "isTranslationKey": false
+      },
+      "x": 263,
+      "y": 67,
+      "icon": {
+        "id": "minecraft:amethyst_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:amethyst_shard",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "99816012-74e9-4c81-bb97-17e3836f506c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d8504b44-30a1-4b68-a498-37c4c32b702e",
       "name": {
         "text": "Culinary Stew",
@@ -219,50 +263,6 @@
         {
           "id": "cyclic:soil",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
-      "name": {
-        "text": "Amethyst",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Y\u003d0 to Y\u003d132",
-        "isTranslationKey": false
-      },
-      "x": 263,
-      "y": 67,
-      "icon": {
-        "id": "minecraft:amethyst_shard",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:amethyst_shard",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "99816012-74e9-4c81-bb97-17e3836f506c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:pick_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
         }
       ],
       "rewardchoice": [],
@@ -847,17 +847,17 @@
     {
       "uuid": "6f079b8a-32c5-4b57-8900-26bc8b566b50",
       "name": {
-        "text": "Bonfire",
+        "text": "Bedtime",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Clicking on a Lit Bonfire will set your Spawn Point",
+        "text": "Craft a bed to set your Spawn!",
         "isTranslationKey": false
       },
       "x": 56,
       "y": 55,
       "icon": {
-        "id": "minecraft:campfire",
+        "id": "minecraft:purple_bed",
         "Count": 1
       },
       "tasks": [
@@ -866,9 +866,10 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:campfire",
+                "id": "minecraft:purple_bed",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_FUZZY"
             }
           ]
         }
@@ -877,13 +878,13 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "tconstruct:flint_and_brick",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
-        },
-        {
           "id": "hardcorequesting:quarterheart",
           "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
         }
       ],
       "rewardchoice": [],
