@@ -239,11 +239,6 @@
       "type": "math",
       "displayName": "Round The Y Coord"
     },
-    "Sensitivity": {
-      "key": "mouseSensitivity",
-      "value": "0",
-      "type": "gameSettings"
-    },
     "Small Mob Spawn Check": {
       "target": "$playerName",
       "horiRadius": "16",
@@ -1435,12 +1430,6 @@
       "command": "/summon core_creepers:super_charged_creeper ~ ~ ~ {ignited:1b}",
       "executeAsSelf": true,
       "type": "command"
-    },
-    "Spawn Teleport Armor Stand": {
-      "command": "/summon armor_stand $finalTeleportTarget {NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:0b,Invisible:1b,PersistenceRequired:1b,Tags:[\"DarkostoIsLiterallyTheCoolestOnEarth\"]}",
-      "executeAsSelf": true,
-      "type": "command",
-      "displayName": "Spawn in Teleport Armor Stand"
     },
     "Summon Angry Bear": {
       "events": [

@@ -1,0 +1,58 @@
+{
+  "conditions": {
+    "(Global) $subbed_months": {
+      "condition": {
+        "variableName": "cumulative_months",
+        "type": "variableExists",
+        "displayName": "Cumulative Months Variable Check"
+      },
+      "passCondition": {
+        "variableName": "subbed_months",
+        "variableInput": "$cumulative_months",
+        "type": "variableInsert"
+      },
+      "failCondition": {
+        "variableName": "subbed_months",
+        "variableInput": "$amount",
+        "type": "variableInsert",
+        "displayName": "On Fail, use $amount"
+      },
+      "type": "conditional",
+      "displayName": "Checks if $cumulative_months Exists"
+    },
+    "(Global) $viewername": {
+      "condition": {
+        "variableName": "recipient_display_name",
+        "type": "variableExists"
+      },
+      "passCondition": {
+        "variableName": "viewername",
+        "variableInput": "$recipient_display_name",
+        "type": "variableInsert",
+        "displayName": "Inserts Gift Recipient's Name into $user"
+      },
+      "failCondition": {
+        "condition": {
+          "variableName": "display_name",
+          "type": "variableExists"
+        },
+        "passCondition": {
+          "variableName": "viewername",
+          "variableInput": "$display_name",
+          "type": "variableInsert"
+        },
+        "failCondition": {
+          "variableName": "viewername",
+          "variableInput": "$user_name",
+          "type": "variableInsert"
+        },
+        "type": "conditional",
+        "displayName": "Checks if event has Display Name"
+      },
+      "type": "conditional",
+      "displayName": "Checks if event is a gift sub"
+    }
+  },
+  "outcomes": {},
+  "events": {}
+}

@@ -29,7 +29,7 @@
                     },
                     {
                       "crashType": "2",
-                      "crashDuration": "$rng",
+                      "crashDuration": "$rng100to300",
                       "type": "fakeCrash",
                       "displayName": "Fake Crash - Out of Memory",
                       "weight": 99

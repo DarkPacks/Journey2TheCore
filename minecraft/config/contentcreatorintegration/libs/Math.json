@@ -10,7 +10,7 @@
     },
     "(Math) Ticks to Seconds Converted & Rounded": {
       "calc": "round",
-      "value1": "rngConvertedToSeconds",
+      "value1": "$rngConvertedToSeconds",
       "value2": "0",
       "variableName": "rngConvertedToSecondsRounded",
       "type": "math",

@@ -13,7 +13,7 @@
           ],
           "outcomes": [
             {
-              "command": "/summon player_mobs:player_mob $entitySpaceCheck {\"Username\":\"$user\",CustomNameVisible:1b,CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
+              "command": "/summon player_mobs:player_mob $entitySpaceCheck {\"Username\":\"$viewername\",CustomNameVisible:1b,CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
               "executeAsSelf": true,
               "type": "command"
             }
@@ -23,11 +23,46 @@
       ],
       "type": "event"
     },
-    "Spawn Adult Polar Bear": {
+    "Spawn Adult Polar Bear (Angry)": {
       "events": [
         {
           "conditions": [],
-          "outcomes": []
+          "outcomes": [
+            {
+              "condition": {
+                "name": "Space Check - 2x2 SolidBlock Underneath",
+                "type": "constant"
+              },
+              "outcome": {
+                "command": "/summon minecraft:polar_bear $largeEntitySpaceCheck {Health:200f,CustomNameVisible:1b,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
+                "executeAsSelf": true,
+                "type": "command"
+              },
+              "conditionNotMetOutcome": {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "name": "Space Check - 1x1 SolidBlock Underneath",
+                        "type": "constant"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "command": "/summon minecraft:polar_bear $smallEntitySpaceCheck {Health:200f,CustomNameVisible:1b,Age:-600,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
+              },
+              "type": "conditional"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
         }
       ],
       "type": "event"
@@ -38,7 +73,7 @@
           "conditions": [],
           "outcomes": [
             {
-              "command": "/summon player_mobs:player_mob $canBabySpawn {CustomName:'{\"text\":\"$user\",\"color\":\"$uColor\"}',\"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}}",
+              "command": "/summon player_mobs:player_mob $canBabySpawn {CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',\"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}}",
               "executeAsSelf": true,
               "type": "command"
             }
@@ -70,6 +105,27 @@
           "outcomes": [
             {
               "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$name\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Dirt Creeper": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Space Check - 1x2 SolidBlock Underneath",
+              "type": "constant"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon core_creepers:dirt_creeper $entitySpaceCheck {CustomName:'{\"text\":\"$user_name\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}'}",
               "executeAsSelf": true,
               "type": "command"
             }
@@ -150,6 +206,11 @@
       ],
       "type": "event"
     },
+    "Spawn Super Charged Creeper (On Player Location)": {
+      "command": "/summon core_creepers:super_charged_creeper ~ ~ ~ {ignited:1b}",
+      "executeAsSelf": true,
+      "type": "command"
+    },
     "Spawn Zombie": {
       "events": [
         {
@@ -188,8 +249,22 @@
         {
           "conditions": [
             {
-              "name": "Chat Color Full Array",
-              "type": "constant"
+              "conditions": [
+                {
+                  "name": "(Global) $viewername",
+                  "type": "constant",
+                  "displayName": "Gets Viewername"
+                },
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant",
+                  "displayName": "Gets User Color"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
             }
           ],
           "outcomes": [
@@ -224,8 +299,8 @@
               "type": "constant"
             }
           ],
-          "allowsOtherEventsToTrigger": true,
-          "playTime": "-1"
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
         }
       ],
       "type": "event"

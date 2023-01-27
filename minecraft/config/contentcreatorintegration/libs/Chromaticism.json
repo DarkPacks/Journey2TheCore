@@ -1,5 +1,31 @@
 {
   "conditions": {
+    "(Color) Get Username Color": {
+      "condition": {
+        "variableName": "redemption_user_login",
+        "type": "variableExists"
+      },
+      "passCondition": {
+        "name": "Retrieve Name Color from Channel Point Redemption",
+        "type": "constant"
+      },
+      "failCondition": {
+        "condition": {
+          "variableName": "$recipient_user_name",
+          "type": "variableExists"
+        },
+        "passCondition": {
+          "name": "Color - Get Name Color (Recipient Sub Name) ",
+          "type": "constant"
+        },
+        "failCondition": {
+          "name": "Color - Get Name Color (Non Channel Points)",
+          "type": "constant"
+        },
+        "type": "conditional"
+      },
+      "type": "conditional"
+    },
     "Chat Color Full Array": {
       "conditions": [
         {
@@ -13,13 +39,22 @@
           "displayName": "Get Chat Name Color from Channel Point Redemption"
         }
       ],
+      "any": true,
       "type": "multiple"
     },
-    "GetColour": {
-      "noteName": "$name",
+    "Color - Get Name Color (Non Channel Points)": {
+      "noteName": "$user_name",
       "variableName": "uColor",
       "meetConditionIfNoteDoesNotExist": true,
-      "defaultVariableValue": "#FF69B4",
+      "defaultVariableValue": "#272ba8",
+      "allowExpired": true,
+      "type": "note"
+    },
+    "Color - Get Name Color (Recipient Sub Name) ": {
+      "noteName": "$recipient_user_name",
+      "variableName": "uColor",
+      "meetConditionIfNoteDoesNotExist": true,
+      "defaultVariableValue": "#1ed8d3",
       "allowExpired": true,
       "type": "note"
     },
@@ -27,7 +62,7 @@
       "noteName": "$redemption_user_login",
       "variableName": "uColor",
       "meetConditionIfNoteDoesNotExist": true,
-      "defaultVariableValue": "#FF69B4",
+      "defaultVariableValue": "#6c8009",
       "allowExpired": true,
       "type": "note"
     },
@@ -40,96 +75,107 @@
     }
   },
   "outcomes": {
+    "(Color) Select Random Color from API": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "url": "https://muddrdev.com/minecraft/randcolor.php",
+              "variableName": "randomColor",
+              "outcome": {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "randomizedColor",
+                        "variableInput": "#$randomColor",
+                        "isGlobal": true,
+                        "type": "variableInsert",
+                        "displayName": "Commits variable to global"
+                      }
+                    ],
+                    "outcomes": [],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
+              },
+              "type": "readFromUrl"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
     "(Library) Colorblind Full Array": {
       "events": [
         {
-          "conditions": [
-            {
-              "name": "RNG (200-600)",
-              "type": "constant"
-            },
-            {
-              "name": "(Math) Ticks to Seconds Conversion",
-              "type": "constant"
-            },
-            {
-              "name": "(Math) Ticks to Seconds Converted & Rounded",
-              "type": "constant"
-            }
-          ],
+          "conditions": [],
           "outcomes": [
             {
-              "events": [
+              "outcomes": [
                 {
-                  "conditions": [],
-                  "outcomes": [
-                    {
-                      "outcomes": [
-                        {
-                          "command": "/effect give $playerName colorblindness:achromatomaly $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "achromatomaly",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:achromatopsia $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "achromatopsia",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:deuteranomaly $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "deuteranomaly",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:deuteranopia $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "deuteranopia",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:protanomaly $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "protanomaly",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:protanopia $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "protanopia",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:tritanomaly $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "tritanomaly",
-                          "weight": 1
-                        },
-                        {
-                          "command": "/effect give $playerName colorblindness:tritanopia $rngConvertedToSecondsRounded 1 true",
-                          "executeAsSelf": true,
-                          "type": "command",
-                          "displayName": "tritanopia",
-                          "weight": 1
-                        }
-                      ],
-                      "singleOutcomeOnly": true,
-                      "type": "multiple"
-                    }
-                  ],
-                  "allowsOtherEventsToTrigger": true
+                  "command": "/effect give $playerName colorblindness:achromatomaly $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "achromatomaly",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:achromatopsia $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "achromatopsia",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:deuteranomaly $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "deuteranomaly",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:deuteranopia $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "deuteranopia",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:protanomaly $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "protanomaly",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:protanopia $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "protanopia",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:tritanomaly $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "tritanomaly",
+                  "weight": 10
+                },
+                {
+                  "command": "/effect give $playerName colorblindness:tritanopia $rngConvertedToSecondsRounded 1 true",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "tritanopia",
+                  "weight": 10
                 }
               ],
-              "type": "event"
+              "singleOutcomeOnly": true,
+              "type": "multiple",
+              "displayName": "Colorblind Commands"
             }
           ],
           "allowsOtherEventsToTrigger": true

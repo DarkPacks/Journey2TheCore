@@ -77,7 +77,7 @@
                 "type": "variableCheck"
               },
               {
-                "name": "Chat Color Full Array",
+                "name": "(Color) Get Username Color",
                 "type": "constant"
               }
             ],
@@ -153,11 +153,7 @@
                 "displayName": "Get Player UUID"
               },
               {
-                "name": "Retrieve Name Color from Channel Point Redemption",
-                "type": "constant"
-              },
-              {
-                "name": "Chat Color Full Array",
+                "name": "(Color) Get Username Color",
                 "type": "constant"
               }
             ],
@@ -188,7 +184,7 @@
                 "type": "constant"
               },
               {
-                "name": "Chat Color Full Array",
+                "name": "(Color) Get Username Color",
                 "type": "constant"
               }
             ],
@@ -216,7 +212,7 @@
                 "displayName": "Entity Space Check"
               },
               {
-                "name": "Chat Color Full Array",
+                "name": "(Color) Get Username Color",
                 "type": "constant"
               }
             ],
@@ -245,7 +241,8 @@
                 "singleOutcomeOnly": true,
                 "type": "multiple"
               }
-            ]
+            ],
+            "allowsOtherEventsToTrigger": true
           },
           {
             "name": "Spawn Straw Golem",
@@ -256,7 +253,7 @@
                 "type": "variableCheck"
               },
               {
-                "name": "Chat Color Full Array",
+                "name": "(Color) Get Username Color",
                 "type": "constant"
               }
             ],
@@ -266,14 +263,14 @@
                 "executeAsSelf": true,
                 "type": "command"
               }
-            ]
-          },
-          {
-            "conditions": [],
-            "outcomes": []
+            ],
+            "allowsOtherEventsToTrigger": true
           }
         ]
       },
+      "ignoredTypes": [
+        "community-points-channel-v1"
+      ],
       "for": "community-points-channel-v1"
     },
     {
@@ -464,24 +461,47 @@
           }
         ]
       },
+      "ignoredTypes": [
+        "hype-train-events-v1"
+      ],
       "for": "hype-train-events-v1"
     },
     {
       "types": {
         "channel-bits-events-v2": [
           {
-            "name": "100 bits",
+            "name": "5 bits",
             "conditions": [
               {
-                "amount": 100.0,
+                "optionalVariableName": "bits_used",
+                "amount": 5.0,
                 "type": "amount"
               }
             ],
             "outcomes": [
               {
-                "command": "/say Darkphan Rocks! $user_name $display_name",
-                "executeAsSelf": true,
-                "type": "command"
+                "name": "(SwapThings) Item Rename",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "100 bits",
+            "conditions": [
+              {
+                "amount": 100.0,
+                "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Darkphan Rocks! $user_name $display_name $viewername",
+                "type": "chat"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -491,15 +511,19 @@
             "conditions": [],
             "outcomes": [
               {
-                "command": "Hey $streamer, $user-name just sent you $amount bits!",
+                "command": "Hey $streamer, $user_name just sent you $bits_used bits!",
                 "executeAsSelf": true,
                 "type": "command"
               }
             ],
+            "allowsOtherEventsToTrigger": true,
             "playTime": "-1"
           }
         ]
       },
+      "queue": [
+        "channel-bits-events-v2"
+      ],
       "for": "channel-bits-events-v2"
     },
     {
@@ -516,8 +540,23 @@
             ],
             "outcomes": [
               {
-                "name": "Twitch Subscription (Value 500)",
-                "type": "constant"
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "Twitch Subscription (Value 500)",
+                        "type": "constant"
+                      },
+                      {
+                        "message": "Test",
+                        "type": "chat"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -533,8 +572,19 @@
             ],
             "outcomes": [
               {
-                "name": "Twitch Subscription (Value 500)",
-                "type": "constant"
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "Twitch Subscription (Value 500)",
+                        "type": "constant"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -583,20 +633,51 @@
           },
           {
             "name": "Chat Message Outcome",
-            "conditions": [],
-            "outcomes": [
+            "conditions": [
               {
-                "command": "Hey $streamer, $display_name just subscribed for $amount months!",
-                "executeAsSelf": true,
-                "type": "command"
+                "name": "(Global) $subbed_months",
+                "type": "constant"
+              },
+              {
+                "type": "null"
               }
             ],
-            "allowsOtherEventsToTrigger": true,
-            "playTime": "-1"
+            "outcomes": [
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "message": "Hey $streamer, $viewername just subscribed for $subbed_months months!",
+                        "type": "chat"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
+              }
+            ],
+            "triggersFromAnyConditionMet": true,
+            "allowsOtherEventsToTrigger": true
           },
           {
             "name": "Colorblind Effect",
-            "conditions": [],
+            "conditions": [
+              {
+                "name": "RNG (200-600)",
+                "type": "constant"
+              },
+              {
+                "name": "(Math) Ticks to Seconds Conversion",
+                "type": "constant"
+              },
+              {
+                "name": "(Math) Ticks to Seconds Converted & Rounded",
+                "type": "constant"
+              }
+            ],
             "outcomes": [
               {
                 "name": "(Library) Colorblind Full Array",
@@ -609,6 +690,10 @@
           }
         ]
       },
+      "queue": [
+        "channel-subscribe-events-v1"
+      ],
+      "ignoredTypes": [],
       "for": "channel-subscribe-events-v1"
     }
   ],

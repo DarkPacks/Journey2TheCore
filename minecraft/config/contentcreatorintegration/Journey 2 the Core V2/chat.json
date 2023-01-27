@@ -9,15 +9,15 @@
               {
                 "username": "darkosto",
                 "type": "user"
-              },
-              {
-                "phrase": "test",
-                "type": "message"
               }
             ],
             "outcomes": [
               {
                 "name": "Countdown 5 (Random Color)",
+                "type": "constant"
+              },
+              {
+                "name": "Twitch Subscription (Value 500)",
                 "type": "constant"
               }
             ],
@@ -29,16 +29,81 @@
             "conditions": [],
             "outcomes": [
               {
-                "noteName": "$name",
-                "noteContent": "$color",
-                "type": "note",
-                "displayName": "Commit Name Color to Notes File"
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "$color",
+                        "variableResult": "stringLengthCompare",
+                        "type": "stringLength"
+                      },
+                      {
+                        "optionalVariableName": "stringLengthCompare",
+                        "amount": 0.0,
+                        "type": "amount"
+                      },
+                      {
+                        "noteName": "$name",
+                        "variableName": "IhaveToPutSomethingHereBecauseIChunSaidSo",
+                        "type": "note",
+                        "inverseMatch": true
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "url": "https://muddrdev.com/minecraft/randcolor.php",
+                        "variableName": "randomColor",
+                        "outcome": {
+                          "noteName": "$name",
+                          "noteContent": "#$randomColor",
+                          "expiresIn": "24h",
+                          "type": "note"
+                        },
+                        "type": "readFromUrl"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "displayName": "Checks for No Chat Color"
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "$color",
+                        "variableResult": "stringLengthCheck",
+                        "type": "stringLength"
+                      },
+                      {
+                        "optionalVariableName": "stringLengthCheck",
+                        "min": 1.0,
+                        "type": "range"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "noteName": "$name",
+                        "noteContent": "$color",
+                        "type": "note"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "displayName": "Check for Viewer with Chat Name Color"
               }
             ],
             "allowsOtherEventsToTrigger": true
           }
         ]
       },
+      "queue": [
+        "Configuration: twitch"
+      ],
       "for": "twitch"
     },
     {

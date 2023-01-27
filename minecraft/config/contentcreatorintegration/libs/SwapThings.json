@@ -5,7 +5,12 @@
     }
   },
   "outcomes": {
-    "Give Gift": {
+    "(SwapThings) Enchant Random Item": {
+      "command": "/swapthings randomenchanting $playerName $user POSITIVE",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Give Gift": {
       "events": [
         {
           "conditions": [],
@@ -14,7 +19,22 @@
       ],
       "type": "event"
     },
-    "Push Player (Multiple)": {
+    "(SwapThings) Inventory Bomb": {
+      "command": "/swapthings inventoryequalizer $playerName minecraft:air 1 $user",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Item Rename": {
+      "command": "/swapthings inventoryslotrenamer $playerName $user_name",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Mount Player on Entity": {
+      "command": "/swapthings summonmount $playerName $user",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Push Player (Multiple)": {
       "events": [
         {
           "conditions": [],
@@ -64,8 +84,28 @@
       ],
       "type": "event"
     },
-    "Push Player (Single)": {
+    "(SwapThings) Push Player (Single)": {
       "command": "/swapthings playernudger $playerName $user",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Random Horizontal Teleport": {
+      "command": "/swapthings randomteleport $playerName $user 144 480 0 0 144 480",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Rotate Player 90 Degrees": {
+      "command": "/swapthings playerrotate $playerName",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Shuffle Hotbar Items": {
+      "command": "/swapthings shufflehotbar $playerName $user",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Shuffle Inventory": {
+      "command": "/swapthings shuffleinventory $playerName $name",
       "executeAsSelf": true,
       "type": "command"
     }

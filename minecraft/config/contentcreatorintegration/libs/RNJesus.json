@@ -11,6 +11,7 @@
       "value1": "200",
       "value2": "600",
       "variableName": "rng200to600",
+      "roundNumber": true,
       "type": "randomNumber"
     },
     "RNG (500-1000)": {

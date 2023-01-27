@@ -4,22 +4,6 @@
       "types": {
         "bits": [
           {
-            "name": "5 Bits",
-            "conditions": [
-              {
-                "amount": 5.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Item Rename",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
             "name": "25 Bits",
             "conditions": [
               {
@@ -557,33 +541,6 @@
             "allowsOtherEventsToTrigger": true
           }
         ],
-        "subMysteryGift": [
-          {
-            "name": "Gift Chat Message",
-            "conditions": [],
-            "outcomes": [
-              {
-                "message": "Hey $streamer, $name just gave out $amount subs!",
-                "type": "chat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "conditions": [],
-            "outcomes": [
-              {
-                "times": "1",
-                "outcome": {
-                  "name": "value500",
-                  "type": "constant"
-                },
-                "type": "repeat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          }
-        ],
         "follow": [
           {
             "conditions": [],
@@ -618,7 +575,7 @@
         ]
       },
       "queue": [
-        "host+subscription+bits",
+        "host+bits",
         "follow"
       ],
       "for": "twitch_account"
@@ -1043,6 +1000,9 @@
           }
         ]
       },
+      "queue": [
+        "donation"
+      ],
       "ignoredTypes": [
         "streamlabels",
         "streamlabels.underlying"
