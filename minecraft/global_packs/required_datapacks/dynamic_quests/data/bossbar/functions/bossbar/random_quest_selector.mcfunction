@@ -6,12 +6,7 @@
 execute if score @s quest_active matches 1 run scoreboard players add @s pending_quest 1
 execute if score @s pending_quest matches 1.. run scoreboard players set @s quest_queue 1
 
-
-
-
-
 execute if score @s quest_active matches 0 run cyclic scoreboard random @s 1 24 quest_selector
-
 
 execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 001.. run playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1.0 0.5
 ##

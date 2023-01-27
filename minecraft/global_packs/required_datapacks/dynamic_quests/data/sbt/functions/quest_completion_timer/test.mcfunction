@@ -1,2 +1,2 @@
 #Completion Timer
-execute store result bossbar minecraft:completion_timer max run scoreboard players get @s completion_timer
+se action @s playerbossbar storescore max completion_timer completion_timer

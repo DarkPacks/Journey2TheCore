@@ -6,9 +6,6 @@
 execute store result score @s max_health run attribute @s generic.max_health base get
 
 
-
-
-
 execute if score @s max_health matches 01 run function bossbar:bossbar/upgrade/quest_completion_reward_redirect
 execute if score @s max_health matches 01 run tellraw @p [" ",{"text":"You're already at minimum health","color":"red"}]
 execute if score @s max_health matches 02 run attribute @s minecraft:generic.max_health base set 01

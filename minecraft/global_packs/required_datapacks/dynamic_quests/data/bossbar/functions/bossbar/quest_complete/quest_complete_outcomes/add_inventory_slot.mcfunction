@@ -38,6 +38,5 @@ execute if score @s inventory_slots matches 17 run inventory_slots unlock @p 1
 execute if score @s inventory_slots matches 18 run tellraw @s [" ",{"text":"Your inventory slots are all unlocked!","color":"red"}]
 execute if score @s inventory_slots matches 18 run function bossbar:bossbar/upgrade/quest_completion_reward_redirect
 
-
 #Announce Action
 execute unless score @s inventory_slots matches 18 run tellraw @s [" ",{"text":"You've unlocked an inventory slot!","color":"red"}]

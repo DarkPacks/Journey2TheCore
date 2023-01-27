@@ -1,14 +1,8 @@
 execute at @s run playsound hardcorequesting:complete master @s ~ ~ ~ 1.0 1.3
 
 scoreboard players set @s quest_timer 5
-
-
-
 scoreboard players set @s quest_timer 0
-
-#Debug Text
-#say Test 1
-schedule function bossbar:bossbar/clear_visibility 5s
+function bossbar:bossbar/clear_visibility
 
 #Reset quest_reward_number
 scoreboard players reset @s quest_reward_number

@@ -7,7 +7,7 @@ execute if score @s pending_quest matches 0 run execute if score @s quest_queue 
 #Stage#
 execute if score @s stage matches 01.. run function bossbar:bossbar/stage_selection
 
-execute store result bossbar bar value run scoreboard players get @s progress
+se action @s playerbossbar storescore value quest_tracker progress
 
 #Quest Completion Events
 #failures

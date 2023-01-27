@@ -33,23 +33,6 @@ scoreboard objectives add teleport_min_time dummy
 scoreboard objectives add teleport_max_time dummy
 scoreboard objectives add teleport_random_number dummy
 
-
-#Setup Boss Bars
-bossbar add minecraft:test2 "Quest Timer"
-bossbar set minecraft:test2 color red
-
-bossbar add bar "bar"
-bossbar set bar color blue
-
-bossbar add minecraft:fail_timer "Timeout Corner"
-bossbar set minecraft:fail_timer color red
-
-bossbar add minecraft:completion_timer "Effects Duration"
-bossbar set minecraft:completion_timer color green
-
-bossbar add minecraft:teleport_timer "Return Timer"
-bossbar set minecraft:teleport_timer color purple
-
 #Setup Completion or Fail events needing to run every tick
 scoreboard objectives add inventory_randomize dummy
 scoreboard objectives add damage_dad_joke dummy
@@ -270,6 +253,7 @@ scoreboard objectives add quest_6 dummy
 scoreboard objectives add quest_7 dummy
 scoreboard objectives add quest_8 dummy
 scoreboard objectives add quest_9 dummy
+scoreboard objectives add quest_10 dummy
 scoreboard objectives add esm_1 dummy
 scoreboard objectives add esm_2 dummy
 

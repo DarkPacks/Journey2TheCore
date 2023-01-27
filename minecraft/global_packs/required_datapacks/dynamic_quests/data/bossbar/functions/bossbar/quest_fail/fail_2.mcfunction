@@ -11,7 +11,7 @@ scoreboard players set @p stage 0
 execute if score @s timer matches 1 run scoreboard players reset @p timer
 
 #Remove Bossbar
-schedule function bossbar:bossbar/clear_visibility 5s
+function bossbar:bossbar/clear_visibility
 
 #Outcome
 function bossbar:bossbar/quest_fail/quest_failure_outcomes/lower_max_health

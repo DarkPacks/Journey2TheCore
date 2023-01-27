@@ -5,4 +5,4 @@ scoreboard players set @s damage_dad_joke 0
 
 #Reset Quest Timer
 scoreboard players reset @s fail_timer
-bossbar set minecraft:fail_timer visible false
+se action @s playerbossbar set fail_timer visible false

@@ -42,6 +42,5 @@ execute if score @s max_health matches 39 run attribute @s minecraft:generic.max
 execute if score @s max_health matches 40.. run tellraw @s [" ",{"text":"You're already at maximum health","color":"red"}]
 execute if score @s max_health matches 40.. run function bossbar:bossbar/upgrade/quest_completion_reward_redirect
 
-
 #Announce Action
 execute unless score @s max_health matches 40 run tellraw @s [" ",{"text":"Your max health is now higher","color":"red"}]

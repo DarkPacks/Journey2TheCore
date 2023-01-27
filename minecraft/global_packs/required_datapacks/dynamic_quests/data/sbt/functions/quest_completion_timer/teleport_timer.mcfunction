@@ -1,2 +1,2 @@
 #Teleport Timer
-execute store result bossbar minecraft:teleport_timer max run scoreboard players get @s teleport_timer
+se action @s playerbossbar storescore max teleport_timer teleport_timer

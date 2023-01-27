@@ -3,24 +3,23 @@ execute as @s run function bossbar:bossbar/player
 #Quest Timer
 function sbt:rng
 execute if score @s timer matches 1.. run scoreboard players remove @s timer 1
-execute if score @s timer matches 1.. store result bossbar minecraft:test2 value run scoreboard players get @s timer
-execute if score @s timer matches 0 run bossbar set minecraft:test2 visible false
+execute if score @s timer matches 1.. run se action @s playerbossbar storescore value quest_timer timer
+execute if score @s timer matches 0 run se action @s playerbossbar set quest_timer visible false
 #Failure Timer
 function sbt:quest_fail_timer/rng
 execute if score @s fail_timer matches 1.. run scoreboard players remove @s fail_timer 1
-execute if score @s fail_timer matches 1.. store result bossbar minecraft:fail_timer value run scoreboard players get @s fail_timer
-execute if score @s fail_timer matches 0 run bossbar set minecraft:fail_timer visible false
+execute if score @s fail_timer matches 1.. run se action @s playerbossbar storescore value fail_timer fail_timer
+execute if score @s timer matches 0 run se action @s playerbossbar set fail_timer visible false
 #Completion Timer
 function sbt:quest_completion_timer/rng
 execute if score @s completion_timer matches 1.. run scoreboard players remove @s completion_timer 1
-execute if score @s completion_timer matches 1.. store result bossbar minecraft:completion_timer value run scoreboard players get @s completion_timer
-execute if score @s completion_timer matches 0 run bossbar set minecraft:completion_timer visible false
-
+execute if score @s completion_timer matches 1.. run se action @s playerbossbar storescore value completion_timer completion_timer
+execute if score @s timer matches 0 run se action @s playerbossbar set completion_timer visible false
 #Teleport Timer
 function sbt:quest_completion_timer/rng
 execute if score @s teleport_timer matches 1.. run scoreboard players remove @s teleport_timer 1
-execute if score @s teleport_timer matches 1.. store result bossbar minecraft:teleport_timer value run scoreboard players get @s teleport_timer
-execute if score @s teleport_timer matches 0 run bossbar set minecraft:teleport_timer visible false
+execute if score @s teleport_timer matches 1.. run se action @s playerbossbar storescore value teleport_timer teleport_timer
+execute if score @s timer matches 0 run se action @s playerbossbar set teleport_timer visible false
 
 #scp-1689
 #track poisonous potato eating in overworld

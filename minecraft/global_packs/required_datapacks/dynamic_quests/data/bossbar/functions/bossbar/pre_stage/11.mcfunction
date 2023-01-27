@@ -8,12 +8,12 @@ scoreboard players reset @s monster_egg_mined_6
 scoreboard players reset @s quest_quantity
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
-bossbar set minecraft:bar players @a[scores={quest_active=1}]
+se action @s playerbossbar set quest_tracker value 0
 
 cyclic scoreboard random @s 1 16 quest_quantity
-execute store result bossbar minecraft:bar max run scoreboard players get @s quest_quantity 
+se action @s playerbossbar storescore max quest_tracker quest_quantity
 
-bossbar set minecraft:bar name [{"text":"Break "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Monster Eggs"}]
+se action @s playerbossbar set quest_tracker name [{"text":"Break "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Monster Eggs"}]
 
 #set stage
 scoreboard players set @s stage 11
@@ -27,12 +27,12 @@ scoreboard players set @s max_time 21600
 
 #Start Timer
 function sbt:test
-bossbar set minecraft:test2 visible true
+se action @s playerbossbar set quest_timer visible true
 
 #Color
-execute run bossbar set bar color blue
+se action @s playerbossbar set quest_tracker color blue
 function bossbar:bossbar/stage/11
-bossbar set bar visible true
+se action @s playerbossbar set quest_tracker visible true
 
 title @s title ""
 title @s subtitle {"text":"Quest Start","color":"white"}

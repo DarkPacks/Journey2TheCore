@@ -8,5 +8,6 @@ execute if score @s kill_zombie_2 matches 1 run scoreboard players set @s kill_z
 scoreboard players reset @s kill_zombie_1
 scoreboard players reset @s kill_zombie_2
 
+se action @s playerbossbar storescore max quest_tracker quest_quantity
 execute if score @s progress = @s quest_quantity run function bossbar:bossbar/upgrade/1
 execute if score @s timer matches 1 run function bossbar:bossbar/quest_fail/fail_1

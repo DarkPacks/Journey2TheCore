@@ -1,4 +1,4 @@
-execute run bossbar set minecraft:teleport_timer value 0
+#execute run bossbar set minecraft:teleport_timer value 0
 
 cyclic scoreboard random @s 8400 18000 teleport_timer
 
@@ -8,4 +8,4 @@ title @s subtitle {"text":"Good Luck!","color":"red"}
 
 #Start Timer
 function sbt:quest_completion_timer/teleport_timer
-bossbar set minecraft:teleport_timer visible true
+se action @s playerbossbar set teleport_timer visible true
