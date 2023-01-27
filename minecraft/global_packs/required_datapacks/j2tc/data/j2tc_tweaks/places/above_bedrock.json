@@ -1,10 +1,10 @@
 {
   "type": "youarehere:y_level",
   "soundLocation": "cyclic:chaos_reaper",
-  "title": "Oblivion",
-  "subtitle": "Betwixt the Gates",
-  "minY": 529,
-  "maxY": 687,
+  "title": "The Endless Abyss",
+  "subtitle": "Turn Back Now",
+  "minY": 689,
+  "maxY": 2000,
   "volume": 0.25,
   "dimension": "minecraft:overworld"
 }
