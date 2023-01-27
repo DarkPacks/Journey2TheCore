@@ -1,0 +1,7 @@
+{
+  "blockLocation": "waystones:mossy_waystone",
+  "dropBlock": "minecraft:mossy_cobblestone",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}
