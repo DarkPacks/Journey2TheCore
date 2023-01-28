@@ -827,8 +827,12 @@
             ],
             "outcomes": [
               {
-                "name": "Spawn Baby Polar Bear (Angry)",
-                "type": "constant"
+                "times": "10",
+                "outcome": {
+                  "name": "Spawn Baby Polar Bear (Angry)",
+                  "type": "constant"
+                },
+                "type": "repeat"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -862,8 +866,24 @@
             ],
             "outcomes": [
               {
-                "name": "(SwapThings) Random Horizontal Teleport",
+                "name": "Countdown (Random Color)",
                 "type": "constant"
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "(SwapThings) Random Horizontal Teleport",
+                        "type": "constant"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true,
+                    "delay": "120"
+                  }
+                ],
+                "type": "event"
               }
             ],
             "allowsOtherEventsToTrigger": true

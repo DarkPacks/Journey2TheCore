@@ -28,8 +28,22 @@
         {
           "conditions": [
             {
-              "name": "(Color) Get Username Color",
-              "type": "constant"
+              "conditions": [
+                {
+                  "name": "target_player_name",
+                  "type": "constant"
+                },
+                {
+                  "name": "Get Player UUID",
+                  "type": "constant"
+                },
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant",
+                  "displayName": "Get username color"
+                }
+              ],
+              "type": "multiple"
             },
             {
               "type": "null"
@@ -100,11 +114,23 @@
               "conditions": [
                 {
                   "name": "(Color) Get Username Color",
-                  "type": "constant"
+                  "type": "constant",
+                  "displayName": "Get username color"
                 },
                 {
                   "name": "Space Check - 1x1 SolidBlock Underneath",
-                  "type": "constant"
+                  "type": "constant",
+                  "displayName": "space check"
+                },
+                {
+                  "name": "target_player_name",
+                  "type": "constant",
+                  "displayName": "get target uuid"
+                },
+                {
+                  "name": "Get Player UUID",
+                  "type": "constant",
+                  "displayName": "UUID conversion"
                 }
               ],
               "type": "multiple"
