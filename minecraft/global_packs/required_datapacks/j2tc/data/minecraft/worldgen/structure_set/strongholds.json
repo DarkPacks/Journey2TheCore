@@ -1,7 +1,12 @@
 {
-  "structures": [],
+  "structures": [
+    {
+      "structure": "minecraft:stronghold",
+      "weight": 1
+    }
+  ],
   "placement": {
-    "distance": 32,
+    "distance": 16,
     "spread": 3,
     "count": 128,
     "type": "minecraft:concentric_rings"
