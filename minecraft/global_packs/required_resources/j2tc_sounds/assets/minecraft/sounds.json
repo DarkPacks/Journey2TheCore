@@ -1,0 +1,21 @@
+{
+  "entity.generic.hurt": {
+    "replace": true,
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3",
+      "damage/hit4",
+      "damage/hit5",
+      "damage/hit6",
+      "damage/hit7",
+      "damage/hit8",
+      "damage/hit9",
+      "damage/hit10",
+      "damage/hit11",
+      "damage/hit12",
+      "damage/hit13"
+    ],
+    "subtitle": "subtitles.entity.generic.hurt"
+  }
+}
