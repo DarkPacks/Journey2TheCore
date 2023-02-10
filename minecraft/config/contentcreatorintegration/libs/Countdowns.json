@@ -9,94 +9,13 @@
       "events": [
         {
           "name": "",
-          "conditions": [],
-          "outcomes": [
+          "conditions": [
             {
-              "url": "https://muddrdev.com/minecraft/randcolor.php",
-              "variableName": "randomColor",
-              "outcome": {
-                "events": [
-                  {
-                    "conditions": [
-                      {
-                        "variableName": "randomColorTest",
-                        "variableInput": "$randomColor",
-                        "isGlobal": true,
-                        "type": "variableInsert",
-                        "displayName": "Commits Variable to Global"
-                      }
-                    ],
-                    "outcomes": [
-                      {
-                        "command": "/title $playerName title {\"text\":\"3\",\"color\":\"#$randomColor\"}",
-                        "executeAsSelf": true,
-                        "type": "command",
-                        "displayName": "3"
-                      },
-                      {
-                        "events": [
-                          {
-                            "conditions": [],
-                            "outcomes": [
-                              {
-                                "command": "/title $playerName title {\"text\":\"2\",\"color\":\"#$randomColor\"}",
-                                "executeAsSelf": true,
-                                "type": "command",
-                                "displayName": "2"
-                              },
-                              {
-                                "events": [
-                                  {
-                                    "conditions": [],
-                                    "outcomes": [
-                                      {
-                                        "events": [
-                                          {
-                                            "conditions": [],
-                                            "outcomes": [
-                                              {
-                                                "command": "/title $playerName title {\"text\":\"0...\",\"color\":\"#$randomColor\"}",
-                                                "executeAsSelf": true,
-                                                "type": "command",
-                                                "displayName": "1"
-                                              }
-                                            ],
-                                            "allowsOtherEventsToTrigger": true,
-                                            "delay": "20"
-                                          }
-                                        ],
-                                        "type": "event"
-                                      },
-                                      {
-                                        "command": "/title $playerName title {\"text\":\"1\",\"color\":\"#$randomColor\"}",
-                                        "executeAsSelf": true,
-                                        "type": "command"
-                                      }
-                                    ],
-                                    "allowsOtherEventsToTrigger": true,
-                                    "delay": "20"
-                                  }
-                                ],
-                                "type": "event"
-                              }
-                            ],
-                            "allowsOtherEventsToTrigger": true,
-                            "delay": "20"
-                          }
-                        ],
-                        "type": "event"
-                      }
-                    ],
-                    "allowsOtherEventsToTrigger": true
-                  }
-                ],
-                "type": "event",
-                "displayName": "Random Color Event"
-              },
-              "type": "readFromUrl",
-              "displayName": "Pull Random Color from Muddr API"
+              "name": "(Color) Choose Random Hex Color",
+              "type": "constant"
             }
           ],
+          "outcomes": [],
           "allowsOtherEventsToTrigger": true
         }
       ],
@@ -106,128 +25,119 @@
       "events": [
         {
           "name": "",
-          "conditions": [],
+          "conditions": [
+            {
+              "name": "(Color) Choose Random Hex Color",
+              "type": "constant"
+            }
+          ],
           "outcomes": [
             {
-              "url": "https://muddrdev.com/minecraft/randcolor.php",
-              "variableName": "randomColor",
-              "outcome": {
-                "events": [
-                  {
-                    "conditions": [
-                      {
-                        "variableName": "randomColorTest",
-                        "variableInput": "$randomColor",
-                        "isGlobal": true,
-                        "type": "variableInsert",
-                        "displayName": "Commits Variable to Global"
-                      }
-                    ],
-                    "outcomes": [
-                      {
-                        "command": "/title $playerName title {\"text\":\"5\",\"color\":\"#$randomColor\"}",
-                        "executeAsSelf": true,
-                        "type": "command",
-                        "displayName": "5"
-                      },
-                      {
-                        "events": [
-                          {
-                            "conditions": [],
-                            "outcomes": [
-                              {
-                                "command": "/title $playerName title {\"text\":\"4\",\"color\":\"#$randomColor\"}",
-                                "executeAsSelf": true,
-                                "type": "command",
-                                "displayName": "4"
-                              },
-                              {
-                                "events": [
-                                  {
-                                    "conditions": [],
-                                    "outcomes": [
-                                      {
-                                        "command": "/title $playerName title {\"text\":\"3\",\"color\":\"#$randomColor\"}",
-                                        "executeAsSelf": true,
-                                        "type": "command",
-                                        "displayName": "3"
-                                      },
-                                      {
-                                        "events": [
-                                          {
-                                            "conditions": [],
-                                            "outcomes": [
-                                              {
-                                                "command": "/title $playerName title {\"text\":\"2\",\"color\":\"#$randomColor\"}",
-                                                "executeAsSelf": true,
-                                                "type": "command",
-                                                "displayName": "2"
-                                              },
-                                              {
-                                                "events": [
-                                                  {
-                                                    "conditions": [],
-                                                    "outcomes": [
-                                                      {
-                                                        "command": "/title $playerName title {\"text\":\"1\",\"color\":\"#$randomColor\"}",
-                                                        "executeAsSelf": true,
-                                                        "type": "command",
-                                                        "displayName": "1"
-                                                      },
-                                                      {
-                                                        "events": [
-                                                          {
-                                                            "conditions": [],
-                                                            "outcomes": [
-                                                              {
-                                                                "command": "/title $playerName title {\"text\":\"0...\",\"color\":\"#$randomColor\"}",
-                                                                "executeAsSelf": true,
-                                                                "type": "command"
-                                                              }
-                                                            ],
-                                                            "allowsOtherEventsToTrigger": true,
-                                                            "delay": "20"
-                                                          }
-                                                        ],
-                                                        "type": "event"
-                                                      }
-                                                    ],
-                                                    "allowsOtherEventsToTrigger": true,
-                                                    "delay": "20"
-                                                  }
-                                                ],
-                                                "type": "event"
-                                              }
-                                            ],
-                                            "allowsOtherEventsToTrigger": true,
-                                            "delay": "20"
-                                          }
-                                        ],
-                                        "type": "event"
-                                      }
-                                    ],
-                                    "allowsOtherEventsToTrigger": true,
-                                    "delay": "20"
-                                  }
-                                ],
-                                "type": "event"
-                              }
-                            ],
-                            "allowsOtherEventsToTrigger": true,
-                            "delay": "20"
-                          }
-                        ],
-                        "type": "event"
-                      }
-                    ],
-                    "allowsOtherEventsToTrigger": true
-                  }
-                ],
-                "type": "event",
-                "displayName": "Random Color Event"
-              },
-              "type": "readFromUrl",
-              "displayName": "Pull Random Color from Muddr API"
+              "events": [
+                {
+                  "name": "5",
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "command": "/title $playerName title {\"text\":\"5\",\"color\":\"$randomHexColor\"}",
+                      "executeAsSelf": true,
+                      "type": "command"
+                    },
+                    {
+                      "events": [
+                        {
+                          "name": "4",
+                          "conditions": [],
+                          "outcomes": [
+                            {
+                              "command": "/title $playerName title {\"text\":\"4\",\"color\":\"$randomHexColor\"}",
+                              "executeAsSelf": true,
+                              "type": "command"
+                            },
+                            {
+                              "events": [
+                                {
+                                  "name": "3",
+                                  "conditions": [],
+                                  "outcomes": [
+                                    {
+                                      "command": "/title $playerName title {\"text\":\"3\",\"color\":\"$randomHexColor\"}",
+                                      "executeAsSelf": true,
+                                      "type": "command"
+                                    },
+                                    {
+                                      "events": [
+                                        {
+                                          "name": "2",
+                                          "conditions": [],
+                                          "outcomes": [
+                                            {
+                                              "command": "/title $playerName title {\"text\":\"2\",\"color\":\"$randomHexColor\"}",
+                                              "executeAsSelf": true,
+                                              "type": "command"
+                                            },
+                                            {
+                                              "events": [
+                                                {
+                                                  "name": "1",
+                                                  "conditions": [],
+                                                  "outcomes": [
+                                                    {
+                                                      "command": "/title $playerName title {\"text\":\"1\",\"color\":\"$randomHexColor\"}",
+                                                      "executeAsSelf": true,
+                                                      "type": "command"
+                                                    },
+                                                    {
+                                                      "events": [
+                                                        {
+                                                          "name": "0",
+                                                          "conditions": [],
+                                                          "outcomes": [
+                                                            {
+                                                              "command": "/title $playerName title {\"text\":\"0...\",\"color\":\"$randomHexColor\"}",
+                                                              "executeAsSelf": true,
+                                                              "type": "command"
+                                                            }
+                                                          ],
+                                                          "allowsOtherEventsToTrigger": true,
+                                                          "delay": "20"
+                                                        }
+                                                      ],
+                                                      "type": "event"
+                                                    }
+                                                  ],
+                                                  "allowsOtherEventsToTrigger": true,
+                                                  "delay": "20"
+                                                }
+                                              ],
+                                              "type": "event"
+                                            }
+                                          ],
+                                          "allowsOtherEventsToTrigger": true,
+                                          "delay": "20"
+                                        }
+                                      ],
+                                      "type": "event"
+                                    }
+                                  ],
+                                  "allowsOtherEventsToTrigger": true,
+                                  "delay": "20"
+                                }
+                              ],
+                              "type": "event"
+                            }
+                          ],
+                          "allowsOtherEventsToTrigger": true,
+                          "delay": "20"
+                        }
+                      ],
+                      "type": "event"
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true
+                }
+              ],
+              "type": "event"
             }
           ],
           "allowsOtherEventsToTrigger": true

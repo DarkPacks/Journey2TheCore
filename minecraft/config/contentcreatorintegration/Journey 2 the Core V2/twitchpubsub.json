@@ -333,10 +333,6 @@
             "conditions": [],
             "outcomes": [
               {
-                "message": "Choo Chooo!",
-                "type": "chat"
-              },
-              {
                 "command": "/raidmeter modify raid display_remove @s",
                 "executeAsSelf": true,
                 "type": "command"
@@ -476,9 +472,18 @@
                 "optionalVariableName": "bits_used",
                 "amount": 5.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
-            "outcomes": [],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Item Rename",
+                "type": "constant"
+              }
+            ],
             "allowsOtherEventsToTrigger": true
           },
           {
@@ -488,6 +493,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 25.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -522,6 +531,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 50.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -539,6 +552,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 66.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -556,6 +573,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 69.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -590,6 +611,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 95.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -607,6 +632,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 100.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -641,6 +670,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 150.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -659,6 +692,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 200.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -676,13 +713,18 @@
                 "optionalVariableName": "bits_used",
                 "amount": 400.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
                 "name": "Countdown to Chance Cube Surround",
                 "type": "constant",
-                "weight": 10
+                "displayName": "Count and Chance Cube Surround",
+                "weight": 90
               },
               {
                 "events": [
@@ -714,7 +756,7 @@
                                 "type": "repeat"
                               }
                             ],
-                            "singleOutcomeOnly": true,
+                            "allowsOtherEventsToTrigger": true,
                             "delay": "120"
                           }
                         ],
@@ -725,7 +767,8 @@
                   }
                 ],
                 "type": "event",
-                "weight": 100
+                "displayName": "Countdown and Chance Cube Impostore Spawn",
+                "weight": 15
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -755,6 +798,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 665.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -777,6 +824,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 666.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -794,6 +845,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 667.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -803,7 +858,7 @@
                     "conditions": [],
                     "outcomes": [
                       {
-                        "name": "Ferrous Wroughtnaut Event",
+                        "name": "Spawn Ferrous Wroughtnaut",
                         "type": "constant"
                       }
                     ],
@@ -823,6 +878,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 668.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -844,6 +903,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 669.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -862,11 +925,15 @@
                 "optionalVariableName": "bits_used",
                 "amount": 777.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
-                "name": "Countdown (Random Color)",
+                "name": "Countdown 5 (Random Color)",
                 "type": "constant"
               },
               {
@@ -912,6 +979,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 1000.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -929,6 +1000,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 1500.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -946,6 +1021,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 1812.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -979,6 +1058,10 @@
               {
                 "amount": 2181.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -1017,6 +1100,10 @@
                 "optionalVariableName": "bits_used",
                 "amount": 5000.0,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
@@ -1061,6 +1148,11 @@
                 "command": "/raidmeter modify quest add $bits_used",
                 "executeAsSelf": true,
                 "type": "command"
+              },
+              {
+                "command": "/scoreboard players add $playerName raidmeter_tracking $bits_used",
+                "type": "command",
+                "displayName": "Adds to Player Scoreboard Objective"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -1104,10 +1196,6 @@
                       {
                         "name": "Twitch Subscription (Value 500)",
                         "type": "constant"
-                      },
-                      {
-                        "message": "Test",
-                        "type": "chat"
                       }
                     ],
                     "allowsOtherEventsToTrigger": true
@@ -1254,6 +1342,34 @@
       "for": "channel-subscribe-events-v1"
     }
   ],
-  "init": [],
+  "init": [
+    {
+      "conditions": [
+        {
+          "conditions": [
+            {
+              "name": "target_player_name",
+              "type": "constant",
+              "displayName": "Target Player - Get unformatted UUID"
+            },
+            {
+              "name": "Get Player UUID",
+              "type": "constant",
+              "displayName": "Format Player UUID"
+            },
+            {
+              "variableName": "playerUUID",
+              "variableInput": "$playerUUID",
+              "isGlobal": true,
+              "type": "variableInsert"
+            }
+          ],
+          "type": "multiple"
+        }
+      ],
+      "outcomes": [],
+      "allowsOtherEventsToTrigger": true
+    }
+  ],
   "type": "twitchpubsub"
 }

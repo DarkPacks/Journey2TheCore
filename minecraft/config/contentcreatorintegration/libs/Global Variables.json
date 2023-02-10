@@ -23,7 +23,8 @@
     "(Global) $viewername": {
       "condition": {
         "variableName": "recipient_display_name",
-        "type": "variableExists"
+        "type": "variableExists",
+        "displayName": "insert recipient_display_name"
       },
       "passCondition": {
         "variableName": "viewername",
@@ -34,17 +35,34 @@
       "failCondition": {
         "condition": {
           "variableName": "display_name",
-          "type": "variableExists"
+          "type": "variableExists",
+          "displayName": "display_name exists?"
         },
         "passCondition": {
           "variableName": "viewername",
           "variableInput": "$display_name",
-          "type": "variableInsert"
+          "type": "variableInsert",
+          "displayName": "insert display_name"
         },
         "failCondition": {
-          "variableName": "viewername",
-          "variableInput": "$user_name",
-          "type": "variableInsert"
+          "condition": {
+            "variableName": "user_name",
+            "type": "variableExists",
+            "displayName": "does user_name exist?"
+          },
+          "passCondition": {
+            "variableName": "viewername",
+            "variableInput": "$user_name",
+            "type": "variableInsert",
+            "displayName": "insert user_name"
+          },
+          "failCondition": {
+            "variableName": "viewername",
+            "variableInput": "$user",
+            "type": "variableInsert",
+            "displayName": "insert user"
+          },
+          "type": "conditional"
         },
         "type": "conditional",
         "displayName": "Checks if event has Display Name"

@@ -6,7 +6,7 @@
   },
   "outcomes": {
     "(SwapThings) Enchant Random Item": {
-      "command": "/swapthings randomenchanting $playerName $user_name POSITIVE",
+      "command": "/swapthings randomenchanting $playerName $viewername POSITIVE",
       "executeAsSelf": true,
       "type": "command"
     },
@@ -20,17 +20,17 @@
       "type": "event"
     },
     "(SwapThings) Inventory Bomb": {
-      "command": "/swapthings inventoryequalizer $playerName minecraft:air 1 $user_name",
+      "command": "/swapthings inventoryequalizer $playerName minecraft:air 1 $viewername",
       "executeAsSelf": true,
       "type": "command"
     },
     "(SwapThings) Item Rename": {
-      "command": "/swapthings inventoryslotrenamer $playerName $user_name",
+      "command": "/swapthings inventoryslotrenamer $playerName $viewername",
       "executeAsSelf": true,
       "type": "command"
     },
     "(SwapThings) Mount Player on Entity": {
-      "command": "/swapthings summonmount $playerName $user_name",
+      "command": "/swapthings summonmount $playerName $viewername",
       "executeAsSelf": true,
       "type": "command"
     },

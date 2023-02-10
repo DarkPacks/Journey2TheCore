@@ -9,12 +9,21 @@
               {
                 "username": "darkosto",
                 "type": "user"
+              },
+              {
+                "name": "target_player_name",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
-                "name": "Countdown 5 (Random Color)",
+                "name": "Hex Test Outcome",
                 "type": "constant"
+              },
+              {
+                "command": "/function bossbar:bossbar/random_quest_selector",
+                "executeAsSelf": true,
+                "type": "command"
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -43,19 +52,18 @@
                         "variableName": "IhaveToPutSomethingHereBecauseIChunSaidSo",
                         "type": "note",
                         "inverseMatch": true
+                      },
+                      {
+                        "name": "(Color) Choose Random Hex Color",
+                        "type": "constant"
                       }
                     ],
                     "outcomes": [
                       {
-                        "url": "https://muddrdev.com/minecraft/randcolor.php",
-                        "variableName": "randomColor",
-                        "outcome": {
-                          "noteName": "$name",
-                          "noteContent": "#$randomColor",
-                          "expiresIn": "24h",
-                          "type": "note"
-                        },
-                        "type": "readFromUrl"
+                        "noteName": "$name",
+                        "noteContent": "$randomHexColor",
+                        "expiresIn": "24h",
+                        "type": "note"
                       }
                     ],
                     "allowsOtherEventsToTrigger": true

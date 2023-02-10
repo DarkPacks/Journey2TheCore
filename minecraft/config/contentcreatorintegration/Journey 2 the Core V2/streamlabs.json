@@ -49,7 +49,7 @@
             "conditions": [],
             "outcomes": [
               {
-                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "message": "Hey $streamer, $viewername just tipped $formatted_amount!",
                 "type": "chat"
               }
             ],
@@ -101,7 +101,7 @@
             ],
             "outcomes": [
               {
-                "name": "Push Player (Multiple)",
+                "name": "(SwapThings) Push Player (Multiple)",
                 "type": "constant",
                 "displayName": "Push Player"
               }
@@ -118,7 +118,7 @@
             ],
             "outcomes": [
               {
-                "name": "Mount Player on Entity",
+                "name": "(SwapThings) Mount Player on Entity",
                 "type": "constant"
               }
             ],
@@ -162,7 +162,7 @@
                               {
                                 "times": "10",
                                 "outcome": {
-                                  "name": "Impostore - Chance Cubes Event",
+                                  "name": "Spawn Impostore",
                                   "type": "constant"
                                 },
                                 "type": "repeat"
@@ -195,7 +195,7 @@
             ],
             "outcomes": [
               {
-                "name": "value500",
+                "name": "Twitch Subscription (Value 500)",
                 "type": "constant"
               }
             ],
@@ -211,7 +211,7 @@
             ],
             "outcomes": [
               {
-                "name": "Summon Angry Bear",
+                "name": "Spawn Adult Polar Bear (Angry)",
                 "type": "constant"
               }
             ],
@@ -227,7 +227,7 @@
             ],
             "outcomes": [
               {
-                "name": "Spawn Armor Stand (teleport)",
+                "name": "(SwapThings) Random Horizontal Teleport",
                 "type": "constant"
               }
             ],
@@ -311,7 +311,7 @@
             ],
             "outcomes": [
               {
-                "name": "Inventory Bomb",
+                "name": "(SwapThings) Inventory Bomb",
                 "type": "constant"
               }
             ],
@@ -352,7 +352,7 @@
                     "conditions": [],
                     "outcomes": [
                       {
-                        "name": "Ferrous Wroughtnaut Event",
+                        "name": "Spawn Ferrous Wroughtnaut",
                         "type": "constant"
                       }
                     ],
@@ -392,7 +392,7 @@
               {
                 "times": "10",
                 "outcome": {
-                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
+                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\"}'}",
                   "executeAsSelf": true,
                   "type": "command"
                 },
@@ -411,7 +411,7 @@
             ],
             "outcomes": [
               {
-                "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$name\"}'}",
+                "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$viwername\"}'}",
                 "executeAsSelf": true,
                 "type": "command"
               }

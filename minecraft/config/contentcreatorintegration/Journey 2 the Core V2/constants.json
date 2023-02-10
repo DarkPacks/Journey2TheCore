@@ -868,7 +868,7 @@
                     }
                   ],
                   "allowsOtherEventsToTrigger": true,
-                  "delay": "101"
+                  "delay": "120"
                 }
               ],
               "type": "event"
@@ -1128,7 +1128,7 @@
           "conditions": [],
           "outcomes": [
             {
-              "name": "Countdown (Random Color)",
+              "name": "Countdown 5 (Random Color)",
               "type": "constant"
             },
             {
@@ -1143,7 +1143,7 @@
                     }
                   ],
                   "allowsOtherEventsToTrigger": true,
-                  "delay": "81"
+                  "delay": "121"
                 }
               ],
               "type": "event"

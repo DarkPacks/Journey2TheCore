@@ -234,9 +234,33 @@
           ],
           "outcomes": [
             {
-              "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$user_name\",\"color\":\"$uColor\"}'}",
-              "executeAsSelf": true,
-              "type": "command"
+              "condition": {
+                "name": "Space Check - 2x2x4 SolidBlock Underneath",
+                "type": "constant"
+              },
+              "outcome": {
+                "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                "executeAsSelf": true,
+                "type": "command"
+              },
+              "conditionNotMetOutcome": {
+                "condition": {
+                  "name": "Space Check - 2x2x4 SolidBlock Underneath : Larger Area",
+                  "type": "constant"
+                },
+                "outcome": {
+                  "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheckLargerArea {CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "conditionNotMetOutcome": {
+                  "command": "/summon mowziesmobs:ferrous_wroughtnaut ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "conditional"
+              },
+              "type": "conditional"
             }
           ],
           "triggersFromAnyConditionMet": true,
@@ -397,6 +421,10 @@
             },
             {
               "name": "(Raidmeter) Value 500",
+              "type": "constant"
+            },
+            {
+              "name": "(Raidmeter) Value 500 Scoreboard Objective",
               "type": "constant"
             }
           ],

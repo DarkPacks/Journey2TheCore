@@ -60,6 +60,18 @@
       "requireSolidBlock": true,
       "type": "freeSpace"
     },
+    "Space Check - 2x2x4 SolidBlock Underneath : Larger Area": {
+      "target": "$playerName",
+      "horiRadius": "36",
+      "vertRadius": "24",
+      "tries": "50",
+      "variableName": "wideTallEntitySpaceCheckLargerArea",
+      "customHeight": "4",
+      "customWidth": "2",
+      "minHoriDistance": "3",
+      "requireSolidBlock": true,
+      "type": "freeSpace"
+    },
     "Space Check - 4x4 NoSolidBlock Underneath": {
       "target": "$playerName",
       "horiRadius": "12",
