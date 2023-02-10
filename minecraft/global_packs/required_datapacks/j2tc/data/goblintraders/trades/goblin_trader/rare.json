@@ -510,7 +510,7 @@
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\"}}"
       },
       "payment_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1
       },
       "price_multiplier": 0.1,
