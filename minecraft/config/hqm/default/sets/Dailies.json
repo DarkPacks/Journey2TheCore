@@ -274,6 +274,55 @@
       "commandrewards": []
     },
     {
+      "uuid": "a731bd29-c181-4e5d-91de-8ae1e8d9e87a",
+      "name": {
+        "text": "Heartless",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "If you don\u0027t need your extra hearts then trade them instead!",
+        "isTranslationKey": false
+      },
+      "x": 180,
+      "y": 26,
+      "icon": {
+        "id": "hardcorequesting:heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "prerequisites": [
+        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:unidentified_gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:totem_of_undying",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\",LootTable:\"j2tc_tweaks:treasure_bags/tcon_modifier_books\"}}"
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "7bce7e67-5af1-4386-9ba5-638322167347",
       "name": {
         "text": "Dark Side of the Bone",

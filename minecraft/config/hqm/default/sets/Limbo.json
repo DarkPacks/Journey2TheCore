@@ -1,0 +1,683 @@
+{
+  "name": "Limbo",
+  "quests": [
+    {
+      "uuid": "60f91de4-ed06-42aa-8121-1c5307e7c764",
+      "name": {
+        "text": "Unidentified Gem",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "To identify an Unidentified Gem, you\u0027ll need to use it on a Budding Geode Block. You can then use it on your gear socket slots",
+        "isTranslationKey": false
+      },
+      "x": 23,
+      "y": 35,
+      "icon": {
+        "id": "turkeydevutil:unidentified_gem",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "apotheosis:gem",
+                "Count": 1,
+                "tag": "{modifier:{Amount:0.20000000298023224d,Name:\"GemBonus_apotheosis:draw_speed\",Operation:1,UUID:[I;-844965267,324158588,-1271758319,-661431281],attribute:\"apotheosis:draw_speed\"},purity:0.2857143f,variant:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:sigil_of_socketing",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/apoth gem random"
+      ]
+    },
+    {
+      "uuid": "0e800749-6a52-44c4-89e3-b53fe9bbeb38",
+      "name": {
+        "text": "Wither or Not",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 74,
+      "y": 131,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Wither Skeleton",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:necrotic_bone",
+          "Count": 8
+        },
+        {
+          "id": "cyclic:milk_bottle",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 3
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f16c1942-17bc-4410-b8ef-5a40b4ac4386",
+      "name": {
+        "text": "Mr Bones Wild Ride",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 49,
+      "y": 131,
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Skeletons",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "998ed66b-32d7-4b8c-8d05-1a2ce19f8b20",
+      "name": {
+        "text": "They\u0027re Hunting You!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 23,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:player_head",
+        "Count": 1,
+        "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Player Mobs",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:player_head",
+                "Count": 1,
+                "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
+              },
+              "mob": "player_mobs:player_mob",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "alexsmobs:lobster_tail",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9cf2648d-71c5-4ac2-82eb-cc9cfd38ff9e",
+      "name": {
+        "text": "Kill Creepers",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 23,
+      "y": 130,
+      "icon": {
+        "id": "minecraft:creeper_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Creepers",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:creeper_head",
+                "Count": 1
+              },
+              "mob": "minecraft:creeper",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:flint_and_brick",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 4
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4ab2e9af-1b62-445a-8521-da9dbff36c26",
+      "name": {
+        "text": "Is There Anybody Out There?",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Turns out there might be someone down here. I wonder where they are? This map should help me locate an Underground Village!",
+        "isTranslationKey": false
+      },
+      "x": 23,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:filled_map",
+        "Count": 1,
+        "tag": "{Decorations:[{id:\"+\",rot:180s,type:26b,x:-144s,z:336s}],map:5b}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bone",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:treasure_map\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f92f705c-bd8e-453c-aa60-3654e6c462df",
+      "name": {
+        "text": "Zombies",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 49,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:zombie_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Zombies",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potato",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c9dce8d-0f41-44f2-9dc0-1d73dbab9d95",
+      "name": {
+        "text": "Arachnophobia",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Kill Cave Spiders",
+        "isTranslationKey": false
+      },
+      "x": 102,
+      "y": 132,
+      "icon": {
+        "id": "tconstruct:cave_spider_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Cave Spiders",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:cave_spider_head",
+                "Count": 1
+              },
+              "mob": "minecraft:cave_spider",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mob_grinding_utils:monocle",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "cyclic:milk_bottle",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8b970dba-dacb-45bf-a9bd-9ae411d393a3",
+      "name": {
+        "text": "EIGHT LEGGED FREAKS",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 102,
+      "y": 103,
+      "icon": {
+        "id": "tconstruct:spider_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Spiders",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:spider_head",
+                "Count": 1
+              },
+              "mob": "minecraft:spider",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:string",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "74e0a308-838f-452e-96c8-5f1d1f55535b",
+      "name": {
+        "text": "Smithing Table",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Smithing Table will allow you to add Gems to Tools, Armor, and Weapons. You will need an empty Socket first. Once you socket a Gem it cannot be used again.",
+        "isTranslationKey": false
+      },
+      "x": 54,
+      "y": 35,
+      "icon": {
+        "id": "minecraft:smithing_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:smithing_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "60f91de4-ed06-42aa-8121-1c5307e7c764"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:sigil_of_socketing",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27d3e279-4b31-497b-bada-528ad24ad44f",
+      "name": {
+        "text": "Ender Sandman",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Kill 5 endermen",
+        "isTranslationKey": false
+      },
+      "x": 129,
+      "y": 103,
+      "icon": {
+        "id": "tconstruct:enderman_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Endermen",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:enderman_head",
+                "Count": 1
+              },
+              "mob": "minecraft:enderman",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:sand",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:endermite_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 5
+        },
+        {
+          "id": "hardcorequesting:threequartsheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 2,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef5c39ea-9800-4eba-8fe5-367e4c423309",
+      "name": {
+        "text": "Dirt Creepers",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 75,
+      "y": 103,
+      "icon": {
+        "id": "minecraft:creeper_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Dirt Creepers",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:creeper_head",
+                "Count": 1
+              },
+              "mob": "core_creepers:dirt_creeper",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -2,81 +2,17 @@
   "name": "Getting Started",
   "quests": [
     {
-      "uuid": "0e800749-6a52-44c4-89e3-b53fe9bbeb38",
-      "name": {
-        "text": "Wither or Not",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 152,
-      "y": 15,
-      "icon": {
-        "id": "minecraft:wither_skeleton_skull",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Wither Skeleton",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:wither_skeleton_skull",
-                "Count": 1
-              },
-              "mob": "minecraft:wither_skeleton",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:necrotic_bone",
-          "Count": 8
-        },
-        {
-          "id": "cyclic:milk_bottle",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 3
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "5af16a2a-d4c0-455d-a18c-c133e26de296",
       "name": {
         "text": "Shurikens",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
-      "x": 246,
-      "y": 156,
+      "x": 91,
+      "y": 32,
       "icon": {
         "id": "tconstruct:flint_shuriken",
         "Count": 1
@@ -107,72 +43,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "b77048ee-afe9-40d8-b885-3f7d9ea8de7c",
-      "name": {
-        "text": "Helmet",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
-        "isTranslationKey": false
-      },
-      "x": 174,
-      "y": 11,
-      "icon": {
-        "id": "tconstruct:travelers_helmet",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "monstereggs:enderman_egg",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:travelers_helmet",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:slurping\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:zoom\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:diamond\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:thorns\"}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
       "name": {
         "text": "Amethyst",
@@ -182,7 +52,7 @@
         "text": "Y\u003d0 to Y\u003d132",
         "isTranslationKey": false
       },
-      "x": 263,
+      "x": 286,
       "y": 67,
       "icon": {
         "id": "minecraft:amethyst_shard",
@@ -266,66 +136,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f16c1942-17bc-4410-b8ef-5a40b4ac4386",
-      "name": {
-        "text": "Mr Bones Wild Ride",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 104,
-      "y": 15,
-      "icon": {
-        "id": "minecraft:skeleton_skull",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Skeletons",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:skeleton_skull",
-                "Count": 1
-              },
-              "mob": "minecraft:skeleton",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 32
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -425,54 +235,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "6a56dace-3b01-497d-ba7a-906327f9978e",
-      "name": {
-        "text": "Skillet",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 203,
-      "y": 123,
-      "icon": {
-        "id": "farmersdelight:skillet",
-        "Count": 1,
-        "tag": "{Damage:0}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "farmersdelight:skillet",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potato",
-          "Count": 8
-        },
-        {
-          "id": "farmersdelight:stuffed_potato",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "99816012-74e9-4c81-bb97-17e3836f506c",
       "name": {
         "text": "Diamond",
@@ -482,7 +244,7 @@
         "text": "Y\u003d0 to Y\u003d264",
         "isTranslationKey": false
       },
-      "x": 251,
+      "x": 274,
       "y": 88,
       "icon": {
         "id": "minecraft:diamond",
@@ -530,62 +292,6 @@
         "/gamestage add @s quest_5",
         "/gamestage remove @s quest_4"
       ]
-    },
-    {
-      "uuid": "7c291723-d984-4026-ba83-f26fb014dade",
-      "name": {
-        "text": "Cooking Pot",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 179,
-      "y": 123,
-      "icon": {
-        "id": "farmersdelight:cooking_pot",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "farmersdelight:cooking_pot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "farmersdelight:dumplings",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
     },
     {
       "uuid": "f8a86133-e715-448c-87dc-4391fef2d72f",
@@ -664,8 +370,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 303,
-      "y": 37,
+      "x": 251,
+      "y": 13,
       "icon": {
         "id": "sophisticatedbackpacks:netherite_backpack",
         "Count": 1,
@@ -757,8 +463,8 @@
         "text": "You\u0027ll need more wood to get started. Use the Sapling in your inventory to grow one or break Rooted Dirt blocks for more saplings.",
         "isTranslationKey": false
       },
-      "x": 14,
-      "y": 30,
+      "x": 17,
+      "y": 43,
       "icon": {
         "id": "minecraft:oak_sapling",
         "Count": 1
@@ -805,11 +511,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
-      "x": 277,
-      "y": 37,
+      "x": 225,
+      "y": 13,
       "icon": {
         "id": "sophisticatedbackpacks:diamond_backpack",
         "Count": 1,
@@ -854,8 +560,8 @@
         "text": "Craft a bed to set your Spawn!",
         "isTranslationKey": false
       },
-      "x": 56,
-      "y": 55,
+      "x": 55,
+      "y": 52,
       "icon": {
         "id": "minecraft:purple_bed",
         "Count": 1
@@ -986,195 +692,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "998ed66b-32d7-4b8c-8d05-1a2ce19f8b20",
-      "name": {
-        "text": "They\u0027re Hunting You!",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 92,
-      "y": 35,
-      "icon": {
-        "id": "minecraft:player_head",
-        "Count": 1,
-        "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Player Mobs",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:player_head",
-                "Count": 1,
-                "tag": "{SkullOwner:{Id:[I;276127398,-1759426950,-1956867411,-158791892],Name:\"Darkosto\",Properties:{textures:[{Signature:\"HgtPpdHpdvKcwTuETddSR3shorUDQSDkpKVFHX208AZ0r3c3HiBSrjGTWSGzuWMsNj0fV9nueadUM1XUrQsLnBmoowXX0RlfkOv4YmZFRuYzEcUlTPBw1tJxF8IVwwh4r83mcsbtsBFcCgric/bkkgQMOXMrL4p8ZVimDLueQI0CYpdIDy1XGWMIrIQ5K5M6K8qehOK1d+hgLaqkJKVZsJnw/O2pQsO2azBEsO8hbGih4D6UtrAhrXa2YaXOsknJa2A9GZVTpyEWBiyaCwkqOgMfcK10VyllEfNXGgaEZ8ZSB+oItiZaWpvl6RtxFPzVY5ncbCgJ/9PcF3sAh9cHUUMcS2yqnSnv0YzOh5Ago3faQcQ96x4nC7yj8Qy1l99rPMwJG6lgmphL1hngvnw/RIgphV43M85rGG1zknBOAfb59M+Rg8luXZi14c/S2/TuETgQFD2W4XMYqZZ66Diqhq8ACC5+L8pn0eMvfn9k5HeLuKY+QMB3xt2tUfhp2bcCZ4VxdBjaGashSXb7VOvz82R3tCWanic22FPm8WNtRxu9XA2stkGljBlDoKlSsZWkF2QubWiF3B8WgHiPrfqxOnjfRIb98ryNAT8qZmqYuJpEHKyvu5poXwSzZzthWSQBJUYZwoeJBgsDgRgY9knwh0bD1d3bYrtxflq2nxhZyhg\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDAzOTU2NjEwMiwKICAicHJvZmlsZUlkIiA6ICIxMDc1NWVhNjk3MjE0NjdhOGI1YzkyYWRmNjg5MDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrb3N0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTgwMDJkMGE4OWU0YmM5MjM0ZDJhNjNiNDQwMmRhZGUyN2MwNGYwZjk0ZTA1YjhjYWRjNmM0OGExYjNlNzEyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ\u003d\u003d\"}]}}}"
-              },
-              "mob": "player_mobs:player_mob",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "alexsmobs:lobster_tail",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
-      "name": {
-        "text": "Leggings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
-        "isTranslationKey": false
-      },
-      "x": 198,
-      "y": 11,
-      "icon": {
-        "id": "tconstruct:travelers_leggings",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "monstereggs:skeleton_egg",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:travelers_leggings",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:speedy\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:pockets\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:shield_strap\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:reinforced\"}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9cf2648d-71c5-4ac2-82eb-cc9cfd38ff9e",
-      "name": {
-        "text": "Kill Creepers",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 116,
-      "y": 35,
-      "icon": {
-        "id": "minecraft:creeper_head",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Creepers",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:creeper_head",
-                "Count": 1
-              },
-              "mob": "minecraft:creeper",
-              "kills": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:flint_and_brick",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:fiery\"},{level:1s,name:\"tconstruct:scorching\"},{level:1s,name:\"tconstruct:firestarter\"}],tic_persistent_data:{upgrades:1b},tic_stats:{\"tconstruct:durability\":100.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 4
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "6df15ec7-3337-4e59-a94d-700178f97747",
       "name": {
         "text": "Little Helpers",
@@ -1221,127 +738,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "6c9dce8d-0f41-44f2-9dc0-1d73dbab9d95",
-      "name": {
-        "text": "Arachnophobia",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Kill Cave Spiders",
-        "isTranslationKey": false
-      },
-      "x": 128,
-      "y": 55,
-      "icon": {
-        "id": "tconstruct:cave_spider_head",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Cave Spiders",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "tconstruct:cave_spider_head",
-                "Count": 1
-              },
-              "mob": "minecraft:cave_spider",
-              "kills": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mob_grinding_utils:monocle",
-          "Count": 1,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "cyclic:milk_bottle",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 1
-        },
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6b6c21f0-27d4-4c65-9a4b-076acd30548d",
-      "name": {
-        "text": "Emerald",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Y\u003d397 to Y\u003d528",
-        "isTranslationKey": false
-      },
-      "x": 204,
-      "y": 61,
-      "icon": {
-        "id": "minecraft:emerald",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:emerald",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1a793aac-0be4-4f4a-87c2-6725781939b1"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "cyclic:apple_sprout_emerald",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 4
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "9351da90-607b-46d5-878f-b8c154b75e24",
       "name": {
         "text": "Light it Up!",
@@ -1351,8 +747,8 @@
         "text": "Glowsticks can be thrown to light up a far away area. They will not last forever so use them wisely!",
         "isTranslationKey": false
       },
-      "x": 68,
-      "y": 35,
+      "x": 67,
+      "y": 32,
       "icon": {
         "id": "glow_sticks:glow_stick_purple",
         "Count": 1
@@ -1393,7 +789,7 @@
         "text": "Y\u003d133 to Y\u003d396",
         "isTranslationKey": false
       },
-      "x": 203,
+      "x": 225,
       "y": 88,
       "icon": {
         "id": "minecraft:iron_ingot",
@@ -1442,70 +838,6 @@
       ]
     },
     {
-      "uuid": "27d3e279-4b31-497b-bada-528ad24ad44f",
-      "name": {
-        "text": "Ender Sandman",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Kill 5 endermen",
-        "isTranslationKey": false
-      },
-      "x": 152,
-      "y": 55,
-      "icon": {
-        "id": "tconstruct:enderman_head",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Endermen",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "tconstruct:enderman_head",
-                "Count": 1
-              },
-              "mob": "minecraft:enderman",
-              "kills": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:sand",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:endermite_spawn_egg",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 5
-        },
-        {
-          "id": "hardcorequesting:threequartsheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 2,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "5cf9b4e6-50dd-408a-9560-f5866948e8d0",
       "name": {
         "text": "Redstone",
@@ -1515,8 +847,8 @@
         "text": "Y\u003d0 to Y\u003d132 and Y\u003d265 to Y\u003d396",
         "isTranslationKey": false
       },
-      "x": 228,
-      "y": 61,
+      "x": 240,
+      "y": 67,
       "icon": {
         "id": "minecraft:redstone",
         "Count": 1
@@ -1559,72 +891,6 @@
           "id": "treasurebags:treasure_bag",
           "Count": 1,
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ea19766d-504f-42b2-8aa2-63f8f1e58c8c",
-      "name": {
-        "text": "Chest Plate",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
-        "isTranslationKey": false
-      },
-      "x": 174,
-      "y": 37,
-      "icon": {
-        "id": "tconstruct:travelers_chestplate",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.55f},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":160.0f}}"
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "monstereggs:zombie_egg",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:travelers_chestplate",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.55f},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":160.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:ambidextrous\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:reinforced\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:strength\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:glowing\"}"
         }
       ],
       "commandrewards": []
@@ -1892,8 +1158,8 @@
         "text": "Cobalt is secondary output when melting Diamond Ore in a Tinkers\u0027 Construct Foundry",
         "isTranslationKey": false
       },
-      "x": 275,
-      "y": 87,
+      "x": 298,
+      "y": 88,
       "icon": {
         "id": "tconstruct:cobalt_ingot",
         "Count": 1
@@ -1931,58 +1197,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "4ab2e9af-1b62-445a-8521-da9dbff36c26",
-      "name": {
-        "text": "Is There Anybody Out There?",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Turns out there might be someone down here. I wonder where they are? This map should help me locate an Underground Village!",
-        "isTranslationKey": false
-      },
-      "x": 21,
-      "y": 88,
-      "icon": {
-        "id": "minecraft:filled_map",
-        "Count": 1,
-        "tag": "{Decorations:[{id:\"+\",rot:180s,type:26b,x:-144s,z:336s}],map:5b}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bone",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1e8b2fd7-e0f2-424a-b3f0-23d4e7ff16e3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:treasure_map\"}}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "6eba1378-2189-4e12-b128-cc6c1c3b85ea",
       "name": {
         "text": "Silk Touch",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
         "isTranslationKey": false
       },
       "x": 277,
@@ -2077,7 +1298,7 @@
         "text": "Gold is located between Y\u003d-64 to Y\u003d264",
         "isTranslationKey": false
       },
-      "x": 227,
+      "x": 250,
       "y": 88,
       "icon": {
         "id": "minecraft:gold_ingot",
@@ -2136,8 +1357,8 @@
         "text": "Need slightly better armor? Cobblestone Armor is a smidgen above Wooden Armor and pretty heavy so it slows you down. But it rocks! ",
         "isTranslationKey": false
       },
-      "x": 12,
-      "y": 131,
+      "x": 121,
+      "y": 69,
       "icon": {
         "id": "j2tc_tweaks:cobblestone_chestplate",
         "Count": 1,
@@ -2218,8 +1439,8 @@
         "text": "You\u0027re going to need to fix up your flint tools. Locate some Gravel which will allow you to make Flint. Use a Flint Repair Kit to fix up your tools.",
         "isTranslationKey": false
       },
-      "x": 56,
-      "y": 15,
+      "x": 55,
+      "y": 11,
       "icon": {
         "id": "minecraft:flint",
         "Count": 1
@@ -2367,8 +1588,8 @@
         "text": "Not wearing armor might be a bad idea! Wooden Armor might not be very protective but hey! it\u0027s better than nothing, right?!",
         "isTranslationKey": false
       },
-      "x": 21,
-      "y": 53,
+      "x": 17,
+      "y": 69,
       "icon": {
         "id": "j2tc_tweaks:wooden_chestplate",
         "Count": 1,
@@ -2441,8 +1662,8 @@
         "text": "You\u0027ll need to unlock those inventory slots to gain more inventory space. Use Lanyards to unlock 1 slot. The cost increases for every slot you unlock.",
         "isTranslationKey": false
       },
-      "x": 44,
-      "y": 35,
+      "x": 43,
+      "y": 32,
       "icon": {
         "id": "turkeydevutil:lanyard",
         "Count": 1
@@ -2483,7 +1704,7 @@
         "isTranslationKey": false
       },
       "x": 217,
-      "y": 142,
+      "y": 144,
       "icon": {
         "id": "cookingforblockheads:oven",
         "Count": 1
@@ -2585,8 +1806,8 @@
         "text": "You can use Bone Blocks to Reinforce your Tinkers\u0027 Construct Gear",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 106,
+      "x": 160,
+      "y": 116,
       "icon": {
         "id": "minecraft:bone_block",
         "Count": 1
@@ -2632,8 +1853,8 @@
         "text": "Out of food? Make some Rock Soup to hold you over until you can make a real meal!",
         "isTranslationKey": false
       },
-      "x": 80,
-      "y": 55,
+      "x": 79,
+      "y": 53,
       "icon": {
         "id": "turkeydevutil:rock_soup",
         "Count": 1
@@ -2670,66 +1891,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "e13a3c1b-980f-4e21-a7b1-49500798249c",
-      "name": {
-        "text": "Ghouls Just Wanna Have Fun",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "You can locate Ghouls in the Desire Layer.",
-        "isTranslationKey": false
-      },
-      "x": 128,
-      "y": 15,
-      "icon": {
-        "id": "graveyard:ghoul_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Ghoul",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "graveyard:ghoul_spawn_egg",
-                "Count": 1
-              },
-              "mob": "graveyard:ghoul",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "farmersdelight:dumplings",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "c170fa53-a589-44cd-ac20-f1f557897ed0",
       "name": {
         "text": "Bronze Backpack!",
@@ -2739,8 +1900,8 @@
         "text": "Ready to take your backpack game to the next level? Gather the materials and craft yourself a sturdy and stylish bronze backpack. With this upgraded pack on your back, you\u0027ll be able to carry all your gear and supplies with ease as you journey through the treacherous world!",
         "isTranslationKey": false
       },
-      "x": 249,
-      "y": 37,
+      "x": 199,
+      "y": 13,
       "icon": {
         "id": "sophisticatedbackpacks:gold_backpack",
         "Count": 1,
@@ -2774,72 +1935,6 @@
       ],
       "rewardchoice": [],
       "commandrewards": []
-    },
-    {
-      "uuid": "9db7d4d5-ce87-43fa-8df2-861cd5280cb4",
-      "name": {
-        "text": "Copper",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Go mine copper! \n\nY\u003d397 to Y\u003d620\n\nThe safe can hold items for you so you can access them from another World. Just in case you plan on dying a lot and need to help your future self!",
-        "isTranslationKey": false
-      },
-      "x": 174,
-      "y": 88,
-      "icon": {
-        "id": "minecraft:copper_ingot",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "minecraft:copper_ore",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:copper_ingot",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:pick_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:copper\"}"
-        },
-        {
-          "id": "roguelitestorage:safe",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        },
-        {
-          "id": "tconstruct:small_blade",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:copper\"}"
-        }
-      ],
-      "commandrewards": [
-        "/gamestage add @p quest_2",
-        "/gamestage remove @p quest_1",
-        "/gamestage remove @p easy_mode",
-        "/gamestage add @p esm_2"
-      ]
     },
     {
       "uuid": "866fc362-44e0-46c8-812e-ace95546a9c9",
@@ -2929,121 +2024,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "f92f705c-bd8e-453c-aa60-3654e6c462df",
-      "name": {
-        "text": "Zombies",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 80,
-      "y": 15,
-      "icon": {
-        "id": "minecraft:zombie_head",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Zombies",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_head",
-                "Count": 1
-              },
-              "mob": "minecraft:zombie",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potato",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8b970dba-dacb-45bf-a9bd-9ae411d393a3",
-      "name": {
-        "text": "EIGHT LEGGED FREAKS",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 104,
-      "y": 55,
-      "icon": {
-        "id": "tconstruct:spider_head",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Spiders",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "tconstruct:spider_head",
-                "Count": 1
-              },
-              "mob": "minecraft:spider",
-              "kills": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:string",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "37d8759c-4c3b-4948-b6d1-25bbde53b3fe",
       "name": {
         "text": "Unlimited Power",
@@ -3112,8 +2092,9 @@
         "text": "You should be able to make a lightsource by finding glowstone on the walls and a stick from breaking Rooted Dirt.\n\nYou can hang your lantern in your Hip Curios Slot accessible from your inventory.",
         "isTranslationKey": false
       },
-      "x": 26,
+      "x": 17,
       "y": 9,
+      "bigicon": true,
       "icon": {
         "id": "minecraft:lantern",
         "Count": 1
@@ -3326,7 +2307,7 @@
         "isTranslationKey": false
       },
       "x": 191,
-      "y": 142,
+      "y": 144,
       "icon": {
         "id": "cookingforblockheads:cooking_table",
         "Count": 1
@@ -3471,133 +2452,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "2fef3b07-b11c-4cea-91c8-8646cd1317f9",
-      "name": {
-        "text": "Boots",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
-        "isTranslationKey": false
-      },
-      "x": 198,
-      "y": 37,
-      "icon": {
-        "id": "tconstruct:travelers_boots",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
-      },
-      "tasks": [
-        {
-          "type": "BLOCK_BREAK",
-          "blocks": [
-            {
-              "item": {
-                "id": "monstereggs:spider_egg",
-                "Count": 1
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:travelers_boots",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:feather_falling\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:step_up\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:path_maker\"}"
-        },
-        {
-          "id": "tconstruct:modifier_crystal",
-          "Count": 1,
-          "tag": "{modifier:\"tconstruct:springy\"}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e44cab3b-f383-4c1a-87e3-e4f759fe667e",
-      "name": {
-        "text": "Revenant",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "You can locate Revenants in the Desire Layer.",
-        "isTranslationKey": false
-      },
-      "x": 140,
-      "y": 35,
-      "icon": {
-        "id": "graveyard:revenant_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Revenant",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "graveyard:ghoul_spawn_egg",
-                "Count": 1
-              },
-              "mob": "graveyard:revenant",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "turkeydevutil:lanyard",
-          "Count": 2
-        },
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "09600ba3-4932-4f14-8049-09b7d50b0cea",
       "name": {
         "text": "Unnamed",
@@ -3607,8 +2461,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 237,
-      "y": 13,
+      "x": 79,
+      "y": 11,
       "icon": {
         "id": "bhc:heart_amulet",
         "Count": 1
@@ -3713,8 +2567,8 @@
         "text": "Pack It Up: Time to ditch that old, tattered satchel and upgrade to a real adventurer\u0027s backpack! Gather the materials and get crafting - your hoarding habit will thank you for the extra storage space!",
         "isTranslationKey": false
       },
-      "x": 222,
-      "y": 37,
+      "x": 173,
+      "y": 13,
       "icon": {
         "id": "sophisticatedbackpacks:backpack",
         "Count": 1,

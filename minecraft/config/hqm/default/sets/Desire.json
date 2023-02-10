@@ -1,0 +1,617 @@
+{
+  "name": "Desire",
+  "quests": [
+    {
+      "uuid": "6b6c21f0-27d4-4c65-9a4b-076acd30548d",
+      "name": {
+        "text": "Emerald",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Y\u003d397 to Y\u003d528",
+        "isTranslationKey": false
+      },
+      "x": 257,
+      "y": 157,
+      "icon": {
+        "id": "minecraft:emerald",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1a793aac-0be4-4f4a-87c2-6725781939b1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cyclic:apple_sprout_emerald",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 4
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b77048ee-afe9-40d8-b885-3f7d9ea8de7c",
+      "name": {
+        "text": "Helmet",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
+        "isTranslationKey": false
+      },
+      "x": 287,
+      "y": 15,
+      "icon": {
+        "id": "tconstruct:travelers_helmet",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slurping\"}],tic_persistent_data:{abilities:1b,defense:2b,\"tconstruct:tank_fluid\":{Amount:850s,FluidName:\"tconstruct:ender_slime\"},upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f},tic_upgrades:[{level:1b,name:\"tconstruct:slurping\"}],tic_volatile_data:{\"tconstruct:tank_capacity\":1000,\"tconstruct:tank_owner\":\"tconstruct:slurping\",\"tconstruct:total_tanks\":1}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:enderman_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_helmet",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":110.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:slurping\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:zoom\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:diamond\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:thorns\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7b0117f6-db2a-4354-91e4-47c72c92c190",
+      "name": {
+        "text": "Leggings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
+        "isTranslationKey": false
+      },
+      "x": 287,
+      "y": 69,
+      "icon": {
+        "id": "tconstruct:travelers_leggings",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:skeleton_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_leggings",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:durability\":150.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:speedy\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:pockets\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:shield_strap\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e44cab3b-f383-4c1a-87e3-e4f759fe667e",
+      "name": {
+        "text": "Revenant",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You can locate Revenants in the Desire Layer.",
+        "isTranslationKey": false
+      },
+      "x": 140,
+      "y": 35,
+      "icon": {
+        "id": "graveyard:revenant_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Revenant",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "graveyard:ghoul_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:revenant",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:backpack_upgrade\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e13a3c1b-980f-4e21-a7b1-49500798249c",
+      "name": {
+        "text": "Ghouls Just Wanna Have Fun",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You can locate Ghouls in the Desire Layer.",
+        "isTranslationKey": false
+      },
+      "x": 128,
+      "y": 15,
+      "icon": {
+        "id": "graveyard:ghoul_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Ghoul",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "graveyard:ghoul_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:ghoul",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:dumplings",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6a56dace-3b01-497d-ba7a-906327f9978e",
+      "name": {
+        "text": "Skillet",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 262,
+      "y": 96,
+      "icon": {
+        "id": "farmersdelight:skillet",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:skillet",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potato",
+          "Count": 8
+        },
+        {
+          "id": "farmersdelight:stuffed_potato",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ea19766d-504f-42b2-8aa2-63f8f1e58c8c",
+      "name": {
+        "text": "Chest Plate",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
+        "isTranslationKey": false
+      },
+      "x": 287,
+      "y": 42,
+      "icon": {
+        "id": "tconstruct:travelers_chestplate",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.55f},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":160.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:zombie_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_chestplate",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_multipliers:{\"tconstruct:attack_damage\":0.55f},tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:attack_damage\":0.0f,\"tconstruct:durability\":160.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:ambidextrous\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:reinforced\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:strength\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:glowing\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2fef3b07-b11c-4cea-91c8-8646cd1317f9",
+      "name": {
+        "text": "Boots",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Myserious Shells can be found all over the caves. Look on the ceiling or the floors. Make sure to Mine them and not step on them or else something might pop out!",
+        "isTranslationKey": false
+      },
+      "x": 287,
+      "y": 96,
+      "icon": {
+        "id": "tconstruct:travelers_boots",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "monstereggs:spider_egg",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:travelers_boots",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[],tic_persistent_data:{abilities:1b,defense:2b,upgrades:3b},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":130.0f}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:feather_falling\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:step_up\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:path_maker\"}"
+        },
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:springy\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9db7d4d5-ce87-43fa-8df2-861cd5280cb4",
+      "name": {
+        "text": "Copper",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Go mine copper! \n\nY\u003d397 to Y\u003d620\n\nThe safe can hold items for you so you can access them from another World. Just in case you plan on dying a lot and need to help your future self! (The safe cannot be picked up once it is placed!)",
+        "isTranslationKey": false
+      },
+      "x": 234,
+      "y": 32,
+      "icon": {
+        "id": "minecraft:copper_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "minecraft:copper_ore",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ff82f4f-a416-459f-91fa-ea95cc6a2a7a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:copper\"}"
+        },
+        {
+          "id": "roguelitestorage:safe",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:small_blade",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:copper\"}"
+        }
+      ],
+      "commandrewards": [
+        "/gamestage add @p quest_2",
+        "/gamestage remove @p quest_1",
+        "/gamestage remove @p easy_mode",
+        "/gamestage add @p esm_2"
+      ]
+    },
+    {
+      "uuid": "7c291723-d984-4026-ba83-f26fb014dade",
+      "name": {
+        "text": "Cooking Pot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 237,
+      "y": 96,
+      "icon": {
+        "id": "farmersdelight:cooking_pot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:cooking_pot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:dumplings",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "turkeydevutil:lanyard",
+          "Count": 2
+        },
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
