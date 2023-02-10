@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    { "item": "minecraft:leather" },
+    { "tag": "buddycards:buddycards" },
+    { "tag": "buddycards:buddycards" }
+  ],
+  "tools": { "tag": "tconstruct:modifiable/armor/leggings" },
+  "allow_crystal": true,
+  "max_level": 45,
+  "result": { "name": "tconstruct:fanny_pack", "level": 1 }
+}
