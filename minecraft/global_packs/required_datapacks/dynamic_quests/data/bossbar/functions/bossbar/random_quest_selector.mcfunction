@@ -1,12 +1,13 @@
 #Debug Text
 #say Selecting a Random Quest
 #bossbar set minecraft:bar players @s
+#Sets player scoreboard objective to zero
 
 #Check whether a quest is active or not
 execute if score @s quest_active matches 1 run scoreboard players add @s pending_quest 1
 execute if score @s pending_quest matches 1.. run scoreboard players set @s quest_queue 1
 
-execute if score @s quest_active matches 0 run cyclic scoreboard random @s 1 24 quest_selector
+execute if score @s quest_active matches 0 run cyclic scoreboard random @s 1 29 quest_selector
 
 execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 001.. run playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1.0 0.5
 ##
@@ -36,3 +37,8 @@ execute if score @s quest_active matches 0 run execute if score @s quest_selecto
 execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 021 run function bossbar:bossbar/pre_stage/21
 execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 022 run function bossbar:bossbar/pre_stage/22
 execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 023 run function bossbar:bossbar/pre_stage/23
+execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 024 run function bossbar:bossbar/pre_stage/24
+execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 025 run function bossbar:bossbar/pre_stage/25
+execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 026 run function bossbar:bossbar/pre_stage/26
+execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 027 run function bossbar:bossbar/pre_stage/27
+execute if score @s quest_active matches 0 run execute if score @s quest_selector matches 028 run function bossbar:bossbar/pre_stage/28
