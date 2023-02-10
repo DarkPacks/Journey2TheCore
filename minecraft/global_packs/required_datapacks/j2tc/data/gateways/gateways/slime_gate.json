@@ -1,17 +1,21 @@
 {
+  "leash_range": 64,
   "size": "medium",
   "color": "#7EBF6E",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
@@ -28,13 +32,16 @@
     {
       "entities": [
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -78,19 +85,24 @@
     {
       "entities": [
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -134,22 +146,28 @@
     {
       "entities": [
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -193,25 +211,32 @@
     {
       "entities": [
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:slime"
+          "entity": "minecraft:slime",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [

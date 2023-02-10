@@ -1,4 +1,5 @@
 {
+  "leash_range": 64,
   "size": "small",
   "color": "rainbow",
   "waves": [

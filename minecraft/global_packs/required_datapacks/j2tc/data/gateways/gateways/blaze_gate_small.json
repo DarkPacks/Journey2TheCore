@@ -1,11 +1,13 @@
 {
   "size": "small",
   "color": "#FFFF84",
+  "leash_range": 64,
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:blaze"
@@ -24,7 +26,8 @@
     {
       "entities": [
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:blaze"
@@ -70,13 +73,16 @@
     {
       "entities": [
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:blaze"
@@ -122,13 +128,16 @@
     {
       "entities": [
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:blaze"
@@ -174,16 +183,20 @@
     {
       "entities": [
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:blaze"
+          "entity": "minecraft:blaze",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:blaze"

@@ -1,14 +1,17 @@
 {
+  "leash_range": 64,
   "size": "small",
   "color": "#CB3D07",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
@@ -25,10 +28,12 @@
     {
       "entities": [
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -72,16 +77,20 @@
     {
       "entities": [
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -125,16 +134,20 @@
     {
       "entities": [
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -178,19 +191,24 @@
     {
       "entities": [
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:magma_cube"
+          "entity": "minecraft:magma_cube",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
