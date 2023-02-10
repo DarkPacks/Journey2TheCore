@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:creeper",
+    "graveyard:skeleton_creeper",
+    "core_creepers:dirt_creeper",
+    "core_creepers:stone_creeper",
+    "core_creepers:cluster_creeper",
+    "core_creepers:super_charged_creeper",
+    "core_creepers:ambush_creeper",
+    "core_creepers:dirt_water_creeper",
+    "core_creepers:stone_lava_creeper",
+    "witherstormmod:sickened_creeper"
+  ]
+}
