@@ -34,7 +34,7 @@ se action @s playerbossbar set quest_tracker value 0
 cyclic scoreboard random @s 3 16 quest_quantity
 se action @s playerbossbar storescore max quest_tracker quest_quantity
 
-se action @s playerbossbar set quest_tracker name [{"text":"Hunt "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Animals"}]
+se action @s playerbossbar set quest_tracker name [{"text":"Hunt "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Passive Animals"}]
 
 
 #set stage

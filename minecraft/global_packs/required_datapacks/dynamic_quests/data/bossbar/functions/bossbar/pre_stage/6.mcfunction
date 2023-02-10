@@ -2,13 +2,14 @@
 scoreboard players reset @s quest_reward_number
 scoreboard players reset @s deal_damage
 scoreboard players reset @s quest_quantity
+scoreboard players set @s quest_quantity_converted 10
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
 se action @s playerbossbar set quest_tracker value 0
 
 cyclic scoreboard random @s 100 1001 quest_quantity
+scoreboard players operation @s quest_quantity_converted *= @s quest_quantity
 se action @s playerbossbar storescore max quest_tracker quest_quantity
-
 se action @s playerbossbar set quest_tracker name [{"text":"Deal "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Damage"}]
 
 #set stage

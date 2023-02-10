@@ -19,7 +19,7 @@ execute if score @s timer matches 0 run se action @s playerbossbar set completio
 function sbt:quest_completion_timer/rng
 execute if score @s teleport_timer matches 1.. run scoreboard players remove @s teleport_timer 1
 execute if score @s teleport_timer matches 1.. run se action @s playerbossbar storescore value teleport_timer teleport_timer
-execute if score @s timer matches 0 run se action @s playerbossbar set teleport_timer visible false
+execute if score @s teleport_timer matches 0 run se action @s playerbossbar set teleport_timer visible false
 
 #scp-1689
 #track poisonous potato eating in overworld
@@ -81,4 +81,6 @@ execute as @s run execute if score @s quest_queue matches 2.. run scoreboard pla
 #Teleport Timer Listener
 execute if score @s teleport_timer matches 2 run scoreext action @s dimteleportspawn
 
-
+#Checks for Raidmeter Scoreboard Objective to activate random quest
+#execute if score @s raidmeter_tracking matches 2000.. run function bossbar:bossbar/random_quest_selector
+#execute if score @s raidmeter_tracking matches 2000.. run scoreboard players remove @s raidmeter_tracking 2000

@@ -11,4 +11,4 @@ function sbt:quest_completion_timer/test
 se action @s playerbossbar set completion_timer visible true
 
 scoreboard players set @s effect_resistance 1
-effect clear @s effect_resistance
+effect clear @s resistance
