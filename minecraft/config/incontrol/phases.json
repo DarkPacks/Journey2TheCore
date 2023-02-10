@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "name": "day_time",
+    "conditions": {
+      "mintime": 0
+    }
+  },
+  {
+    "name": "night_time",
+    "conditions": {
+      "maxtime": 12000
+    }
+  }
+]

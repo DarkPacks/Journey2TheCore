@@ -1707,5 +1707,25 @@
       "maxheight": 64,
       "maxthis": 4
     }
+  },
+  {
+    "phase": "day_time",
+    "mobsfrombiome": "monster",
+    "persecond": 1.0,
+    "attempts": 25,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxhostile": 200
+    }
+  },
+  {
+    "phase": "night_time",
+    "mobsfrombiome": "monster",
+    "persecond": 0.01,
+    "attempts": 10,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxhostile": 50
+    }
   }
 ]
