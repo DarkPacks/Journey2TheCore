@@ -55,16 +55,16 @@ shulkerBoxInEndDungeons = true
 #Note: The dungeon will spawn between min and max y height set in config.
 #Setting this to below min height config will make dungeon spawn only at min height.
 ["Max Height"]
-	badlandsDungeonMaxHeight = 688
-	darkForestDungeonMaxHeight = 688
-	desertDungeonMaxHeight = 688
-	jungleDungeonMaxHeight = 688
-	mushroomDungeonMaxHeight = 688
-	snowDungeonMaxHeight = 688
-	icyDungeonMaxHeight = 688
-	swampDungeonMaxHeight = 688
-	endDungeonMaxHeight = 688
-	netherDungeonMaxHeight = 688
-	oceanDungeonMaxHeight = 688
+	badlandsDungeonMaxHeight = 670
+	darkForestDungeonMaxHeight = 670
+	desertDungeonMaxHeight = 670
+	jungleDungeonMaxHeight = 670
+	mushroomDungeonMaxHeight = 670
+	snowDungeonMaxHeight = 670
+	icyDungeonMaxHeight = 670
+	swampDungeonMaxHeight = 670
+	endDungeonMaxHeight = 670
+	netherDungeonMaxHeight = 670
+	oceanDungeonMaxHeight = 670
 	deepDungeonMaxHeight = -10
 

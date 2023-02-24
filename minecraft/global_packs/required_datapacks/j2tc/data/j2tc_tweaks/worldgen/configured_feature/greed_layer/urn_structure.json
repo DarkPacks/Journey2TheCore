@@ -1,6 +1,5 @@
 {
   "type": "platypus:structure",
-  "random_rotation": true,
   "config": {
     "random_rotation": true,
     "structures": [

@@ -1,0 +1,22 @@
+{
+  "conditions": {
+    "(Math) Ticks to Seconds Conversion": {
+      "calc": "/",
+      "value1": "$rng200to600",
+      "value2": "20",
+      "variableName": "rngConvertedToSeconds",
+      "type": "math",
+      "displayName": "Converts Ticks to Seconds"
+    },
+    "(Math) Ticks to Seconds Converted & Rounded": {
+      "calc": "round",
+      "value1": "$rngConvertedToSeconds",
+      "value2": "0",
+      "variableName": "rngConvertedToSecondsRounded",
+      "type": "math",
+      "displayName": "Rounds the Ticks to Seconds Conversion"
+    }
+  },
+  "outcomes": {},
+  "events": {}
+}

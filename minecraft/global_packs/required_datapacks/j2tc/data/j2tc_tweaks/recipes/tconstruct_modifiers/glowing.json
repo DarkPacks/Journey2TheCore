@@ -21,6 +21,7 @@
   "slots": {
     "abilities": 1
   },
+  "allow_crystal": false,
   "result": {
     "name": "tconstruct:glowing",
     "level": 1

@@ -1,0 +1,17 @@
+
+#General Settings
+[General]
+	#Only move items of players that have the Stinky effect [Default: false]
+	onlyEffects = true
+
+#Evasive Settings
+[Evasion]
+	#The strength used to move the items away when looked at [Default: 0.14]
+	#Range: 0.0 ~ 16.0
+	moveStrength = 0.49
+	#If items moving should make a sound [Default: true]
+	playSound = true
+	#If items moving should make a sound [Default: true]
+	#Range: 0.0 ~ 1.0
+	soundVolume = 0.25
+

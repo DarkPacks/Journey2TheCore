@@ -7,6 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:poppy",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -17,8 +18,7 @@
               },
               "add": false
             }
-          ],
-          "name": "minecraft:poppy"
+          ]
         }
       ]
     },
@@ -28,6 +28,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -36,10 +37,27 @@
                 "min": 3,
                 "max": 5
               },
-              "add": false
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "killer_player",
+                  "scores": {
+                    "quest_3": 1
+                  }
+                }
+              ]
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "killer_player",
+          "scores": {
+            "quest_3": 1
+          }
         }
       ]
     }

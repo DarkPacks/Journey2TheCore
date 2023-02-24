@@ -256,13 +256,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "dabomb:ender_bomb",
+          "name": "tconstruct:flint_shuriken",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0,
-                "max": 3
+                "min": 3,
+                "max": 19
               }
             }
           ]

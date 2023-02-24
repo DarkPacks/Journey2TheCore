@@ -9,211 +9,441 @@
       "entries": [
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:haste\"}"
+              "tag": "{modifier:\"tinkers_things:fortified\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:luck\"}"
+              "tag": "{modifier:\"tconstruct:double_jump\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:reinforced\"}"
+              "tag": "{modifier:\"tconstruct:bouncy\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:glowing\"}"
+              "tag": "{modifier:\"tconstruct:starter_durability_increase\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:sharpness\"}"
+              "tag": "{modifier:\"tconstruct:melee_protection\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:knockback\"}"
+              "tag": "{modifier:\"tconstruct:blast_protection\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:fiery\"}"
+              "tag": "{modifier:\"tconstruct:fire_protection\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:necrotic\"}"
+              "tag": "{modifier:\"tconstruct:step_up\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Magnetic\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:magnetic\"}"
+              "tag": "{modifier:\"tconstruct:path_maker\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Feather Falling\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:feather_falling\"}"
+              "tag": "{modifier:\"tconstruct:glowing\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Slurping\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:slurping\"}"
+              "tag": "{modifier:\"tconstruct:reinforced\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Zoom\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:zoom\"}"
+              "tag": "{modifier:\"tconstruct:knockback\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Health Boost\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:revitalizing\"}"
+              "tag": "{modifier:\"tconstruct:luck\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Unarmed\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:unarmed\"}"
+              "tag": "{modifier:\"tconstruct:speedy\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Strength\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:strength\"}"
+              "tag": "{modifier:\"tinkers_things:venom\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:shield_strap\"}"
+              "tag": "{modifier:\"tconstruct:power\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:pockets\"}"
+              "tag": "{modifier:\"tconstruct:sharpness\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:speedy\"}"
+              "tag": "{modifier:\"tconstruct:thorns\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Bouncy\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:bouncy\"}"
+              "tag": "{modifier:\"tconstruct:diamond\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Double Jump\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:double_jump\"}"
+              "tag": "{modifier:\"tconstruct:zoom\"}"
             }
           ]
         },
         {
           "type": "item",
-          "name": "turkeydevutil:book",
+          "name": "tconstruct:modifier_crystal",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Flamewake\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:flamewake\"}"
+              "tag": "{modifier:\"tconstruct:slurping\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:unbreakable\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:projectile_protection\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:worldbound\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tinkers_things:weakness\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:springy\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:flamewake\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:feather_falling\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:firestarter\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:stripping\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:freezing\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:necrotic\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:fiery\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:reach\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:soulbound\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:bucketing\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:protection\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:magnetic\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:strength\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:tool_belt\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:pockets\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:shield_strap\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:silky\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:modifier_crystal",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{modifier:\"tconstruct:haste\"}"
             }
           ]
         }

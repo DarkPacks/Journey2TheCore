@@ -1,17 +1,21 @@
 {
+  "leash_range": 64,
   "size": "medium",
   "color": "#CC00FA",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
@@ -27,13 +31,16 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -76,19 +83,24 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -131,22 +143,28 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -189,25 +207,32 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:enderman"
+          "entity": "minecraft:enderman",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [

@@ -1,23 +1,19 @@
 {
-  "conditions": {
-    "New Condition": {
-      "type": "null"
-    }
-  },
+  "conditions": {},
   "outcomes": {
-    "Ferrous Wroughtnaut Event": {
+    "Spawn Adult Player Mob": {
       "events": [
         {
           "conditions": [
             {
-              "name": "Space Check - 2x2x4 SolidBlock Underneath",
+              "name": "Space Check - 1x2 SolidBlock Underneath",
               "type": "constant",
               "displayName": "Space Check"
             }
           ],
           "outcomes": [
             {
-              "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$display_name\",\"color\":\"$color\"}'}",
+              "command": "/summon player_mobs:player_mob $entitySpaceCheck {\"Username\":\"$viewername\",CustomNameVisible:1b,CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
               "executeAsSelf": true,
               "type": "command"
             }
@@ -27,7 +23,320 @@
       ],
       "type": "event"
     },
-    "Zombie Spawning Event": {
+    "Spawn Adult Polar Bear (Angry)": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "target_player_name",
+                  "type": "constant"
+                },
+                {
+                  "name": "Get Player UUID",
+                  "type": "constant"
+                },
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant",
+                  "displayName": "Get username color"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "condition": {
+                "name": "Space Check - 2x2 SolidBlock Underneath",
+                "type": "constant"
+              },
+              "outcome": {
+                "command": "/summon minecraft:polar_bear $largeEntitySpaceCheck {Health:200f,CustomNameVisible:1b,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
+                "executeAsSelf": true,
+                "type": "command"
+              },
+              "conditionNotMetOutcome": {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "name": "Space Check - 1x1 SolidBlock Underneath",
+                        "type": "constant"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "command": "/summon minecraft:polar_bear $smallEntitySpaceCheck {Health:200f,CustomNameVisible:1b,Age:-600,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:200}]}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
+              },
+              "type": "conditional"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Baby Player Mob": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/summon player_mobs:player_mob $canBabySpawn {CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',\"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Baby Polar Bear (Angry)": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant",
+                  "displayName": "Get username color"
+                },
+                {
+                  "name": "Space Check - 1x1 SolidBlock Underneath",
+                  "type": "constant",
+                  "displayName": "space check"
+                },
+                {
+                  "name": "target_player_name",
+                  "type": "constant",
+                  "displayName": "get target uuid"
+                },
+                {
+                  "name": "Get Player UUID",
+                  "type": "constant",
+                  "displayName": "UUID conversion"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon minecraft:polar_bear $smallEntitySpaceCheck {Health:75f,CustomNameVisible:1b,Age:-1200,AngerTime:72000,AngryAt:$playerUUID,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Attributes:[{Name:generic.max_health,Base:75}]}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Baby Raccoon (Leashed)": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "target_player_name",
+                  "type": "constant"
+                },
+                {
+                  "name": "Get Player UUID",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Dirt Creeper": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "name": "Space Check - 1x2 SolidBlock Underneath",
+              "type": "constant"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon core_creepers:dirt_creeper $entitySpaceCheck {CustomName:'{\"text\":\"$user_name\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}'}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Ferrous Wroughtnaut": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "Space Check - 2x2x4 SolidBlock Underneath",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "condition": {
+                "name": "Space Check - 2x2x4 SolidBlock Underneath",
+                "type": "constant"
+              },
+              "outcome": {
+                "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheck {CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                "executeAsSelf": true,
+                "type": "command"
+              },
+              "conditionNotMetOutcome": {
+                "condition": {
+                  "name": "Space Check - 2x2x4 SolidBlock Underneath : Larger Area",
+                  "type": "constant"
+                },
+                "outcome": {
+                  "command": "/summon mowziesmobs:ferrous_wroughtnaut $wideTallEntitySpaceCheckLargerArea {CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "conditionNotMetOutcome": {
+                  "command": "/summon mowziesmobs:ferrous_wroughtnaut ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "conditional"
+              },
+              "type": "conditional"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Impostore": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "events": [
+                {
+                  "conditions": [],
+                  "outcomes": [
+                    {
+                      "command": "/summon impostore:impost_ore $smallEntitySpaceCheckCloseToPlayer {CustomNameVisible:1b,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}', BlockState: {Properties: {texture: \"default\"}, Name: \"chancecubes:chance_cube\"}}",
+                      "executeAsSelf": true,
+                      "disableChatCommandFallback": true,
+                      "type": "command"
+                    }
+                  ],
+                  "allowsOtherEventsToTrigger": true,
+                  "singleOutcomeOnly": true
+                }
+              ],
+              "type": "event"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Purple Slime": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/summon tconstruct:ender_slime ~ ~ ~ {Health:20f,Size:1,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\",\"bold\":true,\"underlined\":true}',ActiveEffects:[{Id:10b,Amplifier:1b,Duration:60,ShowParticles:0b},{Id:11b,Amplifier:1b,Duration:40,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ]
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Super Charged Creeper (On Player Location)": {
+      "command": "/summon core_creepers:super_charged_creeper ~ ~ ~ {ignited:1b}",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "Spawn Zombie": {
       "events": [
         {
           "conditions": [
@@ -58,8 +367,72 @@
           "allowsOtherEventsToTrigger": true
         }
       ],
-      "type": "event",
-      "displayName": "Spawn Zombie (1)"
+      "type": "event"
+    },
+    "Twitch Subscription (Value 500)": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Global) $viewername",
+                  "type": "constant",
+                  "displayName": "Gets Viewername"
+                },
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant",
+                  "displayName": "Gets User Color"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "condition": {
+                "name": "Space Check - 1x2 SolidBlock Underneath",
+                "type": "constant"
+              },
+              "outcome": {
+                "name": "Spawn Adult Player Mob",
+                "type": "constant"
+              },
+              "conditionNotMetOutcome": {
+                "condition": {
+                  "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
+                  "type": "constant"
+                },
+                "outcome": {
+                  "name": "Spawn Baby Player Mob",
+                  "type": "constant"
+                },
+                "conditionNotMetOutcome": {
+                  "name": "Spawn Purple Slime",
+                  "type": "constant"
+                },
+                "type": "conditional"
+              },
+              "type": "conditional"
+            },
+            {
+              "name": "(Raidmeter) Value 500",
+              "type": "constant"
+            },
+            {
+              "name": "(Raidmeter) Value 500 Scoreboard Objective",
+              "type": "constant"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
     }
   },
   "events": {}

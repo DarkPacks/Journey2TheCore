@@ -1,10 +1,14 @@
 {
   "stats": {
+    "tconstruct:skull": {
+      "durability": 160
+    },
     "tconstruct:head": {
-      "durability": 115,
-      "miningSpeed": 2.5,
-      "harvestTier": "minecraft:stone",
-      "attack": 1.25
+      "durability": 184,
+      "harvestTier": "minecraft:stone"
+    },
+    "tconstruct:limb": {
+      "durability": 184
     }
   }
 }

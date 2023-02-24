@@ -1,7 +1,14 @@
 {
   "stats": {
+    "tconstruct:skull": {
+      "durability": 328
+    },
     "tconstruct:head": {
+      "durability": 848,
       "harvestTier": "cyclic:sandstone"
+    },
+    "tconstruct:limb": {
+      "durability": 848
     }
   }
 }

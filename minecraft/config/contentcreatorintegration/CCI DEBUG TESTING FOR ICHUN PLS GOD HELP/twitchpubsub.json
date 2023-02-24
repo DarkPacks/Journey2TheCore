@@ -1,0 +1,119 @@
+{
+  "configs": [
+    {
+      "types": {
+        "event-created": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, new prediction!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "for": "predictions-channel-v1"
+    },
+    {
+      "types": {
+        "POLL_CREATE": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, new poll!",
+                "type": "chat"
+              }
+            ]
+          }
+        ],
+        "POLL_COMPLETE": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, poll ended!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "for": "polls"
+    },
+    {
+      "types": {
+        "reward-redeemed": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, channel point reward redeemed!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "for": "community-points-channel-v1"
+    },
+    {
+      "types": {
+        "moderation_action": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Heads up $streamer, something happened in chat!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "for": "chat_moderator_actions"
+    },
+    {
+      "types": {
+        "hype-train-start": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, HYPE TRAIN!",
+                "type": "chat"
+              }
+            ]
+          }
+        ],
+        "hype-train-end": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Choo Chooo!",
+                "type": "chat"
+              }
+            ]
+          }
+        ],
+        "hype-train-approaching": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hype train incoming!",
+                "type": "chat"
+              }
+            ]
+          }
+        ]
+      },
+      "for": "hype-train-events-v1"
+    }
+  ],
+  "init": [],
+  "type": "twitchpubsub"
+}

@@ -11,6 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -29,11 +30,11 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:glowstone_dust"
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:sugar",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -52,11 +53,11 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:sugar"
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:redstone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -65,7 +66,16 @@
                 "min": 0,
                 "max": 2
               },
-              "add": false
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "killer_player",
+                  "scores": {
+                    "quest_3": 1
+                  }
+                }
+              ]
             },
             {
               "function": "minecraft:looting_enchant",
@@ -75,11 +85,11 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:redstone"
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -98,11 +108,11 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:spider_eye"
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -121,11 +131,11 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:glass_bottle"
+          ]
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -144,12 +154,12 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:gunpowder"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -168,8 +178,7 @@
                 "max": 1
               }
             }
-          ],
-          "name": "minecraft:stick"
+          ]
         }
       ]
     }

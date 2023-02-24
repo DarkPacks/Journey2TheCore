@@ -1,0 +1,7 @@
+{
+  "blockLocation": "waystones:light_blue_sharestone",
+  "dropBlock": "minecraft:andesite",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

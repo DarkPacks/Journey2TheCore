@@ -1,7 +1,11 @@
 {
   "stats": {
     "tconstruct:head": {
+      "durability": 2000,
       "harvestTier": "minecraft:netherite"
+    },
+    "tconstruct:limb": {
+      "durability": 2000
     }
   }
 }

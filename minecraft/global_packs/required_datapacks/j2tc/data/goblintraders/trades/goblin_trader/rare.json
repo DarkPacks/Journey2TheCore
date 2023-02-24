@@ -490,9 +490,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Name:'{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:glowing\"}"
+        "nbt": "{modifier:\"tconstruct:glowing\"}"
       },
       "payment_item": {
         "item": "minecraft:glowstone_dust",
@@ -510,7 +510,7 @@
         "nbt": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\"}}"
       },
       "payment_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1
       },
       "price_multiplier": 0.1,
@@ -545,6 +545,20 @@
       "price_multiplier": 0.1,
       "max_trades": 1,
       "experience": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "waystones:warp_scroll",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 6
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 20
     }
   ]
 }

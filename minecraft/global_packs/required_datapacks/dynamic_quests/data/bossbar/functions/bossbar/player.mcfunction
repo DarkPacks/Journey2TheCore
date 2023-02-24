@@ -7,12 +7,14 @@ execute if score @s pending_quest matches 0 run execute if score @s quest_queue 
 #Stage#
 execute if score @s stage matches 01.. run function bossbar:bossbar/stage_selection
 
-execute store result bossbar bar value run scoreboard players get @s progress
+se action @s playerbossbar storescore value quest_tracker progress
 
 #Quest Completion Events
 #failures
 execute if score @s inventory_randomize matches 1 run function bossbar:bossbar/quest_fail/quest_failure_outcomes/jumping_randomizes_inventory
 execute if score @s damage_dad_joke matches 1 run function bossbar:bossbar/quest_fail/quest_failure_outcomes/damage_daily_dad
+execute if score @s evasive_items matches 1 run function bossbar:bossbar/quest_fail/quest_failure_outcomes/evasive_items
+execute if score @s butterfingers matches 1 run function bossbar:bossbar/quest_fail/quest_failure_outcomes/butterfingers
 
 #completions
 execute if score @s effect_resistance matches 1 run function bossbar:bossbar/quest_complete/quest_complete_outcomes/effect_resistance

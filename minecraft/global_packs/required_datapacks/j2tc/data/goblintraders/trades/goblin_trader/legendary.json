@@ -18,9 +18,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Haste\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:haste\"}"
+        "nbt": "{modifier:\"tconstruct:haste\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -33,9 +33,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Luck\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:luck\"}"
+        "nbt": "{modifier:\"tconstruct:luck\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -48,9 +48,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Reinforced\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:reinforced\"}"
+        "nbt": "{modifier:\"tconstruct:reinforced\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -63,9 +63,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Glowing\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:glowing\"}"
+        "nbt": "{modifier:\"tconstruct:glowing\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -78,9 +78,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Sharpness\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:sharpness\"}"
+        "nbt": "{modifier:\"tconstruct:knockback\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -93,9 +93,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Knockback\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:knockback\"}"
+        "nbt": "{modifier:\"tconstruct:fiery\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -108,9 +108,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Fiery\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:fiery\"}"
+        "nbt": "{modifier:\"tconstruct:necrotic\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -123,9 +123,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Necrotic\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:necrotic\"}"
+        "nbt": "{modifier:\"tconstruct:magnetic\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -138,9 +138,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Magnetic\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:magnetic\"}"
+        "nbt": "{modifier:\"tconstruct:feather_falling\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -153,9 +153,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Feather Falling\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:feather_falling\"}"
+        "nbt": "{modifier:\"tconstruct:slurping\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -168,9 +168,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Slurping\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:slurping\"}"
+        "nbt": "{modifier:\"tconstruct:zoom\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -183,9 +183,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Zoom\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:zoom\"}"
+        "nbt": "{modifier:\"tconstruct:strength\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -198,9 +198,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Item Tooltips\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:the_one_probe\"}"
+        "nbt": "{modifier:\"tconstruct:shield_strap\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -213,9 +213,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Unarmed\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:unarmed\"}"
+        "nbt": "{modifier:\"tconstruct:pockets\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -228,9 +228,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Strength\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:strength\"}"
+        "nbt": "{modifier:\"tconstruct:speedy\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -243,9 +243,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Shield Strap\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:shield_strap\"}"
+        "nbt": "{modifier:\"tconstruct:bouncy\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -258,9 +258,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Pockets\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:pockets\"}"
+        "nbt": "{modifier:\"tconstruct:double_jump\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -273,9 +273,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Name:'{\"text\":\"Modifier: Speedy\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}']},modifier_book: \"tconstruct:speedy\"}"
+        "nbt": "{modifier:\"tconstruct:flamewake\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",
@@ -288,39 +288,9 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "turkeydevutil:book",
+        "item": "tconstruct:modifier_crystal",
         "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Bouncy\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:bouncy\"}"
-      },
-      "payment_item": {
-        "item": "turkeydevutil:cookie",
-        "count": 64
-      },
-      "price_multiplier": 0.1,
-      "max_trades": 1,
-      "experience": 16
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "turkeydevutil:book",
-        "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Double Jump\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:double_jump\"}"
-      },
-      "payment_item": {
-        "item": "turkeydevutil:cookie",
-        "count": 64
-      },
-      "price_multiplier": 0.1,
-      "max_trades": 1,
-      "experience": 16
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "turkeydevutil:book",
-        "count": 1,
-        "nbt": "{display:{Lore:['{\"text\":\"Use this book to add a modifier\"}','{\"text\":\"to Tinkers\\' Construct Gear\"}'],Name:'{\"text\":\"Modifier: Flamewake\",\"color\":\"gold\",\"italic\":false}'},modifier_book:\"tconstruct:flamewake\"}"
+        "nbt": "{modifier:\"tconstruct:sharpness\"}"
       },
       "payment_item": {
         "item": "turkeydevutil:cookie",

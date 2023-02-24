@@ -15,7 +15,7 @@
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.wrought_helm.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -27,7 +27,7 @@
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
 			#Tool attack damage
@@ -203,11 +203,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = -1
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 8
+			generation_separation = -1
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_max = -65
@@ -229,7 +229,7 @@
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
 		has_boss_bar = true
 		#Disable/enable Ferrous Wroughtnaut healing while not active
-		heals_out_of_battle = true
+		heals_out_of_battle = false
 
 		[mobs.ferrous_wroughtnaut.biome_config]
 			#Each entry is a combination of allowed biome types.
@@ -249,11 +249,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 15
+			generation_distance = 25
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 5
+			generation_separation = 15
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_max = 250
@@ -266,10 +266,10 @@
 		[mobs.ferrous_wroughtnaut.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 0.75
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 0.75
 
 	[mobs.grottol]
 
@@ -424,7 +424,7 @@
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:sand"]
+			allowed_block_tags = ["minecraft:valid_spawn"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_max = -65
@@ -436,7 +436,7 @@
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = false
+			needs_cant_see_sky = true
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts", "mowziesmobs:barakoa_villages"]
 

@@ -1,7 +1,7 @@
 {
   "size": "large",
   "color": "rainbow",
-  "leash_range": 64,
+  "leash_range": 128,
   "waves": [
     {
       "entities": [
@@ -10,16 +10,18 @@
           "nbt": "{\"Username\":\"Darkosto\",CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/limbo_layer_explorer_loot",
           "rolls": 2
         }
       ],
@@ -29,22 +31,26 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/bomb_bag",
           "rolls": 3
         }
       ],
@@ -54,25 +60,30 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/random_tinkers_pool",
           "rolls": 4
         }
       ],
@@ -82,28 +93,34 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/lanyards",
           "rolls": 5
         }
       ],
@@ -132,13 +149,16 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -171,7 +191,7 @@
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "minecraft:chests/simple_dungeon",
           "rolls": 5
         }
       ],
@@ -181,22 +201,26 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/tcon_modifier_books",
           "rolls": 5
         }
       ],
@@ -206,25 +230,30 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/apotheosis_gem",
           "rolls": 5
         }
       ],
@@ -234,28 +263,34 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/artifact_bag",
           "rolls": 5
         }
       ],
@@ -284,19 +319,22 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/buddycards_foil",
           "rolls": 5
         }
       ],
@@ -306,22 +344,26 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "minecraft:chests/simple_dungeon",
           "rolls": 5
         }
       ],
@@ -331,25 +373,30 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/limbo_layer_explorer_loot",
           "rolls": 5
         }
       ],
@@ -359,28 +406,34 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/bomb_bag",
           "rolls": 5
         }
       ],
@@ -409,19 +462,22 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/random_tinkers_pool",
           "rolls": 5
         }
       ],
@@ -431,22 +487,26 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/lanyards",
           "rolls": 5
         }
       ],
@@ -456,25 +516,30 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "minecraft:chests/simple_dungeon",
           "rolls": 5
         }
       ],
@@ -484,28 +549,34 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/tcon_modifier_books",
           "rolls": 5
         }
       ],
@@ -534,19 +605,22 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/apotheosis_gem",
           "rolls": 5
         }
       ],
@@ -556,22 +630,26 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:treasure_bags/artifact_bag",
           "rolls": 5
         }
       ],
@@ -581,25 +659,30 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/buddycards_foil",
           "rolls": 5
         }
       ],
@@ -609,28 +692,34 @@
     {
       "entities": [
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "player_mobs:player_mob"
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "minecraft:chests/simple_dungeon",
           "rolls": 5
         }
       ],
@@ -649,7 +738,7 @@
       "rewards": [
         {
           "type": "entity_loot",
-          "entity": "player_mobs:player_mob",
+          "entity": "minecraft:chests/simple_dungeon",
           "rolls": 5
         }
       ],

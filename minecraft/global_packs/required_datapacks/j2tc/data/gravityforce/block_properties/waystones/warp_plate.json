@@ -1,0 +1,7 @@
+{
+  "blockLocation": "waystones:warp_plate",
+  "dropBlock": "minecraft:andesite",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

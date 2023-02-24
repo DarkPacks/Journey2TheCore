@@ -5,13 +5,42 @@
     }
   },
   "outcomes": {
-    "Push Player (Multiple)": {
+    "(SwapThings) Enchant Random Item": {
+      "command": "/swapthings randomenchanting $playerName $viewername POSITIVE",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Give Gift": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": []
+        }
+      ],
+      "type": "event"
+    },
+    "(SwapThings) Inventory Bomb": {
+      "command": "/swapthings inventoryequalizer $playerName minecraft:air 1 $viewername",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Item Rename": {
+      "command": "/swapthings inventoryslotrenamer $playerName $viewername",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Mount Player on Entity": {
+      "command": "/swapthings summonmount $playerName $viewername",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Push Player (Multiple)": {
       "events": [
         {
           "conditions": [],
           "outcomes": [
             {
-              "name": "Push Player",
+              "name": "(SwapThings) Push Player (Single)",
               "type": "constant",
               "displayName": "Push"
             },
@@ -21,7 +50,7 @@
                   "conditions": [],
                   "outcomes": [
                     {
-                      "name": "Push Player",
+                      "name": "(SwapThings) Push Player (Single)",
                       "type": "constant",
                       "displayName": "Push"
                     },
@@ -31,7 +60,7 @@
                           "conditions": [],
                           "outcomes": [
                             {
-                              "name": "Push Player",
+                              "name": "(SwapThings) Push Player (Single)",
                               "type": "constant",
                               "displayName": "Push"
                             }
@@ -55,8 +84,28 @@
       ],
       "type": "event"
     },
-    "Push Player (Single)": {
-      "command": "/swapthings playernudger $playerName $user",
+    "(SwapThings) Push Player (Single)": {
+      "command": "/swapthings playernudger $playerName $user_name",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Random Horizontal Teleport": {
+      "command": "/swapthings randomteleport $playerName $user_name 144 480 0 0 144 480",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Rotate Player 90 Degrees": {
+      "command": "/swapthings playerrotate $playerName $user_name",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Shuffle Hotbar Items": {
+      "command": "/swapthings shufflehotbar $playerName $user_name",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(SwapThings) Shuffle Inventory": {
+      "command": "/swapthings shuffleinventory $playerName $user_name",
       "executeAsSelf": true,
       "type": "command"
     }

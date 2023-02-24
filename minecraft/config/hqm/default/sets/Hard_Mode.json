@@ -560,9 +560,9 @@
                 "text": "The Caves",
                 "isTranslationKey": false
               },
-              "x": 0,
-              "y": 0,
-              "z": 0,
+              "x": -53,
+              "y": 499,
+              "z": 320,
               "dim": "minecraft:overworld",
               "radius": -1,
               "visible": "LOCATION",

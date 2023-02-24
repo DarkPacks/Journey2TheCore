@@ -1,0 +1,9 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "turkeydevutil:items/cobblestone_chestplate",
+    "broken": "turkeydevutil:items/broken_cobblestone_chestplate"
+  },
+  "first_modifiers": ["tconstruct:golden"]
+}

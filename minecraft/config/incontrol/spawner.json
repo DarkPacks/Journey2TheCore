@@ -256,8 +256,8 @@
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -278,8 +278,8 @@
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -300,8 +300,8 @@
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -322,8 +322,8 @@
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -344,8 +344,8 @@
       "core_creepers:stone_creeper",
       "graveyard:skeleton_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -365,8 +365,8 @@
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -386,8 +386,8 @@
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.01,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
@@ -404,7 +404,7 @@
   },
   {
     "mob": ["core_creepers:dirt_creeper"],
-    "persecond": 0.1,
+    "persecond": 0.01,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -1706,6 +1706,26 @@
       "minheight": 1,
       "maxheight": 64,
       "maxthis": 4
+    }
+  },
+  {
+    "phase": "day_time",
+    "mobsfrombiome": "monster",
+    "persecond": 1.0,
+    "attempts": 25,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxhostile": 200
+    }
+  },
+  {
+    "phase": "night_time",
+    "mobsfrombiome": "monster",
+    "persecond": 0.01,
+    "attempts": 10,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxhostile": 50
     }
   }
 ]

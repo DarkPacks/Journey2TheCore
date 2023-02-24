@@ -1,26 +1,33 @@
 {
+  "leash_range": 64,
   "size": "large",
   "color": "#605448",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
@@ -36,22 +43,28 @@
     {
       "entities": [
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -94,28 +107,36 @@
     {
       "entities": [
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -158,34 +179,44 @@
     {
       "entities": [
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -228,46 +259,60 @@
     {
       "entities": [
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:spider"
+          "entity": "minecraft:spider",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -313,12 +358,6 @@
       "type": "entity_loot",
       "entity": "minecraft:spider",
       "rolls": 120
-    },
-    {
-      "type": "stack",
-      "stack": {
-        "item": "minecraft:nether_star"
-      }
     }
   ],
   "completion_xp": 1250,

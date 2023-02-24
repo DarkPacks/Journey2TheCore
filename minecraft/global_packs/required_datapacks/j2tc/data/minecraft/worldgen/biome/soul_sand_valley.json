@@ -54,26 +54,7 @@
     ["minecraft:spring_lava"]
   ],
   "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:skeleton",
-        "weight": 20,
-        "minCount": 5,
-        "maxCount": 5
-      },
-      {
-        "type": "minecraft:ghast",
-        "weight": 50,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "creature": [
       {
         "type": "minecraft:strider",

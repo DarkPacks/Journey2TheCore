@@ -1,0 +1,76 @@
+{
+  "conditions": {
+    "(Global) $subbed_months": {
+      "condition": {
+        "variableName": "cumulative_months",
+        "type": "variableExists",
+        "displayName": "Cumulative Months Variable Check"
+      },
+      "passCondition": {
+        "variableName": "subbed_months",
+        "variableInput": "$cumulative_months",
+        "type": "variableInsert"
+      },
+      "failCondition": {
+        "variableName": "subbed_months",
+        "variableInput": "$amount",
+        "type": "variableInsert",
+        "displayName": "On Fail, use $amount"
+      },
+      "type": "conditional",
+      "displayName": "Checks if $cumulative_months Exists"
+    },
+    "(Global) $viewername": {
+      "condition": {
+        "variableName": "recipient_display_name",
+        "type": "variableExists",
+        "displayName": "insert recipient_display_name"
+      },
+      "passCondition": {
+        "variableName": "viewername",
+        "variableInput": "$recipient_display_name",
+        "type": "variableInsert",
+        "displayName": "Inserts Gift Recipient's Name into $user"
+      },
+      "failCondition": {
+        "condition": {
+          "variableName": "display_name",
+          "type": "variableExists",
+          "displayName": "display_name exists?"
+        },
+        "passCondition": {
+          "variableName": "viewername",
+          "variableInput": "$display_name",
+          "type": "variableInsert",
+          "displayName": "insert display_name"
+        },
+        "failCondition": {
+          "condition": {
+            "variableName": "user_name",
+            "type": "variableExists",
+            "displayName": "does user_name exist?"
+          },
+          "passCondition": {
+            "variableName": "viewername",
+            "variableInput": "$user_name",
+            "type": "variableInsert",
+            "displayName": "insert user_name"
+          },
+          "failCondition": {
+            "variableName": "viewername",
+            "variableInput": "$user",
+            "type": "variableInsert",
+            "displayName": "insert user"
+          },
+          "type": "conditional"
+        },
+        "type": "conditional",
+        "displayName": "Checks if event has Display Name"
+      },
+      "type": "conditional",
+      "displayName": "Checks if event is a gift sub"
+    }
+  },
+  "outcomes": {},
+  "events": {}
+}

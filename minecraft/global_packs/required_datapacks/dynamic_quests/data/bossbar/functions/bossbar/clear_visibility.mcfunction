@@ -1,5 +1,6 @@
-bossbar set bar visible false
-bossbar set minecraft:test2 visible false
+se action @s playerbossbar set quest_timer visible false
+se action @s playerbossbar set quest_tracker visible false
+
 execute if score @s progress matches 1.. run scoreboard players reset @s progress
 
 #set timer min/max

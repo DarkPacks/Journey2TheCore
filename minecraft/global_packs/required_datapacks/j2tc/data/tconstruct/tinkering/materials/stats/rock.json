@@ -1,6 +1,7 @@
 {
   "stats": {
     "tconstruct:head": {
+      "durability": 208,
       "harvestTier": "minecraft:stone"
     }
   }

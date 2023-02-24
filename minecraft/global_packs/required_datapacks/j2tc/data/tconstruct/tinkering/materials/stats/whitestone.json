@@ -1,6 +1,7 @@
 {
   "stats": {
     "tconstruct:head": {
+      "durability": 440,
       "harvestTier": "cyclic:copper"
     }
   }

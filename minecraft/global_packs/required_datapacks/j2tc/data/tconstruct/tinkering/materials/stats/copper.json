@@ -1,10 +1,17 @@
 {
   "stats": {
+    "tconstruct:skull": {
+      "durability": 232
+    },
+    "tconstruct:extra": {},
     "tconstruct:head": {
-      "durability": 210,
-      "miningSpeed": 7,
+      "durability": 336,
+      "miningSpeed": 7.0,
       "harvestTier": "cyclic:copper",
       "attack": 1.5
+    },
+    "tconstruct:limb": {
+      "durability": 336
     }
   }
 }

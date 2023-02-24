@@ -1,6 +1,6 @@
 {
   "entity": "minecraft:witch",
-  "stages": ["quest_2", "quest_3", "quest_4"],
+  "stages": ["quest_99"],
   "weight": 0,
   "quality": 4,
   "size": {

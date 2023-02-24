@@ -1,6 +1,6 @@
 {
   "config": {},
-  "biomes": "#j2tc_tweaks:has_structure/empty",
+  "biomes": "#minecraft:has_structure/nether_fortress",
   "adapt_noise": true,
   "spawn_overrides": {},
   "type": "minecraft:stronghold"

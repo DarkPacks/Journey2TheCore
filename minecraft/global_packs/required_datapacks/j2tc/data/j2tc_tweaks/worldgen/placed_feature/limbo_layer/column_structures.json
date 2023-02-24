@@ -7,7 +7,7 @@
         "type": "minecraft:uniform",
         "value": {
           "min_inclusive": 0,
-          "max_inclusive": 5
+          "max_inclusive": 8
         }
       }
     },
@@ -33,7 +33,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_block_tag",
-        "offset": [0, -1, 0],
+        "offset": [3, 0, 2],
         "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top_2"
       }
     },
@@ -41,15 +41,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_block_tag",
-        "offset": [2, -1, 0],
-        "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top_2"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_block_tag",
-        "offset": [0, -1, 2],
+        "offset": [4, 0, 4],
         "tag": "j2tc_tweaks:blocks_for_foliage_and_other_stuff_on_top_2"
       }
     },
@@ -57,7 +49,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [0, 1, 0],
+        "offset": [3, 1, 3],
         "blocks": "minecraft:air"
       }
     }

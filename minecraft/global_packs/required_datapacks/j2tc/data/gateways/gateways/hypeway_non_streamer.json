@@ -1,0 +1,758 @@
+{
+  "size": "large",
+  "color": "rainbow",
+  "leash_range": 128,
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{\"Username\":\"Darkosto\",CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/limbo_layer_explorer_loot",
+          "rolls": 2
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/bomb_bag",
+          "rolls": 3
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/random_tinkers_pool",
+          "rolls": 4
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/lanyards",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "type": "apotheosis:boss"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 3
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 1.25
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 6
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.85
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.2
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/tcon_modifier_books",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/apotheosis_gem",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/artifact_bag",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "type": "apotheosis:boss"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 4
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/buddycards_foil",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/limbo_layer_explorer_loot",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/bomb_bag",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "type": "apotheosis:boss"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/random_tinkers_pool",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/lanyards",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/tcon_modifier_books",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "type": "apotheosis:boss"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "loot_table",
+          "loot_table": "minecraft:chests/simple_dungeon",
+          "rolls": 6
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/apotheosis_gem",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:treasure_bags/artifact_bag",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "j2tc_tweaks:chests/chance_cube_tables/buddycards_foil",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        },
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{CustomNameVisible:1b,\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    },
+    {
+      "entities": [
+        {
+          "entity": "enchantwithmob:enchanter"
+        },
+        {
+          "type": "apotheosis:boss"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:chests/simple_dungeon",
+          "rolls": 5
+        }
+      ],
+      "max_wave_time": 900,
+      "setup_time": 400
+    }
+  ],
+  "rewards": [
+    {
+      "type": "loot_table",
+      "loot_table": "minecraft:chests/simple_dungeon",
+      "rolls": 20
+    }
+  ],
+  "completion_xp": 1000,
+  "spawn_range": 10
+}

@@ -5,4 +5,4 @@ scoreboard players set @p inventory_randomize 0
 
 #Reset Quest Timer
 scoreboard players reset @p fail_timer
-bossbar set minecraft:fail_timer visible false
+se action @s playerbossbar set fail_timer visible false

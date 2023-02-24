@@ -1,0 +1,140 @@
+{
+  "listeners": [
+    {
+      "name": "On Death",
+      "className": "LivingDeathEvent",
+      "isServerEvent": true,
+      "staticAccessors": [],
+      "accessors": [
+        {
+          "name": "ForgeEvent:getEntity",
+          "function": "getEntity()",
+          "instanceCheck": "net.minecraft.server.level.ServerPlayer",
+          "nextAccessors": [
+            {
+              "name": "getWorld",
+              "function": "getLevel()",
+              "nextAccessors": [
+                {
+                  "name": "isClient",
+                  "function": "isClientSide",
+                  "postAccessorEvent": {
+                    "conditions": [
+                      {
+                        "variableName": "isClientSide",
+                        "variableResult": "true",
+                        "type": "variableCheck"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "condition": {
+                          "variableName": "stopEventProcessing",
+                          "variableInput": "",
+                          "type": "variableInsert"
+                        },
+                        "outcome": {
+                          "type": "null"
+                        },
+                        "type": "conditional"
+                      }
+                    ]
+                  },
+                  "argName": "isClientSide"
+                }
+              ],
+              "argName": "currentLevel"
+            },
+            {
+              "name": "Entity:name",
+              "function": "getName()",
+              "nextAccessors": [
+                {
+                  "name": "Dead Persons Name",
+                  "function": "getContents()",
+                  "postAccessorEvent": {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "command": "/tellraw Darkosto {\"text\":\"Please for the love of god don't crash.\",\"italic\":true}",
+                        "type": "command"
+                      },
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "message": "Chat",
+                        "type": "chat"
+                      },
+                      {
+                        "player": "Darkosto",
+                        "outcome": {
+                          "message": "It works",
+                          "type": "chat"
+                        },
+                        "type": "cciSendToPlayer"
+                      }
+                    ]
+                  },
+                  "argName": "deadName"
+                }
+              ],
+              "argName": "EntityName"
+            }
+          ],
+          "argName": "playerEntity"
+        }
+      ],
+      "argBasedAccessors": {}
+    },
+    {
+      "name": "On Death 2",
+      "disabled": true,
+      "className": "LivingDeathEvent",
+      "isServerEvent": true,
+      "staticAccessors": [],
+      "accessors": [
+        {
+          "name": "ForgeEvent:getEntity",
+          "function": "getEntity()",
+          "instanceCheck": "net.minecraft.server.level.ServerPlayer",
+          "postAccessorEvent": {
+            "conditions": [],
+            "outcomes": []
+          },
+          "nextAccessors": [
+            {
+              "name": "isClient",
+              "function": "f_46443_",
+              "postAccessorEvent": {
+                "conditions": [
+                  {
+                    "variableName": "isClientSide",
+                    "variableResult": "true",
+                    "type": "variableCheck",
+                    "inverseMatch": true
+                  }
+                ],
+                "outcomes": [
+                  {
+                    "condition": {
+                      "variableName": "stopEventProcessing",
+                      "variableInput": "",
+                      "type": "variableInsert"
+                    },
+                    "outcome": {
+                      "type": "null"
+                    },
+                    "type": "conditional"
+                  }
+                ]
+              }
+            }
+          ],
+          "argName": "playerEntity"
+        }
+      ],
+      "argBasedAccessors": {}
+    }
+  ]
+}

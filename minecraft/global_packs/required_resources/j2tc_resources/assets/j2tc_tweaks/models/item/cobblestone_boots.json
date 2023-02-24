@@ -1,0 +1,9 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "turkeydevutil:items/cobblestone_boots",
+    "broken": "turkeydevutil:items/broken_cobblestone_boots"
+  },
+  "first_modifiers": ["tconstruct:golden"]
+}

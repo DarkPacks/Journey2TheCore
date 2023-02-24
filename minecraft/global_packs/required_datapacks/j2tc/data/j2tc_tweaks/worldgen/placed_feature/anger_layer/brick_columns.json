@@ -1,0 +1,65 @@
+{
+  "feature": "j2tc_tweaks:anger_layer/brick_columns",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 8
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 85
+        },
+        "max_inclusive": {
+          "absolute": 87
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": ["cobblestoney:granite_soladite", "minecraft:moss_block"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [1, -1, 0],
+        "blocks": ["cobblestoney:granite_soladite", "minecraft:moss_block"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 1],
+        "blocks": ["cobblestoney:granite_soladite", "minecraft:moss_block"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, 1, 0],
+        "blocks": "minecraft:air"
+      }
+    }
+  ]
+}

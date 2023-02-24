@@ -8,7 +8,7 @@
       "translate": "Locate a Village"
     },
     "description": {
-      "translate": "Locate a village and recieve the locate_village gamestage"
+      "translate": "Locate a village and receive the locate_village gamestage"
     },
     "frame": "task",
     "show_toast": true,

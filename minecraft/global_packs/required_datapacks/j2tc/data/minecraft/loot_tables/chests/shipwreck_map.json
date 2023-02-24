@@ -7,15 +7,34 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:compass"
+          "name": "minecraft:compass",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_3": 1
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:clock"
+          "name": "minecraft:clock",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "quest_4": 1
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 20,
+          "name": "minecraft:paper",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,12 +45,12 @@
               },
               "add": false
             }
-          ],
-          "name": "minecraft:paper"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 10,
+          "name": "minecraft:feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,12 +61,12 @@
               },
               "add": false
             }
-          ],
-          "name": "minecraft:feather"
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 5,
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -58,8 +77,7 @@
               },
               "add": false
             }
-          ],
-          "name": "minecraft:book"
+          ]
         }
       ]
     }

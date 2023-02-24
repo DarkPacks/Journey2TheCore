@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:stat_boost",
+  "level_display": "tconstruct:default",
+  "attributes": [
+    {
+      "unique": "tconstruct.modifier.slowdown",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "amount": -0.05,
+      "slots": ["mainhand", "feet", "legs", "chest", "head"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": false,
+    "structures": [
+      "minecraft:candle_holders/candle_holder_1",
+      "minecraft:candle_holders/candle_holder_2",
+      "minecraft:candle_holders/candle_holder_3",
+      "minecraft:candle_holders/candle_holder_4",
+      "minecraft:candle_holders/candle_holder_5",
+      "minecraft:candle_holders/candle_holder_6",
+      "minecraft:candle_holders/candle_holder_7",
+      "minecraft:candle_holders/candle_holder_8",
+      "minecraft:candle_holders/candle_holder_9",
+      "minecraft:candle_holders/candle_holder_10",
+      "minecraft:candle_holders/candle_holder_11",
+      "minecraft:candle_holders/candle_holder_12",
+      "minecraft:candle_holders/candle_holder_13",
+      "minecraft:candle_holders/candle_holder_14",
+      "minecraft:candle_holders/candle_holder_15",
+      "minecraft:candle_holders/candle_holder_16"
+    ]
+  }
+}

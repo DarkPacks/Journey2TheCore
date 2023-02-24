@@ -10,11 +10,6 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "nameless_trinkets:true_heart_of_the_sea"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
           "name": "nameless_trinkets:super_magnet"
         },
         {
@@ -24,7 +19,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 5,
           "name": "nameless_trinkets:sleeping_pills"
         },
         {
@@ -80,22 +75,12 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "nameless_trinkets:amphibious_hands"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
           "name": "nameless_trinkets:blindfold"
         },
         {
           "type": "minecraft:item",
           "weight": 100,
           "name": "nameless_trinkets:rage_mind"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "nameless_trinkets:tear_of_the_sea"
         },
         {
           "type": "minecraft:item",
@@ -145,11 +130,6 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "nameless_trinkets:gills"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
           "name": "nameless_trinkets:puffer_fish_liver"
         },
         {
@@ -166,11 +146,6 @@
           "type": "minecraft:item",
           "weight": 100,
           "name": "artifacts:lucky_scarf"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "artifacts:scarf_of_invisibility"
         },
         {
           "type": "minecraft:item",
@@ -229,7 +204,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 15,
           "name": "artifacts:helium_flamingo"
         },
         {
@@ -295,11 +270,6 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "artifacts:flippers"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
           "name": "artifacts:superstitious_hat"
         },
         {
@@ -309,7 +279,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 5,
           "name": "artifacts:night_vision_goggles"
         },
         {
@@ -451,11 +421,6 @@
           "type": "minecraft:item",
           "weight": 100,
           "name": "nameless_trinkets:fractured_nullstone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "nameless_trinkets:electric_paddle"
         },
         {
           "type": "minecraft:item",

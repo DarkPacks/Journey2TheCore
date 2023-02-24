@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:specialized_repair_kit",
+  "tool": [
+    { "item": "j2tc_tweaks:cobblestone_boots" },
+    { "item": "j2tc_tweaks:cobblestone_leggings" },
+    { "item": "j2tc_tweaks:cobblestone_chestplate" },
+    { "item": "j2tc_tweaks:cobblestone_helmet" }
+  ],
+  "repair_material": "tconstruct:rock"
+}

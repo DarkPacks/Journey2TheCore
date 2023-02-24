@@ -214,6 +214,20 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "tconstruct:flint_shuriken",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 19
+              }
+            }
+          ]
+        },
+        {
           "name": "minecraft:poisonous_potato",
           "type": "minecraft:item",
           "weight": 5,
@@ -222,7 +236,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3,
+                "max": 4,
                 "type": "minecraft:uniform"
               }
             }
@@ -353,7 +367,22 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 70
+          "weight": 180
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "j2tc_tweaks:chests/metal_injection"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 75
         }
       ]
     }

@@ -1,0 +1,25 @@
+{
+  "conditions": {
+    "New Condition": {
+      "type": "null"
+    }
+  },
+  "outcomes": {
+    "(Raidmeter) Random Quest Trigger": {
+      "command": "/function bossbar:bossbar/random_quest_selector",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(Raidmeter) Value 500": {
+      "command": "/raidmeter modify quest add 500",
+      "executeAsSelf": true,
+      "type": "command"
+    },
+    "(Raidmeter) Value 500 Scoreboard Objective": {
+      "command": "/scoreboard players add $playerName raidmeter_tracking 500",
+      "executeAsSelf": true,
+      "type": "command"
+    }
+  },
+  "events": {}
+}

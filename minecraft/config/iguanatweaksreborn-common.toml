@@ -4,7 +4,7 @@
 "Enable Mining" = true
 "Enable Combat" = true
 "Enable Movement" = true
-"Enable Sleep & Respawn" = true
+"Enable Sleep & Respawn" = false
 "Enable Farming" = true
 "Enable Stack Size" = true
 
@@ -468,11 +468,11 @@
 
 ["Sleep & Respawn"]
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up
-	"Enable Sleeping Effects" = true
+	"Enable Sleeping Effects" = false
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired
 	"Enable Tiredness" = false
 	#Makes sleeping impossible or possible during day
-	"Enable Sleeping" = true
+	"Enable Sleeping" = false
 
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up
 	["Sleep & Respawn"."Sleeping Effects"]
@@ -515,7 +515,7 @@
 		#If set to true the player spawn point will not change when the player cannot sleep. Has no effect if the player can sleep.
 		"Disable Bed Spawn" = false
 		#If set to true the player will be able to sleep during day time. On wake up it will be night time
-		"Allow Sleeping During Day" = true
+		"Allow Sleeping During Day" = false
 
 [Farming]
 	#Slower breeding, Growing, Egging and Milking

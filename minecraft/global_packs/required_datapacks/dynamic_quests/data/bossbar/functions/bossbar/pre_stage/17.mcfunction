@@ -6,13 +6,13 @@ scoreboard players reset @s player_y_level
 scoreboard players reset @s quest_quantity
 scoreboard players reset @s progress
 scoreboard players set @s quest_active 1
-execute run bossbar set bar value 0
+se action @s playerbossbar set quest_tracker value 0
 
 
 cyclic scoreboard random @s 50 201 quest_quantity
-execute store result bossbar minecraft:bar max run scoreboard players get @s quest_quantity 
+se action @s playerbossbar storescore max quest_tracker quest_quantity
 
-bossbar set minecraft:bar name [{"text":"Go Down "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Blocks"}]
+se action @s playerbossbar set quest_tracker name [{"text":"Go Down "},{"score":{"objective":"quest_quantity","name":"@s"}},{"text":" Blocks"}]
 
 
 #set stage
@@ -27,12 +27,12 @@ scoreboard players set @s max_time 8400
 
 #Start Timer
 function sbt:test
-bossbar set minecraft:test2 visible true
+se action @s playerbossbar set quest_timer visible true
 
 #Color
-execute run bossbar set bar color blue
+se action @s playerbossbar set quest_tracker color blue
 function bossbar:bossbar/stage/17
-bossbar set bar visible true
+se action @s playerbossbar set quest_tracker visible true
 
 scoreboard players operation @s number = @s quest_quantity
 #scoreboard players set @s number 150

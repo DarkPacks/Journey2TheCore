@@ -1,17 +1,17 @@
 #Restock
 Restock = true
 #Use fixed items
-UseFixedItems = true
+UseFixedItems = false
 #Minable
 Minable = false
 #Fixed items; item or item,amount,pay_item,cost,uses
-FixedItems = ["minecraft:stone", "minecraft:dirt", "minecraft:snow_block", "minecraft:deepslate", "minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks"]
+FixedItems = [""]
 #Include Mods
 IncludeMods = ["*"]
 #Exclude Mods
 ExcludeMods = ["draconicevolution", "avaritia", "botania"]
 #Include Items
-IncludeItems = ["*"]
+IncludeItems = ["thermal:gold_coin", "hardcorequesting:rottenheart", "hardcorequesting:heart", "bhc:red_heart", "buddycards:buddycard_pack_base", "buddycards:buddycard_pack_patreon_supporter_set", "buddycards:buddycard_pack_mob_test_set", "chancecubes:chance_cube", "turkeydevutil:unidentified_gem", "waystones:bound_scroll", "waystones:warp_scroll", "waystones:return_scroll", "dabomb:c4", "turkeydevutil:lanyard", "animalcrops:seeds{entity:\"minecraft:sheep\"}", "cyclic:milk_bottle", "farmersdelight:sweet_berry_cookie", "farmersdelight:honey_cookie", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\",LootTable:\"j2tc_tweaks:treasure_bags/tcon_modifier_books\"}}", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:signs\",LootTable:\"j2tc_tweaks:treasure_bags/signs\"}}", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:seed_food_bag\",LootTable:\"j2tc_tweaks:treasure_bags/seed_food_bag\"}}", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lunchbox\",LootTable:\"j2tc_tweaks:treasure_bags/lunchbox\"}}", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}", "minecraft:golden_apple", "minecraft:enchanted_golden_apple", "minecraft:potion{Potion:\"minecraft:regeneration\"}", "animalcrops:seeds{entity:\"minecraft:chicken\"}", "animalcrops:seeds{entity:\"minecraft:cow\"}", "animalcrops:seeds{entity:\"minecraft:pig\"}"]
 #Exclude Items
 ExcludeItems = ["minecraft:nether_star", "minecraft:beacon", "minecraft:bedrock", "minecraft:shulker_box", "minecraft:colorset*shulker_box", "minecraft:elytra", "minecraft:end_portal_frame", "minecraft:armorset*netherite", "minecraft:toolset*netherite", "minecraft:netherite_block", "minecraft:netherite_ingot", "vm:vending_machine"]
 #Include Creative Tab Groups
@@ -19,7 +19,7 @@ IncludeGroups = ["*"]
 #Exclude Creative Tab Groups
 ExcludeGroups = ["!"]
 #Change item rarity value for pricing
-ItemRarity = ["minecraft:emerald_block=1", "minecraft:diamond_block=1", "minecraft:armorset*diamond=1", "minecraft:toolset*diamond=1", "minecraft:anvil=2", "minecraft:trident=3", "minecraft:bell=2", "minecraft:conduit=3", "minecraft:nautilus_shell=1", "eggset*peaceful=1", "eggset*monster=2", "minecraft:evoker_spawn_egg=3", "minecraft:netherite_scrap=2", "minecraft:ancient_debris=2", "minecraft:axolotl_bucket=1"]
+ItemRarity = ["minecraft:emerald_block=1", "minecraft:diamond_block=1", "minecraft:armorset*diamond=1", "minecraft:toolset*diamond=1", "minecraft:anvil=2", "minecraft:trident=3", "minecraft:bell=2", "minecraft:conduit=3", "minecraft:nautilus_shell=1", "eggset*peaceful=1", "eggset*monster=2", "minecraft:evoker_spawn_egg=3", "minecraft:netherite_scrap=4", "minecraft:ancient_debris=4", "minecraft:axolotl_bucket=1", "thermal:gold_coin=1", "hardcorequesting:rottenheart=1", "hardcorequesting:heart=4", "bhc:red_heart=4", "buddycards:buddycard_pack_base=2", "buddycards:buddycard_pack_patreon_supporter_set=2", "buddycards:buddycard_pack_mob_test_set=2", "chancecubes:chance_cube=1", "turkeydevutil:unidentified_gem=2", "waystones:bound_scroll=2", "waystones:warp_scroll=3", "waystones:return_scroll=4", "dabomb:c4=2", "turkeydevutil:lanyard=1", "animalcrops:seeds{entity:\"minecraft:sheep\"}=2", "cyclic:milk_bottle=1", "farmersdelight:sweet_berry_cookie=1", "farmersdelight:honey_cookie=1", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\",LootTable:\"j2tc_tweaks:treasure_bags/tcon_modifier_books\"}}=4", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:signs\",LootTable:\"j2tc_tweaks:treasure_bags/signs\"}}=1", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:seed_food_bag\",LootTable:\"j2tc_tweaks:treasure_bags/seed_food_bag\"}}=1", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lunchbox\",LootTable:\"j2tc_tweaks:treasure_bags/lunchbox\"}}=1", "treasurebags:treasure_bag{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}=3", "minecraft:golden_apple", "minecraft:enchanted_golden_apple=2", "minecraft:potion{Potion:\"minecraft:regeneration\"}=1", "animalcrops:seeds{entity:\"minecraft:chicken\"}=2", "animalcrops:seeds{entity:\"minecraft:cow\"}=2", "animalcrops:seeds{entity:\"minecraft:pig\"}=2"]
 
 [RarityData]
 	#Common Item

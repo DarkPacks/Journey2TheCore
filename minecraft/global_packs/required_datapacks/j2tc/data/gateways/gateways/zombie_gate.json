@@ -1,17 +1,21 @@
 {
+  "leash_range": 64,
   "size": "medium",
   "color": "#71955B",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "rewards": [
@@ -27,10 +31,12 @@
     {
       "entities": [
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:husk"
@@ -79,7 +85,8 @@
           "entity": "minecraft:husk"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:husk"
@@ -88,7 +95,8 @@
           "entity": "minecraft:husk"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         }
       ],
       "modifiers": [
@@ -131,13 +139,16 @@
     {
       "entities": [
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:husk"
@@ -189,13 +200,16 @@
     {
       "entities": [
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ForgeData:{ESM_Ignored: 1b}}"
         },
         {
           "entity": "minecraft:husk"

@@ -11,14 +11,19 @@
                 "type": "user"
               },
               {
-                "phrase": "test",
-                "type": "message"
+                "name": "target_player_name",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
-                "name": "Countdown 5 (Random Color)",
+                "name": "Hex Test Outcome",
                 "type": "constant"
+              },
+              {
+                "command": "/function bossbar:bossbar/random_quest_selector",
+                "executeAsSelf": true,
+                "type": "command"
               }
             ],
             "allowsOtherEventsToTrigger": true,
@@ -29,16 +34,80 @@
             "conditions": [],
             "outcomes": [
               {
-                "noteName": "$name",
-                "noteContent": "$color",
-                "type": "note",
-                "displayName": "Commit Name Color to Notes File"
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "$color",
+                        "variableResult": "stringLengthCompare",
+                        "type": "stringLength"
+                      },
+                      {
+                        "optionalVariableName": "stringLengthCompare",
+                        "amount": 0.0,
+                        "type": "amount"
+                      },
+                      {
+                        "noteName": "$name",
+                        "variableName": "IhaveToPutSomethingHereBecauseIChunSaidSo",
+                        "type": "note",
+                        "inverseMatch": true
+                      },
+                      {
+                        "name": "(Color) Choose Random Hex Color",
+                        "type": "constant"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "noteName": "$name",
+                        "noteContent": "$randomHexColor",
+                        "expiresIn": "24h",
+                        "type": "note"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "displayName": "Checks for No Chat Color"
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "$color",
+                        "variableResult": "stringLengthCheck",
+                        "type": "stringLength"
+                      },
+                      {
+                        "optionalVariableName": "stringLengthCheck",
+                        "min": 1.0,
+                        "type": "range"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "noteName": "$name",
+                        "noteContent": "$color",
+                        "type": "note"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "displayName": "Check for Viewer with Chat Name Color"
               }
             ],
             "allowsOtherEventsToTrigger": true
           }
         ]
       },
+      "queue": [
+        "Configuration: twitch"
+      ],
       "for": "twitch"
     },
     {

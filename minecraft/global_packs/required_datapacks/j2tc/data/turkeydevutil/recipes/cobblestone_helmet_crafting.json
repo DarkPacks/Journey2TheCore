@@ -1,12 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "# #"],
-  "key": {
-    "#": {
-      "tag": "forge:cobblestone"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  },
-  "result": {
-    "item": "turkeydevutil:cobblestone_helmet"
-  }
+  ]
 }
