@@ -4,7 +4,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["mob", "conditions"],
+    "required": ["conditions"],
     "properties": {
       "mob": {
         "type": ["string", "array"],
