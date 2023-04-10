@@ -65,6 +65,37 @@ const config = {
         ],
       },
     },
+    {
+      files: ["minecraft/**/tconstruct_modifiers/**/*.json"],
+      rules: {
+        "jsonc/sort-keys": [
+          "error",
+          {
+            pathPattern: "^$",
+            order: [
+              "type",
+              "input",
+              "inputs",
+              "amount_per_item",
+              "needed_per_level",
+              "tools",
+              "slots",
+              "allow_crystal",
+              "result",
+              "max_level",
+            ],
+          },
+          {
+            pathPattern: "^result$",
+            order: ["name", "level"],
+          },
+          {
+            pathPattern: "^inputs?(\\[\\d+\\])?$",
+            order: ["type", "item", "nbt"],
+          },
+        ],
+      },
+    },
   ],
 };
 

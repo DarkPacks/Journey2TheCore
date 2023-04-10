@@ -58,7 +58,16 @@
           "helditem": {
             "type": ["string", "array"],
             "items": {
-              "type": "string"
+              "type": ["string", "object"],
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "nbt": {
+                  "type": "object"
+                }
+              },
+              "required": ["item"]
             }
           },
           "armorboots": {
