@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "thermal:sadiroot"
+    },
+    {
+      "fluid": "tconstruct:blood",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ]
+}

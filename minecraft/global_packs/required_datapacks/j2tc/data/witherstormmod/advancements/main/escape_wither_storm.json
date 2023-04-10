@@ -1,0 +1,29 @@
+{
+  "parent": "witherstormmod:main/summon_wither_storm",
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.escape_wither_storm.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.escape_wither_storm.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "escape_wither_storm": {
+      "trigger": "witherstormmod:escape_wither_storm",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "escape_wither_storm"
+    ]
+  ]
+}

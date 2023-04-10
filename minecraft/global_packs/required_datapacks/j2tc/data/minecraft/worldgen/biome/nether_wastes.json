@@ -34,7 +34,7 @@
     [],
     [],
     [
-      "minecraft:spring_open",
+      "j2tc_tweaks:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
@@ -42,7 +42,7 @@
       "minecraft:brown_mushroom_nether",
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
-      "minecraft:spring_closed",
+      "j2tc_tweaks:spring_closed",
       "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
       "minecraft:ore_gold_nether",
@@ -52,10 +52,11 @@
     ],
     [],
     [
-      "minecraft:spring_lava",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
-    ]
+      "j2tc_tweaks:spring_lava",
+      "j2tc_tweaks:brown_mushroom_normal",
+      "j2tc_tweaks:red_mushroom_normal"
+    ],
+    ["j2tc_tweaks:hypocrisy_layer/dead_entities"]
   ],
   "spawners": {
     "monster": [],

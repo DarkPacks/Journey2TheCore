@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", "# #", " # "],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/electrum"
+    }
+  },
+  "result": {
+    "item": "thermal:electrum_gear"
+  }
+}

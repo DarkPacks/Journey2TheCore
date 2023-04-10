@@ -1,0 +1,6 @@
+{
+  "parent": "adpother:base/vacuum_bag",
+  "textures": {
+    "4": "block/oak_planks"
+  }
+}

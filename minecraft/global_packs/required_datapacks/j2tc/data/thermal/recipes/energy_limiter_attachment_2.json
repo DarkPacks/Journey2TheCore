@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NGN", "IRI"],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "I": {
+      "tag": "forge:ingots/electrum"
+    },
+    "N": {
+      "tag": "forge:nuggets/constantan"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "thermal:energy_limiter_attachment",
+    "count": 2
+  }
+}

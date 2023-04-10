@@ -37,4 +37,6 @@
 	#Defines the max the second number can be in the division problem [Default: 100]
 	#Range: > 30
 	divisionMaxY = 30
+	#List of words that can be used to generate a text captcha (16 character length max)
+	textCaptchaWords = ["diamond", "iron", "gold", "emerald", "lapis", "coal", "redstone", "nether", "creeper", "skeleton", "spider", "zombie", "enderman", "endermite", "slime", "ghast", "pig", "cow", "sheep", "chicken", "rabbit", "mooshroom", "villager", "witch", "wither", "blaze", "guardian", "shulker", "ender dragon", "wither", "drowned", "husk", "stray", "phantom", "zoglin", "piglin", "panda", "bee", "cat", "fox", "ocelot"]
 

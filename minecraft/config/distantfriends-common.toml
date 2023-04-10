@@ -16,3 +16,10 @@
 	#Range: > 1
 	friendMaxGroup = 1
 
+#Compat
+[compat]
+	#Add players from a Player Mobs whitelist to the Friends list [default: false]
+	playerMobsCompat = true
+	#The player mobs Name Links
+	playerMobsWhitelist = ["https://whitelist.gorymoon.se/list/RBaEKlLZbgrX39xp0vmdr/minecraft_twitch_nl"]
+

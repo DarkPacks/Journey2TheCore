@@ -1,0 +1,6 @@
+{
+  "blockLocation": "elevatorid:elevator_red",
+  "slides": false,
+  "wetSlide": false,
+  "stability": "gravityforce:strong"
+}

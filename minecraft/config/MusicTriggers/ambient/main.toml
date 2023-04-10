@@ -1,0 +1,28 @@
+#Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki/The-Basics
+#or the discord server located at https://discord.gg/FZHXFYp8fc
+#for any specific questions you might have regarding the main config file
+
+[triggers]
+
+	[triggers.zones]
+		zone_min_y = "528"
+		identifier = "limbo_ambience"
+		fade_in = "40"
+		fade_out = "40"
+		zone_max_y = "688"
+
+	[triggers.universal]
+		fade_out = "40"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		fade_in = "40"
+
+[songs]
+
+	[songs.muddr_was_right]
+		triggers = [ "zones-limbo_ambience" ]
+
+	[songs.limbo_ambience]
+		triggers = [ "zones-limbo_ambience" ]

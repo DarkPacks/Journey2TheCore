@@ -1,0 +1,9 @@
+{
+  "name": "Blargerist",
+  "items": {
+    "main_hand": {
+      "item": "buddycards:buddycard_patreon_supporter_set2",
+      "drop_chance": 1
+    }
+  }
+}

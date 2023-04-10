@@ -1,0 +1,29 @@
+{
+  "parent": "witherstormmod:main/strong_grow_weak",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.weakened_arise_stronger.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.weakened_arise_stronger.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "revival": {
+      "trigger": "witherstormmod:wither_storm_revival",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "revival"
+    ]
+  ]
+}

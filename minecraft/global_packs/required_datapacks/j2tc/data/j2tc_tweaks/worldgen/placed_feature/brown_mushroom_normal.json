@@ -1,0 +1,43 @@
+{
+  "feature": "minecraft:patch_brown_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 16
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 5
+        },
+        "max_inclusive": {
+          "absolute": 250
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [
+          "minecraft:dirt",
+          "minecraft:stone",
+          "cobblestoney:clay_silt",
+          "rechiseled:dirt_muddy",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:mycelium",
+          "minecraft:podzol",
+          "minecraft:crimson_nylium",
+          "minecraft:warped_nylium"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Testing2",
+  "death": {
+    "spawn_mob": {
+      "entries": [
+        {
+          "entity": "player_mobs:player_mob",
+          "functions": [
+            {
+              "function": "copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Username",
+                  "target": "Username",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

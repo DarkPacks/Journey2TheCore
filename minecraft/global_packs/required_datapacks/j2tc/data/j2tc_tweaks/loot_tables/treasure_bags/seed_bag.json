@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "minecraft:melon_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "turkeydevutil:lime_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "thermal:strawberry_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:tomato_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "thermal:sadiroot_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:coffee_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:hops_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:tea_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:flax_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:frost_melon_seeds",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "createcafe:cassava_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "animalcrops:pollen",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:cabbage_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:peanut_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:green_bean_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:eggplant_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:bell_pepper_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:spinach_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:amaranth_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:barley_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:corn_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:onion_seeds",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:radish_seeds",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

@@ -10,8 +10,8 @@
       "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },
-    "sky_color": 0,
-    "fog_color": 0,
+    "sky_color": 131081,
+    "fog_color": 131081,
     "water_color": 8914952,
     "water_fog_color": 3866888
   },
@@ -34,6 +34,7 @@
     ],
     [
       "j2tc_tweaks:lake_lava",
+      "j2tc_tweaks:desire_layer/features/lake_lava",
       "j2tc_tweaks:j2tc_lake_water_underground",
       "j2tc_tweaks:lake_liquid_candy",
       "j2tc_tweaks:lake_liquid_chocolate",
@@ -125,6 +126,7 @@
       "j2tc_tweaks:anger_layer/underwater_magma",
       "j2tc_tweaks:anger_layer/flat_coral_disk",
       "j2tc_tweaks:anger_layer/sea_pickle",
+      "j2tc_tweaks:anger_layer/kelp",
       "j2tc_tweaks:limbo_layer/ore_dirt_upper",
       "j2tc_tweaks:limbo_layer/rooted_dirt",
       "j2tc_tweaks:limbo_layer/ore_coarse_dirt_upper",
@@ -205,6 +207,7 @@
       "j2tc_tweaks:limbo_layer/tree_columns_jungle",
       "j2tc_tweaks:limbo_layer/tree_columns_jungle_wide",
       "j2tc_tweaks:desire_layer/desire_structures",
+      "j2tc_tweaks:limbo_layer/barako",
       "j2tc_tweaks:anger_layer/brick_columns",
       "j2tc_tweaks:gluttony_layer/tcon_slime_columns",
       "j2tc_tweaks:desire_layer/features/candle_holders",
@@ -217,6 +220,7 @@
       "j2tc_tweaks:greed_layer/waystones",
       "j2tc_tweaks:anger_layer/waystones",
       "j2tc_tweaks:heresy_transition/waystones",
+      "j2tc_tweaks:heresy_transition/lich_altar",
       "j2tc_tweaks:greed_layer/vending_machines"
     ]
   ],

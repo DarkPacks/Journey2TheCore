@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "conditions": [],
+  "is_baby": false,
+  "death": {
+    "spawn_mob": {
+      "entries": [
+        {
+          "entity": "player_mobs:player_mob",
+          "nbt": "{IsBaby:1b,Passengers:[{id:\"player_mobs:player_mob\",IsBaby:1b,Passengers:[{id:\"player_mobs:player_mob\",IsBaby:1b}]}]}",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "killer",
+              "scores": {
+                "quest_1": 1
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.06
+            }
+          ],
+          "functions": [
+            {
+              "function": "copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Username",
+                  "target": "Username",
+                  "op": "replace"
+                },
+                {
+                  "source": "Rotation",
+                  "target": "Rotation",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -25,6 +25,10 @@
   "item.j2tc_tweaks.wooden_chestplate": "Wooden Chestplate",
   "item.j2tc_tweaks.wooden_helmet": "Wooden Helmet",
   "item.j2tc_tweaks.wooden_leggings": "Wooden Leggings",
+  "item.j2tc_tweaks.copper_chain_boots": "Copper Chain Boots",
+  "item.j2tc_tweaks.copper_chain_chestplate": "Copper Chain Chestplate",
+  "item.j2tc_tweaks.copper_chain_helmet": "Copper Chain Helmet",
+  "item.j2tc_tweaks.copper_chain_leggings": "Copper Chain Leggings",
   "item.sophisticatedbackpacks.gold_backpack": "Bronze Backpack",
   "item.sophisticatedbackpacks.iron_backpack": "Copper Backpack",
   "item.tconstruct.witherbane": "Witherbane",
@@ -39,5 +43,14 @@
   "modifier.tconstruct.well_fed": "Well Fed",
   "stat.tconstruct.harvest_tier.cyclic.copper": "Copper",
   "stat.tconstruct.harvest_tier.cyclic.nether_bricks": "Cobalt",
-  "stat.tconstruct.harvest_tier.cyclic.sandstone": "Hepatizon"
+  "stat.tconstruct.harvest_tier.cyclic.sandstone": "Hepatizon",
+  "menu.savingLevel": "Escaping... for now...",
+  "item.mowziesmobs.wrought_axe.text.0": "Let's Kick Axe!",
+  "item.mowziesmobs.wrought_helmet.text.0": "Apply directly to forehead",
+  "fluid.candyworld.fluid_candy_source": "Liquid Candy",
+  "fluid.candyworld.fluid_chocolate_source": "Liquid Chocolate",
+  "block.turkeydevutil.greed_silver_ore": "Silver Ore",
+  "key.placeableitems.placeable": "Placeable Item",
+  "modifier.tconstruct.well_fed.flavor": "Stuffed like a Thanksgiving Dinner",
+  "modifier.tconstruct.well_fed.description": "Stops the infinite hunger in the Gluttony Layer"
 }

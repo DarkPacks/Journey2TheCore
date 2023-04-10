@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:quartz_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:quartz",
+      "chance": 4
+    }
+  ],
+  "experience": 0.5
+}

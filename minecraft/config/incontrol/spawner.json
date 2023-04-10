@@ -11,10 +11,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -29,10 +29,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -47,10 +47,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 16
+      "maxlocal": 16
     }
   },
   {
@@ -65,10 +65,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -83,16 +83,16 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 8
+      "maxlocal": 8
     }
   },
   {
     "mob": ["minecraft:skeleton"],
-    "persecond": 0.1,
-    "attempts": 5,
+    "persecond": 0.08,
+    "attempts": 4,
     "amount": {
       "minimum": 1,
       "maximum": 4
@@ -101,10 +101,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 10
+      "maxlocal": 8
     }
   },
   {
@@ -119,10 +119,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -136,10 +136,10 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -154,10 +154,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -172,10 +172,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -190,10 +190,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -208,10 +208,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -226,10 +226,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -244,10 +244,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -266,10 +266,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -288,10 +288,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -310,10 +310,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -332,10 +332,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -354,10 +354,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -375,10 +375,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -396,10 +396,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -414,10 +414,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -432,10 +432,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -450,10 +450,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -468,10 +468,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -486,10 +486,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -504,10 +504,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -522,10 +522,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 8
+      "maxlocal": 8
     }
   },
   {
@@ -540,10 +540,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 8
+      "maxlocal": 8
     }
   },
   {
@@ -560,10 +560,10 @@
       "inlava": true,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 10
+      "maxlocal": 10
     }
   },
   {
@@ -578,10 +578,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -596,10 +596,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -614,10 +614,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -632,10 +632,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -650,10 +650,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 688,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -668,10 +668,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 5
+      "maxlocal": 6
     }
   },
   {
@@ -686,10 +686,10 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -705,10 +705,10 @@
       "inwater": false,
       "inair": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 0,
       "maxheight": 132,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -725,10 +725,10 @@
       "inwater": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 528,
       "maxheight": 688,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -745,10 +745,10 @@
       "inwater": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 528,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -765,10 +765,10 @@
       "inwater": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": -1,
-      "maxthis": 5
+      "maxlocal": 5
     }
   },
   {
@@ -785,10 +785,10 @@
       "inlava": true,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -805,10 +805,10 @@
       "inlava": true,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -825,15 +825,15 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
     "mob": "alexsmobs:soul_vulture",
-    "persecond": 0.05,
+    "persecond": 0.025,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -845,10 +845,10 @@
       "inlava": false,
       "inair": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 396,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -865,10 +865,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -885,10 +885,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -905,10 +905,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 396,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -925,10 +925,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -942,10 +942,10 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 528,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -962,10 +962,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -982,19 +982,19 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
     "mob": "goblintraders:goblin_trader",
     "persecond": 0.1,
-    "attempts": 1,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
-      "maximum": 1
+      "maximum": 2
     },
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -1002,10 +1002,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 688,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1022,10 +1022,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 397,
       "maxheight": 688,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1042,10 +1042,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1062,10 +1062,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 132,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1082,10 +1082,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 688,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1102,10 +1102,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 688,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1122,10 +1122,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 688,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1142,10 +1142,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -1162,10 +1162,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -1182,10 +1182,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 5,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1202,10 +1202,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 688,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
@@ -1223,10 +1223,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -1244,10 +1244,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -1265,10 +1265,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -1286,10 +1286,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 265,
       "maxheight": 396,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -1307,10 +1307,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": -64,
       "maxheight": 0,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1325,10 +1325,10 @@
       "dimension": "minecraft:overworld",
       "norestrictions": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 529,
       "maxheight": 688,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -1343,10 +1343,10 @@
       "dimension": "minecraft:overworld",
       "norestrictions": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -1361,10 +1361,10 @@
       "dimension": "minecraft:overworld",
       "norestrictions": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1379,10 +1379,95 @@
       "dimension": "minecraft:overworld",
       "norestrictions": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 133,
       "maxheight": 264,
-      "maxthis": 4
+      "maxlocal": 4
+    }
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxlocal": 2
+    }
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96,
+      "minheight": 5,
+      "maxheight": 130,
+      "maxlocal": 2
+    }
+  },
+  {
+    "mob": ["enchantwithmob:enchanter"],
+    "persecond": 0.01,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96,
+      "minheight": 133,
+      "maxheight": 264,
+      "maxlocal": 2
+    }
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "persecond": 0.01,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 42,
+      "maxdist": 96,
+      "minheight": 529,
+      "maxheight": 688,
+      "maxlocal": 2
+    }
+  },
+  {
+    "mob": ["mowziesmobs:grottol"],
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96,
+      "minheight": -64,
+      "maxheight": 688,
+      "maxlocal": 6
     }
   },
   {
@@ -1405,10 +1490,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 5,
       "maxheight": 64,
-      "maxthis": 12
+      "maxlocal": 12
     }
   },
   {
@@ -1426,10 +1511,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 5,
       "maxheight": 64,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1446,10 +1531,10 @@
       "inwater": false,
       "inair": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 255,
-      "maxthis": 3
+      "maxlocal": 3
     }
   },
   {
@@ -1474,10 +1559,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 129,
       "maxheight": 255,
-      "maxthis": 10
+      "maxlocal": 10
     }
   },
   {
@@ -1494,10 +1579,10 @@
       "inlava": false,
       "inair": true,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 255,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1514,10 +1599,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 65,
       "maxheight": 128,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1534,10 +1619,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 255,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1554,10 +1639,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 255,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1574,10 +1659,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 65,
       "maxheight": 128,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1594,10 +1679,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 65,
       "maxheight": 255,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1614,10 +1699,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 65,
       "maxheight": 128,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1634,10 +1719,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 65,
       "maxheight": 255,
-      "maxthis": 1
+      "maxlocal": 1
     }
   },
   {
@@ -1654,10 +1739,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 30,
-      "maxthis": 2
+      "maxlocal": 2
     }
   },
   {
@@ -1682,10 +1767,10 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 64,
-      "maxthis": 8
+      "maxlocal": 8
     }
   },
   {
@@ -1702,30 +1787,27 @@
       "inlava": false,
       "inair": false,
       "mindist": 24,
-      "maxdist": 120,
+      "maxdist": 96,
       "minheight": 1,
       "maxheight": 64,
-      "maxthis": 4
+      "maxlocal": 4
     }
   },
   {
-    "phase": "day_time",
-    "mobsfrombiome": "monster",
-    "persecond": 1.0,
-    "attempts": 25,
+    "mob": ["player_mobs:player_mob"],
+    "persecond": 0.1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
     "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxhostile": 200
-    }
-  },
-  {
-    "phase": "night_time",
-    "mobsfrombiome": "monster",
-    "persecond": 0.01,
-    "attempts": 10,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxhostile": 50
+      "dimension": "minecraft:the_nether",
+      "mindist": 24,
+      "maxdist": 96,
+      "minheight": 1,
+      "maxheight": 44,
+      "maxlocal": 12
     }
   }
 ]

@@ -2,142 +2,6 @@
   "name": "Dailies",
   "quests": [
     {
-      "uuid": "96569f65-d03a-4c41-bb89-b8a1882b19db",
-      "name": {
-        "text": "Ghoulevard of Broken Dreams",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 59,
-      "y": 62,
-      "icon": {
-        "id": "graveyard:ghoul_spawn_egg",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 6,
-        "hours": 2
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Ghouls",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "graveyard:ghoul_spawn_egg",
-                "Count": 1
-              },
-              "mob": "graveyard:ghoul",
-              "kills": 25
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e13a3c1b-980f-4e21-a7b1-49500798249c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "turkeydevutil:cookie",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ee20bfe8-4b5d-4190-91b6-dd000b7034b3",
-      "name": {
-        "text": "It\u0027s irRevenant",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 86,
-      "y": 62,
-      "icon": {
-        "id": "graveyard:revenant_spawn_egg",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 6,
-        "hours": 2
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Revenant",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "graveyard:revenant_spawn_egg",
-                "Count": 1
-              },
-              "mob": "graveyard:revenant",
-              "kills": 25
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e44cab3b-f383-4c1a-87e3-e4f759fe667e"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "turkeydevutil:cookie",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "9ec60d73-7ecb-46b7-84bb-e72ac8edfe33",
       "name": {
         "text": "Cuz I\u0027m a Creep",
@@ -269,55 +133,6 @@
           "id": "treasurebags:treasure_bag",
           "Count": 1,
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "a731bd29-c181-4e5d-91de-8ae1e8d9e87a",
-      "name": {
-        "text": "Heartless",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "If you don\u0027t need your extra hearts then trade them instead!",
-        "isTranslationKey": false
-      },
-      "x": 180,
-      "y": 26,
-      "icon": {
-        "id": "hardcorequesting:heart",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 6,
-        "hours": 2
-      },
-      "prerequisites": [
-        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "turkeydevutil:unidentified_gem",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:totem_of_undying",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\",LootTable:\"j2tc_tweaks:treasure_bags/tcon_modifier_books\"}}"
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
         }
       ],
       "commandrewards": []
@@ -459,74 +274,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "244c37f8-8abf-45f0-8fb5-a1ee3e838f79",
-      "name": {
-        "text": "Hardcore Australia",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 32,
-      "y": 96,
-      "icon": {
-        "id": "tconstruct:cave_spider_head",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 6,
-        "hours": 2
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": {
-                "text": "Cave Spiders",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "tconstruct:cave_spider_head",
-                "Count": 1
-              },
-              "mob": "minecraft:cave_spider",
-              "kills": 25
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6c9dce8d-0f41-44f2-9dc0-1d73dbab9d95"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "turkeydevutil:cookie",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "5fa5d2a9-d9e6-41b3-a48a-e61dd455bcf0",
       "name": {
         "text": "Player Mobs",
@@ -592,6 +339,396 @@
           "id": "treasurebags:treasure_bag",
           "Count": 1,
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0197e45-0b63-4035-9e53-4591cdb18d36",
+      "name": {
+        "text": "Zombieland",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 26,
+      "icon": {
+        "id": "minecraft:zombie_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Zombies",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f92f705c-bd8e-453c-aa60-3654e6c462df"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "96569f65-d03a-4c41-bb89-b8a1882b19db",
+      "name": {
+        "text": "Ghoulevard of Broken Dreams",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 62,
+      "icon": {
+        "id": "graveyard:ghoul_spawn_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Ghouls",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "graveyard:ghoul_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:ghoul",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e13a3c1b-980f-4e21-a7b1-49500798249c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee20bfe8-4b5d-4190-91b6-dd000b7034b3",
+      "name": {
+        "text": "It\u0027s irRevenant",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 86,
+      "y": 62,
+      "icon": {
+        "id": "graveyard:revenant_spawn_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Revenant",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "graveyard:revenant_spawn_egg",
+                "Count": 1
+              },
+              "mob": "graveyard:revenant",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e44cab3b-f383-4c1a-87e3-e4f759fe667e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "93b472e5-724d-4f12-9435-71fe70231752",
+      "name": {
+        "text": "Heartless",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 209,
+      "y": 37,
+      "icon": {
+        "id": "hardcorequesting:heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 8,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:heart",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
+      ],
+      "optionlinks": [
+        "a731bd29-c181-4e5d-91de-8ae1e8d9e87a"
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:modifier_crystal",
+          "Count": 1,
+          "tag": "{modifier:\"tconstruct:ability_slot\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\"}}"
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:artifact_bag\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a731bd29-c181-4e5d-91de-8ae1e8d9e87a",
+      "name": {
+        "text": "Heartless",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "If you don\u0027t need your extra hearts then trade them instead!",
+        "isTranslationKey": false
+      },
+      "x": 182,
+      "y": 37,
+      "icon": {
+        "id": "hardcorequesting:heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 8,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:heart",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9ed9c890-3d58-4edd-a598-ac9c1e9b2ea2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:unidentified_gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:totem_of_undying",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:tcon_modifier_books\",LootTable:\"j2tc_tweaks:treasure_bags/tcon_modifier_books\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "244c37f8-8abf-45f0-8fb5-a1ee3e838f79",
+      "name": {
+        "text": "Hardcore Australia",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 32,
+      "y": 96,
+      "icon": {
+        "id": "tconstruct:cave_spider_head",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 2
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": {
+                "text": "Cave Spiders",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:cave_spider_head",
+                "Count": 1
+              },
+              "mob": "minecraft:cave_spider",
+              "kills": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6c9dce8d-0f41-44f2-9dc0-1d73dbab9d95"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "turkeydevutil:cookie",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
+        },
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
         }
       ],
       "commandrewards": []
@@ -665,69 +802,143 @@
       "commandrewards": []
     },
     {
-      "uuid": "b0197e45-0b63-4035-9e53-4591cdb18d36",
+      "uuid": "c8972e99-f508-47b3-a928-04f719211630",
       "name": {
-        "text": "Zombieland",
+        "text": "My Buddies!",
         "isTranslationKey": false
       },
       "description": {
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 59,
-      "y": 26,
+      "x": 113,
+      "y": 100,
       "icon": {
-        "id": "minecraft:zombie_head",
+        "id": "buddycards:buddysteel_medal_patreon_supporter_set",
         "Count": 1
       },
       "repeat": {
-        "type": "TIME",
-        "days": 6,
-        "hours": 2
+        "type": "INTERVAL",
+        "days": 8,
+        "hours": 0
       },
       "tasks": [
         {
-          "type": "KILL",
-          "mobs": [
+          "type": "CONSUME",
+          "items": [
             {
-              "name": {
-                "text": "Zombies",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_head",
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set1",
                 "Count": 1
-              },
-              "mob": "minecraft:zombie",
-              "kills": 25
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set2",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set3",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set4",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set5",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set6",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set7",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set8",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set9",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set10",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set11",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set12",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set13",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set14",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "buddycards:buddycard_patreon_supporter_set15",
+                "Count": 1
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "f92f705c-bd8e-453c-aa60-3654e6c462df"
+        "9db7d4d5-ce87-43fa-8df2-861cd5280cb4"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "turkeydevutil:cookie",
-          "Count": 8
+          "id": "hardcorequesting:heart",
+          "Count": 1
         }
       ],
       "rewardchoice": [
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\",LootTable:\"j2tc_tweaks:treasure_bags/lanyard\"}}"
-        },
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:artifact_bag\"}}"
         },
         {
           "id": "treasurebags:treasure_bag",
           "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\",LootTable:\"j2tc_tweaks:treasure_bags/bagception\"}}"
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:lanyard\"}}"
         }
       ],
       "commandrewards": []

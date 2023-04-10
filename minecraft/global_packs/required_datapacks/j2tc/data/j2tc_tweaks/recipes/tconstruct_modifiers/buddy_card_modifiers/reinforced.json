@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "buddycards:buddycard_mob_test_set23"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:reinforced",
+    "level": 1
+  },
+  "max_level": 5
+}

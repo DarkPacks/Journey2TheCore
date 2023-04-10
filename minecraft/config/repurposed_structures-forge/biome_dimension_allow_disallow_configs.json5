@@ -24,7 +24,8 @@
   //
 
   disallowedFeatureDimensions: {
-    all: "twilightforest:twilight_forest",
+    all: "theabyss:.+, the_bumblezone:the_bumblezone, undergarden:undergarden, the_midnight:the_midnight, advancedrocketry:space, pokecube:secret_base, pokecube_legends:distorted_world, pokecube_legends:ultraspace, dystopia:dystopia, elvenation:elvenia_dimension, futurepack:.+, the_afterlight:.+, lotr:middle_earth, thebeginning:.+, twilightforest:twilight_forest",
+    "repurposed_structures:well_badlands": "aoa3:barathos",
   },
   //-------------------------------------------------------------------------------------------------------------------------------------------------
   //
@@ -53,7 +54,12 @@
   //  https://github.com/TelepathicGrunt/RepurposedStructures/blob/1ffe99074dcdecee9e2d5e8cc90520644a7ee1cd/src/main/java/com/telepathicgrunt/repurposedstructures/modinit/RSConfiguredFeatures.java#L293-L315
   //
 
-  allowedFeatureDimensions: {},
+  allowedFeatureDimensions: {
+    "repurposed_structures:dungeons_jungle": "futurepack:tyros",
+    "repurposed_structures:well_mossy_stone": "futurepack:tyros, lotr:middle_earth",
+    "repurposed_structures:well_forest": "lotr:middle_earth",
+    "repurposed_structures:well_snow": "lotr:middle_earth",
+  },
   //-------------------------------------------------------------------------------------------------------------------------------------------------
   //
   // RS's features has default settings of what biomes they are added to.
@@ -79,7 +85,12 @@
   //  https://github.com/TelepathicGrunt/RepurposedStructures/blob/1ffe99074dcdecee9e2d5e8cc90520644a7ee1cd/src/main/java/com/telepathicgrunt/repurposedstructures/modinit/RSConfiguredFeatures.java#L293-L315
   //
 
-  disallowedFeatureBiomes: {},
+  disallowedFeatureBiomes: {
+    "repurposed_structures:dungeons_snow": "terralith:gravel_desert",
+    "repurposed_structures:dungeons_badlands": "terralith:snowy_badlands",
+    "repurposed_structures:dungeons_desert": "terralith:red_oasis",
+    "repurposed_structures:dungeons_neutral_ocean": "terralith:skylands",
+  },
   //-------------------------------------------------------------------------------------------------------------------------------------------------
   //
   // RS's features has default settings of what biomes they are added to.
@@ -107,7 +118,13 @@
   //  https://github.com/TelepathicGrunt/RepurposedStructures/blob/1ffe99074dcdecee9e2d5e8cc90520644a7ee1cd/src/main/java/com/telepathicgrunt/repurposedstructures/modinit/RSConfiguredFeatures.java#L293-L315
   //
 
-  allowedFeatureBiomes: {},
+  allowedFeatureBiomes: {
+    "repurposed_structures:dungeons_snow": "terralith:alpine_grove, terralith:cold_shrubland",
+    "repurposed_structures:dungeons_badlands": "terralith:savanna_badlands, terralith:red_oasis",
+    "repurposed_structures:dungeons_dark_forest": "terralith:mirage_isles",
+    "repurposed_structures:dungeons_icy": "terralith:cave/frostfire_caves, terralith:cave/ice_caves, terralith:cave/fungal_caves",
+    "repurposed_structures:dungeons_desert": "terralith:cave/desert_caves",
+  },
   //-------------------------------------------------------------------------------------------------------------------------------------------------
   //
   // for internal use only. Do not change this.

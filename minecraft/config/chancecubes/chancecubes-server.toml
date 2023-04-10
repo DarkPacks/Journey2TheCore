@@ -9,24 +9,24 @@
 	#Set to true if the D20's should have any chance value from -100 to 100. Set to false to have the D20's only have a chance value of either -100 or 100
 	D20UseNormalChanceValues = false
 	#Set to true if the mod should ignore chance values and give each reward and equal chance to be picked
-	RewardsEqualChance = true
+	RewardsEqualChance = false
 	#Set to true Giant Chance Cubes should be disabled
-	DisableGiantCC = true
+	DisableGiantCC = false
 	#Set to true if the default rewards should be loaded, false if they shouldn't
 	EnableDefaultRewards = true
 	#Number of uses for a pendant
 	#Range: 0 ~ 1000
 	PendantUses = 32
 	#True if Chance Cubes should generate like ores with in the world. false if they should not
-	GenerateAsOre = false
+	GenerateAsOre = true
 	#Amount of chance cubes to try and spawn, per chunk, as an ore
 	#Range: 1 ~ 100
-	OreGenAmount = 100
+	OreGenAmount = 4
 	#true if Chance Cubes should generate on the surface of the world. false if they should not
-	GenerateOnSurface = false
+	GenerateOnSurface = true
 	#Chance of a chunk to have a chance cube spawned on the surface. The math is 1/(surfaceGenerationAmount), so increase to make more rare, and decrease to make more common.
 	#Range: > 0
-	SurfaceGenerationAmount = 0
+	SurfaceGenerationAmount = 100
 	#Worlds that Chance cubes shold not generate in
 	BlockedWorlds = []
 	#True if Chance Cubes should generate as chest loot in the world. false if they should not
@@ -43,5 +43,5 @@
 	#Set to false if you wish to disable the super special holiday rewards. Why would you want to do that?
 	HolidayRewards = true
 	#Don't touch! Well I mean you can touch it, if you want. I can't stop you. I'm only text.
-	HolidayRewardTriggered = true
+	HolidayRewardTriggered = false
 

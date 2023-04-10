@@ -5,9 +5,10 @@
   "mainhands": [
     {
       "weight": 100,
-      "item": "tconstruct:longbow",
-      "count": 1,
-      "nbt": "{tic_materials:[\"tconstruct:bamboo\",\"tconstruct:bamboo\",\"tconstruct:bamboo\",\"tconstruct:string\"],tic_persistent_data:{abilities:1,upgrades:2}}"
+      "stack": {
+        "item": "tconstruct:longbow",
+        "nbt": "{tic_materials:[\"tconstruct:bamboo\",\"tconstruct:bamboo\",\"tconstruct:bamboo\",\"tconstruct:string\"],tic_persistent_data:{abilities:1,upgrades:2}}"
+      }
     }
   ],
   "offhands": [],

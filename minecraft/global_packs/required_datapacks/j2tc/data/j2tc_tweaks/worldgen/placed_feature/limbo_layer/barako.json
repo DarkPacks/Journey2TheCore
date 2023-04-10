@@ -1,0 +1,116 @@
+{
+  "feature": "j2tc_tweaks:limbo_layer/barako",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 8
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 535
+        },
+        "max_inclusive": {
+          "absolute": 666
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [
+          "cobblestoney:clay_silt",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:snow_block",
+          "rechiseled:dirt_muddy",
+          "minecraft:podzol",
+          "minecraft:stone",
+          "minecraft:gravel",
+          "minecraft:granite",
+          "minecraft:snow_block",
+          "minecraft:sand",
+          "minecraft:diorite",
+          "minecraft:dripstone_block",
+          "create:limestone",
+          "minecraft:andesite",
+          "minecraft:mycelium",
+          "minecraft:dirt",
+          "minecraft:red_sand"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [7, -1, 4],
+        "blocks": [
+          "cobblestoney:clay_silt",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:snow_block",
+          "rechiseled:dirt_muddy",
+          "minecraft:podzol",
+          "minecraft:stone",
+          "minecraft:gravel",
+          "minecraft:granite",
+          "minecraft:snow_block",
+          "minecraft:sand",
+          "minecraft:diorite",
+          "minecraft:dripstone_block",
+          "create:limestone",
+          "minecraft:andesite",
+          "minecraft:mycelium",
+          "minecraft:dirt",
+          "minecraft:red_sand"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, 1, 0],
+        "blocks": ["minecraft:air"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [7, 1, 4],
+        "blocks": ["minecraft:air"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, 8, 0],
+        "blocks": ["minecraft:air"]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [7, 8, 4],
+        "blocks": ["minecraft:air"]
+      }
+    }
+  ]
+}

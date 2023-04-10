@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "conditions": [],
+  "death": {
+    "conditions": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "position": {
+            "y": {
+              "min": 2,
+              "max": 64
+            }
+          },
+          "biome": "minecraft:nether_wastes",
+          "dimension": "minecraft:the_nether"
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "killer",
+        "scores": {
+          "quest_6": 1
+        }
+      }
+    ],
+    "commands": [
+      "playsound witherstormmod:withered_symbiont_normal_death master @p",
+      "particle explosion ~ ~ ~ 2 2 2 0.1 64 normal @p"
+    ],
+    "spawn_mob": {
+      "entries": [
+        {
+          "entity": "witherstormmod:withered_symbiont"
+        }
+      ]
+    }
+  }
+}

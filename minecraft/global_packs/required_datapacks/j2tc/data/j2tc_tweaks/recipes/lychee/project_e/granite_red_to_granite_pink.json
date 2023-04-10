@@ -1,0 +1,21 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "projecte:philosophers_stone"
+  },
+  "block_in": "cobblestoney:granite_red",
+  "post": [
+    {
+      "type": "prevent_default"
+    },
+    {
+      "type": "execute",
+      "command": "playsound projecte:transmute block @s ~ ~ ~",
+      "hide": true
+    },
+    {
+      "type": "place",
+      "block": "cobblestoney:granite_pink"
+    }
+  ]
+}

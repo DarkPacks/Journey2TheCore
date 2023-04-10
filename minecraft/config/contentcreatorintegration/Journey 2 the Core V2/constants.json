@@ -973,7 +973,7 @@
       "outcome": {
         "times": "6",
         "outcome": {
-          "command": "/summon core_creepers:dirt_creeper $dirtCreeperRadius {CustomName:'{\"text\":\"$user\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}'}",
+          "command": "/summon core_creepers:dirt_creeper $dirtCreeperRadius {CustomName:'{\"text\":\"$viewername\",\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true}'}",
           "executeAsSelf": true,
           "type": "command"
         },

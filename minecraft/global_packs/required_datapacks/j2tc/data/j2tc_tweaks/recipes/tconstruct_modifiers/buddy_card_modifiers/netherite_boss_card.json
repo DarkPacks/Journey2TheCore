@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:modifier",
+  "input": {
+    "item": "buddycards:buddycard_mob_test_set25"
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "requirements": {
+    "tag": "tconstruct:gems",
+    "level": 1,
+    "error": "recipe.tconstruct.modifier.netherite_requirements"
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:netherite",
+    "level": 1
+  },
+  "max_level": 1
+}

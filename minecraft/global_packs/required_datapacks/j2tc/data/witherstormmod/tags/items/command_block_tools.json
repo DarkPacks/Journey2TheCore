@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "witherstormmod:command_block_sword",
+    "witherstormmod:command_block_pickaxe",
+    "witherstormmod:command_block_axe",
+    "witherstormmod:command_block_shovel",
+    "witherstormmod:command_block_hoe",
+    "minecraft:cooked_chicken"
+  ]
+}

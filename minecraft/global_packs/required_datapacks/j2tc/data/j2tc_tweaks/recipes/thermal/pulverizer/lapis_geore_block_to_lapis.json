@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:lapis_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "chance": 4
+    }
+  ],
+  "experience": 0.5
+}

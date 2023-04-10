@@ -1,0 +1,12 @@
+{
+  "type": "platypus:structure",
+  "random_rotation": true,
+  "config": {
+    "random_rotation": true,
+    "structures": [
+      "minecraft:lich_altar",
+      "minecraft:lich_altar_2",
+      "minecraft:lich_altar_3"
+    ]
+  }
+}

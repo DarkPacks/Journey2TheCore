@@ -1,0 +1,498 @@
+[horror_intro]
+	pitch = "1.0"
+	play_once = "2"
+	volume = "0.5"
+
+	[horror_intro.trigger]
+		name = "menu"
+		fade_in = "40"
+		time = "80"
+		fade_out = "40"
+
+[heresy_ambience]
+	volume = "0.35"
+
+	[heresy_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "heresy_layer"
+		fade_out = "40"
+
+		[heresy_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "-64"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "0"
+			z_max = "30000000"
+
+[sewer_ambience]
+	volume = "0.05"
+
+	[sewer_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "sewer_ambience"
+		fade_out = "40"
+
+		[sewer_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "0"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "20"
+			z_max = "30000000"
+
+[underwater_ambience]
+	volume = "1.0"
+
+	[underwater_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "underwater_ambience"
+		fade_out = "40"
+
+		[underwater_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "20"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "132"
+			z_max = "30000000"
+
+[castle_ambience]
+	volume = "1.0"
+
+	[castle_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "castle_ambience"
+		fade_out = "40"
+
+		[castle_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "133"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "264"
+			z_max = "30000000"
+
+[greed_ambience]
+	volume = "1.0"
+
+	[greed_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "greed_ambience"
+		fade_out = "40"
+
+		[greed_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "133"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "264"
+			z_max = "30000000"
+
+[soulsand_valley_ambience]
+	volume = "0.2"
+
+	[soulsand_valley_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "soulsand_valley_ambience"
+		fade_out = "40"
+
+		[soulsand_valley_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "397"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "528"
+			z_max = "30000000"
+
+[limbo_ambience]
+	volume = "0.75"
+
+	[limbo_ambience.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "limbo_ambience"
+		fade_out = "40"
+
+		[limbo_ambience.trigger.zone]
+			x_min = "-30000000"
+			y_min = "528"
+			z_min = "-30000000"
+			x_max = "30000000"
+			y_max = "688"
+			z_max = "30000000"
+
+[muddr_was_right]
+	volume = "1.0"
+
+	[muddr_was_right.trigger]
+		name = "zones"
+		fade_in = "40"
+		time = "80"
+		identifier = "limbo_ambience"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_wither"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Wither"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_webber"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Webber"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_poisonous"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Poisonous"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_1up"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "1UP"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_blastoff"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Blastoff"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_fiery"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Fiery"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_rust"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Rust"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_alchemist"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Alchemist"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_lifesteal"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Lifesteal"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_weakness"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Weakness"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_ghastly"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Ghastly"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_ninja"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Ninja"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_bulwark"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Bulwark"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_exhaust"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Exhaust"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_darkness"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Darkness"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_ender"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Ender"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_gravity"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Gravity"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_choke"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Choke"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_quicksand"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Quicksand"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_storm"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Storm"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_berserk"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Berserk"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_vengeance"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Vengeance"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_regen"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Regen"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_sapper"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Sapper"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_sprint"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Sprint"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_cloaking"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Cloaking"
+		fade_out = "40"
+
+[[infernal_music]]
+	volume = "0.5"
+
+	[infernal_music.trigger]
+		name = "mob"
+		fade_in = "40"
+		time = "80"
+		identifier = "infernal_music_sticky"
+		detection_range = "32"
+		mob_targeting = "true"
+		infernal = "Sticky"
+		fade_out = "40"
+

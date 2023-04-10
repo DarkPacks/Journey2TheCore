@@ -1,7 +1,15 @@
 {
-  "conditions": [
-    {
-      "type": "forge:false"
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["n", "I", "n"],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "n": {
+      "item": "thermal:copper_nugget"
     }
-  ]
+  },
+  "result": {
+    "item": "cyclic:copper_chain"
+  }
 }

@@ -109,6 +109,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "j2tc_tweaks:treasure_bags/racks",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/lanyard",
           "weight": 30
         },
@@ -145,7 +150,7 @@
         {
           "type": "minecraft:loot_table",
           "name": "j2tc_tweaks:treasure_bags/bell",
-          "weight": 35
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",

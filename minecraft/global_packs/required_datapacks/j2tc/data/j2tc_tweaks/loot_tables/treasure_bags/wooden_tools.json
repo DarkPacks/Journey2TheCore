@@ -5,7 +5,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:wooden_sword"
+          "name": "tconstruct:sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":105.600006f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":1.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_1": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -14,7 +29,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:wooden_shovel"
+          "name": "tconstruct:pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:1s,name:\"tconstruct:piercing\"},{level:3s,name:\"tconstruct:cultivated\"}],tic_stats:{\"tconstruct:attack_damage\":0.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":96.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_1": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -23,7 +53,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:wooden_pickaxe"
+          "name": "tconstruct:hand_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:stripping\"},{level:1s,name:\"tconstruct:axe_scrape\"},{level:1s,name:\"tconstruct:axe_wax_off\"}],tic_stats:{\"tconstruct:attack_damage\":6.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":96.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_1": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -32,7 +77,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:wooden_axe"
+          "name": "tconstruct:kama",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:shears\"},{level:1s,name:\"tconstruct:harvest\"}],tic_stats:{\"tconstruct:attack_damage\":0.5f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":96.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_1": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -41,7 +101,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:wooden_hoe"
+          "name": "tinkers_things:shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:1s,name:\"tconstruct:knockback\"},{level:2s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:pathing\"}],tic_stats:{\"tconstruct:attack_damage\":1.5f,\"tconstruct:attack_speed\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":2.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_1": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }

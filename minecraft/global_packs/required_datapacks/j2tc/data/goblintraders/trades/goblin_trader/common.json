@@ -32,34 +32,6 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:iron_ingot",
-        "count": 2
-      },
-      "payment_item": {
-        "item": "minecraft:raw_iron",
-        "count": 1
-      },
-      "price_multiplier": 0.05,
-      "max_trades": 8,
-      "experience": 6
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:copper_ingot",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "minecraft:raw_copper",
-        "count": 1
-      },
-      "price_multiplier": 0.05,
-      "max_trades": 8,
-      "experience": 2
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
         "item": "minecraft:coal",
         "count": 1
       },
@@ -158,6 +130,216 @@
       "price_multiplier": 0.2,
       "max_trades": 6,
       "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:mutton_wrap",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:dumplings",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:bacon_sandwich",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:chicken_sandwich",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:hamburger",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:egg_sandwich",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "price_multiplier": 0.2,
+      "max_trades": 4,
+      "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_13",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_cat",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_blocks",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_chirp",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_far",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_mall",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_mellohi",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_stal",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "turkeydevutil:cookie",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:music_disc_strad",
+        "count": 1
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 4,
+      "experience": 2
     }
   ]
 }

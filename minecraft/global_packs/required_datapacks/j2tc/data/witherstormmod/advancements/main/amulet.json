@@ -1,0 +1,37 @@
+{
+  "parent": "witherstormmod:main/summon_wither_storm",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:amulet"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.amulet.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.amulet.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstormmod:amulet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

@@ -43,50 +43,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
-      "name": {
-        "text": "Amethyst",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Y\u003d0 to Y\u003d132",
-        "isTranslationKey": false
-      },
-      "x": 286,
-      "y": 67,
-      "icon": {
-        "id": "minecraft:amethyst_shard",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:amethyst_shard",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "99816012-74e9-4c81-bb97-17e3836f506c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:pick_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "d8504b44-30a1-4b68-a498-37c4c32b702e",
       "name": {
         "text": "Culinary Stew",
@@ -133,6 +89,50 @@
         {
           "id": "cyclic:soil",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "883a9cdc-8402-4363-b7d8-c901befa1d20",
+      "name": {
+        "text": "Amethyst",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Y\u003d0 to Y\u003d132",
+        "isTranslationKey": false
+      },
+      "x": 286,
+      "y": 67,
+      "icon": {
+        "id": "minecraft:amethyst_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:amethyst_shard",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "99816012-74e9-4c81-bb97-17e3836f506c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:pick_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:amethyst_bronze\"}"
         }
       ],
       "rewardchoice": [],
@@ -1373,28 +1373,32 @@
                 "id": "j2tc_tweaks:cobblestone_helmet",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "j2tc_tweaks:cobblestone_chestplate",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{abilities:1,defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":3.0f,\"tconstruct:durability\":120.0f,\"tconstruct:knockback_resistance\":0.3f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "j2tc_tweaks:cobblestone_leggings",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":104.0f,\"tconstruct:knockback_resistance\":0.3f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "j2tc_tweaks:cobblestone_boots",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:slowdown\"},{level:1s,name:\"tconstruct:melee_protection\"}],tic_persistent_data:{defense:3,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":96.0f,\"tconstruct:knockback_resistance\":0.3f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1604,28 +1608,32 @@
                 "id": "j2tc_tweaks:wooden_helmet",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":56.0f,\"tconstruct:knockback_resistance\":0.075f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "j2tc_tweaks:wooden_chestplate",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{abilities:1,defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "j2tc_tweaks:wooden_leggings",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":92.0f,\"tconstruct:knockback_resistance\":0.075f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "j2tc_tweaks:wooden_boots",
                 "Count": 1,
                 "tag": "{Damage:0,tic_broken:0b,tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:durability\":48.0f,\"tconstruct:knockback_resistance\":0.075f}}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }

@@ -1,0 +1,37 @@
+{
+  "parent": "witherstormmod:main/silver_lining",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:command_block_hoe"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.insane_dedication.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.insane_dedication.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+         	   "witherstormmod:command_block_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

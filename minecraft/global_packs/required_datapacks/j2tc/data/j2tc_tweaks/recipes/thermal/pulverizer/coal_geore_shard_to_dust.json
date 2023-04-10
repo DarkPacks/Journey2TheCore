@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:coal_shard"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:black_dye",
+      "chance": 1
+    }
+  ],
+  "experience": 0.5
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "buddycards:buddycard_mob_test_set27"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:draconic",
+    "level": 1
+  },
+  "max_level": 1
+}

@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:diamond_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:diamond",
+      "chance": 4
+    }
+  ],
+  "experience": 0.5
+}

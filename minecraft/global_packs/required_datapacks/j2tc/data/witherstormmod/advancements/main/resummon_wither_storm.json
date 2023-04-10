@@ -1,0 +1,40 @@
+{
+  "parent": "witherstormmod:main/activate_super_beacon",
+  "display": {
+    "icon": {
+      "item": "minecraft:command_block"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.resummon_wither_storm.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.resummon_wither_storm.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "summoned_wither_storm": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "witherstormmod:wither_storm",
+              "nbt": "{Resummoned:1b}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_wither_storm"
+    ]
+  ]
+}

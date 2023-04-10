@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "is_baby": false,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "zombie_players"
+    }
+  ],
+  "death": {
+    "spawn_mob": {
+      "entries": [
+        {
+          "entity": "zombie_players:zombie_player",
+          "nbt": {
+            "PersistenceRequired": true
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
+          "functions": [
+            {
+              "function": "copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Username",
+                  "target": "playerName",
+                  "op": "replace"
+                },
+                {
+                  "source": "Rotation",
+                  "target": "Rotation",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "idk",
+  "displayName": {
+    "text": "Sack of Seeds"
+  },
+  "lootTable": "j2tc_tweaks:treasure_bags/seed_bag",
+  "rarity": "common",
+  "bagColor": "#2a8c11",
+  "bagOverlayColor": "#2e1100",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

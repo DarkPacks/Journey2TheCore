@@ -1,0 +1,10 @@
+{
+  "type": "kobolds:large_dens",
+  "config": {
+    "start_pool": "kobolds:kobold_den_large_pool",
+    "size": 1
+  },
+  "biomes": "#minecraft:is_forest",
+  "adapt_noise": false,
+  "spawn_overrides": {}
+}

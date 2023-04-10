@@ -1805,19 +1805,24 @@
         "command": "/swapthings playernudger @s ChanceCubes"
       },
       {
-        "command": "/swapthings playernudger @s ChanceCubes"
+        "command": "/swapthings playernudger @s ChanceCubes",
+        "delay": 20
       },
       {
-        "command": "/swapthings playernudger @s ChanceCubes"
+        "command": "/swapthings playernudger @s ChanceCubes",
+        "delay": 30
       },
       {
-        "command": "/swapthings playernudger @s ChanceCubes"
+        "command": "/swapthings playernudger @s ChanceCubes",
+        "delay": 40
       },
       {
-        "command": "/swapthings playernudger @s ChanceCubes"
+        "command": "/swapthings playernudger @s ChanceCubes",
+        "delay": 50
       },
       {
-        "command": "/swapthings playernudger @s ChanceCubes"
+        "command": "/swapthings playernudger @s ChanceCubes",
+        "delay": 70
       }
     ]
   },
@@ -1826,6 +1831,99 @@
     "Command": [
       {
         "command": "/swapthings shuffleinventory @s ChanceCubes"
+      }
+    ]
+  },
+  "eyes_in_the_darkness": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon eyesinthedarkness:eyes ~5 ~ ~"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~ ~ ~5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~-5 ~ ~"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~ ~ ~-5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~5 ~ ~5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~-5 ~ ~5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~5 ~ ~-5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~-5 ~ ~-5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~5 ~3 ~"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~ ~3 ~5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~-5 ~3 ~"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~ ~3 ~-5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~5 ~3 ~5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~-5 ~3 ~5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~5 ~3 ~-5"
+      },
+      {
+        "command": "/summon eyesinthedarkness:eyes ~-5 ~3 ~-5"
+      }
+    ]
+  },
+  "barakoana": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/summon mowziesmobs:barakoana"
+      }
+    ]
+  },
+  "captcha_text": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/captcha forceCaptcha @s text"
+      }
+    ]
+  },
+  "captcha_image": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/captcha forceCaptcha @s image"
+      }
+    ]
+  },
+  "captcha_math": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/captcha forceCaptcha @s math"
+      }
+    ]
+  },
+  "captcha_robot": {
+    "chance": 0,
+    "Command": [
+      {
+        "command": "/captcha forceCaptcha @s robot"
       }
     ]
   }

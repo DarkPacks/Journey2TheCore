@@ -1,0 +1,37 @@
+{
+  "parent": "witherstormmod:main/infinite_potential",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:formidibomb"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.fbomb.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.fbomb.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstormmod:formidibomb"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

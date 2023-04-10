@@ -46,6 +46,36 @@
         }
       ],
       "type": "event"
+    },
+    "Force Captcha": {
+      "events": [
+        {
+          "conditions": [],
+          "outcomes": [
+            {
+              "command": "/captcha forceCaptcha $playerName image",
+              "executeAsSelf": true,
+              "type": "command",
+              "displayName": "Image"
+            },
+            {
+              "command": "/captcha forceCaptcha $playerName math",
+              "executeAsSelf": true,
+              "type": "command",
+              "displayName": "Math"
+            },
+            {
+              "command": "/captcha forceCaptcha $playerName text",
+              "executeAsSelf": true,
+              "type": "command",
+              "displayName": "Text"
+            }
+          ],
+          "allowsOtherEventsToTrigger": true,
+          "singleOutcomeOnly": true
+        }
+      ],
+      "type": "event"
     }
   },
   "events": {}

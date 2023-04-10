@@ -1,0 +1,10 @@
+{
+  "type": "kobolds:small_dens",
+  "config": {
+    "start_pool": "kobolds:kobold_dungeon_swamp_pool",
+    "size": 1
+  },
+  "biomes": "#minecraft:has_structure/swamp_hut",
+  "adapt_noise": false,
+  "spawn_overrides": {}
+}

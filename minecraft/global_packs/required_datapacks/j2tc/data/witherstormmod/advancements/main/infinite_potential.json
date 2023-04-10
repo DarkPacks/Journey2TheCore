@@ -1,0 +1,48 @@
+{
+  "parent": "witherstormmod:main/harbinger_of_cataclysmic_fates",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:command_block_book"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.infinite_potential.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.infinite_potential.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstormmod:command_block_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+   	  "witherstormmod:super_tnt",
+      "witherstormmod:formidibomb",
+      "witherstormmod:command_block_sword_smithing",
+      "witherstormmod:command_block_pickaxe_smithing",
+      "witherstormmod:command_block_axe_smithing",
+      "witherstormmod:command_block_shovel_smithing",
+      "witherstormmod:command_block_hoe_smithing"
+    ]
+  }
+}

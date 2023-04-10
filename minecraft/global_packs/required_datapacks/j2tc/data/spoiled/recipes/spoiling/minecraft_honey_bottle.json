@@ -1,9 +1,0 @@
-{
-  "type": "spoiled:spoil_recipe",
-  "ingredient": {
-    "item": "minecraft:honey_bottle"
-  },
-  "result": {
-    "item": "thermal:compost"
-  }
-}

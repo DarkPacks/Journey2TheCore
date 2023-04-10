@@ -135,18 +135,18 @@ scoreboard objectives add kill_hostile_mob minecraft.custom:minecraft.entity_kil
 #stage 25
 scoreboard objectives add eat_any_food scoreext.food_eaten_counter
 
-#stage 26
-scoreboard objectives add activate_waystone1 minecraft.used:waystones.mossy_waystone
-scoreboard objectives add activate_waystone2 minecraft.used:waystones.waystone
-scoreboard objectives add activate_waystone3 minecraft.used:waystones.sandy_waystone
+#stage 26 (Does not work)
+#scoreboard objectives add activate_waystone1 minecraft.used:waystones.mossy_waystone
+#scoreboard objectives add activate_waystone2 minecraft.used:waystones.waystone
+#scoreboard objectives add activate_waystone3 minecraft.used:waystones.sandy_waystone
 
 #stage 27
-scoreboard objectives add fire_bow1 minecraft.used:waystones.mossy_waystone
+scoreboard objectives add fire_bow1 minecraft.used:minecraft.bow
 scoreboard objectives add fire_bow2 minecraft.used:tconstruct.longbow
 scoreboard objectives add fire_bow3 minecraft.used:tinkers_things.shortbow
 
 #stage 28
-scoreboard objectives add fire_crossbow1 minecraft.used:waystones.mossy_waystone
+scoreboard objectives add fire_crossbow1 minecraft.used:minecraft.crossbow
 scoreboard objectives add fire_crossbow2 minecraft.used:tconstruct.crossbow
 
 #air test
@@ -223,3 +223,7 @@ scoreboard objectives add hype_train_level dummy
 
 #Raidmeter scoreboard tracking
 scoreboard objectives add raidmeter_tracking dummy
+
+#Load teams for glowing colors
+team add j2tc_gold_team "J2TC Gold Team"
+team modify j2tc_gold_team color gold

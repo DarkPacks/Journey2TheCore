@@ -1,0 +1,9 @@
+{
+  "type": "farmersdelight:add_loot_table",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "lootTable": "farmersdelight:chests/fd_village_butcher"
+}

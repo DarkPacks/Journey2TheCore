@@ -4,8 +4,80 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:iron_sword"
+          "type": "minecraft:item",
+          "name": "tconstruct:sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":105.600006f,\"tconstruct:harvest_tier\":\"minecraft:wood\",\"tconstruct:mining_speed\":1.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_0": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:rock\",\"tconstruct:rock\",\"tconstruct:rock\"],tic_modifiers:[{level:3s,name:\"tconstruct:stonebound\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":4.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":205.7f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":2.1f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_0": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\"],tic_modifiers:[{level:3s,name:\"tconstruct:dwarven\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":4.725f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":294.80002f,\"tconstruct:harvest_tier\":\"cyclic:copper\",\"tconstruct:mining_speed\":3.8500001f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_2": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_materials:[\"tconstruct:iron\",\"tconstruct:iron\",\"tconstruct:iron\"],tic_modifiers:[{level:3s,name:\"tconstruct:sturdy\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent_data:{abilities:1,upgrades:3},tic_stats:{\"tconstruct:attack_damage\":5.0f,\"tconstruct:attack_speed\":1.6f,\"tconstruct:durability\":438.625f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":3.0f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_3": 1
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:emerald_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:emerald",
+      "chance": 4
+    }
+  ],
+  "experience": 0.5
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:glowstone",
+    "minecraft:magma_block",
+    "minecraft:nether_gold_ore",
+    "minecraft:netherrack",
+    "thermal:deepslate_niter_ore"
+  ]
+}

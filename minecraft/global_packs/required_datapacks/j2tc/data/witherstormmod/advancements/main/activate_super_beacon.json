@@ -1,0 +1,33 @@
+{
+  "parent": "witherstormmod:main/wither_storm_defeated",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:super_beacon"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.activate_super_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.activate_super_beacon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "activate_super_beacon": {
+      "trigger": "witherstormmod:activate_super_beacon",
+      "conditions": {
+        "total_activated": {
+          "min": 4
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "activate_super_beacon"
+    ]
+  ]
+}

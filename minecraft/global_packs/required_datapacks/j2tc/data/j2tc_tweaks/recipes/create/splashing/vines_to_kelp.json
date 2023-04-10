@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:kelp",
+      "chance": 1.0
+    }
+  ]
+}

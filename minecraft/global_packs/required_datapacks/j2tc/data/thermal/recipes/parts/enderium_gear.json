@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", "# #", " # "],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/enderium"
+    }
+  },
+  "result": {
+    "item": "thermal:enderium_gear"
+  }
+}

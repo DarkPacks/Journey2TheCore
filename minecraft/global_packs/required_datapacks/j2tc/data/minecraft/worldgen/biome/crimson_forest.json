@@ -37,12 +37,12 @@
     [],
     [],
     [
-      "minecraft:spring_open",
+      "j2tc_tweaks:spring_open",
       "minecraft:patch_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:ore_magma",
-      "minecraft:spring_closed",
+      "j2tc_tweaks:spring_closed",
       "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
       "minecraft:ore_gold_nether",
@@ -52,13 +52,14 @@
     ],
     [],
     [
-      "minecraft:spring_lava",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "j2tc_tweaks:spring_lava",
+      "j2tc_tweaks:brown_mushroom_normal",
+      "j2tc_tweaks:red_mushroom_normal",
       "minecraft:weeping_vines",
       "minecraft:crimson_fungi",
       "minecraft:crimson_forest_vegetation"
-    ]
+    ],
+    ["j2tc_tweaks:hypocrisy_layer/dead_entities"]
   ],
   "category": "nether",
   "carvers": {

@@ -1,26 +1,129 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 1.0
-      },
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "j2tc_tweaks:treasure_bags/poor_bags",
-          "weight": 1000
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "buddycards:buddycard_pack_base"
         },
         {
-          "type": "minecraft:loot_table",
-          "name": "j2tc_tweaks:treasure_bags/good_bags",
-          "weight": 25
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "buddycards:buddycard_pack_mystery"
         },
         {
-          "type": "minecraft:loot_table",
-          "name": "j2tc_tweaks:treasure_bags/great_bags",
-          "weight": 1
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "buddycards:buddycard_pack_mob_test_set"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "buddycards:buddycard_pack_patreon_supporter_set"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "geore:coal_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "geore:lapis_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "geore:redstone_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "geore:emerald_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "geore:diamond_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "thermal:stuffed_pepper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "thermal:sushi_maki"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Wall Chicken"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "turkeydevutil:toast"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:sugar_cane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:dirt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "thermal:pbj_sandwich"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "thermal:peanut_butter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "farmersdelight:melon_popsicle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "adpother:dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "adpother:carbon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "adpother:sulfur"
         }
       ]
     }

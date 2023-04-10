@@ -1,0 +1,168 @@
+{
+  "name": "Treachery",
+  "quests": [
+    {
+      "uuid": "e8a9cc67-7e5e-4998-9fe1-0df7d2630aec",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 54,
+      "y": 126,
+      "icon": {
+        "id": "minecraft:crossbow",
+        "Count": 1,
+        "tag": "{Charged:0b,ChargedProjectiles:[],Damage:40}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a47a2581-2290-4baf-a453-560128a73543",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 104,
+      "y": 116,
+      "icon": {
+        "id": "witherstormmod:command_block_sword",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0640a438-8dcc-45bb-b661-c935b620d1ec",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 62,
+      "icon": {
+        "id": "witherstormmod:formidibomb",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb4a9b73-b8c4-4f8b-a4b3-a9cd0014839b",
+      "name": {
+        "text": "Healing",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 82,
+      "y": 89,
+      "icon": {
+        "id": "bhc:blue_heart",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d35c83a-42df-4a56-a1c5-4b87481b4b97",
+      "name": {
+        "text": "Fireworks Distraction",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 115,
+      "y": 57,
+      "icon": {
+        "id": "minecraft:firework_rocket",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "57fbd6b0-4215-47ea-be41-bd7bf48e428a",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 123,
+      "y": 147,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "63f16909-b694-4141-a617-432a50970c2a",
+      "name": {
+        "text": "Defeat Wither Storm",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 280,
+      "y": 117,
+      "icon": {
+        "id": "witherstormmod:withered_nether_star",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "A final challenge awaits. You\u0027ll face your greatest fears and come face-to-face with the unknown. Will you prevail or will you succumb to the realm of darkness? The journey has been long, but the end is just the beginning.",
+    "isTranslationKey": false
+  }
+}

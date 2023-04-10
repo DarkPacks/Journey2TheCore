@@ -1,0 +1,20 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:travelers_shield",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

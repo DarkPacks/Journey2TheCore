@@ -1,0 +1,9 @@
+{
+  "enablePhysics": true,
+  "supportDist": 0,
+  "minFall": -1,
+  "maxFall": -1,
+  "canHang": false,
+  "holdOther": false,
+  "checkAbove": false
+}

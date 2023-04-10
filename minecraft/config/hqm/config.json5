@@ -8,7 +8,7 @@
 		// Set to true to enable the heart rot timer
 		"HEART_ROT_ENABLE": false,
 		// Use this to set the maximum lives obtainable
-		"MAX_LIVES": 5,
+		"MAX_LIVES": 20,
 	},
 	// Settings related to server start & modes
 	"Starting": {

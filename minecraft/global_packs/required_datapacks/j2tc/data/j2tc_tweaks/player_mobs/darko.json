@@ -1,0 +1,93 @@
+{
+  "name": "Testing1",
+  "conditions": [],
+  "items": {
+    "main_hand": {
+      "item": "minecraft:cake",
+      "nbt": {
+        "display": {
+          "Name": "{\"text\": \"Happy Birthday Darkosto!\"}"
+        }
+      },
+      "drop_chance": 2
+    },
+    "off_hand": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"Darkosto\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"with\":[{\"color\":\"#0FBCF9\",\"text\":\"Darkosto\"}]}'}}",
+      "drop_chance": 0
+    },
+    "head": {
+      "item": "minecraft:stone",
+      "drop_chance": 0
+    },
+    "chest": {
+      "item": "minecraft:leather_chestplate",
+      "drop_chance": 0.7
+    },
+    "legs": {
+      "item": "minecraft:iron_leggings"
+    },
+    "boots": {
+      "item": "minecraft:chainmail_boots"
+    }
+  },
+  "death": {
+    "loot_table": "minecraft:chests/bastion_bridge",
+    "spawn_mob": {
+      "rolls": 1,
+      "entries": [
+        {
+          "entity": "minecraft:cat",
+          "functions": [
+            {
+              "function": "copy_name",
+              "source": "this"
+            },
+            {
+              "function": "copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "CustomName",
+                  "target": "playerName",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "entity": "minecraft:cow",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "position": {
+                      "y": {
+                        "min": 100,
+                        "max": 200
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "say $displayName was killed!",
+      "title @a title $customName",
+      "summon player_mobs:player_mob ~ ~ ~ {\"CustomName\":\"{\\\"color\\\":\\\"#0FBCF9\\\",\\\"text\\\":\\\"$displayName\\\"}\",\"Username\":\"$skinName\"}"
+    ],
+    "function": "player_mobs:test"
+  }
+}

@@ -23,7 +23,7 @@ execute if score @s stage matches 22 run function bossbar:bossbar/stage/22
 execute if score @s stage matches 23 run function bossbar:bossbar/stage/23
 execute if score @s stage matches 24 run function bossbar:bossbar/stage/24
 execute if score @s stage matches 25 run function bossbar:bossbar/stage/25
-execute if score @s stage matches 26 run function bossbar:bossbar/stage/26
+#execute if score @s stage matches 26 run function bossbar:bossbar/stage/26
 execute if score @s stage matches 27 run function bossbar:bossbar/stage/27
 execute if score @s stage matches 28 run function bossbar:bossbar/stage/28
 execute if score @s stage matches 29 run function bossbar:bossbar/stage/29

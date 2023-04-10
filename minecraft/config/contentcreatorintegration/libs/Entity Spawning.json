@@ -1,6 +1,55 @@
 {
   "conditions": {},
   "outcomes": {
+    "(Spawn) Zombie Player (Tamed)": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "Space Check - 1x2 SolidBlock Underneath",
+                  "type": "constant"
+                },
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcomes": [
+                {
+                  "command": "/summon zombie_players:zombie_player $entitySpaceCheck {hasEverBeenCalmed: 1b, calmTime: 72000, ownerName: \"$playerName\", playerName: \"$viewername\", \"IsBaby\":true, ForgeData:{ESM_Ignored: 1b}, CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "Spawn Baby Zombie Player",
+                  "weight": 1
+                },
+                {
+                  "command": "/summon zombie_players:zombie_player $entitySpaceCheck {hasEverBeenCalmed: 1b, calmTime: 72000, ownerName: \"$playerName\", playerName: \"$viewername\", \"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}, CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+                  "executeAsSelf": true,
+                  "type": "command",
+                  "displayName": "Spawn Adult Zombie Player",
+                  "weight": 1
+                }
+              ],
+              "singleOutcomeOnly": true,
+              "type": "multiple"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
+        }
+      ],
+      "type": "event"
+    },
     "Spawn Adult Player Mob": {
       "events": [
         {
@@ -179,7 +228,7 @@
           ],
           "outcomes": [
             {
-              "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$user_name\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
+              "command": "/summon alexsmobs:raccoon ~ ~ ~ {CustomNameVisible:1b,Age:-3600,CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',Leash:{UUID:$playerUUID}}",
               "executeAsSelf": true,
               "type": "command"
             }
@@ -327,6 +376,37 @@
               "type": "command"
             }
           ]
+        }
+      ],
+      "type": "event"
+    },
+    "Spawn Straw Golem": {
+      "events": [
+        {
+          "conditions": [
+            {
+              "conditions": [
+                {
+                  "name": "(Color) Get Username Color",
+                  "type": "constant"
+                },
+                {
+                  "name": "Space Check - 1x1 SoldBlock Underneath | Close to Player",
+                  "type": "constant"
+                }
+              ],
+              "type": "multiple"
+            }
+          ],
+          "outcomes": [
+            {
+              "command": "/summon strawgolem:strawgolem $smallEntitySpaceCheckCloseToPlayer {lifespan: 108000, CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\",\"color\":\"$uColor\"}'}",
+              "executeAsSelf": true,
+              "type": "command"
+            }
+          ],
+          "triggersFromAnyConditionMet": true,
+          "allowsOtherEventsToTrigger": true
         }
       ],
       "type": "event"

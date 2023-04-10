@@ -22,53 +22,69 @@
     },
     "(Global) $viewername": {
       "condition": {
-        "variableName": "recipient_display_name",
+        "variableName": "redemption_user_display_name",
         "type": "variableExists",
-        "displayName": "insert recipient_display_name"
+        "displayName": "Variable exists: $redemption_user_display_name"
       },
       "passCondition": {
         "variableName": "viewername",
-        "variableInput": "$recipient_display_name",
+        "variableInput": "$redemption_user_display_name",
         "type": "variableInsert",
-        "displayName": "Inserts Gift Recipient's Name into $user"
+        "displayName": "Inserts into variable: $redemption_user_display_name"
       },
       "failCondition": {
         "condition": {
-          "variableName": "display_name",
+          "variableName": "recipient_display_name",
           "type": "variableExists",
-          "displayName": "display_name exists?"
+          "displayName": "Variable Exists: $recipient_display_name "
         },
         "passCondition": {
           "variableName": "viewername",
-          "variableInput": "$display_name",
+          "variableInput": "$recipient_display_name",
           "type": "variableInsert",
-          "displayName": "insert display_name"
+          "displayName": "Inserts into variable: $recipient_display_name"
         },
         "failCondition": {
           "condition": {
-            "variableName": "user_name",
+            "variableName": "display_name",
             "type": "variableExists",
-            "displayName": "does user_name exist?"
+            "displayName": "Variable Exists: $display_name"
           },
           "passCondition": {
             "variableName": "viewername",
-            "variableInput": "$user_name",
+            "variableInput": "$display_name",
             "type": "variableInsert",
-            "displayName": "insert user_name"
+            "displayName": "Inserts into variable: $display_name"
           },
           "failCondition": {
-            "variableName": "viewername",
-            "variableInput": "$user",
-            "type": "variableInsert",
-            "displayName": "insert user"
+            "condition": {
+              "variableName": "user_name",
+              "type": "variableExists",
+              "displayName": "Variable Exists: $user_name"
+            },
+            "passCondition": {
+              "variableName": "viewername",
+              "variableInput": "$user_name",
+              "type": "variableInsert",
+              "displayName": "Inserts into variable: $user_name"
+            },
+            "failCondition": {
+              "variableName": "viewername",
+              "variableInput": "$user",
+              "type": "variableInsert",
+              "displayName": "Inserts $user into Variable"
+            },
+            "type": "conditional",
+            "displayName": "Checks for $user_name"
           },
-          "type": "conditional"
+          "type": "conditional",
+          "displayName": "Checks for $display_name"
         },
         "type": "conditional",
-        "displayName": "Checks if event has Display Name"
+        "displayName": "Checks for $recipient_display_name"
       },
       "type": "conditional",
-      "displayName": "Checks if event is a gift sub"
+      "displayName": "Checks for variables to insert into $viewername"
     }
   },
   "outcomes": {},

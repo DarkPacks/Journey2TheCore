@@ -2,19 +2,19 @@
   "name": "Hard Mode",
   "quests": [
     {
-      "uuid": "49dc43ad-3818-4343-9501-ea28653be188",
+      "uuid": "7f9e85ce-77f9-42fe-856a-f63032acdda3",
       "name": {
-        "text": "More Cobblestone",
+        "text": "Unnamed",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 280,
-      "y": 39,
+      "x": 176,
+      "y": 98,
       "icon": {
-        "id": "compressium:cobblestone_8",
+        "id": "graveyard:middle_bone_staff",
         "Count": 1
       },
       "tasks": [
@@ -23,138 +23,16 @@
           "items": [
             {
               "item": {
-                "id": "compressium:cobblestone_8",
+                "id": "graveyard:middle_bone_staff",
                 "Count": 1
               }
             }
           ]
         }
       ],
-      "prerequisites": [
-        "202e360e-4d6e-4d38-a4e3-6e3f2d2701bc"
-      ],
+      "prerequisites": [],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "projecte:purple_alchemical_bag",
-          "Count": 1
-        },
-        {
-          "id": "bhc:yellow_heart_canister",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "hardcorequesting:halfheart",
-          "Count": 1
-        },
-        {
-          "id": "treasurebags:treasure_bag",
-          "Count": 1,
-          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "202e360e-4d6e-4d38-a4e3-6e3f2d2701bc",
-      "name": {
-        "text": "Upgrade",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 252,
-      "y": 39,
-      "icon": {
-        "id": "projecte:relay_mk3",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "projecte:collector_mk3",
-                "Count": 1
-              },
-              "required": 5
-            },
-            {
-              "item": {
-                "id": "projecte:relay_mk3",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "73bc000a-fd9b-4ad6-9621-039b887800c1"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "compressium:cobblestone_7",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "99404756-55c7-4845-9c52-dc861339110b",
-      "name": {
-        "text": "Extendo Grip",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 189,
-      "y": 102,
-      "icon": {
-        "id": "create:extendo_grip",
-        "Count": 1,
-        "tag": "{Damage:0}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "create:extendo_grip",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "create:copper_backtank",
-                "Count": 1,
-                "tag": "{Air:860.3989f}"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "2fa35aee-00ee-42db-ad37-dc3a14b7cbc6"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "projecte:transmutation_table",
-          "Count": 1
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -247,7 +125,7 @@
     {
       "uuid": "b400dab4-7f10-43cd-85e8-24eeaae9e220",
       "name": {
-        "text": "Kill the Wither",
+        "text": "Kill the Lich",
         "isTranslationKey": false
       },
       "description": {
@@ -266,21 +144,24 @@
           "mobs": [
             {
               "name": {
-                "text": "The Wither",
+                "text": "Corrupted Champion",
                 "isTranslationKey": false
               },
               "icon": {
                 "id": "graveyard:leaning_wither_skeleton",
                 "Count": 1
               },
-              "mob": "minecraft:wither",
+              "mob": "graveyard:lich",
               "kills": 1
             }
           ]
         }
       ],
       "prerequisites": [
-        "99404756-55c7-4845-9c52-dc861339110b"
+        "d257e657-01de-494f-a712-df6ba7e9f7b0",
+        "886c6eae-a710-4de6-a1b5-16f4036dbcc4",
+        "7f9e85ce-77f9-42fe-856a-f63032acdda3",
+        "7770b14d-ffdc-4f33-9d35-6972de36ad10"
       ],
       "optionlinks": [],
       "reward": [
@@ -308,67 +189,6 @@
           "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "73bc000a-fd9b-4ad6-9621-039b887800c1",
-      "name": {
-        "text": "Watch",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
-        "isTranslationKey": false
-      },
-      "x": 225,
-      "y": 39,
-      "icon": {
-        "id": "projecte:watch_of_flowing_time",
-        "Count": 1,
-        "tag": "{}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "projecte:red_matter",
-                "Count": 1
-              },
-              "required": 4
-            },
-            {
-              "item": {
-                "id": "compressium:obsidian_3",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:clock",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c5f95336-611c-4805-bb16-030426de4c92"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "projecte:watch_of_flowing_time",
-          "Count": 1,
-          "tag": "{}"
-        },
-        {
-          "id": "projecte:aeternalis_fuel_block",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -584,6 +404,340 @@
           "Count": 1
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "49dc43ad-3818-4343-9501-ea28653be188",
+      "name": {
+        "text": "More Cobblestone",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 280,
+      "y": 39,
+      "icon": {
+        "id": "compressium:cobblestone_8",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "compressium:cobblestone_8",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "202e360e-4d6e-4d38-a4e3-6e3f2d2701bc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:purple_alchemical_bag",
+          "Count": 1
+        },
+        {
+          "id": "bhc:yellow_heart_canister",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        },
+        {
+          "id": "treasurebags:treasure_bag",
+          "Count": 1,
+          "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:bagception\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a6527a44-4d0d-470b-bfd0-8869524a8893",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 179,
+      "y": 164,
+      "icon": {
+        "id": "graveyard:bone_dagger",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "202e360e-4d6e-4d38-a4e3-6e3f2d2701bc",
+      "name": {
+        "text": "Upgrade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 252,
+      "y": 39,
+      "icon": {
+        "id": "projecte:relay_mk3",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "projecte:collector_mk3",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "projecte:relay_mk3",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "73bc000a-fd9b-4ad6-9621-039b887800c1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "compressium:cobblestone_7",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d257e657-01de-494f-a712-df6ba7e9f7b0",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 216,
+      "y": 137,
+      "icon": {
+        "id": "graveyard:vial_of_blood",
+        "Count": 1,
+        "tag": "{Blood:0.8f}"
+      },
+      "prerequisites": [
+        "a6527a44-4d0d-470b-bfd0-8869524a8893"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "99404756-55c7-4845-9c52-dc861339110b",
+      "name": {
+        "text": "Extendo Grip",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 71,
+      "icon": {
+        "id": "create:extendo_grip",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:extendo_grip",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "create:copper_backtank",
+                "Count": 1,
+                "tag": "{Air:860.3989f}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_table",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7770b14d-ffdc-4f33-9d35-6972de36ad10",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 176,
+      "y": 123,
+      "icon": {
+        "id": "graveyard:lower_bone_staff",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "graveyard:lower_bone_staff",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "73bc000a-fd9b-4ad6-9621-039b887800c1",
+      "name": {
+        "text": "Watch",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "isTranslationKey": false
+      },
+      "x": 225,
+      "y": 39,
+      "icon": {
+        "id": "projecte:watch_of_flowing_time",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "projecte:red_matter",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "compressium:obsidian_3",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:clock",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c5f95336-611c-4805-bb16-030426de4c92"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:watch_of_flowing_time",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "projecte:aeternalis_fuel_block",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "886c6eae-a710-4de6-a1b5-16f4036dbcc4",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 174,
+      "y": 72,
+      "icon": {
+        "id": "graveyard:upper_bone_staff",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "graveyard:upper_bone_staff",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     }

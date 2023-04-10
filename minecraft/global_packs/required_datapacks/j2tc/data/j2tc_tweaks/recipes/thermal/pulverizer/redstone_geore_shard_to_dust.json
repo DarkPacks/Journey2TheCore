@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:redstone_shard"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 1
+    }
+  ],
+  "experience": 0.5
+}

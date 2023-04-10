@@ -1,0 +1,98 @@
+
+[dynamic_lighting_settings]
+	#
+	#If enabled, vanilla mobs and items will recieve dynamic lighting. If disabled, only objects specified by external mods or configs will recieve dynamic lighting.
+	#Default: true
+	vanillaDynamicLighting = true
+	#
+	#The maximum amount of times light tries to refresh in a second. Higher values attempt to refresh more often. This number can be decreased if you experience poor performance.
+	#Default: 40
+	#Range: 1 ~ 240
+	lightRefreshRate = 60
+	#
+	#Determines how far away you should be able to see light from an entity (measured in blocks). 0 for infinite distance. Use this to prevent far away entities from causing light updates.
+	#Default: 128
+	#Range: 0 ~ 1024
+	maxVisibleDistance = 96
+	#
+	#Determines if dynamic lighting should still occur when an entity is behind a wall. Turning this on may impact performance, but allows light to be seen around corners from far away. Entities within 24 blocks will always emit light.
+	#Default: false
+	seeThroughWalls = false
+	#
+	#Determines if dynamic lighting smoothly blends as you move. Works best with a high refresh rate. Will result in worse performance since lighting updates typically happen more often.
+	#Default: true
+	smoothBlending = true
+	#
+	#If enabled, chunks with dynamic lighting will always render off thread. Improves FPS, but may cause strange rendering glitches (Does nothing if Optifine is installed).
+	#Default: true
+	threadedRendering = true
+
+	[dynamic_lighting_settings.entity_lighting]
+		#
+		#Sets the light level of entities. Allows for adding modded entities. Set the light to -1 to unregister it.
+		#Example: ["minecraft:blaze=9", "minecraft:creeper=5"]
+		#Default: []
+		entityBrightnessOverrides = ["minecraft:enderman=4", "minecraft:husk=6", "minecraft:stray=6"]
+
+		[dynamic_lighting_settings.entity_lighting.burning_entities]
+			#
+			#Should entities on fire emit light.
+			#Default: true
+			burningEntitiesGlow = true
+			#
+			#How bright a burning entity should be.
+			#Default: 10
+			#Range: 0 ~ 15
+			burningEntityLightLevel = 10
+
+		[dynamic_lighting_settings.entity_lighting.glowing_entities]
+			#
+			#Should entities affected with the glowing effect emit light.
+			#Default: true
+			glowingEntitiesGlow = true
+			#
+			#How bright an entity with the glowing effect be.
+			#Default: 5
+			#Range: 0 ~ 15
+			glowingEntityLightLevel = 5
+
+	[dynamic_lighting_settings.item_lighting]
+		#
+		#Modifies the light level of items. Allows for adding modded items. Set the light to -1 to unregister it.
+		#Example: ["minecraft:torch=14", "minecraft:diamond=10"]
+		#Default: []
+		itemBrightnessOverrides = ["minecraft:raw_gold_block=5", "mob_grinding_utils:solid_xp_block=12", "buddycards:buddycard_nether3=3", "farmersdelight:glow_berry_custard=5", "glowinc:pure_glow_bottle=10", "thermal:glowstone_bucket=15", "tconstruct:glow_ball=14", "thermal:glowstone_mushroom_spores=7", "minecraft:ender_eye=6", "minecraft:experience_bottle=6", "create:experience_nugget=6", "mob_grinding_utils:solid_xp_baby=8", "oreberriesreplanted:essence_berry_bush=8", "oreberriesreplanted:essence_berry=8", "minecraft:egg=2", "geore:coal_block=6", "geore:large_coal_bud=6", "geore:medium_coal_bud=6", "geore:small_coal_bud=6", "geore:coal_cluster=6", "geore:budding_coal=6", "geore:diamond_block=6", "geore:large_diamond_bud=6", "geore:medium_diamond_bud=6", "geore:small_diamond_bud=6", "geore:diamond_cluster=6", "geore:budding_diamond=6", "geore:emerald_block=6", "geore:large_emerald_bud=6", "geore:medium_emerald_bud=6", "geore:small_emerald_bud=6", "geore:emerald_cluster=6", "geore:budding_emerald=6", "geore:gold_block=6", "geore:lapis_block=6", "geore:large_lapis_bud=6", "geore:medium_lapis_bud=6", "geore:small_lapis_bud=6", "geore:lapis_cluster=6", "geore:budding_lapis=6", "geore:lapis_shard=6", "geore:quartz_block=6", "geore:large_quartz_bud=6", "geore:medium_quartz_bud=6", "geore:small_quartz_bud=6", "geore:quartz_cluster=6", "geore:budding_quartz=6", "geore:redstone_block=6", "geore:large_redstone_bud=6", "geore:medium_redstone_bud=6", "geore:small_redstone_bud=6", "geore:redstone_cluster=6", "geore:budding_redstone=6", "tconstruct:earth_slime_crystal_block=6", "tconstruct:budding_earth_slime_crystal=6", "tconstruct:earth_slime_crystal_cluster=6", "tconstruct:small_earth_slime_crystal_bud=6", "tconstruct:medium_earth_slime_crystal_bud=6", "tconstruct:large_earth_slime_crystal_bud=6", "tconstruct:sky_slime_crystal_block=6", "tconstruct:budding_sky_slime_crystal=6", "tconstruct:sky_slime_crystal_cluster=6", "tconstruct:small_sky_slime_crystal_bud=6", "tconstruct:medium_sky_slime_crystal_bud=6", "tconstruct:large_sky_slime_crystal_bud=6", "tconstruct:ichor_slime_crystal_block=6", "tconstruct:budding_ichor_slime_crystal=6", "tconstruct:ichor_slime_crystal_cluster=6", "tconstruct:small_ichor_slime_crystal_bud=6", "tconstruct:medium_ichor_slime_crystal_bud=6", "tconstruct:large_ichor_slime_crystal_bud=6", "tconstruct:ender_slime_crystal_block=6", "tconstruct:budding_ender_slime_crystal=6", "tconstruct:ender_slime_crystal_cluster=6", "tconstruct:small_ender_slime_crystal_bud=6", "tconstruct:medium_ender_slime_crystal_bud=6", "tconstruct:large_ender_slime_crystal_bud=6", "minecraft:amethyst_block=6", "minecraft:budding_amethyst=6", "minecraft:small_amethyst_bud=6", "minecraft:medium_amethyst_bud=6", "minecraft:large_amethyst_bud=6", "minecraft:amethyst_cluster=6", "minecraft:amethyst_shard=6", "apotheosis:rare_material=6", "geore:coal_shard=6", "geore:diamond_shard=6", "geore:emerald_shard=6", "geore:lapis_shard=6", "geore:quartz_shard=6", "geore:redstone_shard=6", "rftoolsbase:dimensionalshard=6", "minecraft:prismarine_shard=6", "minecraft:prismarine_crystals=6", "waystones:waystone=7", "waystones:mossy_waystone=7", "waystones:sandy_waystone=7", "waystones:portstone=7", "waystones:sharestone=7"]
+		#
+		#Should items in the world emit light.
+		#Default: true
+		itemEntitiesGlow = true
+		#
+		#Should held or worn items emit light.
+		#Default: true
+		heldItemsGlow = true
+		#
+		#Should item frames with glowing items emit light.
+		#Default: true
+		itemFramesGlow = true
+
+[block_emission_settings]
+	#
+	#Should block textures emit light brighter than usual.
+	#Default: true
+	blockTexturesGlow = true
+	#
+	#Modifies the light level of block textures. Allows for adding modded blocks. Set the light to -1 to unregister it.
+	#Example: ["minecraft:block/end_portal_frame_eye=12", "minecraft:block/stone=4"]
+	#Default: []
+	blockTextureBrightnessOverrides = ["minecraft:block/raw_gold_block=5", "mob_grinding_utils:block/solid_xp_block=12", "geore:block/coal_block=6", "geore:block/large_coal_bud=6", "geore:block/medium_coal_bud=6", "geore:block/small_coal_bud=6", "geore:block/coal_cluster=6", "geore:block/budding_coal=6", "geore:block/diamond_block=6", "geore:block/large_diamond_bud=6", "geore:block/medium_diamond_bud=6", "geore:block/small_diamond_bud=6", "geore:block/diamond_cluster=6", "geore:block/budding_diamond=6", "geore:block/emerald_block=6", "geore:block/large_emerald_bud=6", "geore:block/medium_emerald_bud=6", "geore:block/small_emerald_bud=6", "geore:block/emerald_cluster=6", "geore:block/budding_emerald=6", "geore:block/gold_block=6", "geore:block/lapis_block=6", "geore:block/large_lapis_bud=6", "geore:block/medium_lapis_bud=6", "geore:block/small_lapis_bud=6", "geore:block/lapis_cluster=6", "geore:block/budding_lapis=6", "geore:block/lapis_shard=6", "geore:block/quartz_block=6", "geore:block/large_quartz_bud=6", "geore:block/medium_quartz_bud=6", "geore:block/small_quartz_bud=6", "geore:block/quartz_cluster=6", "geore:block/budding_quartz=6", "geore:block/redstone_block=6", "geore:block/large_redstone_bud=6", "geore:block/medium_redstone_bud=6", "geore:block/small_redstone_bud=6", "geore:block/redstone_cluster=6", "geore:block/budding_redstone=6", "tconstruct:block/earth_slime_crystal_block=6", "tconstruct:block/budding_earth_slime_crystal=6", "tconstruct:block/earth_slime_crystal_cluster=6", "tconstruct:block/small_earth_slime_crystal_bud=6", "tconstruct:block/medium_earth_slime_crystal_bud=6", "tconstruct:block/large_earth_slime_crystal_bud=6", "tconstruct:block/sky_slime_crystal_block=6", "tconstruct:block/budding_sky_slime_crystal=6", "tconstruct:block/sky_slime_crystal_cluster=6", "tconstruct:block/small_sky_slime_crystal_bud=6", "tconstruct:block/medium_sky_slime_crystal_bud=6", "tconstruct:block/large_sky_slime_crystal_bud=6", "tconstruct:block/ichor_slime_crystal_block=6", "tconstruct:block/budding_ichor_slime_crystal=6", "tconstruct:block/ichor_slime_crystal_cluster=6", "tconstruct:block/small_ichor_slime_crystal_bud=6", "tconstruct:block/medium_ichor_slime_crystal_bud=6", "tconstruct:block/large_ichor_slime_crystal_bud=6", "tconstruct:block/ender_slime_crystal_block=6", "tconstruct:block/budding_ender_slime_crystal=6", "tconstruct:block/ender_slime_crystal_cluster=6", "tconstruct:block/small_ender_slime_crystal_bud=6", "tconstruct:block/medium_ender_slime_crystal_bud=6", "tconstruct:block/large_ender_slime_crystal_bud=6", "minecraft:block/amethyst_block=6", "minecraft:block/budding_amethyst=6", "minecraft:block/small_amethyst_bud=6", "minecraft:block/medium_amethyst_bud=6", "minecraft:block/large_amethyst_bud=6", "minecraft:block/amethyst_cluster=6", "waystones:block/waystone=10", "waystones:block/mossy_waystone=10", "waystones:block/sandy_waystone=10", "waystones:block/portstone=10", "waystones:block/sharestone=10"]
+
+[debug_settings]
+	#
+	#Logs when an object's light value is registered.
+	#Default: false
+	logRegisterObjectLighting = false
+	#
+	#Logs the average time 100 dynamic lighting calculations took, and provides a fastest refresh time for your machine based on these numbers.
+	#Default: false
+	logLightCalculationTime = false
+

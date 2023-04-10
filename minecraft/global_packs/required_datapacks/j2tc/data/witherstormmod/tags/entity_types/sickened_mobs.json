@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "witherstormmod:sickened_zombie",
+    "witherstormmod:sickened_skeleton",
+    "witherstormmod:sickened_spider",
+    "witherstormmod:sickened_creeper"
+  ]
+}

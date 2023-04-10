@@ -1,0 +1,15 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": [
+    {
+      "item": "geore:redstone_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 4
+    }
+  ],
+  "experience": 0.5
+}

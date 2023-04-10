@@ -28,13 +28,13 @@
 [sound_volumes]
 	#Changes the volume of the idle sounds, relative to the volume of the hostile mob category.
 	#Range: 0.0 ~ 1.0
-	IdleNoiseVolume = 1.0
+	IdleNoiseVolume = 0.8
 	#Changes the volume of the death/disappear sounds, relative to the volume of the hostile mob category.
 	#Range: 0.0 ~ 1.0
-	DisappearNoiseVolume = 1.0
+	DisappearNoiseVolume = 0.65
 	#Changes the volume of the jumpscare sounds, relative to the volume of the hostile mob category.
 	#Range: 0.0 ~ 1.0
-	JumpscareVolume = 1.0
+	JumpscareVolume = 0.0
 
 [spawning]
 	#If false, the eyes entity will not spawn naturally during the night.
@@ -74,35 +74,35 @@
 [spawning_normal]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 150
+	SpawnCycleInterval = 600
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 5
+	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 15
+	MaxTotalEyesPerDimension = 10
 
 #Spawn settings in the minutes around midnight
 [spawning_midnight]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 50
+	SpawnCycleInterval = 600
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 5
+	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 15
+	MaxTotalEyesPerDimension = 10
 
 #Spawn settings in the days leading to halloween
 [spawning_halloween]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 50
+	SpawnCycleInterval = 600
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 5
+	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 25
+	MaxTotalEyesPerDimension = 10
 

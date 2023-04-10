@@ -113,7 +113,7 @@
       "icon": {
         "id": "tconstruct:dagger",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":604.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":604.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
       },
       "tasks": [
         {
@@ -123,7 +123,7 @@
               "item": {
                 "id": "tconstruct:dagger",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:durability\":604.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:amethyst_bronze\",\"tconstruct:necrotic_bone\"],tic_modifiers:[{level:1s,name:\"tconstruct:crumbling\"},{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:necrotic\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":3.0712497f,\"tconstruct:attack_speed\":2.3f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":604.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":5.25f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
               }
             }
           ]
@@ -145,7 +145,7 @@
         {
           "id": "tconstruct:dagger",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:durability\":123.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:bloodbone\"],tic_modifiers:[{level:1s,name:\"tconstruct:padded\"},{level:1s,name:\"tconstruct:piercing\"},{level:1s,name:\"tconstruct:raging\"},{level:1s,name:\"tconstruct:offhand_attack\"},{level:1s,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent_data:{abilities:1b,upgrades:3b},tic_stats:{\"tconstruct:attack_damage\":2.5756247f,\"tconstruct:attack_speed\":2.2f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":123.75f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.875f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{\"tconstruct:duel_wielding\":1b}}"
         }
       ],
       "rewardchoice": [

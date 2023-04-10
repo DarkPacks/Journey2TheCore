@@ -1,0 +1,126 @@
+{
+  "name": "Hypocrisy",
+  "quests": [
+    {
+      "uuid": "16ccd47e-1679-4812-a4c1-120b25c4e086",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 271,
+      "y": 74,
+      "icon": {
+        "id": "dimpaintings:end_painting",
+        "Count": 1
+      },
+      "prerequisites": [
+        "64b55c24-8857-434e-b33d-2544ac8e2ef4",
+        "4d18ed18-26c4-4099-82aa-9ba67c687ff1",
+        "b2ca543e-8ebe-417f-9226-afdfa7d5d4a4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dimpaintings:end_painting",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4d18ed18-26c4-4099-82aa-9ba67c687ff1",
+      "name": {
+        "text": "Command Block Sword",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Acquire Sword",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 75,
+      "icon": {
+        "id": "witherstormmod:command_block_sword",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witherstormmod:command_block_sword",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/function j2tc_tweaks:witherstorm_pause"
+      ]
+    },
+    {
+      "uuid": "64b55c24-8857-434e-b33d-2544ac8e2ef4",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 224,
+      "y": 40,
+      "icon": {
+        "id": "witherstormmod:formidibomb",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2ca543e-8ebe-417f-9226-afdfa7d5d4a4",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 223,
+      "y": 108,
+      "icon": {
+        "id": "witherstormmod:command_block_pickaxe",
+        "Count": 1
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "The realm of secrets awaits, where danger lurks around every corner. Can you uncover the truth and emerge victorious, or will you fall prey to the dark forces that lurk within? Enter if you dare!",
+    "isTranslationKey": false
+  }
+}

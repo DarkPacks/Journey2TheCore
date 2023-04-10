@@ -1,0 +1,32 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:zombie",
+      "weight": 48
+    },
+    {
+      "name": "player_mobs:player_mob",
+      "weight": 48
+    },
+    {
+      "name": "minecraft:parrot",
+      "weight": 25
+    },
+    {
+      "name": "minecraft:spider",
+      "weight": 18
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 18
+    },
+    {
+      "name": "minecraft:chicken",
+      "weight": 1
+    },
+    {
+      "name": "minecraft:creeper",
+      "weight": 1
+    }
+  ]
+}

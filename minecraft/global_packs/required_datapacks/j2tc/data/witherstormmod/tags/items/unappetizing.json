@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither_rose",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:ender_pearl",
+    "minecraft:ender_eye",
+    "witherstormmod:withered_flesh",
+    "witherstormmod:withered_bone",
+    "witherstormmod:super_tnt",
+    "witherstormmod:formidibomb",
+    "witherstormmod:golden_apple_stew",
+    "witherstormmod:withered_nether_star"
+  ]
+}

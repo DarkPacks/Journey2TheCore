@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "base": {
+      "tconstruct:durability": 150,
+      "tconstruct:armor": 2,
+      "tconstruct:knockback_resistance": 0.075
+    }
+  },
+  "traits": [{ "name": "tconstruct:revenge", "level": 1 }],
+  "slots": {
+    "upgrades": 3,
+    "defense": 2,
+    "abilities": 1
+  }
+}

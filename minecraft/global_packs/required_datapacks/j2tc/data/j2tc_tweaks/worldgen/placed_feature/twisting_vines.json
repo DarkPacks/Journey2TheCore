@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:twisting_vines",
+  "placement": [
+    {
+      "count": 10,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 5
+        },
+        "max_inclusive": {
+          "absolute": 250
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

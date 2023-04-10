@@ -52,4 +52,6 @@ columnsNetherite = 9
 xPos = 76
 #Range: -1000 ~ 1000
 yPos = 24
+#Should the Quiver be Rendered at the Hip?
+quiverOnHip = true
 

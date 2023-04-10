@@ -1,0 +1,10 @@
+{
+  "type": "kobolds:large_dens",
+  "config": {
+    "start_pool": "kobolds:kobold_den_pirate_pool",
+    "size": 1
+  },
+  "biomes": "#minecraft:is_jungle",
+  "adapt_noise": false,
+  "spawn_overrides": {}
+}

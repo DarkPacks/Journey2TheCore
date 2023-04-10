@@ -253,15 +253,35 @@
                 "type": "variableCheck"
               },
               {
-                "name": "(Color) Get Username Color",
+                "name": "(Global) $viewername",
                 "type": "constant"
               }
             ],
             "outcomes": [
               {
-                "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000, CustomNameVisible:1b,CustomName: '{\"text\":\"$redemption_user_display_name\",\"color\":\"$uColor\"}'}",
-                "executeAsSelf": true,
-                "type": "command"
+                "name": "Spawn Straw Golem",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Summon Tamed Zombie Player",
+            "conditions": [
+              {
+                "variableName": "redemption_reward_title",
+                "variableResult": "[Minecraft] Summon Helpful Zombie Player",
+                "type": "variableCheck"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(Spawn) Zombie Player (Tamed)",
+                "type": "constant"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -598,7 +618,7 @@
             ],
             "outcomes": [
               {
-                "name": "Captcha Math",
+                "name": "Force Captcha",
                 "type": "constant"
               }
             ],
@@ -808,9 +828,8 @@
               {
                 "times": "10",
                 "outcome": {
-                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$user_name\"}'}",
-                  "executeAsSelf": true,
-                  "type": "command"
+                  "name": "Spawn Straw Golem",
+                  "type": "constant"
                 },
                 "type": "repeat"
               }
@@ -1056,6 +1075,7 @@
             "name": "2181 (Summon TNT Slimes & Dirt Creeper)",
             "conditions": [
               {
+                "optionalVariableName": "bits_used",
                 "amount": 2181.0,
                 "type": "amount"
               },
@@ -1066,7 +1086,12 @@
             ],
             "outcomes": [
               {
-                "name": "1812",
+                "name": "Captcha Math",
+                "type": "constant",
+                "displayName": "Captcha"
+              },
+              {
+                "name": "1812 Full Array",
                 "type": "constant"
               },
               {

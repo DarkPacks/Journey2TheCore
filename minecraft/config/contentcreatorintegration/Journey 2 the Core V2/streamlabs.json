@@ -46,7 +46,12 @@
         "donation": [
           {
             "name": "Chat Message",
-            "conditions": [],
+            "conditions": [
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
             "outcomes": [
               {
                 "message": "Hey $streamer, $viewername just tipped $formatted_amount!",
@@ -71,6 +76,26 @@
                 "command": "/raidmeter modify quest add $tipMathed",
                 "executeAsSelf": true,
                 "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.00 Tip",
+            "conditions": [
+              {
+                "amount": 1.0,
+                "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Fake Crash Array",
+                "type": "constant"
               }
             ],
             "allowsOtherEventsToTrigger": true
@@ -202,132 +227,44 @@
             "allowsOtherEventsToTrigger": true
           },
           {
+            "name": "6.65 Tip",
+            "conditions": [
+              {
+                "amount": 6.65,
+                "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Spawn Straw Golem",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
             "name": "6.66 Tip",
             "conditions": [
               {
                 "amount": 6.66,
                 "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
               }
             ],
             "outcomes": [
               {
                 "name": "Spawn Adult Polar Bear (Angry)",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "7.77 Tip",
-            "conditions": [
-              {
-                "amount": 7.77,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "(SwapThings) Random Horizontal Teleport",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "18.12 Tip",
-            "conditions": [
-              {
-                "amount": 18.12,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "1812 Full Array",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "21.81 Tip",
-            "conditions": [
-              {
-                "amount": 21.81,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "1812 Full Array",
-                "type": "constant"
-              },
-              {
-                "name": "Dirt Creeper Summon Array",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "50.00 Tip",
-            "conditions": [
-              {
-                "amount": 50.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Countdown to Super Charged Creeper",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "15.00 Tip",
-            "conditions": [
-              {
-                "amount": 15.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Spawn Pillager Patrol",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "10.00 Tip",
-            "conditions": [
-              {
-                "amount": 10.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "(SwapThings) Inventory Bomb",
-                "type": "constant"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
-            "name": "25.00 Tip",
-            "conditions": [
-              {
-                "amount": 25.0,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "name": "Change Language Event Array",
                 "type": "constant"
               }
             ],
@@ -381,27 +318,6 @@
             "allowsOtherEventsToTrigger": true
           },
           {
-            "name": "6.65 Tip",
-            "conditions": [
-              {
-                "amount": 6.65,
-                "type": "amount"
-              }
-            ],
-            "outcomes": [
-              {
-                "times": "10",
-                "outcome": {
-                  "command": "/summon strawgolem:strawgolem ~ ~ ~ {lifespan: 108000,CustomNameVisible:1b,CustomName: '{\"text\":\"$viewername\"}'}",
-                  "executeAsSelf": true,
-                  "type": "command"
-                },
-                "type": "repeat"
-              }
-            ],
-            "allowsOtherEventsToTrigger": true
-          },
-          {
             "name": "6.69 Tip",
             "conditions": [
               {
@@ -419,6 +335,22 @@
             "singleOutcomeOnly": true
           },
           {
+            "name": "7.77 Tip",
+            "conditions": [
+              {
+                "amount": 7.77,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Random Horizontal Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
             "name": "7.78 Tip",
             "conditions": [
               {
@@ -429,6 +361,106 @@
             "outcomes": [
               {
                 "name": "Random Downward Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "10.00 Tip",
+            "conditions": [
+              {
+                "amount": 10.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Inventory Bomb",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "15.00 Tip",
+            "conditions": [
+              {
+                "amount": 15.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Pillager Patrol",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "18.12 Tip",
+            "conditions": [
+              {
+                "amount": 18.12,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "21.81 Tip",
+            "conditions": [
+              {
+                "amount": 21.81,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              },
+              {
+                "name": "Dirt Creeper Summon Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "25.00 Tip",
+            "conditions": [
+              {
+                "amount": 25.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "50.00 Tip",
+            "conditions": [
+              {
+                "amount": 50.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Super Charged Creeper",
                 "type": "constant"
               }
             ],

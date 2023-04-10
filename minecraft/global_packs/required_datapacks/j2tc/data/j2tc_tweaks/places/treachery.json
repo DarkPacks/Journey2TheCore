@@ -4,7 +4,7 @@
   "title": "Treachery",
   "subtitle": "The Betrayed",
   "minY": 0,
-  "maxY": 256,
+  "maxY": 400,
   "volume": 0.25,
   "dimension": "minecraft:the_end"
 }

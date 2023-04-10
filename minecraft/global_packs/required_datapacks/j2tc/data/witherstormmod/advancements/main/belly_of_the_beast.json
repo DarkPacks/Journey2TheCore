@@ -1,0 +1,31 @@
+{
+  "parent": "witherstormmod:main/silver_lining",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:tainted_sand"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.belly_of_the_beast.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.belly_of_the_beast.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_bowels": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "witherstormmod:bowels"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enter_bowels"
+    ]
+  ]
+}

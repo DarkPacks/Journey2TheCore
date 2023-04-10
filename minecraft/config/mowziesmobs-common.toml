@@ -238,7 +238,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
 			#'!MOUNTAIN' would mean all non-mountain biomes
-			biome_type = ["!OCEAN"]
+			biome_type = []
 			#Allow spawns in these biomes regardless of the biome type settings
 			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
@@ -249,11 +249,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = -1
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 15
+			generation_separation = -1
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_max = 250
@@ -269,7 +269,7 @@
 			health_multiplier = 0.75
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 0.75
+			attack_multiplier = 0.5
 
 	[mobs.grottol]
 
@@ -525,7 +525,7 @@
 		[mobs.foliaath.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 15
+			spawn_rate = 4
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -534,7 +534,7 @@
 			max_group_size = 1
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.5
+			extra_rarity = 0.33
 			#Names of dimensions this mob can spawn in
 			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.

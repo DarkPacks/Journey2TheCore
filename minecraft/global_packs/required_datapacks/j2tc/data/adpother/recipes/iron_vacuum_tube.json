@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["  B", "TN ", "RC "],
+  "pattern": ["  h", "Tb ", "B  "],
   "key": {
-    "N": {
-      "tag": "forge:ingots/iron"
-    },
     "T": {
       "tag": "minecraft:buttons"
     },
     "B": {
-      "tag": "forge:storage_blocks/iron"
+      "item": "cyclic:tile_transporter_empty"
     },
-    "C": {
-      "item": "minecraft:comparator"
+    "b": {
+      "item": "undertherug:broom"
     },
-    "R": {
-      "item": "minecraft:repeater"
+    "h": {
+      "item": "cyclic:hopper"
     }
   },
   "result": {

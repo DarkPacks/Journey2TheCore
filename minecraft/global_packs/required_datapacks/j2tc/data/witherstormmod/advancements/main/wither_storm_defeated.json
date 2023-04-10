@@ -1,0 +1,43 @@
+{
+  "parent": "witherstormmod:main/belly_of_the_beast",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:withered_nether_star"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.wither_storm_defeated.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.wither_storm_defeated.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_withered_nether_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstormmod:withered_nether_star"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_withered_nether_star"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "witherstormmod:super_beacon",
+      "witherstormmod:super_support_beacon"
+    ]
+  }
+}

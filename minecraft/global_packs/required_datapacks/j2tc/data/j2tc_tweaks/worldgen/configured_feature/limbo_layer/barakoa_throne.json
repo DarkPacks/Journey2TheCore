@@ -1,0 +1,12 @@
+{
+  "type": "platypus:structure",
+  "config": {
+    "random_rotation": true,
+    "structures": [
+      "mowziesmobs:barakoa_house",
+      "mowziesmobs:barakoa_house_roof",
+      "mowziesmobs:barakoa_house_side",
+      "mowziesmobs:barako_throne"
+    ]
+  }
+}

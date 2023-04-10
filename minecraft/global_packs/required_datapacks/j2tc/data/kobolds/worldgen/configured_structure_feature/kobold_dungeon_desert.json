@@ -1,0 +1,10 @@
+{
+  "type": "kobolds:desert_structures",
+  "config": {
+    "start_pool": "kobolds:kobold_dungeon_desert_pool",
+    "size": 1
+  },
+  "biomes": "#minecraft:has_structure/desert_pyramid",
+  "adapt_noise": false,
+  "spawn_overrides": {}
+}

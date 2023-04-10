@@ -1,0 +1,8 @@
+{
+	"parent": "adpother:base/filter_frame",
+	"textures": {
+		"0": "block/diamond_block",
+		"2": "block/gray_stained_glass",
+		"particle": "block/diamond_block"
+	}
+}

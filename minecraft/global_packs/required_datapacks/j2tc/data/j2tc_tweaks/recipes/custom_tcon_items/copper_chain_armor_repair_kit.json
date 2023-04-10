@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:specialized_repair_kit",
+  "tool": [
+    { "item": "j2tc_tweaks:copper_chain_boots" },
+    { "item": "j2tc_tweaks:copper_chain_leggings" },
+    { "item": "j2tc_tweaks:copper_chain_chestplate" },
+    { "item": "j2tc_tweaks:copper_chain_helmet" }
+  ],
+  "repair_material": "tconstruct:copper"
+}

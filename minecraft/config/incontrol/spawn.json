@@ -31,6 +31,12 @@
     "result": "allow"
   },
   {
+    "mob": ["candyworld:gummy_mouse", "candyworld:gummy_bear"],
+    "dimension": "minecraft:overworld",
+    "mincount": 12,
+    "result": "deny"
+  },
+  {
     "mob": "minecraft:ghast",
     "dimension": "minecraft:overworld",
     "minlight": 0,
@@ -78,6 +84,7 @@
   },
   {
     "mob": ["minecraft:stray", "minecraft:husk"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 4,
     "damagemultiply": 1.5,
     "speedmultiply": 0.75,
@@ -88,6 +95,9 @@
     "minheight": 133,
     "maxheight": 264,
     "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
     "result": "allow"
   },
   {
@@ -96,6 +106,7 @@
   },
   {
     "mob": ["minecraft:stray", "minecraft:husk"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 4,
     "damagemultiply": 1.5,
     "speedmultiply": 0.75,
@@ -312,6 +323,21 @@
       "core_creepers:stone_lava_creeper",
       "core_creepers:dirt_water_creeper"
     ],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "core_creepers:stone_lava_creeper",
+      "core_creepers:dirt_water_creeper"
+    ],
     "result": "deny"
   },
   {
@@ -354,6 +380,21 @@
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "core_creepers:stone_lava_creeper",
+      "core_creepers:dirt_water_creeper"
+    ],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 8,
     "maxlight": 15,
     "onjoin": true,
@@ -408,6 +449,64 @@
     "result": "allow"
   },
   {
+    "mob": ["goblintraders:goblin_trader", "goblintraders:vein_goblin_trader"],
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["guardvillagers:guard"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "helditem": [
+      {
+        "item": "tconstruct:sword",
+        "nbt": {
+          "tic_materials": [
+            "tconstruct:copper",
+            "tconstruct:copper",
+            "tconstruct:copper"
+          ]
+        }
+      },
+      {
+        "item": "minecraft:crossbow"
+      }
+    ],
+    "armorboots": [
+      "j2tc_tweaks:copper_chain_boots",
+      "j2tc_tweaks:wooden_boots",
+      "tconstruct:travelers_boots"
+    ],
+    "armorhelmet": [
+      "j2tc_tweaks:copper_chain_helmet",
+      "j2tc_tweaks:wooden_helmet",
+      "tconstruct:travelers_helmet"
+    ],
+    "armorlegs": [
+      "j2tc_tweaks:copper_chain_leggings",
+      "j2tc_tweaks:wooden_leggings",
+      "tconstruct:travelers_leggings"
+    ],
+    "armorchest": [
+      "j2tc_tweaks:copper_chain_chestplate",
+      "j2tc_tweaks:wooden_chestplate",
+      "tconstruct:travelers_chestplate"
+    ],
+    "result": "allow"
+  },
+  {
     "mob": ["minecraft:skeleton"],
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
@@ -453,6 +552,19 @@
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "helditem": "minecraft:bow",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:skeleton"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
@@ -508,7 +620,20 @@
     "damagemultiply": 1.2,
     "speedmultiply": 1.0,
     "damageadd": 0,
-    "gamestage": "quest_1",
+    "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "helditem": "minecraft:bow",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:skeleton"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 8,
     "maxlight": 15,
     "onjoin": true,
@@ -556,6 +681,19 @@
   },
   {
     "mob": ["minecraft:wither_skeleton"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "helditem": "tconstruct:necrotic_bone",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:wither_skeleton"],
     "result": "deny"
   },
   {
@@ -591,6 +729,19 @@
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "helditem": "tconstruct:necrotic_bone",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:wither_skeleton"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 8,
     "maxlight": 15,
     "onjoin": true,
@@ -608,6 +759,7 @@
       "core_creepers:dirt_creeper",
       "tntslimes:tnt_slime"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.65,
@@ -628,6 +780,7 @@
       "minecraft:enderman",
       "core_creepers:dirt_creeper"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.65,
@@ -649,6 +802,7 @@
       "graveyard:ghoul",
       "graveyard:revenant"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "speedmultiply": 0.9,
@@ -671,11 +825,48 @@
       "graveyard:revenant",
       "core_creepers:dirt_creeper"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:spider",
+      "minecraft:zombie",
+      "player_mobs:player_mob",
+      "minecraft:zombie_villager",
+      "tconstruct:ender_slime",
+      "minecraft:enderman",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "core_creepers:dirt_creeper"
+    ],
+    "dimension": "minecraft:overworld",
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "dimension": "minecraft:the_nether",
+    "healthmultiply": 3,
+    "damagemultiply": 3,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_6",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
@@ -705,6 +896,7 @@
       "core_creepers:dirt_creeper",
       "tntslimes:tnt_slime"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.65,
@@ -725,6 +917,7 @@
       "core_creepers:dirt_creeper",
       "tntslimes:tnt_slime"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.65,
@@ -748,6 +941,7 @@
       "core_creepers:dirt_creeper",
       "tntslimes:tnt_slime"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "speedmultiply": 0.9,
@@ -771,11 +965,48 @@
       "core_creepers:dirt_creeper",
       "tntslimes:tnt_slime"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:spider",
+      "minecraft:zombie",
+      "player_mobs:player_mob",
+      "minecraft:zombie_villager",
+      "tconstruct:ender_slime",
+      "minecraft:enderman",
+      "graveyard:ghoul",
+      "graveyard:revenant",
+      "core_creepers:dirt_creeper"
+    ],
+    "dimension": "minecraft:overworld",
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["player_mobs:player_mob"],
+    "dimension": "minecraft:the_nether",
+    "healthmultiply": 3,
+    "damagemultiply": 3,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_6",
     "minlight": 8,
     "maxlight": 15,
     "onjoin": true,
@@ -800,6 +1031,18 @@
     "speedmultiply": 0.9,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
@@ -857,6 +1100,18 @@
     "result": "allow"
   },
   {
+    "mob": ["minecraft:creeper", "core_creepers:cluster_creeper"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
     "mob": [
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
@@ -876,11 +1131,11 @@
       "core_creepers:super_charged_creeper",
       "core_creepers:ambush_creeper"
     ],
-    "healthmultiply": 0.8,
-    "damagemultiply": 0.8,
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
     "speedmultiply": 1.0,
     "damageadd": 0,
-    "gamestage": "quest_3",
+    "gamestage": "quest_4",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
@@ -903,6 +1158,21 @@
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "core_creepers:super_charged_creeper",
+      "core_creepers:ambush_creeper"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 8,
     "maxlight": 15,
     "onjoin": true,
@@ -962,9 +1232,9 @@
   },
   {
     "mob": ["minecraft:polar_bear"],
-    "healthmultiply": 0.9,
-    "damagemultiply": 0.9,
-    "speedmultiply": 0.95,
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_4",
     "minlight": 0,
@@ -1186,6 +1456,7 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.65,
@@ -1204,6 +1475,7 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.8,
@@ -1222,6 +1494,7 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "speedmultiply": 0.9,
@@ -1240,11 +1513,31 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "mowziesmobs:barakoa",
+      "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
+      "mowziesmobs:grottol"
+    ],
+    "dimension": "minecraft:overworld",
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
@@ -1269,6 +1562,7 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.65,
@@ -1287,6 +1581,7 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 0.8,
@@ -1305,6 +1600,7 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.0,
     "damagemultiply": 0.8,
     "speedmultiply": 1.0,
@@ -1323,11 +1619,31 @@
       "mowziesmobs:barakoana",
       "mowziesmobs:grottol"
     ],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.2,
     "damagemultiply": 1.2,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "mowziesmobs:barakoa",
+      "mowziesmobs:barakoa_sunblocker",
+      "mowziesmobs:barakoan_barakoana",
+      "mowziesmobs:barakoana",
+      "mowziesmobs:grottol"
+    ],
+    "dimension": "minecraft:overworld",
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
     "minlight": 8,
     "maxlight": 15,
     "onjoin": true,
@@ -1340,6 +1656,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.5,
     "damagemultiply": 0.5,
     "speedmultiply": 0.6,
@@ -1352,6 +1669,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.6,
     "damagemultiply": 0.6,
     "speedmultiply": 0.8,
@@ -1364,6 +1682,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 1.0,
@@ -1376,6 +1695,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
@@ -1388,11 +1708,25 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
-    "mincount": 15,
+    "dimension": "minecraft:overworld",
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:foliaath"],
+    "mincount": 12,
     "result": "deny"
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.5,
     "damagemultiply": 0.5,
     "speedmultiply": 0.8,
@@ -1405,6 +1739,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.6,
     "damagemultiply": 0.6,
     "speedmultiply": 0.8,
@@ -1417,6 +1752,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 0.75,
     "damagemultiply": 0.75,
     "speedmultiply": 1.0,
@@ -1429,6 +1765,7 @@
   },
   {
     "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
     "healthmultiply": 1.0,
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
@@ -1440,74 +1777,337 @@
     "result": "allow"
   },
   {
+    "mob": ["mowziesmobs:foliaath"],
+    "dimension": "minecraft:overworld",
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
     "healthmultiply": 0.4,
-    "damagemultiply": 0.25,
+    "damagemultiply": 0.85,
     "speedmultiply": 0.75,
     "damageadd": 0,
     "gamestage": "quest_0",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
     "result": "allow"
   },
   {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
     "healthmultiply": 0.45,
-    "damagemultiply": 0.3,
+    "damagemultiply": 0.85,
     "speedmultiply": 0.8,
     "damageadd": 0,
     "gamestage": "quest_1",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
     "result": "allow"
   },
   {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
     "healthmultiply": 0.5,
-    "damagemultiply": 0.4,
+    "damagemultiply": 0.9,
     "speedmultiply": 0.85,
     "damageadd": 0,
     "gamestage": "quest_2",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
     "result": "allow"
   },
   {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
-    "healthmultiply": 0.6,
-    "damagemultiply": 0.7,
+    "healthmultiply": 1.2,
+    "damagemultiply": 0.9,
     "speedmultiply": 0.9,
     "damageadd": 0,
     "gamestage": "quest_3",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
     "result": "allow"
   },
   {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
-    "healthmultiply": 0.75,
-    "damagemultiply": 0.8,
+    "healthmultiply": 1.4,
+    "damagemultiply": 0.95,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_4",
     "minlight": 0,
     "maxlight": 7,
     "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
     "result": "allow"
   },
   {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "mincount": 2,
     "result": "deny"
   },
   {
     "mob": ["mowziesmobs:ferrous_wroughtnaut"],
     "healthmultiply": 0.4,
-    "damagemultiply": 0.25,
+    "damagemultiply": 0.85,
     "speedmultiply": 0.75,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.45,
+    "damagemultiply": 0.85,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.9,
+    "speedmultiply": 0.85,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 1.2,
+    "damagemultiply": 0.9,
+    "speedmultiply": 0.9,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 0.95,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 0.8,
+    "damagemultiply": 0.8,
+    "speedmultiply": 0.8,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 0.9,
+    "damagemultiply": 0.9,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 1.1,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "mincount": 2,
+    "result": "deny"
+  },
+  {
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 0.8,
+    "damagemultiply": 0.8,
+    "speedmultiply": 0.8,
     "damageadd": 0,
     "gamestage": "quest_0",
     "minlight": 8,
@@ -1516,10 +2116,24 @@
     "result": "allow"
   },
   {
-    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
-    "healthmultiply": 0.45,
-    "damagemultiply": 0.3,
-    "speedmultiply": 0.8,
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 0.9,
+    "damagemultiply": 0.9,
+    "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_1",
     "minlight": 8,
@@ -1528,10 +2142,24 @@
     "result": "allow"
   },
   {
-    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
-    "healthmultiply": 0.5,
-    "damagemultiply": 0.4,
-    "speedmultiply": 0.85,
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_2",
     "minlight": 8,
@@ -1540,10 +2168,24 @@
     "result": "allow"
   },
   {
-    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
-    "healthmultiply": 0.6,
-    "damagemultiply": 0.7,
-    "speedmultiply": 0.9,
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 1.1,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_3",
     "minlight": 8,
@@ -1552,9 +2194,23 @@
     "result": "allow"
   },
   {
-    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
-    "healthmultiply": 0.75,
-    "damagemultiply": 0.8,
+    "mob": ["mowziesmobs:frostmaw"],
+    "block": [
+      "minecraft:snow_block",
+      "minecraft:snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "biome": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_slopes",
+      "minecraft:snowy_taiga"
+    ],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
     "speedmultiply": 1.0,
     "damageadd": 0,
     "gamestage": "quest_4",
@@ -1562,6 +2218,258 @@
     "maxlight": 15,
     "onjoin": true,
     "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:barako"],
+    "healthmultiply": 0.75,
+    "damagemultiply": 0.75,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:barako"],
+    "healthmultiply": 0.85,
+    "damagemultiply": 0.85,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:barako"],
+    "healthmultiply": 0.95,
+    "damagemultiply": 0.95,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:barako"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:barako"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "potion": "minecraft:glowing,10000,1",
+    "nbt": {
+      "Team": "j2tc_gold_team"
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "healthmultiply": 0.9,
+    "damagemultiply": 0.9,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_0",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_1",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_2",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.4,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_3",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "healthmultiply": 1.6,
+    "damagemultiply": 1.6,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:naga"],
+    "mincount": 2,
+    "result": "deny"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "healthmultiply": 1.1,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_5",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_6",
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "result": "deny"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_4",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "healthmultiply": 1.1,
+    "damagemultiply": 1.1,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_5",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["witherstormmod:withered_symbiont"],
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.2,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "gamestage": "quest_6",
+    "minlight": 8,
+    "maxlight": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:grottol"],
+    "block": [
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:diamond_ore",
+      "turkeydevutil:greed_diamond_ore",
+      "elementaryores:ore_diamond_nether",
+      "geore:diamond_block"
+    ],
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+    "damageadd": 0,
+    "minlight": 0,
+    "maxlight": 7,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": ["mowziesmobs:grottol"],
+    "minlight": 8,
+    "maxlight": 15,
+    "mincount": 6,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "passive": true,
+    "mincount": 25,
+    "result": "deny"
   },
   {
     "mob": [

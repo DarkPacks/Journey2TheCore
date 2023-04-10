@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone_brick_slab"
+    },
+    "title": {
+      "translate": "Killed Withered Symbiont"
+    },
+    "description": {
+      "translate": "Killed Withered Symbiont"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "j2tc_tweaks:progression/root",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["witherstormmod:command_block_book"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["inventory_changed"]],
+  "rewards": {
+    "function": "j2tc_tweaks:witherstorm_awaken"
+  }
+}

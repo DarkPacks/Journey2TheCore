@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "witherstormmod:wither_storm",
+    "witherstormmod:wither_storm_segment",
+    "witherstormmod:sickened_zombie",
+    "witherstormmod:sickened_skeleton",
+    "witherstormmod:sickened_spider",
+    "witherstormmod:sickened_creeper",
+    "witherstormmod:command_block",
+    "witherstormmod:withered_symbiont",
+    "witherstormmod:wither_storm_head",
+    "witherstormmod:tentacle",
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:slime",
+    "minecraft:wither_skeleton",
+    "minecraft:enderman",
+    "minecraft:phantom",
+    "minecraft:armor_stand"
+  ]
+}

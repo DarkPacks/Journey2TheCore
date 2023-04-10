@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "geore:emerald_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:emerald",
+      "count": 4
+    }
+  ],
+  "processingTime": 300
+}

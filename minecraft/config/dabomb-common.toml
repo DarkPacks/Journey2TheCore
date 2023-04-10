@@ -43,6 +43,12 @@
 	#Defines the chance that the Flower bomb will spawn a bee per valid location in the blast radius [Default: 0.01]
 	#Range: 0.0 ~ 1.0
 	flowerBombBeeChance = 0.01
+	#Defines the blast radius of the Cluster bomb [Default: 1.0]
+	#Range: 0.0 ~ 20.0
+	clusterBombRadius = 1.0
+	#Defines the blast radius of the Cluster Bomb's Fragment [Default: 1.0]
+	#Range: 0.0 ~ 20.0
+	bombFragmentRadius = 1.0
 
 #Dynamite settings
 [Dynamite]
@@ -61,4 +67,16 @@
 	#Defines the blast radius of C4 [Default: 4.5]
 	#Range: 0.0 ~ 20.0
 	c4Radius = 4.5
+
+#Bombermen settings
+[Bombermen]
+	#Defines if there should be a chance for a mob to spawn equipped with a bomb [Default: false]
+	enableBomberman = true
+	#Defines which bombs can be given to which mobs and the chance
+	#The format "MOBID,BOMB_TYPE,CHANCE"
+	#Example: "minecraft:zombie,bomb,0.04"
+	#Types of bombs allowed: bomb, bouncy_bomb, sticky_bomb, bomb_fish, dirt_bomb
+	#dry_bomb, water_bomb, lava_bomb, bee_bomb, flower_bomb, ender_bomb
+	#cluster_bomb, dynamite, sticky_dynamite, bouncy_dynamite, c4
+	bomberman = ["minecraft:zombie,c4,0.01", "minecraft:zombie,bomb,0.04", "minecraft:husk,bouncy_bomb,0.04", "minecraft:drowned,bomb_fish,0.04"]
 

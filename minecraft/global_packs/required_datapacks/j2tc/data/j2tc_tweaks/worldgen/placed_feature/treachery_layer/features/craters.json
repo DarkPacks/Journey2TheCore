@@ -1,0 +1,40 @@
+{
+  "feature": "j2tc_tweaks:treachery_layer/features/craters",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 29
+        },
+        "max_inclusive": {
+          "absolute": 36
+        }
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, 2, 0],
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -3, 0],
+        "blocks": "#minecraft:ice"
+      }
+    }
+  ]
+}

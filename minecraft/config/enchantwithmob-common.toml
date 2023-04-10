@@ -22,4 +22,14 @@ disableMobEnchants = []
 #Set The Effective Difficulty Base Enchanted Mob Spawn Percent [(Difficulty Base Percent * Difficulty id) + (Effective Difficulty Percent * Effective Difficulty)]
 #Range: 0.0 ~ 1.0
 "Effective Difficulty Enchanted Spawn Percent" = 0.025
+#Allow the specific mob from alway receiveing enchantments as Ancient Mob on spawn(This feature may break for balance so be careful). Use the full name, eg: minecraft:zombie.
+alwayEnchantableAncientMobs = []
+#Disables the poison cloud for projectile. Use the full name(eg: minecraft:potion.
+disablePoisonCloudProjectiles = ["minecraft:potion", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:egg", "earthmobsmod:smelly_egg"]
+#Disables the multi shot for projectile. Use the full name(eg: minecraft:potion.
+disableMultiShotProjectiles = ["minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:eye_of_ender", "minecraft:egg", "earthmobsmod:smelly_egg", "conjurer_illager:throwing_card", "conjurer_illager:bouncy_ball"]
+#Whitelist the projectile mob enchant for mob. Use the full name(eg: minecraft:zombie.
+whitelistShootEntity = ["minecraft:skeleton", "minecraft:pillager", "minecraft:shulker", "minecraft:llama", "conjurer_illager:conjurer", "earthmobsmod:bone_spider", "earthmobsmod:lobber_zombie", "earthmobsmod:lobber_drowned", "earthmobsmod:melon_golem", "minecraft:piglin", "minecraft:snow_golem", "minecraft:player"]
+#Enable All MobEnchant for all mob. [true / false]
+UniversalEnchant = false
 

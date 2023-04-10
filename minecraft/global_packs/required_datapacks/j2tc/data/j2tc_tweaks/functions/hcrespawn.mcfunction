@@ -47,6 +47,7 @@ curios set belt @p 2
 curios set charm @p 4
 curios set necklace @p 1
 curios set head @p 1
+curios set trinket @p 1
 #reset gamerules
 gamerule doInsomnia false
 gamerule doWeatherCycle false
@@ -60,6 +61,8 @@ inventory_slots clear @p
 
 #Reset Inventory tabs
 playertabs setNumberOfTabs 1
+
+kill @e[type=witherstormmod:wither_storm,limit=1]
 
 give @p tconstruct:dagger{tic_materials: ["tconstruct:flint", "tconstruct:flint"], tic_modifiers: [{level: 2s, name: "tconstruct:jagged"}, {level: 1s, name: "tconstruct:padded"}, {level: 1s, name: "tconstruct:starter_durability_increase"}, {level: 1s, name: "tconstruct:offhand_attack"}, {level: 1s, name: "tconstruct:silky_shears"}], tic_persistent_data: {abilities: 1, upgrades: 3}} 1
 give @p tconstruct:pickaxe{tic_broken: 0b, tic_materials: ["tconstruct:flint", "tconstruct:flint", "tconstruct:flint"], tic_modifiers: [{level: 3s, name: "tconstruct:jagged"}, {level: 1s, name: "tconstruct:piercing"}], tic_multipliers: {}, tic_persistent_data: {abilities: 1, upgrades: 3}} 1

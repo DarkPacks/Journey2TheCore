@@ -4,10 +4,10 @@
   "config": {
     "random_rotation": true,
     "structures": [
-      "desire_structure_1",
-      "desire_structure_2",
-      "desire_structure_3",
-      "desire_structure_4"
+      "minecraft:desire_structure_1",
+      "minecraft:desire_structure_2",
+      "minecraft:desire_structure_3",
+      "minecraft:desire_structure_4"
     ]
   }
 }

@@ -1,28 +1,28 @@
 
 ["Progress Indicator"]
 	#Always use custom progress indicator, chunkDistance == 0 is always overridden
-	alwaysOverrideProgressIndicator = false
+	alwaysOverrideProgressIndicator = true
 	#Delay between frames in milliseconds, ignored when using single progressAnimation frame
 	#Range: > 1
-	animationFrameTime = 333
+	animationFrameTime = 500
 	#Animation frames to use for progress indicator, can use vanilla Formatting Codes
 	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	progressAnimation = ["[#####]", "[§c#§r####]", "[§4#§c#§r###]", "[§c#§4#§c#§r##]", "[#§c#§4#§c#§r#]", "[##§c#§4#§c#§r]", "[###§c#§4#§r]", "[####§c#§r]"]
+	progressAnimation = ["§0C│§6█§0│§r", "§0C│§6█§0│§f\"`-~§r", "§0C│§6█§0│§f\"`-._,-'§r", "§0C│§6▄§0│§f\"`-._,-'\"`-§r", "§0C│§6▄§0│§f\"`-._,-'\"`-._,-'§r", "§0C│§6▄§0│§f\"`-._,-'\"`-._,-'\"`-§r", "§0C│_§0│§f\"`-._,-'\"`-._,-'\"`-._,-'\"§r", "§0C│_§0│§f\"`-._,-'\"`-._,-'\"`-._,-'\"`-._§r", "§0C│_§0│§f\"`-._,-'\"`-._,-'\"`-._,-'\"`-._,-'§r"]
 
 ["World Create/Load Text"]
 	#Use (randomized) text for createWorld.preparing
-	preparingWorldTextOverride = false
+	preparingWorldTextOverride = true
 	#Random text used for createWorld.preparing, can use vanilla Formatting Codes
 	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	preparingWorldText = ["Preparing for your doom...", "Prepare to meet your horrible doom!"]
+	preparingWorldText = ["Abandoning all hope...", "Welcome to Space Mountain!", "Here goes nothing!", "This should be interesting...", "Bring on the heat!", "It's getting hot in here!", "I hope I packed enough sunscreen...", "This is going to be one hell of a ride...", "I guess you could say I'm going down... literally...", "Well, it was nice while it lasted...", "This place has a real fiery reputation...", "I hope they have good coffee down here...", "Enter Ye Damned, May Your Soul Suffer for Eternity...", "The heat is on!", "Here I come, hell!", "Ready for some eternal flames...", "I'm going straight to the devil's lair...", "I guess I'm playing with fire now...", "Time to turn up the heat!", "Let's get this infernal journey started!", "I'm bringing the heat to hell...", "Time to see what all the fuss is about...", "This should be a fiery experience...", "We need to talk...", "We have such sights to show you...", "Would you like to see a magic trick?", "Is there anybody out there?", "They're here.", "Let's talk, you and I. Let's talk about fear.", "Evil thenceforth became my good.", "You'll float down here. We all float down here."]
 	#Use (randomized) text for selectWorld.data_read
-	readDataTextOverride = false
+	readDataTextOverride = true
 	#Random text used for selectWorld.data_read, can use vanilla Formatting Codes
 	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	readDataText = ["Abandoning all hope...", "The knowledge... It fills me! It is neat!"]
+	readDataText = ["Abandoning all hope...", "Welcome to Space Mountain!", "Here goes nothing!", "This should be interesting...", "Bring on the heat!", "It's getting hot in here!", "I hope I packed enough sunscreen...", "This is going to be one hell of a ride...", "I guess you could say I'm going down... literally...", "Well, it was nice while it lasted...", "This place has a real fiery reputation...", "I hope they have good coffee down here...", "Enter Ye Damned, May Your Soul Suffer for Eternity...", "The heat is on!", "Here I come, hell!", "Ready for some eternal flames...", "I'm going straight to the devil's lair...", "I guess I'm playing with fire now...", "Time to turn up the heat!", "Let's get this infernal journey started!", "I'm bringing the heat to hell...", "Time to see what all the fuss is about...", "This should be a fiery experience...", "We need to talk...", "We have such sights to show you...", "Would you like to see a magic trick?", "Is there anybody out there?", "They're here.", "Let's talk, you and I. Let's talk about fear.", "Evil thenceforth became my good.", "You'll float down here. We all float down here."]
 	#Use (randomized) text for connect.joining
-	joiningWorldTextOverride = false
+	joiningWorldTextOverride = true
 	#Random text used for connect.joining, can use vanilla Formatting Codes
 	#https://minecraft.fandom.com/wiki/Formatting_codes#Use_in_server.properties_and_pack.mcmeta
-	joiningWorldText = ["I'm an unstoppable death machine, you know", "Dance with us, Dance with us into oblivion!", "Yayyyy! It BURNS!"]
+	joiningWorldText = ["Abandoning all hope...", "Welcome to Space Mountain!", "Here goes nothing!", "This should be interesting...", "Bring on the heat!", "It's getting hot in here!", "I hope I packed enough sunscreen...", "This is going to be one hell of a ride...", "I guess you could say I'm going down... literally...", "Well, it was nice while it lasted...", "This place has a real fiery reputation...", "I hope they have good coffee down here...", "Enter Ye Damned, May Your Soul Suffer for Eternity...", "The heat is on!", "Here I come, hell!", "Ready for some eternal flames...", "I'm going straight to the devil's lair...", "I guess I'm playing with fire now...", "Time to turn up the heat!", "Let's get this infernal journey started!", "I'm bringing the heat to hell...", "Time to see what all the fuss is about...", "This should be a fiery experience...", "We need to talk...", "We have such sights to show you...", "Would you like to see a magic trick?", "Is there anybody out there?", "They're here.", "Let's talk, you and I. Let's talk about fear.", "Evil thenceforth became my good.", "You'll float down here. We all float down here."]
 

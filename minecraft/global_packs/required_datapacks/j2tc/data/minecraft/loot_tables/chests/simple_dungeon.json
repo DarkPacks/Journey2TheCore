@@ -74,21 +74,6 @@
           ]
         },
         {
-          "name": "minecraft:melon_seeds",
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 8,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
           "name": "minecraft:melon",
           "type": "minecraft:item",
           "weight": 10,
@@ -238,6 +223,24 @@
                 "min": 1,
                 "max": 4,
                 "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "treasurebags:treasure_bag",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{silentlib.LootContainer:{BagType:\"j2tc_tweaks:seed_bag\",LootTable:\"j2tc_tweaks:treasure_bags/seed_bag\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
               }
             }
           ]

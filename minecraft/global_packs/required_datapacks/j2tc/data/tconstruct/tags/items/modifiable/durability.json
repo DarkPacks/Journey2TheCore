@@ -8,6 +8,10 @@
     "j2tc_tweaks:wooden_boots",
     "j2tc_tweaks:wooden_leggings",
     "j2tc_tweaks:wooden_chestplate",
-    "j2tc_tweaks:wooden_helmet"
+    "j2tc_tweaks:wooden_helmet",
+    "j2tc_tweaks:copper_chain_boots",
+    "j2tc_tweaks:copper_chain_leggings",
+    "j2tc_tweaks:copper_chain_chestplate",
+    "j2tc_tweaks:copper_chain_helmet"
   ]
 }

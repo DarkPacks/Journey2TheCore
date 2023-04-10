@@ -2,50 +2,6 @@
   "name": "Limbo",
   "quests": [
     {
-      "uuid": "60f91de4-ed06-42aa-8121-1c5307e7c764",
-      "name": {
-        "text": "Unidentified Gem",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "To identify an Unidentified Gem, you\u0027ll need to use it on a Budding Geode Block. You can then use it on your gear socket slots",
-        "isTranslationKey": false
-      },
-      "x": 23,
-      "y": 35,
-      "icon": {
-        "id": "turkeydevutil:unidentified_gem",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "apotheosis:gem",
-                "Count": 1,
-                "tag": "{modifier:{Amount:0.20000000298023224d,Name:\"GemBonus_apotheosis:draw_speed\",Operation:1,UUID:[I;-844965267,324158588,-1271758319,-661431281],attribute:\"apotheosis:draw_speed\"},purity:0.2857143f,variant:0}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "apotheosis:sigil_of_socketing",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": [
-        "/apoth gem random"
-      ]
-    },
-    {
       "uuid": "0e800749-6a52-44c4-89e3-b53fe9bbeb38",
       "name": {
         "text": "Wither or Not",
@@ -108,6 +64,50 @@
         }
       ],
       "commandrewards": []
+    },
+    {
+      "uuid": "60f91de4-ed06-42aa-8121-1c5307e7c764",
+      "name": {
+        "text": "Unidentified Gem",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "To identify an Unidentified Gem, you\u0027ll need to use it on a Budding Geode Block. You can then use it on your gear socket slots",
+        "isTranslationKey": false
+      },
+      "x": 23,
+      "y": 35,
+      "icon": {
+        "id": "turkeydevutil:unidentified_gem",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "apotheosis:gem",
+                "Count": 1,
+                "tag": "{modifier:{Amount:0.20000000298023224d,Name:\"GemBonus_apotheosis:draw_speed\",Operation:1,UUID:[I;-844965267,324158588,-1271758319,-661431281],attribute:\"apotheosis:draw_speed\"},purity:0.2857143f,variant:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "apotheosis:sigil_of_socketing",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/apoth gem random"
+      ]
     },
     {
       "uuid": "f16c1942-17bc-4410-b8ef-5a40b4ac4386",

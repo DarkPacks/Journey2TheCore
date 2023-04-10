@@ -3,7 +3,7 @@
   "pattern": ["SWW", "NCN", "LLL"],
   "key": {
     "N": {
-      "tag": "forge:ingots/iron"
+      "tag": "minecraft:planks"
     },
     "L": {
       "tag": "forge:leather"

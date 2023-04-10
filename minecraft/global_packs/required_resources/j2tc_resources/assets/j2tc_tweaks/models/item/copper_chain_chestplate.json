@@ -1,0 +1,9 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "j2tc_tweaks:items/copper_chain_chestplate",
+    "broken": "j2tc_tweaks:items/broken_copper_chain_chestplate"
+  },
+  "first_modifiers": ["tconstruct:golden"]
+}

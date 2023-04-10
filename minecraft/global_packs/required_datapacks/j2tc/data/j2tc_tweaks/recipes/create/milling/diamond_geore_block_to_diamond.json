@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "geore:diamond_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond",
+      "count": 4
+    }
+  ],
+  "processingTime": 300
+}

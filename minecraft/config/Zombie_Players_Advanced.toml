@@ -1,0 +1,47 @@
+
+#General mod settings
+[general]
+	#
+	#Range: > -2147483648
+	calmTimePerUse = 72000
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	healPerUse = 7.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	healPerHit = 3.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	healPerKill = 10.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	heal1HealthPerXTicks = 6000.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stayNearHome_range0 = 8.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stayNearHome_range1 = 16.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stayNearHome_range2 = 32.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stayNearHome_range3 = 64.0
+	#
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	calmItemSearchRange = 12.0
+	#
+	#Range: > -2147483648
+	chestSearchRange = 20
+	#They already search more relaxed like if they dont need food, but this will fully lock them out unless they need it
+	onlySeekFoodIfNeeded = false
+	#
+	#Range: > -2147483648
+	tickDelayBetweenPlaying = 72000
+	#
+	canPickupItemsWithMobGriefingOff = true
+	#
+	#Range: > -2147483648
+	maxChestsUsablePerZombiePlayer = 4
+

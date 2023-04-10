@@ -1,0 +1,39 @@
+{
+  "parent": "witherstormmod:main/summon_wither_storm",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:withered_flesh"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.harbinger_of_cataclysmic_fates.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.harbinger_of_cataclysmic_fates.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "summoned_withered_symbiont": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "witherstormmod:withered_symbiont"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_withered_symbiont"
+    ]
+  ]
+}

@@ -115,7 +115,7 @@
 	#Allowed Values: PRESET_FIRST, RANDOM_ONLY, PRESET_ONLY, MIXED
 	nameGenerationMode = "PRESET_FIRST"
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
-	customWaystoneNames = ["blargerist", "Necron", "Funwayguy"]
+	customWaystoneNames = ["blargerist", "Necron", "Funwayguy", "darkosto", "urjnaswX", "ANTRat", "Ashzification", "JackAttack", "Rhoyder", "MrBysco", "ShyNieke", "TexanMD", "Rainforester", "Teraphina", "Scott_DTA", "lynn_phoenix", "Rezcio", "HillistineOfThePines", "Chimera", "LyraFaeren", "Dartorn", "darkphan", "Demlou", "Nightbot", "Drakma", "PapaTutt", "Mousmn", "Shadowwulfe", "Dutchs", "TheHivemindAgent", "TheMoonWolfGirl", "Cyboracle", "whatzgoingon24", "GoryMoon", "DC100", "closeshot", "zonggestsu", "JohnnyWortho", "benjamin_berry", "animegirl", "Venamah", "CyberTaniwha", "KerryedAway", "Leenra", "Putzaroo", "Ashzificoma", "AnAnonymouseGifter", "TTVonTTVonTTV", "Preocts", "Mhykol"]
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
 	spawnInVillages = true
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
@@ -130,4 +130,6 @@
 [compatibility]
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
 	displayWaystonesOnJourneyMap = true
+	#If enabled, JourneyMap waypoints will only be created if the mod 'JourneyMap Integration' is not installed
+	preferJourneyMapIntegration = true
 

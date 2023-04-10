@@ -1,0 +1,27 @@
+{
+  "feature": "j2tc_tweaks:gluttony_layer/slime_vines",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 127
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 270
+        },
+        "max_inclusive": {
+          "absolute": 390
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

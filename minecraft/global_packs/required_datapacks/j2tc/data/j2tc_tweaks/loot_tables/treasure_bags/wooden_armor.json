@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "j2tc_tweaks:wooden_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tic_modifiers:[{level:1s,name:\"tconstruct:cultivated\"},{level:1s,name:\"tconstruct:thorns\"}],tic_persistent_data:{abilities:1,defense:2,upgrades:1},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:durability\":72.0f,\"tconstruct:knockback_resistance\":0.09f}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "quest_0": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

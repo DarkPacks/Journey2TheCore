@@ -1,0 +1,10 @@
+{
+  "name": "TurkeyDev",
+  "conditions": [],
+  "items": {
+    "main_hand": {
+      "item": "chancecubes:chance_cube",
+      "drop_chance": 2
+    }
+  }
+}

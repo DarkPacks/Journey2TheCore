@@ -21,7 +21,7 @@
       "item": "farmersdelight:tomato_crate"
     },
     "E": {
-      "item": "farmersdelight:onion_crate"
+      "tag": "j2tc_tweaks:onion_crates"
     }
   },
   "result": {

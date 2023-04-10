@@ -1,0 +1,29 @@
+{
+  "parent": "witherstormmod:main/fbomb",
+  "display": {
+    "icon": {
+      "item": "witherstormmod:infected_flesh_block"
+    },
+    "title": {
+      "translate": "advancements.witherstormmod.main.strong_grow_weak.title"
+    },
+    "description": {
+      "translate": "advancements.witherstormmod.main.strong_grow_weak.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "play_dead": {
+      "trigger": "witherstormmod:wither_storm_play_dead",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "play_dead"
+    ]
+  ]
+}

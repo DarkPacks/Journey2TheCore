@@ -20,8 +20,8 @@
 	defaultSpoilItem = "minecraft:rotten_flesh"
 	#When enabled Spoiled makes every edible item spoil into the specified Spoil Item (This overwrites json spoiling completely) [default: false]
 	spoilEverything = false
-	#Defines a list of items that you do not want to spoil when 'spoilEverything' is enabled
-	spoilEverythingBlacklist = ["turkeydevutil:cookie"]
 	#When enabled enables a special recipe to merge spoiling food together [default: false]
 	mergeSpoilingFood = true
+	#Defines a list of items that are never allowed to spoil
+	spoilBlacklist = ["minecraft:rotten_flesh", "minecraft:enchanted_golden_apple"]
 

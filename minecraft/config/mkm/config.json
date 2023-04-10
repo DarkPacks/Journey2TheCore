@@ -1,12 +1,44 @@
 {
-  "macro0": "function dev_tools:debug/start",
-  "macro1": "pdt inventory",
-  "macro2": "pdt hotbar",
-  "macro3": "pdt hand",
-  "macro4": "execute in minecraft:the_nether run tp Darkosto ~ ~ ~",
-  "macro5": "function bossbar:bossbar/raidmeter/raidmeter_hide",
-  "macro6": "function dev_tools:debug/gear",
-  "macro7": "gamemode survival",
-  "macro8": "gamemode spectator",
-  "macro9": "gamemode creative"
+  "macro_sets": [
+    {
+      "name": "A Set of Macro\u0027s",
+      "macro0": "function dev_tools:debug/start",
+      "macro1": "pdt inventory",
+      "macro2": "pdt hotbar",
+      "macro3": "pdt hand",
+      "macro4": "execute in minecraft:the_nether run tp Darkosto ~ ~ ~",
+      "macro5": "function bossbar:bossbar/raidmeter/raidmeter_hide",
+      "macro6": "function dev_tools:debug/gear",
+      "macro7": "gamemode survival",
+      "macro8": "gamemode spectator",
+      "macro9": "gamemode creative"
+    },
+    {
+      "name": "A Set of Macro\u0027s",
+      "macro0": "function bossbar:bossbar/quest_completion",
+      "macro1": "raidmeter modify quest add 2500",
+      "macro2": "function bossbar:bossbar/random_teleport/downward_teleport",
+      "macro3": "function bossbar:bossbar/pre_stage/26",
+      "macro4": "summon guardvillagers:guard",
+      "macro5": "summon player_mobs:player_mob",
+      "macro6": "summon minecraft:villager",
+      "macro7": "summon skeleton",
+      "macro8": "execute as @e run data merge entity @s {NoAI:1b}",
+      "macro9": "execute as @e run data merge entity @s {NoAI:0b}"
+    },
+    {
+      "name": "A Set of Macro\u0027s",
+      "macro0": "",
+      "macro1": "give Darkosto graveyard:vial_of_blood{Blood:0.8f}",
+      "macro2": "function dev_tools:debug/structure_build_items",
+      "macro3": "",
+      "macro4": "modpacktools entity witherstormmod:wither_storm minecraft:the_end",
+      "macro5": "data get entity @e[type\u003dwitherstormmod:wither_storm,limit\u003d1]",
+      "macro6": "function j2tc_tweaks:summon_witherstorm",
+      "macro7": "",
+      "macro8": "",
+      "macro9": "execute in minecraft:the_end run tp @s ~ 200 ~"
+    }
+  ],
+  "timed_macros": []
 }

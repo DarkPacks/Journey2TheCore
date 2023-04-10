@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["  B", "TG ", "RC "],
+  "pattern": ["  H", " I ", "B  "],
   "key": {
-    "G": {
-      "tag": "forge:ingots/gold"
-    },
-    "T": {
-      "tag": "minecraft:buttons"
+    "H": {
+      "item": "minecraft:hopper"
     },
     "B": {
-      "tag": "forge:storage_blocks/gold"
+      "item": "cyclic:tile_transporter_empty"
     },
-    "C": {
-      "item": "minecraft:comparator"
-    },
-    "R": {
-      "item": "minecraft:repeater"
+    "I": {
+      "item": "adpother:iron_vacuum_tube"
     }
   },
   "result": {

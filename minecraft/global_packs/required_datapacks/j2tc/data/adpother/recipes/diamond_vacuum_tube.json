@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["  B", "TD ", "RC "],
+  "pattern": ["  H", " I ", "B  "],
   "key": {
-    "D": {
-      "tag": "forge:gems/diamond"
-    },
-    "T": {
-      "tag": "minecraft:buttons"
+    "H": {
+      "item": "cyclic:hopper_gold"
     },
     "B": {
-      "tag": "forge:storage_blocks/diamond"
+      "item": "cyclic:tile_transporter_empty"
     },
-    "C": {
-      "item": "minecraft:comparator"
-    },
-    "R": {
-      "item": "minecraft:repeater"
+    "I": {
+      "item": "adpother:gold_vacuum_tube"
     }
   },
   "result": {

@@ -8,8 +8,8 @@
 	randomTicking = false
 	#Enable Torches setting flammable blocks on fire [Default: true]
 	enableTorch = true
-	#Enable Torches setting flammable blocks on fire [Default: true]
-	enableSoulTorch = true
+	#Enable Soul Torches setting flammable blocks on fire [Default: true]
+	enableSoulTorch = false
 	#The delay between soul torch ticks [Default: 60]
 	#Range: > 1
 	soulTorchTickDelay = 60

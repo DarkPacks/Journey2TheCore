@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "input": {
+    "item": "buddycards:buddycard_mob_test_set22"
+  },
+  "amount_per_item": 1,
+  "needed_per_level": 4,
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:knockback",
+    "level": 1
+  },
+  "max_level": 5
+}

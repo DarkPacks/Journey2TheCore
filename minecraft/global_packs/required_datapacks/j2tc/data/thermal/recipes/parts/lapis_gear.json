@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", "# #", " # "],
+  "key": {
+    "#": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "result": {
+    "item": "thermal:lapis_gear"
+  }
+}

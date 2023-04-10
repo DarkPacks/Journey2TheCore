@@ -1,8 +1,8 @@
 {
   "common": 10,
   "uncommon": 8,
-  "rare": 2,
-  "epic": 1,
+  "rare": 1,
+  "epic": 8,
   "medalEffects": [
     {
       "effect": "minecraft:absorption",

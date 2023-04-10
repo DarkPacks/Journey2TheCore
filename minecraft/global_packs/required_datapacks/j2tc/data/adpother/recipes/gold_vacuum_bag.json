@@ -1,21 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["SWW", "GCG", "LLL"],
+  "pattern": ["GGG", "GBG", "GGG"],
   "key": {
     "G": {
-      "tag": "forge:ingots/gold"
+      "tag": "forge:ingots/iron"
     },
-    "L": {
-      "tag": "forge:leather"
-    },
-    "S": {
-      "tag": "forge:slimeballs"
-    },
-    "W": {
-      "tag": "minecraft:wool"
-    },
-    "C": {
-      "item": "tconstruct:piggy_backpack"
+    "B": {
+      "item": "adpother:iron_vacuum_bag"
     }
   },
   "result": {

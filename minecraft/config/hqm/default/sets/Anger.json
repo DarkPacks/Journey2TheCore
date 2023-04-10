@@ -1,0 +1,29 @@
+{
+  "name": "Anger",
+  "quests": [
+    {
+      "uuid": "b116611b-7224-41bc-afa5-9999c001a97d",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 216,
+      "y": 96,
+      "icon": {
+        "id": "graveyard:bone_dagger",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

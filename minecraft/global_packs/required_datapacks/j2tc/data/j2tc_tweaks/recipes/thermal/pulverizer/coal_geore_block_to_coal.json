@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "geore:coal_block"
+  },
+  "result": [
+    {
+      "item": "minecraft:coal",
+      "chance": 4
+    },
+    {
+      "item": "thermal:sulfur",
+      "chance": 0.15
+    }
+  ],
+  "experience": 0.5
+}

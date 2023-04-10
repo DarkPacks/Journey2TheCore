@@ -51,15 +51,16 @@
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
-      "minecraft:brown_mushroom_nether",
-      "minecraft:red_mushroom_nether",
+      "j2tc_tweaks:brown_mushroom_normal",
+      "j2tc_tweaks:red_mushroom_normal",
       "minecraft:ore_magma",
       "minecraft:spring_closed_double",
       "minecraft:ore_gold_deltas",
       "minecraft:ore_quartz_deltas",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
-    ]
+    ],
+    ["j2tc_tweaks:hypocrisy_layer/dead_entities"]
   ],
   "spawners": {
     "monster": [],

@@ -1,7 +1,7 @@
 
 ["Get New Curios Slot %"]
 	#Range: 0 ~ 100
-	"new slot probability" = 100
+	"new slot probability" = 0
 
 ["Rage Mind Particles"]
 	"Show particles?" = false
@@ -11,8 +11,8 @@
 
 ["Amount of Trinket Slot Obtainable:"]
 	#Range: 0 ~ 99
-	"How many trinket slots?" = 6
+	"How many trinket slots?" = 3
 
 ["Speed Force Particles"]
-	"Show particles?" = true
+	"Show particles?" = false
 

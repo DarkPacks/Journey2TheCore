@@ -1,0 +1,10 @@
+{
+  "type": "youarehere:y_level",
+  "soundLocation": "cyclic:chaos_reaper",
+  "title": "Devoured",
+  "subtitle": "The Maw of Malevolence",
+  "minY": 0,
+  "maxY": 200,
+  "volume": 0.25,
+  "dimension": "witherstormmod:bowels"
+}

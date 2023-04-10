@@ -1,0 +1,79 @@
+{
+  "parent": "j2tc_tweaks:progression/root",
+  "display": {
+    "icon": {
+      "item": "graveyard:purple_bone_staff"
+    },
+    "title": {
+      "translate": "Kill Lich"
+    },
+    "description": {
+      "translate": "Kill Lich"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purple_bone_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["graveyard:purple_bone_staff"]
+          }
+        ]
+      }
+    },
+    "white_bone_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["graveyard:white_bone_staff"]
+          }
+        ]
+      }
+    },
+    "cyan_bone_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["graveyard:cyan_bone_staff"]
+          }
+        ]
+      }
+    },
+    "black_bone_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["graveyard:black_bone_staff"]
+          }
+        ]
+      }
+    },
+    "red_bone_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["graveyard:red_bone_staff"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "purple_bone_staff",
+      "white_bone_staff",
+      "cyan_bone_staff",
+      "black_bone_staff",
+      "red_bone_staff"
+    ]
+  ]
+}

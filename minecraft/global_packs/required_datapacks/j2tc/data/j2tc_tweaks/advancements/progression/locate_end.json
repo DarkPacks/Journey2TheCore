@@ -1,0 +1,29 @@
+{
+  "parent": "j2tc_tweaks:progression/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "Locate End"
+    },
+    "description": {
+      "translate": "Locate End"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "rewards": {
+    "function": "j2tc_tweaks:enter_end"
+  }
+}

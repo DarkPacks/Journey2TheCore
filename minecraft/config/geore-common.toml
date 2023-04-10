@@ -142,7 +142,7 @@
 		redstoneGeoreMaxY = 396
 		#Redstone GeOre Rarity [Default: 240] (The higher the value the rarer)
 		#Range: > 0
-		redstoneGeoreRarity = 10
+		redstoneGeoreRarity = 8
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Redstone GeOre [Default: OVERWORLD]
 		redstoneGeoreDictionaryTypes = ["OVERWORLD"]
 

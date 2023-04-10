@@ -1,0 +1,22 @@
+#Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki/The-Basics
+#or the discord server located at https://discord.gg/FZHXFYp8fc
+#for any specific questions you might have regarding the main config file
+
+[triggers]
+
+	[triggers.menu]
+		fade_in = "40"
+		fade_out = "40"
+
+	[triggers.universal]
+		fade_out = "40"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		fade_in = "40"
+
+[songs]
+
+	[songs.horror_intro]
+		triggers = [ "menu" ]

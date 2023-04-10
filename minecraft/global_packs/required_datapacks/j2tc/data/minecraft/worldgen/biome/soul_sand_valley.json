@@ -34,14 +34,14 @@
     [],
     [],
     [
-      "minecraft:spring_open",
+      "j2tc_tweaks:spring_open",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:patch_crimson_roots",
       "minecraft:ore_magma",
-      "minecraft:spring_closed",
+      "j2tc_tweaks:spring_closed",
       "minecraft:ore_soul_sand",
       "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
@@ -51,7 +51,8 @@
       "minecraft:ore_debris_small"
     ],
     [],
-    ["minecraft:spring_lava"]
+    ["j2tc_tweaks:spring_lava"],
+    ["j2tc_tweaks:hypocrisy_layer/dead_entities"]
   ],
   "spawners": {
     "monster": [],

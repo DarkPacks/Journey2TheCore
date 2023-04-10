@@ -1,12 +1,12 @@
 {
   "weight": 50,
   "quality": 2.5,
-  "stages": ["quest_2", "quest_3", "quest_4", "quest_5"],
+  "stages": ["quest_1", "quest_2", "quest_3", "quest_4", "quest_5"],
   "stack": {
     "item": "minecraft:crossbow"
   },
   "type": "CROSSBOW",
   "min_rarity": "common",
-  "max_rarity": "rare",
+  "max_rarity": "uncommon",
   "dimensions": ["minecraft:overworld"]
 }

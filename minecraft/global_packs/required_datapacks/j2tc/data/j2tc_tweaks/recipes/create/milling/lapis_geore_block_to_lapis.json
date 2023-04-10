@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "geore:lapis_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 4
+    }
+  ],
+  "processingTime": 300
+}

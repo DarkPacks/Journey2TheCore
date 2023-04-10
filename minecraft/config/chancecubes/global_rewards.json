@@ -111,7 +111,7 @@
     "chancecubes:random_status_effect": true,
     "chancecubes:arrow_spray": true,
     "chancecubes:lingering_potions_ring": true,
-    "chancecubes:charged_creeper": true,
+    "chancecubes:charged_creeper": false,
     "chancecubes:disco": true,
     "chancecubes:ender_crystal_timer": true,
     "chancecubes:5_prongs": false,
@@ -280,6 +280,12 @@
     "totem3": true,
     "luggage2": true,
     "apotheosis_gem2": true,
-    "hype_gateway2": true
+    "hype_gateway2": true,
+    "eyes_in_the_darkness": true,
+    "barakoana": true,
+    "captcha_text": true,
+    "captcha_image": true,
+    "captcha_math": true,
+    "captcha_robot": true
   }
 }

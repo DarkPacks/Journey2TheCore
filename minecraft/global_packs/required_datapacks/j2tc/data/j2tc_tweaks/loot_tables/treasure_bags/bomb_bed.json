@@ -13,7 +13,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{RepairCost:0,display:{Name:'{\"text\":\"This Bed is the Bomb.\"}'}}"
+              "tag": "{RepairCost:0,display:{Name:'{\"text\":\"Don\\'t Jump on the Bed!\"}'}}"
             }
           ]
         }

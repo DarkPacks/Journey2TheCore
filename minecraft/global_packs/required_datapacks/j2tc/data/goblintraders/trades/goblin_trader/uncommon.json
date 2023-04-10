@@ -4,6 +4,34 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
+        "item": "minecraft:iron_ingot",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:raw_iron",
+        "count": 1
+      },
+      "price_multiplier": 0.05,
+      "max_trades": 8,
+      "experience": 6
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:raw_copper",
+        "count": 1
+      },
+      "price_multiplier": 0.05,
+      "max_trades": 8,
+      "experience": 2
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
         "item": "thermal:copper_nugget",
         "count": 12
       },
@@ -589,7 +617,7 @@
         "count": 1
       },
       "price_multiplier": 0.2,
-      "max_trades": 5,
+      "max_trades": 2,
       "experience": 40
     }
   ]

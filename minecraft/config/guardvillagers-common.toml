@@ -11,9 +11,9 @@
 
 ["mob ai in general"]
 	#Guards will attack all hostiles with this option
-	"Guards attack all mobs?" = false
+	"Guards attack all mobs?" = true
 	#Guards won't attack mobs in this list if AttackAllMobs is enabled, for example, putting minecraft:creeper in this list will make guards ignore creepers.
-	"Mob BlackList" = []
+	"Mob BlackList" = ["turkeydevutil:duck", "minecraft:cat", "alexsmobs:raccoon"]
 
 ["villager stuff"]
 	"Allow armorers and weaponsmiths repair guard items when down below half durability?" = true
